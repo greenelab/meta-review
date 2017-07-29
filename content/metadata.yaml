@@ -1,9 +1,8 @@
 ---
-title: "Manubot Rootstock: Manuscript Title"
+title: "Meta Review"
 keywords:
-  - work-in-progress
-  - markdown
-  - manuscript
+  - collaborative review
+  - continuous integration
   - publishing
 author_info:
   -
@@ -16,21 +15,20 @@ author_info:
     affiliations: Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: GBMF4552
   -
+    github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: GreeneScientist
+    email: csgreene@upenn.edu
+    affiliations: Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    funders: GBMF4552
+  -
     github: agitter
     name: Anthony Gitter
     initials: AG
     orcid: 0000-0002-5324-9833
+    twitter: anthonygitter
     email: gitter@biostat.wisc.edu
     affiliations: Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research
     funders: NIH U54AI117924
-  -
-    github: vsmalladi
-    name: Venkat S. Malladi
-    initials: VSM
-    orcid: 0000-0002-0144-0564
-    email: vsmalladi@gmail.com
-    affiliations: The Laboratory of Signaling and Gene Expression, Cecil H. and Ida Green Center for Reproductive Biology Sciences, University of Texas Southwestern Medical Center
-  -
-    github: evancofer
-    name: Evan M. Cofer
-    initials: EMC
