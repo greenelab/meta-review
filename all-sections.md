@@ -13,7 +13,7 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@1e08ef9](https://github.com/greenelab/meta-review/tree/1e08ef9619fe5fe5515607ed4c1db6b9cff1cfff)
+from [greenelab/meta-review@af6a370](https://github.com/greenelab/meta-review/tree/af6a370c319525b3c75c0eb466677a2431c33356)
 on July 29, 2017.
 </em></small>
 
@@ -65,6 +65,9 @@ We cite the Deep Review like [@tJKvnIaZ] or [@tJKvnIaZ].
 The source repository is [@1B7Y2HVtw].
 
 
-### Main text {.page_break_before}
+## Main text {.page_break_before}
 
 *Work in progress*
+
+
+## References
