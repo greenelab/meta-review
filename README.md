@@ -1,16 +1,12 @@
-# Continuous manuscripts written collaboratively on GitHub
+# Deep Review Collaborative Workflow and Manubot System
 
-[Manubot Rootstock](https://git.io/vQSvo) provides a system for collaboratively writing scholarly manuscripts via GitHub.
-This project aims to automate publishing.
-For example, citation and referencing are largely automated. 
-This project originated with the [Deep Review](https://github.com/greenelab/deep-review), but was moved here in hopes of making a general purpose template for the system.
-
-A rootstock (or rhizome) is "a plant onto which another variety is grafted".
-This repository plays the role of a botanical trunk.
-Fork it and a manuscript will grow.
+This manuscript presents the benefits of writing collaborative reviews in the open and the Manubot System for automating large portions of the build process.
+The results are derived from the authors' experience with the collaborative [Deep Review](https://github.com/greenelab/deep-review).
 
 The most current version of the `master` branch is built by continuous integration and [available via gh-pages](https://greenelab.github.io/meta-review/).
 To see what's incoming, check the [open pull requests](https://github.com/greenelab/meta-review/pulls).
+
+This manuscript was build with [Manubot Rootstock](https://git.io/vQSvo), which provides a system for collaboratively writing scholarly manuscripts via GitHub.
 
 ## Source
 
