@@ -13,7 +13,7 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@750ac7b](https://github.com/greenelab/meta-review/tree/750ac7b05297e00668af4b0f98941eecb919cfd7)
+from [greenelab/meta-review@42d9f2c](https://github.com/greenelab/meta-review/tree/42d9f2c836670c147ba5175345ae499e4674bff3)
 on July 30, 2017.
 </em></small>
 
