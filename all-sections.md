@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-07-29'
+date-meta: '2017-07-30'
 keywords:
 - collaborative review
 - continuous integration
@@ -13,8 +13,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@af6a370](https://github.com/greenelab/meta-review/tree/af6a370c319525b3c75c0eb466677a2431c33356)
-on July 29, 2017.
+from [greenelab/meta-review@750ac7b](https://github.com/greenelab/meta-review/tree/750ac7b05297e00668af4b0f98941eecb919cfd7)
+on July 30, 2017.
 </em></small>
 
 ## Authors
@@ -69,5 +69,10 @@ The source repository is [@1B7Y2HVtw].
 
 *Work in progress*
 
+
+## Acknowledgements
+
+`TODO: deep review authors for support in testing this process`
+`TODO: manubot-rootstock contributors`
 
 ## References
