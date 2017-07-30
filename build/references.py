@@ -57,10 +57,10 @@ refs = sorted(get_references_from_text(text))
 
 # Warn about non-failing misformatted references
 warn_refs = get_brackets_without_reference(text)
-if warn_refs:
-    print(get_divider('References Warning'))
-    print('Potentially misformatted references detected:')
-    print('\n'.join(warn_refs))
+#if warn_refs:
+#    print(get_divider('References Warning'))
+#    print('Potentially misformatted references detected:')
+#    print('\n'.join(warn_refs))
 
 # Failing references
 bad_refs = list(filter(None, map(validate_reference, refs)))
