@@ -2,6 +2,8 @@
 
 This manuscript presents the benefits of writing collaborative reviews in the open and the Manubot System for automating large portions of the build process.
 The results are derived from the authors' experience with the collaborative [Deep Review](https://github.com/greenelab/deep-review).
+[Feedback](https://github.com/greenelab/meta-review/issues) and minor contributions (e.g. typo corrections) are welcome.
+Major contributions are not being solicited at this time.
 
 The most current version of the `master` branch is built by continuous integration and [available via gh-pages](https://greenelab.github.io/meta-review/).
 To see what's incoming, check the [open pull requests](https://github.com/greenelab/meta-review/pulls).
