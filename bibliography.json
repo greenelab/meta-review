@@ -295,5 +295,297 @@
     ],
     "type": "webpage",
     "id": "1B7Y2HVtw"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          31
+        ]
+      ],
+      "date-time": "2017-07-31T14:22:49Z",
+      "timestamp": 1501510969540
+    },
+    "reference-count": 157,
+    "publisher": "eLife Sciences Organisation, Ltd.",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2016-07-07T00:00:00Z",
+          "timestamp": 1467849600000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2016-07-07T00:00:00Z",
+          "timestamp": 1467849600000
+        },
+        "delay-in-days": 0,
+        "content-version": "am"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              7,
+              7
+            ]
+          ],
+          "date-time": "2016-07-07T00:00:00Z",
+          "timestamp": 1467849600000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000049",
+        "name": "National Institute on Aging",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R24AG048124"
+        ]
+      },
+      {
+        "DOI": "10.13039/100009827",
+        "name": "Laura and John Arnold Foundation",
+        "doi-asserted-by": "crossref",
+        "award": []
+      },
+      {
+        "DOI": "10.13039/100000925",
+        "name": "John Templeton Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "46545"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>Open access, open data, open source and other open scholarship practices are growing in popularity and necessity. However, widespread adoption of these practices has not yet been achieved. One reason is that researchers are uncertain about how sharing their work will affect their careers. We review literature demonstrating that open research is associated with increases in citations, media attention, potential collaborators, job opportunities and funding opportunities. These findings are evidence that open research practices bring significant benefits to researchers relative to more traditional closed practices.</jats:p>",
+    "DOI": "10.7554/elife.16800",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          7
+        ]
+      ],
+      "date-time": "2016-07-07T17:46:41Z",
+      "timestamp": 1467913601000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": "How open science helps researchers succeed",
+    "prefix": "10.7554",
+    "volume": "5",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-9430-5221",
+        "authenticated-orcid": true,
+        "given": "Erin C",
+        "family": "McKiernan",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-7618-7292",
+        "authenticated-orcid": true,
+        "given": "Philip E",
+        "family": "Bourne",
+        "affiliation": []
+      },
+      {
+        "given": "C Titus",
+        "family": "Brown",
+        "affiliation": []
+      },
+      {
+        "given": "Stuart",
+        "family": "Buck",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3030-8001",
+        "authenticated-orcid": true,
+        "given": "Amye",
+        "family": "Kenall",
+        "affiliation": []
+      },
+      {
+        "given": "Jennifer",
+        "family": "Lin",
+        "affiliation": []
+      },
+      {
+        "given": "Damon",
+        "family": "McDougall",
+        "affiliation": []
+      },
+      {
+        "given": "Brian A",
+        "family": "Nosek",
+        "affiliation": []
+      },
+      {
+        "given": "Karthik",
+        "family": "Ram",
+        "affiliation": []
+      },
+      {
+        "given": "Courtney K",
+        "family": "Soderberg",
+        "affiliation": []
+      },
+      {
+        "given": "Jeffrey R",
+        "family": "Spies",
+        "affiliation": []
+      },
+      {
+        "given": "Kaitlin",
+        "family": "Thaney",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew",
+        "family": "Updegrove",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5125-4188",
+        "authenticated-orcid": true,
+        "given": "Kara H",
+        "family": "Woo",
+        "affiliation": []
+      },
+      {
+        "given": "Tal",
+        "family": "Yarkoni",
+        "affiliation": []
+      }
+    ],
+    "member": "4374",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          7
+        ]
+      ]
+    },
+    "container-title": "eLife",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          29
+        ]
+      ],
+      "date-time": "2016-07-29T12:59:29Z",
+      "timestamp": 1469797169000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          7,
+          7
+        ]
+      ]
+    },
+    "references-count": 157,
+    "alternative-id": [
+      "10.7554/eLife.16800"
+    ],
+    "URL": "https://doi.org/10.7554/elife.16800",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Immunology and Microbiology",
+      "General Neuroscience",
+      "General Medicine"
+    ],
+    "id": "HQfvK1OF"
+  },
+  {
+    "URL": "https://github.com/greenelab/deep-review",
+    "title": "greenelab/deep-review",
+    "container-title": "GitHub",
+    "author": [
+      {
+        "family": "greenelab",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-05-18 17:25:21",
+    "type": "webpage",
+    "id": "1Dv0Jpu5J"
+  },
+  {
+    "URL": "https://github.com/greenelab/deep-review/issues/213",
+    "title": " The cornucopia of meaningful leads: Applying deep adversarial autoencoders for new molecule development in oncology · Issue #213 · greenelab/deep-review",
+    "container-title": "GitHub",
+    "author": [
+      {
+        "family": "greenelab",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-31 16:21:14",
+    "type": "webpage",
+    "id": "xqvpFrFj"
+  },
+  {
+    "URL": "https://github.com/greenelab/manubot",
+    "title": "greenelab/manubot",
+    "container-title": "GitHub",
+    "author": [
+      {
+        "family": "dhimmel",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-07-30 21:06:03",
+    "type": "webpage",
+    "id": "cTN2TQIL"
   }
 ]
