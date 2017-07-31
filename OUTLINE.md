@@ -25,4 +25,5 @@
   - Living document, new authors after deep review version 1
   - Other areas of open science and innovative ideas, related GitHub-based projects (JOSS, ReScience, etc.)
   - Would a GitHub-based strategy be a barrier to entry for other groups that don’t already use git?  Technical knowledge required to clone manubot-rootstock, set up continuous integration.
-  - Conflict management, point to open source software strategies
+  - Conflict management, diversity, point to open source software strategies
+  - Using these ideas for primary research (SciHub manuscript)
