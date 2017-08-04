@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-08-01'
+date-meta: '2017-08-04'
 keywords:
 - collaborative review
 - continuous integration
@@ -13,8 +13,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@08dd3a3](https://github.com/greenelab/meta-review/tree/08dd3a3f669f229e32e90e9259806743f5aae044)
-on August  1, 2017.
+from [greenelab/meta-review@f46e5bf](https://github.com/greenelab/meta-review/tree/f46e5bfd74f8c8749b120b7decd9f221588ddaf0)
+on August  4, 2017.
 </em></small>
 
 ## Authors
@@ -86,6 +86,27 @@ We wrote entirely in the open without restrictions on who was welcome to contrib
 Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media and independently decided to contribute.
 `TODO: confirm "most"`
 To coordinate this effort, we developed a manuscript writing process using the Markdown language, the GitHub software development platform [@1Dv0Jpu5J], and our new Manubot tool [@1B7Y2HVtw; @cTN2TQIL] for automating manuscript generation.
+
+
+### Authorship
+
+To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) guidelines and used GitHub to track contributions.
+ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript [@jFIYgRfv].
+We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript.
+`TODO: In Discussion, mention the challenge of determining contributions of potential authors who worked with someone else on the text but did not make their own commits`
+Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list.
+In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript.
+This convention can be difficult to reconcile in a collaborative effort.
+Using git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests.
+However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.
+
+To address this issue, we generalized the concept of "co-first" authorship, in which two or more authors are denoted as making equal contributions to a paper.
+We defined four types of contributions [@tJKvnIaZ], from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories.
+A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering.
+The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner.
+Given the same author contributions, it always produced the same ordered author list.
+We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category.
+`TODO: In Discussion, present alternative author ordering strategies and literature on contribution in collaborative projects`
 
 
 ## Acknowledgements
