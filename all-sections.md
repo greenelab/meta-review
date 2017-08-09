@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-08-04'
+date-meta: '2017-08-09'
 keywords:
 - collaborative review
 - continuous integration
@@ -13,8 +13,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@f46e5bf](https://github.com/greenelab/meta-review/tree/f46e5bfd74f8c8749b120b7decd9f221588ddaf0)
-on August  4, 2017.
+from [greenelab/meta-review@0eaedec](https://github.com/greenelab/meta-review/tree/0eaedec8e427a0f8a68c9c89d1ec0f681c663eeb)
+on August  9, 2017.
 </em></small>
 
 ## Authors
@@ -87,6 +87,35 @@ Although we requested that some authors participate for their specific expertise
 `TODO: confirm "most"`
 To coordinate this effort, we developed a manuscript writing process using the Markdown language, the GitHub software development platform [@1Dv0Jpu5J], and our new Manubot tool [@1B7Y2HVtw; @cTN2TQIL] for automating manuscript generation.
 
+
+### Collaborative writing and reviewing
+
+There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for more technical writing [@AylLD9F8; @qtk0dPt8; @S3mA7bTr].
+These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
+Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.
+
+We adopted standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
+The GitHub platform provided support for organizing and editing the manuscript.
+We used GitHub _issues_ for organization, opening a new issue for each paper under consideration.
+Within the issue, contributors summarized the research, discussed it (sometimes with the original authors), and assessed its relevance to the review.
+Issues also served as an open to-do list and a forum for debating the main message, themes, and topics of the review.
+
+GitHub and the underlying git version control system [@PlcxShQU] also structured the writing process.
+The official version of the manuscript is _forked_ by individual contributors.
+A contributor then adds and revises files, grouping these changes into _commits_.
+When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
+GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in [@opQBBK06].
+Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content.
+Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers.
+Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
+`TODO: need a figure with a flowchart showing this process`
+The entire process can be orchestrated through GitHub with a web browser if a contributor does not want to use a git client on their own computer.
+
+We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limits the authors or the sections they can edit.
+In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
+The GitHub contributors page summarizes all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
+Because our writing process, like others backed by the open git version control system [@qtk0dPt8; @S3mA7bTr], tracks the complete commit history, it also enables detailed retrospective contribution analysis.
+`TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse`
 
 ### Authorship
 

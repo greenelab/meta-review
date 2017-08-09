@@ -1,5 +1,8 @@
 text	citation	standard_citation	citation_id
+@doi:10.1038/514127a	doi:10.1038/514127a	doi:10.1038/514127a	AylLD9F8
 @doi:10.1101/142760	doi:10.1101/142760	doi:10.1101/142760	tJKvnIaZ
+@doi:10.1371/journal.pcbi.1004668	doi:10.1371/journal.pcbi.1004668	doi:10.1371/journal.pcbi.1004668	PlcxShQU
+@doi:10.1371/journal.pmed.1000023	doi:10.1371/journal.pmed.1000023	doi:10.1371/journal.pmed.1000023	RK9sIADd
 @doi:10.7554/eLife.16800	doi:10.7554/eLife.16800	doi:10.7554/elife.16800	HQfvK1OF
 @tag:deep_review	doi:10.1101/142760	doi:10.1101/142760	tJKvnIaZ
 @url:http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html	url:http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html	url:http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html	jFIYgRfv
@@ -7,3 +10,6 @@ text	citation	standard_citation	citation_id
 @url:https://github.com/greenelab/deep-review/issues/213	url:https://github.com/greenelab/deep-review/issues/213	url:https://github.com/greenelab/deep-review/issues/213	xqvpFrFj
 @url:https://github.com/greenelab/manubot	url:https://github.com/greenelab/manubot	url:https://github.com/greenelab/manubot	cTN2TQIL
 @url:https://github.com/greenelab/manubot-rootstock	url:https://github.com/greenelab/manubot-rootstock	url:https://github.com/greenelab/manubot-rootstock	1B7Y2HVtw
+@url:https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2	url:https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2	url:https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2	opQBBK06
+@url:https://www.authorea.com/	url:https://www.authorea.com/	url:https://www.authorea.com/	S3mA7bTr
+@url:https://www.overleaf.com/	url:https://www.overleaf.com/	url:https://www.overleaf.com/	qtk0dPt8
