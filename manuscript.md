@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-08-09'
+date-meta: '2017-08-14'
 keywords:
 - collaborative review
 - continuous integration
@@ -13,8 +13,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@0eaedec](https://github.com/greenelab/meta-review/tree/0eaedec8e427a0f8a68c9c89d1ec0f681c663eeb)
-on August  9, 2017.
+from [greenelab/meta-review@5604737](https://github.com/greenelab/meta-review/tree/560473777f8a7bf396de326ae79a7e88e38f6005)
+on August 14, 2017.
 </em></small>
 
 ## Authors
@@ -74,7 +74,7 @@ Open research – which includes sharing code, data, and manuscripts – benefit
 Here we describe the benefits of writing review articles openly, where the planning, organizing, writing, and editing occur collaboratively in a public forum where participants are free to join as they wish.
 Reviews presenting the state of the art in a scientific field are often prepared by a single research group or a small team of colleagues.
 In contrast, broadly opening the writing process to anyone engaged in the topic can help maximize the review's value by facilitating the representation of diverse opinions and the broad coverage of relevant research.
-Review authors can engage with the authors of original research to clarify their methods and results and present them accurately (for example, [@xqvpFrFj]).
+Review authors can engage with the authors of original research to clarify their methods and results and present them accurately (for example, @xqvpFrFj).
 `TODO: need archival issue link`
 In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review `TODO: define this or provide a reference?`, incentivizing the reviews with potential manuscript authorship.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
