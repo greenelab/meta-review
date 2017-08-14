@@ -10,9 +10,6 @@ To see what's incoming, check the [open pull requests](https://github.com/greene
 
 This manuscript was build with [Manubot Rootstock](https://git.io/vQSvo), which provides a system for collaboratively writing scholarly manuscripts via GitHub.
 
-Instructions for using Manubot Rootstock for your own manuscript are still evolving.
-The recommended approach is to clone this repository, as detailed [here](https://github.com/greenelab/manubot-rootstock/issues/6#issuecomment-314541837).
-
 ## Repository directories & files
 
 See [`USAGE.md`](USAGE.md) for documentation on how to create or contribute to a manuscript.
