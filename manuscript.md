@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-08-14'
+date-meta: '2017-08-28'
 keywords:
 - collaborative review
 - continuous integration
@@ -13,8 +13,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@5604737](https://github.com/greenelab/meta-review/tree/560473777f8a7bf396de326ae79a7e88e38f6005)
-on August 14, 2017.
+from [greenelab/meta-review@2d6dd2a](https://github.com/greenelab/meta-review/tree/2d6dd2a7add936274092d6a99cf9f8efdf644878)
+on August 28, 2017.
 </em></small>
 
 ## Authors
@@ -79,7 +79,7 @@ Review authors can engage with the authors of original research to clarify their
 In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review `TODO: define this or provide a reference?`, incentivizing the reviews with potential manuscript authorship.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
-We present potential solutions to these challenges based on our recent experience leading a collaborative review "Opportunities And Obstacles For Deep Learning In Biology And Medicine" [@tJKvnIaZ].
+We present solutions to these challenges based on our recent experience leading a collaborative review "Opportunities And Obstacles For Deep Learning In Biology And Medicine" [@tJKvnIaZ].
 Our review attracted 27 authors from 20 different institutions who were not determined in advance.
 `TODO: confirm institution count`
 We wrote entirely in the open without restrictions on who was welcome to contribute.
@@ -100,7 +100,7 @@ We used GitHub _issues_ for organization, opening a new issue for each paper und
 Within the issue, contributors summarized the research, discussed it (sometimes with the original authors), and assessed its relevance to the review.
 Issues also served as an open to-do list and a forum for debating the main message, themes, and topics of the review.
 
-GitHub and the underlying git version control system [@PlcxShQU] also structured the writing process.
+GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also structured the writing process.
 The official version of the manuscript is _forked_ by individual contributors.
 A contributor then adds and revises files, grouping these changes into _commits_.
 When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
@@ -136,6 +136,35 @@ The randomization procedure was shared with the authors in advance (pre-register
 Given the same author contributions, it always produced the same ordered author list.
 We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category.
 `TODO: In Discussion, present alternative author ordering strategies and literature on contribution in collaborative projects`
+
+### Discussion
+
+Many others have embraced open science principles and piloted open approaches toward drug discovery [@11rVTcUCK; @HnZE3JiU], data management [@1A97a4UwU; @6DjakjNS; @otY3SefD], and manuscript review [@nhLnUPJo].
+`TODO: need help deciding what related topics to include here and which references to use, these are arbitrary examples`
+`TODO: more ideas in doi:10.7287/peerj.preprints.2711v2`
+Several of these open science efforts are GitHub-based like our collaborative writing process.
+The Journal of Open Source Software [@oGNtTmrp] and ReScience [@pKdkaWKn] journals rely on GitHub for peer review and hosting.
+`TODO: describe Manubot related work here?` [@17wKkS4DV; @c8td0dsz]
+
+There are potential limitations of our GitHub-based approach.
+Because our review manuscript pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub.
+In other disciplines, collaborative writing via GitHub and Manubot could present a steeper barrier to entry and deter participants.
+In addition, git carefully tracks all revisions to the manuscript text but not the surrounding conversations that take place through GitHub issues and pull requests.
+These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript's text.
+GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.
+
+`TODO: cgreene paragraph on diversity, open science culture, possibly author disagreements and conduct`
+
+Open writing presents new opportunities for scholarly communication.
+`TODO: reference "paper of the future"? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future`
+Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
+After releasing the first version of our collaborative review [@tJKvnIaZ], six new authors have contributed text and existing authors continue to discuss new literature, creating a living document [@1Dv0Jpu5J].
+`TODO: update new author count before submitting`
+The Manubot system can also facilitate open research [@11cb5HXoY] in addition to review articles.
+`TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/`
+
+Our process represents an early step toward open massively collaborative reviews, and there are certainly aspects that can be improved.
+We invite the scientific community to adapt and build upon our experience and open software.
 
 
 ## Acknowledgements
