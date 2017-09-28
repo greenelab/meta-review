@@ -26,15 +26,16 @@ mkdir -p output
 # http://pandoc.org/MANUAL.html
 echo "Exporting HTML manuscript"
 pandoc --verbose \
-  --smart \
   --from=markdown \
-  --to=html \
+  --to=html5 \
   --filter pandoc-fignos \
   --filter pandoc-eqnos \
   --filter pandoc-tablenos \
   --bibliography=$BIBLIOGRAPHY_PATH \
   --csl=$CSL_PATH \
   --metadata link-citations=true \
+  --smart \
+  --mathjax \
   --css=github-pandoc.css \
   --include-in-header=build/assets/analytics.js \
   --include-after-body=build/assets/anchors.js \
@@ -59,16 +60,18 @@ then
     echo "Exporting Word Docx manuscript"
     ln --symbolic content/images images
     pandoc --verbose \
-    --smart \
     --from=markdown \
     --to=docx \
     --filter pandoc-fignos \
     --filter pandoc-tablenos \
     --bibliography=$BIBLIOGRAPHY_PATH \
-    --metadata link-citations=true \
     --csl=$CSL_PATH \
+    --metadata link-citations=true \
     --reference-docx=$DOCX_PATH \
+    --smart \
     --output=output/manuscript.docx \
     $INPUT_PATH
     rm --recursive images
 fi
+
+echo "Build complete"
