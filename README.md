@@ -19,13 +19,15 @@ The results are derived from the authors' experience with the collaborative [Dee
 [Feedback](https://github.com/greenelab/meta-review/issues) and minor contributions (e.g. typo corrections) are welcome.
 Major contributions are not being solicited at this time.
 
+To see what's incoming, check the [open pull requests](https://github.com/greenelab/meta-review/pulls).
+
 ## Manubot
 
 <!-- usage note: do not edit this section -->
 
 Manubot is a system for writing scholarly manuscripts via GitHub.
 Manubot automates citations and references, versions manuscripts using git, and enables collaborative writing via GitHub.
-The [Manubot Rootstock repository](https://git.io/vQSvo) is a general purpose template for creating new Manubot instances, as detailed in [`SETUP.md`](SETUP.md).
+The [Manubot Rootstock repository](https://git.io/vQSvo) is a general purpose template for creating new Manubot instances.
 See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
 ### Repository directories & files
