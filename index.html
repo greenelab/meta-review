@@ -1,131 +1,179 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="Content-Style-Type" content="text/css" />
-  <meta name="generator" content="pandoc" />
-  <meta name="author" content="Daniel S. Himmelstein" />
-  <meta name="author" content="Casey S. Greene" />
-  <meta name="author" content="Anthony Gitter" />
-  <meta name="date" content="2017-08-28" />
-  <meta name="keywords" content="collaborative review, continuous integration, publishing" />
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Daniel S. Himmelstein">
+  <meta name="author" content="Casey S. Greene">
+  <meta name="author" content="Anthony Gitter">
+  <meta name="dcterms.date" content="2017-09-30">
+  <meta name="keywords" content="collaborative review, continuous integration, publishing">
   <title>Meta Review</title>
   <style type="text/css">code{white-space: pre;}</style>
-  <link rel="stylesheet" href="github-pandoc.css" type="text/css" />
+  <link rel="stylesheet" href="github-pandoc.css">
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
   <!-- Insert Analytics Script Below -->
   <script>
   </script>
   <!-- End Analytics Script -->
 </head>
 <body>
-<div id="header">
+<header>
 <h1 class="title">Meta Review</h1>
-</div>
-<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/2d6dd2a7add936274092d6a99cf9f8efdf644878">greenelab/meta-review@2d6dd2a</a> on August 28, 2017. </em></small></p>
+</header>
+<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/9fc917b31661f87b80bc015b877c302d7cb0f4be">greenelab/meta-review@9fc917b</a> on September 30, 2017. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
 <li><p><strong>Casey S. Greene</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0001-8713-9213">0000-0001-8713-9213</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/cgreene">cgreene</a> · <img src="images/twitter.svg" alt="Twitter icon" height="13" /> <a href="https://twitter.com/GreeneScientist">GreeneScientist</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
 <li><p><strong>Anthony Gitter</strong><br> <img src="images/orcid.svg" alt="ORCID icon" height="13" /> <a href="https://orcid.org/0000-0002-5324-9833">0000-0002-5324-9833</a> · <img src="images/github.svg" alt="GitHub icon" height="13" /> <a href="https://github.com/agitter">agitter</a> · <img src="images/twitter.svg" alt="Twitter icon" height="13" /> <a href="https://twitter.com/anthonygitter">anthonygitter</a><br> <small> Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research · Funded by NIH U54AI117924 </small></p></li>
 </ul>
-<h2 id="abstract">Abstract</h2>
-<p>Offspring of the <a href="https://github.com/greenelab/deep-review">Deep Review</a>. We cite the Deep Review like <span class="citation">[<a href="#ref-tJKvnIaZ">1</a>]</span> or <span class="citation">[<a href="#ref-tJKvnIaZ">1</a>]</span>. The source repository is <span class="citation">[<a href="#ref-1B7Y2HVtw">2</a>]</span>.</p>
+<h2 id="abstract" class="page_break_before">Abstract</h2>
 <h2 id="main-text" class="page_break_before">Main text</h2>
 <h3 id="introduction">Introduction</h3>
-<p>Open research – which includes sharing code, data, and manuscripts – benefits the researchers who engage in open practices <span class="citation">[<a href="#ref-HQfvK1OF">3</a>]</span>, their scientific peers, and the public. <code>TODO: more references needed</code> Here we describe the benefits of writing review articles openly, where the planning, organizing, writing, and editing occur collaboratively in a public forum where participants are free to join as they wish. Reviews presenting the state of the art in a scientific field are often prepared by a single research group or a small team of colleagues. In contrast, broadly opening the writing process to anyone engaged in the topic can help maximize the review’s value by facilitating the representation of diverse opinions and the broad coverage of relevant research. Review authors can engage with the authors of original research to clarify their methods and results and present them accurately (for example, <span class="citation">[<a href="#ref-xqvpFrFj">4</a>]</span>). <code>TODO: need archival issue link</code> In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review <code>TODO: define this or provide a reference?</code>, incentivizing the reviews with potential manuscript authorship. However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.</p>
-<p>We present solutions to these challenges based on our recent experience leading a collaborative review “Opportunities And Obstacles For Deep Learning In Biology And Medicine” <span class="citation">[<a href="#ref-tJKvnIaZ">1</a>]</span>. Our review attracted 27 authors from 20 different institutions who were not determined in advance. <code>TODO: confirm institution count</code> We wrote entirely in the open without restrictions on who was welcome to contribute. Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media and independently decided to contribute. <code>TODO: confirm &quot;most&quot;</code> To coordinate this effort, we developed a manuscript writing process using the Markdown language, the GitHub software development platform <span class="citation">[<a href="#ref-1Dv0Jpu5J">5</a>]</span>, and our new Manubot tool <span class="citation">[<a href="#ref-1B7Y2HVtw">2</a>,<a href="#ref-cTN2TQIL">6</a>]</span> for automating manuscript generation.</p>
+<p>Open research – which includes sharing code, data, and manuscripts – benefits the researchers who engage in open practices <span class="citation" data-cites="HQfvK1OF">[<a href="#ref-HQfvK1OF">1</a>]</span>, their scientific peers, and the public. <code>TODO: more references needed</code> Here we describe the benefits of writing review articles openly, where the planning, organizing, writing, and editing occur collaboratively in a public forum where participants are free to join as they wish. Reviews presenting the state of the art in a scientific field are often prepared by a single research group or a small team of colleagues. In contrast, broadly opening the writing process to anyone engaged in the topic can help maximize the review’s value by facilitating the representation of diverse opinions and the broad coverage of relevant research. Review authors can engage with the authors of original research to clarify their methods and results and present them accurately (for example, <span class="citation" data-cites="xqvpFrFj">[<a href="#ref-xqvpFrFj">2</a>]</span>). <code>TODO: need archival issue link</code> In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review <code>TODO: define this or provide a reference?</code>, incentivizing the reviews with potential manuscript authorship. However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.</p>
+<p>We present solutions to these challenges based on our recent experience leading a collaborative review “Opportunities And Obstacles For Deep Learning In Biology And Medicine” <span class="citation" data-cites="tJKvnIaZ">[<a href="#ref-tJKvnIaZ">3</a>]</span>. Our review attracted 27 authors from 20 different institutions who were not determined in advance. <code>TODO: confirm institution count</code> We wrote entirely in the open without restrictions on who was welcome to contribute. Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media and independently decided to contribute. <code>TODO: confirm &quot;most&quot;</code> To coordinate this effort, we developed a manuscript writing process using the Markdown language, the GitHub software development platform <span class="citation" data-cites="1Dv0Jpu5J">[<a href="#ref-1Dv0Jpu5J">4</a>]</span>, and our new Manubot tool <span class="citation" data-cites="1B7Y2HVtw cTN2TQIL">[<a href="#ref-1B7Y2HVtw">5</a>,<a href="#ref-cTN2TQIL">6</a>]</span> for automating manuscript generation.</p>
 <h3 id="collaborative-writing-and-reviewing">Collaborative writing and reviewing</h3>
-<p>There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for more technical writing <span class="citation">[<a href="#ref-AylLD9F8">7</a>–<a href="#ref-S3mA7bTr">9</a>]</span>. These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing. Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.</p>
+<p>There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for more technical writing <span class="citation" data-cites="AylLD9F8 qtk0dPt8 S3mA7bTr">[<a href="#ref-AylLD9F8">7</a>–<a href="#ref-S3mA7bTr">9</a>]</span>. These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing. Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.</p>
 <p>We adopted standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes. The GitHub platform provided support for organizing and editing the manuscript. We used GitHub <em>issues</em> for organization, opening a new issue for each paper under consideration. Within the issue, contributors summarized the research, discussed it (sometimes with the original authors), and assessed its relevance to the review. Issues also served as an open to-do list and a forum for debating the main message, themes, and topics of the review.</p>
-<p>GitHub and the underlying git version control system <span class="citation">[<a href="#ref-PlcxShQU">10</a>,<a href="#ref-kEX5dgzK">11</a>]</span> also structured the writing process. The official version of the manuscript is <em>forked</em> by individual contributors. A contributor then adds and revises files, grouping these changes into <em>commits</em>. When the changes are ready to be reviewed, the series of commits are submitted as a <em>pull request</em> through GitHub, which notifies other authors of the pending changes. GitHub’s review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in <span class="citation">[<a href="#ref-opQBBK06">12</a>]</span>. Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content. Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers. Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version. <code>TODO: need a figure with a flowchart showing this process</code> The entire process can be orchestrated through GitHub with a web browser if a contributor does not want to use a git client on their own computer.</p>
-<p>We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limits the authors or the sections they can edit. In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting <span class="citation">[<a href="#ref-RK9sIADd">13</a>]</span>. The GitHub contributors page summarizes all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms. Because our writing process, like others backed by the open git version control system <span class="citation">[<a href="#ref-qtk0dPt8">8</a>,<a href="#ref-S3mA7bTr">9</a>]</span>, tracks the complete commit history, it also enables detailed retrospective contribution analysis. <code>TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse</code></p>
+<p>GitHub and the underlying git version control system <span class="citation" data-cites="PlcxShQU kEX5dgzK">[<a href="#ref-PlcxShQU">10</a>,<a href="#ref-kEX5dgzK">11</a>]</span> also structured the writing process. The official version of the manuscript is <em>forked</em> by individual contributors. A contributor then adds and revises files, grouping these changes into <em>commits</em>. When the changes are ready to be reviewed, the series of commits are submitted as a <em>pull request</em> through GitHub, which notifies other authors of the pending changes. GitHub’s review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in <span class="citation" data-cites="opQBBK06">[<a href="#ref-opQBBK06">12</a>]</span>. Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content. Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers. Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version. <code>TODO: need a figure with a flowchart showing this process</code> The entire process can be orchestrated through GitHub with a web browser if a contributor does not want to use a git client on their own computer.</p>
+<p>We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limits the authors or the sections they can edit. In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting <span class="citation" data-cites="RK9sIADd">[<a href="#ref-RK9sIADd">13</a>]</span>. The GitHub contributors page summarizes all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms. Because our writing process, like others backed by the open git version control system <span class="citation" data-cites="qtk0dPt8 S3mA7bTr">[<a href="#ref-qtk0dPt8">8</a>,<a href="#ref-S3mA7bTr">9</a>]</span>, tracks the complete commit history, it also enables detailed retrospective contribution analysis. <code>TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse</code></p>
 <h3 id="authorship">Authorship</h3>
-<p>To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) guidelines and used GitHub to track contributions. ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript <span class="citation">[<a href="#ref-jFIYgRfv">14</a>]</span>. We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript. <code>TODO: In Discussion, mention the challenge of determining contributions of potential authors who worked with someone else on the text but did not make their own commits</code> Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list. In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript. This convention can be difficult to reconcile in a collaborative effort. Using git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests. However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.</p>
-<p>To address this issue, we generalized the concept of “co-first” authorship, in which two or more authors are denoted as making equal contributions to a paper. We defined four types of contributions <span class="citation">[<a href="#ref-tJKvnIaZ">1</a>]</span>, from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories. A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering. The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner. Given the same author contributions, it always produced the same ordered author list. We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category. <code>TODO: In Discussion, present alternative author ordering strategies and literature on contribution in collaborative projects</code></p>
+<p>To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) guidelines and used GitHub to track contributions. ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript <span class="citation" data-cites="jFIYgRfv">[<a href="#ref-jFIYgRfv">14</a>]</span>. We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript. <code>TODO: In Discussion, mention the challenge of determining contributions of potential authors who worked with someone else on the text but did not make their own commits</code> Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list. In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript. This convention can be difficult to reconcile in a collaborative effort. Using git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests. However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.</p>
+<p>To address this issue, we generalized the concept of “co-first” authorship, in which two or more authors are denoted as making equal contributions to a paper. We defined four types of contributions <span class="citation" data-cites="tJKvnIaZ">[<a href="#ref-tJKvnIaZ">3</a>]</span>, from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories. A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering. The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner. Given the same author contributions, it always produced the same ordered author list. We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category. <code>TODO: In Discussion, present alternative author ordering strategies and literature on contribution in collaborative projects</code></p>
 <h3 id="discussion">Discussion</h3>
-<p>Many others have embraced open science principles and piloted open approaches toward drug discovery <span class="citation">[<a href="#ref-11rVTcUCK">15</a>,<a href="#ref-HnZE3JiU">16</a>]</span>, data management <span class="citation">[<a href="#ref-1A97a4UwU">17</a>–<a href="#ref-otY3SefD">19</a>]</span>, and manuscript review <span class="citation">[<a href="#ref-nhLnUPJo">20</a>]</span>. <code>TODO: need help deciding what related topics to include here and which references to use, these are arbitrary examples</code> <code>TODO: more ideas in doi:10.7287/peerj.preprints.2711v2</code> Several of these open science efforts are GitHub-based like our collaborative writing process. The Journal of Open Source Software <span class="citation">[<a href="#ref-oGNtTmrp">21</a>]</span> and ReScience <span class="citation">[<a href="#ref-pKdkaWKn">22</a>]</span> journals rely on GitHub for peer review and hosting. <code>TODO: describe Manubot related work here?</code> <span class="citation">[<a href="#ref-17wKkS4DV">23</a>,<a href="#ref-c8td0dsz">24</a>]</span></p>
+<p>Many others have embraced open science principles and piloted open approaches toward drug discovery <span class="citation" data-cites="11rVTcUCK HnZE3JiU">[<a href="#ref-11rVTcUCK">15</a>,<a href="#ref-HnZE3JiU">16</a>]</span>, data management <span class="citation" data-cites="1A97a4UwU 6DjakjNS otY3SefD">[<a href="#ref-1A97a4UwU">17</a>–<a href="#ref-otY3SefD">19</a>]</span>, and manuscript review <span class="citation" data-cites="nhLnUPJo">[<a href="#ref-nhLnUPJo">20</a>]</span>. <code>TODO: need help deciding what related topics to include here and which references to use, these are arbitrary examples</code> <code>TODO: more ideas in doi:10.7287/peerj.preprints.2711v2</code> Several of these open science efforts are GitHub-based like our collaborative writing process. The Journal of Open Source Software <span class="citation" data-cites="oGNtTmrp">[<a href="#ref-oGNtTmrp">21</a>]</span> and ReScience <span class="citation" data-cites="pKdkaWKn">[<a href="#ref-pKdkaWKn">22</a>]</span> journals rely on GitHub for peer review and hosting. <code>TODO: describe Manubot related work here?</code> <span class="citation" data-cites="17wKkS4DV c8td0dsz">[<a href="#ref-17wKkS4DV">23</a>,<a href="#ref-c8td0dsz">24</a>]</span></p>
 <p>There are potential limitations of our GitHub-based approach. Because our review manuscript pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub. In other disciplines, collaborative writing via GitHub and Manubot could present a steeper barrier to entry and deter participants. In addition, git carefully tracks all revisions to the manuscript text but not the surrounding conversations that take place through GitHub issues and pull requests. These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript’s text. GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.</p>
 <p><code>TODO: cgreene paragraph on diversity, open science culture, possibly author disagreements and conduct</code></p>
-<p>Open writing presents new opportunities for scholarly communication. <code>TODO: reference &quot;paper of the future&quot;? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future</code> Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts. After releasing the first version of our collaborative review <span class="citation">[<a href="#ref-tJKvnIaZ">1</a>]</span>, six new authors have contributed text and existing authors continue to discuss new literature, creating a living document <span class="citation">[<a href="#ref-1Dv0Jpu5J">5</a>]</span>. <code>TODO: update new author count before submitting</code> The Manubot system can also facilitate open research <span class="citation">[<a href="#ref-11cb5HXoY">25</a>]</span> in addition to review articles. <code>TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/</code></p>
+<p>Open writing presents new opportunities for scholarly communication. <code>TODO: reference &quot;paper of the future&quot;? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future</code> Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts. After releasing the first version of our collaborative review <span class="citation" data-cites="tJKvnIaZ">[<a href="#ref-tJKvnIaZ">3</a>]</span>, six new authors have contributed text and existing authors continue to discuss new literature, creating a living document <span class="citation" data-cites="1Dv0Jpu5J">[<a href="#ref-1Dv0Jpu5J">4</a>]</span>. <code>TODO: update new author count before submitting</code> The Manubot system can also facilitate open research <span class="citation" data-cites="11cb5HXoY">[<a href="#ref-11cb5HXoY">25</a>]</span> in addition to review articles. <code>TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/</code></p>
 <p>Our process represents an early step toward open massively collaborative reviews, and there are certainly aspects that can be improved. We invite the scientific community to adapt and build upon our experience and open software.</p>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p><code>TODO: deep review authors for support in testing this process</code> <code>TODO: manubot-rootstock contributors</code></p>
-<h2 id="references" class="unnumbered">References</h2>
-<div id="refs" class="references">
-<div id="ref-tJKvnIaZ">
-<p>1. Ching T <em>et al.</em> 2017 Opportunities And Obstacles For Deep Learning In Biology And Medicine. See <a href="https://doi.org/10.1101/142760" class="uri">https://doi.org/10.1101/142760</a>.</p>
-</div>
-<div id="ref-1B7Y2HVtw">
-<p>2. Himmelstein D. 2017 greenelab/manubot-rootstock GitHub repository. <em>GitHub</em>. See <a href="https://github.com/greenelab/manubot-rootstock" class="uri">https://github.com/greenelab/manubot-rootstock</a>.</p>
-</div>
+<h2 id="references">References</h2>
+<h2 id="references-1" class="page_break_before">References</h2>
+<!-- Explicitly insert bibliography here -->
+<div id="refs">
 <div id="ref-HQfvK1OF">
-<p>3. McKiernan EC <em>et al.</em> 2016 How open science helps researchers succeed. <em>eLife</em> <strong>5</strong>. See <a href="https://doi.org/10.7554/elife.16800" class="uri">https://doi.org/10.7554/elife.16800</a>.</p>
+<p>1. <strong>How open science helps researchers succeed</strong><br />
+Erin C McKiernan, Philip E Bourne, C Titus Brown, Stuart Buck, Amye Kenall, Jennifer Lin, Damon McDougall, Brian A Nosek, Karthik Ram, Courtney K Soderberg, … Tal Yarkoni<br />
+<em>eLife</em> (2016-07-07) <a href="https://doi.org/10.7554/elife.16800" class="uri">https://doi.org/10.7554/elife.16800</a></p>
 </div>
 <div id="ref-xqvpFrFj">
-<p>4. greenelab. In press. The cornucopia of meaningful leads: Applying deep adversarial autoencoders for new molecule development in oncology · Issue #213 · greenelab/deep-review. <em>GitHub</em>. See <a href="https://github.com/greenelab/deep-review/issues/213" class="uri">https://github.com/greenelab/deep-review/issues/213</a>.</p>
+<p>2. <strong>The cornucopia of meaningful leads: Applying deep adversarial autoencoders for new molecule development in oncology · Issue #213 · greenelab/deep-review</strong><br />
+greenelab<br />
+<em>GitHub</em> <a href="https://github.com/greenelab/deep-review/issues/213" class="uri">https://github.com/greenelab/deep-review/issues/213</a></p>
+</div>
+<div id="ref-tJKvnIaZ">
+<p>3. <strong>Opportunities And Obstacles For Deep Learning In Biology And Medicine</strong><br />
+Travers Ching, Daniel S. Himmelstein, Brett K. Beaulieu-Jones, Alexandr A. Kalinin, Brian T. Do, Gregory P. Way, Enrico Ferrero, Paul-Michael Agapow, Wei Xie, Gail L. Rosen, … Casey S. Greene<br />
+<em>Cold Spring Harbor Laboratory</em> (2017-05-28) <a href="https://doi.org/10.1101/142760" class="uri">https://doi.org/10.1101/142760</a></p>
 </div>
 <div id="ref-1Dv0Jpu5J">
-<p>5. greenelab. In press. greenelab/deep-review. <em>GitHub</em>. See <a href="https://github.com/greenelab/deep-review" class="uri">https://github.com/greenelab/deep-review</a>.</p>
+<p>4. <strong>greenelab/deep-review</strong><br />
+greenelab<br />
+<em>GitHub</em> <a href="https://github.com/greenelab/deep-review" class="uri">https://github.com/greenelab/deep-review</a></p>
+</div>
+<div id="ref-1B7Y2HVtw">
+<p>5. <strong>greenelab/manubot-rootstock GitHub repository</strong><br />
+Daniel Himmelstein<br />
+<em>GitHub</em> (2017) <a href="https://github.com/greenelab/manubot-rootstock" class="uri">https://github.com/greenelab/manubot-rootstock</a></p>
 </div>
 <div id="ref-cTN2TQIL">
-<p>6. dhimmel. In press. greenelab/manubot. <em>GitHub</em>. See <a href="https://github.com/greenelab/manubot" class="uri">https://github.com/greenelab/manubot</a>.</p>
+<p>6. <strong>greenelab/manubot</strong><br />
+dhimmel<br />
+<em>GitHub</em> <a href="https://github.com/greenelab/manubot" class="uri">https://github.com/greenelab/manubot</a></p>
 </div>
 <div id="ref-AylLD9F8">
-<p>7. Perkel JM. 2014 Scientific writing: the online cooperative. <em>Nature</em> <strong>514</strong>, 127–128. See <a href="https://doi.org/10.1038/514127a" class="uri">https://doi.org/10.1038/514127a</a>.</p>
+<p>7. <strong>Scientific writing: the online cooperative</strong><br />
+Jeffrey M. Perkel<br />
+<em>Nature</em> (2014-10-01) <a href="https://doi.org/10.1038/514127a" class="uri">https://doi.org/10.1038/514127a</a></p>
 </div>
 <div id="ref-qtk0dPt8">
-<p>8. In press. Overleaf: Real-time Collaborative Writing and Publishing Tools with Integrated PDF Preview. <em>@overleaf</em>. See <a href="https://www.overleaf.com/" class="uri">https://www.overleaf.com/</a>.</p>
+<p>8. <strong>Overleaf: Real-time Collaborative Writing and Publishing Tools with Integrated PDF Preview</strong><em>@overleaf</em> <a href="https://www.overleaf.com/" class="uri">https://www.overleaf.com/</a></p>
 </div>
 <div id="ref-S3mA7bTr">
-<p>9. In press. Authorea. <em>@authorea</em>. See <a href="https://www.authorea.com/" class="uri">https://www.authorea.com/</a>.</p>
+<p>9. <strong>Authorea</strong><em>@authorea</em> <a href="https://www.authorea.com/" class="uri">https://www.authorea.com/</a></p>
 </div>
 <div id="ref-PlcxShQU">
-<p>10. Blischak JD, Davenport ER, Wilson G. 2016 A Quick Introduction to Version Control with Git and GitHub. <em>PLoS Comput Biol</em> <strong>12</strong>, e1004668. See <a href="https://doi.org/10.1371/journal.pcbi.1004668" class="uri">https://doi.org/10.1371/journal.pcbi.1004668</a>.</p>
+<p>10. <strong>A Quick Introduction to Version Control with Git and GitHub</strong><br />
+John D. Blischak, Emily R. Davenport, Greg Wilson<br />
+<em>PLOS Computational Biology</em> (2016-01-19) <a href="https://doi.org/10.1371/journal.pcbi.1004668" class="uri">https://doi.org/10.1371/journal.pcbi.1004668</a></p>
 </div>
 <div id="ref-kEX5dgzK">
-<p>11. Perez-Riverol Y <em>et al.</em> 2016 Ten Simple Rules for Taking Advantage of Git and GitHub. <em>PLoS Comput Biol</em> <strong>12</strong>, e1004947. See <a href="https://doi.org/10.1371/journal.pcbi.1004947" class="uri">https://doi.org/10.1371/journal.pcbi.1004947</a>.</p>
+<p>11. <strong>Ten Simple Rules for Taking Advantage of Git and GitHub</strong><br />
+Yasset Perez-Riverol, Laurent Gatto, Rui Wang, Timo Sachsenberg, Julian Uszkoreit, Felipe da Veiga Leprevost, Christian Fufezan, Tobias Ternent, Stephen J. Eglen, Daniel S. Katz, … Juan Antonio Vizcaíno<br />
+<em>PLOS Computational Biology</em> (2016-07-14) <a href="https://doi.org/10.1371/journal.pcbi.1004947" class="uri">https://doi.org/10.1371/journal.pcbi.1004947</a></p>
 </div>
 <div id="ref-opQBBK06">
-<p>12. Israeli J. 2017 Opportunities And Obstacles For Deep Learning In Biology And Medicine. <em>Medium</em>. See <a href="https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2" class="uri">https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2</a>.</p>
+<p>12. <strong>Opportunities And Obstacles For Deep Learning In Biology And Medicine</strong><br />
+Johnny Israeli<br />
+<em>Medium</em> (2017-05-31) <a href="https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2" class="uri">https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2</a></p>
 </div>
 <div id="ref-RK9sIADd">
-<p>13. Gøtzsche PC, Kassirer JP, Woolley KL, Wager E, Jacobs A, Gertel A, Hamilton C. 2009 What Should Be Done To Tackle Ghostwriting in the Medical Literature? <em>PLoS Med</em> <strong>6</strong>, e1000023. See <a href="https://doi.org/10.1371/journal.pmed.1000023" class="uri">https://doi.org/10.1371/journal.pmed.1000023</a>.</p>
+<p>13. <strong>What Should Be Done To Tackle Ghostwriting in the Medical Literature?</strong><br />
+Peter C Gøtzsche, Jerome P Kassirer, Karen L Woolley, Elizabeth Wager, Adam Jacobs, Art Gertel, Cindy Hamilton<br />
+<em>PLoS Medicine</em> (2009-02-03) <a href="https://doi.org/10.1371/journal.pmed.1000023" class="uri">https://doi.org/10.1371/journal.pmed.1000023</a></p>
 </div>
 <div id="ref-jFIYgRfv">
-<p>14. In press. ICMJE | Recommendations | Defining the Role of Authors and Contributors. See <a href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html" class="uri">http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html</a>.</p>
+<p>14. <strong>ICMJE | Recommendations | Defining the Role of Authors and Contributors</strong><a href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html" class="uri">http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html</a></p>
 </div>
 <div id="ref-11rVTcUCK">
-<p>15. Himmelstein DS, Lizee A, Hessler C, Brueggeman L, Chen SL, Hadley D, Green A, Khankhanian P, Baranzini SE. 2016 Systematic integration of biomedical knowledge prioritizes drugs for repurposing. See <a href="https://doi.org/10.1101/087619" class="uri">https://doi.org/10.1101/087619</a>.</p>
+<p>15. <strong>Systematic integration of biomedical knowledge prioritizes drugs for repurposing</strong><br />
+Daniel S. Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L. Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E. Baranzini<br />
+<em>Cold Spring Harbor Laboratory</em> (2016-11-14) <a href="https://doi.org/10.1101/087619" class="uri">https://doi.org/10.1101/087619</a></p>
 </div>
 <div id="ref-HnZE3JiU">
-<p>16. Balasegaram M <em>et al.</em> 2017 An open source pharma roadmap. <em>PLoS Med</em> <strong>14</strong>, e1002276. See <a href="https://doi.org/10.1371/journal.pmed.1002276" class="uri">https://doi.org/10.1371/journal.pmed.1002276</a>.</p>
+<p>16. <strong>An open source pharma roadmap</strong><br />
+Manica Balasegaram, Peter Kolb, John McKew, Jaykumar Menon, Piero Olliaro, Tomasz Sablinski, Zakir Thomas, Matthew H. Todd, Els Torreele, John Wilbanks<br />
+<em>PLOS Medicine</em> (2017-04-18) <a href="https://doi.org/10.1371/journal.pmed.1002276" class="uri">https://doi.org/10.1371/journal.pmed.1002276</a></p>
 </div>
 <div id="ref-1A97a4UwU">
-<p>17. Molloy JC. 2011 The Open Knowledge Foundation: Open Data Means Better Science. <em>PLoS Biol</em> <strong>9</strong>, e1001195. See <a href="https://doi.org/10.1371/journal.pbio.1001195" class="uri">https://doi.org/10.1371/journal.pbio.1001195</a>.</p>
+<p>17. <strong>The Open Knowledge Foundation: Open Data Means Better Science</strong><br />
+Jennifer C. Molloy<br />
+<em>PLoS Biology</em> (2011-12-06) <a href="https://doi.org/10.1371/journal.pbio.1001195" class="uri">https://doi.org/10.1371/journal.pbio.1001195</a></p>
 </div>
 <div id="ref-6DjakjNS">
-<p>18. Wilkinson MD <em>et al.</em> 2016 The FAIR Guiding Principles for scientific data management and stewardship. <em>Sci. Data</em> <strong>3</strong>, 160018. See <a href="https://doi.org/10.1038/sdata.2016.18" class="uri">https://doi.org/10.1038/sdata.2016.18</a>.</p>
+<p>18. <strong>The FAIR Guiding Principles for scientific data management and stewardship</strong><br />
+Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, Jan-Willem Boiten, Luiz Bonino da Silva Santos, Philip E. Bourne, … Barend Mons<br />
+<em>Scientific Data</em> (2016-03-15) <a href="https://doi.org/10.1038/sdata.2016.18" class="uri">https://doi.org/10.1038/sdata.2016.18</a></p>
 </div>
 <div id="ref-otY3SefD">
-<p>19. Wilbanks J, Friend SH. 2016 First, design for data sharing. <em>Nat Biotechnol</em> See <a href="https://doi.org/10.1038/nbt.3516" class="uri">https://doi.org/10.1038/nbt.3516</a>.</p>
+<p>19. <strong>First, design for data sharing</strong><br />
+John Wilbanks, Stephen H Friend<br />
+<em>Nature Biotechnology</em> (2016-03-03) <a href="https://doi.org/10.1038/nbt.3516" class="uri">https://doi.org/10.1038/nbt.3516</a></p>
 </div>
 <div id="ref-nhLnUPJo">
-<p>20. Tennant JP <em>et al.</em> 2017 A multi-disciplinary perspective on emergent and future innovations in peer review. <em>F1000Res</em> <strong>6</strong>, 1151. See <a href="https://doi.org/10.12688/f1000research.12037.1" class="uri">https://doi.org/10.12688/f1000research.12037.1</a>.</p>
+<p>20. <strong>A multi-disciplinary perspective on emergent and future innovations in peer review</strong><br />
+Jonathan P. Tennant, Jonathan M. Dugan, Daniel Graziotin, Damien C. Jacques, François Waldner, Daniel Mietchen, Yehia Elkhatib, Lauren B. Collister, Christina K. Pikas, Tom Crick, … Julien Colomb<br />
+<em>F1000Research</em> (2017-07-20) <a href="https://doi.org/10.12688/f1000research.12037.1" class="uri">https://doi.org/10.12688/f1000research.12037.1</a></p>
 </div>
 <div id="ref-oGNtTmrp">
-<p>21. Arfon M Smith <em>et al.</em> 2017 Journal of Open Source Software (JOSS): design and first-year review. <em>arXiv</em>. See <a href="https://arxiv.org/abs/1707.02264v1" class="uri">https://arxiv.org/abs/1707.02264v1</a>.</p>
+<p>21. <strong>Journal of Open Source Software (JOSS): design and first-year review</strong><br />
+Arfon M Smith, Kyle E Niemeyer, Daniel S Katz, Lorena A Barba, George Githinji, Melissa Gymrek, Kathryn D Huff, Christopher R Madan, Abigail Cabunoc Mayes, Kevin M Moerman, … Jacob T Vanderplas<br />
+<em>arXiv</em> (2017-07-07) <a href="https://arxiv.org/abs/1707.02264v1" class="uri">https://arxiv.org/abs/1707.02264v1</a></p>
 </div>
 <div id="ref-pKdkaWKn">
-<p>22. Nicolas P. Rougier <em>et al.</em> 2017 Sustainable computational science: the ReScience initiative. <em>arXiv</em>. See <a href="https://arxiv.org/abs/1707.04393v1" class="uri">https://arxiv.org/abs/1707.04393v1</a>.</p>
+<p>22. <strong>Sustainable computational science: the ReScience initiative</strong><br />
+Nicolas P. Rougier, Konrad Hinsen, Frédéric Alexandre, Thomas Arildsen, Lorena Barba, Fabien C. Y. Benureau, C. Titus Brown, Pierre de Buyl, Ozan Caglayan, Andrew P. Davison, … Tiziano Zito<br />
+<em>arXiv</em> (2017-07-14) <a href="https://arxiv.org/abs/1707.04393v1" class="uri">https://arxiv.org/abs/1707.04393v1</a></p>
 </div>
 <div id="ref-17wKkS4DV">
-<p>23. Krewinkel A, Winkler R. 2017 Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar. <em>PeerJ Computer Science</em> <strong>3</strong>, e112. See <a href="https://doi.org/10.7717/peerj-cs.112" class="uri">https://doi.org/10.7717/peerj-cs.112</a>.</p>
+<p>23. <strong>Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar</strong><br />
+Albert Krewinkel, Robert Winkler<br />
+<em>PeerJ Computer Science</em> (2017-05-08) <a href="https://doi.org/10.7717/peerj-cs.112" class="uri">https://doi.org/10.7717/peerj-cs.112</a></p>
 </div>
 <div id="ref-c8td0dsz">
-<p>24. ewanmellor. In press. ewanmellor/gh-publisher. <em>GitHub</em>. See <a href="https://github.com/ewanmellor/gh-publisher" class="uri">https://github.com/ewanmellor/gh-publisher</a>.</p>
+<p>24. <strong>ewanmellor/gh-publisher</strong><br />
+ewanmellor<br />
+<em>GitHub</em> <a href="https://github.com/ewanmellor/gh-publisher" class="uri">https://github.com/ewanmellor/gh-publisher</a></p>
 </div>
 <div id="ref-11cb5HXoY">
-<p>25. Himmelstein DS, Romero AR, McLaughlin SR, Tzovaras BG, Greene CS. 2017 Sci-Hub provides access to nearly all scholarly literature. See <a href="https://doi.org/10.7287/peerj.preprints.3100v1" class="uri">https://doi.org/10.7287/peerj.preprints.3100v1</a>.</p>
+<p>25. <strong>Sci-Hub provides access to nearly all scholarly literature</strong><br />
+Daniel S Himmelstein, Ariel R Romero, Stephen R McLaughlin, Bastian Greshake Tzovaras, Casey S Greene<br />
+<em>PeerJ Preprints</em> (2017-07-20) <a href="https://doi.org/10.7287/peerj.preprints.3100v1" class="uri">https://doi.org/10.7287/peerj.preprints.3100v1</a></p>
 </div>
 </div>
 <script>
