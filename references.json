@@ -232,11 +232,11 @@
         [
           2017,
           8,
-          9
+          31
         ]
       ],
-      "date-time": "2017-08-09T10:41:04Z",
-      "timestamp": 1502275264950
+      "date-time": "2017-08-31T23:22:12Z",
+      "timestamp": 1504221732518
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -260,7 +260,7 @@
     },
     "page": "127-128",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 4,
     "title": "Scientific writing: the online cooperative",
     "prefix": "10.1038",
     "volume": "514",
@@ -324,12 +324,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          9,
+          26
         ]
       ],
-      "date-time": "2017-08-09T03:43:03Z",
-      "timestamp": 1502250183628
+      "date-time": "2017-09-26T08:22:13Z",
+      "timestamp": 1506414133673
     },
     "reference-count": 8,
     "publisher": "Springer Nature",
@@ -351,7 +351,7 @@
       "timestamp": 1457016969000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 1,
+    "is-referenced-by-count": 3,
     "title": "First, design for data sharing",
     "prefix": "10.1038",
     "author": [
@@ -425,12 +425,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          25
+          9,
+          28
         ]
       ],
-      "date-time": "2017-08-25T08:11:07Z",
-      "timestamp": 1503648667358
+      "date-time": "2017-09-28T15:42:20Z",
+      "timestamp": 1506613340757
     },
     "reference-count": 32,
     "publisher": "Springer Nature",
@@ -453,7 +453,7 @@
     },
     "page": "160018",
     "source": "Crossref",
-    "is-referenced-by-count": 121,
+    "is-referenced-by-count": 143,
     "title": "The FAIR Guiding Principles for scientific data management and stewardship",
     "prefix": "10.1038",
     "volume": "3",
@@ -876,12 +876,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          9,
+          1
         ]
       ],
-      "date-time": "2017-08-10T03:26:41Z",
-      "timestamp": 1502335601468
+      "date-time": "2017-09-01T05:40:06Z",
+      "timestamp": 1504244406226
     },
     "posted": {
       "date-parts": [
@@ -903,8 +903,8 @@
       "date-parts": [
         [
           2017,
-          3,
-          10
+          8,
+          31
         ]
       ]
     },
@@ -930,7 +930,7 @@
       {
         "ORCID": "http://orcid.org/0000-0002-3012-7446",
         "authenticated-orcid": false,
-        "given": "Daniel S",
+        "given": "Daniel S.",
         "family": "Himmelstein",
         "affiliation": []
       },
@@ -954,7 +954,7 @@
         "affiliation": []
       },
       {
-        "given": "Sabrina L",
+        "given": "Sabrina L.",
         "family": "Chen",
         "affiliation": []
       },
@@ -982,7 +982,7 @@
       {
         "ORCID": "http://orcid.org/0000-0003-0067-194X",
         "authenticated-orcid": false,
-        "given": "Sergio E",
+        "given": "Sergio E.",
         "family": "Baranzini",
         "affiliation": []
       }
@@ -1002,12 +1002,12 @@
       "date-parts": [
         [
           2017,
-          3,
-          11
+          9,
+          1
         ]
       ],
-      "date-time": "2017-03-11T06:10:41Z",
-      "timestamp": 1489212641000
+      "date-time": "2017-09-01T05:10:23Z",
+      "timestamp": 1504242623000
     },
     "score": 1.0,
     "subtitle": [],
@@ -1318,12 +1318,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          23
+          9,
+          29
         ]
       ],
-      "date-time": "2017-08-23T17:41:55Z",
-      "timestamp": 1503510115851
+      "date-time": "2017-09-29T10:22:19Z",
+      "timestamp": 1506680539538
     },
     "reference-count": 258,
     "publisher": "F1000 Research, Ltd.",
@@ -1349,7 +1349,7 @@
     "page": "1151",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 3,
     "title": "A multi-disciplinary perspective on emergent and future innovations in peer review",
     "prefix": "10.12688",
     "volume": "6",
@@ -1608,12 +1608,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          23
+          9,
+          12
         ]
       ],
-      "date-time": "2017-08-23T15:10:22Z",
-      "timestamp": 1503501022000
+      "date-time": "2017-09-12T11:25:27Z",
+      "timestamp": 1505215527000
     },
     "score": 1.0,
     "subtitle": [],
@@ -1657,9 +1657,20 @@
         }
       },
       {
+        "value": "<b>Xenia van Edig</b>; \n<i>Posted: 07 Sep 2017</i>; Comment on Table 2&nbsp;I would like to point out that Atmospheric Chemistry and Physics [ACP] (only mentioned in table 2) was the first journal which applied a public review prior to publication, but that it is not the only journal which applies the so-called Interactive Public Peer Review. Besides ACP, 17 other journals published by Copernicus Publications apply this approach. In addition, there are other initiatives like the Economics e-journal or SciPost which apply similar approaches but are not affiliated with Copernicus.&nbsp;I would like to summarize my concerns/suggestions in the following:&nbsp;  In the Interactive Public Peer Review authors’ manuscripts are posted as discussion papers (preprints), reviewer comments (i.e. reports) are posted alongside the manuscript (reviewers can decide whether they want to be anonymous or eponymous), and the scientific community is invited to comment on the manuscript \n<b>prior</b> to formal article publication. Most of the 17 journals applying this approach also publish the referee reports and other documents which were created after the discussion (peer-review completion) after the final acceptance of the manuscript as a journal article (e.g. https://www.biogeosciences.net/14/3239/2017/bg-14-3239-2017-discussion.html). The Interactive Public Peer Review and its development are described in  https://www.atmospheric-chemistry-and-physics.net/pr_short_history_interactive_open_access_publishing_2001_2011.pdf http://journal.frontiersin.org/article/10.3389/fncom.2012.00033/full http://ebooks.iospress.nl/publication/42891   The approach is not reflected correctly in table 2: firstly, not only ACP is applying this approach. Secondly, it does not require a consensus decision. As in the traditional peer-review approach, the editor takes his/her decision based on the reviewer reports and other comments in the discussion (and if applicable request revisions after the discussion). The discussions as public peer review provide invited comments by referees, authors, and editors, as well as spontaneous comments by interested readers becoming part of the manuscript’s evolution. Therefore, the interactive journals of Copernicus Publications do not fit into the category “collaborative”. Following the types “pre-peer review commenting” and “post-publication commenting” of table 2, it could be named “pre-publication commenting”. The review type “pre-publication” in table 2 is misleading since it is the only one that is not transparent; therefore I suggest having at least the addition “pre-publication (closed)”. Otherwise, if you included my suggestion from 2 as “pre-publication commenting”, one could think that “pre-publication” and “pre-publication commenting” are as similar to “post-publication commenting” and “post-publication”, which is not the case. Both post-publication approaches are transparent, whereas only our pre-publication approach is.",
+        "URL": "https://f1000research.com/articles/6-1151/v1#referee-comment-3005",
+        "order": 1,
+        "name": "referee-comment-3005",
+        "label": "Referee Comment",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
         "value": "10.5256/f1000research.13023.r24355, Virginia (Ginny) Barbour, Queensland University of Technology (QUT), Brisbane, Qld, Australia, 14 Aug 2017, version 1, 2 approved with reservations",
         "URL": "https://f1000research.com/articles/6-1151/v1#referee-response-24355",
-        "order": 1,
+        "order": 2,
         "name": "referee-response-24355",
         "label": "Referee Report",
         "group": {
@@ -1670,7 +1681,7 @@
       {
         "value": "<b>Aileen Fyfe</b>; \n<i>Posted: 23 Aug 2017</i>; Like Melinda Baldwin, I am an historian, and I will comment mostly on the historical content in this paper.&nbsp;So far as the paper as a whole goes, I find myself unsure what to make of it, as it is so massive it is hard to imagine the intended audience. I wasn't entirely convinced that the conclusions were worth the length, for they seem sensible rather than particularly novel.I do like the emphasis at various points on communities: I presume you are right that the technologies exist to create a community-run system of scholarly communication where the power and responsibility lies in the hands of academic communities rather than commercial publishers. I myself hope that recreating a strong community for the sharing and discussion of research results will sort out some of the challenges of reviewer engagement and recognition (I base that belief on my own work on a editorial/reviewing system that was strongly community based, i.e. the Royal Society prior to the late 20th century). But I think the challenge that this paper doesn't really rise to, is how those academic-led communities should be formed and run. Are these groups based around existing disciplinary societies and subject associations? Or around existing research labs or institutes? Or something else?As far as the history goes:I suppose I'm pleased to see some history of peer review in there. But actually, I'm saddened that section 1.1.1 reinforces the historical myth of a 17th-century origin for peer review, that section 1.2 so adroitly acknowledges. As section 1.2 notes, there has been a lot of recent work on peer review in the 19th and early 20th centuries (from me, Baldwin, Csiszar and others). Thus, our understanding of the historical development and uses of peer review is now rather different from what it was when Kronick, Spier, Burnham or even Biagioli were writing. We now emphasise the 19th century much more - which is unsurprising given that this was the period of the professionalisation of science, and of the proliferation of scientific journals (both continued to grow in the 20thC, of course). Thus, the narrative in 1.1.1 is dated, and the timeline in Figure 1 makes it look as if no historical scholarship has been done on this topic in the last decade.I was left wondering why you need the history in there at this length.&nbsp;I think that the key historical points - for your purpose - from the material in 1.1.1 and 1.1.2 are that refereeing used to be specifically associated with learned societies (especially in the 19thC), and that its emergence as a mainstream standard element of academic journal publishing dates from the mid/late 20thC and is associated with&nbsp;&nbsp;the development of a modern prestige economy in academia, and the commercialisation of academic publishing. If I were you, I'd seriously think of cutting the history right back to that (since the paper is so long, and is mostly about the present and future); but trying to ensure that what you do say reflects current scholarship, and that you're consistent in the vision of history that you present in different sections of the paper.That vision of history seeps into the article in some less obvious ways later on. For instance, you have a tendency to talk about the 'traditional' way of doing things, when what you really mean is 'the way things have been done since the 1960s/70s'. To me, that's not 'traditional', that's the status quo, or some shorthand for 'the system created by commercial publishers and the pressures of academic prestige'. By labelling everything before now as 'traditional', you gloss over the complexities of the history (and, once more, reinforce that myth).Similarly, when you talk of a 'peer review revolution': a) it looks to me more like 'a new phase of experimentation' rather than a revolution; b) some of what you're talking about as new isn't so new - there are historical precedents for much of it (e.g. for published, named reviews, see the article by Csiszar that Melinda Baldwin mentioned; e.g. for 'publish first, filter later', lots of non-society journals in the 19th and 20th century didn't use peer review at all, but aimed to publish interesting news quickly); and in some cases, what we're really looking at is a return to older ways of doing things (e.g. community-based editing and refereeing).At the very end, you seem to recognise this 'return to...' element (rather than revolution), when you suggest we are returning to 'core principles upon which it was founded more than a century ago' - but now I'm confused about your implied chronology again! If I was forced to choose a date for the foundation of peer review, I'd choose either the 1830s or the 1960s/70s, but neither of them really seem to be what you have in mind (yet you're presumably not thinking of 1665, either...?).Some specific comments:The Royal Society of Edinburgh didn't exist in 1731 (it was founded 1783). (The mistake is Kronick and Spier's; I understand why, but it doesn't really matter to your article.)The Royal Society, London shouldn't be referred to as 'the United Kingdom Royal Society'In 1.1.2, re scholarly publishing 'turning into a loss-making business' - that implies it had previously been profit-making. I'd rephrase that paraphrasing of my own work as 'since scholarly publishing in the 19thC was essentially a loss-making business'...The up-to-date reference (with revised title) for Moxham &amp; Fyfe 2016 (now the article has been accepted, and the REF-mandated AAM is available), is at&nbsp;http://research-repository.st-andrews.ac.uk/handle/10023/11178",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2971",
-        "order": 2,
+        "order": 3,
         "name": "article-response-2971",
         "label": "Article Comment",
         "group": {
@@ -1681,7 +1692,7 @@
       {
         "value": "<b>Melinda Baldwin</b>; \n<i>Posted: 17 Aug 2017</i>; Thank you for a very interesting piece on how peer review might fit into an open access publishing landscape, and how it might change to fit the shifting needs of the scientific community. I am especially grateful to see so much of the historical literature incorporated into the article's early sections; I think this is an area where a lot of exciting research is being done.Since I'm a historian, I will largely confine my comments to the article's historical content. First, I am a bit puzzled by Figure 1, which seems to suggest that very little happened to refereeing between the 18th century and the late 1960s. I would argue that the 19th century was a critical time for the development of refereeing practices. A good source on this is Alex Csiszar's editorial for \n<i>Nature </i>(A. Csiszar,&nbsp;\n<i>Nature</i>&nbsp;\n<b>532</b>, 306 (2016)). Historians are also in general agreement that Henry Oldenburg did not &quot;initiate the process of peer review.&quot;&nbsp;Pre-19th century internal review practices among scientific societies were significantly different than modern refereeing, in part because publishing served such a different function for those communities. Csiszar argues, and I agree, that system we now know as peer review has its strongest origins in the 19th century and not in the Scientific Revolution or the Enlightenment.&nbsp;Second, it may be worth noting that the term &quot;peer review&quot; is itself a creation of the 20th century, and it arose at around the same time that peer review went from being an optional feature of a scientific journal to being a requirement for scientific respectability.&nbsp;I also wonder if it is fair to deem the post-1990 period a &quot;revolution&quot; in peer review. It's clearly a period of change and innovation, as you highlight, but much of the peer review system outside the open access community has not experienced a major change in the way peer review functions.&nbsp;One final, picky point about&nbsp;\n<i>Nature</i>'s history: John Maddox did much to expand the system of refereeing at \n<i>Nature,&nbsp;</i>but he retained some practices that would now be considered unusual, including preserving his own right to publish something without seeking external reports. (This was common for commercial publications at the time.) It was really not until 1973 that refereeing became a requirement for scientific articles in&nbsp;\n<i>Nature.</i>Thank you again for a fascinating read, and please don't hesitate to reach out if I can clarify any of my comments!Melinda Baldwin",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2962",
-        "order": 3,
+        "order": 4,
         "name": "article-response-2962",
         "label": "Article Comment",
         "group": {
@@ -1692,7 +1703,7 @@
       {
         "value": "<b>Richard Walker</b>; \n<i>Posted: 17 Aug 2017</i>; This is an interesting paper which makes a number of useful points. It correctly points out &nbsp;that “classical peer review&quot; is a relatively recent innovation whose historical roots are far less deep that many scientists assume - a point that cannot be repeated too often. It also offers a number of useful insights. The discussion of the advantages and disadvantages of different forms of Open Peer Review is very useful. The point on &nbsp;the need to peer review peer review is a good one.But that having been said, I sense a lack of focus. &nbsp;This makes the paper hard to read. Worse, important points are often buried in the middle of material that is less important. I note three examples, which are of especial interest to the publisher where I work (Frontiers) but which are also of general interest1) &nbsp;The authors briefly refer (p4) to “digital only publication venues that vet publications based on the soundness of the research” citing PLOS (it should be PLOS ONE), and PeerJ. &nbsp;What they are referring to is so-called “non-selective” or “impact neutral review”, where reviewers are explicitly requested to ignore a manuscript's novelty and potential impact and to focus on validity of its methods and results. &nbsp;This form of review was introduced more or less simultaneously by PLOS ONE and by Frontiers and has since been adopted by a high proportion of all Open Access journals. One can make arguments for and against, but it should not be dismissed in a single sentence.2) &nbsp; The authors focus on the role of peer-review as a gate-keeper (which, of course, it is). However they gave little attention to its role in improving the quality of manuscripts. This role can be greatly facilitated by forms of interactive review, where reviewers and authors work together to reach a final draft - another Frontiers innovation that has influenced many other journals and publishers. The innovation is mentioned &nbsp;(in Table 2, p9) but never discussed.3) &nbsp; Another important topic, buried in the rest of the paper, is the role of the technology platforms, already used by Open Access and classical publishers. Good and bad platforms can be vital enablers for/obstacles to innovative forms of peer review. The paper dedicates a lot of space to platforms that have yet to have a major impact, and to social media platforms outside the world of scholarly publishing, but almost none to established platforms such as our own.Apart from these specific issues, I would like to suggest three further changes to improve focus and readability.1) &nbsp;The paper should make a clear distinction between innovations that have already had a major impact (e.g. the advent of peer print servers) and small-scale experiments that have not had such an impact (of which there are many). Space in the article should be allocated accordingly.2) &nbsp;It should make a clear distinction between peer review, (as academics understand it) and reader commentary: the former plays a vital role in scholarly publishing, the role of the latter has been marginal.3) &nbsp;The authors should keep to the topic they define for themselves at the beginning of their paper: peer review of scientific papers. Discussions of peer review in other areas (e.g. software) are interesting but distract from the main theme.I hope all this is useful.Richard Walker",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2960",
-        "order": 4,
+        "order": 5,
         "name": "article-response-2960",
         "label": "Article Comment",
         "group": {
@@ -1703,7 +1714,7 @@
       {
         "value": "<b>Jon Tennant</b>; \n<i>Posted: 11 Aug 2017</i>; Dear Brian,Thank you for your insightful and useful comment here. In the revised version, we will make sure to expand upon the role of peer review in assisting editorial decisions, as well as providing feedback to improve the skills of authors, as you mentioned. I think these are really important points too, and we thank you for pointing out that they could be expanded on in our manuscript. Incidentally, training scholars for peer review, particularly junior ones, is something of great interest to me too, and I have drafted this peer review template to help support researchers looking to write their first peer reviews.Best,Jon",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2947",
-        "order": 5,
+        "order": 6,
         "name": "article-response-2947",
         "label": "Article Comment",
         "group": {
@@ -1714,7 +1725,7 @@
       {
         "value": "<b>Brian Martin</b>; \n<i>Posted: 09 Aug 2017</i>; Thank you for a really valuable article: thorough, critical and forward-looking. It is especially difficult to balance analysis of shortcomings of traditional peer-review models with an open-minded assessment of possible alternatives, and their potential shortcomings too, and you’ve done this extremely well. I like very much your comments about the entrenchment of the present system and the need for an alternative to develop a critical mass.&nbsp;There’s an aspect could have been developed further. One role of peer review is to help make decisions about acceptance or rejection of articles, which is your main focus. Another role is to improve the quality of articles by giving feedback to authors, aiding them in revising the article (for submission at the same journal or another one). This second role, when done well, also helps the authors to become better scholars, by improving their insights and skills. In the language of undergraduate teaching, these two roles are summative and formative or, in other words, evaluative and developmental.&nbsp;For decades I have sent drafts of my writings to colleagues for their comments before I submit them for publication. Sometimes I go through several versions that are sent to different readers. This might be considered a type of peer review, but it is separate from the formal judgements provided by journal referees.&nbsp;The formative or developmental side of peer review need not be tied to the summative or evaluative side. Scott Armstrong for many years studied and reviewed research on peer review. In order to encourage innovation, he recommends that referees do not make a recommendation about acceptance or rejection, but only comment on papers and how they might be improved, leaving decisions to editors. (See for example J. S. Armstrong, “Peer review for journals: evidence on quality control, fairness, and innovation,” \n<i>Science and Engineering Ethics, </i>Vol. 3, 1997, pp. 63–84.)&nbsp;This is the approach I have used for all my referee reports for many years. I waive anonymity and say I would be happy to correspond directly with the author, and quite a few authors have thanked me for my reports. I even wrote a short piece presenting this approach: “Writing a helpful referee’s report,” http://www.bmartin.cc/pubs/08jspwhrr.html.&nbsp;Personally, I value peer review as a means to foster better quality in my publications. I am more worried about being the author of a weak or flawed paper than in having one more publication.&nbsp;Treating peer review as a means of improvement is quite compatible with many of the new publishing platforms. It is a more collaborative approach to the creation of knowledge than the occasional adversarial use of refereeing to shoot down the work of rivals.",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2944",
-        "order": 6,
+        "order": 7,
         "name": "article-response-2944",
         "label": "Article Comment",
         "group": {
@@ -1725,7 +1736,7 @@
       {
         "value": "<b>Jon Tennant</b>; \n<i>Posted: 24 Jul 2017</i>; Dear Philip,  Many thanks for your useful and constructive comments here. We will address each of them in the revised version of this manuscript, once more comments and the reviews have been obtained.  Many thanks,  Jon",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2906",
-        "order": 7,
+        "order": 8,
         "name": "article-response-2906",
         "label": "Article Comment",
         "group": {
@@ -1736,7 +1747,7 @@
       {
         "value": "<b>Philip Young</b>; \n<i>Posted: 21 Jul 2017</i>; Thanks to all the authors of this article for a very informative review of peer review and an exploration of directions it might take in the future.  There may be too much emphasis on reviewer identity as opposed to the openness of the reviews themselves; in section 2.1 where the three criteria for OPR are listed, consider reversing 1 and 2. The availability of reviews seems of greater importance than reviewer identity in terms of verifying that peer review took place as well as advancing knowledge. Peer review’s small to nonexistent role in promotion and tenure is only briefly mentioned (2.2.1); you could consider how or why this might change in 4.3 (incentives) or 4.4 (challenges).  There is one effort that came to mind that may merit a brief mention in your article- Peer Review Evaluation (PRE) http://www.pre-val.org/, a service of the AAAS. About a year ago the journal \n<i>Diabetes</i> was using this service- see an example at https://doi.org/10.2337/db16-0236. If you go to this article and click on the green PRE seal, you retrieve a pop-up that details the peer review method, number of rounds of review, and the number of reviewers and editors involved. It’s not clear to me whether PRE is still an active service; current articles from this journal don’t seem to have the seal. In any case this provides some degree of transparency, though short of open peer review.  Although I don’t know if it would be considered an “annotation service”, in Table 2 at the far bottom right you might also add Publons as an example of decoupled post-publication review- I have used it several times for this purpose. As an added benefit, these reviews are picked up by Altmetric.com on a separate “Peer Reviews” tab of their detail display (they also track PubPeer; I’m not sure if Plum Analytics does something similar). See https://www.altmetric.com/details/8959879 for an example. This might be a form of decoupled peer review aggregation worth mentioning in section 2.5.4 (end of the first paragraph).  In section 3.1.1 on Reddit, you might briefly describe what “flair” is.  In section 3.1.2 you suggest ORCID as an example of a social network for academia, but I think it is better to call it an academic profile as you do in section 4.3 (although it wasn’t intended to be that either). I think connecting ORCID and peer reviewing is a good idea, and as you mention, Publons is already doing this.  Also, I have a couple of suggestions that may be better directed to the journal rather than the authors. First, this article and others like it use many non-DOI links to refer to web pages. To ensure the longevity of the evidence base in its articles, journals might begin using (or requiring authors to use) web archiving tools like the Wayback Machine, WebCite, or Perma.cc in order to prevent link rot. For example, see: Jones SM, Van de Sompel H, Shankar H, Klein M, Tobin R, Grover C (2016) Scholarly Context Adrift: Three out of Four URI References Lead to Changed Content. PLoS ONE 11(12): e0167475. https://doi.org/10.1371/journal.pone.0167475. Second, in the references the DOI format should follow CrossRef recommendations to eliminate the “dx” and add HTTPS, so that http://dx.doi.org becomes https://doi.org.",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2902",
-        "order": 8,
+        "order": 9,
         "name": "article-response-2902",
         "label": "Article Comment",
         "group": {
@@ -1747,7 +1758,7 @@
       {
         "value": "<b>Mike Taylor</b>; \n<i>Posted: 20 Jul 2017</i>; Leonid Schneider suggests:  \n<i>Given the rather numerous advertising references to ScienceOpen in the main text, it might be helpful if Dr Tennant declared this commercial entity as his main and current place of work as affiliation.</i>  I don't understand how the statement right up in the author information doesn't meet this demand: &quot;\n<b>Competing interests</b>:&nbsp;JPT works for ScienceOpen.&quot;",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2895",
-        "order": 9,
+        "order": 10,
         "name": "article-response-2895",
         "label": "Article Comment",
         "group": {
@@ -1758,7 +1769,7 @@
       {
         "value": "<b>Jon Tennant</b>; \n<i>Posted: 20 Jul 2017</i>; The &nbsp;Competing Interests section in this paper clearly states my relationship with ScienceOpen.  My institutional affiliation is Imperial College London. They paid the APC for this article.",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2892",
-        "order": 10,
+        "order": 11,
         "name": "article-response-2892",
         "label": "Article Comment",
         "group": {
@@ -1769,7 +1780,7 @@
       {
         "value": "<b>Leonid Schneider</b>; \n<i>Posted: 20 Jul 2017</i>; Given the rather numerous advertising references to ScienceOpen in the main text, it might be helpful if Dr Tennant declared this commercial entity as his main and current place of work as affiliation.According to his own CV on LinkedIn, Dr Tennant is not working at Imperial College London since 2016, which he also confirmed on Twitter, also declaring that he has not yet obtained his doctorate degree officially.&nbsp;https://www.linkedin.com/in/dr-jonathan-tennant-3546953a/https://twitter.com/Protohedgehog/status/881799768040763395",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2888",
-        "order": 11,
+        "order": 12,
         "name": "article-response-2888",
         "label": "Article Comment",
         "group": {
@@ -1779,7 +1790,7 @@
       },
       {
         "value": "TRH was supported by funding from the European Commission H2020 project OpenAIRE2020 (Grant agreement: 643410, Call: H2020-EINFRA-2014-1). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
-        "order": 12,
+        "order": 13,
         "name": "grant-information",
         "label": "Grant Information"
       },
@@ -1798,12 +1809,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          16
+          9,
+          19
         ]
       ],
-      "date-time": "2017-08-16T16:02:59Z",
-      "timestamp": 1502899379317
+      "date-time": "2017-09-19T08:22:10Z",
+      "timestamp": 1505809330524
     },
     "reference-count": 10,
     "publisher": "Public Library of Science (PLoS)",
@@ -1848,7 +1859,7 @@
     "page": "e1001195",
     "update-policy": "http://dx.doi.org/10.1371/journal.pbio.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 57,
+    "is-referenced-by-count": 60,
     "title": "The Open Knowledge Foundation: Open Data Means Better Science",
     "prefix": "10.1371",
     "volume": "9",
@@ -2297,12 +2308,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          8
+          9,
+          14
         ]
       ],
-      "date-time": "2017-08-08T14:05:08Z",
-      "timestamp": 1502201108823
+      "date-time": "2017-09-14T17:42:15Z",
+      "timestamp": 1505410935813
     },
     "reference-count": 21,
     "publisher": "Public Library of Science (PLoS)",
@@ -2347,7 +2358,7 @@
     "page": "e1000023",
     "update-policy": "http://dx.doi.org/10.1371/journal.pmed.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 33,
+    "is-referenced-by-count": 34,
     "title": "What Should Be Done To Tackle Ghostwriting in the Medical Literature?",
     "prefix": "10.1371",
     "volume": "6",
@@ -2657,12 +2668,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          9,
+          29
         ]
       ],
-      "date-time": "2017-08-09T14:15:05Z",
-      "timestamp": 1502288105326
+      "date-time": "2017-09-29T20:42:11Z",
+      "timestamp": 1506717731595
     },
     "reference-count": 157,
     "publisher": "eLife Sciences Organisation, Ltd.",
@@ -2759,7 +2770,7 @@
       "timestamp": 1467913601000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 19,
+    "is-referenced-by-count": 24,
     "title": "How open science helps researchers succeed",
     "prefix": "10.7554",
     "volume": "5",
@@ -3119,6 +3130,7 @@
     "id": "cTN2TQIL"
   },
   {
+    "type": "webpage",
     "URL": "https://github.com/greenelab/manubot-rootstock",
     "title": "greenelab/manubot-rootstock GitHub repository",
     "container-title": "GitHub",
@@ -3131,11 +3143,10 @@
     },
     "author": [
       {
-        "family": "Himmelstein",
-        "given": "Daniel"
+        "given": "Daniel",
+        "family": "Himmelstein"
       }
     ],
-    "type": "webpage",
     "id": "1B7Y2HVtw"
   },
   {

@@ -1,5 +1,5 @@
 {
-  "date": "August 28, 2017",
+  "date": "September 30, 2017",
   "authors": [
     {
       "github": "dhimmel",
@@ -34,7 +34,7 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/meta-review",
-    "commit": "2d6dd2a7add936274092d6a99cf9f8efdf644878"
+    "commit": "9fc917b31661f87b80bc015b877c302d7cb0f4be"
   },
   "manuscript_stats": {
     "reference_counts": {
@@ -43,6 +43,6 @@
       "url": 9,
       "total": 25
     },
-    "word_count": 1690
+    "word_count": 1769
   }
 }
