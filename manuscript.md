@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-09-30'
+date-meta: '2017-10-11'
 keywords:
 - collaborative review
 - continuous integration
@@ -18,8 +18,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@bb524ab](https://github.com/greenelab/meta-review/tree/bb524ab894c97627e7562a326bca1bd53cecd542)
-on September 30, 2017.
+from [greenelab/meta-review@8b8d99f](https://github.com/greenelab/meta-review/tree/8b8d99f586e73835ce7843bf57a7271fbb5bf292)
+on October 11, 2017.
 </em></small>
 
 ## Authors
@@ -91,8 +91,61 @@ Although we requested that some authors participate for their specific expertise
 `TODO: confirm "most"`
 To coordinate this effort, we developed a manuscript writing process using the Markdown language, the GitHub software development platform [@1Dv0Jpu5J], and our new Manubot tool [@1B7Y2HVtw; @cTN2TQIL] for automating manuscript generation.
 
+### Manubot
 
-### Collaborative writing and reviewing
+We developed Manubot, a system for writing scholarly manuscripts via GitHub.
+With Manubot, manuscripts are written as plain-text markdown files, which is well suited for version control using git.
+The markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists.
+In addition, Manubot relies on extensions from [Pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
+
+Manubot includes an additional layer of citation processing, currently unique to the system.
+All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata.
+Currently, citations to DOIs (Digital Object Identifiers), PubMed identifiers, arXiv identifiers, and URLs (web addresses) are supported.
+Metadata is retrieved using DOI [Content Negotiation](https://citation.crosscite.org/docs.html), NCBI's [Citation Exporter](https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/), the [arXiv API](https://arxiv.org/help/api/index), or [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw].
+Metadata is exported to [CSL JSON Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items), an open standard that's widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
+In cases where automatic retrieval of metadata fails or produces incorrect references -- which is most common for URL citations -- users can manually provide the correct CSL JSON.
+
+The Manubot formats bibliographies according to a [Citation Style Language](http://citationstyles.org/) (CSL) specification.
+As a result, users can choose from thousands of existing CSL styles or use Manubot's default style.
+Styles define how references are constructed from bibliographic metadata, controlling layout details such as the max number of authors to list per reference.
+Thousands of journals have [predefined styles](http://editor.citationstyles.org/searchByName/).
+As a result, adopting the specific bibliographic format required by a journal usually just requires specifying the style's source URL in the Manubot configuration.
+
+Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from markdown to HTML, PDF, and optionally DOCX outputs.
+Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, or EPUB — offering Manubot users broad interoperability.
+In a future release, Pandoc [will support](https://github.com/greenelab/manubot-rootstock/pull/51#issuecomment-321949622) export to [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS).
+JATS is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
+For now however, the primary Manubot output is HTML intended to be viewed in a web browser.
+
+Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
+The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz], specifically [Travis CI](https://travis-ci.org/) at the moment, to monitor for changes.
+When changes occur, the CI service generates an updated manuscript.
+If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository.
+Since the HTML manuscript is hosted using [GitHub Pages](https://pages.github.com/), the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub.
+
+For this article, the source GitHub repository is https://github.com/greenelab/meta-review.
+When this repository changes, Travis CI [rebuilds](https://travis-ci.org/greenelab/meta-review) the manuscript.
+If successful, the output is deployed back to GitHub (to dedicated [`output`](https://github.com/greenelab/meta-review/tree/output) and [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branches).
+As a result, https://greenelab.github.io/meta-review stays up to date with the latest HTML manuscript.
+
+Manubot uses [OpenTimestamps](https://opentimestamps.org/) to timestamp the HTML and PDF outputs on the Bitcoin blockchain before deploying to GitHub.
+This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [@Y2XyzLMc; @6MR50hyY; @QBWMEuxW; @6yyYojgV].
+The implications for scientific writing are twofold.
+First, scientific precedence can now be indisputably established.
+Second, timestamps can protect against attempts to rewrite a manuscript's history.
+Since timestamps cannot be backdated, alternative histories would have to be created in advance, which is generally infeasible.
+Therefore, timestamping can help ensure accurate manuscript histories, potentially alleviating certain authorship disputes.
+
+We designed Manubot to power the next generation of scholarly manuscript.
+Manubot transforms publication, making it permissionless, reproducible, free of charge, and largely open source.
+Manubot does rely on gratis services from two proprietary platforms: GitHub and Travis CI.
+Fortunately, lock-in to these services is minimal, and several substitutes already exist.
+One direction Manubot is working towards is end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF].
+Already, Manubot is well suited for preserving provenance.
+For example, figures can be specified using versioned URLs that refer to the code that created them.
+In addition, manuscripts can be templated, so that numerical values or tables get inserted directly from the repository that created them.
+
+### Contribution workflow
 
 There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for more technical writing [@AylLD9F8; @qtk0dPt8; @S3mA7bTr].
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
@@ -143,7 +196,7 @@ We annotated the author list to indicate that author order was partly randomized
 
 ### Discussion
 
-Many others have embraced open science principles and piloted open approaches toward drug discovery [@11rVTcUCK; @HnZE3JiU], data management [@1A97a4UwU; @6DjakjNS; @otY3SefD], and manuscript review [@nhLnUPJo].
+Many others have embraced open science principles and piloted open approaches toward drug discovery [@O21tn8vf; @HnZE3JiU], data management [@1A97a4UwU; @6DjakjNS; @otY3SefD], and manuscript review [@nhLnUPJo].
 `TODO: need help deciding what related topics to include here and which references to use, these are arbitrary examples`
 `TODO: more ideas in doi:10.7287/peerj.preprints.2711v2`
 Several of these open science efforts are GitHub-based like our collaborative writing process.
