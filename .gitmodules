@@ -1,0 +1,4 @@
+[submodule "analyses/deep-review-contrib/deep-review"]
+	path = analyses/deep-review-contrib/deep-review
+	url = https://github.com/greenelab/deep-review
+	branch = master
