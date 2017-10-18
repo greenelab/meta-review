@@ -1756,6 +1756,98 @@
         [
           2017,
           9,
+          4
+        ]
+      ],
+      "date-time": "2017-09-04T06:22:12Z",
+      "timestamp": 1504506132390
+    },
+    "reference-count": 29,
+    "publisher": "IEEE",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "DOI": "10.1109/hicss.2007.277",
+    "type": "paper-conference",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          2,
+          9
+        ]
+      ],
+      "date-time": "2007-02-09T20:06:52Z",
+      "timestamp": 1171051612000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 27,
+    "title": "Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology",
+    "prefix": "10.1109",
+    "author": [
+      {
+        "given": "Christian",
+        "family": "Wagner",
+        "affiliation": []
+      },
+      {
+        "given": "Pattarawan",
+        "family": "Prasarnphanich",
+        "affiliation": []
+      }
+    ],
+    "member": "263",
+    "container-title": "2007 40th Annual Hawaii International Conference on System Sciences (HICSS'07)",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://xplorestaging.ieee.org/ielx5/4076361/4076362/04076406.pdf?arnumber=4076406",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          15
+        ]
+      ],
+      "date-time": "2017-03-15T19:06:35Z",
+      "timestamp": 1489604795000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "references-count": 29,
+    "URL": "https://doi.org/10.1109/hicss.2007.277",
+    "relation": {},
+    "short_url": "https://doi.org/b6vqgx",
+    "id": "NuDPNceu"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          9,
           29
         ]
       ],
@@ -4063,6 +4155,25 @@
     "id": "QBWMEuxW"
   },
   {
+    "URL": "http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid",
+    "greycite-canonical-uri": "http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations",
+    "title": "Code of conduct evaluations",
+    "container-title": "Geek Feminism Wiki",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          13
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-05 15:14:13",
+    "type": "webpage",
+    "id": "HPKoE9m3"
+  },
+  {
     "URL": "http://git.dhimmel.com/bitcoin-whitepaper/",
     "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
     "issued": {
@@ -4191,6 +4302,33 @@
     "id": "1B7Y2HVtw"
   },
   {
+    "URL": "https://lgatto.github.io/open-and-open/",
+    "title": "Open science and open science",
+    "container-title": "~/",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Gatto",
+        "given": "Laurent"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-05 15:14:20",
+    "archives": [
+      "http://wayback.archive.org/web/https://lgatto.github.io/open-and-open/"
+    ],
+    "type": "webpage",
+    "id": "zBl3qgGT"
+  },
+  {
     "URL": "https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2",
     "title": "Opportunities And Obstacles For Deep Learning In Biology And Medicine",
     "container-title": "Medium",
@@ -4248,6 +4386,15 @@
     "greycite-scanned": "2017-05-18 17:00:44",
     "type": "webpage",
     "id": "6MR50hyY"
+  },
+  {
+    "URL": "https://www.contributor-covenant.org/",
+    "greycite-canonical-uri": null,
+    "title": "Contributor Covenant: A Code of Conduct for Open Source Projects",
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2017-10-05 15:14:25",
+    "type": "webpage",
+    "id": "aRZRiJPk"
   },
   {
     "URL": "https://www.overleaf.com/",

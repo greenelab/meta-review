@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-10-11'
+date-meta: '2017-10-18'
 keywords:
 - collaborative review
 - continuous integration
@@ -18,8 +18,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@8b8d99f](https://github.com/greenelab/meta-review/tree/8b8d99f586e73835ce7843bf57a7271fbb5bf292)
-on October 11, 2017.
+from [greenelab/meta-review@bda0a1d](https://github.com/greenelab/meta-review/tree/bda0a1d08e6cbae088941b96b255f23adddcd33d)
+on October 18, 2017.
 </em></small>
 
 ## Authors
@@ -85,10 +85,8 @@ However, inviting wide authorship brings many technical and social challenges su
 
 We present solutions to these challenges based on our recent experience leading a collaborative review "Opportunities And Obstacles For Deep Learning In Biology And Medicine" [@tJKvnIaZ].
 Our review attracted 27 authors from 20 different institutions who were not determined in advance.
-`TODO: confirm institution count`
 We wrote entirely in the open without restrictions on who was welcome to contribute.
 Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media and independently decided to contribute.
-`TODO: confirm "most"`
 To coordinate this effort, we developed a manuscript writing process using the Markdown language, the GitHub software development platform [@1Dv0Jpu5J], and our new Manubot tool [@1B7Y2HVtw; @cTN2TQIL] for automating manuscript generation.
 
 ### Manubot
@@ -179,7 +177,6 @@ Because our writing process, like others backed by the open git version control 
 To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) guidelines and used GitHub to track contributions.
 ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript [@jFIYgRfv].
 We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript.
-`TODO: In Discussion, mention the challenge of determining contributions of potential authors who worked with someone else on the text but did not make their own commits`
 Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list.
 In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript.
 This convention can be difficult to reconcile in a collaborative effort.
@@ -210,7 +207,15 @@ In addition, git carefully tracks all revisions to the manuscript text but not t
 These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript's text.
 GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.
 
-`TODO: cgreene paragraph on diversity, open science culture, possibly author disagreements and conduct`
+In our open review paper, we established [contributor guidelines](https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md) that discussed norms in the areas of of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement.
+Our contributor guidelines required verifiable participation: either directly attributable changes to the text or participation in the discussion on GitHub.
+We maintained our guidelines, even when a case arose where two authors had written text together but only one had directly attributable changes and participation.
+These guidelines did not discuss broader community norms that may have improved inclusiveness.
+It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community [@zBl3qgGT].
+Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture [@NuDPNceu].
+<!-- cited a previous version of doi:10.1080/08874417.2009.11645338 (see https://git.io/vdSSR) -->
+Conferences and open source projects have used codes of conduct to establish these norms [@HPKoE9m3=35801; @aRZRiJPk].
+We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that establish on social as well as academic norms.
 
 Open writing presents new opportunities for scholarly communication.
 `TODO: reference "paper of the future"? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future`
