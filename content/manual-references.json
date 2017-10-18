@@ -1,22 +1,78 @@
 [
-{
-  "type": "webpage",
-  "standard_citation": "url:https://github.com/greenelab/manubot-rootstock",
-  "URL": "https://github.com/greenelab/manubot-rootstock",
-  "title": "greenelab/manubot-rootstock GitHub repository",
-  "container-title": "GitHub",
-  "issued": {
-    "date-parts": [
-      [
-        2017
+  {
+    "standard_citation": "url:http://www.niso.org/standards/z39-96-2015/",
+    "type": "webpage",
+    "URL": "http://www.niso.org/standards/z39-96-2015/",
+    "title": "JATS: Journal Article Tag Suite, version 1.1"
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
       ]
+    },
+    "author": [
+      {
+        "family": "National Information Standards Organization"
+      }
     ]
   },
-  "author": [
-    {
-      "given": "Daniel",
-      "family": "Himmelstein"
+  {
+    "standard_citation": "url:https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online",
+    "type": "webpage",
+    "URL": "https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online",
+    "title": "eLife supports development of open technology stack for publishing reproducible manuscripts online",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          7
+        ]
+      ]
     }
-  ]
-}
+  },
+  {
+    "standard_citation": "url:https://lgatto.github.io/open-and-open/",
+    "type": "webpage",
+    "URL": "https://lgatto.github.io/open-and-open/",
+    "title": "Open science and open science",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          5
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Gatto",
+        "given": "Laurent"
+      }
+    ],
+    "archives": [
+      "http://wayback.archive.org/web/https://lgatto.github.io/open-and-open/"
+    ]
+  },
+  {
+    "standard_citation": "url:https://www.contributor-covenant.org/",
+    "type": "webpage",
+    "URL": "https://www.contributor-covenant.org/",
+    "title": "Contributor Covenant: A Code of Conduct for Open Source Projects",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ehmke",
+        "given": "Coraline Ada"
+      }
+    ]
+  }
 ]
