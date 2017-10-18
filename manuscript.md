@@ -18,7 +18,7 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@bda0a1d](https://github.com/greenelab/meta-review/tree/bda0a1d08e6cbae088941b96b255f23adddcd33d)
+from [greenelab/meta-review@4bdfcd9](https://github.com/greenelab/meta-review/tree/4bdfcd9d1dd50237d65e47d6170f1937dfe3ddf8)
 on October 18, 2017.
 </em></small>
 
@@ -78,7 +78,7 @@ Open research – which includes sharing code, data, and manuscripts – benefit
 Here we describe the benefits of writing review articles openly, where the planning, organizing, writing, and editing occur collaboratively in a public forum where participants are free to join as they wish.
 Reviews presenting the state of the art in a scientific field are often prepared by a single research group or a small team of colleagues.
 In contrast, broadly opening the writing process to anyone engaged in the topic can help maximize the review's value by facilitating the representation of diverse opinions and the broad coverage of relevant research.
-Review authors can engage with the authors of original research to clarify their methods and results and present them accurately (for example, @xqvpFrFj).
+Review authors can engage with the authors of original research to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
 `TODO: need archival issue link`
 In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review `TODO: define this or provide a reference?`, incentivizing the reviews with potential manuscript authorship.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
@@ -87,7 +87,7 @@ We present solutions to these challenges based on our recent experience leading 
 Our review attracted 27 authors from 20 different institutions who were not determined in advance.
 We wrote entirely in the open without restrictions on who was welcome to contribute.
 Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media and independently decided to contribute.
-To coordinate this effort, we developed a manuscript writing process using the Markdown language, the GitHub software development platform [@1Dv0Jpu5J], and our new Manubot tool [@1B7Y2HVtw; @cTN2TQIL] for automating manuscript generation.
+To coordinate this effort, we developed a manuscript writing process using the Markdown language, the [GitHub software development platform](https://github.com/greenelab/deep-review/), and our new [Manubot](https://github.com/greenelab/manubot) tool for automating manuscript generation.
 
 ### Manubot
 
@@ -142,10 +142,11 @@ One direction Manubot is working towards is end-to-end document reproducibility,
 Already, Manubot is well suited for preserving provenance.
 For example, figures can be specified using versioned URLs that refer to the code that created them.
 In addition, manuscripts can be templated, so that numerical values or tables get inserted directly from the repository that created them.
+An [example repository](https://github.com/greenelab/manubot-rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
 
 ### Contribution workflow
 
-There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for more technical writing [@AylLD9F8; @qtk0dPt8; @S3mA7bTr].
+There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for  technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
 Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.
 
@@ -169,13 +170,13 @@ The entire process can be orchestrated through GitHub with a web browser if a co
 We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limits the authors or the sections they can edit.
 In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
 The GitHub contributors page summarizes all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
-Because our writing process, like others backed by the open git version control system [@qtk0dPt8; @S3mA7bTr], tracks the complete commit history, it also enables detailed retrospective contribution analysis.
+Because our writing process, like others backed by the open git version control system (including Overleaf and Authorea), tracks the complete commit history, it also enables detailed retrospective contribution analysis.
 `TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse`
 
 ### Authorship
 
-To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) guidelines and used GitHub to track contributions.
-ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript [@jFIYgRfv].
+To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) [guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) and used GitHub to track contributions.
+ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript.
 We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript.
 Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list.
 In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript.
@@ -198,7 +199,7 @@ Many others have embraced open science principles and piloted open approaches to
 `TODO: more ideas in doi:10.7287/peerj.preprints.2711v2`
 Several of these open science efforts are GitHub-based like our collaborative writing process.
 The Journal of Open Source Software [@oGNtTmrp] and ReScience [@pKdkaWKn] journals rely on GitHub for peer review and hosting.
-`TODO: describe Manubot related work here?` [@17wKkS4DV; @c8td0dsz]
+`TODO: describe Manubot related work here?` [@17wKkS4DV] and https://github.com/ewanmellor/gh-publisher
 
 There are potential limitations of our GitHub-based approach.
 Because our review manuscript pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub.
@@ -220,7 +221,7 @@ We would encourage the maintainers of similar projects to consider broader codes
 Open writing presents new opportunities for scholarly communication.
 `TODO: reference "paper of the future"? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future`
 Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
-After releasing the first version of our collaborative review [@tJKvnIaZ], six new authors have contributed text and existing authors continue to discuss new literature, creating a living document [@1Dv0Jpu5J].
+After releasing the first version of our collaborative review [@tJKvnIaZ], six new authors have contributed text and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
 `TODO: update new author count before submitting`
 The Manubot system can also facilitate open research [@11cb5HXoY] in addition to review articles.
 `TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/`
@@ -233,9 +234,6 @@ We invite the scientific community to adapt and build upon our experience and op
 
 `TODO: deep review authors for support in testing this process`
 `TODO: manubot-rootstock contributors`
-
-## References
-
 
 ## References {.page_break_before}
 

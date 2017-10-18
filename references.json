@@ -4197,114 +4197,42 @@
     "id": "6yyYojgV"
   },
   {
-    "URL": "http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html",
-    "greycite-canonical-uri": null,
-    "title": "ICMJE | Recommendations | Defining the Role of Authors and Contributors",
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-08-04 13:03:02",
     "type": "webpage",
-    "id": "jFIYgRfv"
-  },
-  {
     "URL": "http://www.niso.org/standards/z39-96-2015/",
-    "greycite-status": "Not Scanned",
-    "greycite-expire": 86400,
-    "type": "webpage",
-    "id": "JU3KpeyB"
-  },
-  {
-    "URL": "https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online",
-    "title": "eLife supports development of open technology stack for publishing reproducible manuscripts online",
-    "container-title": "eLife",
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-10-10 22:05:28",
-    "type": "webpage",
-    "id": "sWD9uVuF"
-  },
-  {
-    "URL": "https://github.com/ewanmellor/gh-publisher",
-    "title": "ewanmellor/gh-publisher",
-    "container-title": "GitHub",
-    "author": [
-      {
-        "family": "ewanmellor",
-        "given": ""
-      }
-    ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-08-19 14:11:24",
-    "type": "webpage",
-    "id": "c8td0dsz"
-  },
-  {
-    "URL": "https://github.com/greenelab/deep-review",
-    "title": "greenelab/deep-review",
-    "container-title": "GitHub",
-    "author": [
-      {
-        "family": "greenelab",
-        "given": ""
-      }
-    ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-05-18 17:25:21",
-    "type": "webpage",
-    "id": "1Dv0Jpu5J"
-  },
-  {
-    "URL": "https://github.com/greenelab/deep-review/issues/213",
-    "title": " The cornucopia of meaningful leads: Applying deep adversarial autoencoders for new molecule development in oncology · Issue #213 · greenelab/deep-review",
-    "container-title": "GitHub",
-    "author": [
-      {
-        "family": "greenelab",
-        "given": ""
-      }
-    ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-31 16:21:14",
-    "type": "webpage",
-    "id": "xqvpFrFj"
-  },
-  {
-    "URL": "https://github.com/greenelab/manubot",
-    "title": "greenelab/manubot",
-    "container-title": "GitHub",
-    "author": [
-      {
-        "family": "dhimmel",
-        "given": ""
-      }
-    ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-07-30 21:06:03",
-    "type": "webpage",
-    "id": "cTN2TQIL"
-  },
-  {
-    "type": "webpage",
-    "URL": "https://github.com/greenelab/manubot-rootstock",
-    "title": "greenelab/manubot-rootstock GitHub repository",
-    "container-title": "GitHub",
+    "title": "JATS: Journal Article Tag Suite, version 1.1",
     "issued": {
       "date-parts": [
         [
-          2017
+          2015
         ]
       ]
     },
     "author": [
       {
-        "given": "Daniel",
-        "family": "Himmelstein"
+        "family": "National Information Standards Organization"
       }
     ],
-    "id": "1B7Y2HVtw"
+    "id": "JU3KpeyB"
   },
   {
+    "type": "webpage",
+    "URL": "https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online",
+    "title": "eLife supports development of open technology stack for publishing reproducible manuscripts online",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          7
+        ]
+      ]
+    },
+    "id": "sWD9uVuF"
+  },
+  {
+    "type": "webpage",
     "URL": "https://lgatto.github.io/open-and-open/",
     "title": "Open science and open science",
-    "container-title": "~/",
     "issued": {
       "date-parts": [
         [
@@ -4320,12 +4248,9 @@
         "given": "Laurent"
       }
     ],
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-10-05 15:14:20",
     "archives": [
       "http://wayback.archive.org/web/https://lgatto.github.io/open-and-open/"
     ],
-    "type": "webpage",
     "id": "zBl3qgGT"
   },
   {
@@ -4356,15 +4281,6 @@
     "id": "opQBBK06"
   },
   {
-    "URL": "https://www.authorea.com/",
-    "title": "Authorea",
-    "container-title": "@authorea",
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-08-05 14:00:29",
-    "type": "webpage",
-    "id": "S3mA7bTr"
-  },
-  {
     "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",
     "title": "The Grey Literature — Proof of prespecified endpoints in medical research with the bitcoin blockchain",
     "issued": {
@@ -4388,21 +4304,22 @@
     "id": "6MR50hyY"
   },
   {
+    "type": "webpage",
     "URL": "https://www.contributor-covenant.org/",
-    "greycite-canonical-uri": null,
     "title": "Contributor Covenant: A Code of Conduct for Open Source Projects",
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-10-05 15:14:25",
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Ehmke",
+        "given": "Coraline Ada"
+      }
+    ],
     "id": "aRZRiJPk"
-  },
-  {
-    "URL": "https://www.overleaf.com/",
-    "title": "Overleaf: Real-time Collaborative Writing and Publishing Tools with Integrated PDF Preview",
-    "container-title": "@overleaf",
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2017-08-05 14:00:31",
-    "type": "webpage",
-    "id": "qtk0dPt8"
   }
 ]
