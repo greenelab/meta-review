@@ -1,0 +1,19 @@
+name: contrib-viz
+dependencies:
+- anaconda::ipykernel=4.6.1
+- anaconda::ipywidgets=7.0.0
+- anaconda::notebook=5.0.0
+- anaconda::pandas=0.20.3
+- anaconda::python=3.6.3
+- conda-forge::gitpython=2.1.5
+- conda-forge::nb_conda_kernels=2.1.0
+- conda-forge::plotnine=0.2.1
+- conda-forge::r-base=3.4.1
+- conda-forge::r-cowplot=0.8.0
+- conda-forge::r-dplyr=0.7.0
+#- conda-forge::r-gdtools=0.1.6
+- conda-forge::r-ggplot2=2.2.1
+- conda-forge::r-irkernel=0.8.7
+- conda-forge::r-lubridate=1.6.0
+- conda-forge::r-readr=1.1.0
+- conda-forge::r-tidyr=0.6.1
