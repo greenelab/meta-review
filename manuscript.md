@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-10-18'
+date-meta: '2017-10-23'
 keywords:
 - collaborative review
 - continuous integration
@@ -18,8 +18,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@4bdfcd9](https://github.com/greenelab/meta-review/tree/4bdfcd9d1dd50237d65e47d6170f1937dfe3ddf8)
-on October 18, 2017.
+from [greenelab/meta-review@9fab76c](https://github.com/greenelab/meta-review/tree/9fab76c071ca3054cf936e111cb3eae6b508a874)
+on October 23, 2017.
 </em></small>
 
 ## Authors
@@ -169,9 +169,16 @@ The entire process can be orchestrated through GitHub with a web browser if a co
 
 We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limits the authors or the sections they can edit.
 In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
-The GitHub contributors page summarizes all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
+Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
 Because our writing process, like others backed by the open git version control system (including Overleaf and Authorea), tracks the complete commit history, it also enables detailed retrospective contribution analysis.
 `TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse`
+
+![
+**Deep Review contributions by author over time.**
+The total words added to the Deep Review by each author is plotted over time (final values in parentheses).
+These statistics were extracted from git commit diffs of the manuscript's markdown source.
+This figure reveals the composition of written contributions to the manuscript at every point in its history.
+](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
 
 ### Authorship
 
@@ -221,7 +228,7 @@ We would encourage the maintainers of similar projects to consider broader codes
 Open writing presents new opportunities for scholarly communication.
 `TODO: reference "paper of the future"? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future`
 Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
-After releasing the first version of our collaborative review [@tJKvnIaZ], six new authors have contributed text and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
+After releasing the first version of our collaborative review [@tJKvnIaZ], six new authors have contributed text (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
 `TODO: update new author count before submitting`
 The Manubot system can also facilitate open research [@11cb5HXoY] in addition to review articles.
 `TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/`
