@@ -18,7 +18,7 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@9fab76c](https://github.com/greenelab/meta-review/tree/9fab76c071ca3054cf936e111cb3eae6b508a874)
+from [greenelab/meta-review@c5e546a](https://github.com/greenelab/meta-review/tree/c5e546af7b847abd3663ee77701f28edc808acbb)
 on October 23, 2017.
 </em></small>
 
@@ -27,11 +27,11 @@ on October 23, 2017.
 
 
 + **Daniel S. Himmelstein**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [dhimmel](https://github.com/dhimmel)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
@@ -39,11 +39,11 @@ on October 23, 2017.
   </small>
 
 + **Casey S. Greene**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [cgreene](https://github.com/cgreene)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
@@ -51,11 +51,11 @@ on October 23, 2017.
   </small>
 
 + **Anthony Gitter**<br>
-    ![ORCID icon](images/orcid.svg){height="13px"}
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
     [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833)
-    · ![GitHub icon](images/github.svg){height="13px"}
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
     [agitter](https://github.com/agitter)
-    · ![Twitter icon](images/twitter.svg){height="13px"}
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research
