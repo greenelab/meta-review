@@ -34,15 +34,15 @@
   ],
   "ci_source": {
     "repo_slug": "greenelab/meta-review",
-    "commit": "c5e546af7b847abd3663ee77701f28edc808acbb"
+    "commit": "19af8d4c2c0176c42733df67cc103bc0a0f569b0"
   },
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 4,
-      "doi": 21,
+      "doi": 22,
       "url": 9,
-      "total": 34
+      "total": 35
     },
-    "word_count": 2709
+    "word_count": 2733
   }
 }

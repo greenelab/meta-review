@@ -18,7 +18,7 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@c5e546a](https://github.com/greenelab/meta-review/tree/c5e546af7b847abd3663ee77701f28edc808acbb)
+from [greenelab/meta-review@19af8d4](https://github.com/greenelab/meta-review/tree/19af8d4c2c0176c42733df67cc103bc0a0f569b0)
 on October 23, 2017.
 </em></small>
 
@@ -205,7 +205,8 @@ Many others have embraced open science principles and piloted open approaches to
 `TODO: need help deciding what related topics to include here and which references to use, these are arbitrary examples`
 `TODO: more ideas in doi:10.7287/peerj.preprints.2711v2`
 Several of these open science efforts are GitHub-based like our collaborative writing process.
-The Journal of Open Source Software [@oGNtTmrp] and ReScience [@pKdkaWKn] journals rely on GitHub for peer review and hosting.
+The ReScience [@pKdkaWKn], the Journal of Open Source Software [@oGNtTmrp], and some other [Open Journals](http://www.theoj.org/) rely on GitHub for peer review and hosting.
+GitHub is also increasingly used for resource curation [@vf9t7xMG], and collaborative scholarly reviews combine literature curation with discussion and interpretation.
 `TODO: describe Manubot related work here?` [@17wKkS4DV] and https://github.com/ewanmellor/gh-publisher
 
 There are potential limitations of our GitHub-based approach.

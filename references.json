@@ -4128,6 +4128,173 @@
     "id": "17wKkS4DV"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2017-10-09T08:10:49Z",
+      "timestamp": 1507536649812
+    },
+    "reference-count": 36,
+    "publisher": "PeerJ",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              10,
+              9
+            ]
+          ],
+          "date-time": "2017-10-09T00:00:00Z",
+          "timestamp": 1507507200000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>GitHub is a widely used online collaborative software development environment. In this paper, we describe curation projects as a new category of GitHub project that collects, evaluates, and preserves resources for software developers. We investigate: (1) what motivates software developers to curate resources; (2) why curation has occurred on GitHub; (3) how curated resources are used by software developers; and (4) how the GitHub platform could better support these practices. We conduct in-depth interviews with 16 software developers, each of whom hosts curation projects on GitHub. Our results suggest that the motivators that inspire software developers to curate resources on GitHub are similar to those that motivate them to participate in the development of open source projects. Convenient tools (e.g., Markdown syntax and Git version control system) and the opportunity to address professional needs of a large number of peers attract developers to engage in curation projects on GitHub. Benefits of curating on GitHub include learning opportunities, support for development work, and professional interaction. However, curation is limited by GitHub’s document structure, format, and a lack of key features, such as search. In light of this, we propose design possibilities to encourage and improve appropriations of GitHub for curation.</jats:p>",
+    "DOI": "10.7717/peerj-cs.134",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2017-10-09T07:41:30Z",
+      "timestamp": 1507534890000
+    },
+    "page": "e134",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "The appropriation of GitHub for curation",
+    "prefix": "10.7717",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Yu",
+        "family": "Wu",
+        "affiliation": [
+          {
+            "name": "Information Sciences and Technology, Pennsylvania State University, University Park, PA,  United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Na",
+        "family": "Wang",
+        "affiliation": [
+          {
+            "name": "Samsung Research America, Mountain View, CA, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Jessica",
+        "family": "Kropczynski",
+        "affiliation": [
+          {
+            "name": "School of Information Technology, University of Cincinnati, Cincinnati, OH, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "John M.",
+        "family": "Carroll",
+        "affiliation": [
+          {
+            "name": "Information Sciences and Technology, Pennsylvania State University, University Park, PA,  United States of America"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          9
+        ]
+      ]
+    },
+    "container-title": "PeerJ Computer Science",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://peerj.com/articles/cs-134.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-134.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-134.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-134.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          9
+        ]
+      ],
+      "date-time": "2017-10-09T07:41:35Z",
+      "timestamp": 1507534895000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          9
+        ]
+      ]
+    },
+    "references-count": 36,
+    "alternative-id": [
+      "10.7717/peerj-cs.134"
+    ],
+    "URL": "https://doi.org/10.7717/peerj-cs.134",
+    "relation": {
+      "cites": []
+    },
+    "article-number": "e134",
+    "short_url": "https://doi.org/gb3bxk",
+    "id": "vf9t7xMG"
+  },
+  {
     "URL": "http://blog.dhimmel.com/irreproducible-timestamps/",
     "title": "The most interesting case of scientific irreproducibility?",
     "container-title": "Satoshi Village",
