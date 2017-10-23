@@ -18,7 +18,7 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@19af8d4](https://github.com/greenelab/meta-review/tree/19af8d4c2c0176c42733df67cc103bc0a0f569b0)
+from [greenelab/meta-review@ad02800](https://github.com/greenelab/meta-review/tree/ad028003bc69dce4e1e77ea181abeb0821afc2aa)
 on October 23, 2017.
 </em></small>
 
@@ -66,7 +66,11 @@ on October 23, 2017.
 
 ## Abstract {.page_break_before}
 
-
+Scientific literature reviews are ideal for open, collaborative writing.
+Allowing any interested individual to contribute as an author can strengthen a review, providing broad and fair coverage of the subject matter.
+However, the traditional multi-author writing process breaks down at scale.
+We present techniques for overcoming the challenges of open manuscript writing.
+These include approaches for managing distributed authors and our new software for automating citation and manuscript building.
 
 
 ## Main text {.page_break_before}
