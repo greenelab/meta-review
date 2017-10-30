@@ -10,6 +10,7 @@ echo "Retrieving and processing reference metadata"
 manubot \
   --content-directory=content \
   --output-directory=output \
+  --template-variables-path=analyses/deep-review-contrib/deep-review-stats.json \
   --cache-directory=ci/cache \
   --log-level=INFO
 
