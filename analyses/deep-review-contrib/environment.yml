@@ -10,6 +10,7 @@ dependencies:
 - conda-forge::pandas=0.20.3
 - conda-forge::plotnine=0.2.1
 - conda-forge::python=3.6.3
+- conda-forge::requests=2.18.4
 - conda-forge::r-base=3.4.1
 - conda-forge::r-cowplot=0.8.0
 - conda-forge::r-dplyr=0.7.0
