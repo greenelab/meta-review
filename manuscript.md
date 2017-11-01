@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-10-23'
+date-meta: '2017-11-01'
 keywords:
 - collaborative review
 - continuous integration
@@ -18,8 +18,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@ad02800](https://github.com/greenelab/meta-review/tree/ad028003bc69dce4e1e77ea181abeb0821afc2aa)
-on October 23, 2017.
+from [greenelab/meta-review@33057f0](https://github.com/greenelab/meta-review/tree/33057f0e22a295874ee28cf6a5c2b0bd68b44a83)
+on November  1, 2017.
 </em></small>
 
 ## Authors
@@ -233,7 +233,7 @@ We would encourage the maintainers of similar projects to consider broader codes
 Open writing presents new opportunities for scholarly communication.
 `TODO: reference "paper of the future"? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future`
 Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
-After releasing the first version of our collaborative review [@tJKvnIaZ], six new authors have contributed text (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
+After releasing the first version of our collaborative review [@tJKvnIaZ], 5 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
 `TODO: update new author count before submitting`
 The Manubot system can also facilitate open research [@11cb5HXoY] in addition to review articles.
 `TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/`
