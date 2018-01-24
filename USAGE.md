@@ -76,9 +76,10 @@ Therefore, citations must be of the following form: `@source:identifier`, where 
 When choosing which source to use for a citation, we recommend the following order:
 
 1. DOI (Digital Object Identifier), cite like `@doi:10.15363/thinklab.4`.
-2. PubMed ID, cite like `@pmid:26158728`.
-3. _arXiv_ ID, cite like `@arxiv:1508.06576v2`.
-4. URL / webpage, cite like `@url:http://openreview.net/pdf?id=Sk-oDY9ge`.
+2. PubMed Central ID, cite like `@pmcid:PMC4497619`.
+3. PubMed ID, cite like `@pmid:26158728`.
+4. _arXiv_ ID, cite like `@arxiv:1508.06576v2`.
+5. URL / webpage, cite like `@url:http://openreview.net/pdf?id=Sk-oDY9ge`.
 
 Cite multiple items at once like:
 
@@ -87,12 +88,14 @@ Here is a sentence with several citations [@doi:10.15363/thinklab.4; @pmid:26158
 ```
 
 Note that multiple citations must be semicolon separated.
+Be careful not to cite the same study using identifiers from multiple sources.
+For example, the following citations all refer to the same study, but will be treated as separate references: `[@doi:10.7717/peerj.705; @pmcid:PMC4304851; @pmid:25648772]`.
 
 #### Citation tags
 
 The system also supports citation tags, which are recommended for the following applications:
 
-1. A citation's identifier contains forbidden characters, such as `;` or ending with a non-alphanumeric character other than `/`.
+1. A citation's identifier contains forbidden characters, such as `;` or `=`, or ends with a non-alphanumeric character other than `/`.
   In these instances, you must use a tag.
 2. A single reference is cited many times.
   Therefore, it might make sense to define a tag, so if the citation updates (e.g. a newer version becomes available), only a single change is required.
@@ -120,7 +123,7 @@ For guidance on what CSL JSON should be like for different document types, refer
 ## Manuscript metadata
 
 [`content/metadata.yaml`](content/metadata.yaml) contains manuscript metadata that gets passed through to Pandoc, via a [`yaml_metadata_block`](http://pandoc.org/MANUAL.html#extension-yaml_metadata_block).
-`metadata.yaml` should contain the manuscript `title`, `authors` list, and `keywords`.
+`metadata.yaml` should contain the manuscript `title`, `authors` list, `keywords`, and `lang` ([language tag](https://www.w3.org/International/articles/language-tags/ "W3C: Language tags in HTML and XML")).
 Additional metadata, such as `date`, will automatically be created by the Manubot.
 Manubot uses the [timezone](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) specified in [`build.sh`](build/build.sh) for setting the manuscript's date.
 For example, setting the `TZ` environment variable to `Etc/UTC` directs the Manubot to use Coordinated Universal Time.
@@ -135,9 +138,13 @@ initials: DSH  # strongly suggested
 orcid: 0000-0002-3012-7446  # mandatory
 twitter: dhimmel  # optional
 email: daniel.himmelstein@gmail.com  # suggested
-affiliations: Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania  # strongly suggested
+affiliations:  # as a list, strongly suggested
+  - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+  - Department of Biological & Medical Informatics, University of California, San Francisco
 funders: GBMF4552  # optional
 ```
+
+Note that `affiliations` should be a list to allow for multiple affiliations per author.
 
 ## Manubot feedback
 
@@ -147,12 +154,13 @@ If you experience any issues with the Manubot or would like to contribute to its
 
 For additional examples, check out existing manuscripts that use the Manubot:
 
-+ Satoshi Nakamoto's Bitcoin Whitepaper ([source](https://github.com/dhimmel/bitcoin-whitepaper/), [manuscript](https://dhimmel.github.io/bitcoin-whitepaper/))
++ Satoshi Nakamoto's Bitcoin Whitepaper ([source](https://github.com/dhimmel/bitcoin-whitepaper/), [manuscript](https://dhimmel.github.io/bitcoin-whitepaper/), [commentary](https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper))
 + The Sci-Hub Coverage Study ([source](https://github.com/greenelab/scihub-manuscript), [manuscript](https://greenelab.github.io/scihub-manuscript/))
 + A Report for the Vagelos Scholars Program by Michael Zietz ([source](https://github.com/zietzm/Vagelos2017), [manuscript](https://zietzm.github.io/Vagelos2017/))
 + The Deep Review ([source](https://github.com/greenelab/deep-review), [manuscript](https://greenelab.github.io/deep-review/))
 + The Meta Review ([source](https://github.com/greenelab/meta-review), [manuscript](https://greenelab.github.io/meta-review/))
 + The Project Rephetio Manuscript ([source](https://github.com/dhimmel/rephetio-manuscript/), [manuscript](https://dhimmel.github.io/rephetio-manuscript/))
 + A Literature Review for Project Planning by David Slochower ([source](https://github.com/slochower/synthetic-motor-literature), [manuscript](https://slochower.github.io/synthetic-motor-literature/))
++ The Manubot 2018 Development Proposal ([source](https://github.com/greenelab/manufund-2018), [manuscript](https://greenelab.github.io/manufund-2018/))
 
 If you are using the Manubot, feel free to submit a pull request to add your manuscript to the list above.

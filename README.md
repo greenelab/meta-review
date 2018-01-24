@@ -30,6 +30,8 @@ Manubot automates citations and references, versions manuscripts using git, and 
 The [Manubot Rootstock repository](https://git.io/vQSvo) is a general purpose template for creating new Manubot instances.
 See [`USAGE.md`](USAGE.md) for documentation how to write a manuscript.
 
+Please open [an issue](https://github.com/greenelab/manubot-rootstock/issues) for questions related to Manubot usage, bug reports, or general inquiries.
+
 ### Repository directories & files
 
 The directories are as follows:
@@ -49,8 +51,8 @@ To run the Manubot locally, install the [conda](https://conda.io) environment as
 Then, you can build the manuscript on POSIX systems by running the following commands.
 
 ```sh
-# Activate the manubot conda environment
-source activate manubot
+# Activate the manubot conda environment (assumes conda version >= 4.4)
+conda activate manubot
 
 # Build the manuscript
 sh build/build.sh
