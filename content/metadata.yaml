@@ -4,6 +4,8 @@ keywords:
   - collaborative review
   - continuous integration
   - publishing
+  - manubot
+lang: en-US
 author_info:
   -
     github: dhimmel
@@ -12,7 +14,8 @@ author_info:
     orcid: 0000-0002-3012-7446
     twitter: dhimmel
     email: daniel.himmelstein@gmail.com
-    affiliations: Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: GBMF4552
   -
     github: cgreene
@@ -21,7 +24,8 @@ author_info:
     orcid: 0000-0001-8713-9213
     twitter: GreeneScientist
     email: csgreene@upenn.edu
-    affiliations: Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: GBMF4552
   -
     github: agitter
@@ -30,5 +34,7 @@ author_info:
     orcid: 0000-0002-5324-9833
     twitter: anthonygitter
     email: gitter@biostat.wisc.edu
-    affiliations: Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research
+    affiliations:
+      - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
+      - Morgridge Institute for Research
     funders: NIH U54AI117924
