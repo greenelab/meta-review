@@ -20,7 +20,7 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@86c2c68](https://github.com/greenelab/meta-review/tree/86c2c68ff3f3e479eb9174bbf6a8eb7727e31bbd)
+from [greenelab/meta-review@51f4c91](https://github.com/greenelab/meta-review/tree/51f4c91fb6213c80cacaf402d4089b46aa354e65)
 on January 24, 2018.
 </em></small>
 
@@ -90,7 +90,7 @@ In addition, discussing manuscripts in the open provides one form of pre- and po
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
 We present solutions to these challenges based on our recent experience leading a collaborative review "Opportunities And Obstacles For Deep Learning In Biology And Medicine" [@tJKvnIaZ].
-Our review attracted 27 authors from 20 different institutions who were not determined in advance.
+Our review attracted 36 authors from 20 different institutions who were not determined in advance.
 We wrote entirely in the open without restrictions on who was welcome to contribute.
 Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media and independently decided to contribute.
 To coordinate this effort, we developed a manuscript writing process using the Markdown language, the [GitHub software development platform](https://github.com/greenelab/deep-review/), and our new [Manubot](https://github.com/greenelab/manubot) tool for automating manuscript generation.
@@ -235,7 +235,7 @@ We would encourage the maintainers of similar projects to consider broader codes
 Open writing presents new opportunities for scholarly communication.
 `TODO: reference "paper of the future"? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future`
 Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
-After releasing the first version of our collaborative review [@tJKvnIaZ], 5 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
+After releasing the first version of our collaborative review [@tJKvnIaZ], 12 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
 `TODO: update new author count before submitting`
 The Manubot system can also facilitate open research [@11cb5HXoY] in addition to review articles.
 `TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/`
