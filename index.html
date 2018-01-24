@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">
 <head>
-  <meta charset="utf-8">
-  <meta name="generator" content="pandoc">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <meta name="author" content="Daniel S. Himmelstein">
-  <meta name="author" content="Casey S. Greene">
-  <meta name="author" content="Anthony Gitter">
-  <meta name="dcterms.date" content="2017-11-01">
-  <meta name="keywords" content="collaborative review, continuous integration, publishing">
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Daniel S. Himmelstein" />
+  <meta name="author" content="Casey S. Greene" />
+  <meta name="author" content="Anthony Gitter" />
+  <meta name="dcterms.date" content="2018-01-24" />
+  <meta name="keywords" content="collaborative review, continuous integration, publishing, manubot" />
   <title>Meta Review</title>
-  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
   <link rel="stylesheet" href="github-pandoc.css">
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
@@ -24,12 +29,12 @@
 <header>
 <h1 class="title">Meta Review</h1>
 </header>
-<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/33057f0e22a295874ee28cf6a5c2b0bd68b44a83">greenelab/meta-review@33057f0</a> on November 1, 2017. </em></small></p>
+<p><small><em> This manuscript was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/86c2c68ff3f3e479eb9174bbf6a8eb7727e31bbd">greenelab/meta-review@86c2c68</a> on January 24, 2018. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
 <li><p><strong>Casey S. Greene</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0001-8713-9213">0000-0001-8713-9213</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/cgreene">cgreene</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/GreeneScientist">GreeneScientist</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
-<li><p><strong>Anthony Gitter</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-5324-9833">0000-0002-5324-9833</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/agitter">agitter</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/anthonygitter">anthonygitter</a><br> <small> Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research · Funded by NIH U54AI117924 </small></p></li>
+<li><p><strong>Anthony Gitter</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-5324-9833">0000-0002-5324-9833</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/agitter">agitter</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/anthonygitter">anthonygitter</a><br> <small> Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research · Funded by NIH U54AI117924 </small></p></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
 <p>Scientific literature reviews are ideal for open, collaborative writing. Allowing any interested individual to contribute as an author can strengthen a review, providing broad and fair coverage of the subject matter. However, the traditional multi-author writing process breaks down at scale. We present techniques for overcoming the challenges of open manuscript writing. These include approaches for managing distributed authors and our new software for automating citation and manuscript building.</p>
@@ -52,7 +57,7 @@
 <p>GitHub and the underlying git version control system <span class="citation" data-cites="PlcxShQU kEX5dgzK">[<a href="#ref-PlcxShQU">17</a>,<a href="#ref-kEX5dgzK">18</a>]</span> also structured the writing process. The official version of the manuscript is <em>forked</em> by individual contributors. A contributor then adds and revises files, grouping these changes into <em>commits</em>. When the changes are ready to be reviewed, the series of commits are submitted as a <em>pull request</em> through GitHub, which notifies other authors of the pending changes. GitHub’s review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in <span class="citation" data-cites="opQBBK06">[<a href="#ref-opQBBK06">19</a>]</span>. Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content. Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers. Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version. <code>TODO: need a figure with a flowchart showing this process</code> The entire process can be orchestrated through GitHub with a web browser if a contributor does not want to use a git client on their own computer.</p>
 <p>We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limits the authors or the sections they can edit. In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting <span class="citation" data-cites="RK9sIADd">[<a href="#ref-RK9sIADd">20</a>]</span>. Figure <a href="#fig:contrib">1</a> and the GitHub <a href="https://github.com/greenelab/deep-review/graphs/contributors">contributors page</a> summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms. Because our writing process, like others backed by the open git version control system (including Overleaf and Authorea), tracks the complete commit history, it also enables detailed retrospective contribution analysis. <code>TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse</code></p>
 <figure>
-<img src="images/deep-review-contribution-ridge.svg" alt="Figure 1: Deep Review contributions by author over time. The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from git commit diffs of the manuscript’s markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history." id="fig:contrib" style="width:100.0%" /><figcaption>Figure 1: <strong>Deep Review contributions by author over time.</strong> The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from git commit diffs of the manuscript’s markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history.</figcaption>
+<img src="images/deep-review-contribution-ridge.svg" alt="Figure 1: Deep Review contributions by author over time. The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from git commit diffs of the manuscript’s markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history." id="fig:contrib" style="width:100.0%" /><figcaption><span>Figure 1:</span> <strong>Deep Review contributions by author over time.</strong> The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from git commit diffs of the manuscript’s markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history.</figcaption>
 </figure>
 <h3 id="authorship">Authorship</h3>
 <p>To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) <a href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">guidelines</a> and used GitHub to track contributions. ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript. We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript. Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list. In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript. This convention can be difficult to reconcile in a collaborative effort. Using git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests. However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.</p>
@@ -75,7 +80,7 @@ Erin C McKiernan, Philip E Bourne, C Titus Brown, Stuart Buck, Amye Kenall, Jenn
 </div>
 <div id="ref-tJKvnIaZ">
 <p>2. <strong>Opportunities And Obstacles For Deep Learning In Biology And Medicine</strong><br />
-Travers Ching, Daniel S. Himmelstein, Brett K. Beaulieu-Jones, Alexandr A. Kalinin, Brian T. Do, Gregory P. Way, Enrico Ferrero, Paul-Michael Agapow, Wei Xie, Gail L. Rosen, … Casey S. Greene<br />
+Travers Ching, Daniel S. Himmelstein, Brett K. Beaulieu-Jones, Alexandr A. Kalinin, Brian T. Do, Gregory P. Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M Hoffman, … Casey S. Greene<br />
 <em>Cold Spring Harbor Laboratory</em> (2017-05-28) <a href="https://doi.org/10.1101/142760" class="uri">https://doi.org/10.1101/142760</a></p>
 </div>
 <div id="ref-GKPtRdAw">
@@ -189,7 +194,7 @@ Mark D. Wilkinson, Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleto
 <div id="ref-otY3SefD">
 <p>25. <strong>First, design for data sharing</strong><br />
 John Wilbanks, Stephen H Friend<br />
-<em>Nature Biotechnology</em> (2016-03-03) <a href="https://doi.org/10.1038/nbt.3516" class="uri">https://doi.org/10.1038/nbt.3516</a></p>
+<em>Nature Biotechnology</em> (2016-04) <a href="https://doi.org/10.1038/nbt.3516" class="uri">https://doi.org/10.1038/nbt.3516</a></p>
 </div>
 <div id="ref-nhLnUPJo">
 <p>26. <strong>A multi-disciplinary perspective on emergent and future innovations in peer review</strong><br />
@@ -199,12 +204,12 @@ Jonathan P. Tennant, Jonathan M. Dugan, Daniel Graziotin, Damien C. Jacques, Fra
 <div id="ref-pKdkaWKn">
 <p>27. <strong>Sustainable computational science: the ReScience initiative</strong><br />
 Nicolas P. Rougier, Konrad Hinsen, Frédéric Alexandre, Thomas Arildsen, Lorena Barba, Fabien C. Y. Benureau, C. Titus Brown, Pierre de Buyl, Ozan Caglayan, Andrew P. Davison, … Tiziano Zito<br />
-<em>arXiv</em> (2017-07-14) <a href="https://arxiv.org/abs/1707.04393v1" class="uri">https://arxiv.org/abs/1707.04393v1</a></p>
+<em>arXiv</em> (2017-07-14) <a href="https://arxiv.org/abs/1707.04393v2" class="uri">https://arxiv.org/abs/1707.04393v2</a></p>
 </div>
 <div id="ref-oGNtTmrp">
 <p>28. <strong>Journal of Open Source Software (JOSS): design and first-year review</strong><br />
 Arfon M Smith, Kyle E Niemeyer, Daniel S Katz, Lorena A Barba, George Githinji, Melissa Gymrek, Kathryn D Huff, Christopher R Madan, Abigail Cabunoc Mayes, Kevin M Moerman, … Jacob T Vanderplas<br />
-<em>arXiv</em> (2017-07-07) <a href="https://arxiv.org/abs/1707.02264v1" class="uri">https://arxiv.org/abs/1707.02264v1</a></p>
+<em>arXiv</em> (2017-07-07) <a href="https://arxiv.org/abs/1707.02264v2" class="uri">https://arxiv.org/abs/1707.02264v2</a></p>
 </div>
 <div id="ref-vf9t7xMG">
 <p>29. <strong>The appropriation of GitHub for curation</strong><br />
@@ -237,7 +242,7 @@ Coraline Ada Ehmke<br />
 <div id="ref-11cb5HXoY">
 <p>35. <strong>Sci-Hub provides access to nearly all scholarly literature</strong><br />
 Daniel S Himmelstein, Ariel R Romero, Stephen R McLaughlin, Bastian Greshake Tzovaras, Casey S Greene<br />
-<em>PeerJ Preprints</em> (2017-07-20) <a href="https://doi.org/10.7287/peerj.preprints.3100v1" class="uri">https://doi.org/10.7287/peerj.preprints.3100v1</a></p>
+<em>PeerJ</em> (2017-07-20) <a href="https://doi.org/10.7287/peerj.preprints.3100v1" class="uri">https://doi.org/10.7287/peerj.preprints.3100v1</a></p>
 </div>
 </div>
 <script>
@@ -255,5 +260,7 @@ Daniel S Himmelstein, Ariel R Romero, Stephen R McLaughlin, Bastian Greshake Tzo
 var anchors = new AnchorJS();
 anchors.add("h2, h3, h4")
 </script>
+<!-- Enable Hypothesis annotation. https://web.hypothes.is/ -->
+<script src="https://hypothes.is/embed.js" async></script>
 </body>
 </html>
