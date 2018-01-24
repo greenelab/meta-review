@@ -3,11 +3,13 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2017-11-01'
+date-meta: '2018-01-24'
 keywords:
 - collaborative review
 - continuous integration
 - publishing
+- manubot
+lang: en-US
 title: Meta Review
 ...
 
@@ -18,8 +20,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@33057f0](https://github.com/greenelab/meta-review/tree/33057f0e22a295874ee28cf6a5c2b0bd68b44a83)
-on November  1, 2017.
+from [greenelab/meta-review@86c2c68](https://github.com/greenelab/meta-review/tree/86c2c68ff3f3e479eb9174bbf6a8eb7727e31bbd)
+on January 24, 2018.
 </em></small>
 
 ## Authors
@@ -58,7 +60,7 @@ on November  1, 2017.
     · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
-     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research
+     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
      · Funded by NIH U54AI117924
   </small>
 

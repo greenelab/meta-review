@@ -1,5 +1,5 @@
 {
-  "date": "November  1, 2017",
+  "date": "January 24, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -8,8 +8,13 @@
       "orcid": "0000-0002-3012-7446",
       "twitter": "dhimmel",
       "email": "daniel.himmelstein@gmail.com",
-      "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
-      "funders": "GBMF4552"
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "GBMF4552",
+      "affiliation_numbers": [
+        1
+      ]
     },
     {
       "github": "cgreene",
@@ -18,8 +23,13 @@
       "orcid": "0000-0001-8713-9213",
       "twitter": "GreeneScientist",
       "email": "csgreene@upenn.edu",
-      "affiliations": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
-      "funders": "GBMF4552"
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "GBMF4552",
+      "affiliation_numbers": [
+        1
+      ]
     },
     {
       "github": "agitter",
@@ -28,13 +38,34 @@
       "orcid": "0000-0002-5324-9833",
       "twitter": "anthonygitter",
       "email": "gitter@biostat.wisc.edu",
-      "affiliations": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison and Morgridge Institute for Research",
-      "funders": "NIH U54AI117924"
+      "affiliations": [
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+        "Morgridge Institute for Research"
+      ],
+      "funders": "NIH U54AI117924",
+      "affiliation_numbers": [
+        2,
+        3
+      ]
+    }
+  ],
+  "affiliations": [
+    {
+      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
+      "affiliation_number": 1
+    },
+    {
+      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+      "affiliation_number": 2
+    },
+    {
+      "affiliation": "Morgridge Institute for Research",
+      "affiliation_number": 3
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/meta-review",
-    "commit": "33057f0e22a295874ee28cf6a5c2b0bd68b44a83"
+    "commit": "86c2c68ff3f3e479eb9174bbf6a8eb7727e31bbd"
   },
   "creation_time_utc": "2017-10-30T20:39:40.229583",
   "commit": "d4c316393779a9248d924abae83bc672aafa39df",
@@ -56,6 +87,6 @@
       "url": 9,
       "total": 35
     },
-    "word_count": 2803
+    "word_count": 2806
   }
 }

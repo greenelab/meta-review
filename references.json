@@ -59,9 +59,9 @@
     "id": "Y2XyzLMc"
   },
   {
-    "arxiv_id": "1707.02264v1",
-    "version": "1",
-    "URL": "https://arxiv.org/abs/1707.02264v1",
+    "arxiv_id": "1707.02264v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1707.02264v2",
     "title": "Journal of Open Source Software (JOSS): design and first-year review",
     "issued": {
       "date-parts": [
@@ -129,9 +129,9 @@
     "id": "oGNtTmrp"
   },
   {
-    "arxiv_id": "1707.04393v1",
-    "version": "1",
-    "URL": "https://arxiv.org/abs/1707.04393v1",
+    "arxiv_id": "1707.04393v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1707.04393v2",
     "title": "Sustainable computational science: the ReScience initiative",
     "issued": {
       "date-parts": [
@@ -290,12 +290,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-10T15:11:08Z",
-      "timestamp": 1502377868654
+      "date-time": "2017-10-27T00:12:59Z",
+      "timestamp": 1509063179388
     },
     "publisher-location": "Cham",
     "reference-count": 0,
@@ -400,12 +400,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          31
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-31T23:22:12Z",
-      "timestamp": 1504221732518
+      "date-time": "2017-10-27T01:55:56Z",
+      "timestamp": 1509069356318
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -494,11 +494,11 @@
         [
           2017,
           10,
-          10
+          28
         ]
       ],
-      "date-time": "2017-10-10T07:40:34Z",
-      "timestamp": 1507621234352
+      "date-time": "2017-10-28T01:22:09Z",
+      "timestamp": 1509153729936
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -593,19 +593,48 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          9,
-          26
+          2018,
+          1,
+          16
         ]
       ],
-      "date-time": "2017-09-26T08:22:13Z",
-      "timestamp": 1506414133673
+      "date-time": "2018-01-16T17:42:15Z",
+      "timestamp": 1516124535727
     },
     "reference-count": 8,
     "publisher": "Springer Nature",
+    "issue": "4",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2016-04-01T00:00:00Z",
+          "timestamp": 1459468800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
     "content-domain": {
-      "domain": [],
+      "domain": [
+        "link.springer.com"
+      ],
       "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          4
+        ]
+      ]
     },
     "DOI": "10.1038/nbt.3516",
     "type": "article-journal",
@@ -620,10 +649,13 @@
       "date-time": "2016-03-03T14:56:09Z",
       "timestamp": 1457016969000
     },
+    "page": "377-379",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 5,
     "title": "First, design for data sharing",
     "prefix": "10.1038",
+    "volume": "34",
     "author": [
       {
         "given": "John",
@@ -641,23 +673,43 @@
       "date-parts": [
         [
           2016,
-          3,
-          3
+          4,
+          1
         ]
       ]
     },
     "container-title": "Nature Biotechnology",
     "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nbt.3516.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nbt.3516",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nbt.3516.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
           2017,
-          6,
-          24
+          12,
+          27
         ]
       ],
-      "date-time": "2017-06-24T07:29:47Z",
-      "timestamp": 1498289387000
+      "date-time": "2017-12-27T04:38:50Z",
+      "timestamp": 1514349530000
     },
     "score": 1.0,
     "subtitle": [],
@@ -666,14 +718,13 @@
       "date-parts": [
         [
           2016,
-          3,
-          3
+          4
         ]
       ]
     },
     "references-count": 8,
     "alternative-id": [
-      "nbt.3516"
+      "BFnbt3516"
     ],
     "URL": "https://doi.org/10.1038/nbt.3516",
     "relation": {
@@ -695,19 +746,47 @@
       "date-parts": [
         [
           2017,
-          10,
-          11
+          12,
+          27
         ]
       ],
-      "date-time": "2017-10-11T13:22:18Z",
-      "timestamp": 1507728138240
+      "date-time": "2017-12-27T16:10:33Z",
+      "timestamp": 1514391033375
     },
     "reference-count": 33,
     "publisher": "Springer Nature",
     "issue": "4",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              3,
+              13
+            ]
+          ],
+          "date-time": "2017-03-13T00:00:00Z",
+          "timestamp": 1489363200000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
     "content-domain": {
-      "domain": [],
+      "domain": [
+        "link.springer.com"
+      ],
       "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          4
+        ]
+      ]
     },
     "DOI": "10.1038/nbt.3780",
     "type": "article-journal",
@@ -723,8 +802,9 @@
       "timestamp": 1489421013000
     },
     "page": "342-346",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 4,
+    "is-referenced-by-count": 0,
     "title": "Reproducibility of computational workflows is automated using continuous analysis",
     "prefix": "10.1038",
     "volume": "35",
@@ -754,16 +834,36 @@
     },
     "container-title": "Nature Biotechnology",
     "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nbt.3780.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nbt.3780",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nbt.3780.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
           2017,
-          6,
-          25
+          12,
+          27
         ]
       ],
-      "date-time": "2017-06-25T12:32:14Z",
-      "timestamp": 1498393934000
+      "date-time": "2017-12-27T15:37:33Z",
+      "timestamp": 1514389053000
     },
     "score": 1.0,
     "subtitle": [],
@@ -779,17 +879,10 @@
     },
     "references-count": 33,
     "alternative-id": [
-      "nbt.3780"
+      "BFnbt3780"
     ],
     "URL": "https://doi.org/10.1038/nbt.3780",
     "relation": {
-      "has-preprint": [
-        {
-          "id-type": "doi",
-          "id": "10.1101/056473",
-          "asserted-by": "object"
-        }
-      ],
       "cites": []
     },
     "subject": [
@@ -807,13 +900,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          9,
-          28
+          2018,
+          1,
+          23
         ]
       ],
-      "date-time": "2017-09-28T15:42:20Z",
-      "timestamp": 1506613340757
+      "date-time": "2018-01-23T16:02:16Z",
+      "timestamp": 1516723336261
     },
     "reference-count": 32,
     "publisher": "Springer Nature",
@@ -836,7 +929,7 @@
     },
     "page": "160018",
     "source": "Crossref",
-    "is-referenced-by-count": 143,
+    "is-referenced-by-count": 223,
     "title": "The FAIR Guiding Principles for scientific data management and stewardship",
     "prefix": "10.1038",
     "volume": "3",
@@ -1259,12 +1352,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T04:59:40Z",
-      "timestamp": 1502427580227
+      "date-time": "2017-10-27T09:29:29Z",
+      "timestamp": 1509096569752
     },
     "reference-count": 0,
     "publisher": "Informa UK Limited",
@@ -1367,12 +1460,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          10
+          12,
+          31
         ]
       ],
-      "date-time": "2017-08-10T00:46:17Z",
-      "timestamp": 1502325977175
+      "date-time": "2017-12-31T12:42:19Z",
+      "timestamp": 1514724139895
     },
     "reference-count": 2,
     "publisher": "Informa UK Limited",
@@ -1404,7 +1497,7 @@
     },
     "page": "45-60",
     "source": "Crossref",
-    "is-referenced-by-count": 20,
+    "is-referenced-by-count": 21,
     "title": "Comparison of Select Reference Management Tools",
     "prefix": "10.1080",
     "volume": "31",
@@ -1468,13 +1561,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          8,
-          11
+          2018,
+          1,
+          20
         ]
       ],
-      "date-time": "2017-08-11T15:31:27Z",
-      "timestamp": 1502465487706
+      "date-time": "2018-01-20T06:40:06Z",
+      "timestamp": 1516430406782
     },
     "posted": {
       "date-parts": [
@@ -1495,13 +1588,13 @@
     "accepted": {
       "date-parts": [
         [
-          2017,
-          5,
-          28
+          2018,
+          1,
+          19
         ]
       ]
     },
-    "abstract": "<jats:p>Deep learning, which describes a class of machine learning algorithms, has recently showed impressive results across a variety of domains. Biology and medicine are data rich, but the data are complex and often ill-understood. Problems of this nature may be particularly well-suited to deep learning techniques. We examine applications of deep learning to a variety of biomedical problems -- patient classification, fundamental biological processes, and treatment of patients -- to predict whether deep learning will transform these tasks or if the biomedical sphere poses unique challenges. We find that deep learning has yet to revolutionize or definitively resolve any of these problems, but promising advances have been made on the prior state of the art. Even when improvement over a previous baseline has been modest, we have seen signs that deep learning methods may speed or aid human investigation. More work is needed to address concerns related to interpretability and how to best model each problem. Furthermore, the limited amount of labeled data for training presents problems in some domains, as can legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning powering changes at the bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
+    "abstract": "<jats:p>Deep learning, which describes a class of machine learning algorithms, has recently showed impressive results across a variety of domains. Biology and medicine are data rich, but the data are complex and often ill-understood. Problems of this nature may be particularly well-suited to deep learning techniques. We examine applications of deep learning to a variety of biomedical problems - patient classification, fundamental biological processes, and treatment of patients - and discuss whether deep learning will transform these tasks or if the biomedical sphere poses unique challenges. We find that deep learning has yet to revolutionize or definitively resolve any of these problems, but promising advances have been made on the prior state of the art. Even when improvement over a previous baseline has been modest, we have seen signs that deep learning methods may speed or aid human investigation. More work is needed to address concerns related to interpretability and how to best model each problem. Furthermore, the limited amount of labeled data for training presents problems in some domains, as do legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning powering changes at both bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
     "DOI": "10.1101/142760",
     "type": "manuscript",
     "created": {
@@ -1577,6 +1670,20 @@
         "affiliation": []
       },
       {
+        "ORCID": "http://orcid.org/0000-0003-0539-630X",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Zietz",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-4517-1562",
+        "authenticated-orcid": false,
+        "given": "Michael M",
+        "family": "Hoffman",
+        "affiliation": []
+      },
+      {
         "ORCID": "http://orcid.org/0000-0002-1871-6846",
         "authenticated-orcid": false,
         "given": "Wei",
@@ -1647,6 +1754,34 @@
         "affiliation": []
       },
       {
+        "ORCID": "http://orcid.org/0000-0002-7762-1089",
+        "authenticated-orcid": false,
+        "given": "Christopher A",
+        "family": "Lavender",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3247-6487",
+        "authenticated-orcid": false,
+        "given": "Srinivas C",
+        "family": "Turaga",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8655-8109",
+        "authenticated-orcid": false,
+        "given": "Amr M",
+        "family": "Alexandari",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9998-916X",
+        "authenticated-orcid": false,
+        "given": "Zhiyong",
+        "family": "Lu",
+        "affiliation": []
+      },
+      {
         "ORCID": "http://orcid.org/0000-0003-3332-9307",
         "authenticated-orcid": false,
         "given": "David J.",
@@ -1696,6 +1831,27 @@
         "affiliation": []
       },
       {
+        "ORCID": "http://orcid.org/0000-0002-1400-3398",
+        "authenticated-orcid": false,
+        "given": "Simina M",
+        "family": "Boca",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2191-0778",
+        "authenticated-orcid": false,
+        "given": "S. Joshua",
+        "family": "Swamidass",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1349-4030",
+        "authenticated-orcid": false,
+        "given": "Austin",
+        "family": "Huang",
+        "affiliation": []
+      },
+      {
         "ORCID": "http://orcid.org/0000-0002-5324-9833",
         "authenticated-orcid": false,
         "given": "Anthony",
@@ -1724,13 +1880,13 @@
     "deposited": {
       "date-parts": [
         [
-          2017,
-          5,
-          29
+          2018,
+          1,
+          20
         ]
       ],
-      "date-time": "2017-05-29T05:10:24Z",
-      "timestamp": 1496034624000
+      "date-time": "2018-01-20T06:11:43Z",
+      "timestamp": 1516428703000
     },
     "score": 1.0,
     "subtitle": [],
@@ -1754,13 +1910,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          9,
-          4
+          2018,
+          1,
+          18
         ]
       ],
-      "date-time": "2017-09-04T06:22:12Z",
-      "timestamp": 1504506132390
+      "date-time": "2018-01-18T20:22:20Z",
+      "timestamp": 1516306940333
     },
     "reference-count": 29,
     "publisher": "IEEE",
@@ -1789,7 +1945,7 @@
       "timestamp": 1171051612000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 27,
+    "is-referenced-by-count": 32,
     "title": "Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology",
     "prefix": "10.1109",
     "author": [
@@ -1846,13 +2002,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          9,
-          29
+          2018,
+          1,
+          3
         ]
       ],
-      "date-time": "2017-09-29T10:22:19Z",
-      "timestamp": 1506680539538
+      "date-time": "2018-01-03T17:22:21Z",
+      "timestamp": 1515000141989
     },
     "reference-count": 258,
     "publisher": "F1000 Research, Ltd.",
@@ -1878,7 +2034,7 @@
     "page": "1151",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 5,
     "title": "A multi-disciplinary perspective on emergent and future innovations in peer review",
     "prefix": "10.12688",
     "volume": "6",
@@ -2137,12 +2293,12 @@
       "date-parts": [
         [
           2017,
-          9,
+          10,
           12
         ]
       ],
-      "date-time": "2017-09-12T11:25:27Z",
-      "timestamp": 1505215527000
+      "date-time": "2017-10-12T16:00:22Z",
+      "timestamp": 1507824022000
     },
     "score": 1.0,
     "subtitle": [],
@@ -2208,9 +2364,20 @@
         }
       },
       {
+        "value": "<b>Ed Sucksmith</b>; \n<i>Posted: 10 Oct 2017</i>; Dr Tenant and colleagues present a very interesting and well written review of the traditional peer review process and its present and future innovations. Whilst the authors take a somewhat more pessimistic viewpoint of the traditional peer review process/ commercial publishing than my own, I found it a very enjoyable read during a long, grey and drizzly train journey from Edinburgh to London.I have provided some suggestions for improving the paper below. I hope you find some of the comments useful! (and it's not too late to consider these points before your next revision).General points:-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I support David Moher’s suggestion to be transparent about the study’s design and methods. It appears to be a narrative review, and as such it does not have a standardized, reproducible methodology that you associate with a systematic review. This should be acknowledged as a limitation; as with all narrative reviews there's the concern that references have been selectively chosen rather than providing a more objective overview of the background literature on the topic that comes with carrying out a systematic review. I would recommend being transparent about the study's strengths and limitations somewhere near the beginning of the article.-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I found the last section about future innovations in peer review fascinating (despite struggling to understand some of the new technologies described). I would be interested to know more about what you envisage the role of the editor to be in the future if these peer review innovations become more popular? I initially thought you anticipate that peer review innovations would lead to a landscape where editors as ‘gate-keepers’ are no longer required or desired. However, you go on to say that there there needs to be a role for editors, who would be democratically nominated by the community to moderate content. Would editors be responsible for finding/ inviting reviewers as well? If not then is there a danger that people will end up reviewing a minority of papers in disproportionately high numbers if they are free to choose whichever paper they wish to review? (e.g. papers that sound the most interesting, or are on ‘fashionable’ topics, or are written by influential authors?) How will the proposed innovations in peer review solve this problem?Specific comments (NB: I think I read the original version so page numbers may not be accurate):Page 3 “We use this as the basis to consider how specific traits of consumer social Web platforms can be combined to create an optimized hybrid peer review model&nbsp;\n<i><b>that is more efficient, democratic, and accountable than the traditional process</b></i>.” –has there been any research on hybrid peer review models to back this up? I think I would say something like: “..that we predict to be more efficient..”Page 4 “A consequence of this was that peer review became a more homogenized process that enabled private publishing companies to establish a dominant, oligarchic marketplace position (Larivi&egrave;re et al., 2015).” – Isn’t ‘oligopolistic’ a more appropriate term here instead of ‘oligarchic’?Page 7 “However, beyond editorials, there now exists a substantial corpus of studies that critically examine the technical aspects of peer review which, taken together, should be extremely worrisome” – I think this statement needs to be supported by some references.Page 7 “The issue is that, ultimately, this uncertainty in standards and implantation can potentially lead to, or at least be viewed as the cause of, widespread failures in research quality and integrity (Ioannidis, 2005; Jefferson et al., 2002) and even the rise of formal retractions in extreme cases (Steen et al., 2013)” - Do all the references provided here attribute these problems to traditional peer review? I agree that peer review failures is a big factor but I wouldn’t say this is the sole cause of these problems. For a paper to be retracted there needs to be multiple failures from multiple players including the author writing the paper to the authors who should be checking for errors before submitting the paper to the peer reviewers and editors who fail to identify the errors during peer review.Page 8 What do you mean by “oligarchic research institutes”? When does a research institute become “oligarchic”? Perhaps elaborate?Page 10 “The present lack of bona fide incentives for referees is perhaps the main factor responsible for indifference to editorial outcomes, which ultimately leads to the increased proliferation of low quality research (D’Andrea &amp; O’Dwyer, 2017)” – you’ve cited a pre-print paper that is a modeling study of peer review practices. Are there any 'real world' studies to back this up too?&nbsp;Page 12 “Journals with higher transparency ratings, moreover, were less likely to accept flawed papers and showed a higher impact as measured by Google Scholar’s h5-index” – which previously referenced paper is this finding from?Page 12 “It is ironic that, while assessments of articles can never be evidence-based without the publication of referee reports..” - I don’t understand why publishing referee reports makes assessment of articles “evidence based”. Do you mean something like: ‘..while assessments of articles can never be publicly verifiable..’?Section 2.5.3 I would suggest elaborating on the potential advantages and disadvantages of peer review by endorsement. For example, I believe there are a number of studies suggesting that author-recommended reviewers are more likely to recommend acceptance than non-recommended reviewers (and so editors should be cautious about inviting only author-recommended reviewers). Is this a problem for PRE? Also I would have thought that this system would potentially be more open to abuse/ gaming e.g. suggesting fake peer reviewers (the series of BMC papers that were retracted a while back from fake peer reviews was facilitated by authors being allowed to recommend (fake) reviewers).Page 18 “Also, PRE is much cheaper, legitimate, unbiased, faster, and more efficient alternative to the traditional-mediated method” - Is there any research backing this statement up? If not then I suggest removing this sentence or making it clear that this is your viewpoint.Page 18 “In theory, depending on the state of the manuscript, this means that submissions can be published much more rapidly, as relatively little processing is required” - I think this needs elaborating on. Why is relatively little processing required in PRE compared to traditional peer review?Page 19 “In any vision of the future of scholarly publishing (Kriegestorte et al., 2012)”&nbsp; - I don’t understand why you need a reference here!&nbsp;Page 33 “The most widely-held reason for performing peer review is a sense of academic altruism or duty to the research community.” – this needs a reference.There were a few typos/ formatting inconsistencies in the version I read:Page 5 both “skepticism” and “scepticism” used.Page 28 “decoupled the quality assessment” should be “decouple the quality assessment”.Page 33 “unwise at it may lead” should be “unwise as it may lead”.Best of luck with the revisions!",
+        "URL": "https://f1000research.com/articles/6-1151/v1#article-response-3100",
+        "order": 3,
+        "name": "article-response-3100",
+        "label": "Article Comment",
+        "group": {
+          "name": "article-comments",
+          "label": "Article Comments"
+        }
+      },
+      {
         "value": "<b>Aileen Fyfe</b>; \n<i>Posted: 23 Aug 2017</i>; Like Melinda Baldwin, I am an historian, and I will comment mostly on the historical content in this paper.&nbsp;So far as the paper as a whole goes, I find myself unsure what to make of it, as it is so massive it is hard to imagine the intended audience. I wasn't entirely convinced that the conclusions were worth the length, for they seem sensible rather than particularly novel.I do like the emphasis at various points on communities: I presume you are right that the technologies exist to create a community-run system of scholarly communication where the power and responsibility lies in the hands of academic communities rather than commercial publishers. I myself hope that recreating a strong community for the sharing and discussion of research results will sort out some of the challenges of reviewer engagement and recognition (I base that belief on my own work on a editorial/reviewing system that was strongly community based, i.e. the Royal Society prior to the late 20th century). But I think the challenge that this paper doesn't really rise to, is how those academic-led communities should be formed and run. Are these groups based around existing disciplinary societies and subject associations? Or around existing research labs or institutes? Or something else?As far as the history goes:I suppose I'm pleased to see some history of peer review in there. But actually, I'm saddened that section 1.1.1 reinforces the historical myth of a 17th-century origin for peer review, that section 1.2 so adroitly acknowledges. As section 1.2 notes, there has been a lot of recent work on peer review in the 19th and early 20th centuries (from me, Baldwin, Csiszar and others). Thus, our understanding of the historical development and uses of peer review is now rather different from what it was when Kronick, Spier, Burnham or even Biagioli were writing. We now emphasise the 19th century much more - which is unsurprising given that this was the period of the professionalisation of science, and of the proliferation of scientific journals (both continued to grow in the 20thC, of course). Thus, the narrative in 1.1.1 is dated, and the timeline in Figure 1 makes it look as if no historical scholarship has been done on this topic in the last decade.I was left wondering why you need the history in there at this length.&nbsp;I think that the key historical points - for your purpose - from the material in 1.1.1 and 1.1.2 are that refereeing used to be specifically associated with learned societies (especially in the 19thC), and that its emergence as a mainstream standard element of academic journal publishing dates from the mid/late 20thC and is associated with&nbsp;&nbsp;the development of a modern prestige economy in academia, and the commercialisation of academic publishing. If I were you, I'd seriously think of cutting the history right back to that (since the paper is so long, and is mostly about the present and future); but trying to ensure that what you do say reflects current scholarship, and that you're consistent in the vision of history that you present in different sections of the paper.That vision of history seeps into the article in some less obvious ways later on. For instance, you have a tendency to talk about the 'traditional' way of doing things, when what you really mean is 'the way things have been done since the 1960s/70s'. To me, that's not 'traditional', that's the status quo, or some shorthand for 'the system created by commercial publishers and the pressures of academic prestige'. By labelling everything before now as 'traditional', you gloss over the complexities of the history (and, once more, reinforce that myth).Similarly, when you talk of a 'peer review revolution': a) it looks to me more like 'a new phase of experimentation' rather than a revolution; b) some of what you're talking about as new isn't so new - there are historical precedents for much of it (e.g. for published, named reviews, see the article by Csiszar that Melinda Baldwin mentioned; e.g. for 'publish first, filter later', lots of non-society journals in the 19th and 20th century didn't use peer review at all, but aimed to publish interesting news quickly); and in some cases, what we're really looking at is a return to older ways of doing things (e.g. community-based editing and refereeing).At the very end, you seem to recognise this 'return to...' element (rather than revolution), when you suggest we are returning to 'core principles upon which it was founded more than a century ago' - but now I'm confused about your implied chronology again! If I was forced to choose a date for the foundation of peer review, I'd choose either the 1830s or the 1960s/70s, but neither of them really seem to be what you have in mind (yet you're presumably not thinking of 1665, either...?).Some specific comments:The Royal Society of Edinburgh didn't exist in 1731 (it was founded 1783). (The mistake is Kronick and Spier's; I understand why, but it doesn't really matter to your article.)The Royal Society, London shouldn't be referred to as 'the United Kingdom Royal Society'In 1.1.2, re scholarly publishing 'turning into a loss-making business' - that implies it had previously been profit-making. I'd rephrase that paraphrasing of my own work as 'since scholarly publishing in the 19thC was essentially a loss-making business'...The up-to-date reference (with revised title) for Moxham &amp; Fyfe 2016 (now the article has been accepted, and the REF-mandated AAM is available), is at&nbsp;http://research-repository.st-andrews.ac.uk/handle/10023/11178",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2971",
-        "order": 3,
+        "order": 4,
         "name": "article-response-2971",
         "label": "Article Comment",
         "group": {
@@ -2221,7 +2388,7 @@
       {
         "value": "<b>Melinda Baldwin</b>; \n<i>Posted: 17 Aug 2017</i>; Thank you for a very interesting piece on how peer review might fit into an open access publishing landscape, and how it might change to fit the shifting needs of the scientific community. I am especially grateful to see so much of the historical literature incorporated into the article's early sections; I think this is an area where a lot of exciting research is being done.Since I'm a historian, I will largely confine my comments to the article's historical content. First, I am a bit puzzled by Figure 1, which seems to suggest that very little happened to refereeing between the 18th century and the late 1960s. I would argue that the 19th century was a critical time for the development of refereeing practices. A good source on this is Alex Csiszar's editorial for \n<i>Nature </i>(A. Csiszar,&nbsp;\n<i>Nature</i>&nbsp;\n<b>532</b>, 306 (2016)). Historians are also in general agreement that Henry Oldenburg did not &quot;initiate the process of peer review.&quot;&nbsp;Pre-19th century internal review practices among scientific societies were significantly different than modern refereeing, in part because publishing served such a different function for those communities. Csiszar argues, and I agree, that system we now know as peer review has its strongest origins in the 19th century and not in the Scientific Revolution or the Enlightenment.&nbsp;Second, it may be worth noting that the term &quot;peer review&quot; is itself a creation of the 20th century, and it arose at around the same time that peer review went from being an optional feature of a scientific journal to being a requirement for scientific respectability.&nbsp;I also wonder if it is fair to deem the post-1990 period a &quot;revolution&quot; in peer review. It's clearly a period of change and innovation, as you highlight, but much of the peer review system outside the open access community has not experienced a major change in the way peer review functions.&nbsp;One final, picky point about&nbsp;\n<i>Nature</i>'s history: John Maddox did much to expand the system of refereeing at \n<i>Nature,&nbsp;</i>but he retained some practices that would now be considered unusual, including preserving his own right to publish something without seeking external reports. (This was common for commercial publications at the time.) It was really not until 1973 that refereeing became a requirement for scientific articles in&nbsp;\n<i>Nature.</i>Thank you again for a fascinating read, and please don't hesitate to reach out if I can clarify any of my comments!Melinda Baldwin",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2962",
-        "order": 4,
+        "order": 5,
         "name": "article-response-2962",
         "label": "Article Comment",
         "group": {
@@ -2232,7 +2399,7 @@
       {
         "value": "<b>Richard Walker</b>; \n<i>Posted: 17 Aug 2017</i>; This is an interesting paper which makes a number of useful points. It correctly points out &nbsp;that “classical peer review&quot; is a relatively recent innovation whose historical roots are far less deep that many scientists assume - a point that cannot be repeated too often. It also offers a number of useful insights. The discussion of the advantages and disadvantages of different forms of Open Peer Review is very useful. The point on &nbsp;the need to peer review peer review is a good one.But that having been said, I sense a lack of focus. &nbsp;This makes the paper hard to read. Worse, important points are often buried in the middle of material that is less important. I note three examples, which are of especial interest to the publisher where I work (Frontiers) but which are also of general interest1) &nbsp;The authors briefly refer (p4) to “digital only publication venues that vet publications based on the soundness of the research” citing PLOS (it should be PLOS ONE), and PeerJ. &nbsp;What they are referring to is so-called “non-selective” or “impact neutral review”, where reviewers are explicitly requested to ignore a manuscript's novelty and potential impact and to focus on validity of its methods and results. &nbsp;This form of review was introduced more or less simultaneously by PLOS ONE and by Frontiers and has since been adopted by a high proportion of all Open Access journals. One can make arguments for and against, but it should not be dismissed in a single sentence.2) &nbsp; The authors focus on the role of peer-review as a gate-keeper (which, of course, it is). However they gave little attention to its role in improving the quality of manuscripts. This role can be greatly facilitated by forms of interactive review, where reviewers and authors work together to reach a final draft - another Frontiers innovation that has influenced many other journals and publishers. The innovation is mentioned &nbsp;(in Table 2, p9) but never discussed.3) &nbsp; Another important topic, buried in the rest of the paper, is the role of the technology platforms, already used by Open Access and classical publishers. Good and bad platforms can be vital enablers for/obstacles to innovative forms of peer review. The paper dedicates a lot of space to platforms that have yet to have a major impact, and to social media platforms outside the world of scholarly publishing, but almost none to established platforms such as our own.Apart from these specific issues, I would like to suggest three further changes to improve focus and readability.1) &nbsp;The paper should make a clear distinction between innovations that have already had a major impact (e.g. the advent of peer print servers) and small-scale experiments that have not had such an impact (of which there are many). Space in the article should be allocated accordingly.2) &nbsp;It should make a clear distinction between peer review, (as academics understand it) and reader commentary: the former plays a vital role in scholarly publishing, the role of the latter has been marginal.3) &nbsp;The authors should keep to the topic they define for themselves at the beginning of their paper: peer review of scientific papers. Discussions of peer review in other areas (e.g. software) are interesting but distract from the main theme.I hope all this is useful.Richard Walker",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2960",
-        "order": 5,
+        "order": 6,
         "name": "article-response-2960",
         "label": "Article Comment",
         "group": {
@@ -2243,7 +2410,7 @@
       {
         "value": "<b>Jon Tennant</b>; \n<i>Posted: 11 Aug 2017</i>; Dear Brian,Thank you for your insightful and useful comment here. In the revised version, we will make sure to expand upon the role of peer review in assisting editorial decisions, as well as providing feedback to improve the skills of authors, as you mentioned. I think these are really important points too, and we thank you for pointing out that they could be expanded on in our manuscript. Incidentally, training scholars for peer review, particularly junior ones, is something of great interest to me too, and I have drafted this peer review template to help support researchers looking to write their first peer reviews.Best,Jon",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2947",
-        "order": 6,
+        "order": 7,
         "name": "article-response-2947",
         "label": "Article Comment",
         "group": {
@@ -2254,7 +2421,7 @@
       {
         "value": "<b>Brian Martin</b>; \n<i>Posted: 09 Aug 2017</i>; Thank you for a really valuable article: thorough, critical and forward-looking. It is especially difficult to balance analysis of shortcomings of traditional peer-review models with an open-minded assessment of possible alternatives, and their potential shortcomings too, and you’ve done this extremely well. I like very much your comments about the entrenchment of the present system and the need for an alternative to develop a critical mass.&nbsp;There’s an aspect could have been developed further. One role of peer review is to help make decisions about acceptance or rejection of articles, which is your main focus. Another role is to improve the quality of articles by giving feedback to authors, aiding them in revising the article (for submission at the same journal or another one). This second role, when done well, also helps the authors to become better scholars, by improving their insights and skills. In the language of undergraduate teaching, these two roles are summative and formative or, in other words, evaluative and developmental.&nbsp;For decades I have sent drafts of my writings to colleagues for their comments before I submit them for publication. Sometimes I go through several versions that are sent to different readers. This might be considered a type of peer review, but it is separate from the formal judgements provided by journal referees.&nbsp;The formative or developmental side of peer review need not be tied to the summative or evaluative side. Scott Armstrong for many years studied and reviewed research on peer review. In order to encourage innovation, he recommends that referees do not make a recommendation about acceptance or rejection, but only comment on papers and how they might be improved, leaving decisions to editors. (See for example J. S. Armstrong, “Peer review for journals: evidence on quality control, fairness, and innovation,” \n<i>Science and Engineering Ethics, </i>Vol. 3, 1997, pp. 63–84.)&nbsp;This is the approach I have used for all my referee reports for many years. I waive anonymity and say I would be happy to correspond directly with the author, and quite a few authors have thanked me for my reports. I even wrote a short piece presenting this approach: “Writing a helpful referee’s report,” http://www.bmartin.cc/pubs/08jspwhrr.html.&nbsp;Personally, I value peer review as a means to foster better quality in my publications. I am more worried about being the author of a weak or flawed paper than in having one more publication.&nbsp;Treating peer review as a means of improvement is quite compatible with many of the new publishing platforms. It is a more collaborative approach to the creation of knowledge than the occasional adversarial use of refereeing to shoot down the work of rivals.",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2944",
-        "order": 7,
+        "order": 8,
         "name": "article-response-2944",
         "label": "Article Comment",
         "group": {
@@ -2265,7 +2432,7 @@
       {
         "value": "<b>Jon Tennant</b>; \n<i>Posted: 24 Jul 2017</i>; Dear Philip,  Many thanks for your useful and constructive comments here. We will address each of them in the revised version of this manuscript, once more comments and the reviews have been obtained.  Many thanks,  Jon",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2906",
-        "order": 8,
+        "order": 9,
         "name": "article-response-2906",
         "label": "Article Comment",
         "group": {
@@ -2276,7 +2443,7 @@
       {
         "value": "<b>Philip Young</b>; \n<i>Posted: 21 Jul 2017</i>; Thanks to all the authors of this article for a very informative review of peer review and an exploration of directions it might take in the future.  There may be too much emphasis on reviewer identity as opposed to the openness of the reviews themselves; in section 2.1 where the three criteria for OPR are listed, consider reversing 1 and 2. The availability of reviews seems of greater importance than reviewer identity in terms of verifying that peer review took place as well as advancing knowledge. Peer review’s small to nonexistent role in promotion and tenure is only briefly mentioned (2.2.1); you could consider how or why this might change in 4.3 (incentives) or 4.4 (challenges).  There is one effort that came to mind that may merit a brief mention in your article- Peer Review Evaluation (PRE) http://www.pre-val.org/, a service of the AAAS. About a year ago the journal \n<i>Diabetes</i> was using this service- see an example at https://doi.org/10.2337/db16-0236. If you go to this article and click on the green PRE seal, you retrieve a pop-up that details the peer review method, number of rounds of review, and the number of reviewers and editors involved. It’s not clear to me whether PRE is still an active service; current articles from this journal don’t seem to have the seal. In any case this provides some degree of transparency, though short of open peer review.  Although I don’t know if it would be considered an “annotation service”, in Table 2 at the far bottom right you might also add Publons as an example of decoupled post-publication review- I have used it several times for this purpose. As an added benefit, these reviews are picked up by Altmetric.com on a separate “Peer Reviews” tab of their detail display (they also track PubPeer; I’m not sure if Plum Analytics does something similar). See https://www.altmetric.com/details/8959879 for an example. This might be a form of decoupled peer review aggregation worth mentioning in section 2.5.4 (end of the first paragraph).  In section 3.1.1 on Reddit, you might briefly describe what “flair” is.  In section 3.1.2 you suggest ORCID as an example of a social network for academia, but I think it is better to call it an academic profile as you do in section 4.3 (although it wasn’t intended to be that either). I think connecting ORCID and peer reviewing is a good idea, and as you mention, Publons is already doing this.  Also, I have a couple of suggestions that may be better directed to the journal rather than the authors. First, this article and others like it use many non-DOI links to refer to web pages. To ensure the longevity of the evidence base in its articles, journals might begin using (or requiring authors to use) web archiving tools like the Wayback Machine, WebCite, or Perma.cc in order to prevent link rot. For example, see: Jones SM, Van de Sompel H, Shankar H, Klein M, Tobin R, Grover C (2016) Scholarly Context Adrift: Three out of Four URI References Lead to Changed Content. PLoS ONE 11(12): e0167475. https://doi.org/10.1371/journal.pone.0167475. Second, in the references the DOI format should follow CrossRef recommendations to eliminate the “dx” and add HTTPS, so that http://dx.doi.org becomes https://doi.org.",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2902",
-        "order": 9,
+        "order": 10,
         "name": "article-response-2902",
         "label": "Article Comment",
         "group": {
@@ -2287,7 +2454,7 @@
       {
         "value": "<b>Mike Taylor</b>; \n<i>Posted: 20 Jul 2017</i>; Leonid Schneider suggests:  \n<i>Given the rather numerous advertising references to ScienceOpen in the main text, it might be helpful if Dr Tennant declared this commercial entity as his main and current place of work as affiliation.</i>  I don't understand how the statement right up in the author information doesn't meet this demand: &quot;\n<b>Competing interests</b>:&nbsp;JPT works for ScienceOpen.&quot;",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2895",
-        "order": 10,
+        "order": 11,
         "name": "article-response-2895",
         "label": "Article Comment",
         "group": {
@@ -2298,7 +2465,7 @@
       {
         "value": "<b>Jon Tennant</b>; \n<i>Posted: 20 Jul 2017</i>; The &nbsp;Competing Interests section in this paper clearly states my relationship with ScienceOpen.  My institutional affiliation is Imperial College London. They paid the APC for this article.",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2892",
-        "order": 11,
+        "order": 12,
         "name": "article-response-2892",
         "label": "Article Comment",
         "group": {
@@ -2309,7 +2476,7 @@
       {
         "value": "<b>Leonid Schneider</b>; \n<i>Posted: 20 Jul 2017</i>; Given the rather numerous advertising references to ScienceOpen in the main text, it might be helpful if Dr Tennant declared this commercial entity as his main and current place of work as affiliation.According to his own CV on LinkedIn, Dr Tennant is not working at Imperial College London since 2016, which he also confirmed on Twitter, also declaring that he has not yet obtained his doctorate degree officially.&nbsp;https://www.linkedin.com/in/dr-jonathan-tennant-3546953a/https://twitter.com/Protohedgehog/status/881799768040763395",
         "URL": "https://f1000research.com/articles/6-1151/v1#article-response-2888",
-        "order": 12,
+        "order": 13,
         "name": "article-response-2888",
         "label": "Article Comment",
         "group": {
@@ -2319,7 +2486,7 @@
       },
       {
         "value": "TRH was supported by funding from the European Commission H2020 project OpenAIRE2020 (Grant agreement: 643410, Call: H2020-EINFRA-2014-1). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
-        "order": 13,
+        "order": 14,
         "name": "grant-information",
         "label": "Grant Information"
       },
@@ -2337,13 +2504,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          9,
-          19
+          2018,
+          1,
+          9
         ]
       ],
-      "date-time": "2017-09-19T08:22:10Z",
-      "timestamp": 1505809330524
+      "date-time": "2018-01-09T17:02:26Z",
+      "timestamp": 1515517346836
     },
     "reference-count": 10,
     "publisher": "Public Library of Science (PLoS)",
@@ -2388,7 +2555,7 @@
     "page": "e1001195",
     "update-policy": "http://dx.doi.org/10.1371/journal.pbio.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 60,
+    "is-referenced-by-count": 69,
     "title": "The Open Knowledge Foundation: Open Data Means Better Science",
     "prefix": "10.1371",
     "volume": "9",
@@ -2462,12 +2629,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-09T00:18:44Z",
-      "timestamp": 1502237924821
+      "date-time": "2017-10-27T11:17:28Z",
+      "timestamp": 1509103048136
     },
     "reference-count": 6,
     "publisher": "Public Library of Science (PLoS)",
@@ -2512,7 +2679,7 @@
     "page": "e1004668",
     "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 13,
+    "is-referenced-by-count": 14,
     "title": "A Quick Introduction to Version Control with Git and GitHub",
     "prefix": "10.1371",
     "volume": "12",
@@ -2605,13 +2772,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          8,
-          9
+          2018,
+          1,
+          4
         ]
       ],
-      "date-time": "2017-08-09T15:04:08Z",
-      "timestamp": 1502291048321
+      "date-time": "2018-01-04T18:42:17Z",
+      "timestamp": 1515091337910
     },
     "reference-count": 24,
     "publisher": "Public Library of Science (PLoS)",
@@ -2656,7 +2823,7 @@
     "page": "e1004947",
     "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 6,
+    "is-referenced-by-count": 12,
     "title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
     "prefix": "10.1371",
     "volume": "12",
@@ -2837,12 +3004,12 @@
       "date-parts": [
         [
           2017,
-          9,
-          14
+          10,
+          26
         ]
       ],
-      "date-time": "2017-09-14T17:42:15Z",
-      "timestamp": 1505410935813
+      "date-time": "2017-10-26T06:57:56Z",
+      "timestamp": 1509001076164
     },
     "reference-count": 21,
     "publisher": "Public Library of Science (PLoS)",
@@ -2980,12 +3147,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          28
         ]
       ],
-      "date-time": "2017-08-11T04:26:29Z",
-      "timestamp": 1502425589423
+      "date-time": "2017-10-28T05:14:53Z",
+      "timestamp": 1509167693478
     },
     "reference-count": 48,
     "publisher": "Public Library of Science (PLoS)",
@@ -3030,7 +3197,7 @@
     "page": "e1002276",
     "update-policy": "http://dx.doi.org/10.1371/journal.pmed.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 1,
     "title": "An open source pharma roadmap",
     "prefix": "10.1371",
     "volume": "14",
@@ -3154,12 +3321,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          9
+          10,
+          26
         ]
       ],
-      "date-time": "2017-08-09T05:39:04Z",
-      "timestamp": 1502257144618
+      "date-time": "2017-10-26T23:59:05Z",
+      "timestamp": 1509062345988
     },
     "reference-count": 9,
     "publisher": "Korean Council of Science Editors",
@@ -3322,31 +3489,167 @@
     "id": "AAwqxolU"
   },
   {
-    "type": "report",
-    "id": "11cb5HXoY",
-    "language": "eng",
-    "author": [
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T14:40:08Z",
+      "timestamp": 1515854408688
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          20
+        ]
+      ]
+    },
+    "group-title": "PeerJ Preprints",
+    "reference-count": 0,
+    "publisher": "PeerJ",
+    "license": [
       {
-        "family": "Himmelstein",
-        "given": "Daniel S"
-      },
-      {
-        "family": "Romero",
-        "given": "Ariel R"
-      },
-      {
-        "family": "McLaughlin",
-        "given": "Stephen R"
-      },
-      {
-        "family": "Tzovaras",
-        "given": "Bastian Greshake"
-      },
-      {
-        "family": "Greene",
-        "given": "Casey S"
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2017-07-20T00:00:00Z",
+          "timestamp": 1500508800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
       }
     ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at <jats:uri>https://greenelab.github.io/scihub</jats:uri> allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.</jats:p>",
+    "DOI": "10.7287/peerj.preprints.3100v1",
+    "type": "manuscript",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T14:11:34Z",
+      "timestamp": 1515852694000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Sci-Hub provides access to nearly all scholarly literature",
+    "prefix": "10.7287",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-3012-7446",
+        "authenticated-orcid": true,
+        "given": "Daniel S",
+        "family": "Himmelstein",
+        "affiliation": [
+          {
+            "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
+          }
+        ]
+      },
+      {
+        "given": "Ariel R",
+        "family": "Romero",
+        "affiliation": [
+          {
+            "name": "Bidwise, Inc, Miami, Florida, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9888-3168",
+        "authenticated-orcid": true,
+        "given": "Stephen R",
+        "family": "McLaughlin",
+        "affiliation": [
+          {
+            "name": "School of Information, University of Texas at Austin, Austin, Texas, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9925-9623",
+        "authenticated-orcid": true,
+        "given": "Bastian",
+        "family": "Greshake Tzovaras",
+        "affiliation": [
+          {
+            "name": "Department of Applied Bioinformatics, Goethe University Frankfurt, Frankfurt, Germany"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8713-9213",
+        "authenticated-orcid": true,
+        "given": "Casey S",
+        "family": "Greene",
+        "affiliation": [
+          {
+            "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://peerj.com/preprints/3100.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3100.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3100.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/preprints/3100.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          13
+        ]
+      ],
+      "date-time": "2018-01-13T14:11:34Z",
+      "timestamp": 1515852694000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
     "issued": {
       "date-parts": [
         [
@@ -3356,25 +3659,31 @@
         ]
       ]
     },
-    "abstract": "The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.",
-    "DOI": "10.7287/peerj.preprints.3100v1",
-    "publisher": "PeerJ Preprints",
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
+    "references-count": 0,
     "URL": "https://doi.org/10.7287/peerj.preprints.3100v1",
-    "version": "1",
-    "short_url": "https://doi.org/b9s6"
+    "relation": {
+      "is-replaced-by": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj.preprints.3100v2",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "short_url": "https://doi.org/b9s6",
+    "id": "11cb5HXoY"
   },
   {
     "indexed": {
       "date-parts": [
         [
-          2017,
-          9,
-          29
+          2018,
+          1,
+          22
         ]
       ],
-      "date-time": "2017-09-29T20:42:11Z",
-      "timestamp": 1506717731595
+      "date-time": "2018-01-22T16:42:18Z",
+      "timestamp": 1516639338693
     },
     "reference-count": 157,
     "publisher": "eLife Sciences Organisation, Ltd.",
@@ -3471,7 +3780,7 @@
       "timestamp": 1467913601000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 24,
+    "is-referenced-by-count": 38,
     "title": "How open science helps researchers succeed",
     "prefix": "10.7554",
     "volume": "5",
@@ -3481,83 +3790,149 @@
         "authenticated-orcid": true,
         "given": "Erin C",
         "family": "McKiernan",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Department of Physics, Faculty of Science, National Autonomous University of Mexico, Mexico City, Mexico"
+          }
+        ]
       },
       {
         "ORCID": "http://orcid.org/0000-0002-7618-7292",
         "authenticated-orcid": true,
         "given": "Philip E",
         "family": "Bourne",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Office of the Director, National Institutes of Health, Bethesda, United States"
+          }
+        ]
       },
       {
         "given": "C Titus",
         "family": "Brown",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Population Health and Reproduction, University of California, Davis, Davis, United States"
+          }
+        ]
       },
       {
         "given": "Stuart",
         "family": "Buck",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Laura and John Arnold Foundation, Houston, United States"
+          }
+        ]
       },
       {
         "ORCID": "http://orcid.org/0000-0002-3030-8001",
         "authenticated-orcid": true,
         "given": "Amye",
         "family": "Kenall",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "BioMed Central, London, United Kingdom"
+          }
+        ]
       },
       {
         "given": "Jennifer",
         "family": "Lin",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "CrossRef, Oxford, United Kingdom"
+          }
+        ]
       },
       {
         "given": "Damon",
         "family": "McDougall",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, United States"
+          }
+        ]
       },
       {
         "given": "Brian A",
         "family": "Nosek",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Center for Open Science, Charlottesville, United States"
+          }
+        ]
       },
       {
         "given": "Karthik",
         "family": "Ram",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Berkeley Institute for Data Science, University of California, Berkeley, Berkeley, United States"
+          }
+        ]
       },
       {
         "given": "Courtney K",
         "family": "Soderberg",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Center for Open Science, Charlottesville, United States"
+          }
+        ]
       },
       {
         "given": "Jeffrey R",
         "family": "Spies",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Center for Open Science, Charlottesville, United States"
+          },
+          {
+            "name": "Department of Engineering and Society, University of Virginia, Charlottesville, United States"
+          }
+        ]
       },
       {
         "given": "Kaitlin",
         "family": "Thaney",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Mozilla Science Lab, Mozilla Foundation, New York, United States"
+          }
+        ]
       },
       {
         "given": "Andrew",
         "family": "Updegrove",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Gesmer Updegrove LLP, Boston, United States"
+          }
+        ]
       },
       {
         "ORCID": "http://orcid.org/0000-0002-5125-4188",
         "authenticated-orcid": true,
         "given": "Kara H",
         "family": "Woo",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Center for Environmental Research, Education, and Outreach, Washington State University, Pullman, United States"
+          },
+          {
+            "name": "Information School, University of Washington, Seattle, United States"
+          }
+        ]
       },
       {
         "given": "Tal",
         "family": "Yarkoni",
-        "affiliation": []
+        "affiliation": [
+          {
+            "name": "Department of Psychology, University of Texas at Austin, Austin, United States"
+          }
+        ]
       }
     ],
     "member": "4374",
@@ -3572,16 +3947,30 @@
     },
     "container-title": "eLife",
     "original-title": [],
+    "link": [
+      {
+        "URL": "https://cdn.elifesciences.org/articles/16800/elife-16800-v2.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://cdn.elifesciences.org/articles/16800/elife-16800-v2.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
     "deposited": {
       "date-parts": [
         [
-          2016,
-          7,
-          29
+          2017,
+          10,
+          19
         ]
       ],
-      "date-time": "2016-07-29T12:59:29Z",
-      "timestamp": 1469797169000
+      "date-time": "2017-10-19T00:35:57Z",
+      "timestamp": 1508373357000
     },
     "score": 1.0,
     "subtitle": [],
@@ -3601,6 +3990,13 @@
     ],
     "URL": "https://doi.org/10.7554/elife.16800",
     "relation": {
+      "references": [
+        {
+          "id-type": "accession",
+          "id": "biosharing.org/policies",
+          "asserted-by": "subject"
+        }
+      ],
       "cites": []
     },
     "subject": [
@@ -3618,11 +4014,11 @@
         [
           2017,
           10,
-          11
+          28
         ]
       ],
-      "date-time": "2017-10-11T13:40:26Z",
-      "timestamp": 1507729226876
+      "date-time": "2017-10-28T01:08:04Z",
+      "timestamp": 1509152884275
     },
     "reference-count": 241,
     "publisher": "eLife Sciences Organisation, Ltd.",
@@ -3876,11 +4272,11 @@
         [
           2017,
           10,
-          11
+          19
         ]
       ],
-      "date-time": "2017-10-11T13:00:34Z",
-      "timestamp": 1507726834000
+      "date-time": "2017-10-19T01:57:20Z",
+      "timestamp": 1508378240000
     },
     "score": 1.0,
     "subtitle": [],
@@ -3902,8 +4298,8 @@
     "relation": {
       "references": [
         {
-          "id-type": "uri",
-          "id": "https://doi.org/10.6084/m9.figshare.c.2861359.v1",
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.c.2861359.v1",
           "asserted-by": "subject"
         },
         {
@@ -3983,12 +4379,12 @@
       "date-parts": [
         [
           2017,
-          8,
-          11
+          10,
+          27
         ]
       ],
-      "date-time": "2017-08-11T14:02:14Z",
-      "timestamp": 1502460134567
+      "date-time": "2017-10-27T12:47:42Z",
+      "timestamp": 1509108462941
     },
     "reference-count": 44,
     "publisher": "PeerJ",
@@ -4133,11 +4529,11 @@
         [
           2017,
           10,
-          9
+          28
         ]
       ],
-      "date-time": "2017-10-09T08:10:49Z",
-      "timestamp": 1507536649812
+      "date-time": "2017-10-28T01:37:49Z",
+      "timestamp": 1509154669992
     },
     "reference-count": 36,
     "publisher": "PeerJ",
@@ -4359,7 +4755,7 @@
       }
     ],
     "greycite-status": "Scanned",
-    "greycite-scanned": "2017-10-04 22:21:27",
+    "greycite-scanned": "2017-10-16 15:06:18",
     "type": "webpage",
     "id": "6yyYojgV"
   },
@@ -4449,6 +4845,7 @@
   },
   {
     "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",
+    "greycite-canonical-uri": null,
     "title": "The Grey Literature — Proof of prespecified endpoints in medical research with the bitcoin blockchain",
     "issued": {
       "date-parts": [
@@ -4466,7 +4863,7 @@
       }
     ],
     "greycite-status": "Scanned",
-    "greycite-scanned": "2017-05-18 17:00:44",
+    "greycite-scanned": "2017-10-16 15:06:26",
     "type": "webpage",
     "id": "6MR50hyY"
   },
