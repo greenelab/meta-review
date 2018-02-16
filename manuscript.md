@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-01-24'
+date-meta: '2018-02-16'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,8 +20,8 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@51f4c91](https://github.com/greenelab/meta-review/tree/51f4c91fb6213c80cacaf402d4089b46aa354e65)
-on January 24, 2018.
+from [greenelab/meta-review@1724ccd](https://github.com/greenelab/meta-review/tree/1724ccd9a3d3453518cf9b4837a1a7c2be9ca194)
+on February 16, 2018.
 </em></small>
 
 ## Authors
@@ -75,27 +75,75 @@ We present techniques for overcoming the challenges of open manuscript writing.
 These include approaches for managing distributed authors and our new software for automating citation and manuscript building.
 
 
-## Main text {.page_break_before}
+## Introduction {.page_break_before}
 
-### Introduction
-
-Open research – which includes sharing code, data, and manuscripts – benefits the researchers who engage in open practices [@HQfvK1OF], their scientific peers, and the public.
+Openness in research – which includes sharing code, data, and manuscripts – benefits the researchers who practice it [@HQfvK1OF], their scientific peers, and the public.
 `TODO: more references needed`
-Here we describe the benefits of writing review articles openly, where the planning, organizing, writing, and editing occur collaboratively in a public forum where participants are free to join as they wish.
-Reviews presenting the state of the art in a scientific field are often prepared by a single research group or a small team of colleagues.
-In contrast, broadly opening the writing process to anyone engaged in the topic can help maximize the review's value by facilitating the representation of diverse opinions and the broad coverage of relevant research.
-Review authors can engage with the authors of original research to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
+Traditionally however, review articles, which aim to present the state of the art in a scientific field, are written in private by a single research group or a small team of colleagues.
+In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
+Open drafting of reviews can be especially helpful for rapidly developing fields where integrating diverse opinions and expertise can best capture state-of-the-art knowledge.
+
+Therefore, in August 2016 we embarked on the "Deep Review" to survey deep learning in precision medicine.
+In May 2017, the project released a complete review titled "Opportunities and obstacles for deep learning in biology and medicine" [@tJKvnIaZ].
+Subsequently, we have continued to maintain the project and accept new contributions as the manuscript undergoes traditional peer review at a journal.
+Here we'll discuss our experience leading the Deep Review, including the pros and cons of open collaborative reviews, as well as the infrastructure we created, termed Manubot, to enable open manuscript writing online.
+
+## The Deep Review
+
+We initiated the Deep Review by creating a GitHub repository (https://github.com/greenelab/deep-review) to coordinate and manage contributions.
+GitHub is a platform designed for collaborative software development that's adaptable for collaborative writing.
+From the start, we made the GitHub repository public, applying a Creative Commons Attribution [License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
+Next, we encouraged anyone interested to contribute by proposing changes or additions.
+Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media, deciding without solicitation to contribute.
+In total, the Deep Review attracted 36 authors from 20 different institutions (and counting) who were not determined in advance.
+
+To coordinate this effort, we developed a manuscript writing process using the Markdown language, [GitHub](https://github.com/greenelab/deep-review/), and our new [Manubot](https://github.com/greenelab/manubot) tool for automating manuscript generation.
+
+## Results
+
+Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
+
 `TODO: need archival issue link`
 In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review `TODO: define this or provide a reference?`, incentivizing the reviews with potential manuscript authorship.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
-We present solutions to these challenges based on our recent experience leading a collaborative review "Opportunities And Obstacles For Deep Learning In Biology And Medicine" [@tJKvnIaZ].
-Our review attracted 36 authors from 20 different institutions who were not determined in advance.
-We wrote entirely in the open without restrictions on who was welcome to contribute.
-Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media and independently decided to contribute.
-To coordinate this effort, we developed a manuscript writing process using the Markdown language, the [GitHub software development platform](https://github.com/greenelab/deep-review/), and our new [Manubot](https://github.com/greenelab/manubot) tool for automating manuscript generation.
+## Contribution workflow
 
-### Manubot
+There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for  technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
+These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
+Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.
+
+We adopted standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
+The GitHub platform provided support for organizing and editing the manuscript.
+We used GitHub _issues_ for organization, opening a new issue for each paper under consideration.
+Within the issue, contributors summarized the research, discussed it (sometimes with the original authors), and assessed its relevance to the review.
+Issues also served as an open to-do list and a forum for debating the main message, themes, and topics of the review.
+
+GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also structured the writing process.
+The official version of the manuscript is _forked_ by individual contributors.
+A contributor then adds and revises files, grouping these changes into _commits_.
+When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
+GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in @opQBBK06.
+Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content.
+Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers.
+Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
+`TODO: need a figure with a flowchart showing this process`
+The entire process can be orchestrated through GitHub with a web browser if a contributor does not want to use a git client on their own computer.
+
+We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit.
+In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
+Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
+Because our writing process, like others backed by the open git version control system (including Overleaf and Authorea), tracks the complete commit history, it also enables detailed retrospective contribution analysis.
+`TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse`
+
+![
+**Deep Review contributions by author over time.**
+The total words added to the Deep Review by each author is plotted over time (final values in parentheses).
+These statistics were extracted from git commit diffs of the manuscript's markdown source.
+This figure reveals the composition of written contributions to the manuscript at every point in its history.
+](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
+
+## Manubot
 
 We developed Manubot, a system for writing scholarly manuscripts via GitHub.
 With Manubot, manuscripts are written as plain-text markdown files, which is well suited for version control using git.
@@ -104,10 +152,10 @@ In addition, Manubot relies on extensions from [Pandoc markdown](https://pandoc.
 
 Manubot includes an additional layer of citation processing, currently unique to the system.
 All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata.
-Currently, citations to DOIs (Digital Object Identifiers), PubMed identifiers, arXiv identifiers, and URLs (web addresses) are supported.
-Metadata is retrieved using DOI [Content Negotiation](https://citation.crosscite.org/docs.html), NCBI's [Citation Exporter](https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/), the [arXiv API](https://arxiv.org/help/api/index), or [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw].
+Currently, citations to DOIs (Digital Object Identifiers), PubMed or PubMed Central identifiers, arXiv identifiers, and URLs (web addresses) are supported.
+Metadata is retrieved using DOI [Content Negotiation](https://citation.crosscite.org/docs.html), NCBI's [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) and [Citation Exporter](https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/), the [arXiv API](https://arxiv.org/help/api/index), and [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw].
 Metadata is exported to [CSL JSON Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items), an open standard that's widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
-In cases where automatic retrieval of metadata fails or produces incorrect references -- which is most common for URL citations -- users can manually provide the correct CSL JSON.
+In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct CSL JSON.
 
 The Manubot formats bibliographies according to a [Citation Style Language](http://citationstyles.org/) (CSL) specification.
 As a result, users can choose from thousands of existing CSL styles or use Manubot's default style.
@@ -116,9 +164,9 @@ Thousands of journals have [predefined styles](http://editor.citationstyles.org/
 As a result, adopting the specific bibliographic format required by a journal usually just requires specifying the style's source URL in the Manubot configuration.
 
 Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from markdown to HTML, PDF, and optionally DOCX outputs.
-Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, or EPUB — offering Manubot users broad interoperability.
-In a future release, Pandoc [will support](https://github.com/greenelab/manubot-rootstock/pull/51#issuecomment-321949622) export to [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS).
-JATS is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
+Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, EPUB, and JATS — offering Manubot users broad interoperability.
+[Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS) is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
+Going forward, we hope to integrate Manubot with the larger JATS ecosystem.
 For now however, the primary Manubot output is HTML intended to be viewed in a web browser.
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
@@ -139,6 +187,8 @@ First, scientific precedence can now be indisputably established.
 Second, timestamps can protect against attempts to rewrite a manuscript's history.
 Since timestamps cannot be backdated, alternative histories would have to be created in advance, which is generally infeasible.
 Therefore, timestamping can help ensure accurate manuscript histories, potentially alleviating certain authorship disputes.
+Note that OpenTimestamps is highly scalable and free to use since it encodes many timestamps into a single Bitcoin transaction.
+However, as a result, timestamps are reliant on third-party calendar services until they are upgraded at which point their lineage to the blockchain becomes self-contained.
 
 We designed Manubot to power the next generation of scholarly manuscript.
 Manubot transforms publication, making it permissionless, reproducible, free of charge, and largely open source.
@@ -150,41 +200,6 @@ For example, figures can be specified using versioned URLs that refer to the cod
 In addition, manuscripts can be templated, so that numerical values or tables get inserted directly from the repository that created them.
 An [example repository](https://github.com/greenelab/manubot-rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
 
-### Contribution workflow
-
-There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for  technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
-These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
-Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.
-
-We adopted standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
-The GitHub platform provided support for organizing and editing the manuscript.
-We used GitHub _issues_ for organization, opening a new issue for each paper under consideration.
-Within the issue, contributors summarized the research, discussed it (sometimes with the original authors), and assessed its relevance to the review.
-Issues also served as an open to-do list and a forum for debating the main message, themes, and topics of the review.
-
-GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also structured the writing process.
-The official version of the manuscript is _forked_ by individual contributors.
-A contributor then adds and revises files, grouping these changes into _commits_.
-When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
-GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in [@opQBBK06].
-Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content.
-Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers.
-Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
-`TODO: need a figure with a flowchart showing this process`
-The entire process can be orchestrated through GitHub with a web browser if a contributor does not want to use a git client on their own computer.
-
-We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limits the authors or the sections they can edit.
-In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
-Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
-Because our writing process, like others backed by the open git version control system (including Overleaf and Authorea), tracks the complete commit history, it also enables detailed retrospective contribution analysis.
-`TODO: confirm Overleaf and Authorea provide this type of git integration versus something more coarse`
-
-![
-**Deep Review contributions by author over time.**
-The total words added to the Deep Review by each author is plotted over time (final values in parentheses).
-These statistics were extracted from git commit diffs of the manuscript's markdown source.
-This figure reveals the composition of written contributions to the manuscript at every point in its history.
-](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
 
 ### Authorship
 
