@@ -20,8 +20,9 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@1724ccd](https://github.com/greenelab/meta-review/tree/1724ccd9a3d3453518cf9b4837a1a7c2be9ca194)
+from [greenelab/meta-review@887868a](https://github.com/greenelab/meta-review/tree/887868ae2c4371b33a9b03fa015228eea2babfd0)
 on February 16, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/887868ae2c4371b33a9b03fa015228eea2babfd0/>.
 </em></small>
 
 ## Authors
