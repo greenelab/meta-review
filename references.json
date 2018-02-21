@@ -4017,6 +4017,179 @@
           28
         ]
       ],
+      "date-time": "2017-10-28T01:11:49Z",
+      "timestamp": 1509153109661
+    },
+    "reference-count": 7,
+    "publisher": "eLife Sciences Organisation, Ltd.",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2016-06-16T00:00:00Z",
+          "timestamp": 1466035200000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2016-06-16T00:00:00Z",
+          "timestamp": 1466035200000
+        },
+        "delay-in-days": 0,
+        "content-version": "am"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              6,
+              16
+            ]
+          ],
+          "date-time": "2016-06-16T00:00:00Z",
+          "timestamp": 1466035200000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>The job of a scientist is to make a discovery and then communicate this new knowledge to others. For a scientist to be successful, he or she needs to be able to claim credit or priority for discoveries throughout their career. However, despite being fundamental to the reward system of science, the principles for establishing the \"priority of discovery\" are rarely discussed. Here we break down priority into two steps: disclosure, in which the discovery is released to the world-wide community; and validation, in which other scientists assess the accuracy, quality and importance of the work. Currently, in biology, disclosure and an initial validation are combined in a journal publication. Here, we discuss the advantages of separating these steps into disclosure via a preprint, and validation via a combination of peer review at a journal and additional evaluation by the wider scientific community.</jats:p>",
+    "DOI": "10.7554/elife.16931",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2016-06-16T11:30:15Z",
+      "timestamp": 1466076615000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Priority of discovery in the life sciences",
+    "prefix": "10.7554",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Ronald D",
+        "family": "Vale",
+        "affiliation": [
+          {
+            "name": "Department of Cellular and Molecular Pharmacology and the Howard Hughes Medical Institute, University of California, San Francisco, San Francisco, United States"
+          }
+        ]
+      },
+      {
+        "given": "Anthony A",
+        "family": "Hyman",
+        "affiliation": [
+          {
+            "name": "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany"
+          }
+        ]
+      }
+    ],
+    "member": "4374",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          16
+        ]
+      ]
+    },
+    "container-title": "eLife",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://cdn.elifesciences.org/articles/16931/elife-16931-v1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://cdn.elifesciences.org/articles/16931/elife-16931-v1.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          19
+        ]
+      ],
+      "date-time": "2017-10-19T00:37:40Z",
+      "timestamp": 1508373460000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          6,
+          16
+        ]
+      ]
+    },
+    "references-count": 7,
+    "alternative-id": [
+      "10.7554/eLife.16931"
+    ],
+    "URL": "https://doi.org/10.7554/elife.16931",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Immunology and Microbiology",
+      "General Neuroscience",
+      "General Medicine"
+    ],
+    "short_url": "https://doi.org/gcx6gx",
+    "id": "vHuGhm4k"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          28
+        ]
+      ],
       "date-time": "2017-10-28T01:08:04Z",
       "timestamp": 1509152884275
     },
@@ -4842,6 +5015,24 @@
     ],
     "type": "webpage",
     "id": "opQBBK06"
+  },
+  {
+    "URL": "https://petertodd.org/2016/opentimestamps-announcement",
+    "title": "OpenTimestamps: Scalable, Trustless, Distributed Timestamping with Bitcoin",
+    "container-title": "Peter Todd",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          10
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-02-20 14:35:14",
+    "type": "webpage",
+    "id": "1DG704X8Q"
   },
   {
     "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",

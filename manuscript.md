@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-02-16'
+date-meta: '2018-02-21'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,9 +20,9 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@887868a](https://github.com/greenelab/meta-review/tree/887868ae2c4371b33a9b03fa015228eea2babfd0)
-on February 16, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/887868ae2c4371b33a9b03fa015228eea2babfd0/>.
+from [greenelab/meta-review@277bc80](https://github.com/greenelab/meta-review/tree/277bc802647cac6e00290c4e831e11e8536c1c5f)
+on February 21, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/277bc802647cac6e00290c4e831e11e8536c1c5f/>.
 </em></small>
 
 ## Authors
@@ -181,15 +181,16 @@ When this repository changes, Travis CI [rebuilds](https://travis-ci.org/greenel
 If successful, the output is deployed back to GitHub (to dedicated [`output`](https://github.com/greenelab/meta-review/tree/output) and [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branches).
 As a result, https://greenelab.github.io/meta-review stays up to date with the latest HTML manuscript.
 
-Manubot uses [OpenTimestamps](https://opentimestamps.org/) to timestamp the HTML and PDF outputs on the Bitcoin blockchain before deploying to GitHub.
+The idea of the "priority of discovery" is important to science, and Vale and Hyman discuss the importance of both disclosure and validation [@vHuGhm4k].
+In their framework, disclosure occurs when a scientific output is released to the world.
+However, for a manuscript that is shared as it is written, being able to establish priority could be challenging.
+We implemented support for [OpenTimestamps](https://opentimestamps.org/) in Manubot to timestamp the HTML and PDF outputs on the Bitcoin blockchain.
 This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [@Y2XyzLMc; @6MR50hyY; @QBWMEuxW; @6yyYojgV].
-The implications for scientific writing are twofold.
-First, scientific precedence can now be indisputably established.
-Second, timestamps can protect against attempts to rewrite a manuscript's history.
-Since timestamps cannot be backdated, alternative histories would have to be created in advance, which is generally infeasible.
-Therefore, timestamping can help ensure accurate manuscript histories, potentially alleviating certain authorship disputes.
-Note that OpenTimestamps is highly scalable and free to use since it encodes many timestamps into a single Bitcoin transaction.
-However, as a result, timestamps are reliant on third-party calendar services until they are upgraded at which point their lineage to the blockchain becomes self-contained.
+For Manubot manuscripts, scientific precedence can now be indisputably established, and timestamps protect against attempts to rewrite a manuscript's history.
+Such timestamping practices help ensure accurate histories, potentially alleviating certain authorship or priority disputes.
+Since all bitcoin transactions are competing for limited space on the blockchain, the fees required to send a single transaction can be high.
+OpenTimestamps avoids this fee by encoding many timestamps into a single Bitcoin transaction [@1DG704X8Q], but there can be a lag of a few hours before the transaction is made.
+We judged this to be suitable for the purposes of scientific writing.
 
 We designed Manubot to power the next generation of scholarly manuscript.
 Manubot transforms publication, making it permissionless, reproducible, free of charge, and largely open source.
