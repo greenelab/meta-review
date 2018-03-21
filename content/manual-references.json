@@ -13,7 +13,7 @@
     },
     "author": [
       {
-        "family": "National Information Standards Organization"
+        "literal": "National Information Standards Organization"
       }
     ]
   },
@@ -22,6 +22,12 @@
     "type": "webpage",
     "URL": "https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online",
     "title": "eLife supports development of open technology stack for publishing reproducible manuscripts online",
+    "author": [
+      {
+        "given": "Emily",
+        "family": "Packer"
+      }
+    ],
     "issued": {
       "date-parts": [
         [
@@ -74,5 +80,46 @@
         "given": "Coraline Ada"
       }
     ]
+  },
+  {
+    "standard_citation": "url:http://math.andrej.com/2013/06/20/the-hott-book/",
+    "URL": "http://math.andrej.com/2013/06/20/the-hott-book/",
+    "title": "The HoTT book",
+    "container-title": "Mathematics and Computation",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Bauer",
+        "given": "Andrej"
+      }
+    ],
+    "type": "post-weblog"
+  },
+  {
+    "standard_citation": "url:https://homotopytypetheory.org/book/",
+    "URL": "https://homotopytypetheory.org/book/",
+    "title": "Homotopy Type Theory: Univalent Foundations of Mathematics",
+    "publisher": "Institute for Advanced Study",
+    "author": [
+      {
+        "literal": "The Univalent Foundations Program"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "type": "book"
   }
 ]
