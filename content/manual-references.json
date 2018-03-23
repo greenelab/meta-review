@@ -121,5 +121,27 @@
       ]
     },
     "type": "book"
+  },
+  {
+    "standard_citation": "url:http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/",
+    "URL": "http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/",
+    "title": "TechBlog: ‘Manubot’ powers a crowdsourced ‘deep-learning’ review",
+    "container-title": "Naturejobs",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Jeffrey",
+        "family": "Perkel"
+      }
+    ],
+    "type": "post-weblog"
   }
 ]
