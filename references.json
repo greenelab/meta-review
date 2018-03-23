@@ -59,233 +59,6 @@
     "id": "Y2XyzLMc"
   },
   {
-    "arxiv_id": "1707.02264v2",
-    "version": "2",
-    "URL": "https://arxiv.org/abs/1707.02264v2",
-    "title": "Journal of Open Source Software (JOSS): design and first-year review",
-    "issued": {
-      "date-parts": [
-        [
-          "2017",
-          "07",
-          "07"
-        ]
-      ]
-    },
-    "author": [
-      {
-        "literal": "Arfon M Smith"
-      },
-      {
-        "literal": "Kyle E Niemeyer"
-      },
-      {
-        "literal": "Daniel S Katz"
-      },
-      {
-        "literal": "Lorena A Barba"
-      },
-      {
-        "literal": "George Githinji"
-      },
-      {
-        "literal": "Melissa Gymrek"
-      },
-      {
-        "literal": "Kathryn D Huff"
-      },
-      {
-        "literal": "Christopher R Madan"
-      },
-      {
-        "literal": "Abigail Cabunoc Mayes"
-      },
-      {
-        "literal": "Kevin M Moerman"
-      },
-      {
-        "literal": "Pjotr Prins"
-      },
-      {
-        "literal": "Karthik Ram"
-      },
-      {
-        "literal": "Ariel Rokem"
-      },
-      {
-        "literal": "Tracy K Teal"
-      },
-      {
-        "literal": "Roman Valls Guimera"
-      },
-      {
-        "literal": "Jacob T Vanderplas"
-      }
-    ],
-    "container-title": "arXiv",
-    "publisher": "arXiv",
-    "abstract": "This article describes the motivation, design, and progress of the Journal of\nOpen Source Software (JOSS). JOSS is a free and open-access journal that\npublishes articles describing research software. It has the dual goals of\nimproving the quality of the software submitted and providing a mechanism for\nresearch software developers to receive credit. While designed to work within\nthe current merit system of science, JOSS addresses the dearth of rewards for\nkey contributions to science made in the form of software. JOSS publishes\narticles that encapsulate scholarship contained in the software itself, and its\nrigorous peer review targets the software components: functionality,\ndocumentation, tests, continuous integration, and the license. A JOSS article\ncontains an abstract describing the purpose and functionality of the software,\nreferences, and a link to the software archive. The article is the entry point\nof a JOSS submission, which encompasses the full set of software artifacts.\nSubmission and review proceed in the open, on GitHub. Editors, reviewers, and\nauthors work collaboratively and openly. Unlike other journals, JOSS does not\nreject articles requiring major revision; while not yet accepted, articles\nremain visible and under review until the authors make adequate changes (or\nwithdraw, if unable to meet requirements). Once an article is accepted, JOSS\ngives it a DOI, deposits its metadata in Crossref, and the article can begin\ncollecting citations on indexers like Google Scholar and other services.\nAuthors retain copyright of their JOSS article, releasing it under a Creative\nCommons Attribution 4.0 International License. In its first year, starting in\nMay 2016, JOSS published 111 articles, with more than 40 additional articles\ncurrently under review. JOSS is a sponsored project of the nonprofit\norganization NumFOCUS and is an affiliate of the Open Source Initiative.",
-    "type": "report",
-    "id": "oGNtTmrp"
-  },
-  {
-    "arxiv_id": "1707.04393v2",
-    "version": "2",
-    "URL": "https://arxiv.org/abs/1707.04393v2",
-    "title": "Sustainable computational science: the ReScience initiative",
-    "issued": {
-      "date-parts": [
-        [
-          "2017",
-          "07",
-          "14"
-        ]
-      ]
-    },
-    "author": [
-      {
-        "literal": "Nicolas P. Rougier"
-      },
-      {
-        "literal": "Konrad Hinsen"
-      },
-      {
-        "literal": "Frédéric Alexandre"
-      },
-      {
-        "literal": "Thomas Arildsen"
-      },
-      {
-        "literal": "Lorena Barba"
-      },
-      {
-        "literal": "Fabien C. Y. Benureau"
-      },
-      {
-        "literal": "C. Titus Brown"
-      },
-      {
-        "literal": "Pierre de Buyl"
-      },
-      {
-        "literal": "Ozan Caglayan"
-      },
-      {
-        "literal": "Andrew P. Davison"
-      },
-      {
-        "literal": "Marc André Delsuc"
-      },
-      {
-        "literal": "Georgios Detorakis"
-      },
-      {
-        "literal": "Alexandra K. Diem"
-      },
-      {
-        "literal": "Damien Drix"
-      },
-      {
-        "literal": "Pierre Enel"
-      },
-      {
-        "literal": "Benoît Girard"
-      },
-      {
-        "literal": "Olivia Guest"
-      },
-      {
-        "literal": "Matt G. Hall"
-      },
-      {
-        "literal": "Rafael Neto Henriques"
-      },
-      {
-        "literal": "Xavier Hinaut"
-      },
-      {
-        "literal": "Kamil S Jaron"
-      },
-      {
-        "literal": "Mehdi Khamassi"
-      },
-      {
-        "literal": "Almar Klein"
-      },
-      {
-        "literal": "Tiina Manninen"
-      },
-      {
-        "literal": "Pietro Marchesi"
-      },
-      {
-        "literal": "Dan McGlinn"
-      },
-      {
-        "literal": "Christoph Metzner"
-      },
-      {
-        "literal": "Owen L. Petchey"
-      },
-      {
-        "literal": "Hans Ekkehard Plesser"
-      },
-      {
-        "literal": "Timothée Poisot"
-      },
-      {
-        "literal": "Karthik Ram"
-      },
-      {
-        "literal": "Yoav Ram"
-      },
-      {
-        "literal": "Etienne Roesch"
-      },
-      {
-        "literal": "Cyrille Rossant"
-      },
-      {
-        "literal": "Vahid Rostami"
-      },
-      {
-        "literal": "Aaron Shifman"
-      },
-      {
-        "literal": "Joseph Stachelek"
-      },
-      {
-        "literal": "Marcel Stimberg"
-      },
-      {
-        "literal": "Frank Stollmeier"
-      },
-      {
-        "literal": "Federico Vaggi"
-      },
-      {
-        "literal": "Guillaume Viejo"
-      },
-      {
-        "literal": "Julien Vitay"
-      },
-      {
-        "literal": "Anya Vostinar"
-      },
-      {
-        "literal": "Roman Yurchak"
-      },
-      {
-        "literal": "Tiziano Zito"
-      }
-    ],
-    "container-title": "arXiv",
-    "publisher": "arXiv",
-    "abstract": "Computer science offers a large set of tools for prototyping, writing,\nrunning, testing, validating, sharing and reproducing results, however\ncomputational science lags behind. In the best case, authors may provide their\nsource code as a compressed archive and they may feel confident their research\nis reproducible. But this is not exactly true. James Buckheit and David Donoho\nproposed more than two decades ago that an article about computational results\nis advertising, not scholarship. The actual scholarship is the full software\nenvironment, code, and data that produced the result. This implies new\nworkflows, in particular in peer-reviews. Existing journals have been slow to\nadapt: source codes are rarely requested, hardly ever actually executed to\ncheck that they produce the results advertised in the article. ReScience is a\npeer-reviewed journal that targets computational research and encourages the\nexplicit replication of already published research, promoting new and\nopen-source implementations in order to ensure that the original research can\nbe replicated from its description. To achieve this goal, the whole publishing\nchain is radically different from other traditional scientific journals.\nReScience resides on GitHub where each new implementation of a computational\nstudy is made available together with comments, explanations, and software\ntests.",
-    "type": "report",
-    "id": "pKdkaWKn"
-  },
-  {
     "indexed": {
       "date-parts": [
         [
@@ -895,6 +668,582 @@
     "container-title-short": "Nat Biotechnol",
     "short_url": "https://doi.org/f9ttx6",
     "id": "Qh7xTLwz"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          6
+        ]
+      ],
+      "date-time": "2018-03-06T14:10:42Z",
+      "timestamp": 1520345442226
+    },
+    "reference-count": 15,
+    "publisher": "Springer Nature",
+    "issue": "3",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              26
+            ]
+          ],
+          "date-time": "2018-02-26T00:00:00Z",
+          "timestamp": 1519603200000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1038/s41562-018-0311-x",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          26
+        ]
+      ],
+      "date-time": "2018-02-26T18:16:06Z",
+      "timestamp": 1519668966000
+    },
+    "page": "168-171",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Justify your alpha",
+    "prefix": "10.1038",
+    "volume": "2",
+    "author": [
+      {
+        "given": "Daniel",
+        "family": "Lakens",
+        "affiliation": []
+      },
+      {
+        "given": "Federico G.",
+        "family": "Adolfi",
+        "affiliation": []
+      },
+      {
+        "given": "Casper J.",
+        "family": "Albers",
+        "affiliation": []
+      },
+      {
+        "given": "Farid",
+        "family": "Anvari",
+        "affiliation": []
+      },
+      {
+        "given": "Matthew A. J.",
+        "family": "Apps",
+        "affiliation": []
+      },
+      {
+        "given": "Shlomo E.",
+        "family": "Argamon",
+        "affiliation": []
+      },
+      {
+        "given": "Thom",
+        "family": "Baguley",
+        "affiliation": []
+      },
+      {
+        "given": "Raymond B.",
+        "family": "Becker",
+        "affiliation": []
+      },
+      {
+        "given": "Stephen D.",
+        "family": "Benning",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel E.",
+        "family": "Bradford",
+        "affiliation": []
+      },
+      {
+        "given": "Erin M.",
+        "family": "Buchanan",
+        "affiliation": []
+      },
+      {
+        "given": "Aaron R.",
+        "family": "Caldwell",
+        "affiliation": []
+      },
+      {
+        "given": "Ben",
+        "family": "Van Calster",
+        "affiliation": []
+      },
+      {
+        "given": "Rickard",
+        "family": "Carlsson",
+        "affiliation": []
+      },
+      {
+        "given": "Sau-Chin",
+        "family": "Chen",
+        "affiliation": []
+      },
+      {
+        "given": "Bryan",
+        "family": "Chung",
+        "affiliation": []
+      },
+      {
+        "given": "Lincoln J.",
+        "family": "Colling",
+        "affiliation": []
+      },
+      {
+        "given": "Gary S.",
+        "family": "Collins",
+        "affiliation": []
+      },
+      {
+        "given": "Zander",
+        "family": "Crook",
+        "affiliation": []
+      },
+      {
+        "given": "Emily S.",
+        "family": "Cross",
+        "affiliation": []
+      },
+      {
+        "given": "Sameera",
+        "family": "Daniels",
+        "affiliation": []
+      },
+      {
+        "given": "Henrik",
+        "family": "Danielsson",
+        "affiliation": []
+      },
+      {
+        "given": "Lisa",
+        "family": "DeBruine",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel J.",
+        "family": "Dunleavy",
+        "affiliation": []
+      },
+      {
+        "given": "Brian D.",
+        "family": "Earp",
+        "affiliation": []
+      },
+      {
+        "given": "Michele I.",
+        "family": "Feist",
+        "affiliation": []
+      },
+      {
+        "given": "Jason D.",
+        "family": "Ferrell",
+        "affiliation": []
+      },
+      {
+        "given": "James G.",
+        "family": "Field",
+        "affiliation": []
+      },
+      {
+        "given": "Nicholas W.",
+        "family": "Fox",
+        "affiliation": []
+      },
+      {
+        "given": "Amanda",
+        "family": "Friesen",
+        "affiliation": []
+      },
+      {
+        "given": "Caio",
+        "family": "Gomes",
+        "affiliation": []
+      },
+      {
+        "given": "Monica",
+        "family": "Gonzalez-Marquez",
+        "affiliation": []
+      },
+      {
+        "given": "James A.",
+        "family": "Grange",
+        "affiliation": []
+      },
+      {
+        "given": "Andrew P.",
+        "family": "Grieve",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Guggenberger",
+        "affiliation": []
+      },
+      {
+        "given": "James",
+        "family": "Grist",
+        "affiliation": []
+      },
+      {
+        "given": "Anne-Laura",
+        "family": "van Harmelen",
+        "affiliation": []
+      },
+      {
+        "given": "Fred",
+        "family": "Hasselman",
+        "affiliation": []
+      },
+      {
+        "given": "Kevin D.",
+        "family": "Hochard",
+        "affiliation": []
+      },
+      {
+        "given": "Mark R.",
+        "family": "Hoffarth",
+        "affiliation": []
+      },
+      {
+        "given": "Nicholas P.",
+        "family": "Holmes",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Ingre",
+        "affiliation": []
+      },
+      {
+        "given": "Peder M.",
+        "family": "Isager",
+        "affiliation": []
+      },
+      {
+        "given": "Hanna K.",
+        "family": "Isotalus",
+        "affiliation": []
+      },
+      {
+        "given": "Christer",
+        "family": "Johansson",
+        "affiliation": []
+      },
+      {
+        "given": "Konrad",
+        "family": "Juszczyk",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Kenny",
+        "affiliation": []
+      },
+      {
+        "given": "Ahmed A.",
+        "family": "Khalil",
+        "affiliation": []
+      },
+      {
+        "given": "Barbara",
+        "family": "Konat",
+        "affiliation": []
+      },
+      {
+        "given": "Junpeng",
+        "family": "Lao",
+        "affiliation": []
+      },
+      {
+        "given": "Erik Gahner",
+        "family": "Larsen",
+        "affiliation": []
+      },
+      {
+        "given": "Gerine M. A.",
+        "family": "Lodder",
+        "affiliation": []
+      },
+      {
+        "given": "Jiří",
+        "family": "Lukavský",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher R.",
+        "family": "Madan",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Manheim",
+        "affiliation": []
+      },
+      {
+        "given": "Stephen R.",
+        "family": "Martin",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea E.",
+        "family": "Martin",
+        "affiliation": []
+      },
+      {
+        "given": "Deborah G.",
+        "family": "Mayo",
+        "affiliation": []
+      },
+      {
+        "given": "Randy J.",
+        "family": "McCarthy",
+        "affiliation": []
+      },
+      {
+        "given": "Kevin",
+        "family": "McConway",
+        "affiliation": []
+      },
+      {
+        "given": "Colin",
+        "family": "McFarland",
+        "affiliation": []
+      },
+      {
+        "given": "Amanda Q. X.",
+        "family": "Nio",
+        "affiliation": []
+      },
+      {
+        "given": "Gustav",
+        "family": "Nilsonne",
+        "affiliation": []
+      },
+      {
+        "given": "Cilene Lino",
+        "family": "de Oliveira",
+        "affiliation": []
+      },
+      {
+        "given": "Jean-Jacques Orban",
+        "family": "de Xivry",
+        "affiliation": []
+      },
+      {
+        "given": "Sam",
+        "family": "Parsons",
+        "affiliation": []
+      },
+      {
+        "given": "Gerit",
+        "family": "Pfuhl",
+        "affiliation": []
+      },
+      {
+        "given": "Kimberly A.",
+        "family": "Quinn",
+        "affiliation": []
+      },
+      {
+        "given": "John J.",
+        "family": "Sakon",
+        "affiliation": []
+      },
+      {
+        "given": "S. Adil",
+        "family": "Saribay",
+        "affiliation": []
+      },
+      {
+        "given": "Iris K.",
+        "family": "Schneider",
+        "affiliation": []
+      },
+      {
+        "given": "Manojkumar",
+        "family": "Selvaraju",
+        "affiliation": []
+      },
+      {
+        "given": "Zsuzsika",
+        "family": "Sjoerds",
+        "affiliation": []
+      },
+      {
+        "given": "Samuel G.",
+        "family": "Smith",
+        "affiliation": []
+      },
+      {
+        "given": "Tim",
+        "family": "Smits",
+        "affiliation": []
+      },
+      {
+        "given": "Jeffrey R.",
+        "family": "Spies",
+        "affiliation": []
+      },
+      {
+        "given": "Vishnu",
+        "family": "Sreekumar",
+        "affiliation": []
+      },
+      {
+        "given": "Crystal N.",
+        "family": "Steltenpohl",
+        "affiliation": []
+      },
+      {
+        "given": "Neil",
+        "family": "Stenhouse",
+        "affiliation": []
+      },
+      {
+        "given": "Wojciech",
+        "family": "Świątkowski",
+        "affiliation": []
+      },
+      {
+        "given": "Miguel A.",
+        "family": "Vadillo",
+        "affiliation": []
+      },
+      {
+        "given": "Marcel A. L. M.",
+        "family": "Van Assen",
+        "affiliation": []
+      },
+      {
+        "given": "Matt N.",
+        "family": "Williams",
+        "affiliation": []
+      },
+      {
+        "given": "Samantha E.",
+        "family": "Williams",
+        "affiliation": []
+      },
+      {
+        "given": "Donald R.",
+        "family": "Williams",
+        "affiliation": []
+      },
+      {
+        "given": "Tal",
+        "family": "Yarkoni",
+        "affiliation": []
+      },
+      {
+        "given": "Ignazio",
+        "family": "Ziano",
+        "affiliation": []
+      },
+      {
+        "given": "Rolf A.",
+        "family": "Zwaan",
+        "affiliation": []
+      }
+    ],
+    "member": "339",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          26
+        ]
+      ]
+    },
+    "container-title": "Nature Human Behaviour",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/s41562-018-0311-x",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/s41562-018-0311-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/s41562-018-0311-x.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          6
+        ]
+      ],
+      "date-time": "2018-03-06T13:34:36Z",
+      "timestamp": 1520343276000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          26
+        ]
+      ]
+    },
+    "references-count": 15,
+    "alternative-id": [
+      "311"
+    ],
+    "URL": "https://doi.org/10.1038/s41562-018-0311-x",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nat Hum Behav",
+    "short_url": "https://doi.org/gcz8f3",
+    "id": "HXpnCQu1"
   },
   {
     "indexed": {
@@ -2004,6 +2353,93 @@
         [
           2018,
           1,
+          20
+        ]
+      ],
+      "date-time": "2018-01-20T01:40:08Z",
+      "timestamp": 1516412408492
+    },
+    "reference-count": 0,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          18
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aat0471",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2018-01-19T01:10:09Z",
+      "timestamp": 1516324209000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Nearly 100 scientists spent 2 months on Google Docs to redefine the p-value. Here’s what they came up with",
+    "prefix": "10.1126",
+    "author": [
+      {
+        "given": "Jop",
+        "family": "Vrieze",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "container-title": "Science",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          20
+        ]
+      ],
+      "date-time": "2018-01-20T01:10:16Z",
+      "timestamp": 1516410616000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          18
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1126/science.aat0471",
+    "relation": {},
+    "subject": [
+      "Multidisciplinary"
+    ],
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/gc5tct",
+    "id": "82ZjWq3i"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          1,
           3
         ]
       ],
@@ -2499,6 +2935,415 @@
     ],
     "short_url": "https://doi.org/gbrb38",
     "id": "nhLnUPJo"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2017-11-13T12:10:36Z",
+      "timestamp": 1510575036167
+    },
+    "update-to": [
+      {
+        "updated": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2017-11-01T00:00:00Z",
+          "timestamp": 1509494400000
+        },
+        "DOI": "10.12688/f1000research.12037.1",
+        "type": "new_version",
+        "label": "New version"
+      }
+    ],
+    "reference-count": 294,
+    "publisher": "F1000 Research, Ltd.",
+    "funder": [
+      {
+        "DOI": "10.13039/100010661",
+        "name": "Horizon 2020 Framework Programme",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "643410, H2020-EINFRA-2014-1"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "f1000research.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.12688/f1000research.12037.2",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          1
+        ]
+      ],
+      "date-time": "2017-11-01T11:25:08Z",
+      "timestamp": 1509535508000
+    },
+    "page": "1151",
+    "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "A multi-disciplinary perspective on emergent and future innovations in peer review",
+    "prefix": "10.12688",
+    "volume": "6",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0001-7794-0218",
+        "authenticated-orcid": false,
+        "given": "Jonathan P.",
+        "family": "Tennant",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8525-6221",
+        "authenticated-orcid": false,
+        "given": "Jonathan M.",
+        "family": "Dugan",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9107-7681",
+        "authenticated-orcid": false,
+        "given": "Daniel",
+        "family": "Graziotin",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9069-4143",
+        "authenticated-orcid": false,
+        "given": "Damien C.",
+        "family": "Jacques",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5599-7456",
+        "authenticated-orcid": false,
+        "given": "François",
+        "family": "Waldner",
+        "affiliation": []
+      },
+      {
+        "given": "Daniel",
+        "family": "Mietchen",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4639-436X",
+        "authenticated-orcid": false,
+        "given": "Yehia",
+        "family": "Elkhatib",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-5767-8486",
+        "authenticated-orcid": false,
+        "given": "Lauren",
+        "family": "B. Collister",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-4455-8036",
+        "authenticated-orcid": false,
+        "given": "Christina K.",
+        "family": "Pikas",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-5196-9389",
+        "authenticated-orcid": false,
+        "given": "Tom",
+        "family": "Crick",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3699-1195",
+        "authenticated-orcid": false,
+        "given": "Paola",
+        "family": "Masuzzo",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1763-8970",
+        "authenticated-orcid": false,
+        "given": "Anthony",
+        "family": "Caravaggi",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1193-3848",
+        "authenticated-orcid": false,
+        "given": "Devin R.",
+        "family": "Berg",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4425-7097",
+        "authenticated-orcid": false,
+        "given": "Kyle E.",
+        "family": "Niemeyer",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4470-7027",
+        "authenticated-orcid": false,
+        "given": "Tony",
+        "family": "Ross-Hellauer",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1433-6782",
+        "authenticated-orcid": false,
+        "given": "Sara",
+        "family": "Mannheimer",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9178-0422",
+        "authenticated-orcid": false,
+        "given": "Lillian",
+        "family": "Rigling",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-5934-7525",
+        "authenticated-orcid": false,
+        "given": "Daniel S.",
+        "family": "Katz",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9925-9623",
+        "authenticated-orcid": false,
+        "given": "Bastian",
+        "family": "Greshake Tzovaras",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-2251-8092",
+        "authenticated-orcid": false,
+        "given": "Josmel",
+        "family": "Pacheco-Mendoza",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-7791-4984",
+        "authenticated-orcid": false,
+        "given": "Nazeefa",
+        "family": "Fatima",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-0026-989X",
+        "authenticated-orcid": false,
+        "given": "Marta",
+        "family": "Poblet",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8498-1309",
+        "authenticated-orcid": false,
+        "given": "Marios",
+        "family": "Isaakidis",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1526-0863",
+        "authenticated-orcid": false,
+        "given": "Dasapta Erwin",
+        "family": "Irawan",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8111-5082",
+        "authenticated-orcid": false,
+        "given": "Sébastien",
+        "family": "Renaut",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3228-6501",
+        "authenticated-orcid": false,
+        "given": "Christopher R.",
+        "family": "Madan",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-2612-2132",
+        "authenticated-orcid": false,
+        "given": "Lisa",
+        "family": "Matthias",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9183-9861",
+        "authenticated-orcid": false,
+        "given": "Jesper",
+        "family": "Nørgaard Kjær",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-0127-4893",
+        "authenticated-orcid": false,
+        "given": "Daniel Paul",
+        "family": "O'Donnell",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-0068-716X",
+        "authenticated-orcid": false,
+        "given": "Cameron",
+        "family": "Neylon",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-5640-909X",
+        "authenticated-orcid": false,
+        "given": "Sarah",
+        "family": "Kearns",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-6439-5652",
+        "authenticated-orcid": false,
+        "given": "Manojkumar",
+        "family": "Selvaraju",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3127-5520",
+        "authenticated-orcid": false,
+        "given": "Julien",
+        "family": "Colomb",
+        "affiliation": []
+      }
+    ],
+    "member": "4950",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          1
+        ]
+      ]
+    },
+    "container-title": "F1000Research",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://f1000research.com/articles/6-1151/v2/iparadigms",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          13
+        ]
+      ],
+      "date-time": "2017-11-13T11:55:30Z",
+      "timestamp": 1510574130000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          1
+        ]
+      ]
+    },
+    "references-count": 294,
+    "URL": "https://doi.org/10.12688/f1000research.12037.2",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "F1000Res",
+    "assertion": [
+      {
+        "value": "Indexed",
+        "URL": "https://f1000research.com/articles/6-1151/v2#article-reports",
+        "order": 0,
+        "name": "referee-status",
+        "label": "Referee status",
+        "group": {
+          "name": "current-referee-status",
+          "label": "Current Referee Status"
+        }
+      },
+      {
+        "value": "10.5256/f1000research.14133.r27485, David Moher, Centre for Journalology, Clinical Epidemiology Program, Ottawa Hospital Research Institute, Ottawa, ON, Canada, 10 Nov 2017, version 2, indexed",
+        "URL": "https://f1000research.com/articles/6-1151/v2#referee-response-27485",
+        "order": 0,
+        "name": "referee-response-27485",
+        "label": "Referee Report",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "10.5256/f1000research.14133.r27486, Virginia Barbour, Queensland University of Technology (QUT), Brisbane, Qld, Australia, 13 Nov 2017, version 2, indexed",
+        "URL": "https://f1000research.com/articles/6-1151/v2#referee-response-27486",
+        "order": 1,
+        "name": "referee-response-27486",
+        "label": "Referee Report",
+        "group": {
+          "name": "article-reports",
+          "label": "Article Reports"
+        }
+      },
+      {
+        "value": "<b>Miguel P Xochicale</b>; \n<i>Posted: 10 Nov 2017</i>; Dear Jonathan P. Tennant et al.&nbsp;  It would be good to consider what&nbsp;Re\n<b>Science&nbsp;</b>is doing in regard to the use of GitHub as a tool for the process of reviewing new submissions.  &quot;Re\n<b>Science</b>&nbsp;is a peer-reviewed journal that targets computational research and encourages the explicit replication of already published research, promoting new and open-source implementations in order to ensure that the original research is reproducible. To achieve this goal, the whole publishing chain is radically different from any other traditional scientific journal. Re\n<b>Science</b>&nbsp;lives on&nbsp;GitHub[https://github.com/ReScience/]&nbsp;where each new implementation of a computational study is made available together with comments, explanations and tests. Each submission takes the form of a pull request that is publicly reviewed and tested in order to guarantee that any researcher can re-use it. If you ever replicated computational results from the literature in your research, Re\n<b>Science</b>&nbsp;is the perfect place to publish your new implementation.&quot; ~&nbsp;https://rescience.github.io/about/  Have a look the process of reviewing a submission Overview of the submission process The Re\n<b>Science</b>&nbsp;editorial board unites scientists who are committed to the open source community. They are experienced developers who are familiar with the GitHub ecosystem. Each editorial board member is specialised in a specific domain of science and is proficient in several programming languages and/or environments. Our aim is to provide all authors with an efficient, constructive and public editorial process. Submitted entries are first considered by a member of the editorial board, who may decide to reject the submission (mainly because it has already been replicated and is publicly available), or assign it to two reviewers for further review and tests. The reviewers evaluate the code and the accompanying material in continuous interaction with the authors through the PR discussion section. If both reviewers managed to run the code and obtain the same results as the ones advertised in the accompanying material, the submission is accepted. If any of the two reviewers cannot replicate the results before the deadline, the submission is rejected and authors are encouraged to resubmit an improved version later. This is one example,&nbsp;where an editor propose two reviewers and also a volunteer is there for extra reviews in order to make a stronger publication in ReScience: &nbsp;https://github.com/ReScience/ReScience-submission/pull/35  Best, Miguel",
+        "URL": "https://f1000research.com/articles/6-1151/v2#article-response-3178",
+        "order": 2,
+        "name": "article-response-3178",
+        "label": "Article Comment",
+        "group": {
+          "name": "article-comments",
+          "label": "Article Comments"
+        }
+      },
+      {
+        "value": "TRH was supported by funding from the European Commission H2020 project OpenAIRE2020 (Grant agreement: 643410, Call: H2020-EINFRA-2014-1). The publication costs of this article were funded by Imperial College London. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.",
+        "order": 3,
+        "name": "grant-information",
+        "label": "Grant Information"
+      },
+      {
+        "value": "This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.",
+        "order": 0,
+        "name": "copyright-info",
+        "label": "Copyright"
+      }
+    ],
+    "short_url": "https://doi.org/gc5tcv",
+    "id": "52Q1v5nS"
   },
   {
     "indexed": {
@@ -4864,6 +5709,873 @@
     "id": "vf9t7xMG"
   },
   {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          4
+        ]
+      ],
+      "date-time": "2018-01-04T05:02:28Z",
+      "timestamp": 1515042148052
+    },
+    "reference-count": 31,
+    "publisher": "PeerJ",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              12,
+              18
+            ]
+          ],
+          "date-time": "2017-12-18T00:00:00Z",
+          "timestamp": 1513555200000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>Computer science offers a large set of tools for prototyping, writing, running, testing, validating, sharing and reproducing results; however, computational science lags behind. In the best case, authors may provide their source code as a compressed archive and they may feel confident their research is reproducible. But this is not exactly true. James Buckheit and David Donoho proposed more than two decades ago that an article about computational results is advertising, not scholarship. The actual scholarship is the full software environment, code, and data that produced the result. This implies new workflows, in particular in peer-reviews. Existing journals have been slow to adapt: source codes are rarely requested and are hardly ever actually executed to check that they produce the results advertised in the article. ReScience is a peer-reviewed journal that targets computational research and encourages the explicit replication of already published research, promoting new and open-source implementations in order to ensure that the original research can be replicated from its description. To achieve this goal, the whole publishing chain is radically different from other traditional scientific journals. ReScience resides on GitHub where each new implementation of a computational study is made available together with comments, explanations, and software tests.</jats:p>",
+    "DOI": "10.7717/peerj-cs.142",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2017-12-18T08:15:41Z",
+      "timestamp": 1513584941000
+    },
+    "page": "e142",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "Sustainable computational science: the ReScience initiative",
+    "prefix": "10.7717",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Nicolas P.",
+        "family": "Rougier",
+        "affiliation": [
+          {
+            "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
+          }
+        ]
+      },
+      {
+        "given": "Konrad",
+        "family": "Hinsen",
+        "affiliation": [
+          {
+            "name": "Centre de Biophysique Moléculaire UPR4301, CNRS, Orléans, France"
+          }
+        ]
+      },
+      {
+        "given": "Frédéric",
+        "family": "Alexandre",
+        "affiliation": [
+          {
+            "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "Arildsen",
+        "affiliation": [
+          {
+            "name": "Department of Electronic Systems, Technical Faculty of IT and Design, Aalborg University, Aalborg, Denmark"
+          }
+        ]
+      },
+      {
+        "given": "Lorena A.",
+        "family": "Barba",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical and Aerospace Engineering, The George Washington University, Washington, D.C., USA"
+          }
+        ]
+      },
+      {
+        "given": "Fabien C.Y.",
+        "family": "Benureau",
+        "affiliation": [
+          {
+            "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
+          }
+        ]
+      },
+      {
+        "given": "C. Titus",
+        "family": "Brown",
+        "affiliation": [
+          {
+            "name": "Department of Population Health and Reproduction, University of California Davis, Davis, CA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Pierre",
+        "family": "de Buyl",
+        "affiliation": [
+          {
+            "name": "Instituut voor Theoretische Fysica, KU Leuven, Leuven, Belgium"
+          }
+        ]
+      },
+      {
+        "given": "Ozan",
+        "family": "Caglayan",
+        "affiliation": [
+          {
+            "name": "Laboratoire d’Informatique (LIUM), Le Mans University, Le Mans, France"
+          }
+        ]
+      },
+      {
+        "given": "Andrew P.",
+        "family": "Davison",
+        "affiliation": [
+          {
+            "name": "UNIC FRE 3693, CNRS, Gif-sur-Yvette, France"
+          }
+        ]
+      },
+      {
+        "given": "Marc-André",
+        "family": "Delsuc",
+        "affiliation": [
+          {
+            "name": "Institut de Génétique et de Biologie Moléculaire et Cellulaire, Illkirch, France"
+          }
+        ]
+      },
+      {
+        "given": "Georgios",
+        "family": "Detorakis",
+        "affiliation": [
+          {
+            "name": "Department of Cognitive Sciences, University of California Irvine, Irvine, CA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Alexandra K.",
+        "family": "Diem",
+        "affiliation": [
+          {
+            "name": "Computational Engineering and Design, University of Southampton, Southampton, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Damien",
+        "family": "Drix",
+        "affiliation": [
+          {
+            "name": "Humboldt Universität zu Berlin, Berlin, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Pierre",
+        "family": "Enel",
+        "affiliation": [
+          {
+            "name": "Department of Neuroscience, Mount Sinai School of Medicine, New York, NY, USA"
+          }
+        ]
+      },
+      {
+        "given": "Benoît",
+        "family": "Girard",
+        "affiliation": [
+          {
+            "name": "Institute of Intelligent Systems and Robotics, Sorbonne Universités - UPMC Univ Paris 06 - CNRS, Paris, France"
+          }
+        ]
+      },
+      {
+        "given": "Olivia",
+        "family": "Guest",
+        "affiliation": [
+          {
+            "name": "Experimental Psychology, University College London, London, Greater London, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Matt G.",
+        "family": "Hall",
+        "affiliation": [
+          {
+            "name": "UCL Great Ormond St Institute of Child Health, London, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Rafael N.",
+        "family": "Henriques",
+        "affiliation": [
+          {
+            "name": "Champalimaud Centre for the Unknown, Champalimaud Neuroscience Program, Lisbon, Portugal"
+          }
+        ]
+      },
+      {
+        "given": "Xavier",
+        "family": "Hinaut",
+        "affiliation": [
+          {
+            "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
+          }
+        ]
+      },
+      {
+        "given": "Kamil S.",
+        "family": "Jaron",
+        "affiliation": [
+          {
+            "name": "Department of Ecology and Evolution, University of Lausanne, Lausanne, Switzerland"
+          }
+        ]
+      },
+      {
+        "given": "Mehdi",
+        "family": "Khamassi",
+        "affiliation": [
+          {
+            "name": "Institute of Intelligent Systems and Robotics, Sorbonne Universités - UPMC Univ Paris 06 - CNRS, Paris, France"
+          }
+        ]
+      },
+      {
+        "given": "Almar",
+        "family": "Klein",
+        "affiliation": [
+          {
+            "name": "Independent scholar, Enschede, The Netherlands"
+          }
+        ]
+      },
+      {
+        "given": "Tiina",
+        "family": "Manninen",
+        "affiliation": [
+          {
+            "name": "BioMediTech Institute and Faculty of Biomedical Sciences and Engineering, Tampere University of Technology, Tampere, Finland"
+          }
+        ]
+      },
+      {
+        "given": "Pietro",
+        "family": "Marchesi",
+        "affiliation": [
+          {
+            "name": "Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands"
+          }
+        ]
+      },
+      {
+        "given": "Daniel",
+        "family": "McGlinn",
+        "affiliation": [
+          {
+            "name": "Department of Biology, College of Charleston, Charleston, SC, USA"
+          }
+        ]
+      },
+      {
+        "given": "Christoph",
+        "family": "Metzner",
+        "affiliation": [
+          {
+            "name": "Centre for Computer Science and Informatics Research, University of Hertfordshire, Hatfield, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Owen",
+        "family": "Petchey",
+        "affiliation": [
+          {
+            "name": "Department of Evolutionary Biology and Environmental Studies, University of Zurich, Zurich, Switzerland"
+          }
+        ]
+      },
+      {
+        "given": "Hans Ekkehard",
+        "family": "Plesser",
+        "affiliation": [
+          {
+            "name": "Faculty of Science and Technology, Norwegian University of Life Sciences, Aas, Norway"
+          }
+        ]
+      },
+      {
+        "given": "Timothée",
+        "family": "Poisot",
+        "affiliation": [
+          {
+            "name": "Département de Sciences Biologiques, Université de Montréal, Montréal, QC, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Karthik",
+        "family": "Ram",
+        "affiliation": [
+          {
+            "name": "Berkeley Institute for Data Science, University of California, Berkeley, CA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Yoav",
+        "family": "Ram",
+        "affiliation": [
+          {
+            "name": "Department of Biology, Stanford University, Stanford, CA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Etienne",
+        "family": "Roesch",
+        "affiliation": [
+          {
+            "name": "Centre for Integrative Neuroscience, University of Reading, Reading, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Cyrille",
+        "family": "Rossant",
+        "affiliation": [
+          {
+            "name": "Institute of Neurology, University College London, London, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Vahid",
+        "family": "Rostami",
+        "affiliation": [
+          {
+            "name": "Institute of Neuroscience & Medicine, Juelich Forschungszentrum, Jülich, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Aaron",
+        "family": "Shifman",
+        "affiliation": [
+          {
+            "name": "Department of Biology, University of Ottawa, Ottawa, Ontario, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Joseph",
+        "family": "Stachelek",
+        "affiliation": [
+          {
+            "name": "Department of Fisheries and Wildlife, Michigan State University, East Lansing, MI, USA"
+          }
+        ]
+      },
+      {
+        "given": "Marcel",
+        "family": "Stimberg",
+        "affiliation": [
+          {
+            "name": "Sorbonne Universités/UPMC Univ Paris 06/INSERM/CNRS/Institut de la Vision, Paris, France"
+          }
+        ]
+      },
+      {
+        "given": "Frank",
+        "family": "Stollmeier",
+        "affiliation": [
+          {
+            "name": "Max Planck Institute for Dynamics and Self-Organization, Göttingen, Lower Saxony, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Federico",
+        "family": "Vaggi",
+        "affiliation": [
+          {
+            "name": "Amazon, Seattle, WA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Guillaume",
+        "family": "Viejo",
+        "affiliation": [
+          {
+            "name": "Institute of Intelligent Systems and Robotics, Sorbonne Universités - UPMC Univ Paris 06 - CNRS, Paris, France"
+          }
+        ]
+      },
+      {
+        "given": "Julien",
+        "family": "Vitay",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Chemnitz University of Technology, Chemnitz, Saxony, Germany"
+          }
+        ]
+      },
+      {
+        "given": "Anya E.",
+        "family": "Vostinar",
+        "affiliation": [
+          {
+            "name": "Department of Computer Science, Grinnell College, Grinnell, IA, USA"
+          }
+        ]
+      },
+      {
+        "given": "Roman",
+        "family": "Yurchak",
+        "affiliation": [
+          {
+            "name": "Symerio, Palaiseau, France"
+          }
+        ]
+      },
+      {
+        "given": "Tiziano",
+        "family": "Zito",
+        "affiliation": [
+          {
+            "name": "Neural Information Processing Group, Eberhard Karls Universität Tübingen, Tübingen, Germany"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          18
+        ]
+      ]
+    },
+    "container-title": "PeerJ Computer Science",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://peerj.com/articles/cs-142.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-142.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-142.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-142.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          18
+        ]
+      ],
+      "date-time": "2017-12-18T08:15:47Z",
+      "timestamp": 1513584947000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          18
+        ]
+      ]
+    },
+    "references-count": 31,
+    "alternative-id": [
+      "10.7717/peerj-cs.142"
+    ],
+    "URL": "https://doi.org/10.7717/peerj-cs.142",
+    "relation": {
+      "cites": []
+    },
+    "article-number": "e142",
+    "short_url": "https://doi.org/gcx5kf",
+    "id": "8o1nWux7"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          12
+        ]
+      ],
+      "date-time": "2018-02-12T09:44:21Z",
+      "timestamp": 1518428661531
+    },
+    "reference-count": 48,
+    "publisher": "PeerJ",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              12
+            ]
+          ],
+          "date-time": "2018-02-12T00:00:00Z",
+          "timestamp": 1518393600000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000879",
+        "name": "Alfred P. Sloan Foundation",
+        "doi-asserted-by": "crossref",
+        "award": []
+      },
+      {
+        "DOI": "10.13039/100007028",
+        "name": "Leona M. and Harry B. Helmsley Charitable Trust",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "2016PG-BRI004"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000936",
+        "name": "Gordon and Betty Moore Foundation",
+        "doi-asserted-by": "crossref",
+        "award": []
+      },
+      {
+        "DOI": "10.13039/100000865",
+        "name": "Bill and Melinda Gates Foundation",
+        "doi-asserted-by": "crossref",
+        "award": []
+      },
+      {
+        "DOI": "10.13039/100000025",
+        "name": "National Institute of Mental Health",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "1R25MH112480"
+        ]
+      },
+      {
+        "name": "National Science Foundation",
+        "award": [
+          "ACI-1535065",
+          "1550224"
+        ]
+      },
+      {
+        "name": "National Institute of Health",
+        "award": [
+          "R01 GM123489",
+          "2017-2022"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>This article describes the motivation, design, and progress of the Journal of Open Source Software (JOSS). JOSS is a free and open-access journal that publishes articles describing research software. It has the dual goals of improving the quality of the software submitted and providing a mechanism for research software developers to receive credit. While designed to work within the current merit system of science, JOSS addresses the dearth of rewards for key contributions to science made in the form of software. JOSS publishes articles that encapsulate scholarship contained in the software itself, and its rigorous peer review targets the software components: functionality, documentation, tests, continuous integration, and the license. A JOSS article contains an abstract describing the purpose and functionality of the software, references, and a link to the software archive. The article is the entry point of a JOSS submission, which encompasses the full set of software artifacts. Submission and review proceed in the open, on GitHub. Editors, reviewers, and authors work collaboratively and openly. Unlike other journals, JOSS does not reject articles requiring major revision; while not yet accepted, articles remain visible and under review until the authors make adequate changes (or withdraw, if unable to meet requirements). Once an article is accepted, JOSS gives it a digital object identifier (DOI), deposits its metadata in Crossref, and the article can begin collecting citations on indexers like Google Scholar and other services. Authors retain copyright of their JOSS article, releasing it under a Creative Commons Attribution 4.0 International License. In its first year, starting in May 2016, JOSS published 111 articles, with more than 40 additional articles under review. JOSS is a sponsored project of the nonprofit organization NumFOCUS and is an affiliate of the Open Source Initiative (OSI).</jats:p>",
+    "DOI": "10.7717/peerj-cs.147",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          12
+        ]
+      ],
+      "date-time": "2018-02-12T09:02:55Z",
+      "timestamp": 1518426175000
+    },
+    "page": "e147",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Journal of Open Source Software (JOSS): design and first-year review",
+    "prefix": "10.7717",
+    "volume": "4",
+    "author": [
+      {
+        "given": "Arfon M.",
+        "family": "Smith",
+        "affiliation": [
+          {
+            "name": "Data Science Mission Office, Space Telescope Science Institute, Baltimore, MD, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Kyle E.",
+        "family": "Niemeyer",
+        "affiliation": [
+          {
+            "name": "School of Mechanical, Industrial, and Manufacturing Engineering, Oregon State University, Corvallis, OR, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Daniel S.",
+        "family": "Katz",
+        "affiliation": [
+          {
+            "name": "National Center for Supercomputing Applications & Department of Computer Science & Department of Electrical and Computer Engineering & School of Information Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Lorena A.",
+        "family": "Barba",
+        "affiliation": [
+          {
+            "name": "Department of Mechanical & Aerospace Engineering, The George Washington University, Washington, D.C., United States of America"
+          }
+        ]
+      },
+      {
+        "given": "George",
+        "family": "Githinji",
+        "affiliation": [
+          {
+            "name": "KEMRI—Wellcome Trust Research Programme, Kilifi, Kenya"
+          }
+        ]
+      },
+      {
+        "given": "Melissa",
+        "family": "Gymrek",
+        "affiliation": [
+          {
+            "name": "Departments of Medicine & Computer Science and Engineering, University of California, San Diego, La Jolla, CA, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Kathryn D.",
+        "family": "Huff",
+        "affiliation": [
+          {
+            "name": "Department of Nuclear, Plasma, and Radiological Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Christopher R.",
+        "family": "Madan",
+        "affiliation": [
+          {
+            "name": "School of Psychology, University of Nottingham, Nottingham, United Kingdom"
+          }
+        ]
+      },
+      {
+        "given": "Abigail",
+        "family": "Cabunoc Mayes",
+        "affiliation": [
+          {
+            "name": "Mozilla Foundation, Toronto, Ontario, Canada"
+          }
+        ]
+      },
+      {
+        "given": "Kevin M.",
+        "family": "Moerman",
+        "affiliation": [
+          {
+            "name": "MIT Media Lab, Massachusetts Institute of Technology, Cambridge, MA, United States of America"
+          },
+          {
+            "name": "Trinity Centre for Bioengineering, Trinity College, The University of Dublin, Dublin, Ireland"
+          }
+        ]
+      },
+      {
+        "given": "Pjotr",
+        "family": "Prins",
+        "affiliation": [
+          {
+            "name": "University of Tennessee Health Science Center, Memphis, TN, United States of America"
+          },
+          {
+            "name": "University Medical Centre Utrecht, Utrecht, The Netherlands"
+          }
+        ]
+      },
+      {
+        "given": "Karthik",
+        "family": "Ram",
+        "affiliation": [
+          {
+            "name": "Berkeley Institute for Data Science, University of California, Berkeley, CA, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Ariel",
+        "family": "Rokem",
+        "affiliation": [
+          {
+            "name": "eScience Institute, University of Washington, Seattle, WA, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Tracy K.",
+        "family": "Teal",
+        "affiliation": [
+          {
+            "name": "Data Carpentry, Davis, CA, United States of America"
+          }
+        ]
+      },
+      {
+        "given": "Roman",
+        "family": "Valls Guimera",
+        "affiliation": [
+          {
+            "name": "University of Melbourne Centre for Cancer Research, University of Melbourne, Melbourne, Australia"
+          }
+        ]
+      },
+      {
+        "given": "Jacob T.",
+        "family": "Vanderplas",
+        "affiliation": [
+          {
+            "name": "eScience Institute, University of Washington, Seattle, WA, United States of America"
+          }
+        ]
+      }
+    ],
+    "member": "4443",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          12
+        ]
+      ]
+    },
+    "container-title": "PeerJ Computer Science",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://peerj.com/articles/cs-147.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-147.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-147.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://peerj.com/articles/cs-147.pdf",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          12
+        ]
+      ],
+      "date-time": "2018-02-12T09:03:15Z",
+      "timestamp": 1518426195000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          12
+        ]
+      ]
+    },
+    "references-count": 48,
+    "alternative-id": [
+      "10.7717/peerj-cs.147"
+    ],
+    "URL": "https://doi.org/10.7717/peerj-cs.147",
+    "relation": {
+      "cites": []
+    },
+    "article-number": "e147",
+    "short_url": "https://doi.org/gc5sjf",
+    "id": "xpw2aizK"
+  },
+  {
     "URL": "http://blog.dhimmel.com/irreproducible-timestamps/",
     "title": "The most interesting case of scientific irreproducibility?",
     "container-title": "Satoshi Village",
@@ -4889,6 +6601,28 @@
     ],
     "type": "webpage",
     "id": "QBWMEuxW"
+  },
+  {
+    "URL": "http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/",
+    "title": "TechBlog: ‘Manubot’ powers a crowdsourced ‘deep-learning’ review",
+    "container-title": "Naturejobs",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Jeffrey",
+        "family": "Perkel"
+      }
+    ],
+    "type": "post-weblog",
+    "id": "16CgM2x0z"
   },
   {
     "URL": "http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid",
@@ -4933,6 +6667,28 @@
     "id": "6yyYojgV"
   },
   {
+    "URL": "http://math.andrej.com/2013/06/20/the-hott-book/",
+    "title": "The HoTT book",
+    "container-title": "Mathematics and Computation",
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Bauer",
+        "given": "Andrej"
+      }
+    ],
+    "type": "post-weblog",
+    "id": "MhC1nPDK"
+  },
+  {
     "type": "webpage",
     "URL": "http://www.niso.org/standards/z39-96-2015/",
     "title": "JATS: Journal Article Tag Suite, version 1.1",
@@ -4945,7 +6701,7 @@
     },
     "author": [
       {
-        "family": "National Information Standards Organization"
+        "literal": "National Information Standards Organization"
       }
     ],
     "id": "JU3KpeyB"
@@ -4954,6 +6710,12 @@
     "type": "webpage",
     "URL": "https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online",
     "title": "eLife supports development of open technology stack for publishing reproducible manuscripts online",
+    "author": [
+      {
+        "given": "Emily",
+        "family": "Packer"
+      }
+    ],
     "issued": {
       "date-parts": [
         [
@@ -4964,6 +6726,25 @@
       ]
     },
     "id": "sWD9uVuF"
+  },
+  {
+    "URL": "https://homotopytypetheory.org/book/",
+    "title": "Homotopy Type Theory: Univalent Foundations of Mathematics",
+    "publisher": "Institute for Advanced Study",
+    "author": [
+      {
+        "literal": "The Univalent Foundations Program"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "type": "book",
+    "id": "RExXs8is"
   },
   {
     "type": "webpage",

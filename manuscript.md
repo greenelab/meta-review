@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-03-14'
+date-meta: '2018-03-23'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,9 +20,9 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@e33d980](https://github.com/greenelab/meta-review/tree/e33d980b0f582e1dcd57be0a687d8a13f3348d2d)
-on March 14, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/e33d980b0f582e1dcd57be0a687d8a13f3348d2d/>.
+from [greenelab/meta-review@3ec66cd](https://github.com/greenelab/meta-review/tree/3ec66cd440e78dac33f4700f1cecbc4d95b20139)
+on March 23, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/3ec66cd440e78dac33f4700f1cecbc4d95b20139/>.
 </em></small>
 
 ## Authors
@@ -84,7 +84,7 @@ However, though review articles aim to present the state of the art in a scienti
 In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- may maximize a review's value.
 Open drafting of reviews may be especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
 
-In August 2016 we identified the role that deep learning was beginning to play in biomedical research as one such area, and we started an open online effort to survey deep learning's role in precision medicine and to predict its effect in the future.
+In August 2016 we identified the role that deep learning was beginning to play in biomedical research as one such area, and we started an open online effort to survey deep learning's role in precision medicine and to predict its effect in the future [@16CgM2x0z].
 In May 2017, the project released a complete review titled "Opportunities and obstacles for deep learning in biology and medicine" [@tJKvnIaZ].
 While the article was under review, we continued to maintain the project and accepted new contributions.
 In February 2018, the article was accepted by the journal that it was initially submitted to.
@@ -108,7 +108,7 @@ To coordinate this effort, we developed a manuscript writing process using the M
 
 ## Contribution workflow
 
-There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for  technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
+There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
 Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.
 
@@ -222,11 +222,22 @@ We annotated the author list to indicate that author order was partly randomized
 
 ### Discussion
 
+The Deep Review was not the first scholarly manuscript written online via an open collaborative process.
+Interestingly, the collaborative scholarly works (of which we're aware) tend to have dealt with rapidly developing topics.
+In 2013, two dozen mathematicians created the 600-page "HoTT Book" on "Homotopy Type Theory", writing collaboratively in LaTeX on GitHub [@RExXs8is; @MhC1nPDK].
+Two technical books on cryptocurrency --- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) and [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) --- written on GitHub in asciidoc format have engaged hundreds of contributors.
+Both The HoTT Book and Mastering Bitcoin continue to be maintained years after their initial publication.
+A 2017 perspective on the future of peer review was written collaboratively on Overleaf, with contributions from 32 authors [@52Q1v5nS].
+While debate was raging over tightening the default threshold for statistical significance, nearly 150 scientists contributed to a Google Doc discussion that was condensed into a traditional journal commentary [@82ZjWq3i; @HXpnCQu1].
+The greatest success to date of open collaborative writing is arguably Wikipedia, whose English version contains over 5.5 million articles.
+Wikipedia scaled encyclopedias [far beyond](https://en.wikipedia.org/wiki/Wikipedia:Size_comparisons) any privately-written alternative.
+As the examples above illustrate, open collaborative writing appears to scale scholarly manuscripts where diverse opinion and expertise are paramount beyond what would otherwise be possible.
+
 Many others have embraced open science principles and piloted open approaches toward drug discovery [@O21tn8vf; @HnZE3JiU], data management [@1A97a4UwU; @6DjakjNS; @otY3SefD], and manuscript review [@nhLnUPJo].
 `TODO: need help deciding what related topics to include here and which references to use, these are arbitrary examples`
 `TODO: more ideas in doi:10.7287/peerj.preprints.2711v2`
 Several of these open science efforts are GitHub-based like our collaborative writing process.
-The ReScience [@pKdkaWKn], the Journal of Open Source Software [@oGNtTmrp], and some other [Open Journals](http://www.theoj.org/) rely on GitHub for peer review and hosting.
+The ReScience [@8o1nWux7], the Journal of Open Source Software [@xpw2aizK], and some other [Open Journals](http://www.theoj.org/) rely on GitHub for peer review and hosting.
 GitHub is also increasingly used for resource curation [@vf9t7xMG], and collaborative scholarly reviews combine literature curation with discussion and interpretation.
 `TODO: describe Manubot related work here?` [@17wKkS4DV] and https://github.com/ewanmellor/gh-publisher
 
