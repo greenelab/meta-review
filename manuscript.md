@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-03-23'
+date-meta: '2018-06-14'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,9 +20,9 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@3ec66cd](https://github.com/greenelab/meta-review/tree/3ec66cd440e78dac33f4700f1cecbc4d95b20139)
-on March 23, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/3ec66cd440e78dac33f4700f1cecbc4d95b20139/>.
+from [greenelab/meta-review@4a7006f](https://github.com/greenelab/meta-review/tree/4a7006f42a9848c23919aeb6a1f190b4720ef9d7)
+on June 14, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/4a7006f42a9848c23919aeb6a1f190b4720ef9d7/>.
 </em></small>
 
 ## Authors
@@ -73,7 +73,7 @@ Scientific literature reviews are ideal for open, collaborative writing.
 Allowing any interested individual to contribute as an author can strengthen a review, providing broad and fair coverage of the subject matter.
 However, the traditional multi-author writing process breaks down at scale.
 We present techniques for overcoming the challenges of open manuscript writing.
-These include approaches for managing distributed authors and our new software for automating citation and manuscript building.
+These include approaches for managing distributed authors and our new software, named Manubot, for automating citation and manuscript building.
 
 
 ## Introduction {.page_break_before}
@@ -81,27 +81,27 @@ These include approaches for managing distributed authors and our new software f
 Openness in research – which includes sharing code, data, and manuscripts – benefits the researchers who practice it [@HQfvK1OF], their scientific peers, and the public.
 `TODO: more references needed`
 However, though review articles aim to present the state of the art in a scientific field, they are written in private by a single research group or a small team of colleagues.
-In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- may maximize a review's value.
-Open drafting of reviews may be especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
+In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
+Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
 
 In August 2016 we identified the role that deep learning was beginning to play in biomedical research as one such area, and we started an open online effort to survey deep learning's role in precision medicine and to predict its effect in the future [@16CgM2x0z].
-In May 2017, the project released a complete review titled "Opportunities and obstacles for deep learning in biology and medicine" [@tJKvnIaZ].
+In May 2017, the project, code-named the Deep Review, released a complete review as a preprint titled "Opportunities and obstacles for deep learning in biology and medicine" [@tJKvnIaZ].
 While the article was under review, we continued to maintain the project and accepted new contributions.
-In February 2018, the article was accepted by the journal that it was initially submitted to.
+In February 2018, the article was accepted by the journal that it was initially submitted to and subsequently published in April [@PZMP42Ak].
 We'll discuss our experience with our open review including the pros and cons of open collaborative reviews, as well as the infrastructure we created, termed Manubot, to enable open manuscript writing online.
 We also discuss the extent to which such efforts can contribute to a living and frequently updated literature.
 `TODO: discuss stage 2 maintainers`
 
 We initiated our open online review article by creating a GitHub repository (https://github.com/greenelab/deep-review) to coordinate and manage contributions.
 GitHub is a platform designed for collaborative software development that's adaptable for collaborative writing.
-From the start, we made the GitHub repository public, applying a Creative Commons Attribution [License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
+From the start, we made the GitHub repository public, applying a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
 Next, we encouraged anyone interested to contribute by proposing changes or additions.
 Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media, deciding without solicitation to contribute.
-In total, the project that we termed the "Deep Review" attracted 36 authors from 20 different institutions (and counting) who were not determined in advance.
+In total, the Deep Review attracted 36 authors from 20 different institutions (and counting) who were not determined in advance.
 
 Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
 `TODO: need archival issue link`
-In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review `TODO: define this or provide a reference?`, incentivizing the reviews with potential manuscript authorship.
+In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review [@pqBLIXzp], incentivizing the reviews with potential manuscript authorship.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
 To coordinate this effort, we developed a manuscript writing process using the Markdown language, [GitHub](https://github.com/greenelab/deep-review/), and our new [Manubot](https://github.com/greenelab/manubot-rootstock) tool for automating manuscript generation.
@@ -213,7 +213,7 @@ Using git, we could quantify the number of commits each author made or the numbe
 However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.
 
 To address this issue, we generalized the concept of "co-first" authorship, in which two or more authors are denoted as making equal contributions to a paper.
-We defined four types of contributions [@tJKvnIaZ], from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories.
+We defined four types of contributions [@PZMP42Ak], from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories.
 A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering.
 The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner.
 Given the same author contributions, it always produced the same ordered author list.

@@ -62,17 +62,27 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          27
+          2018,
+          5,
+          8
         ]
       ],
-      "date-time": "2017-10-27T00:12:59Z",
-      "timestamp": 1509063179388
+      "date-time": "2018-05-08T04:10:00Z",
+      "timestamp": 1525752600057
     },
     "publisher-location": "Cham",
     "reference-count": 0,
     "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783319000251",
+        "type": "print"
+      },
+      {
+        "value": "9783319000268",
+        "type": "electronic"
+      }
+    ],
     "content-domain": {
       "domain": [],
       "crossmark-restriction": false
@@ -106,16 +116,19 @@
       {
         "given": "Martin",
         "family": "Fenner",
+        "sequence": "first",
         "affiliation": []
       },
       {
         "given": "Kaja",
         "family": "Scheliga",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Sönke",
         "family": "Bartling",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -172,13 +185,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          27
+          2018,
+          5,
+          9
         ]
       ],
-      "date-time": "2017-10-27T01:55:56Z",
-      "timestamp": 1509069356318
+      "date-time": "2018-05-09T05:12:08Z",
+      "timestamp": 1525842728885
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -210,10 +223,11 @@
       {
         "given": "Jeffrey M.",
         "family": "Perkel",
+        "sequence": "first",
         "affiliation": []
       }
     ],
-    "member": "339",
+    "member": "297",
     "published-online": {
       "date-parts": [
         [
@@ -249,14 +263,23 @@
       ]
     },
     "references-count": 0,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2014,
+            10,
+            1
+          ]
+        ]
+      },
+      "issue": "7520"
+    },
     "alternative-id": [
       "514127a"
     ],
     "URL": "https://doi.org/10.1038/514127a",
     "relation": {},
-    "subject": [
-      "Multidisciplinary"
-    ],
     "container-title-short": "Nature",
     "short_url": "https://doi.org/gbqsnd",
     "id": "AylLD9F8"
@@ -265,13 +288,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          28
+          2018,
+          5,
+          8
         ]
       ],
-      "date-time": "2017-10-28T01:22:09Z",
-      "timestamp": 1509153729936
+      "date-time": "2018-05-08T01:11:59Z",
+      "timestamp": 1525741919762
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -303,10 +326,11 @@
       {
         "given": "Andrew",
         "family": "Silver",
+        "sequence": "first",
         "affiliation": []
       }
     ],
-    "member": "339",
+    "member": "297",
     "published-online": {
       "date-parts": [
         [
@@ -350,14 +374,23 @@
       ]
     },
     "references-count": 0,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            10,
+            4
+          ]
+        ]
+      },
+      "issue": "7674"
+    },
     "alternative-id": [
       "550143a"
     ],
     "URL": "https://doi.org/10.1038/550143a",
     "relation": {},
-    "subject": [
-      "Multidisciplinary"
-    ],
     "container-title-short": "Nature",
     "short_url": "https://doi.org/cdvr",
     "id": "18w6XKsQO"
@@ -367,12 +400,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          16
+          6,
+          7
         ]
       ],
-      "date-time": "2018-01-16T17:42:15Z",
-      "timestamp": 1516124535727
+      "date-time": "2018-06-07T04:22:30Z",
+      "timestamp": 1528345350234
     },
     "reference-count": 8,
     "publisher": "Springer Nature",
@@ -425,7 +458,7 @@
     "page": "377-379",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 5,
+    "is-referenced-by-count": 8,
     "title": "First, design for data sharing",
     "prefix": "10.1038",
     "volume": "34",
@@ -433,15 +466,17 @@
       {
         "given": "John",
         "family": "Wilbanks",
+        "sequence": "first",
         "affiliation": []
       },
       {
         "given": "Stephen H",
         "family": "Friend",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
-    "member": "339",
+    "member": "297",
     "published-online": {
       "date-parts": [
         [
@@ -453,6 +488,7 @@
     },
     "container-title": "Nature Biotechnology",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://www.nature.com/articles/nbt.3516.pdf",
@@ -496,6 +532,17 @@
       ]
     },
     "references-count": 8,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2016,
+            4
+          ]
+        ]
+      },
+      "issue": "4"
+    },
     "alternative-id": [
       "BFnbt3516"
     ],
@@ -503,13 +550,6 @@
     "relation": {
       "cites": []
     },
-    "subject": [
-      "Biotechnology",
-      "Molecular Medicine",
-      "Applied Microbiology and Biotechnology",
-      "Bioengineering",
-      "Biomedical Engineering"
-    ],
     "container-title-short": "Nat Biotechnol",
     "short_url": "https://doi.org/gbrb37",
     "id": "otY3SefD"
@@ -518,13 +558,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          12,
-          27
+          2018,
+          5,
+          9
         ]
       ],
-      "date-time": "2017-12-27T16:10:33Z",
-      "timestamp": 1514391033375
+      "date-time": "2018-05-09T10:03:25Z",
+      "timestamp": 1525860205611
     },
     "reference-count": 33,
     "publisher": "Springer Nature",
@@ -577,7 +617,7 @@
     "page": "342-346",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 15,
     "title": "Reproducibility of computational workflows is automated using continuous analysis",
     "prefix": "10.1038",
     "volume": "35",
@@ -585,6 +625,7 @@
       {
         "given": "Brett K",
         "family": "Beaulieu-Jones",
+        "sequence": "first",
         "affiliation": []
       },
       {
@@ -592,10 +633,11 @@
         "authenticated-orcid": false,
         "given": "Casey S",
         "family": "Greene",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
-    "member": "339",
+    "member": "297",
     "published-online": {
       "date-parts": [
         [
@@ -607,6 +649,7 @@
     },
     "container-title": "Nature Biotechnology",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://www.nature.com/articles/nbt.3780.pdf",
@@ -651,20 +694,31 @@
       ]
     },
     "references-count": 33,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            4
+          ]
+        ]
+      },
+      "issue": "4"
+    },
     "alternative-id": [
       "BFnbt3780"
     ],
     "URL": "https://doi.org/10.1038/nbt.3780",
     "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/056473",
+          "asserted-by": "object"
+        }
+      ],
       "cites": []
     },
-    "subject": [
-      "Biotechnology",
-      "Molecular Medicine",
-      "Applied Microbiology and Biotechnology",
-      "Bioengineering",
-      "Biomedical Engineering"
-    ],
     "container-title-short": "Nat Biotechnol",
     "short_url": "https://doi.org/f9ttx6",
     "id": "Qh7xTLwz"
@@ -674,12 +728,12 @@
       "date-parts": [
         [
           2018,
-          3,
-          6
+          6,
+          13
         ]
       ],
-      "date-time": "2018-03-06T14:10:42Z",
-      "timestamp": 1520345442226
+      "date-time": "2018-06-13T14:22:31Z",
+      "timestamp": 1528899751478
     },
     "reference-count": 15,
     "publisher": "Springer Nature",
@@ -732,7 +786,7 @@
     "page": "168-171",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 7,
     "title": "Justify your alpha",
     "prefix": "10.1038",
     "volume": "2",
@@ -740,445 +794,533 @@
       {
         "given": "Daniel",
         "family": "Lakens",
+        "sequence": "first",
         "affiliation": []
       },
       {
         "given": "Federico G.",
         "family": "Adolfi",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Casper J.",
         "family": "Albers",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Farid",
         "family": "Anvari",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Matthew A. J.",
         "family": "Apps",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Shlomo E.",
         "family": "Argamon",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Thom",
         "family": "Baguley",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Raymond B.",
         "family": "Becker",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Stephen D.",
         "family": "Benning",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Daniel E.",
         "family": "Bradford",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Erin M.",
         "family": "Buchanan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Aaron R.",
         "family": "Caldwell",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Ben",
         "family": "Van Calster",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Rickard",
         "family": "Carlsson",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Sau-Chin",
         "family": "Chen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Bryan",
         "family": "Chung",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Lincoln J.",
         "family": "Colling",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Gary S.",
         "family": "Collins",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Zander",
         "family": "Crook",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Emily S.",
         "family": "Cross",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Sameera",
         "family": "Daniels",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Henrik",
         "family": "Danielsson",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Lisa",
         "family": "DeBruine",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Daniel J.",
         "family": "Dunleavy",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Brian D.",
         "family": "Earp",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Michele I.",
         "family": "Feist",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Jason D.",
         "family": "Ferrell",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "James G.",
         "family": "Field",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Nicholas W.",
         "family": "Fox",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Amanda",
         "family": "Friesen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Caio",
         "family": "Gomes",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Monica",
         "family": "Gonzalez-Marquez",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "James A.",
         "family": "Grange",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Andrew P.",
         "family": "Grieve",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Robert",
         "family": "Guggenberger",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "James",
         "family": "Grist",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Anne-Laura",
         "family": "van Harmelen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Fred",
         "family": "Hasselman",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Kevin D.",
         "family": "Hochard",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Mark R.",
         "family": "Hoffarth",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Nicholas P.",
         "family": "Holmes",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Michael",
         "family": "Ingre",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Peder M.",
         "family": "Isager",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Hanna K.",
         "family": "Isotalus",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Christer",
         "family": "Johansson",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Konrad",
         "family": "Juszczyk",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "David A.",
         "family": "Kenny",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Ahmed A.",
         "family": "Khalil",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Barbara",
         "family": "Konat",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Junpeng",
         "family": "Lao",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Erik Gahner",
         "family": "Larsen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Gerine M. A.",
         "family": "Lodder",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Jiří",
         "family": "Lukavský",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Christopher R.",
         "family": "Madan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "David",
         "family": "Manheim",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Stephen R.",
         "family": "Martin",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Andrea E.",
         "family": "Martin",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Deborah G.",
         "family": "Mayo",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Randy J.",
         "family": "McCarthy",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Kevin",
         "family": "McConway",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Colin",
         "family": "McFarland",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Amanda Q. X.",
         "family": "Nio",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Gustav",
         "family": "Nilsonne",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Cilene Lino",
         "family": "de Oliveira",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Jean-Jacques Orban",
         "family": "de Xivry",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Sam",
         "family": "Parsons",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Gerit",
         "family": "Pfuhl",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Kimberly A.",
         "family": "Quinn",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "John J.",
         "family": "Sakon",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "S. Adil",
         "family": "Saribay",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Iris K.",
         "family": "Schneider",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Manojkumar",
         "family": "Selvaraju",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Zsuzsika",
         "family": "Sjoerds",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Samuel G.",
         "family": "Smith",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Tim",
         "family": "Smits",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Jeffrey R.",
         "family": "Spies",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Vishnu",
         "family": "Sreekumar",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Crystal N.",
         "family": "Steltenpohl",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Neil",
         "family": "Stenhouse",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Wojciech",
         "family": "Świątkowski",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Miguel A.",
         "family": "Vadillo",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Marcel A. L. M.",
         "family": "Van Assen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Matt N.",
         "family": "Williams",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Samantha E.",
         "family": "Williams",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Donald R.",
         "family": "Williams",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Tal",
         "family": "Yarkoni",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Ignazio",
         "family": "Ziano",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Rolf A.",
         "family": "Zwaan",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
-    "member": "339",
+    "member": "297",
     "published-online": {
       "date-parts": [
         [
@@ -1190,6 +1332,7 @@
     },
     "container-title": "Nature Human Behaviour",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://www.nature.com/articles/s41562-018-0311-x",
@@ -1234,6 +1377,17 @@
       ]
     },
     "references-count": 15,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            3
+          ]
+        ]
+      },
+      "issue": "3"
+    },
     "alternative-id": [
       "311"
     ],
@@ -1250,12 +1404,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          23
+          6,
+          12
         ]
       ],
-      "date-time": "2018-01-23T16:02:16Z",
-      "timestamp": 1516723336261
+      "date-time": "2018-06-12T19:02:26Z",
+      "timestamp": 1528830146919
     },
     "reference-count": 32,
     "publisher": "Springer Nature",
@@ -1278,7 +1432,7 @@
     },
     "page": "160018",
     "source": "Crossref",
-    "is-referenced-by-count": 223,
+    "is-referenced-by-count": 332,
     "title": "The FAIR Guiding Principles for scientific data management and stewardship",
     "prefix": "10.1038",
     "volume": "3",
@@ -1288,6 +1442,7 @@
         "authenticated-orcid": false,
         "given": "Mark D.",
         "family": "Wilkinson",
+        "sequence": "first",
         "affiliation": []
       },
       {
@@ -1295,6 +1450,7 @@
         "authenticated-orcid": false,
         "given": "Michel",
         "family": "Dumontier",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1302,6 +1458,7 @@
         "authenticated-orcid": false,
         "given": "IJsbrand Jan",
         "family": "Aalbersberg",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1309,6 +1466,7 @@
         "authenticated-orcid": false,
         "given": "Gabrielle",
         "family": "Appleton",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1316,6 +1474,7 @@
         "authenticated-orcid": false,
         "given": "Myles",
         "family": "Axton",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1323,6 +1482,7 @@
         "authenticated-orcid": false,
         "given": "Arie",
         "family": "Baak",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1330,6 +1490,7 @@
         "authenticated-orcid": false,
         "given": "Niklas",
         "family": "Blomberg",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1337,6 +1498,7 @@
         "authenticated-orcid": false,
         "given": "Jan-Willem",
         "family": "Boiten",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1344,6 +1506,7 @@
         "authenticated-orcid": false,
         "given": "Luiz Bonino",
         "family": "da Silva Santos",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1351,11 +1514,13 @@
         "authenticated-orcid": false,
         "given": "Philip E.",
         "family": "Bourne",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Jildau",
         "family": "Bouwman",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1363,6 +1528,7 @@
         "authenticated-orcid": false,
         "given": "Anthony J.",
         "family": "Brookes",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1370,6 +1536,7 @@
         "authenticated-orcid": false,
         "given": "Tim",
         "family": "Clark",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1377,6 +1544,7 @@
         "authenticated-orcid": false,
         "given": "Mercè",
         "family": "Crosas",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1384,6 +1552,7 @@
         "authenticated-orcid": false,
         "given": "Ingrid",
         "family": "Dillo",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1391,6 +1560,7 @@
         "authenticated-orcid": false,
         "given": "Olivier",
         "family": "Dumon",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1398,6 +1568,7 @@
         "authenticated-orcid": false,
         "given": "Scott",
         "family": "Edmunds",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1405,6 +1576,7 @@
         "authenticated-orcid": false,
         "given": "Chris T.",
         "family": "Evelo",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1412,6 +1584,7 @@
         "authenticated-orcid": false,
         "given": "Richard",
         "family": "Finkers",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1419,6 +1592,7 @@
         "authenticated-orcid": false,
         "given": "Alejandra",
         "family": "Gonzalez-Beltran",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1426,6 +1600,7 @@
         "authenticated-orcid": false,
         "given": "Alasdair J.G.",
         "family": "Gray",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1433,6 +1608,7 @@
         "authenticated-orcid": false,
         "given": "Paul",
         "family": "Groth",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1440,6 +1616,7 @@
         "authenticated-orcid": false,
         "given": "Carole",
         "family": "Goble",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1447,6 +1624,7 @@
         "authenticated-orcid": false,
         "given": "Jeffrey S.",
         "family": "Grethe",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1454,6 +1632,7 @@
         "authenticated-orcid": false,
         "given": "Jaap",
         "family": "Heringa",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1461,6 +1640,7 @@
         "authenticated-orcid": false,
         "given": "Peter A.C",
         "family": "’t Hoen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1468,6 +1648,7 @@
         "authenticated-orcid": false,
         "given": "Rob",
         "family": "Hooft",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1475,11 +1656,13 @@
         "authenticated-orcid": false,
         "given": "Tobias",
         "family": "Kuhn",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Ruben",
         "family": "Kok",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1487,6 +1670,7 @@
         "authenticated-orcid": false,
         "given": "Joost",
         "family": "Kok",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1494,6 +1678,7 @@
         "authenticated-orcid": false,
         "given": "Scott J.",
         "family": "Lusher",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1501,11 +1686,13 @@
         "authenticated-orcid": false,
         "given": "Maryann E.",
         "family": "Martone",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Albert",
         "family": "Mons",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1513,6 +1700,7 @@
         "authenticated-orcid": false,
         "given": "Abel L.",
         "family": "Packer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1520,6 +1708,7 @@
         "authenticated-orcid": false,
         "given": "Bengt",
         "family": "Persson",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1527,6 +1716,7 @@
         "authenticated-orcid": false,
         "given": "Philippe",
         "family": "Rocca-Serra",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1534,11 +1724,13 @@
         "authenticated-orcid": false,
         "given": "Marco",
         "family": "Roos",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Rene",
         "family": "van Schaik",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1546,6 +1738,7 @@
         "authenticated-orcid": false,
         "given": "Susanna-Assunta",
         "family": "Sansone",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1553,6 +1746,7 @@
         "authenticated-orcid": false,
         "given": "Erik",
         "family": "Schultes",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1560,6 +1754,7 @@
         "authenticated-orcid": false,
         "given": "Thierry",
         "family": "Sengstag",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1567,11 +1762,13 @@
         "authenticated-orcid": false,
         "given": "Ted",
         "family": "Slater",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "George",
         "family": "Strawn",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1579,6 +1776,7 @@
         "authenticated-orcid": false,
         "given": "Morris A.",
         "family": "Swertz",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1586,11 +1784,13 @@
         "authenticated-orcid": false,
         "given": "Mark",
         "family": "Thompson",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Johan",
         "family": "van der Lei",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1598,6 +1798,7 @@
         "authenticated-orcid": false,
         "given": "Erik",
         "family": "van Mulligen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1605,6 +1806,7 @@
         "authenticated-orcid": false,
         "given": "Jan",
         "family": "Velterop",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1612,11 +1814,13 @@
         "authenticated-orcid": false,
         "given": "Andra",
         "family": "Waagmeester",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Peter",
         "family": "Wittenburg",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1624,6 +1828,7 @@
         "authenticated-orcid": false,
         "given": "Katherine",
         "family": "Wolstencroft",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1631,6 +1836,7 @@
         "authenticated-orcid": false,
         "given": "Jun",
         "family": "Zhao",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1638,10 +1844,11 @@
         "authenticated-orcid": false,
         "given": "Barend",
         "family": "Mons",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
-    "member": "339",
+    "member": "297",
     "published-online": {
       "date-parts": [
         [
@@ -1684,14 +1891,6 @@
     "relation": {
       "cites": []
     },
-    "subject": [
-      "Statistics, Probability and Uncertainty",
-      "Statistics and Probability",
-      "Education",
-      "Library and Information Sciences",
-      "Information Systems",
-      "Computer Science Applications"
-    ],
     "container-title-short": "Sci. Data",
     "short_url": "https://doi.org/bdd4",
     "id": "6DjakjNS"
@@ -1700,13 +1899,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          27
+          2018,
+          6,
+          8
         ]
       ],
-      "date-time": "2017-10-27T09:29:29Z",
-      "timestamp": 1509096569752
+      "date-time": "2018-06-08T14:42:30Z",
+      "timestamp": 1528468950761
     },
     "reference-count": 0,
     "publisher": "Informa UK Limited",
@@ -1738,7 +1937,7 @@
     },
     "page": "213-214",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 1,
     "title": "NISO Z39.96-201x, JATS: Journal Article Tag Suite",
     "prefix": "10.1080",
     "volume": "38",
@@ -1746,6 +1945,7 @@
       {
         "given": "Mark H.",
         "family": "Needleman",
+        "sequence": "first",
         "affiliation": []
       }
     ],
@@ -1761,6 +1961,7 @@
     },
     "container-title": "Serials Review",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://www.tandfonline.com/doi/pdf/10.1080/00987913.2012.10765464",
@@ -1792,14 +1993,31 @@
       ]
     },
     "references-count": 0,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            12,
+            6
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            9
+          ]
+        ]
+      },
+      "issue": "3"
+    },
     "alternative-id": [
       "10.1080/00987913.2012.10765464"
     ],
     "URL": "https://doi.org/10.1080/00987913.2012.10765464",
     "relation": {},
-    "subject": [
-      "Library and Information Sciences"
-    ],
     "container-title-short": "Serials Review",
     "short_url": "https://doi.org/gbxtdj",
     "id": "bCyfIm6z"
@@ -1808,13 +2026,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          12,
-          31
+          2018,
+          5,
+          5
         ]
       ],
-      "date-time": "2017-12-31T12:42:19Z",
-      "timestamp": 1514724139895
+      "date-time": "2018-05-05T01:53:13Z",
+      "timestamp": 1525485193609
     },
     "reference-count": 2,
     "publisher": "Informa UK Limited",
@@ -1854,12 +2072,14 @@
       {
         "given": "Yingting",
         "family": "Zhang",
+        "sequence": "first",
         "affiliation": []
       }
     ],
     "member": "301",
     "container-title": "Medical Reference Services Quarterly",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://www.tandfonline.com/doi/pdf/10.1080/02763869.2012.641841",
@@ -1891,6 +2111,17 @@
       ]
     },
     "references-count": 2,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            1
+          ]
+        ]
+      },
+      "issue": "1"
+    },
     "alternative-id": [
       "10.1080/02763869.2012.641841"
     ],
@@ -1898,10 +2129,6 @@
     "relation": {
       "cites": []
     },
-    "subject": [
-      "Health Informatics",
-      "Library and Information Sciences"
-    ],
     "container-title-short": "Medical Reference Services Quarterly",
     "short_url": "https://doi.org/hpv",
     "id": "K7WVgf8X"
@@ -1911,12 +2138,508 @@
       "date-parts": [
         [
           2018,
-          1,
-          20
+          6,
+          8
         ]
       ],
-      "date-time": "2018-01-20T06:40:06Z",
-      "timestamp": 1516430406782
+      "date-time": "2018-06-08T15:22:30Z",
+      "timestamp": 1528471350144
+    },
+    "reference-count": 555,
+    "publisher": "The Royal Society",
+    "issue": "141",
+    "funder": [
+      {
+        "DOI": "10.13039/100000936",
+        "name": "Gordon and Betty Moore Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GBMF 4552",
+          "GBMF 4563"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01AI116794",
+          "T32GM007753",
+          "T32HG000046",
+          "R01LM012222",
+          "DP2GM123485",
+          "R01GM089652",
+          "R01GM089753",
+          "P30CA051008",
+          "R21CA220398",
+          "U54AI117924",
+          "R01LM012482"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000092",
+        "name": "U.S. National Library of Medicine",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Intramural Research Program"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100008982",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1245632",
+          "1531594",
+          "1564955"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000038",
+        "name": "Natural Sciences and Engineering Research Council of Canada",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "RGPIN-2015-3948"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000011",
+        "name": "Howard Hughes Medical Institute",
+        "doi-asserted-by": "publisher",
+        "award": []
+      },
+      {
+        "name": "Roy and Diana Vagelos Scholars Program in the Molecular Life Sciences",
+        "award": []
+      },
+      {
+        "name": "NSF",
+        "award": [
+          "1245632",
+          "1531594",
+          "1564955"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "royalsocietypublishing.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1098/rsif.2017.0387",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          4
+        ]
+      ],
+      "date-time": "2018-04-04T07:25:10Z",
+      "timestamp": 1522826710000
+    },
+    "page": "20170387",
+    "update-policy": "http://dx.doi.org/10.1098/crossmarkpolicy",
+    "source": "Crossref",
+    "is-referenced-by-count": 7,
+    "title": "Opportunities and obstacles for deep learning in biology and medicine",
+    "prefix": "10.1098",
+    "volume": "15",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-5577-3516",
+        "authenticated-orcid": false,
+        "given": "Travers",
+        "family": "Ching",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3012-7446",
+        "authenticated-orcid": false,
+        "given": "Daniel S.",
+        "family": "Himmelstein",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-6700-1468",
+        "authenticated-orcid": false,
+        "given": "Brett K.",
+        "family": "Beaulieu-Jones",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4563-3226",
+        "authenticated-orcid": false,
+        "given": "Alexandr A.",
+        "family": "Kalinin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4992-2623",
+        "authenticated-orcid": false,
+        "given": "Brian T.",
+        "family": "Do",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-0503-9348",
+        "authenticated-orcid": false,
+        "given": "Gregory P.",
+        "family": "Way",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-8362-100X",
+        "authenticated-orcid": false,
+        "given": "Enrico",
+        "family": "Ferrero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1126-1479",
+        "authenticated-orcid": false,
+        "given": "Paul-Michael",
+        "family": "Agapow",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0539-630X",
+        "authenticated-orcid": false,
+        "given": "Michael",
+        "family": "Zietz",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-4517-1562",
+        "authenticated-orcid": false,
+        "given": "Michael M.",
+        "family": "Hoffman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1871-6846",
+        "authenticated-orcid": false,
+        "given": "Wei",
+        "family": "Xie",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1763-5750",
+        "authenticated-orcid": false,
+        "given": "Gail L.",
+        "family": "Rosen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8690-9554",
+        "authenticated-orcid": false,
+        "given": "Benjamin J.",
+        "family": "Lengerich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1633-5780",
+        "authenticated-orcid": false,
+        "given": "Johnny",
+        "family": "Israeli",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0811-0944",
+        "authenticated-orcid": false,
+        "given": "Jack",
+        "family": "Lanchantin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0568-298X",
+        "authenticated-orcid": false,
+        "given": "Stephen",
+        "family": "Woloszynek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1555-8261",
+        "authenticated-orcid": false,
+        "given": "Anne E.",
+        "family": "Carpenter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-6443-4671",
+        "authenticated-orcid": false,
+        "given": "Avanti",
+        "family": "Shrikumar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-7111-4839",
+        "authenticated-orcid": false,
+        "given": "Jinbo",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3877-0433",
+        "authenticated-orcid": false,
+        "given": "Evan M.",
+        "family": "Cofer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-7762-1089",
+        "authenticated-orcid": false,
+        "given": "Christopher A.",
+        "family": "Lavender",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3247-6487",
+        "authenticated-orcid": false,
+        "given": "Srinivas C.",
+        "family": "Turaga",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8655-8109",
+        "authenticated-orcid": false,
+        "given": "Amr M.",
+        "family": "Alexandari",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9998-916X",
+        "authenticated-orcid": false,
+        "given": "Zhiyong",
+        "family": "Lu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3332-9307",
+        "authenticated-orcid": false,
+        "given": "David J.",
+        "family": "Harris",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8931-9461",
+        "authenticated-orcid": false,
+        "given": "Dave",
+        "family": "DeCaprio",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5796-7453",
+        "authenticated-orcid": false,
+        "given": "Yanjun",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3084-2287",
+        "authenticated-orcid": false,
+        "given": "Anshul",
+        "family": "Kundaje",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-9309-8331",
+        "authenticated-orcid": false,
+        "given": "Yifan",
+        "family": "Peng",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-6681-9754",
+        "authenticated-orcid": false,
+        "given": "Laura K.",
+        "family": "Wiley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8008-0546",
+        "authenticated-orcid": false,
+        "given": "Marwin H. S.",
+        "family": "Segler",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1400-3398",
+        "authenticated-orcid": false,
+        "given": "Simina M.",
+        "family": "Boca",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2191-0778",
+        "authenticated-orcid": false,
+        "given": "S. Joshua",
+        "family": "Swamidass",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1349-4030",
+        "authenticated-orcid": false,
+        "given": "Austin",
+        "family": "Huang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5324-9833",
+        "authenticated-orcid": false,
+        "given": "Anthony",
+        "family": "Gitter",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8713-9213",
+        "authenticated-orcid": false,
+        "given": "Casey S.",
+        "family": "Greene",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "175",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          4
+        ]
+      ]
+    },
+    "container-title": "Journal of The Royal Society Interface",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1098/rsif.2017.0387",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          5
+        ]
+      ],
+      "date-time": "2018-04-05T19:34:36Z",
+      "timestamp": 1522956876000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4
+        ]
+      ]
+    },
+    "references-count": 555,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2018,
+            4,
+            4
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            4
+          ]
+        ]
+      },
+      "issue": "141"
+    },
+    "alternative-id": [
+      "10.1098/rsif.2017.0387"
+    ],
+    "URL": "https://doi.org/10.1098/rsif.2017.0387",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "J. R. Soc. Interface",
+    "short_url": "https://doi.org/gddkhn",
+    "id": "PZMP42Ak"
+  },
+  {
+    "institution": {
+      "name": "bioRxiv",
+      "place": [
+        "-"
+      ],
+      "acronym": [
+        "-"
+      ]
+    },
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          5
+        ]
+      ],
+      "date-time": "2018-06-05T11:42:38Z",
+      "timestamp": 1528198958401
     },
     "posted": {
       "date-parts": [
@@ -1958,7 +2681,7 @@
       "timestamp": 1496034615000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 7,
     "title": "Opportunities And Obstacles For Deep Learning In Biology And Medicine",
     "prefix": "10.1101",
     "author": [
@@ -1967,6 +2690,7 @@
         "authenticated-orcid": false,
         "given": "Travers",
         "family": "Ching",
+        "sequence": "first",
         "affiliation": []
       },
       {
@@ -1974,6 +2698,7 @@
         "authenticated-orcid": false,
         "given": "Daniel S.",
         "family": "Himmelstein",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1981,6 +2706,7 @@
         "authenticated-orcid": false,
         "given": "Brett K.",
         "family": "Beaulieu-Jones",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1988,6 +2714,7 @@
         "authenticated-orcid": false,
         "given": "Alexandr A.",
         "family": "Kalinin",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -1995,6 +2722,7 @@
         "authenticated-orcid": false,
         "given": "Brian T.",
         "family": "Do",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2002,6 +2730,7 @@
         "authenticated-orcid": false,
         "given": "Gregory P.",
         "family": "Way",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2009,6 +2738,7 @@
         "authenticated-orcid": false,
         "given": "Enrico",
         "family": "Ferrero",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2016,6 +2746,7 @@
         "authenticated-orcid": false,
         "given": "Paul-Michael",
         "family": "Agapow",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2023,6 +2754,7 @@
         "authenticated-orcid": false,
         "given": "Michael",
         "family": "Zietz",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2030,6 +2762,7 @@
         "authenticated-orcid": false,
         "given": "Michael M",
         "family": "Hoffman",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2037,6 +2770,7 @@
         "authenticated-orcid": false,
         "given": "Wei",
         "family": "Xie",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2044,6 +2778,7 @@
         "authenticated-orcid": false,
         "given": "Gail L.",
         "family": "Rosen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2051,6 +2786,7 @@
         "authenticated-orcid": false,
         "given": "Benjamin J.",
         "family": "Lengerich",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2058,6 +2794,7 @@
         "authenticated-orcid": false,
         "given": "Johnny",
         "family": "Israeli",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2065,6 +2802,7 @@
         "authenticated-orcid": false,
         "given": "Jack",
         "family": "Lanchantin",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2072,6 +2810,7 @@
         "authenticated-orcid": false,
         "given": "Stephen",
         "family": "Woloszynek",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2079,6 +2818,7 @@
         "authenticated-orcid": false,
         "given": "Anne E.",
         "family": "Carpenter",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2086,6 +2826,7 @@
         "authenticated-orcid": false,
         "given": "Avanti",
         "family": "Shrikumar",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2093,6 +2834,7 @@
         "authenticated-orcid": false,
         "given": "Jinbo",
         "family": "Xu",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2100,6 +2842,7 @@
         "authenticated-orcid": false,
         "given": "Evan M.",
         "family": "Cofer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2107,6 +2850,7 @@
         "authenticated-orcid": false,
         "given": "Christopher A",
         "family": "Lavender",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2114,6 +2858,7 @@
         "authenticated-orcid": false,
         "given": "Srinivas C",
         "family": "Turaga",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2121,6 +2866,7 @@
         "authenticated-orcid": false,
         "given": "Amr M",
         "family": "Alexandari",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2128,6 +2874,7 @@
         "authenticated-orcid": false,
         "given": "Zhiyong",
         "family": "Lu",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2135,6 +2882,7 @@
         "authenticated-orcid": false,
         "given": "David J.",
         "family": "Harris",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2142,6 +2890,7 @@
         "authenticated-orcid": false,
         "given": "Dave",
         "family": "DeCaprio",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2149,6 +2898,7 @@
         "authenticated-orcid": false,
         "given": "Yanjun",
         "family": "Qi",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2156,6 +2906,7 @@
         "authenticated-orcid": false,
         "given": "Anshul",
         "family": "Kundaje",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2163,6 +2914,7 @@
         "authenticated-orcid": false,
         "given": "Yifan",
         "family": "Peng",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2170,6 +2922,7 @@
         "authenticated-orcid": false,
         "given": "Laura K.",
         "family": "Wiley",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2177,6 +2930,7 @@
         "authenticated-orcid": false,
         "given": "Marwin H. S.",
         "family": "Segler",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2184,6 +2938,7 @@
         "authenticated-orcid": false,
         "given": "Simina M",
         "family": "Boca",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2191,6 +2946,7 @@
         "authenticated-orcid": false,
         "given": "S. Joshua",
         "family": "Swamidass",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2198,6 +2954,7 @@
         "authenticated-orcid": false,
         "given": "Austin",
         "family": "Huang",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2205,6 +2962,7 @@
         "authenticated-orcid": false,
         "given": "Anthony",
         "family": "Gitter",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2212,6 +2970,7 @@
         "authenticated-orcid": false,
         "given": "Casey S.",
         "family": "Greene",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -2230,12 +2989,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          20
+          5,
+          21
         ]
       ],
-      "date-time": "2018-01-20T06:11:43Z",
-      "timestamp": 1516428703000
+      "date-time": "2018-05-21T16:06:39Z",
+      "timestamp": 1526918799000
     },
     "score": 1.0,
     "subtitle": [],
@@ -2251,7 +3010,16 @@
     },
     "references-count": 0,
     "URL": "https://doi.org/10.1101/142760",
-    "relation": {},
+    "relation": {
+      "is-preprint-of": [
+        {
+          "id-type": "doi",
+          "id": "10.1098/rsif.2017.0387",
+          "asserted-by": "subject"
+        }
+      ]
+    },
+    "subtype": "preprint",
     "short_url": "https://doi.org/gbpvh5",
     "id": "tJKvnIaZ"
   },
@@ -2260,12 +3028,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          18
+          5,
+          3
         ]
       ],
-      "date-time": "2018-01-18T20:22:20Z",
-      "timestamp": 1516306940333
+      "date-time": "2018-05-03T11:29:49Z",
+      "timestamp": 1525346989956
     },
     "reference-count": 29,
     "publisher": "IEEE",
@@ -2294,18 +3062,20 @@
       "timestamp": 1171051612000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 32,
+    "is-referenced-by-count": 33,
     "title": "Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology",
     "prefix": "10.1109",
     "author": [
       {
         "given": "Christian",
         "family": "Wagner",
+        "sequence": "first",
         "affiliation": []
       },
       {
         "given": "Pattarawan",
         "family": "Prasarnphanich",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -2352,12 +3122,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          20
+          5,
+          8
         ]
       ],
-      "date-time": "2018-01-20T01:40:08Z",
-      "timestamp": 1516412408492
+      "date-time": "2018-05-08T15:57:10Z",
+      "timestamp": 1525795030986
     },
     "reference-count": 0,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -2395,6 +3165,7 @@
       {
         "given": "Jop",
         "family": "Vrieze",
+        "sequence": "first",
         "affiliation": []
       }
     ],
@@ -2427,9 +3198,6 @@
     "references-count": 0,
     "URL": "https://doi.org/10.1126/science.aat0471",
     "relation": {},
-    "subject": [
-      "Multidisciplinary"
-    ],
     "container-title-short": "Science",
     "short_url": "https://doi.org/gc5tct",
     "id": "82ZjWq3i"
@@ -2439,15 +3207,44 @@
       "date-parts": [
         [
           2018,
-          1,
-          3
+          5,
+          16
         ]
       ],
-      "date-time": "2018-01-03T17:22:21Z",
-      "timestamp": 1515000141989
+      "date-time": "2018-05-16T06:42:27Z",
+      "timestamp": 1526452947945
     },
     "reference-count": 258,
     "publisher": "F1000 Research, Ltd.",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              7,
+              20
+            ]
+          ],
+          "date-time": "2017-07-20T00:00:00Z",
+          "timestamp": 1500508800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100007601",
+        "name": "Horizon 2020",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "H2020-EINFRA-2014-1",
+          "643410"
+        ]
+      }
+    ],
     "content-domain": {
       "domain": [
         "f1000research.com"
@@ -2470,7 +3267,7 @@
     "page": "1151",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 5,
+    "is-referenced-by-count": 8,
     "title": "A multi-disciplinary perspective on emergent and future innovations in peer review",
     "prefix": "10.12688",
     "volume": "6",
@@ -2480,6 +3277,7 @@
         "authenticated-orcid": false,
         "given": "Jonathan P.",
         "family": "Tennant",
+        "sequence": "first",
         "affiliation": []
       },
       {
@@ -2487,6 +3285,7 @@
         "authenticated-orcid": false,
         "given": "Jonathan M.",
         "family": "Dugan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2494,6 +3293,7 @@
         "authenticated-orcid": false,
         "given": "Daniel",
         "family": "Graziotin",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2501,6 +3301,7 @@
         "authenticated-orcid": false,
         "given": "Damien C.",
         "family": "Jacques",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2508,11 +3309,15 @@
         "authenticated-orcid": false,
         "given": "François",
         "family": "Waldner",
+        "sequence": "additional",
         "affiliation": []
       },
       {
+        "ORCID": "http://orcid.org/0000-0001-9488-1870",
+        "authenticated-orcid": false,
         "given": "Daniel",
         "family": "Mietchen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2520,6 +3325,7 @@
         "authenticated-orcid": false,
         "given": "Yehia",
         "family": "Elkhatib",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2527,6 +3333,7 @@
         "authenticated-orcid": false,
         "given": "Lauren",
         "family": "B. Collister",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2534,6 +3341,7 @@
         "authenticated-orcid": false,
         "given": "Christina K.",
         "family": "Pikas",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2541,6 +3349,7 @@
         "authenticated-orcid": false,
         "given": "Tom",
         "family": "Crick",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2548,6 +3357,7 @@
         "authenticated-orcid": false,
         "given": "Paola",
         "family": "Masuzzo",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2555,6 +3365,7 @@
         "authenticated-orcid": false,
         "given": "Anthony",
         "family": "Caravaggi",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2562,6 +3373,7 @@
         "authenticated-orcid": false,
         "given": "Devin R.",
         "family": "Berg",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2569,6 +3381,7 @@
         "authenticated-orcid": false,
         "given": "Kyle E.",
         "family": "Niemeyer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2576,6 +3389,7 @@
         "authenticated-orcid": false,
         "given": "Tony",
         "family": "Ross-Hellauer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2583,6 +3397,7 @@
         "authenticated-orcid": false,
         "given": "Sara",
         "family": "Mannheimer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2590,6 +3405,7 @@
         "authenticated-orcid": false,
         "given": "Lillian",
         "family": "Rigling",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2597,6 +3413,7 @@
         "authenticated-orcid": false,
         "given": "Daniel S.",
         "family": "Katz",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2604,6 +3421,7 @@
         "authenticated-orcid": false,
         "given": "Bastian",
         "family": "Greshake Tzovaras",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2611,6 +3429,7 @@
         "authenticated-orcid": false,
         "given": "Josmel",
         "family": "Pacheco-Mendoza",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2618,6 +3437,7 @@
         "authenticated-orcid": false,
         "given": "Nazeefa",
         "family": "Fatima",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2625,6 +3445,7 @@
         "authenticated-orcid": false,
         "given": "Marta",
         "family": "Poblet",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2632,6 +3453,7 @@
         "authenticated-orcid": false,
         "given": "Marios",
         "family": "Isaakidis",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2639,6 +3461,7 @@
         "authenticated-orcid": false,
         "given": "Dasapta Erwin",
         "family": "Irawan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2646,6 +3469,7 @@
         "authenticated-orcid": false,
         "given": "Sébastien",
         "family": "Renaut",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2653,6 +3477,7 @@
         "authenticated-orcid": false,
         "given": "Christopher R.",
         "family": "Madan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2660,6 +3485,7 @@
         "authenticated-orcid": false,
         "given": "Lisa",
         "family": "Matthias",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2667,6 +3493,7 @@
         "authenticated-orcid": false,
         "given": "Jesper",
         "family": "Nørgaard Kjær",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2674,6 +3501,7 @@
         "authenticated-orcid": false,
         "given": "Daniel Paul",
         "family": "O'Donnell",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2681,6 +3509,7 @@
         "authenticated-orcid": false,
         "given": "Cameron",
         "family": "Neylon",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2688,6 +3517,7 @@
         "authenticated-orcid": false,
         "given": "Sarah",
         "family": "Kearns",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2695,6 +3525,7 @@
         "authenticated-orcid": false,
         "given": "Manojkumar",
         "family": "Selvaraju",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -2702,6 +3533,7 @@
         "authenticated-orcid": false,
         "given": "Julien",
         "family": "Colomb",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -2717,6 +3549,7 @@
     },
     "container-title": "F1000Research",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://f1000research.com/articles/6-1151/v1/iparadigms",
@@ -2728,13 +3561,13 @@
     "deposited": {
       "date-parts": [
         [
-          2017,
-          10,
-          12
+          2018,
+          4,
+          11
         ]
       ],
-      "date-time": "2017-10-12T16:00:22Z",
-      "timestamp": 1507824022000
+      "date-time": "2018-04-11T18:36:11Z",
+      "timestamp": 1523471771000
     },
     "score": 1.0,
     "subtitle": [],
@@ -2789,7 +3622,7 @@
         }
       },
       {
-        "value": "10.5256/f1000research.13023.r24355, Virginia (Ginny) Barbour, Queensland University of Technology (QUT), Brisbane, Qld, Australia, 14 Aug 2017, version 1, 2 approved with reservations",
+        "value": "10.5256/f1000research.13023.r24355, Virginia Barbour, Queensland University of Technology (QUT), Brisbane, Qld, Australia, 14 Aug 2017, version 1, 2 approved with reservations",
         "URL": "https://f1000research.com/articles/6-1151/v1#referee-response-24355",
         "order": 2,
         "name": "referee-response-24355",
@@ -2940,13 +3773,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          11,
-          13
+          2018,
+          5,
+          8
         ]
       ],
-      "date-time": "2017-11-13T12:10:36Z",
-      "timestamp": 1510575036167
+      "date-time": "2018-05-08T03:57:43Z",
+      "timestamp": 1525751863491
     },
     "update-to": [
       {
@@ -2968,6 +3801,24 @@
     ],
     "reference-count": 294,
     "publisher": "F1000 Research, Ltd.",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2017-11-01T00:00:00Z",
+          "timestamp": 1509494400000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
     "funder": [
       {
         "DOI": "10.13039/100010661",
@@ -3010,6 +3861,7 @@
         "authenticated-orcid": false,
         "given": "Jonathan P.",
         "family": "Tennant",
+        "sequence": "first",
         "affiliation": []
       },
       {
@@ -3017,6 +3869,7 @@
         "authenticated-orcid": false,
         "given": "Jonathan M.",
         "family": "Dugan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3024,6 +3877,7 @@
         "authenticated-orcid": false,
         "given": "Daniel",
         "family": "Graziotin",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3031,6 +3885,7 @@
         "authenticated-orcid": false,
         "given": "Damien C.",
         "family": "Jacques",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3038,11 +3893,15 @@
         "authenticated-orcid": false,
         "given": "François",
         "family": "Waldner",
+        "sequence": "additional",
         "affiliation": []
       },
       {
+        "ORCID": "http://orcid.org/0000-0001-9488-1870",
+        "authenticated-orcid": false,
         "given": "Daniel",
         "family": "Mietchen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3050,6 +3909,7 @@
         "authenticated-orcid": false,
         "given": "Yehia",
         "family": "Elkhatib",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3057,6 +3917,7 @@
         "authenticated-orcid": false,
         "given": "Lauren",
         "family": "B. Collister",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3064,6 +3925,7 @@
         "authenticated-orcid": false,
         "given": "Christina K.",
         "family": "Pikas",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3071,6 +3933,7 @@
         "authenticated-orcid": false,
         "given": "Tom",
         "family": "Crick",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3078,6 +3941,7 @@
         "authenticated-orcid": false,
         "given": "Paola",
         "family": "Masuzzo",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3085,6 +3949,7 @@
         "authenticated-orcid": false,
         "given": "Anthony",
         "family": "Caravaggi",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3092,6 +3957,7 @@
         "authenticated-orcid": false,
         "given": "Devin R.",
         "family": "Berg",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3099,6 +3965,7 @@
         "authenticated-orcid": false,
         "given": "Kyle E.",
         "family": "Niemeyer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3106,6 +3973,7 @@
         "authenticated-orcid": false,
         "given": "Tony",
         "family": "Ross-Hellauer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3113,6 +3981,7 @@
         "authenticated-orcid": false,
         "given": "Sara",
         "family": "Mannheimer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3120,6 +3989,7 @@
         "authenticated-orcid": false,
         "given": "Lillian",
         "family": "Rigling",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3127,6 +3997,7 @@
         "authenticated-orcid": false,
         "given": "Daniel S.",
         "family": "Katz",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3134,6 +4005,7 @@
         "authenticated-orcid": false,
         "given": "Bastian",
         "family": "Greshake Tzovaras",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3141,6 +4013,7 @@
         "authenticated-orcid": false,
         "given": "Josmel",
         "family": "Pacheco-Mendoza",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3148,6 +4021,7 @@
         "authenticated-orcid": false,
         "given": "Nazeefa",
         "family": "Fatima",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3155,6 +4029,7 @@
         "authenticated-orcid": false,
         "given": "Marta",
         "family": "Poblet",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3162,6 +4037,7 @@
         "authenticated-orcid": false,
         "given": "Marios",
         "family": "Isaakidis",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3169,6 +4045,7 @@
         "authenticated-orcid": false,
         "given": "Dasapta Erwin",
         "family": "Irawan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3176,6 +4053,7 @@
         "authenticated-orcid": false,
         "given": "Sébastien",
         "family": "Renaut",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3183,6 +4061,7 @@
         "authenticated-orcid": false,
         "given": "Christopher R.",
         "family": "Madan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3190,6 +4069,7 @@
         "authenticated-orcid": false,
         "given": "Lisa",
         "family": "Matthias",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3197,6 +4077,7 @@
         "authenticated-orcid": false,
         "given": "Jesper",
         "family": "Nørgaard Kjær",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3204,6 +4085,7 @@
         "authenticated-orcid": false,
         "given": "Daniel Paul",
         "family": "O'Donnell",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3211,6 +4093,7 @@
         "authenticated-orcid": false,
         "given": "Cameron",
         "family": "Neylon",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3218,6 +4101,7 @@
         "authenticated-orcid": false,
         "given": "Sarah",
         "family": "Kearns",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3225,6 +4109,7 @@
         "authenticated-orcid": false,
         "given": "Manojkumar",
         "family": "Selvaraju",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3232,6 +4117,7 @@
         "authenticated-orcid": false,
         "given": "Julien",
         "family": "Colomb",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -3247,6 +4133,7 @@
     },
     "container-title": "F1000Research",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://f1000research.com/articles/6-1151/v2/iparadigms",
@@ -3258,13 +4145,13 @@
     "deposited": {
       "date-parts": [
         [
-          2017,
-          11,
-          13
+          2018,
+          4,
+          11
         ]
       ],
-      "date-time": "2017-11-13T11:55:30Z",
-      "timestamp": 1510574130000
+      "date-time": "2018-04-11T18:35:58Z",
+      "timestamp": 1523471758000
     },
     "score": 1.0,
     "subtitle": [],
@@ -3350,12 +4237,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          9
+          6,
+          8
         ]
       ],
-      "date-time": "2018-01-09T17:02:26Z",
-      "timestamp": 1515517346836
+      "date-time": "2018-06-08T11:42:27Z",
+      "timestamp": 1528458147882
     },
     "reference-count": 10,
     "publisher": "Public Library of Science (PLoS)",
@@ -3375,7 +4262,7 @@
           "timestamp": 1323129600000
         },
         "delay-in-days": 0,
-        "content-version": "vor"
+        "content-version": "unspecified"
       }
     ],
     "content-domain": {
@@ -3400,7 +4287,7 @@
     "page": "e1001195",
     "update-policy": "http://dx.doi.org/10.1371/journal.pbio.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 69,
+    "is-referenced-by-count": 79,
     "title": "The Open Knowledge Foundation: Open Data Means Better Science",
     "prefix": "10.1371",
     "volume": "9",
@@ -3408,6 +4295,7 @@
       {
         "given": "Jennifer C.",
         "family": "Molloy",
+        "sequence": "first",
         "affiliation": []
       }
     ],
@@ -3423,6 +4311,7 @@
     },
     "container-title": "PLoS Biology",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://dx.plos.org/10.1371/journal.pbio.1001195",
@@ -3455,16 +4344,22 @@
       ]
     },
     "references-count": 10,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2011,
+            12,
+            6
+          ]
+        ]
+      },
+      "issue": "12"
+    },
     "URL": "https://doi.org/10.1371/journal.pbio.1001195",
     "relation": {
       "cites": []
     },
-    "subject": [
-      "General Biochemistry, Genetics and Molecular Biology",
-      "General Immunology and Microbiology",
-      "General Neuroscience",
-      "General Agricultural and Biological Sciences"
-    ],
     "container-title-short": "PLoS Biol",
     "short_url": "https://doi.org/g3b",
     "id": "1A97a4UwU"
@@ -3473,13 +4368,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          27
+          2018,
+          5,
+          8
         ]
       ],
-      "date-time": "2017-10-27T11:17:28Z",
-      "timestamp": 1509103048136
+      "date-time": "2018-05-08T02:04:43Z",
+      "timestamp": 1525745083898
     },
     "reference-count": 6,
     "publisher": "Public Library of Science (PLoS)",
@@ -3524,7 +4419,7 @@
     "page": "e1004668",
     "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 14,
+    "is-referenced-by-count": 18,
     "title": "A Quick Introduction to Version Control with Git and GitHub",
     "prefix": "10.1371",
     "volume": "12",
@@ -3532,16 +4427,19 @@
       {
         "given": "John D.",
         "family": "Blischak",
+        "sequence": "first",
         "affiliation": []
       },
       {
         "given": "Emily R.",
         "family": "Davenport",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Greg",
         "family": "Wilson",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -3557,6 +4455,7 @@
     },
     "container-title": "PLOS Computational Biology",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://dx.plos.org/10.1371/journal.pcbi.1004668",
@@ -3582,6 +4481,7 @@
       {
         "given": "Francis",
         "family": "Ouellette",
+        "sequence": "first",
         "affiliation": []
       }
     ],
@@ -3596,19 +4496,22 @@
       ]
     },
     "references-count": 6,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            1,
+            19
+          ]
+        ]
+      },
+      "issue": "1"
+    },
     "URL": "https://doi.org/10.1371/journal.pcbi.1004668",
     "relation": {
       "cites": []
     },
-    "subject": [
-      "Ecology",
-      "Modelling and Simulation",
-      "Computational Theory and Mathematics",
-      "Genetics",
-      "Ecology, Evolution, Behavior and Systematics",
-      "Molecular Biology",
-      "Cellular and Molecular Neuroscience"
-    ],
     "container-title-short": "PLoS Comput Biol",
     "short_url": "https://doi.org/gbqsnf",
     "id": "PlcxShQU"
@@ -3618,12 +4521,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          4
+          6,
+          14
         ]
       ],
-      "date-time": "2018-01-04T18:42:17Z",
-      "timestamp": 1515091337910
+      "date-time": "2018-06-14T11:02:40Z",
+      "timestamp": 1528974160583
     },
     "reference-count": 24,
     "publisher": "Public Library of Science (PLoS)",
@@ -3668,7 +4571,7 @@
     "page": "e1004947",
     "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 12,
+    "is-referenced-by-count": 17,
     "title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
     "prefix": "10.1371",
     "volume": "12",
@@ -3676,6 +4579,7 @@
       {
         "given": "Yasset",
         "family": "Perez-Riverol",
+        "sequence": "first",
         "affiliation": []
       },
       {
@@ -3683,16 +4587,19 @@
         "authenticated-orcid": false,
         "given": "Laurent",
         "family": "Gatto",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Rui",
         "family": "Wang",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Timo",
         "family": "Sachsenberg",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3700,6 +4607,7 @@
         "authenticated-orcid": false,
         "given": "Julian",
         "family": "Uszkoreit",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3707,11 +4615,13 @@
         "authenticated-orcid": true,
         "given": "Felipe da Veiga",
         "family": "Leprevost",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Christian",
         "family": "Fufezan",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3719,11 +4629,13 @@
         "authenticated-orcid": true,
         "given": "Tobias",
         "family": "Ternent",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Stephen J.",
         "family": "Eglen",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3731,6 +4643,7 @@
         "authenticated-orcid": true,
         "given": "Daniel S.",
         "family": "Katz",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3738,6 +4651,7 @@
         "authenticated-orcid": true,
         "given": "Tom J.",
         "family": "Pollard",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3745,6 +4659,7 @@
         "authenticated-orcid": true,
         "given": "Alexander",
         "family": "Konovalov",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3752,6 +4667,7 @@
         "authenticated-orcid": true,
         "given": "Robert M.",
         "family": "Flight",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3759,6 +4675,7 @@
         "authenticated-orcid": true,
         "given": "Kai",
         "family": "Blin",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -3766,6 +4683,7 @@
         "authenticated-orcid": true,
         "given": "Juan Antonio",
         "family": "Vizcaíno",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -3781,6 +4699,7 @@
     },
     "container-title": "PLOS Computational Biology",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://dx.plos.org/10.1371/journal.pcbi.1004947",
@@ -3806,6 +4725,7 @@
       {
         "given": "Scott",
         "family": "Markel",
+        "sequence": "first",
         "affiliation": []
       }
     ],
@@ -3820,6 +4740,18 @@
       ]
     },
     "references-count": 24,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2016,
+            7,
+            14
+          ]
+        ]
+      },
+      "issue": "7"
+    },
     "URL": "https://doi.org/10.1371/journal.pcbi.1004947",
     "relation": {
       "has-preprint": [
@@ -3831,15 +4763,6 @@
       ],
       "cites": []
     },
-    "subject": [
-      "Ecology",
-      "Modelling and Simulation",
-      "Computational Theory and Mathematics",
-      "Genetics",
-      "Ecology, Evolution, Behavior and Systematics",
-      "Molecular Biology",
-      "Cellular and Molecular Neuroscience"
-    ],
     "container-title-short": "PLoS Comput Biol",
     "short_url": "https://doi.org/gbrb39",
     "id": "kEX5dgzK"
@@ -3848,13 +4771,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          26
+          2018,
+          5,
+          4
         ]
       ],
-      "date-time": "2017-10-26T06:57:56Z",
-      "timestamp": 1509001076164
+      "date-time": "2018-05-04T19:44:50Z",
+      "timestamp": 1525463090453
     },
     "reference-count": 21,
     "publisher": "Public Library of Science (PLoS)",
@@ -3874,7 +4797,7 @@
           "timestamp": 1233619200000
         },
         "delay-in-days": 0,
-        "content-version": "vor"
+        "content-version": "unspecified"
       }
     ],
     "content-domain": {
@@ -3907,36 +4830,43 @@
       {
         "given": "Peter C",
         "family": "Gøtzsche",
+        "sequence": "first",
         "affiliation": []
       },
       {
         "given": "Jerome P",
         "family": "Kassirer",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Karen L",
         "family": "Woolley",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Elizabeth",
         "family": "Wager",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Adam",
         "family": "Jacobs",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Art",
         "family": "Gertel",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Cindy",
         "family": "Hamilton",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -3952,6 +4882,7 @@
     },
     "container-title": "PLoS Medicine",
     "original-title": [],
+    "language": "en",
     "deposited": {
       "date-parts": [
         [
@@ -3976,13 +4907,22 @@
       ]
     },
     "references-count": 21,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2009,
+            2,
+            3
+          ]
+        ]
+      },
+      "issue": "2"
+    },
     "URL": "https://doi.org/10.1371/journal.pmed.1000023",
     "relation": {
       "cites": []
     },
-    "subject": [
-      "General Medicine"
-    ],
     "container-title-short": "PLoS Med",
     "short_url": "https://doi.org/bnzbx7",
     "id": "RK9sIADd"
@@ -3991,13 +4931,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          28
+          2018,
+          5,
+          9
         ]
       ],
-      "date-time": "2017-10-28T05:14:53Z",
-      "timestamp": 1509167693478
+      "date-time": "2018-05-09T10:58:33Z",
+      "timestamp": 1525863513345
     },
     "reference-count": 48,
     "publisher": "Public Library of Science (PLoS)",
@@ -4042,7 +4982,7 @@
     "page": "e1002276",
     "update-policy": "http://dx.doi.org/10.1371/journal.pmed.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 1,
+    "is-referenced-by-count": 2,
     "title": "An open source pharma roadmap",
     "prefix": "10.1371",
     "volume": "14",
@@ -4050,16 +4990,19 @@
       {
         "given": "Manica",
         "family": "Balasegaram",
+        "sequence": "first",
         "affiliation": []
       },
       {
         "given": "Peter",
         "family": "Kolb",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "John",
         "family": "McKew",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -4067,16 +5010,19 @@
         "authenticated-orcid": true,
         "given": "Jaykumar",
         "family": "Menon",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Piero",
         "family": "Olliaro",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Tomasz",
         "family": "Sablinski",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -4084,6 +5030,7 @@
         "authenticated-orcid": true,
         "given": "Zakir",
         "family": "Thomas",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -4091,11 +5038,13 @@
         "authenticated-orcid": true,
         "given": "Matthew H.",
         "family": "Todd",
+        "sequence": "additional",
         "affiliation": []
       },
       {
         "given": "Els",
         "family": "Torreele",
+        "sequence": "additional",
         "affiliation": []
       },
       {
@@ -4103,6 +5052,7 @@
         "authenticated-orcid": true,
         "given": "John",
         "family": "Wilbanks",
+        "sequence": "additional",
         "affiliation": []
       }
     ],
@@ -4118,6 +5068,7 @@
     },
     "container-title": "PLOS Medicine",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://dx.plos.org/10.1371/journal.pmed.1002276",
@@ -4150,13 +5101,22 @@
       ]
     },
     "references-count": 48,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            4,
+            18
+          ]
+        ]
+      },
+      "issue": "4"
+    },
     "URL": "https://doi.org/10.1371/journal.pmed.1002276",
     "relation": {
       "cites": []
     },
-    "subject": [
-      "General Medicine"
-    ],
     "container-title-short": "PLoS Med",
     "short_url": "https://doi.org/gbrb4b",
     "id": "HnZE3JiU"
@@ -4165,13 +5125,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          26
+          2018,
+          5,
+          9
         ]
       ],
-      "date-time": "2017-10-26T23:59:05Z",
-      "timestamp": 1509062345988
+      "date-time": "2018-05-09T01:32:08Z",
+      "timestamp": 1525829528830
     },
     "reference-count": 9,
     "publisher": "Korean Council of Science Editors",
@@ -4242,6 +5202,7 @@
       {
         "given": "Sun",
         "family": "Huh",
+        "sequence": "first",
         "affiliation": []
       }
     ],
@@ -4257,6 +5218,7 @@
     },
     "container-title": "Science Editing",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "http://escienceediting.org/upload/se-1-2-99.pdf",
@@ -4295,6 +5257,17 @@
       ]
     },
     "references-count": 9,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            8
+          ]
+        ]
+      },
+      "issue": "2"
+    },
     "URL": "https://doi.org/10.6087/kcse.2014.1.99",
     "relation": {},
     "container-title-short": "Sci Ed",
@@ -4338,12 +5311,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          13
+          5,
+          11
         ]
       ],
-      "date-time": "2018-01-13T14:40:08Z",
-      "timestamp": 1515854408688
+      "date-time": "2018-05-11T13:44:07Z",
+      "timestamp": 1526046247841
     },
     "posted": {
       "date-parts": [
@@ -4394,7 +5367,7 @@
       "timestamp": 1515852694000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 2,
     "title": "Sci-Hub provides access to nearly all scholarly literature",
     "prefix": "10.7287",
     "author": [
@@ -4403,6 +5376,7 @@
         "authenticated-orcid": true,
         "given": "Daniel S",
         "family": "Himmelstein",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
@@ -4412,6 +5386,7 @@
       {
         "given": "Ariel R",
         "family": "Romero",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Bidwise, Inc, Miami, Florida, United States"
@@ -4423,6 +5398,7 @@
         "authenticated-orcid": true,
         "given": "Stephen R",
         "family": "McLaughlin",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "School of Information, University of Texas at Austin, Austin, Texas, United States"
@@ -4434,6 +5410,7 @@
         "authenticated-orcid": true,
         "given": "Bastian",
         "family": "Greshake Tzovaras",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Applied Bioinformatics, Goethe University Frankfurt, Frankfurt, Germany"
@@ -4445,6 +5422,7 @@
         "authenticated-orcid": true,
         "given": "Casey S",
         "family": "Greene",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
@@ -4515,6 +5493,7 @@
         }
       ]
     },
+    "subtype": "preprint",
     "short_url": "https://doi.org/b9s6",
     "id": "11cb5HXoY"
   },
@@ -4523,12 +5502,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          22
+          6,
+          6
         ]
       ],
-      "date-time": "2018-01-22T16:42:18Z",
-      "timestamp": 1516639338693
+      "date-time": "2018-06-06T02:42:29Z",
+      "timestamp": 1528252949859
     },
     "reference-count": 157,
     "publisher": "eLife Sciences Organisation, Ltd.",
@@ -4625,7 +5604,7 @@
       "timestamp": 1467913601000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 38,
+    "is-referenced-by-count": 55,
     "title": "How open science helps researchers succeed",
     "prefix": "10.7554",
     "volume": "5",
@@ -4635,6 +5614,7 @@
         "authenticated-orcid": true,
         "given": "Erin C",
         "family": "McKiernan",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "Department of Physics, Faculty of Science, National Autonomous University of Mexico, Mexico City, Mexico"
@@ -4646,6 +5626,7 @@
         "authenticated-orcid": true,
         "given": "Philip E",
         "family": "Bourne",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Office of the Director, National Institutes of Health, Bethesda, United States"
@@ -4655,6 +5636,7 @@
       {
         "given": "C Titus",
         "family": "Brown",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Population Health and Reproduction, University of California, Davis, Davis, United States"
@@ -4664,6 +5646,7 @@
       {
         "given": "Stuart",
         "family": "Buck",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Laura and John Arnold Foundation, Houston, United States"
@@ -4675,6 +5658,7 @@
         "authenticated-orcid": true,
         "given": "Amye",
         "family": "Kenall",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "BioMed Central, London, United Kingdom"
@@ -4684,6 +5668,7 @@
       {
         "given": "Jennifer",
         "family": "Lin",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "CrossRef, Oxford, United Kingdom"
@@ -4693,6 +5678,7 @@
       {
         "given": "Damon",
         "family": "McDougall",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Institute for Computational Engineering and Sciences, University of Texas at Austin, Austin, United States"
@@ -4702,6 +5688,7 @@
       {
         "given": "Brian A",
         "family": "Nosek",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Center for Open Science, Charlottesville, United States"
@@ -4711,6 +5698,7 @@
       {
         "given": "Karthik",
         "family": "Ram",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Berkeley Institute for Data Science, University of California, Berkeley, Berkeley, United States"
@@ -4720,6 +5708,7 @@
       {
         "given": "Courtney K",
         "family": "Soderberg",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Center for Open Science, Charlottesville, United States"
@@ -4729,6 +5718,7 @@
       {
         "given": "Jeffrey R",
         "family": "Spies",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Center for Open Science, Charlottesville, United States"
@@ -4741,6 +5731,7 @@
       {
         "given": "Kaitlin",
         "family": "Thaney",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Mozilla Science Lab, Mozilla Foundation, New York, United States"
@@ -4750,6 +5741,7 @@
       {
         "given": "Andrew",
         "family": "Updegrove",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Gesmer Updegrove LLP, Boston, United States"
@@ -4761,6 +5753,7 @@
         "authenticated-orcid": true,
         "given": "Kara H",
         "family": "Woo",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Center for Environmental Research, Education, and Outreach, Washington State University, Pullman, United States"
@@ -4773,6 +5766,7 @@
       {
         "given": "Tal",
         "family": "Yarkoni",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Psychology, University of Texas at Austin, Austin, United States"
@@ -4792,6 +5786,7 @@
     },
     "container-title": "eLife",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://cdn.elifesciences.org/articles/16800/elife-16800-v2.pdf",
@@ -4844,12 +5839,6 @@
       ],
       "cites": []
     },
-    "subject": [
-      "General Biochemistry, Genetics and Molecular Biology",
-      "General Immunology and Microbiology",
-      "General Neuroscience",
-      "General Medicine"
-    ],
     "short_url": "https://doi.org/gbqsng",
     "id": "HQfvK1OF"
   },
@@ -4857,13 +5846,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          28
+          2018,
+          5,
+          16
         ]
       ],
-      "date-time": "2017-10-28T01:11:49Z",
-      "timestamp": 1509153109661
+      "date-time": "2018-05-16T18:22:30Z",
+      "timestamp": 1526494950551
     },
     "reference-count": 7,
     "publisher": "eLife Sciences Organisation, Ltd.",
@@ -4936,7 +5925,7 @@
       "timestamp": 1466076615000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 2,
     "title": "Priority of discovery in the life sciences",
     "prefix": "10.7554",
     "volume": "5",
@@ -4944,6 +5933,7 @@
       {
         "given": "Ronald D",
         "family": "Vale",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "Department of Cellular and Molecular Pharmacology and the Howard Hughes Medical Institute, University of California, San Francisco, San Francisco, United States"
@@ -4953,6 +5943,7 @@
       {
         "given": "Anthony A",
         "family": "Hyman",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Max Planck Institute of Molecular Cell Biology and Genetics, Dresden, Germany"
@@ -4972,6 +5963,7 @@
     },
     "container-title": "eLife",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://cdn.elifesciences.org/articles/16931/elife-16931-v1.pdf",
@@ -5017,12 +6009,6 @@
     "relation": {
       "cites": []
     },
-    "subject": [
-      "General Biochemistry, Genetics and Molecular Biology",
-      "General Immunology and Microbiology",
-      "General Neuroscience",
-      "General Medicine"
-    ],
     "short_url": "https://doi.org/gcx6gx",
     "id": "vHuGhm4k"
   },
@@ -5030,13 +6016,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          28
+          2018,
+          6,
+          5
         ]
       ],
-      "date-time": "2017-10-28T01:08:04Z",
-      "timestamp": 1509152884275
+      "date-time": "2018-06-05T10:42:33Z",
+      "timestamp": 1528195353055
     },
     "reference-count": 241,
     "publisher": "eLife Sciences Organisation, Ltd.",
@@ -5147,7 +6133,7 @@
       "timestamp": 1506081617000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 2,
     "title": "Systematic integration of biomedical knowledge prioritizes drugs for repurposing",
     "prefix": "10.7554",
     "volume": "6",
@@ -5157,6 +6143,7 @@
         "authenticated-orcid": true,
         "given": "Daniel Scott",
         "family": "Himmelstein",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "Biological and Medical Informatics Program, University of California, San Francisco, San Francisco, United States"
@@ -5169,6 +6156,7 @@
       {
         "given": "Antoine",
         "family": "Lizee",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Neurology, University of California, San Francisco, San Francisco, United States"
@@ -5181,6 +6169,7 @@
       {
         "given": "Christine",
         "family": "Hessler",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Neurology, University of California, San Francisco, San Francisco, United States"
@@ -5190,6 +6179,7 @@
       {
         "given": "Leo",
         "family": "Brueggeman",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Neurology, University of California, San Francisco, San Francisco, United States"
@@ -5202,6 +6192,7 @@
       {
         "given": "Sabrina L",
         "family": "Chen",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Neurology, University of California, San Francisco, San Francisco, United States"
@@ -5214,6 +6205,7 @@
       {
         "given": "Dexter",
         "family": "Hadley",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Pediatrics, University of California, San Fransisco, San Fransisco, United States"
@@ -5226,6 +6218,7 @@
       {
         "given": "Ari",
         "family": "Green",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Neurology, University of California, San Francisco, San Francisco, United States"
@@ -5235,6 +6228,7 @@
       {
         "given": "Pouya",
         "family": "Khankhanian",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Neurology, University of California, San Francisco, San Francisco, United States"
@@ -5249,6 +6243,7 @@
         "authenticated-orcid": true,
         "given": "Sergio E",
         "family": "Baranzini",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Biological and Medical Informatics Program, University of California, San Francisco, San Francisco, United States"
@@ -5271,6 +6266,7 @@
     },
     "container-title": "eLife",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://cdn.elifesciences.org/articles/26726/elife-26726-v2.pdf",
@@ -5381,14 +6377,15 @@
           "asserted-by": "subject"
         }
       ],
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.1101/087619",
+          "asserted-by": "object"
+        }
+      ],
       "cites": []
     },
-    "subject": [
-      "General Biochemistry, Genetics and Molecular Biology",
-      "General Immunology and Microbiology",
-      "General Neuroscience",
-      "General Medicine"
-    ],
     "short_url": "https://doi.org/cdfk",
     "id": "O21tn8vf"
   },
@@ -5396,13 +6393,202 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          27
+          2018,
+          6,
+          12
         ]
       ],
-      "date-time": "2017-10-27T12:47:42Z",
-      "timestamp": 1509108462941
+      "date-time": "2018-06-12T04:35:18Z",
+      "timestamp": 1528778118346
+    },
+    "reference-count": 2,
+    "publisher": "eLife Sciences Organisation, Ltd.",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              11
+            ]
+          ],
+          "date-time": "2018-06-11T00:00:00Z",
+          "timestamp": 1528675200000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              11
+            ]
+          ],
+          "date-time": "2018-06-11T00:00:00Z",
+          "timestamp": 1528675200000
+        },
+        "delay-in-days": 0,
+        "content-version": "am"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              11
+            ]
+          ],
+          "date-time": "2018-06-11T00:00:00Z",
+          "timestamp": 1528675200000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>Early-career researchers can learn about peer review by discussing preprints at journal clubs and sending feedback to the authors.</jats:p>",
+    "DOI": "10.7554/elife.38532",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2018-06-11T15:00:12Z",
+      "timestamp": 1528729212000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Journal clubs in the time of preprints",
+    "prefix": "10.7554",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-1688-722X",
+        "authenticated-orcid": true,
+        "given": "Prachee",
+        "family": "Avasthi",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Anatomy & Cell Biology, University of Kansas Medical Center, Kansas City, United States"
+          },
+          {
+            "name": "Department of Ophthalmology, University of Kansas Medical Center, Kansas City, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-6634-2885",
+        "authenticated-orcid": true,
+        "given": "Alice",
+        "family": "Soragni",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Division of Hematology-Oncology, David Geffen School of Medicine, University of California Los Angeles, Los Angeles, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-0966-2268",
+        "authenticated-orcid": true,
+        "given": "Joshua N",
+        "family": "Bembenek",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Biochemistry, Cellular and Molecular Biology, University of Tennessee, Knoxville, United States"
+          }
+        ]
+      }
+    ],
+    "member": "4374",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "container-title": "eLife",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://cdn.elifesciences.org/articles/38532/elife-38532-v1.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://cdn.elifesciences.org/articles/38532/elife-38532-v1.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ],
+      "date-time": "2018-06-11T15:00:13Z",
+      "timestamp": 1528729213000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          11
+        ]
+      ]
+    },
+    "references-count": 2,
+    "alternative-id": [
+      "10.7554/eLife.38532"
+    ],
+    "URL": "https://doi.org/10.7554/elife.38532",
+    "relation": {
+      "cites": []
+    },
+    "short_url": "https://doi.org/gdm89h",
+    "id": "pqBLIXzp"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          7
+        ]
+      ],
+      "date-time": "2018-05-07T10:45:31Z",
+      "timestamp": 1525689931957
     },
     "reference-count": 44,
     "publisher": "PeerJ",
@@ -5421,7 +6607,7 @@
           "timestamp": 1494201600000
         },
         "delay-in-days": 0,
-        "content-version": "vor"
+        "content-version": "unspecified"
       }
     ],
     "content-domain": {
@@ -5452,6 +6638,7 @@
       {
         "given": "Albert",
         "family": "Krewinkel",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "Pandoc Development Team, Berlin, Germany"
@@ -5461,6 +6648,7 @@
       {
         "given": "Robert",
         "family": "Winkler",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Biotechnology and Biochemistry, CINVESTAV Unidad Irapuato, Mexico"
@@ -5480,6 +6668,7 @@
     },
     "container-title": "PeerJ Computer Science",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://peerj.com/articles/cs-112.pdf",
@@ -5535,6 +6724,45 @@
     ],
     "URL": "https://doi.org/10.7717/peerj-cs.112",
     "relation": {
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.112v0.2/reviews/1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.112v0.2/reviews/2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.112v0.1/reviews/2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.112v0.1/reviews/1",
+          "asserted-by": "object"
+        }
+      ],
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj.preprints.2648",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj.preprints.2648v1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj.preprints.2648v2",
+          "asserted-by": "object"
+        }
+      ],
       "cites": []
     },
     "article-number": "e112",
@@ -5545,13 +6773,13 @@
     "indexed": {
       "date-parts": [
         [
-          2017,
-          10,
-          28
+          2018,
+          5,
+          8
         ]
       ],
-      "date-time": "2017-10-28T01:37:49Z",
-      "timestamp": 1509154669992
+      "date-time": "2018-05-08T01:56:36Z",
+      "timestamp": 1525744596095
     },
     "reference-count": 36,
     "publisher": "PeerJ",
@@ -5570,7 +6798,7 @@
           "timestamp": 1507507200000
         },
         "delay-in-days": 0,
-        "content-version": "vor"
+        "content-version": "unspecified"
       }
     ],
     "content-domain": {
@@ -5593,7 +6821,7 @@
     },
     "page": "e134",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 1,
     "title": "The appropriation of GitHub for curation",
     "prefix": "10.7717",
     "volume": "3",
@@ -5601,6 +6829,7 @@
       {
         "given": "Yu",
         "family": "Wu",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "Information Sciences and Technology, Pennsylvania State University, University Park, PA,  United States of America"
@@ -5610,6 +6839,7 @@
       {
         "given": "Na",
         "family": "Wang",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Samsung Research America, Mountain View, CA, United States of America"
@@ -5619,6 +6849,7 @@
       {
         "given": "Jessica",
         "family": "Kropczynski",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "School of Information Technology, University of Cincinnati, Cincinnati, OH, United States of America"
@@ -5628,6 +6859,7 @@
       {
         "given": "John M.",
         "family": "Carroll",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Information Sciences and Technology, Pennsylvania State University, University Park, PA,  United States of America"
@@ -5647,6 +6879,7 @@
     },
     "container-title": "PeerJ Computer Science",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://peerj.com/articles/cs-134.pdf",
@@ -5702,6 +6935,35 @@
     ],
     "URL": "https://doi.org/10.7717/peerj-cs.134",
     "relation": {
+      "has-preprint": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj.preprints.2952v1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj.preprints.2952",
+          "asserted-by": "object"
+        }
+      ],
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.134v0.2/reviews/2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.134v0.1/reviews/2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.134v0.1/reviews/1",
+          "asserted-by": "object"
+        }
+      ],
       "cites": []
     },
     "article-number": "e134",
@@ -5713,12 +6975,12 @@
       "date-parts": [
         [
           2018,
-          1,
-          4
+          5,
+          8
         ]
       ],
-      "date-time": "2018-01-04T05:02:28Z",
-      "timestamp": 1515042148052
+      "date-time": "2018-05-08T10:41:36Z",
+      "timestamp": 1525776096053
     },
     "reference-count": 31,
     "publisher": "PeerJ",
@@ -5760,7 +7022,7 @@
     },
     "page": "e142",
     "source": "Crossref",
-    "is-referenced-by-count": 1,
+    "is-referenced-by-count": 3,
     "title": "Sustainable computational science: the ReScience initiative",
     "prefix": "10.7717",
     "volume": "3",
@@ -5768,6 +7030,7 @@
       {
         "given": "Nicolas P.",
         "family": "Rougier",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
@@ -5777,6 +7040,7 @@
       {
         "given": "Konrad",
         "family": "Hinsen",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Centre de Biophysique Moléculaire UPR4301, CNRS, Orléans, France"
@@ -5786,6 +7050,7 @@
       {
         "given": "Frédéric",
         "family": "Alexandre",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
@@ -5795,6 +7060,7 @@
       {
         "given": "Thomas",
         "family": "Arildsen",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Electronic Systems, Technical Faculty of IT and Design, Aalborg University, Aalborg, Denmark"
@@ -5804,6 +7070,7 @@
       {
         "given": "Lorena A.",
         "family": "Barba",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Mechanical and Aerospace Engineering, The George Washington University, Washington, D.C., USA"
@@ -5813,6 +7080,7 @@
       {
         "given": "Fabien C.Y.",
         "family": "Benureau",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
@@ -5822,6 +7090,7 @@
       {
         "given": "C. Titus",
         "family": "Brown",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Population Health and Reproduction, University of California Davis, Davis, CA, USA"
@@ -5831,6 +7100,7 @@
       {
         "given": "Pierre",
         "family": "de Buyl",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Instituut voor Theoretische Fysica, KU Leuven, Leuven, Belgium"
@@ -5840,6 +7110,7 @@
       {
         "given": "Ozan",
         "family": "Caglayan",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Laboratoire d’Informatique (LIUM), Le Mans University, Le Mans, France"
@@ -5849,6 +7120,7 @@
       {
         "given": "Andrew P.",
         "family": "Davison",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "UNIC FRE 3693, CNRS, Gif-sur-Yvette, France"
@@ -5858,6 +7130,7 @@
       {
         "given": "Marc-André",
         "family": "Delsuc",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Institut de Génétique et de Biologie Moléculaire et Cellulaire, Illkirch, France"
@@ -5867,6 +7140,7 @@
       {
         "given": "Georgios",
         "family": "Detorakis",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Cognitive Sciences, University of California Irvine, Irvine, CA, USA"
@@ -5876,6 +7150,7 @@
       {
         "given": "Alexandra K.",
         "family": "Diem",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Computational Engineering and Design, University of Southampton, Southampton, United Kingdom"
@@ -5885,6 +7160,7 @@
       {
         "given": "Damien",
         "family": "Drix",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Humboldt Universität zu Berlin, Berlin, Germany"
@@ -5894,6 +7170,7 @@
       {
         "given": "Pierre",
         "family": "Enel",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Neuroscience, Mount Sinai School of Medicine, New York, NY, USA"
@@ -5903,6 +7180,7 @@
       {
         "given": "Benoît",
         "family": "Girard",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Institute of Intelligent Systems and Robotics, Sorbonne Universités - UPMC Univ Paris 06 - CNRS, Paris, France"
@@ -5912,6 +7190,7 @@
       {
         "given": "Olivia",
         "family": "Guest",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Experimental Psychology, University College London, London, Greater London, United Kingdom"
@@ -5921,6 +7200,7 @@
       {
         "given": "Matt G.",
         "family": "Hall",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "UCL Great Ormond St Institute of Child Health, London, United Kingdom"
@@ -5930,6 +7210,7 @@
       {
         "given": "Rafael N.",
         "family": "Henriques",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Champalimaud Centre for the Unknown, Champalimaud Neuroscience Program, Lisbon, Portugal"
@@ -5939,6 +7220,7 @@
       {
         "given": "Xavier",
         "family": "Hinaut",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "INRIA Bordeaux Sud-Ouest, Talence, France"
@@ -5948,6 +7230,7 @@
       {
         "given": "Kamil S.",
         "family": "Jaron",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Ecology and Evolution, University of Lausanne, Lausanne, Switzerland"
@@ -5957,6 +7240,7 @@
       {
         "given": "Mehdi",
         "family": "Khamassi",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Institute of Intelligent Systems and Robotics, Sorbonne Universités - UPMC Univ Paris 06 - CNRS, Paris, France"
@@ -5966,6 +7250,7 @@
       {
         "given": "Almar",
         "family": "Klein",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Independent scholar, Enschede, The Netherlands"
@@ -5975,6 +7260,7 @@
       {
         "given": "Tiina",
         "family": "Manninen",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "BioMediTech Institute and Faculty of Biomedical Sciences and Engineering, Tampere University of Technology, Tampere, Finland"
@@ -5984,6 +7270,7 @@
       {
         "given": "Pietro",
         "family": "Marchesi",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Swammerdam Institute for Life Sciences, University of Amsterdam, Amsterdam, The Netherlands"
@@ -5993,6 +7280,7 @@
       {
         "given": "Daniel",
         "family": "McGlinn",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Biology, College of Charleston, Charleston, SC, USA"
@@ -6002,6 +7290,7 @@
       {
         "given": "Christoph",
         "family": "Metzner",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Centre for Computer Science and Informatics Research, University of Hertfordshire, Hatfield, United Kingdom"
@@ -6011,6 +7300,7 @@
       {
         "given": "Owen",
         "family": "Petchey",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Evolutionary Biology and Environmental Studies, University of Zurich, Zurich, Switzerland"
@@ -6020,6 +7310,7 @@
       {
         "given": "Hans Ekkehard",
         "family": "Plesser",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Faculty of Science and Technology, Norwegian University of Life Sciences, Aas, Norway"
@@ -6029,6 +7320,7 @@
       {
         "given": "Timothée",
         "family": "Poisot",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Département de Sciences Biologiques, Université de Montréal, Montréal, QC, Canada"
@@ -6038,6 +7330,7 @@
       {
         "given": "Karthik",
         "family": "Ram",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Berkeley Institute for Data Science, University of California, Berkeley, CA, USA"
@@ -6047,6 +7340,7 @@
       {
         "given": "Yoav",
         "family": "Ram",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Biology, Stanford University, Stanford, CA, USA"
@@ -6056,6 +7350,7 @@
       {
         "given": "Etienne",
         "family": "Roesch",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Centre for Integrative Neuroscience, University of Reading, Reading, United Kingdom"
@@ -6065,6 +7360,7 @@
       {
         "given": "Cyrille",
         "family": "Rossant",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Institute of Neurology, University College London, London, United Kingdom"
@@ -6074,6 +7370,7 @@
       {
         "given": "Vahid",
         "family": "Rostami",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Institute of Neuroscience & Medicine, Juelich Forschungszentrum, Jülich, Germany"
@@ -6083,6 +7380,7 @@
       {
         "given": "Aaron",
         "family": "Shifman",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Biology, University of Ottawa, Ottawa, Ontario, Canada"
@@ -6092,6 +7390,7 @@
       {
         "given": "Joseph",
         "family": "Stachelek",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Fisheries and Wildlife, Michigan State University, East Lansing, MI, USA"
@@ -6101,6 +7400,7 @@
       {
         "given": "Marcel",
         "family": "Stimberg",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Sorbonne Universités/UPMC Univ Paris 06/INSERM/CNRS/Institut de la Vision, Paris, France"
@@ -6110,6 +7410,7 @@
       {
         "given": "Frank",
         "family": "Stollmeier",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Max Planck Institute for Dynamics and Self-Organization, Göttingen, Lower Saxony, Germany"
@@ -6119,6 +7420,7 @@
       {
         "given": "Federico",
         "family": "Vaggi",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Amazon, Seattle, WA, USA"
@@ -6128,6 +7430,7 @@
       {
         "given": "Guillaume",
         "family": "Viejo",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Institute of Intelligent Systems and Robotics, Sorbonne Universités - UPMC Univ Paris 06 - CNRS, Paris, France"
@@ -6137,6 +7440,7 @@
       {
         "given": "Julien",
         "family": "Vitay",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Computer Science, Chemnitz University of Technology, Chemnitz, Saxony, Germany"
@@ -6146,6 +7450,7 @@
       {
         "given": "Anya E.",
         "family": "Vostinar",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Computer Science, Grinnell College, Grinnell, IA, USA"
@@ -6155,6 +7460,7 @@
       {
         "given": "Roman",
         "family": "Yurchak",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Symerio, Palaiseau, France"
@@ -6164,6 +7470,7 @@
       {
         "given": "Tiziano",
         "family": "Zito",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Neural Information Processing Group, Eberhard Karls Universität Tübingen, Tübingen, Germany"
@@ -6183,6 +7490,7 @@
     },
     "container-title": "PeerJ Computer Science",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://peerj.com/articles/cs-142.pdf",
@@ -6238,6 +7546,18 @@
     ],
     "URL": "https://doi.org/10.7717/peerj-cs.142",
     "relation": {
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.142v0.1/reviews/2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.142v0.1/reviews/1",
+          "asserted-by": "object"
+        }
+      ],
       "cites": []
     },
     "article-number": "e142",
@@ -6249,12 +7569,12 @@
       "date-parts": [
         [
           2018,
-          2,
-          12
+          5,
+          22
         ]
       ],
-      "date-time": "2018-02-12T09:44:21Z",
-      "timestamp": 1518428661531
+      "date-time": "2018-05-22T22:02:33Z",
+      "timestamp": 1527026553122
     },
     "reference-count": 48,
     "publisher": "PeerJ",
@@ -6346,7 +7666,7 @@
     },
     "page": "e147",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 2,
     "title": "Journal of Open Source Software (JOSS): design and first-year review",
     "prefix": "10.7717",
     "volume": "4",
@@ -6354,6 +7674,7 @@
       {
         "given": "Arfon M.",
         "family": "Smith",
+        "sequence": "first",
         "affiliation": [
           {
             "name": "Data Science Mission Office, Space Telescope Science Institute, Baltimore, MD, United States of America"
@@ -6363,6 +7684,7 @@
       {
         "given": "Kyle E.",
         "family": "Niemeyer",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "School of Mechanical, Industrial, and Manufacturing Engineering, Oregon State University, Corvallis, OR, United States of America"
@@ -6372,6 +7694,7 @@
       {
         "given": "Daniel S.",
         "family": "Katz",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "National Center for Supercomputing Applications & Department of Computer Science & Department of Electrical and Computer Engineering & School of Information Sciences, University of Illinois at Urbana-Champaign, Urbana, IL, United States of America"
@@ -6381,6 +7704,7 @@
       {
         "given": "Lorena A.",
         "family": "Barba",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Mechanical & Aerospace Engineering, The George Washington University, Washington, D.C., United States of America"
@@ -6390,6 +7714,7 @@
       {
         "given": "George",
         "family": "Githinji",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "KEMRI—Wellcome Trust Research Programme, Kilifi, Kenya"
@@ -6399,6 +7724,7 @@
       {
         "given": "Melissa",
         "family": "Gymrek",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Departments of Medicine & Computer Science and Engineering, University of California, San Diego, La Jolla, CA, United States of America"
@@ -6408,6 +7734,7 @@
       {
         "given": "Kathryn D.",
         "family": "Huff",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Department of Nuclear, Plasma, and Radiological Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, United States of America"
@@ -6417,6 +7744,7 @@
       {
         "given": "Christopher R.",
         "family": "Madan",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "School of Psychology, University of Nottingham, Nottingham, United Kingdom"
@@ -6426,6 +7754,7 @@
       {
         "given": "Abigail",
         "family": "Cabunoc Mayes",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Mozilla Foundation, Toronto, Ontario, Canada"
@@ -6435,6 +7764,7 @@
       {
         "given": "Kevin M.",
         "family": "Moerman",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "MIT Media Lab, Massachusetts Institute of Technology, Cambridge, MA, United States of America"
@@ -6447,6 +7777,7 @@
       {
         "given": "Pjotr",
         "family": "Prins",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "University of Tennessee Health Science Center, Memphis, TN, United States of America"
@@ -6459,6 +7790,7 @@
       {
         "given": "Karthik",
         "family": "Ram",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Berkeley Institute for Data Science, University of California, Berkeley, CA, United States of America"
@@ -6468,6 +7800,7 @@
       {
         "given": "Ariel",
         "family": "Rokem",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "eScience Institute, University of Washington, Seattle, WA, United States of America"
@@ -6477,6 +7810,7 @@
       {
         "given": "Tracy K.",
         "family": "Teal",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "Data Carpentry, Davis, CA, United States of America"
@@ -6486,6 +7820,7 @@
       {
         "given": "Roman",
         "family": "Valls Guimera",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "University of Melbourne Centre for Cancer Research, University of Melbourne, Melbourne, Australia"
@@ -6495,6 +7830,7 @@
       {
         "given": "Jacob T.",
         "family": "Vanderplas",
+        "sequence": "additional",
         "affiliation": [
           {
             "name": "eScience Institute, University of Washington, Seattle, WA, United States of America"
@@ -6514,6 +7850,7 @@
     },
     "container-title": "PeerJ Computer Science",
     "original-title": [],
+    "language": "en",
     "link": [
       {
         "URL": "https://peerj.com/articles/cs-147.pdf",
@@ -6569,6 +7906,33 @@
     ],
     "URL": "https://doi.org/10.7717/peerj-cs.147",
     "relation": {
+      "has-review": [
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.147v0.1/reviews/1",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.147v0.2/reviews/3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.147v0.1/reviews/2",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.147v0.1/reviews/3",
+          "asserted-by": "object"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.7287/peerj-cs.147v0.2/reviews/2",
+          "asserted-by": "object"
+        }
+      ],
       "cites": []
     },
     "article-number": "e147",
