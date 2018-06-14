@@ -8,9 +8,9 @@ keywords:
 - collaborative review
 - continuous integration
 - publishing
-- manubot
+- Manubot
 lang: en-US
-title: Meta Review
+title: Open collaborative writing with Manubot
 ...
 
 
@@ -20,9 +20,9 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@a6fefe8](https://github.com/greenelab/meta-review/tree/a6fefe8f1fa816c82cc26a12e88163a986bf789d)
+from [greenelab/meta-review@7e83bab](https://github.com/greenelab/meta-review/tree/7e83babb87495c1828b67daa4434e9ba1ed6dd36)
 on June 14, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/a6fefe8f1fa816c82cc26a12e88163a986bf789d/>.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/7e83babb87495c1828b67daa4434e9ba1ed6dd36/>.
 </em></small>
 
 ## Authors
@@ -78,33 +78,30 @@ These include approaches for managing distributed authors and our new software, 
 
 ## Introduction {.page_break_before}
 
-Openness in research – which includes sharing code, data, and manuscripts – benefits the researchers who practice it [@HQfvK1OF], their scientific peers, and the public.
+Openness in research --- which includes sharing code, data, and manuscripts --- benefits the researchers who practice it [@HQfvK1OF], their scientific peers, and the public.
 `TODO: more references needed`
-However, though review articles aim to present the state of the art in a scientific field, they are written in private by a single research group or a small team of colleagues.
+Open scholarly writing, a form of crowdsourcing [@ixokDNG6], has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
+Literature reviews are typically written in private by a closed team of colleagues.
 In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
 Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
 
-In August 2016 we identified the role that deep learning was beginning to play in biomedical research as one such area, and we started an open online effort to survey deep learning's role in precision medicine and to predict its effect in the future [@16CgM2x0z].
-In May 2017, the project, code-named the Deep Review, released a complete review as a preprint titled "Opportunities and obstacles for deep learning in biology and medicine" [@tJKvnIaZ].
-While the article was under review, we continued to maintain the project and accepted new contributions.
-In February 2018, the article was accepted by the journal that it was initially submitted to and subsequently published in April [@PZMP42Ak].
-We'll discuss our experience with our open review including the pros and cons of open collaborative reviews, as well as the infrastructure we created, termed Manubot, to enable open manuscript writing online.
-We also discuss the extent to which such efforts can contribute to a living and frequently updated literature.
-`TODO: discuss stage 2 maintainers`
+Based on our experience leading a recent open review [@16CgM2x0z], we discuss the pros and cons of open collaborative reviews as well as how they contribute to a living and frequently updated literature.
+Our review manuscript [@PZMP42Ak], code-named the Deep Review, surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
+In addition, we introduce [Manubot](https://github.com/greenelab/manubot-rootstock), the infrastructure we created to enable open manuscript writing online for Deep Review, which was subsequently adopted by other projects.
 
-We initiated our open online review article by creating a GitHub repository (https://github.com/greenelab/deep-review) to coordinate and manage contributions.
+We initiated the Deep Review by creating a GitHub repository (https://github.com/greenelab/deep-review) to coordinate and manage contributions.
 GitHub is a platform designed for collaborative software development that's adaptable for collaborative writing.
 From the start, we made the GitHub repository public, applying a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
 Next, we encouraged anyone interested to contribute by proposing changes or additions.
-Although we requested that some authors participate for their specific expertise, most discovered the manuscript organically through conferences or social media, deciding without solicitation to contribute.
-In total, the Deep Review attracted 36 authors from 20 different institutions (and counting) who were not determined in advance.
+Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation.
+In total, the Deep Review attracted 36 authors who were not determined in advance from 20 different institutions.
 
 Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
-Additionally, discussing manuscripts in the open generates valuable post-publication peer review [@91xzmk80; @jYs2OUFW; @HflJ6Hy5] (and potentially pre-publication peer review in the case of preprints [@pqBLIXzp]).
-Since incentives are commonly lacking to provide public peer review of existing literature [@uw5bep8P], open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
+Additionally, discussing manuscripts in the open generates valuable post-publication peer review [@91xzmk80; @jYs2OUFW; @HflJ6Hy5] or pre-publication peer review of preprints [@pqBLIXzp].
+Because incentives are commonly lacking to provide public peer review of existing literature [@uw5bep8P], open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
-To coordinate this effort, we developed a manuscript writing process using the Markdown language, [GitHub](https://github.com/greenelab/deep-review/), and our new [Manubot](https://github.com/greenelab/manubot-rootstock) tool for automating manuscript generation.
+To address these challenges, we developed a manuscript writing process using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation.
 
 ## Contribution workflow
 
@@ -140,6 +137,9 @@ Because our writing process, like others backed by the open git version control 
 The total words added to the Deep Review by each author is plotted over time (final values in parentheses).
 These statistics were extracted from git commit diffs of the manuscript's markdown source.
 This figure reveals the composition of written contributions to the manuscript at every point in its history.
+Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [@tJKvnIaZ] in May 2017.
+While the article was under review, we continued to maintain the project and accepted new contributions.
+The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [@PZMP42Ak].
 ](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
 
 ## Manubot
@@ -201,7 +201,7 @@ In addition, manuscripts can be templated, so that numerical values or tables ge
 An [example repository](https://github.com/greenelab/manubot-rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
 
 
-### Authorship
+## Authorship
 
 To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) [guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) and used GitHub to track contributions.
 ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript.
@@ -220,7 +220,7 @@ Given the same author contributions, it always produced the same ordered author 
 We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category.
 `TODO: In Discussion, present alternative author ordering strategies and literature on contribution in collaborative projects`
 
-### Discussion
+## Discussion
 
 The Deep Review was not the first scholarly manuscript written online via an open collaborative process.
 Interestingly, the collaborative scholarly works (of which we're aware) tend to have dealt with rapidly developing topics.
