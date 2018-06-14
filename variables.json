@@ -67,7 +67,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "4a7006f42a9848c23919aeb6a1f190b4720ef9d7"
+    "commit": "a6fefe8f1fa816c82cc26a12e88163a986bf789d"
   },
   "creation_time_utc": "2018-01-24T16:26:37.824623",
   "commit": "1db0c13e0d5828d325ac8e1eba523b77bc33a7d1",
@@ -85,10 +85,10 @@
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 2,
-      "doi": 30,
+      "doi": 34,
       "url": 13,
-      "total": 45
+      "total": 49
     },
-    "word_count": 3313
+    "word_count": 3346
   }
 }

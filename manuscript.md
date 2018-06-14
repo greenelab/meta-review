@@ -20,9 +20,9 @@ title: Meta Review
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@4a7006f](https://github.com/greenelab/meta-review/tree/4a7006f42a9848c23919aeb6a1f190b4720ef9d7)
+from [greenelab/meta-review@a6fefe8](https://github.com/greenelab/meta-review/tree/a6fefe8f1fa816c82cc26a12e88163a986bf789d)
 on June 14, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/4a7006f42a9848c23919aeb6a1f190b4720ef9d7/>.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/a6fefe8f1fa816c82cc26a12e88163a986bf789d/>.
 </em></small>
 
 ## Authors
@@ -100,8 +100,8 @@ Although we requested that some authors participate for their specific expertise
 In total, the Deep Review attracted 36 authors from 20 different institutions (and counting) who were not determined in advance.
 
 Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
-`TODO: need archival issue link`
-In addition, discussing manuscripts in the open provides one form of pre- and post-publication peer review [@pqBLIXzp], incentivizing the reviews with potential manuscript authorship.
+Additionally, discussing manuscripts in the open generates valuable post-publication peer review [@91xzmk80; @jYs2OUFW; @HflJ6Hy5] (and potentially pre-publication peer review in the case of preprints [@pqBLIXzp]).
+Since incentives are commonly lacking to provide public peer review of existing literature [@uw5bep8P], open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
 To coordinate this effort, we developed a manuscript writing process using the Markdown language, [GitHub](https://github.com/greenelab/deep-review/), and our new [Manubot](https://github.com/greenelab/manubot-rootstock) tool for automating manuscript generation.
