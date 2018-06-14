@@ -20,9 +20,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@7e83bab](https://github.com/greenelab/meta-review/tree/7e83babb87495c1828b67daa4434e9ba1ed6dd36)
+from [greenelab/meta-review@7da3da1](https://github.com/greenelab/meta-review/tree/7da3da1310ac4b3504cc3236f519c43a6fe981bb)
 on June 14, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/7e83babb87495c1828b67daa4434e9ba1ed6dd36/>.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/7da3da1310ac4b3504cc3236f519c43a6fe981bb/>.
 </em></small>
 
 ## Authors
@@ -89,7 +89,7 @@ Based on our experience leading a recent open review [@16CgM2x0z], we discuss th
 Our review manuscript [@PZMP42Ak], code-named the Deep Review, surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
 In addition, we introduce [Manubot](https://github.com/greenelab/manubot-rootstock), the infrastructure we created to enable open manuscript writing online for Deep Review, which was subsequently adopted by other projects.
 
-We initiated the Deep Review by creating a GitHub repository (https://github.com/greenelab/deep-review) to coordinate and manage contributions.
+We initiated the Deep Review by creating a GitHub repository (<https://github.com/greenelab/deep-review>) to coordinate and manage contributions.
 GitHub is a platform designed for collaborative software development that's adaptable for collaborative writing.
 From the start, we made the GitHub repository public, applying a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
 Next, we encouraged anyone interested to contribute by proposing changes or additions.
@@ -174,10 +174,11 @@ When changes occur, the CI service generates an updated manuscript.
 If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository.
 Since the HTML manuscript is hosted using [GitHub Pages](https://pages.github.com/), the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub.
 
-For this article, the source GitHub repository is https://github.com/greenelab/meta-review.
+For this article, the source GitHub repository is <https://github.com/greenelab/meta-review>.
 When this repository changes, Travis CI [rebuilds](https://travis-ci.org/greenelab/meta-review) the manuscript.
 If successful, the output is deployed back to GitHub (to dedicated [`output`](https://github.com/greenelab/meta-review/tree/output) and [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branches).
-As a result, https://greenelab.github.io/meta-review stays up to date with the latest HTML manuscript.
+As a result, <https://greenelab.github.io/meta-review> stays up to date with the latest HTML manuscript.
+Furthermore, versioned URLs, such as <https://greenelab.github.io/meta-review/v/3ec66cd440e78dac33f4700f1cecbc4d95b20139/> `(TODO: update commit)`, provide access to previous manuscript versions.
 
 The idea of the "priority of discovery" is important to science, and Vale and Hyman discuss the importance of both disclosure and validation [@vHuGhm4k].
 In their framework, disclosure occurs when a scientific output is released to the world.
@@ -203,7 +204,7 @@ An [example repository](https://github.com/greenelab/manubot-rootstock) demonstr
 
 ## Authorship
 
-To determine authorship we followed the International Committee of Medical Journal Editors (ICMJE) [guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) and used GitHub to track contributions.
+To determine authorship for the Deep Review, we followed the International Committee of Medical Journal Editors (ICMJE) [guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) and used GitHub to track contributions.
 ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript.
 We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript.
 Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list.
