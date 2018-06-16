@@ -1,15 +1,15 @@
 {
-  "creation_time_utc": "2018-01-24T16:26:37.824623",
-  "commit": "1db0c13e0d5828d325ac8e1eba523b77bc33a7d1",
-  "total_commits": 728,
-  "manuscript_commits": 336,
+  "creation_time_utc": "2018-06-15T14:25:26.787993",
+  "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",
+  "total_commits": 755,
+  "manuscript_commits": 349,
   "deep_review_authors": 36,
-  "deep_review_post_submission_authors": 12,
-  "github_stars": 437,
-  "github_forks": 126,
-  "merged_pull_requests": 297,
+  "deep_review_post_submission_authors": 14,
+  "github_stars": 616,
+  "github_forks": 165,
+  "merged_pull_requests": 315,
   "declined_pull_requests": 22,
-  "open_pull_requests": 1,
-  "open_issues": 359,
-  "closed_issues": 134
+  "open_pull_requests": 0,
+  "open_issues": 322,
+  "closed_issues": 215
 }
