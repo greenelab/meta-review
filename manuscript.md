@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-06-14'
+date-meta: '2018-06-16'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,9 +20,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@7da3da1](https://github.com/greenelab/meta-review/tree/7da3da1310ac4b3504cc3236f519c43a6fe981bb)
-on June 14, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/7da3da1310ac4b3504cc3236f519c43a6fe981bb/>.
+from [greenelab/meta-review@56831f9](https://github.com/greenelab/meta-review/tree/56831f91be12cbd22c883196b968387aec2496b6)
+on June 16, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/56831f91be12cbd22c883196b968387aec2496b6/>.
 </em></small>
 
 ## Authors
@@ -262,7 +262,7 @@ We would encourage the maintainers of similar projects to consider broader codes
 Open writing presents new opportunities for scholarly communication.
 `TODO: reference "paper of the future"? arXiv:1601.02927 doi:10.22541/au.149693987.70506124 doi:10.22541/au.148769949.92783646 http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future`
 Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
-After releasing the first version of our collaborative review [@tJKvnIaZ], 12 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
+After releasing the first version of our collaborative review [@tJKvnIaZ], 14 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
 `TODO: update new author count before submitting`
 The Manubot system can also facilitate open research [@11cb5HXoY] in addition to review articles.
 `TODO: get permission and add https://slochower.github.io/nonequilibrium-barrier/ https://zietzm.github.io/Vagelos2017/`
