@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-06-16'
+date-meta: '2018-06-18'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,9 +20,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@56831f9](https://github.com/greenelab/meta-review/tree/56831f91be12cbd22c883196b968387aec2496b6)
-on June 16, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/56831f91be12cbd22c883196b968387aec2496b6/>.
+from [greenelab/meta-review@9f99d1b](https://github.com/greenelab/meta-review/tree/9f99d1b395f8e630cd91b100f97b1005d6ef8a6a)
+on June 18, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/9f99d1b395f8e630cd91b100f97b1005d6ef8a6a/>.
 </em></small>
 
 ## Authors
@@ -80,7 +80,7 @@ These include approaches for managing distributed authors and our new software, 
 
 Openness in research --- which includes sharing code, data, and manuscripts --- benefits the researchers who practice it [@HQfvK1OF], their scientific peers, and the public.
 `TODO: more references needed`
-Open scholarly writing, a form of crowdsourcing [@ixokDNG6], has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
+Open scholarly writing, a form of crowdsourcing [@12sHvZy1a], has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
 Literature reviews are typically written in private by a closed team of colleagues.
 In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
 Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
@@ -97,7 +97,7 @@ Although we invited some specific experts to participate, most authors discovere
 In total, the Deep Review attracted 36 authors who were not determined in advance from 20 different institutions.
 
 Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
-Additionally, discussing manuscripts in the open generates valuable post-publication peer review [@91xzmk80; @jYs2OUFW; @HflJ6Hy5] or pre-publication peer review of preprints [@pqBLIXzp].
+Additionally, discussing manuscripts in the open generates valuable post-publication peer review [@LfJGtB83; @jYs2OUFW; @HflJ6Hy5] or pre-publication peer review of preprints [@pqBLIXzp].
 Because incentives are commonly lacking to provide public peer review of existing literature [@uw5bep8P], open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
@@ -151,14 +151,28 @@ In addition, Manubot relies on extensions from [Pandoc markdown](https://pandoc.
 
 Manubot includes an additional layer of citation processing, currently unique to the system.
 All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata.
-Currently, citations to DOIs (Digital Object Identifiers), PubMed or PubMed Central identifiers, arXiv identifiers, and URLs (web addresses) are supported.
-Metadata is retrieved using DOI [Content Negotiation](https://citation.crosscite.org/docs.html), NCBI's [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) and [Citation Exporter](https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/), the [arXiv API](https://arxiv.org/help/api/index), and [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw].
-Metadata is exported to [CSL JSON Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items), an open standard that's widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
+Table @tbl:citations presents the supported identifiers and example citations before and after Manubot processing.
+Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers.
+Metadata is exported to [Citation Style Language (CSL) JSON Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items), an open standard that is widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
 In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct CSL JSON.
 
-The Manubot formats bibliographies according to a [Citation Style Language](http://citationstyles.org/) (CSL) specification.
+| Identifier | Metadata source | Example citation | Processed citation |
+| --- | --- | --- | --- |
+| Digital Object Identifier (DOI) | DOI [Content Negotiation](https://citation.crosscite.org/docs.html) | `doi:10.1098/rsif.2017.0387` | [@PZMP42Ak] |
+| PubMed Identifier (PMID) | NCBI's [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | `pmid:25851694` | [@LfJGtB83] |
+| PubMed Central Identifier (PMCID) | NCBI's [Citation Exporter](https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/) | `pmcid:PMC4719068` | [@12sHvZy1a] |
+| arXiv identifier | [arXiv API](https://arxiv.org/help/api/index) | `arxiv:1502.04015v1` | [@Y2XyzLMc] |
+| URL | [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw] | `url:https://lgatto.github.io/open-and-open/` | [@zBl3qgGT] |
+| Tag | Source for tagged identifier | `tag:Avasthi2018_preprints` | [@pqBLIXzp] |
+
+Table: Citation types supported by Manubot.
+Authors may optionally map a named tag to one of the other supported identifier types.
+In this example, the tag `Avasthi2018_preprints` represents the DOI identifier `doi:10.7554/eLife.38532`.
+{#tbl:citations}
+
+Manubot formats bibliographies according to a [CSL](http://citationstyles.org/) specification.
 As a result, users can choose from thousands of existing CSL styles or use Manubot's default style.
-Styles define how references are constructed from bibliographic metadata, controlling layout details such as the max number of authors to list per reference.
+Styles define how references are constructed from bibliographic metadata, controlling layout details such as the maximum number of authors to list per reference.
 Thousands of journals have [predefined styles](http://editor.citationstyles.org/searchByName/).
 As a result, adopting the specific bibliographic format required by a journal usually just requires specifying the style's source URL in the Manubot configuration.
 

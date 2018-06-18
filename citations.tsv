@@ -2,7 +2,6 @@ string	citation	standard_citation	citation_id
 @arxiv:1304.7151v1	arxiv:1304.7151v1	arxiv:1304.7151v1	GKPtRdAw
 @arxiv:1502.04015v1	arxiv:1502.04015v1	arxiv:1502.04015v1	Y2XyzLMc
 @doi:10.1007/978-3-319-00026-8_8	doi:10.1007/978-3-319-00026-8_8	doi:10.1007/978-3-319-00026-8_8	9KfVIq3s
-@doi:10.1016/j.tig.2015.03.006	doi:10.1016/j.tig.2015.03.006	doi:10.1016/j.tig.2015.03.006	91xzmk80
 @doi:10.1038/514127a	doi:10.1038/514127a	doi:10.1038/514127a	AylLD9F8
 @doi:10.1038/550143a	doi:10.1038/550143a	doi:10.1038/550143a	18w6XKsQO
 @doi:10.1038/nbt.3516	doi:10.1038/nbt.3516	doi:10.1038/nbt.3516	otY3SefD
@@ -11,7 +10,6 @@ string	citation	standard_citation	citation_id
 @doi:10.1038/sdata.2016.18	doi:10.1038/sdata.2016.18	doi:10.1038/sdata.2016.18	6DjakjNS
 @doi:10.1080/00987913.2012.10765464	doi:10.1080/00987913.2012.10765464	doi:10.1080/00987913.2012.10765464	bCyfIm6z
 @doi:10.1080/02763869.2012.641841	doi:10.1080/02763869.2012.641841	doi:10.1080/02763869.2012.641841	K7WVgf8X
-@doi:10.1093/bib/bbv021	doi:10.1093/bib/bbv021	doi:10.1093/bib/bbv021	ixokDNG6
 @doi:10.1098/rsif.2017.0387	doi:10.1098/rsif.2017.0387	doi:10.1098/rsif.2017.0387	PZMP42Ak
 @doi:10.1101/142760	doi:10.1101/142760	doi:10.1101/142760	tJKvnIaZ
 @doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	NuDPNceu
@@ -32,11 +30,13 @@ string	citation	standard_citation	citation_id
 @doi:10.7554/eLife.16800	doi:10.7554/eLife.16800	doi:10.7554/elife.16800	HQfvK1OF
 @doi:10.7554/eLife.16931	doi:10.7554/eLife.16931	doi:10.7554/elife.16931	vHuGhm4k
 @doi:10.7554/eLife.26726	doi:10.7554/eLife.26726	doi:10.7554/elife.26726	O21tn8vf
-@doi:10.7554/eLife.38532	doi:10.7554/eLife.38532	doi:10.7554/elife.38532	pqBLIXzp
+@tag:Avasthi2018_preprints	doi:10.7554/eLife.38532	doi:10.7554/elife.38532	pqBLIXzp
 @doi:10.7717/peerj-cs.112	doi:10.7717/peerj-cs.112	doi:10.7717/peerj-cs.112	17wKkS4DV
 @doi:10.7717/peerj-cs.134	doi:10.7717/peerj-cs.134	doi:10.7717/peerj-cs.134	vf9t7xMG
 @doi:10.7717/peerj-cs.142	doi:10.7717/peerj-cs.142	doi:10.7717/peerj-cs.142	8o1nWux7
 @doi:10.7717/peerj-cs.147	doi:10.7717/peerj-cs.147	doi:10.7717/peerj-cs.147	xpw2aizK
+@pmcid:PMC4719068	pmcid:PMC4719068	pmcid:PMC4719068	12sHvZy1a
+@pmid:25851694	pmid:25851694	pmid:25851694	LfJGtB83
 @url:http://blog.dhimmel.com/irreproducible-timestamps/	url:http://blog.dhimmel.com/irreproducible-timestamps/	url:http://blog.dhimmel.com/irreproducible-timestamps/	QBWMEuxW
 @tag:techblog	url:http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/	url:http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/	16CgM2x0z
 @url:http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid	url:http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid	url:http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid	HPKoE9m3
