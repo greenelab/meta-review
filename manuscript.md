@@ -20,9 +20,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@17b42d8](https://github.com/greenelab/meta-review/tree/17b42d887906c1ba81ce81fcc64e4a4319dc384d)
+from [greenelab/meta-review@083a349](https://github.com/greenelab/meta-review/tree/083a349c57cbf4acdb72ebe438a19ae28fb11b74)
 on June 18, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/17b42d887906c1ba81ce81fcc64e4a4319dc384d/>.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/083a349c57cbf4acdb72ebe438a19ae28fb11b74/>.
 </em></small>
 
 ## Authors
@@ -132,7 +132,8 @@ In this example, the contributor opens an issue to discuss a manuscript modifica
 A maintainer and additional participant provide feedback, and the maintainer recommends creating a pull request to update the text.
 The contributor creates the pull request, it is reviewed by a maintainer and a participant, and the contributor updates the pull request in response.
 Once the pull request is approved, the maintainer merges the changes into the official version of the manuscript.
-](images/workflow.svg){#fig:workflow width="75%"}
+](images/workflow.svg){#fig:workflow width=5in}
+
 <!-- Google Drawing View Link https://docs.google.com/drawings/d/17mst0Z1RMXegeGhM6SwQSJ4nhHgMMh5csyV4MwhsgAY/edit?usp=sharing -->
 
 The Deep Review [issue](https://github.com/greenelab/deep-review/issues/575) and [pull request](https://github.com/greenelab/deep-review/pull/638) on protein-protein interactions demonstrate this process in practice.
