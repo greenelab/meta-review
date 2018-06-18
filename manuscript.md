@@ -20,9 +20,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@9f99d1b](https://github.com/greenelab/meta-review/tree/9f99d1b395f8e630cd91b100f97b1005d6ef8a6a)
+from [greenelab/meta-review@17b42d8](https://github.com/greenelab/meta-review/tree/17b42d887906c1ba81ce81fcc64e4a4319dc384d)
 on June 18, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/9f99d1b395f8e630cd91b100f97b1005d6ef8a6a/>.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/17b42d887906c1ba81ce81fcc64e4a4319dc384d/>.
 </em></small>
 
 ## Authors
@@ -120,11 +120,26 @@ The official version of the manuscript is _forked_ by individual contributors.
 A contributor then adds and revises files, grouping these changes into _commits_.
 When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
 GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in @opQBBK06.
-Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content.
+Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content, as illustrated in Figure @fig:workflow.
 Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers.
 Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
-`TODO: need a figure with a flowchart showing this process`
 The process of writing and revising material can be orchestrated through GitHub with a web browser.
+
+![
+**Deep Review editing workflow.**
+Any reader can become a contributor by proposing a change through a pull request.
+In this example, the contributor opens an issue to discuss a manuscript modification.
+A maintainer and additional participant provide feedback, and the maintainer recommends creating a pull request to update the text.
+The contributor creates the pull request, it is reviewed by a maintainer and a participant, and the contributor updates the pull request in response.
+Once the pull request is approved, the maintainer merges the changes into the official version of the manuscript.
+](images/workflow.svg){#fig:workflow width="75%"}
+<!-- Google Drawing View Link https://docs.google.com/drawings/d/17mst0Z1RMXegeGhM6SwQSJ4nhHgMMh5csyV4MwhsgAY/edit?usp=sharing -->
+
+The Deep Review [issue](https://github.com/greenelab/deep-review/issues/575) and [pull request](https://github.com/greenelab/deep-review/pull/638) on protein-protein interactions demonstrate this process in practice.
+A new contributor identified a relevant research topic that was missing from the review manuscript with examples of how the literature would be synthesized.
+A maintainer confirmed that this was a desirable topic and referred to related open issues.
+The contributor made the pull request, and two maintainers and another participant made recommendations.
+After four rounds of reviews and pull request edits, a maintainer merged the changes.
 
 We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit.
 In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
@@ -263,7 +278,7 @@ In addition, git carefully tracks all revisions to the manuscript text but not t
 These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript's text.
 GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.
 
-In our open review paper, we established [contributor guidelines](https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md) that discussed norms in the areas of of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement.
+In our open review paper, we established [contributor guidelines](https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md) that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement.
 Our contributor guidelines required verifiable participation: either directly attributable changes to the text or participation in the discussion on GitHub.
 We maintained our guidelines, even when a case arose where two authors had written text together but only one had directly attributable changes and participation.
 These guidelines did not discuss broader community norms that may have improved inclusiveness.
