@@ -68,6 +68,111 @@
         ]
       ],
       "date-time": "2018-05-08T04:10:00Z",
+      "timestamp": 1525752600017
+    },
+    "publisher-location": "Cham",
+    "reference-count": 0,
+    "publisher": "Springer International Publishing",
+    "isbn-type": [
+      {
+        "value": "9783319000251",
+        "type": "print"
+      },
+      {
+        "value": "9783319000268",
+        "type": "electronic"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "DOI": "10.1007/978-3-319-00026-8",
+    "type": "book",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          16
+        ]
+      ],
+      "date-time": "2013-12-16T10:42:03Z",
+      "timestamp": 1387190523000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 16,
+    "title": "Opening Science",
+    "prefix": "10.1007",
+    "member": "297",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/978-3-319-00026-8",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2013,
+          12,
+          16
+        ]
+      ],
+      "date-time": "2013-12-16T10:42:04Z",
+      "timestamp": 1387190524000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "Sönke",
+        "family": "Bartling",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Sascha",
+        "family": "Friesike",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1007/978-3-319-00026-8",
+    "relation": {},
+    "short_url": "https://doi.org/gdqbzz",
+    "id": "ujrfOBM1"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2018-05-08T04:10:00Z",
       "timestamp": 1525752600057
     },
     "publisher-location": "Cham",
@@ -3208,6 +3313,110 @@
         [
           2018,
           5,
+          9
+        ]
+      ],
+      "date-time": "2018-05-09T07:35:01Z",
+      "timestamp": 1525851301627
+    },
+    "publisher-location": "Taylor & Francis Group, 6000 Broken Sound Parkway NW, Suite 300, Boca Raton, FL 33487-2742",
+    "reference-count": 0,
+    "publisher": "CRC Press",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          21
+        ]
+      ]
+    },
+    "DOI": "10.1201/9781315204963",
+    "type": "entry",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          31
+        ]
+      ],
+      "date-time": "2016-12-31T14:08:03Z",
+      "timestamp": 1483193283000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "bookdown",
+    "prefix": "10.1201",
+    "author": [
+      {
+        "given": "Yihui",
+        "family": "Xie",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "RStudio, Inc."
+          }
+        ]
+      }
+    ],
+    "member": "301",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          31
+        ]
+      ]
+    },
+    "container-title": "Chapman &Hall/CRC The R Series",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          30
+        ]
+      ],
+      "date-time": "2017-10-30T17:33:52Z",
+      "timestamp": 1509384832000
+    },
+    "score": 1.0,
+    "subtitle": [
+      "Authoring Books and Technical Documents with R Markdown"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          21
+        ]
+      ]
+    },
+    "references-count": 0,
+    "alternative-id": [
+      "10.1201/9781315204963",
+      "10.1201/CRCTHERSER"
+    ],
+    "URL": "https://doi.org/10.1201/9781315204963",
+    "relation": {},
+    "short_url": "https://doi.org/gdqbz2",
+    "id": "1BISa1RLr"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
           16
         ]
       ],
@@ -5497,6 +5706,105 @@
     },
     "short_url": "https://doi.org/gdm9ck",
     "id": "uw5bep8P"
+  },
+  {
+    "institution": {
+      "name": "Authorea, Inc.",
+      "place": [
+        "-"
+      ],
+      "acronym": [
+        "-"
+      ]
+    },
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          7
+        ]
+      ],
+      "date-time": "2018-05-07T13:46:47Z",
+      "timestamp": 1525700807678
+    },
+    "reference-count": 0,
+    "publisher": "Authorea, Inc.",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.22541/au.149693987.70506124",
+    "type": "dataset",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          8
+        ]
+      ],
+      "date-time": "2017-06-08T16:37:55Z",
+      "timestamp": 1496939875000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "The arXiv of the future will not look like the arXiv",
+    "prefix": "10.22541",
+    "author": [
+      {
+        "given": "Alberto",
+        "family": "Pepe",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Authorea"
+          }
+        ]
+      },
+      {
+        "given": "Matteo",
+        "family": "Cantiello",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Simons Foundation"
+          }
+        ]
+      },
+      {
+        "given": "Josh",
+        "family": "Nicholson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Authorea"
+          }
+        ]
+      }
+    ],
+    "member": "9829",
+    "container-title": "Authorea",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          8
+        ]
+      ],
+      "date-time": "2017-06-08T16:37:56Z",
+      "timestamp": 1496939876000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "references-count": 0,
+    "URL": "https://doi.org/10.22541/au.149693987.70506124",
+    "relation": {},
+    "short_url": "https://doi.org/gdqbz3",
+    "id": "WDvu1SAV"
   },
   {
     "indexed": {
@@ -8518,6 +8826,41 @@
     ],
     "type": "webpage",
     "id": "QBWMEuxW"
+  },
+  {
+    "URL": "http://blog.martinfenner.org/2014/03/10/continuous-publishing/",
+    "title": "Continuous Publishing",
+    "container-title": "Gobbledygook",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          10
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-06-26 16:26:23",
+    "type": "webpage",
+    "id": "nqeDrtsc"
+  },
+  {
+    "URL": "http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/",
+    "title": "TechBlog: C. Titus Brown: Predicting the paper of the future : Naturejobs Blog",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          1
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-06-26 16:26:25",
+    "type": "webpage",
+    "id": "ILhLpgTs"
   },
   {
     "URL": "http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/",
