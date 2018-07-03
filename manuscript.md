@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-02'
+date-meta: '2018-07-03'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,9 +20,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript was automatically generated
-from [greenelab/meta-review@a669bfb](https://github.com/greenelab/meta-review/tree/a669bfbd16de3da7df6efc2f60ac36f5ff242e2d)
-on July 2, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/a669bfbd16de3da7df6efc2f60ac36f5ff242e2d/>.
+from [greenelab/meta-review@d934a4e](https://github.com/greenelab/meta-review/tree/d934a4e6f7f12c412eb49454bf73a63b5d178adc)
+on July 3, 2018.
+The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/d934a4e6f7f12c412eb49454bf73a63b5d178adc/>.
 </em></small>
 
 ## Authors
@@ -197,7 +197,7 @@ Going forward, we hope to integrate Manubot with the larger JATS ecosystem.
 For now however, the primary Manubot output is HTML intended to be viewed in a web browser.
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
-The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz], specifically [Travis CI](https://travis-ci.org/) at the moment, to monitor for changes.
+The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically [Travis CI](https://travis-ci.org/) at the moment, to monitor for changes.
 When changes occur, the CI service generates an updated manuscript.
 If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository.
 Since the HTML manuscript is hosted using [GitHub Pages](https://pages.github.com/), the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub.
