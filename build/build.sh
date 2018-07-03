@@ -45,7 +45,7 @@ pandoc --verbose \
 
 # Create PDF output
 echo "Exporting PDF manuscript"
-ln --symbolic content/images images
+ln -s content/images images
 pandoc \
   --from=markdown \
   --to=html5 \
@@ -61,7 +61,7 @@ pandoc \
   --css=webpage/github-pandoc.css \
   --output=output/manuscript.pdf \
   $INPUT_PATH
-rm --recursive images
+rm -r images
 
 # Create DOCX output when user specifies to do so
 if [ "$BUILD_DOCX" = "true" ];
