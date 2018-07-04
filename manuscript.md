@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-03'
+date-meta: '2018-07-04'
 keywords:
 - collaborative review
 - continuous integration
@@ -19,10 +19,11 @@ title: Open collaborative writing with Manubot
 
 
 <small><em>
-This manuscript was automatically generated
-from [greenelab/meta-review@d934a4e](https://github.com/greenelab/meta-review/tree/d934a4e6f7f12c412eb49454bf73a63b5d178adc)
-on July 3, 2018.
-The permalink for this manuscript version is <https://greenelab.github.io/meta-review/v/d934a4e6f7f12c412eb49454bf73a63b5d178adc/>.
+This manuscript
+([permalink](https://greenelab.github.io/meta-review/v/f76fbe073d3c386a4a41cb66f6115d319b067dba/))
+was automatically generated
+from [greenelab/meta-review@f76fbe0](https://github.com/greenelab/meta-review/tree/f76fbe073d3c386a4a41cb66f6115d319b067dba)
+on July 4, 2018.
 </em></small>
 
 ## Authors
