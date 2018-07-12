@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-04'
+date-meta: '2018-07-12'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,10 +20,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/f76fbe073d3c386a4a41cb66f6115d319b067dba/))
+([permalink](https://greenelab.github.io/meta-review/v/ab04ded0816afd3fac2c3cefc05fa1903c9c0af2/))
 was automatically generated
-from [greenelab/meta-review@f76fbe0](https://github.com/greenelab/meta-review/tree/f76fbe073d3c386a4a41cb66f6115d319b067dba)
-on July 4, 2018.
+from [greenelab/meta-review@ab04ded](https://github.com/greenelab/meta-review/tree/ab04ded0816afd3fac2c3cefc05fa1903c9c0af2)
+on July 12, 2018.
 </em></small>
 
 ## Authors
@@ -150,7 +150,7 @@ Because our writing process, like others backed by the open git version control 
 ![
 **Deep Review contributions by author over time.**
 The total words added to the Deep Review by each author is plotted over time (final values in parentheses).
-These statistics were extracted from git commit diffs of the manuscript's markdown source.
+These statistics were extracted from git commit diffs of the manuscript's Markdown source.
 This figure reveals the composition of written contributions to the manuscript at every point in its history.
 Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [@tJKvnIaZ] in May 2017.
 While the article was under review, we continued to maintain the project and accepted new contributions.
@@ -160,9 +160,9 @@ The preprint was updated in January 2018, and the article was accepted by the jo
 ## Manubot
 
 We developed Manubot, a system for writing scholarly manuscripts via GitHub.
-With Manubot, manuscripts are written as plain-text markdown files, which is well suited for version control using git.
-The markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists.
-In addition, Manubot relies on extensions from [Pandoc markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
+With Manubot, manuscripts are written as plain-text Markdown files, which is well suited for version control using git.
+The Markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists.
+In addition, Manubot relies on extensions from [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
 
 Manubot includes an additional layer of citation processing, currently unique to the system.
 All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata.
@@ -191,7 +191,7 @@ Styles define how references are constructed from bibliographic metadata, contro
 Thousands of journals have [predefined styles](http://editor.citationstyles.org/searchByName/).
 As a result, adopting the specific bibliographic format required by a journal usually just requires specifying the style's source URL in the Manubot configuration.
 
-Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from markdown to HTML, PDF, and optionally DOCX outputs.
+Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from Markdown to HTML, PDF, and optionally DOCX outputs.
 Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, EPUB, and JATS — offering Manubot users broad interoperability.
 [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS) is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
 Going forward, we hope to integrate Manubot with the larger JATS ecosystem.
