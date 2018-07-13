@@ -3,7 +3,7 @@ author-meta:
 - Daniel S. Himmelstein
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-12'
+date-meta: '2018-07-13'
 keywords:
 - collaborative review
 - continuous integration
@@ -20,10 +20,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/ab04ded0816afd3fac2c3cefc05fa1903c9c0af2/))
+([permalink](https://greenelab.github.io/meta-review/v/f404fe660d9a512f95429cd3d9a4b7229be2b415/))
 was automatically generated
-from [greenelab/meta-review@ab04ded](https://github.com/greenelab/meta-review/tree/ab04ded0816afd3fac2c3cefc05fa1903c9c0af2)
-on July 12, 2018.
+from [greenelab/meta-review@f404fe6](https://github.com/greenelab/meta-review/tree/f404fe660d9a512f95429cd3d9a4b7229be2b415)
+on July 13, 2018.
 </em></small>
 
 ## Authors
@@ -230,6 +230,18 @@ For example, figures can be specified using versioned URLs that refer to the cod
 In addition, manuscripts can be templated, so that numerical values or tables get inserted directly from the repository that created them.
 An [example repository](https://github.com/greenelab/manubot-rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
 
+Since its creation to facilitate the Deep Review, Manubot has been used to write a variety of scholarly documents.
+The [Sci-Hub Coverage Study](https://github.com/greenelab/scihub-manuscript) --- performed openly on GitHub from its inception --- investigated Sci-Hub's repository of pirated articles [@IhliSZDo].
+Sci-Hub [reviewed](https://github.com/greenelab/scihub-manuscript/issues/17) the initial preprint from this study in a series of tweets, pointing out a major error in one of the analyses.
+Within hours, the authors used Markdown's strikethrough formatting in Manubot to cross-out the errant sentences ([commit](https://github.com/greenelab/scihub-manuscript/commit/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba), [versioned manuscript](https://greenelab.github.io/scihub-manuscript/v/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba/)), thereby alerting readers to the mistake and preventing further propagation of misinformation.
+A larger [set of revisions](https://github.com/greenelab/scihub-manuscript/pull/19) that was merged a month later explained the error in more detail, and was included in a second version of the preprint.
+As such, continuous publishing via Manubot helped the authors address the error without delay, while retaining a public version history of the process.
+Of interest, the Sci-Hub Coverage Study preprint was the [most viewed](http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/) 2017 _PeerJ Preprint_, while the Deep Review was the most viewed 2017 _bioRxiv_ preprint [@9IrsqXRa].
+Hence, in Manubot's first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.
+
+Additional research studies in progress are being authored using Manubot, including in the fields of [genomics](https://vsmalladi.github.io/tfsee-manuscript/), [climate science](https://openclimatedata.github.io/global-emissions/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
+Manubot is also being used for documents beyond traditional journal publications, such as [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
+Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@yte07Fnn] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
 
 ## Authorship
 
@@ -291,7 +303,6 @@ We would encourage the maintainers of similar projects to consider broader codes
 Open writing presents new opportunities for scholarly communication.
 Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
 After releasing the first version of our collaborative review [@tJKvnIaZ], 14 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
-The Manubot system can also facilitate open research [@11cb5HXoY] in addition to review articles.
 
 Our process represents an early step toward open massively collaborative reviews, and there are certainly aspects that can be improved.
 We invite the scientific community to adapt and build upon our experience and open software.

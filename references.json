@@ -505,6 +505,183 @@
       "date-parts": [
         [
           2018,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2018-05-08T10:57:08Z",
+      "timestamp": 1525777028606
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "7685",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          21
+        ]
+      ]
+    },
+    "DOI": "10.1038/d41586-017-08493-x",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          20
+        ]
+      ],
+      "date-time": "2017-12-20T10:45:36Z",
+      "timestamp": 1513766736000
+    },
+    "page": "304-307",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "2017 in news: The science events that shaped the year",
+    "prefix": "10.1038",
+    "volume": "552",
+    "author": [
+      {
+        "given": "Ewen",
+        "family": "Callaway",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Davide",
+        "family": "Castelvecchi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David",
+        "family": "Cyranoski",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Elizabeth",
+        "family": "Gibney",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Heidi",
+        "family": "Ledford",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jane J.",
+        "family": "Lee",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lauren",
+        "family": "Morello",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nicky",
+        "family": "Phillips",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Quirin",
+        "family": "Schiermeier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jeff",
+        "family": "Tollefson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard",
+        "family": "Van Noorden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Alexandra",
+        "family": "Witze",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "container-title": "Nature",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://www.nature.com/doifinder/10.1038/d41586-017-08493-x",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          2
+        ]
+      ],
+      "date-time": "2018-01-02T13:31:47Z",
+      "timestamp": 1514899907000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          21
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            12,
+            21
+          ]
+        ]
+      },
+      "issue": "7685"
+    },
+    "alternative-id": [
+      "d41586-017-08493-x"
+    ],
+    "URL": "https://doi.org/10.1038/d41586-017-08493-x",
+    "relation": {},
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/chnh",
+    "id": "9IrsqXRa"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
           6,
           7
         ]
@@ -6052,6 +6229,29 @@
     "id": "HflJ6Hy5"
   },
   {
+    "type": "article-journal",
+    "id": "15nwuvjrA",
+    "author": [
+      {
+        "family": "Zietz",
+        "given": "Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "abstract": "Report detailing work done in the Greene Lab at the University of Pennsylvania for the Summer of 2017. Sparse matrix implementation of degree-weighted path count (DWPC) over a heterogeneous network of biomedical information. Summer research conducted as part of the Penn Vagelos Scholars Program in Molecular Life Science (MLS).",
+    "DOI": "10.6084/m9.figshare.5346577",
+    "publisher": "Figshare",
+    "title": "Vagelos Report Summer 2017",
+    "URL": "https://doi.org/10.6084/m9.figshare.5346577",
+    "short_url": "https://doi.org/gbr3pf"
+  },
+  {
     "indexed": {
       "date-parts": [
         [
@@ -6235,197 +6435,6 @@
     ],
     "short_url": "https://doi.org/gbxtdk",
     "id": "AAwqxolU"
-  },
-  {
-    "indexed": {
-      "date-parts": [
-        [
-          2018,
-          5,
-          11
-        ]
-      ],
-      "date-time": "2018-05-11T13:44:07Z",
-      "timestamp": 1526046247841
-    },
-    "posted": {
-      "date-parts": [
-        [
-          2017,
-          7,
-          20
-        ]
-      ]
-    },
-    "group-title": "PeerJ Preprints",
-    "reference-count": 0,
-    "publisher": "PeerJ",
-    "license": [
-      {
-        "URL": "http://creativecommons.org/licenses/by/4.0/",
-        "start": {
-          "date-parts": [
-            [
-              2017,
-              7,
-              20
-            ]
-          ],
-          "date-time": "2017-07-20T00:00:00Z",
-          "timestamp": 1500508800000
-        },
-        "delay-in-days": 0,
-        "content-version": "unspecified"
-      }
-    ],
-    "content-domain": {
-      "domain": [],
-      "crossmark-restriction": false
-    },
-    "abstract": "<jats:p>The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly articles, which rises to 85.2% for those published in closed access journals. Furthermore, Sci-Hub contains 77.0% of the 5.2 million articles published by inactive journals. Coverage varies by discipline, with 92.8% coverage of articles in chemistry journals compared to 76.3% for computer science. Coverage also varies by publisher, with the coverage of the largest publisher, Elsevier, at 97.3%. Our interactive browser at <jats:uri>https://greenelab.github.io/scihub</jats:uri> allows users to explore these findings in more detail. Finally, we estimate that over a six-month period in 2015–2016, Sci-Hub provided access for 99.3% of valid incoming requests. Hence, the scope of this resource suggests the subscription publishing model is becoming unsustainable. For the first time, the overwhelming majority of scholarly literature is available gratis to anyone with an Internet connection.</jats:p>",
-    "DOI": "10.7287/peerj.preprints.3100v1",
-    "type": "manuscript",
-    "created": {
-      "date-parts": [
-        [
-          2018,
-          1,
-          13
-        ]
-      ],
-      "date-time": "2018-01-13T14:11:34Z",
-      "timestamp": 1515852694000
-    },
-    "source": "Crossref",
-    "is-referenced-by-count": 2,
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "prefix": "10.7287",
-    "author": [
-      {
-        "ORCID": "http://orcid.org/0000-0002-3012-7446",
-        "authenticated-orcid": true,
-        "given": "Daniel S",
-        "family": "Himmelstein",
-        "sequence": "first",
-        "affiliation": [
-          {
-            "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
-          }
-        ]
-      },
-      {
-        "given": "Ariel R",
-        "family": "Romero",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Bidwise, Inc, Miami, Florida, United States"
-          }
-        ]
-      },
-      {
-        "ORCID": "http://orcid.org/0000-0002-9888-3168",
-        "authenticated-orcid": true,
-        "given": "Stephen R",
-        "family": "McLaughlin",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "School of Information, University of Texas at Austin, Austin, Texas, United States"
-          }
-        ]
-      },
-      {
-        "ORCID": "http://orcid.org/0000-0002-9925-9623",
-        "authenticated-orcid": true,
-        "given": "Bastian",
-        "family": "Greshake Tzovaras",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Department of Applied Bioinformatics, Goethe University Frankfurt, Frankfurt, Germany"
-          }
-        ]
-      },
-      {
-        "ORCID": "http://orcid.org/0000-0001-8713-9213",
-        "authenticated-orcid": true,
-        "given": "Casey S",
-        "family": "Greene",
-        "sequence": "additional",
-        "affiliation": [
-          {
-            "name": "Systems Pharmacology & Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States"
-          }
-        ]
-      }
-    ],
-    "member": "4443",
-    "container-title": [],
-    "original-title": [],
-    "link": [
-      {
-        "URL": "https://peerj.com/preprints/3100.pdf",
-        "content-type": "application/pdf",
-        "content-version": "vor",
-        "intended-application": "text-mining"
-      },
-      {
-        "URL": "https://peerj.com/preprints/3100.xml",
-        "content-type": "application/xml",
-        "content-version": "vor",
-        "intended-application": "text-mining"
-      },
-      {
-        "URL": "https://peerj.com/preprints/3100.html",
-        "content-type": "text/html",
-        "content-version": "vor",
-        "intended-application": "text-mining"
-      },
-      {
-        "URL": "https://peerj.com/preprints/3100.pdf",
-        "content-type": "unspecified",
-        "content-version": "vor",
-        "intended-application": "similarity-checking"
-      }
-    ],
-    "deposited": {
-      "date-parts": [
-        [
-          2018,
-          1,
-          13
-        ]
-      ],
-      "date-time": "2018-01-13T14:11:34Z",
-      "timestamp": 1515852694000
-    },
-    "score": 1.0,
-    "subtitle": [],
-    "short-title": [],
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          7,
-          20
-        ]
-      ]
-    },
-    "references-count": 0,
-    "URL": "https://doi.org/10.7287/peerj.preprints.3100v1",
-    "relation": {
-      "is-replaced-by": [
-        {
-          "id-type": "doi",
-          "id": "10.7287/peerj.preprints.3100v2",
-          "asserted-by": "subject"
-        }
-      ]
-    },
-    "subtype": "preprint",
-    "short_url": "https://doi.org/b9s6",
-    "id": "11cb5HXoY"
   },
   {
     "indexed": {
@@ -7318,6 +7327,312 @@
     },
     "short_url": "https://doi.org/cdfk",
     "id": "O21tn8vf"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2018-04-17T11:49:56Z",
+      "timestamp": 1523965796168
+    },
+    "reference-count": 126,
+    "publisher": "eLife Sciences Organisation, Ltd.",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2018-03-01T00:00:00Z",
+          "timestamp": 1519862400000
+        },
+        "delay-in-days": 0,
+        "content-version": "vor"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2018-03-01T00:00:00Z",
+          "timestamp": 1519862400000
+        },
+        "delay-in-days": 0,
+        "content-version": "am"
+      },
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2018-03-01T00:00:00Z",
+          "timestamp": 1519862400000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000936",
+        "name": "Gordon and Betty Moore Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GBMF 4552"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "abstract": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal’s site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub’s database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals. We find that coverage varies by discipline and publisher, and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States. Green open access to toll access articles via licit services, on the other hand, remains quite limited. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.</jats:p>",
+    "DOI": "10.7554/elife.32822",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          9
+        ]
+      ],
+      "date-time": "2018-02-09T13:00:23Z",
+      "timestamp": 1518181223000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Sci-Hub provides access to nearly all scholarly literature",
+    "prefix": "10.7554",
+    "volume": "7",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-3012-7446",
+        "authenticated-orcid": true,
+        "given": "Daniel S",
+        "family": "Himmelstein",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2290-4927",
+        "authenticated-orcid": true,
+        "given": "Ariel Rodriguez",
+        "family": "Romero",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Bidwise, Inc, Miami, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-1563-7314",
+        "authenticated-orcid": true,
+        "given": "Jacob G",
+        "family": "Levernier",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Library Technology Services and Strategic Initiatives, University of Pennsylvania, Philadelphia, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3366-7149",
+        "authenticated-orcid": true,
+        "given": "Thomas Anthony",
+        "family": "Munro",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Life and Environmental Sciences, Deakin University, Melbourne, Australia"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9888-3168",
+        "authenticated-orcid": true,
+        "given": "Stephen Reid",
+        "family": "McLaughlin",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Information, University of Texas at Austin, Austin, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9925-9623",
+        "authenticated-orcid": true,
+        "given": "Bastian",
+        "family": "Greshake Tzovaras",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Applied Bioinformatics, Institute of Cell Biology and Neuroscience, Goethe University, Frankfurt, Germany"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-8713-9213",
+        "authenticated-orcid": true,
+        "given": "Casey S",
+        "family": "Greene",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, United States"
+          }
+        ]
+      }
+    ],
+    "member": "4374",
+    "published-online": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          1
+        ]
+      ]
+    },
+    "container-title": "eLife",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://cdn.elifesciences.org/articles/32822/elife-32822-v3.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://cdn.elifesciences.org/articles/32822/elife-32822-v3.xml",
+        "content-type": "application/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          9
+        ]
+      ],
+      "date-time": "2018-03-09T23:00:16Z",
+      "timestamp": 1520636416000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          1
+        ]
+      ]
+    },
+    "references-count": 126,
+    "alternative-id": [
+      "10.7554/eLife.32822"
+    ],
+    "URL": "https://doi.org/10.7554/elife.32822",
+    "relation": {
+      "references": [
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.4906367.v1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5061/dryad.q447c/1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.472493",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.5231245.v1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.4816720",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.1186832.v23",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.4542433.v6",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.5255368.v1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.5255365.v1",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.6084/m9.figshare.3443876.v3",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.837902",
+          "asserted-by": "subject"
+        },
+        {
+          "id-type": "doi",
+          "id": "10.5281/zenodo.1158301",
+          "asserted-by": "subject"
+        }
+      ],
+      "cites": []
+    },
+    "short_url": "https://doi.org/ckcj",
+    "id": "IhliSZDo"
   },
   {
     "indexed": {
@@ -9149,6 +9464,28 @@
       ]
     },
     "id": "sWD9uVuF"
+  },
+  {
+    "type": "webpage",
+    "URL": "https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
+    "title": "How I used the Manubot to reproduce the Bitcoin Whitepaper",
+    "container-title": "Steem",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Daniel",
+        "family": "Himmelstein"
+      }
+    ],
+    "id": "yte07Fnn"
   },
   {
     "URL": "https://homotopytypetheory.org/book/",
