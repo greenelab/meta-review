@@ -21,9 +21,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/3531f7919d1b5f69600d9944ac6ada4d17771d20/))
+([permalink](https://greenelab.github.io/meta-review/v/102a6bfffdcebd5906acb84eabaebd674f35779a/))
 was automatically generated
-from [greenelab/meta-review@3531f79](https://github.com/greenelab/meta-review/tree/3531f7919d1b5f69600d9944ac6ada4d17771d20)
+from [greenelab/meta-review@102a6bf](https://github.com/greenelab/meta-review/tree/102a6bfffdcebd5906acb84eabaebd674f35779a)
 on July 13, 2018.
 </em></small>
 
@@ -51,6 +51,7 @@ on July 13, 2018.
     · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
     [drslochower](https://twitter.com/drslochower)<br>
   <small>
+     Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
   </small>
 
 + **Casey S. Greene**<br>

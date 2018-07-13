@@ -23,10 +23,12 @@
       "orcid": "0000-0003-3928-5050",
       "twitter": "drslochower",
       "email": "slochower@gmail.com",
-      "affilitations": [
+      "affiliations": [
         "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego"
       ],
-      "affiliation_numbers": []
+      "affiliation_numbers": [
+        2
+      ]
     },
     {
       "github": "cgreene",
@@ -56,8 +58,8 @@
       ],
       "funders": "NIH U54AI117924",
       "affiliation_numbers": [
-        2,
-        3
+        3,
+        4
       ]
     }
   ],
@@ -67,19 +69,23 @@
       "affiliation_number": 1
     },
     {
-      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+      "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego",
       "affiliation_number": 2
     },
     {
-      "affiliation": "Morgridge Institute for Research",
+      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
       "affiliation_number": 3
+    },
+    {
+      "affiliation": "Morgridge Institute for Research",
+      "affiliation_number": 4
     }
   ],
   "ci_source": {
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "3531f7919d1b5f69600d9944ac6ada4d17771d20"
+    "commit": "102a6bfffdcebd5906acb84eabaebd674f35779a"
   },
   "creation_time_utc": "2018-06-15T14:25:26.787993",
   "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",
