@@ -1,6 +1,7 @@
 ---
 author-meta:
 - Daniel S. Himmelstein
+- David R. Slochower
 - Casey S. Greene
 - Anthony Gitter
 date-meta: '2018-07-13'
@@ -20,9 +21,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/7b063be1429c762beac90fcce6de1c31dd37dba7/))
+([permalink](https://greenelab.github.io/meta-review/v/3531f7919d1b5f69600d9944ac6ada4d17771d20/))
 was automatically generated
-from [greenelab/meta-review@7b063be](https://github.com/greenelab/meta-review/tree/7b063be1429c762beac90fcce6de1c31dd37dba7)
+from [greenelab/meta-review@3531f79](https://github.com/greenelab/meta-review/tree/3531f7919d1b5f69600d9944ac6ada4d17771d20)
 on July 13, 2018.
 </em></small>
 
@@ -40,6 +41,16 @@ on July 13, 2018.
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
      · Funded by GBMF4552
+  </small>
+
++ **David R. Slochower**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0003-3928-5050](https://orcid.org/0000-0003-3928-5050)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [slochower](https://github.com/slochower)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [drslochower](https://twitter.com/drslochower)<br>
+  <small>
   </small>
 
 + **Casey S. Greene**<br>

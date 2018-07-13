@@ -17,6 +17,18 @@
       ]
     },
     {
+      "github": "slochower",
+      "name": "David R. Slochower",
+      "initials": "DRS",
+      "orcid": "0000-0003-3928-5050",
+      "twitter": "drslochower",
+      "email": "slochower@gmail.com",
+      "affilitations": [
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego"
+      ],
+      "affiliation_numbers": []
+    },
+    {
       "github": "cgreene",
       "name": "Casey S. Greene",
       "initials": "CSG",
@@ -67,7 +79,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "7b063be1429c762beac90fcce6de1c31dd37dba7"
+    "commit": "3531f7919d1b5f69600d9944ac6ada4d17771d20"
   },
   "creation_time_utc": "2018-06-15T14:25:26.787993",
   "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",
