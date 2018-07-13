@@ -9306,6 +9306,7 @@
     "id": "QBWMEuxW"
   },
   {
+    "type": "webpage",
     "URL": "http://blog.martinfenner.org/2014/03/10/continuous-publishing/",
     "title": "Continuous Publishing",
     "container-title": "Gobbledygook",
@@ -9318,14 +9319,18 @@
         ]
       ]
     },
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2018-06-26 16:26:23",
-    "type": "webpage",
+    "author": [
+      {
+        "given": "Martin",
+        "family": "Fenner"
+      }
+    ],
     "id": "nqeDrtsc"
   },
   {
     "URL": "http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/",
-    "title": "TechBlog: C. Titus Brown: Predicting the paper of the future : Naturejobs Blog",
+    "title": "TechBlog: C. Titus Brown: Predicting the paper of the future",
+    "container-title": "Naturejobs",
     "issued": {
       "date-parts": [
         [
@@ -9335,9 +9340,13 @@
         ]
       ]
     },
-    "greycite-status": "Scanned",
-    "greycite-scanned": "2018-06-26 16:26:25",
-    "type": "webpage",
+    "author": [
+      {
+        "given": "C. Titus",
+        "family": "Brown"
+      }
+    ],
+    "type": "post-weblog",
     "id": "ILhLpgTs"
   },
   {
