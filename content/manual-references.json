@@ -143,5 +143,27 @@
       }
     ],
     "type": "post-weblog"
+  },
+  {
+    "type": "webpage",
+    "standard_citation": "url:https://goo.gl/jAcwjm",
+    "URL": "https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
+    "title": "How I used the Manubot to reproduce the Bitcoin Whitepaper",
+    "container-title": "Steem",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Daniel",
+        "family": "Himmelstein"
+      }
+    ]
   }
 ]
