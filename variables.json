@@ -1,5 +1,5 @@
 {
-  "date": "July 13, 2018",
+  "date": "July 14, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -29,6 +29,20 @@
       "affiliation_numbers": [
         2
       ]
+    },
+    {
+      "github": "vsmalladi",
+      "name": "Venkat S. Malladi",
+      "initials": "VSM",
+      "orcid": "0000-0002-0144-0564",
+      "twitter": "katatonikat",
+      "email": "vsmalladi@gmail.com",
+      "affliations": [
+        "Department of Bioinformatics, University of Texas Southwestern Medical Center",
+        "Bioinformatics Core Facility, University of Texas Southwestern Medical Center"
+      ],
+      "funders": "RP150596",
+      "affiliation_numbers": []
     },
     {
       "github": "cgreene",
@@ -85,7 +99,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "102a6bfffdcebd5906acb84eabaebd674f35779a"
+    "commit": "87a8d38f57f1ab07c692adc7dc295738e2c20914"
   },
   "creation_time_utc": "2018-06-15T14:25:26.787993",
   "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",

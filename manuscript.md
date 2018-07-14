@@ -2,9 +2,10 @@
 author-meta:
 - Daniel S. Himmelstein
 - David R. Slochower
+- Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-13'
+date-meta: '2018-07-14'
 keywords:
 - collaborative review
 - continuous integration
@@ -21,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/102a6bfffdcebd5906acb84eabaebd674f35779a/))
+([permalink](https://greenelab.github.io/meta-review/v/87a8d38f57f1ab07c692adc7dc295738e2c20914/))
 was automatically generated
-from [greenelab/meta-review@102a6bf](https://github.com/greenelab/meta-review/tree/102a6bfffdcebd5906acb84eabaebd674f35779a)
-on July 13, 2018.
+from [greenelab/meta-review@87a8d38](https://github.com/greenelab/meta-review/tree/87a8d38f57f1ab07c692adc7dc295738e2c20914)
+on July 14, 2018.
 </em></small>
 
 ## Authors
@@ -52,6 +53,17 @@ on July 13, 2018.
     [drslochower](https://twitter.com/drslochower)<br>
   <small>
      Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
+  </small>
+
++ **Venkat S. Malladi**<br>
+    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    [0000-0002-0144-0564](https://orcid.org/0000-0002-0144-0564)
+    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    [vsmalladi](https://github.com/vsmalladi)
+    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    [katatonikat](https://twitter.com/katatonikat)<br>
+  <small>
+     · Funded by RP150596
   </small>
 
 + **Casey S. Greene**<br>
