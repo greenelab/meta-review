@@ -27,6 +27,17 @@ author_info:
     affiliations:
       - Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
   -
+    github: vsmalladi
+    name: Venkat S. Malladi
+    initials: VSM
+    orcid: 0000-0002-0144-0564
+    twitter: katatonikat
+    email: vsmalladi@gmail.com
+    affliations:
+      - Department of Bioinformatics, University of Texas Southwestern Medical Center
+      - Bioinformatics Core Facility, University of Texas Southwestern Medical Center
+    funders: RP150596
+  -
     github: cgreene
     name: Casey S. Greene
     initials: CSG
