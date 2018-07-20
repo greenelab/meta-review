@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/6d2c90aef6a2bebafb85ef4e43333ef7b08d4aaf/))
+([permalink](https://greenelab.github.io/meta-review/v/d899bea60600a482950b281c5372ca5d47da928f/))
 was automatically generated
-from [greenelab/meta-review@6d2c90a](https://github.com/greenelab/meta-review/tree/6d2c90aef6a2bebafb85ef4e43333ef7b08d4aaf)
+from [greenelab/meta-review@d899bea](https://github.com/greenelab/meta-review/tree/d899bea60600a482950b281c5372ca5d47da928f)
 on July 20, 2018.
 </em></small>
 
@@ -338,7 +338,9 @@ We invite the scientific community to adapt and build upon our experience and op
 ## Acknowledgements
 
 `TODO: deep review authors for support in testing this process`
-`TODO: manubot-rootstock contributors`
+
+In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript.
+We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Achintya Rao, and other GitHub users.
 
 ## References {.page_break_before}
 
