@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/d899bea60600a482950b281c5372ca5d47da928f/))
+([permalink](https://greenelab.github.io/meta-review/v/c0fbbd13f03dff0d7a86a7531abdd622a44ccdc4/))
 was automatically generated
-from [greenelab/meta-review@d899bea](https://github.com/greenelab/meta-review/tree/d899bea60600a482950b281c5372ca5d47da928f)
+from [greenelab/meta-review@c0fbbd1](https://github.com/greenelab/meta-review/tree/c0fbbd13f03dff0d7a86a7531abdd622a44ccdc4)
 on July 20, 2018.
 </em></small>
 
@@ -337,8 +337,8 @@ We invite the scientific community to adapt and build upon our experience and op
 
 ## Acknowledgements
 
-`TODO: deep review authors for support in testing this process`
-
+We would like to thank the authors of the Deep Review who helped us test collaborative writing with Manubot.
+The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz.
 In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript.
 We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Achintya Rao, and other GitHub users.
 
