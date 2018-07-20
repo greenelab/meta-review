@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/c0fbbd13f03dff0d7a86a7531abdd622a44ccdc4/))
+([permalink](https://greenelab.github.io/meta-review/v/9d568bfc96d7ea880c0665af94cad8d83b93e916/))
 was automatically generated
-from [greenelab/meta-review@c0fbbd1](https://github.com/greenelab/meta-review/tree/c0fbbd13f03dff0d7a86a7531abdd622a44ccdc4)
+from [greenelab/meta-review@9d568bf](https://github.com/greenelab/meta-review/tree/9d568bfc96d7ea880c0665af94cad8d83b93e916)
 on July 20, 2018.
 </em></small>
 
@@ -304,6 +304,8 @@ As the examples above illustrate, open collaborative writing appears to scale sc
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
 Bookdown [@1BISa1RLr] and Pandoc Scholar [@17wKkS4DV] both extend traditional Markdown to better support publishing.
 Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and Continuous Publishing [@nqeDrtsc], which was used to produce the book Opening Science [@ujrfOBM1].
+Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM] support manuscripts with interactive graphics and close integration with the underlying code.
+As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
 
 Many others have embraced open science principles and piloted open approaches toward drug discovery [@O21tn8vf; @HnZE3JiU], data management [@1A97a4UwU; @6DjakjNS; @otY3SefD], and manuscript review [@nhLnUPJo].
 Several of these open science efforts are GitHub-based like our collaborative writing process.
@@ -330,6 +332,7 @@ We would encourage the maintainers of similar projects to consider broader codes
 Open writing presents new opportunities for scholarly communication.
 Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
 After releasing the first version of our collaborative review [@tJKvnIaZ], 14 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
+Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 
 Our process represents an early step toward open massively collaborative reviews, and there are certainly aspects that can be improved.
 We invite the scientific community to adapt and build upon our experience and open software.

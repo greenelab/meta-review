@@ -28,6 +28,34 @@
     "id": "GKPtRdAw"
   },
   {
+    "arxiv_id": "1502.01329v2",
+    "version": "2",
+    "URL": "https://arxiv.org/abs/1502.01329v2",
+    "title": "A proposal for regularly updated review/survey articles: \"Perpetual\n  Reviews\"",
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          "02",
+          "03"
+        ]
+      ]
+    },
+    "author": [
+      {
+        "literal": "David L. Mobley"
+      },
+      {
+        "literal": "Daniel M. Zuckerman"
+      }
+    ],
+    "container-title": "arXiv",
+    "publisher": "arXiv",
+    "abstract": "We advocate the publication of review/survey articles that will be updated\nregularly, both in traditional journals and novel venues. We call these\n\"perpetual reviews.\" This idea naturally builds on the dissemination and\narchival capabilities present in the modern internet, and indeed perpetual\nreviews exist already in some forms. Perpetual review articles allow authors to\nmaintain over time the relevance of non-research scholarship that requires a\nsignificant investment of effort. Further, such reviews published in a purely\nelectronic format without space constraints can also permit more pedagogical\nscholarship and clearer treatment of technical issues that remain obscure in a\nbrief treatment.",
+    "type": "report",
+    "id": "Xs2yPQcr"
+  },
+  {
     "arxiv_id": "1502.04015v1",
     "version": "1",
     "URL": "https://arxiv.org/abs/1502.04015v1",
@@ -6462,6 +6490,160 @@
       "date-parts": [
         [
           2018,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2018-04-17T15:35:57Z",
+      "timestamp": 1523979357713
+    },
+    "reference-count": 39,
+    "publisher": "Distill Working Group",
+    "issue": "3",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.23915/distill.00010",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          6
+        ]
+      ],
+      "date-time": "2018-03-06T18:35:54Z",
+      "timestamp": 1520361354000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "The Building Blocks of Interpretability",
+    "prefix": "10.23915",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Chris",
+        "family": "Olah",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Google Brain"
+          }
+        ]
+      },
+      {
+        "given": "Arvind",
+        "family": "Satyanarayan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google Brain"
+          }
+        ]
+      },
+      {
+        "given": "Ian",
+        "family": "Johnson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google Cloud"
+          }
+        ]
+      },
+      {
+        "given": "Shan",
+        "family": "Carter",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google Brain"
+          }
+        ]
+      },
+      {
+        "given": "Ludwig",
+        "family": "Schubert",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google Brain"
+          }
+        ]
+      },
+      {
+        "given": "Katherine",
+        "family": "Ye",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "CMU"
+          }
+        ]
+      },
+      {
+        "given": "Alexander",
+        "family": "Mordvintsev",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Google Research"
+          }
+        ]
+      }
+    ],
+    "member": "9999",
+    "container-title": "Distill",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          6
+        ]
+      ],
+      "date-time": "2018-03-06T18:35:57Z",
+      "timestamp": 1520361357000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          6
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "issue": "3"
+    },
+    "URL": "https://doi.org/10.23915/distill.00010",
+    "relation": {},
+    "container-title-short": "Distill",
+    "short_url": "https://doi.org/gdvhz5",
+    "id": "MHNCSD5I"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
           5,
           5
         ]
@@ -9747,6 +9929,42 @@
     "id": "MhC1nPDK"
   },
   {
+    "URL": "http://www.livecomsjournal.org/article/2031-why-we-need-the-living-journal-of-computational-molecular-science",
+    "greycite-canonical-uri": "http://www.livecomsjournal.org//article/2031-why-we-need-the-living-journal-of-computational-molecular-science/www.livecomsjournal.org",
+    "title": "Why we need the Living Journal of Computational Molecular Science",
+    "container-title": "Living Journal of Computational Molecular Science",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          22
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Mobley",
+        "given": "David L."
+      },
+      {
+        "family": "Shirts",
+        "given": "Michael R."
+      },
+      {
+        "family": "Zuckerman",
+        "given": "Daniel M."
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-07-20 18:22:40",
+    "archives": [
+      "http://wayback.archive.org/web/http://www.livecomsjournal.org/article/2031-why-we-need-the-living-journal-of-computational-molecular-science"
+    ],
+    "type": "webpage",
+    "id": "H0XkaC8S"
+  },
+  {
     "type": "webpage",
     "URL": "http://www.niso.org/standards/z39-96-2015/",
     "title": "JATS: Journal Article Tag Suite, version 1.1",
@@ -9784,6 +10002,24 @@
       ]
     },
     "id": "sWD9uVuF"
+  },
+  {
+    "URL": "https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research",
+    "title": "Stencila &ndash; an office suite for reproducible research",
+    "container-title": "eLife",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          2
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-07-20 18:22:47",
+    "type": "webpage",
+    "id": "BWMf57EM"
   },
   {
     "type": "webpage",
@@ -9825,6 +10061,30 @@
     },
     "type": "book",
     "id": "RExXs8is"
+  },
+  {
+    "URL": "https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/",
+    "greycite-canonical-uri": null,
+    "title": "Announcing idyll.pub",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          26
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "@mathisonian",
+        "given": ""
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-07-20 18:22:51",
+    "type": "webpage",
+    "id": "1ESo5MNnB"
   },
   {
     "type": "webpage",
