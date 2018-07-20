@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/9d568bfc96d7ea880c0665af94cad8d83b93e916/))
+([permalink](https://greenelab.github.io/meta-review/v/ddbdc20c068964d2cd7570b959132c2f249f26ee/))
 was automatically generated
-from [greenelab/meta-review@9d568bf](https://github.com/greenelab/meta-review/tree/9d568bfc96d7ea880c0665af94cad8d83b93e916)
+from [greenelab/meta-review@ddbdc20](https://github.com/greenelab/meta-review/tree/ddbdc20c068964d2cd7570b959132c2f249f26ee)
 on July 20, 2018.
 </em></small>
 
@@ -226,9 +226,10 @@ For now however, the primary Manubot output is HTML intended to be viewed in a w
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
 The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically [Travis CI](https://travis-ci.org/) at the moment, to monitor for changes.
-When changes occur, the CI service generates an updated manuscript.
+When changes occur, the CI service attempts to generate an updated manuscript.
 If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository.
 Since the HTML manuscript is hosted using [GitHub Pages](https://pages.github.com/), the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub.
+Using CI to build the manuscript automatically catches many common errors, such as misspelled citations, invalid formatting, or misconfigured software dependencies.
 
 For this article, the source GitHub repository is <https://github.com/greenelab/meta-review>.
 When this repository changes, Travis CI [rebuilds](https://travis-ci.org/greenelab/meta-review) the manuscript.
