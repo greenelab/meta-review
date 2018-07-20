@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/ddbdc20c068964d2cd7570b959132c2f249f26ee/))
+([permalink](https://greenelab.github.io/meta-review/v/0f159e7ddc820295f701055411829cc3ddf610e4/))
 was automatically generated
-from [greenelab/meta-review@ddbdc20](https://github.com/greenelab/meta-review/tree/ddbdc20c068964d2cd7570b959132c2f249f26ee)
+from [greenelab/meta-review@0f159e7](https://github.com/greenelab/meta-review/tree/0f159e7ddc820295f701055411829cc3ddf610e4)
 on July 20, 2018.
 </em></small>
 
@@ -182,6 +182,7 @@ This figure reveals the composition of written contributions to the manuscript a
 Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [@tJKvnIaZ] in May 2017.
 While the article was under review, we continued to maintain the project and accepted new contributions.
 The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [@PZMP42Ak].
+As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315 merged pull requests, 537 issues, and 616 GitHub stars.
 ](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
 
 ## Manubot
