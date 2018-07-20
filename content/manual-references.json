@@ -209,5 +209,61 @@
         "family": "Fenner"
       }
     ]
+  },
+  {
+    "type": "webpage",
+    "standard_citation": "url:https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/",
+    "URL": "https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/",
+    "title": "Announcing idyll.pub",
+    "container-title": "Idyll",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          26
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Matthew",
+        "family": "Conlen"
+      },
+      {
+        "given": "Andrew",
+        "family": "Osheroff"
+      }
+    ]
+  },
+  {
+    "type": "webpage",
+    "standard_citation": "url:https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research",
+    "URL": "https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research",
+    "title": "Stencila – an office suite for reproducible research",
+    "container-title": "eLife Labs",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          2
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Michael",
+        "family": "Aufreiter"
+      },
+      {
+        "given": "Aleksandra",
+        "family": "Pawlik"
+      },
+      {
+        "given": "Nokome",
+        "family": "Bentley"
+      }
+    ]
   }
 ]
