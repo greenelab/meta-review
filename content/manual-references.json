@@ -143,5 +143,71 @@
       }
     ],
     "type": "post-weblog"
+  },
+  {
+    "type": "webpage",
+    "standard_citation": "url:https://goo.gl/jAcwjm",
+    "URL": "https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
+    "title": "How I used the Manubot to reproduce the Bitcoin Whitepaper",
+    "container-title": "Steem",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          20
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Daniel",
+        "family": "Himmelstein"
+      }
+    ]
+  },
+  {
+    "standard_citation": "url:http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future",
+    "URL": "http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/",
+    "title": "TechBlog: C. Titus Brown: Predicting the paper of the future",
+    "container-title": "Naturejobs",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          1
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "C. Titus",
+        "family": "Brown"
+      }
+    ],
+    "type": "post-weblog"
+  },
+  {
+    "type": "webpage",
+    "standard_citation": "url:http://blog.martinfenner.org/2014/03/10/continuous-publishing/",
+    "URL": "http://blog.martinfenner.org/2014/03/10/continuous-publishing/",
+    "title": "Continuous Publishing",
+    "container-title": "Gobbledygook",
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          3,
+          10
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Martin",
+        "family": "Fenner"
+      }
+    ]
   }
 ]
