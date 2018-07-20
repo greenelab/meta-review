@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/0065a66faa2b62cab5e57e61ecccb6d68b756192/))
+([permalink](https://greenelab.github.io/meta-review/v/6d2c90aef6a2bebafb85ef4e43333ef7b08d4aaf/))
 was automatically generated
-from [greenelab/meta-review@0065a66](https://github.com/greenelab/meta-review/tree/0065a66faa2b62cab5e57e61ecccb6d68b756192)
+from [greenelab/meta-review@6d2c90a](https://github.com/greenelab/meta-review/tree/6d2c90aef6a2bebafb85ef4e43333ef7b08d4aaf)
 on July 20, 2018.
 </em></small>
 
@@ -104,7 +104,9 @@ These include approaches for managing distributed authors and our new software, 
 
 ## Introduction {.page_break_before}
 
-Openness in research --- which includes sharing code, data, and manuscripts --- benefits the researchers who practice it [@HQfvK1OF], their scientific peers, and the public.
+Openness in research benefits the researchers who practice it [@HQfvK1OF], their scientific peers, and the public.
+Improving the availability of code and data helps ensure the methods are transparent and the results can be reproduced  [@Og6TjxD2].
+Publishing in an open access journal increases the number of readers and reviewers [@1CcAUn3Lu].
 Open scholarly writing, a form of crowdsourcing [@12sHvZy1a], has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
 Literature reviews are typically written in private by a closed team of colleagues.
 In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.

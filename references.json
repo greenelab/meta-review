@@ -1010,6 +1010,165 @@
       "date-parts": [
         [
           2018,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2018-07-20T14:02:29Z",
+      "timestamp": 1532095349771
+    },
+    "reference-count": 87,
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1038/s41562-016-0021",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2017-01-10T16:42:05Z",
+      "timestamp": 1484066525000
+    },
+    "page": "0021",
+    "source": "Crossref",
+    "is-referenced-by-count": 198,
+    "title": "A manifesto for reproducible science",
+    "prefix": "10.1038",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Marcus R.",
+        "family": "Munafò",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Brian A.",
+        "family": "Nosek",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dorothy V. M.",
+        "family": "Bishop",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katherine S.",
+        "family": "Button",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher D.",
+        "family": "Chambers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nathalie",
+        "family": "Percie du Sert",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Uri",
+        "family": "Simonsohn",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Eric-Jan",
+        "family": "Wagenmakers",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jennifer J.",
+        "family": "Ware",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "John P. A.",
+        "family": "Ioannidis",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          10
+        ]
+      ]
+    },
+    "container-title": "Nature Human Behaviour",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          10
+        ]
+      ],
+      "date-time": "2017-01-10T16:42:26Z",
+      "timestamp": 1484066546000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          10
+        ]
+      ]
+    },
+    "references-count": 87,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            1,
+            10
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "s41562-016-0021"
+    ],
+    "URL": "https://doi.org/10.1038/s41562-016-0021",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nat. hum. behav.",
+    "short_url": "https://doi.org/bw28",
+    "id": "Og6TjxD2"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
           6,
           13
         ]
@@ -5941,6 +6100,158 @@
     "container-title-short": "PLoS Med",
     "short_url": "https://doi.org/gbrb4b",
     "id": "HnZE3JiU"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          20
+        ]
+      ],
+      "date-time": "2018-07-20T04:22:32Z",
+      "timestamp": 1532060552641
+    },
+    "reference-count": 37,
+    "publisher": "Public Library of Science (PLoS)",
+    "issue": "3",
+    "license": [
+      {
+        "URL": "http://creativecommons.org/licenses/by/4.0/",
+        "start": {
+          "date-parts": [
+            [
+              2007,
+              3,
+              21
+            ]
+          ],
+          "date-time": "2007-03-21T00:00:00Z",
+          "timestamp": 1174435200000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "www.plosone.org"
+      ],
+      "crossmark-restriction": false
+    },
+    "DOI": "10.1371/journal.pone.0000308",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2007-03-20T20:42:48Z",
+      "timestamp": 1174423368000
+    },
+    "page": "e308",
+    "update-policy": "http://dx.doi.org/10.1371/journal.pone.corrections_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 253,
+    "title": "Sharing Detailed Research Data Is Associated with Increased Citation Rate",
+    "prefix": "10.1371",
+    "volume": "2",
+    "author": [
+      {
+        "given": "Heather A.",
+        "family": "Piwowar",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Roger S.",
+        "family": "Day",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Douglas B.",
+        "family": "Fridsma",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "340",
+    "published-online": {
+      "date-parts": [
+        [
+          2007,
+          3,
+          21
+        ]
+      ]
+    },
+    "container-title": "PLoS ONE",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://dx.plos.org/10.1371/journal.pone.0000308",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2017-06-17T15:33:16Z",
+      "timestamp": 1497713596000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "editor": [
+      {
+        "given": "John",
+        "family": "Ioannidis",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          3,
+          21
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2007,
+            3,
+            21
+          ]
+        ]
+      },
+      "issue": "3"
+    },
+    "URL": "https://doi.org/10.1371/journal.pone.0000308",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "PLoS ONE",
+    "short_url": "https://doi.org/apv",
+    "id": "1CcAUn3Lu"
   },
   {
     "indexed": {
