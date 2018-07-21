@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-20'
+date-meta: '2018-07-21'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/01f31893c68cf242d5f84afe9a4a509aa435b0a5/))
+([permalink](https://greenelab.github.io/meta-review/v/799d87674ea016fb088c267f3679de5e75d5c601/))
 was automatically generated
-from [greenelab/meta-review@01f3189](https://github.com/greenelab/meta-review/tree/01f31893c68cf242d5f84afe9a4a509aa435b0a5)
-on July 20, 2018.
+from [greenelab/meta-review@799d876](https://github.com/greenelab/meta-review/tree/799d87674ea016fb088c267f3679de5e75d5c601)
+on July 21, 2018.
 </em></small>
 
 ## Authors
@@ -134,7 +134,30 @@ To address these challenges, we developed a manuscript writing process using the
 
 There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
-Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.
+Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing (Table @tbl:platforms).
+
+| Feature | Manubot | Authorea + BibTeX | Overleaf + BibTeX | Google Docs + Paperpile | Word Online<sup>1</sup> | Markdown on GitHub |
+|---|---|---|---|---|---|---|
+| Multi-author editing | Yes | Yes | Yes | Yes | Yes | Yes |
+| Propose changes | Yes | No | No | Yes | No | Yes |
+| Continuous integration testing | Yes | No | No | No | No | No |
+| Multi-participant conversation for changes | Yes | No<sup>2</sup>  | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> | Yes |
+| Character-level provenance for text | Yes | No (versions tracked by day) | No<sup>3</sup> | Requires manual inspection of history | Not after changes are accepted | Yes |
+| Bibliography management | Yes | Yes | Yes | Yes | No, requires the Word desktop application | No |
+| Cite by common identifiers | Yes | No | No | No | No | No |
+| Editing software | Any text editor | Web interface | Web interface | Web interface | Web interface | Any text editor |
+| Document format | Markdown | LaTeX | LaTeX | Proprietary | Proprietary | Markdown |
+| Templating | Yes | Yes | Yes | No | No | No |
+| Technial expertise required | Yes | Yes | Yes | No | No | Yes |
+
+Table: Collaborative writing platforms.
+A summary of features that differentiate Manubot from existing collaborative writing platforms.
+We assessed features on June 15, 2018 using the free version of each platform.
+Some platforms offer additional features through a paid subscription or software.
+<sup>1</sup>Additional functionality, such as bibliography management, is available by editing the Word document stored in OneDrive with the paid Word desktop application.
+<sup>2</sup>Conversations about modifications take place on the document as comments, annotations, or unsaved chats.  There is no separate integrated forum for discussing and editing revisions.
+<sup>3</sup>Simultaneous edits online can be attributed to a single author in a git commit.
+{#tbl:platforms}
 
 We adopted standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
 The GitHub platform provided support for organizing and editing the manuscript.
@@ -172,7 +195,7 @@ After four rounds of reviews and pull request edits, a maintainer merged the cha
 We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit.
 In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
 Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
-Because our writing process, like others backed by the open git version control system (including Overleaf and Authorea), tracks the complete commit history, it also enables detailed retrospective contribution analysis.
+Because our writing process tracks the complete history through git commits, it enables detailed retrospective contribution analysis.
 
 ![
 **Deep Review contributions by author over time.**
