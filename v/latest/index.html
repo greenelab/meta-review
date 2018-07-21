@@ -9,7 +9,7 @@
   <meta name="author" content="Venkat S. Malladi" />
   <meta name="author" content="Casey S. Greene" />
   <meta name="author" content="Anthony Gitter" />
-  <meta name="dcterms.date" content="2018-07-20" />
+  <meta name="dcterms.date" content="2018-07-21" />
   <meta name="keywords" content="collaborative review, continuous integration, publishing, Manubot" />
   <title>Open collaborative writing with Manubot</title>
   <style type="text/css">
@@ -31,7 +31,7 @@
 <header>
 <h1 class="title">Open collaborative writing with Manubot</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/01f31893c68cf242d5f84afe9a4a509aa435b0a5/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/01f31893c68cf242d5f84afe9a4a509aa435b0a5">greenelab/meta-review@01f3189</a> on July 20, 2018. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/799d87674ea016fb088c267f3679de5e75d5c601/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/799d87674ea016fb088c267f3679de5e75d5c601">greenelab/meta-review@799d876</a> on July 21, 2018. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
@@ -49,7 +49,132 @@
 <p>Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified <a href="https://github.com/greenelab/deep-review/issues/213">here</a>. Additionally, discussing manuscripts in the open generates valuable post-publication peer review <span class="citation" data-cites="LfJGtB83 jYs2OUFW HflJ6Hy5">[<a href="#ref-HflJ6Hy5">10</a>,<a href="#ref-LfJGtB83">8</a>,<a href="#ref-jYs2OUFW">9</a>]</span> or pre-publication peer review of preprints <span class="citation" data-cites="pqBLIXzp">[<a href="#ref-pqBLIXzp">11</a>]</span>. Because incentives are commonly lacking to provide public peer review of existing literature <span class="citation" data-cites="uw5bep8P">[<a href="#ref-uw5bep8P">12</a>]</span>, open collaborative reviews — where authorship is open to anyone who makes a valid contribution — could help spur more post-publication peer review. However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.</p>
 <p>To address these challenges, we developed a manuscript writing process using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation.</p>
 <h2 id="contribution-workflow">Contribution workflow</h2>
-<p>There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing <span class="citation" data-cites="AylLD9F8">[<a href="#ref-AylLD9F8">13</a>]</span> such as <a href="https://www.overleaf.com/">Overleaf</a> and <a href="https://www.authorea.com/">Authorea</a>. These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing. Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing.</p>
+<p>There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing <span class="citation" data-cites="AylLD9F8">[<a href="#ref-AylLD9F8">13</a>]</span> such as <a href="https://www.overleaf.com/">Overleaf</a> and <a href="https://www.authorea.com/">Authorea</a>. These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing. Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing (Table <a href="#tbl:platforms">1</a>).</p>
+<a name="tbl:platforms"></a>
+<table style="width:100%;">
+<caption><span>Table 1:</span> Collaborative writing platforms. A summary of features that differentiate Manubot from existing collaborative writing platforms. We assessed features on June 15, 2018 using the free version of each platform. Some platforms offer additional features through a paid subscription or software. <sup>1</sup>Additional functionality, such as bibliography management, is available by editing the Word document stored in OneDrive with the paid Word desktop application. <sup>2</sup>Conversations about modifications take place on the document as comments, annotations, or unsaved chats. There is no separate integrated forum for discussing and editing revisions. <sup>3</sup>Simultaneous edits online can be attributed to a single author in a git commit. </caption>
+<colgroup>
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature</th>
+<th>Manubot</th>
+<th>Authorea + BibTeX</th>
+<th>Overleaf + BibTeX</th>
+<th>Google Docs + Paperpile</th>
+<th>Word Online<sup>1</sup></th>
+<th>Markdown on GitHub</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Multi-author editing</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Propose changes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>Continuous integration testing</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>Multi-participant conversation for changes</td>
+<td>Yes</td>
+<td>No<sup>2</sup></td>
+<td>No<sup>2</sup></td>
+<td>No<sup>2</sup></td>
+<td>No<sup>2</sup></td>
+<td>Yes</td>
+</tr>
+<tr class="odd">
+<td>Character-level provenance for text</td>
+<td>Yes</td>
+<td>No (versions tracked by day)</td>
+<td>No<sup>3</sup></td>
+<td>Requires manual inspection of history</td>
+<td>Not after changes are accepted</td>
+<td>Yes</td>
+</tr>
+<tr class="even">
+<td>Bibliography management</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No, requires the Word desktop application</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>Cite by common identifiers</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>Editing software</td>
+<td>Any text editor</td>
+<td>Web interface</td>
+<td>Web interface</td>
+<td>Web interface</td>
+<td>Web interface</td>
+<td>Any text editor</td>
+</tr>
+<tr class="odd">
+<td>Document format</td>
+<td>Markdown</td>
+<td>LaTeX</td>
+<td>LaTeX</td>
+<td>Proprietary</td>
+<td>Proprietary</td>
+<td>Markdown</td>
+</tr>
+<tr class="even">
+<td>Templating</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>No</td>
+</tr>
+<tr class="odd">
+<td>Technial expertise required</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+<td>No</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
 <p>We adopted standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes. The GitHub platform provided support for organizing and editing the manuscript. We used GitHub <em>issues</em> for organization, opening a new issue for each paper under consideration. Within the issue, contributors summarized the research, discussed it (sometimes with the original authors), and assessed its relevance to the review. Issues also served as an open to-do list and a forum for debating the main message, themes, and topics of the review.</p>
 <p>GitHub and the underlying git version control system <span class="citation" data-cites="PlcxShQU kEX5dgzK">[<a href="#ref-PlcxShQU">14</a>,<a href="#ref-kEX5dgzK">15</a>]</span> also structured the writing process. The official version of the manuscript is <em>forked</em> by individual contributors. A contributor then adds and revises files, grouping these changes into <em>commits</em>. When the changes are ready to be reviewed, the series of commits are submitted as a <em>pull request</em> through GitHub, which notifies other authors of the pending changes. GitHub’s review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in <span class="citation" data-cites="opQBBK06"><a href="#ref-opQBBK06">16</a></span>. Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content, as illustrated in Figure <a href="#fig:workflow">1</a>. Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers. Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version. The process of writing and revising material can be orchestrated through GitHub with a web browser.</p>
 <figure>
@@ -57,16 +182,16 @@
 </figure>
 <!-- Google Drawing View Link https://docs.google.com/drawings/d/17mst0Z1RMXegeGhM6SwQSJ4nhHgMMh5csyV4MwhsgAY/edit?usp=sharing -->
 <p>The Deep Review <a href="https://github.com/greenelab/deep-review/issues/575">issue</a> and <a href="https://github.com/greenelab/deep-review/pull/638">pull request</a> on protein-protein interactions demonstrate this process in practice. A new contributor identified a relevant research topic that was missing from the review manuscript with examples of how the literature would be synthesized. A maintainer confirmed that this was a desirable topic and referred to related open issues. The contributor made the pull request, and two maintainers and another participant made recommendations. After four rounds of reviews and pull request edits, a maintainer merged the changes.</p>
-<p>We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit. In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting <span class="citation" data-cites="RK9sIADd">[<a href="#ref-RK9sIADd">17</a>]</span>. Figure <a href="#fig:contrib">2</a> and the GitHub <a href="https://github.com/greenelab/deep-review/graphs/contributors">contributors page</a> summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms. Because our writing process, like others backed by the open git version control system (including Overleaf and Authorea), tracks the complete commit history, it also enables detailed retrospective contribution analysis.</p>
+<p>We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit. In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting <span class="citation" data-cites="RK9sIADd">[<a href="#ref-RK9sIADd">17</a>]</span>. Figure <a href="#fig:contrib">2</a> and the GitHub <a href="https://github.com/greenelab/deep-review/graphs/contributors">contributors page</a> summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms. Because our writing process tracks the complete history through git commits, it enables detailed retrospective contribution analysis.</p>
 <figure>
 <img src="images/deep-review-contribution-ridge.svg" alt="Figure 2: Deep Review contributions by author over time. The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from git commit diffs of the manuscript’s Markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history. Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [18] in May 2017. While the article was under review, we continued to maintain the project and accepted new contributions. The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [7]. As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315 merged pull requests, 537 issues, and 616 GitHub stars." id="fig:contrib" style="width:100.0%" /><figcaption><span>Figure 2:</span> <strong>Deep Review contributions by author over time.</strong> The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from git commit diffs of the manuscript’s Markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history. Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint <span class="citation" data-cites="tJKvnIaZ">[<a href="#ref-tJKvnIaZ">18</a>]</span> in May 2017. While the article was under review, we continued to maintain the project and accepted new contributions. The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak">7</a>]</span>. As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315 merged pull requests, 537 issues, and 616 GitHub stars.</figcaption>
 </figure>
 <h2 id="manubot">Manubot</h2>
 <p>We developed Manubot, a system for writing scholarly manuscripts via GitHub. With Manubot, manuscripts are written as plain-text Markdown files, which is well suited for version control using git. The Markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists. In addition, Manubot relies on extensions from <a href="https://pandoc.org/MANUAL.html#pandocs-markdown">Pandoc Markdown</a> to enable citations, tables, captions, and equations specified using the popular TeX math syntax.</p>
-<p>Manubot includes an additional layer of citation processing, currently unique to the system. All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata. Table <a href="#tbl:citations">1</a> presents the supported identifiers and example citations before and after Manubot processing. Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers. Metadata is exported to <a href="http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items">Citation Style Language (CSL) JSON Items</a>, an open standard that is widely supported by reference managers <span class="citation" data-cites="9KfVIq3s K7WVgf8X">[<a href="#ref-9KfVIq3s">19</a>,<a href="#ref-K7WVgf8X">20</a>]</span>. In cases where automatic retrieval of metadata fails or produces incorrect references — which is most common for URL citations — users can manually provide the correct CSL JSON.</p>
+<p>Manubot includes an additional layer of citation processing, currently unique to the system. All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata. Table <a href="#tbl:citations">2</a> presents the supported identifiers and example citations before and after Manubot processing. Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers. Metadata is exported to <a href="http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items">Citation Style Language (CSL) JSON Items</a>, an open standard that is widely supported by reference managers <span class="citation" data-cites="9KfVIq3s K7WVgf8X">[<a href="#ref-9KfVIq3s">19</a>,<a href="#ref-K7WVgf8X">20</a>]</span>. In cases where automatic retrieval of metadata fails or produces incorrect references — which is most common for URL citations — users can manually provide the correct CSL JSON.</p>
 <a name="tbl:citations"></a>
 <table>
-<caption><span>Table 1:</span> Citation types supported by Manubot. Authors may optionally map a named tag to one of the other supported identifier types. In this example, the tag <code>Avasthi2018_preprints</code> represents the DOI identifier <code>doi:10.7554/eLife.38532</code>. </caption>
+<caption><span>Table 2:</span> Citation types supported by Manubot. Authors may optionally map a named tag to one of the other supported identifier types. In this example, the tag <code>Avasthi2018_preprints</code> represents the DOI identifier <code>doi:10.7554/eLife.38532</code>. </caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 25%" />
