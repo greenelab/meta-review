@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-21'
+date-meta: '2018-07-27'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/799d87674ea016fb088c267f3679de5e75d5c601/))
+([permalink](https://greenelab.github.io/meta-review/v/5bb972bdb2fd89757d04b1bafb46661d64858162/))
 was automatically generated
-from [greenelab/meta-review@799d876](https://github.com/greenelab/meta-review/tree/799d87674ea016fb088c267f3679de5e75d5c601)
-on July 21, 2018.
+from [greenelab/meta-review@5bb972b](https://github.com/greenelab/meta-review/tree/5bb972bdb2fd89757d04b1bafb46661d64858162)
+on July 27, 2018.
 </em></small>
 
 ## Authors
@@ -134,7 +134,7 @@ To address these challenges, we developed a manuscript writing process using the
 
 There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
-Although they work well for editing, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing (Table @tbl:platforms).
+Although they work well for editing text, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing (Table @tbl:platforms).
 
 | Feature | Manubot | Authorea + BibTeX | Overleaf + BibTeX | Google Docs + Paperpile | Word Online<sup>1</sup> | Markdown on GitHub |
 |---|---|---|---|---|---|---|
@@ -155,17 +155,19 @@ A summary of features that differentiate Manubot from existing collaborative wri
 We assessed features on June 15, 2018 using the free version of each platform.
 Some platforms offer additional features through a paid subscription or software.
 <sup>1</sup>Additional functionality, such as bibliography management, is available by editing the Word document stored in OneDrive with the paid Word desktop application.
-<sup>2</sup>Conversations about modifications take place on the document as comments, annotations, or unsaved chats.  There is no separate integrated forum for discussing and editing revisions.
+<sup>2</sup>Conversations about modifications take place on the document as comments, annotations, or unsaved chats.
+There is no separate integrated forum for discussing and editing revisions.
 <sup>3</sup>Simultaneous edits online can be attributed to a single author in a git commit.
 {#tbl:platforms}
 
-We adopted standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
-The GitHub platform provided support for organizing and editing the manuscript.
-We used GitHub _issues_ for organization, opening a new issue for each paper under consideration.
-Within the issue, contributors summarized the research, discussed it (sometimes with the original authors), and assessed its relevance to the review.
-Issues also served as an open to-do list and a forum for debating the main message, themes, and topics of the review.
+In our workflow, we adopt standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
+The GitHub platform provides support for organizing and editing the manuscript.
+We use GitHub _issues_ for organization, opening a new issue for each discussion topic.
+For a review manuscript, this includes each primary paper under consideration.
+Within a paper's issue, contributors summarize the research, discuss it (sometimes with the original authors), and assess its relevance to the review.
+Issues also serve as an open to-do list and a forum for debating the main message, themes, and topics of the review.
 
-GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also structured the writing process.
+GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also structure the writing process.
 The official version of the manuscript is _forked_ by individual contributors.
 A contributor then adds and revises files, grouping these changes into _commits_.
 When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
@@ -173,7 +175,7 @@ GitHub's review interface allows anyone to comment on the changes, globally or a
 Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content, as illustrated in Figure @fig:workflow.
 Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers.
 Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
-The process of writing and revising material can be orchestrated through GitHub with a web browser.
+The process of writing and revising material can be orchestrated through GitHub with a web browser or a local text editor.
 
 ![
 **Deep Review editing workflow.**
@@ -210,7 +212,7 @@ As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315
 
 ## Manubot
 
-We developed Manubot, a system for writing scholarly manuscripts via GitHub.
+Manubot is a system for writing scholarly manuscripts via GitHub.
 With Manubot, manuscripts are written as plain-text Markdown files, which is well suited for version control using git.
 The Markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists.
 In addition, Manubot relies on extensions from [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
@@ -245,53 +247,51 @@ As a result, adopting the specific bibliographic format required by a journal us
 Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from Markdown to HTML, PDF, and optionally DOCX outputs.
 Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, EPUB, and JATS — offering Manubot users broad interoperability.
 [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS) is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
-Going forward, we hope to integrate Manubot with the larger JATS ecosystem.
-For now however, the primary Manubot output is HTML intended to be viewed in a web browser.
+Pandoc's JATS support provides an avenue to integrate Manubot with the larger JATS ecosystem.
+For now, however, the primary Manubot output is HTML intended to be viewed in a web browser.
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
-The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically [Travis CI](https://travis-ci.org/) at the moment, to monitor for changes.
+The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically [Travis CI](https://travis-ci.org/) at the moment, to monitor changes.
 When changes occur, the CI service attempts to generate an updated manuscript.
 If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository.
-Since the HTML manuscript is hosted using [GitHub Pages](https://pages.github.com/), the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub.
+Because the HTML manuscript is hosted using [GitHub Pages](https://pages.github.com/), the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub.
 Using CI to build the manuscript automatically catches many common errors, such as misspelled citations, invalid formatting, or misconfigured software dependencies.
 
-For this article, the source GitHub repository is <https://github.com/greenelab/meta-review>.
+To illustrate, the source GitHub repository for this article is <https://github.com/greenelab/meta-review>.
 When this repository changes, Travis CI [rebuilds](https://travis-ci.org/greenelab/meta-review) the manuscript.
 If successful, the output is deployed back to GitHub (to dedicated [`output`](https://github.com/greenelab/meta-review/tree/output) and [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branches).
 As a result, <https://greenelab.github.io/meta-review> stays up to date with the latest HTML manuscript.
-Furthermore, versioned URLs, such as <https://greenelab.github.io/meta-review/v/3ec66cd440e78dac33f4700f1cecbc4d95b20139/> `(TODO: update commit)`, provide access to previous manuscript versions.
+Furthermore, versioned URLs, such as <https://greenelab.github.io/meta-review/v/3ec66cd440e78dac33f4700f1cecbc4d95b20139/>, provide access to previous manuscript versions.
 
 The idea of the "priority of discovery" is important to science, and Vale and Hyman discuss the importance of both disclosure and validation [@vHuGhm4k].
 In their framework, disclosure occurs when a scientific output is released to the world.
 However, for a manuscript that is shared as it is written, being able to establish priority could be challenging.
-We implemented support for [OpenTimestamps](https://opentimestamps.org/) in Manubot to timestamp the HTML and PDF outputs on the Bitcoin blockchain.
+Manubot supports [OpenTimestamps](https://opentimestamps.org/) to timestamp the HTML and PDF outputs on the Bitcoin blockchain.
 This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [@Y2XyzLMc; @6MR50hyY; @QBWMEuxW; @6yyYojgV].
-For Manubot manuscripts, scientific precedence can now be indisputably established, and timestamps protect against attempts to rewrite a manuscript's history.
-Such timestamping practices help ensure accurate histories, potentially alleviating certain authorship or priority disputes.
-Since all bitcoin transactions are competing for limited space on the blockchain, the fees required to send a single transaction can be high.
-OpenTimestamps avoids this fee by encoding many timestamps into a single Bitcoin transaction [@1DG704X8Q], but there can be a lag of a few hours before the transaction is made.
-We judged this to be suitable for the purposes of scientific writing.
+Timestamps protect against attempts to rewrite a manuscript's history and ensure accurate histories, potentially alleviating certain authorship or priority disputes.
+Because all bitcoin transactions compete for limited space on the blockchain, the fees required to send a single transaction can be high.
+OpenTimestamps avoids this fee by encoding many timestamps into a single Bitcoin transaction [@1DG704X8Q].
+There can be a lag of a few hours before the transaction is made, which is suitable for the purposes of scientific writing.
 
-We designed Manubot to power the next generation of scholarly manuscript.
-Manubot transforms publication, making it permissionless, reproducible, free of charge, and largely open source.
-Manubot does rely on gratis services from two proprietary platforms: GitHub and Travis CI.
+Manubot has the potential to transform publication, making it permissionless, reproducible, free of charge, and largely open source.
+It does rely on gratis services from two proprietary platforms: GitHub and Travis CI.
 Fortunately, lock-in to these services is minimal, and several substitutes already exist.
 One direction Manubot is working towards is end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF].
-Already, Manubot is well suited for preserving provenance.
+Manubot is well suited for preserving provenance.
 For example, figures can be specified using versioned URLs that refer to the code that created them.
-In addition, manuscripts can be templated, so that numerical values or tables get inserted directly from the repository that created them.
+In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them.
 An [example repository](https://github.com/greenelab/manubot-rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
 
 Since its creation to facilitate the Deep Review, Manubot has been used to write a variety of scholarly documents.
 The [Sci-Hub Coverage Study](https://github.com/greenelab/scihub-manuscript) --- performed openly on GitHub from its inception --- investigated Sci-Hub's repository of pirated articles [@IhliSZDo].
 Sci-Hub [reviewed](https://github.com/greenelab/scihub-manuscript/issues/17) the initial preprint from this study in a series of tweets, pointing out a major error in one of the analyses.
 Within hours, the authors used Markdown's strikethrough formatting in Manubot to cross-out the errant sentences ([commit](https://github.com/greenelab/scihub-manuscript/commit/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba), [versioned manuscript](https://greenelab.github.io/scihub-manuscript/v/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba/)), thereby alerting readers to the mistake and preventing further propagation of misinformation.
-A larger [set of revisions](https://github.com/greenelab/scihub-manuscript/pull/19) that was merged a month later explained the error in more detail, and was included in a second version of the preprint.
+One month later, a larger [set of revisions](https://github.com/greenelab/scihub-manuscript/pull/19) explained the error in more detail and was included in a second version of the preprint.
 As such, continuous publishing via Manubot helped the authors address the error without delay, while retaining a public version history of the process.
-Of interest, the Sci-Hub Coverage Study preprint was the [most viewed](http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/) 2017 _PeerJ Preprint_, while the Deep Review was the most viewed 2017 _bioRxiv_ preprint [@9IrsqXRa].
+This Sci-Hub Coverage Study preprint was the [most viewed](http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/) 2017 _PeerJ Preprint_, while the Deep Review was the most viewed 2017 _bioRxiv_ preprint [@9IrsqXRa].
 Hence, in Manubot's first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.
 
-Additional research studies in progress are being authored using Manubot, including in the fields of [genomics](https://vsmalladi.github.io/tfsee-manuscript/), [climate science](https://openclimatedata.github.io/global-emissions/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
+Additional research studies in progress are being authored using Manubot, spanning the fields of [genomics](https://vsmalladi.github.io/tfsee-manuscript/), [climate science](https://openclimatedata.github.io/global-emissions/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
 Manubot is also being used for documents beyond traditional journal publications, such as [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
 Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@yte07Fnn] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
 
