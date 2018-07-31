@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-27'
+date-meta: '2018-07-31'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/4b6396bcefd1b9c7ddf39c1d3f0b3eab2dd63f31/))
+([permalink](https://greenelab.github.io/meta-review/v/5bb8dd518c1f744bbb679d76456d285058bf6b8f/))
 was automatically generated
-from [greenelab/meta-review@4b6396b](https://github.com/greenelab/meta-review/tree/4b6396bcefd1b9c7ddf39c1d3f0b3eab2dd63f31)
-on July 27, 2018.
+from [greenelab/meta-review@5bb8dd5](https://github.com/greenelab/meta-review/tree/5bb8dd518c1f744bbb679d76456d285058bf6b8f)
+on July 31, 2018.
 </em></small>
 
 ## Authors
@@ -108,19 +108,19 @@ The internet enables science to be shared in real-time at a low cost to a global
 This development has decreased the barriers to making science open, while supporting new massively collaborative models of research.
 However, the scientific community requires tools whose workflows encourage openness rather than stifle it.
 For example, manuscripts are the cornerstone of scholarly communication, but drafting and publishing manuscripts has traditionally relied on proprietary or offline tools that do not support _open scholarly writing_, where anyone is able to contribute and the contribution history is preserved and public.
-Hence, we report a new tool and workflow for authoring scholarly manuscripts in the open, as well as the collaborative project which led to its creation.
+Hence, we report a new tool and workflow for authoring scholarly manuscripts in the open, as well as the collaborative project that led to its creation.
 
 Open scholarly writing, a form of crowdsourcing [@12sHvZy1a], has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
 Literature reviews are typically written in private by a closed team of colleagues.
 In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
 Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
 
-Based on our experience leading a recent open review [@16CgM2x0z], we discuss the pros and cons of open collaborative reviews as well as how they contribute to a living and frequently updated literature.
+Based on our experience leading a recent open review [@16CgM2x0z], we discuss the pros and cons of open collaborative writing.
 Our review manuscript [@PZMP42Ak], code-named the Deep Review, surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
-In addition, we introduce [Manubot](https://github.com/greenelab/manubot-rootstock), the infrastructure we created to enable open manuscript writing online for Deep Review, which was subsequently adopted by other projects.
+In addition, we introduce [Manubot](https://github.com/greenelab/manubot-rootstock), the infrastructure we created to enable open manuscript writing online for the Deep Review, which was subsequently adopted by other projects.
 
 We initiated the Deep Review by creating a GitHub repository (<https://github.com/greenelab/deep-review>) to coordinate and manage contributions.
-GitHub is a platform designed for collaborative software development that's adaptable for collaborative writing.
+GitHub is a platform designed for collaborative software development that is adaptable for collaborative writing.
 From the start, we made the GitHub repository public, applying a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
 Next, we encouraged anyone interested to contribute by proposing changes or additions.
 Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation.
@@ -207,7 +207,7 @@ Because our writing process tracks the complete history through git commits, it 
 The total words added to the Deep Review by each author is plotted over time (final values in parentheses).
 These statistics were extracted from git commit diffs of the manuscript's Markdown source.
 This figure reveals the composition of written contributions to the manuscript at every point in its history.
-Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [@tJKvnIaZ] in May 2017.
+The Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [@tJKvnIaZ] in May 2017.
 While the article was under review, we continued to maintain the project and accepted new contributions.
 The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [@PZMP42Ak].
 As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315 merged pull requests, 537 issues, and 616 GitHub stars.
@@ -215,7 +215,7 @@ As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315
 
 ## Manubot
 
-Manubot is a system for writing scholarly manuscripts via GitHub.
+Manubot is a system for writing scholarly manuscripts via GitHub that is built upon our [Python package](https://github.com/greenelab/manubot) of the same name.
 With Manubot, manuscripts are written as plain-text Markdown files, which is well suited for version control using git.
 The Markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists.
 In addition, Manubot relies on extensions from [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
@@ -264,7 +264,7 @@ To illustrate, the source GitHub repository for this article is <https://github.
 When this repository changes, Travis CI [rebuilds](https://travis-ci.org/greenelab/meta-review) the manuscript.
 If successful, the output is deployed back to GitHub (to dedicated [`output`](https://github.com/greenelab/meta-review/tree/output) and [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branches).
 As a result, <https://greenelab.github.io/meta-review> stays up to date with the latest HTML manuscript.
-Furthermore, versioned URLs, such as <https://greenelab.github.io/meta-review/v/3ec66cd440e78dac33f4700f1cecbc4d95b20139/>, provide access to previous manuscript versions.
+Furthermore, versioned URLs, such as <https://greenelab.github.io/meta-review/v/4b6396bcefd1b9c7ddf39c1d3f0b3eab2dd63f31/>, provide access to previous manuscript versions.
 
 The idea of the "priority of discovery" is important to science, and Vale and Hyman discuss the importance of both disclosure and validation [@vHuGhm4k].
 In their framework, disclosure occurs when a scientific output is released to the world.
@@ -276,7 +276,7 @@ Because all bitcoin transactions compete for limited space on the blockchain, th
 OpenTimestamps avoids this fee by encoding many timestamps into a single Bitcoin transaction [@1DG704X8Q].
 There can be a lag of a few hours before the transaction is made, which is suitable for the purposes of scientific writing.
 
-Manubot has the potential to transform publication, making it permissionless, reproducible, free of charge, and largely open source.
+Manubot and its dependencies are free of charge and largely open source.
 It does rely on gratis services from two proprietary platforms: GitHub and Travis CI.
 Fortunately, lock-in to these services is minimal, and several substitutes already exist.
 One direction Manubot is working towards is end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF].
@@ -321,15 +321,20 @@ We annotated the author list to indicate that author order was partly randomized
 ### Additional collaborative writing projects
 
 The Deep Review was not the first scholarly manuscript written online via an open collaborative process.
-Interestingly, the collaborative scholarly works (of which we're aware) tend to have dealt with rapidly developing topics.
-In 2013, two dozen mathematicians created the 600-page "HoTT Book" on "Homotopy Type Theory", writing collaboratively in LaTeX on GitHub [@RExXs8is; @MhC1nPDK].
+In 2013, two dozen mathematicians created the 600-page Homotopy Type Theory book, writing collaboratively in LaTeX on GitHub [@RExXs8is; @MhC1nPDK].
 Two technical books on cryptocurrency --- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) and [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) --- written on GitHub in asciidoc format have engaged hundreds of contributors.
-Both The HoTT Book and Mastering Bitcoin continue to be maintained years after their initial publication.
+Both Homotopy Type Theory and Mastering Bitcoin continue to be maintained years after their initial publication.
 A 2017 perspective on the future of peer review was written collaboratively on Overleaf, with contributions from 32 authors [@52Q1v5nS].
 While debate was raging over tightening the default threshold for statistical significance, nearly 150 scientists contributed to a Google Doc discussion that was condensed into a traditional journal commentary [@82ZjWq3i; @HXpnCQu1].
 The greatest success to date of open collaborative writing is arguably Wikipedia, whose English version contains over 5.5 million articles.
 Wikipedia scaled encyclopedias [far beyond](https://en.wikipedia.org/wiki/Wikipedia:Size_comparisons) any privately-written alternative.
-As the examples above illustrate, open collaborative writing appears to scale scholarly manuscripts where diverse opinion and expertise are paramount beyond what would otherwise be possible.
+These examples illustrate how open collaborative writing can scale scholarly manuscripts where diverse opinion and expertise are paramount beyond what would otherwise be possible.
+
+Open writing presents new opportunities for distributing scholarly communication.
+Though it is still valuable to have versioned drafts of a manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
+After releasing the first version of the Deep Review [@tJKvnIaZ], 14 new contributors updated the manuscript (Figure @fig:contrib).
+Existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
+Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
 Bookdown [@1BISa1RLr] and Pandoc Scholar [@17wKkS4DV] both extend traditional Markdown to better support publishing.
@@ -350,20 +355,14 @@ In addition, git carefully tracks all revisions to the manuscript text but not t
 These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript's text.
 GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.
 
-In our open review paper, we established [contributor guidelines](https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md) that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement.
+In the Deep Review, we established [contributor guidelines](https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md) that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement.
 Our contributor guidelines required verifiable participation: either directly attributable changes to the text or participation in the discussion on GitHub.
-We maintained our guidelines, even when a case arose where two authors had written text together but only one had directly attributable changes and participation.
 These guidelines did not discuss broader community norms that may have improved inclusiveness.
 It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community [@zBl3qgGT].
 Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture [@NuDPNceu].
 <!-- cited a previous version of doi:10.1080/08874417.2009.11645338 (see https://git.io/vdSSR) -->
 Conferences and open source projects have used codes of conduct to establish these norms [@HPKoE9m3=35801; @aRZRiJPk].
-We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that establish on social as well as academic norms.
-
-Open writing presents new opportunities for scholarly communication.
-Though it is still valuable to have versioned drafts of a review manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts.
-After releasing the first version of our collaborative review [@tJKvnIaZ], 14 new contributors have updated the manuscript (Figure @fig:contrib) and existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
-Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
+We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that build on social as well as academic norms.
 
 ### Manubot in the context of open science
 
@@ -373,14 +372,15 @@ For example, open access publishing provides an economic model that encourages m
 More broadly, open licensing solves legal barriers to content reuse, enabling any type of scholarly output to become part of the commons [@g6WVoxNy; @137tbemL9].
 The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bonafide privacy or security concerns [@gvyja7v1; @rgo1TZr; @1A97a4UwU].
 New tools and services make it increasingly feasible to publicly share the unabridged methods of a study, especially for computational research, which consists solely of software and data.
-Greater openness in both research methods and publishing is creating an opportunity to redefine peer review and the role journals play in communicating science [@nhLnUPJo].
+
+Greater openness in both research methods and publishing creates an opportunity to redefine peer review and the role journals play in communicating science [@52Q1v5nS].
 At the extreme is real-time open science, whereby studies are performed entirely in the open from their inception [@17EdosXzD].
 Many such research projects have now been completed, benefiting from the associated early-stage peer review, additional opportunity for online collaboration, and increased visibility [@1pWYlPj4; @O21tn8vf].
 
-Manubot is designed to be an authoring protocol for real-time open science, with especial relevance for projects that are already using the open source software workflow to manage their research.
+Manubot is an ideal authoring protocol for real-time open science, especially for projects that are already using an open source software workflow to manage their research.
 While Manubot does require technical expertise, the benefits are manyfold.
 Specifically, Manubot demonstrates a system for publishing that is transparent, reproducible, immediate, permissionless, versioned, automated, collaborative, open, linked, provenanced, decentralized, hackable, interactive, annotated, and free of charge.
-We hope that these attributes help integrate Manubot with an ecosystem of other community-driven tools to make science as open and collaborative as possible.
+These attributes empower integrating Manubot with an ecosystem of other community-driven tools to make science as open and collaborative as possible.
 
 
 ## Acknowledgements
