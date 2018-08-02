@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-07-31'
+date-meta: '2018-08-02'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/5bb8dd518c1f744bbb679d76456d285058bf6b8f/))
+([permalink](https://greenelab.github.io/meta-review/v/b8eeea542ce238bbcaf2023add2aecb86ef726bd/))
 was automatically generated
-from [greenelab/meta-review@5bb8dd5](https://github.com/greenelab/meta-review/tree/5bb8dd518c1f744bbb679d76456d285058bf6b8f)
-on July 31, 2018.
+from [greenelab/meta-review@b8eeea5](https://github.com/greenelab/meta-review/tree/b8eeea542ce238bbcaf2023add2aecb86ef726bd)
+on August 2, 2018.
 </em></small>
 
 ## Authors
@@ -106,12 +106,12 @@ These include approaches for managing distributed authors and our new software, 
 
 The internet enables science to be shared in real-time at a low cost to a global audience.
 This development has decreased the barriers to making science open, while supporting new massively collaborative models of research.
-However, the scientific community requires tools whose workflows encourage openness rather than stifle it.
-For example, manuscripts are the cornerstone of scholarly communication, but drafting and publishing manuscripts has traditionally relied on proprietary or offline tools that do not support _open scholarly writing_, where anyone is able to contribute and the contribution history is preserved and public.
-Hence, we report a new tool and workflow for authoring scholarly manuscripts in the open, as well as the collaborative project that led to its creation.
+However, the scientific community requires tools whose workflows encourage openness.
+Manuscripts are the cornerstone of scholarly communication, but drafting and publishing manuscripts has traditionally relied on proprietary or offline tools that do not support _open scholarly writing_, by which anyone is able to contribute and the contribution history is preserved and public.
+We report a new tool and workflow for authoring scholarly manuscripts in the open, as well as the collaborative project that led to its creation.
 
 Open scholarly writing, a form of crowdsourcing [@12sHvZy1a], has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
-Literature reviews are typically written in private by a closed team of colleagues.
+Literature reviews are typically written in private by an invited team of colleagues.
 In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
 Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
 
@@ -128,7 +128,7 @@ In total, the Deep Review attracted 36 authors who were not determined in advanc
 
 Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
 Additionally, discussing manuscripts in the open generates valuable post-publication peer review [@LfJGtB83; @jYs2OUFW; @HflJ6Hy5] or pre-publication peer review of preprints [@pqBLIXzp].
-Because incentives are commonly lacking to provide public peer review of existing literature [@uw5bep8P], open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
+Because incentives to provide public peer review of existing literature [@uw5bep8P] are lacking, open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
 To address these challenges, we developed a manuscript writing process using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation.
@@ -139,7 +139,7 @@ There are many existing collaborative writing platforms ranging from rich text e
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
 Although they work well for editing text, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing (Table @tbl:platforms).
 
-| Feature | Manubot | Authorea + BibTeX | Overleaf + BibTeX | Google Docs + Paperpile | Word Online<sup>1</sup> | Markdown on GitHub |
+| Feature | Manubot | Authorea + BibTeX | Overleaf v1 + BibTeX | Google Docs + Paperpile | Word Online<sup>1</sup> | Markdown on GitHub |
 |---|---|---|---|---|---|---|
 | Multi-author editing | Yes | Yes | Yes | Yes | Yes | Yes |
 | Propose changes | Yes | No | No | Yes | No | Yes |
@@ -151,7 +151,7 @@ Although they work well for editing text, they lack sufficient features for mana
 | Editing software | Any text editor | Web interface | Web interface | Web interface | Web interface | Any text editor |
 | Document format | Markdown | LaTeX | LaTeX | Proprietary | Proprietary | Markdown |
 | Templating | Yes | Yes | Yes | No | No | No |
-| Technial expertise required | Yes | Yes | Yes | No | No | Yes |
+| Technical expertise required | Yes | Yes | Yes | No | No | Yes |
 
 Table: Collaborative writing platforms.
 A summary of features that differentiate Manubot from existing collaborative writing platforms.
@@ -159,15 +159,15 @@ We assessed features on June 15, 2018 using the free version of each platform.
 Some platforms offer additional features through a paid subscription or software.
 <sup>1</sup>Additional functionality, such as bibliography management, is available by editing the Word document stored in OneDrive with the paid Word desktop application.
 <sup>2</sup>Conversations about modifications take place on the document as comments, annotations, or unsaved chats.
-There is no separate integrated forum for discussing and editing revisions.
-<sup>3</sup>Simultaneous edits online can be attributed to a single author in a git commit.
+There is no integrated forum for discussing and editing revisions.
+<sup>3</sup>In some circumstances, Overleaf git commits are not modular. Edits made by distinct authors may be attributed to a single author.
 {#tbl:platforms}
 
-In our workflow, we adopt standard software development strategies in order to enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
-The GitHub platform provides support for organizing and editing the manuscript.
+In our workflow, we adopt standard software development strategies that enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
+The GitHub platform supports organizing and editing the manuscript.
 We use GitHub _issues_ for organization, opening a new issue for each discussion topic.
 For a review manuscript, this includes each primary paper under consideration.
-Within a paper's issue, contributors summarize the research, discuss it (sometimes with the original authors), and assess its relevance to the review.
+Within a paper's issue, contributors summarize the research, discuss it (sometimes with participation from the original authors), and assess its relevance to the review.
 Issues also serve as an open to-do list and a forum for debating the main message, themes, and topics of the review.
 
 GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also structure the writing process.
@@ -176,7 +176,7 @@ A contributor then adds and revises files, grouping these changes into _commits_
 When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
 GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in @opQBBK06.
 Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content, as illustrated in Figure @fig:workflow.
-Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits, and it helps maintain consistent content and tone across different authors and reviewers.
+Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits and helps maintain consistent content and tone across different authors and reviewers.
 Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
 The process of writing and revising material can be orchestrated through GitHub with a web browser or a local text editor.
 
@@ -251,10 +251,10 @@ Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from Markdown 
 Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, EPUB, and JATS — offering Manubot users broad interoperability.
 [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS) is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
 Pandoc's JATS support provides an avenue to integrate Manubot with the larger JATS ecosystem.
-For now, however, the primary Manubot output is HTML intended to be viewed in a web browser.
+For now, the primary Manubot output is HTML intended to be viewed in a web browser.
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
-The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically [Travis CI](https://travis-ci.org/) at the moment, to monitor changes.
+The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically via [Travis CI](https://travis-ci.org/), to monitor changes.
 When changes occur, the CI service attempts to generate an updated manuscript.
 If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository.
 Because the HTML manuscript is hosted using [GitHub Pages](https://pages.github.com/), the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub.
@@ -279,8 +279,7 @@ There can be a lag of a few hours before the transaction is made, which is suita
 Manubot and its dependencies are free of charge and largely open source.
 It does rely on gratis services from two proprietary platforms: GitHub and Travis CI.
 Fortunately, lock-in to these services is minimal, and several substitutes already exist.
-One direction Manubot is working towards is end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF].
-Manubot is well suited for preserving provenance.
+Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF] and is well suited for preserving provenance.
 For example, figures can be specified using versioned URLs that refer to the code that created them.
 In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them.
 An [example repository](https://github.com/greenelab/manubot-rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
