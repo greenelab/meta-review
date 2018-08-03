@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-08-02'
+date-meta: '2018-08-03'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/b8eeea542ce238bbcaf2023add2aecb86ef726bd/))
+([permalink](https://greenelab.github.io/meta-review/v/eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85/))
 was automatically generated
-from [greenelab/meta-review@b8eeea5](https://github.com/greenelab/meta-review/tree/b8eeea542ce238bbcaf2023add2aecb86ef726bd)
-on August 2, 2018.
+from [greenelab/meta-review@eb35e87](https://github.com/greenelab/meta-review/tree/eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85)
+on August 3, 2018.
 </em></small>
 
 ## Authors
@@ -124,10 +124,10 @@ GitHub is a platform designed for collaborative software development that is ada
 From the start, we made the GitHub repository public, applying a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
 Next, we encouraged anyone interested to contribute by proposing changes or additions.
 Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation.
-In total, the Deep Review attracted 36 authors who were not determined in advance from 20 different institutions.
+In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions.
 
 Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
-Additionally, discussing manuscripts in the open generates valuable post-publication peer review [@LfJGtB83; @jYs2OUFW; @HflJ6Hy5] or pre-publication peer review of preprints [@pqBLIXzp].
+Additionally, discussing manuscripts in the open generates valuable pre-publication peer review of preprints [@pqBLIXzp] or post-publication peer review [@LfJGtB83; @jYs2OUFW; @HflJ6Hy5].
 Because incentives to provide public peer review of existing literature [@uw5bep8P] are lacking, open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
 However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 
@@ -192,7 +192,7 @@ Once the pull request is approved, the maintainer merges the changes into the of
 <!-- Google Drawing View Link https://docs.google.com/drawings/d/17mst0Z1RMXegeGhM6SwQSJ4nhHgMMh5csyV4MwhsgAY/edit?usp=sharing -->
 
 The Deep Review [issue](https://github.com/greenelab/deep-review/issues/575) and [pull request](https://github.com/greenelab/deep-review/pull/638) on protein-protein interactions demonstrate this process in practice.
-A new contributor identified a relevant research topic that was missing from the review manuscript with examples of how the literature would be synthesized.
+A new contributor identified a relevant research topic that was missing from the review manuscript with examples of how the literature would be summarized, critiqued, and integrated into the review.
 A maintainer confirmed that this was a desirable topic and referred to related open issues.
 The contributor made the pull request, and two maintainers and another participant made recommendations.
 After four rounds of reviews and pull request edits, a maintainer merged the changes.
@@ -321,7 +321,7 @@ We annotated the author list to indicate that author order was partly randomized
 
 The Deep Review was not the first scholarly manuscript written online via an open collaborative process.
 In 2013, two dozen mathematicians created the 600-page Homotopy Type Theory book, writing collaboratively in LaTeX on GitHub [@RExXs8is; @MhC1nPDK].
-Two technical books on cryptocurrency --- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) and [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) --- written on GitHub in asciidoc format have engaged hundreds of contributors.
+Two technical books on cryptocurrency --- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) and [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) --- written on GitHub in AsciiDoc format have engaged hundreds of contributors.
 Both Homotopy Type Theory and Mastering Bitcoin continue to be maintained years after their initial publication.
 A 2017 perspective on the future of peer review was written collaboratively on Overleaf, with contributions from 32 authors [@52Q1v5nS].
 While debate was raging over tightening the default threshold for statistical significance, nearly 150 scientists contributed to a Google Doc discussion that was condensed into a traditional journal commentary [@82ZjWq3i; @HXpnCQu1].
