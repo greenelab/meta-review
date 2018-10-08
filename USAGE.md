@@ -152,7 +152,7 @@ If you experience any issues with the Manubot or would like to contribute to its
 
 ## Examples
 
-For additional examples, check out existing manuscripts that use the Manubot:
+For additional examples, check out existing manuscripts that use the Manubot (some of which are still in progress):
 
 + Satoshi Nakamoto's Bitcoin Whitepaper ([source](https://github.com/dhimmel/bitcoin-whitepaper/), [manuscript](https://dhimmel.github.io/bitcoin-whitepaper/), [commentary](https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper))
 + The Sci-Hub Coverage Study ([source](https://github.com/greenelab/scihub-manuscript), [manuscript](https://greenelab.github.io/scihub-manuscript/))
@@ -161,6 +161,26 @@ For additional examples, check out existing manuscripts that use the Manubot:
 + The Meta Review ([source](https://github.com/greenelab/meta-review), [manuscript](https://greenelab.github.io/meta-review/))
 + The Project Rephetio Manuscript ([source](https://github.com/dhimmel/rephetio-manuscript/), [manuscript](https://dhimmel.github.io/rephetio-manuscript/))
 + A Literature Review for Project Planning by David Slochower ([source](https://github.com/slochower/synthetic-motor-literature), [manuscript](https://slochower.github.io/synthetic-motor-literature/))
++ The TFSEE Manuscript by Venkat Malladi et al. ([source](https://github.com/vsmalladi/tfsee-manuscript), [manuscript](https://vsmalladi.github.io/tfsee-manuscript/))
++ Creating a Global Emissions Timeseries dataset by Robert Gieseke et al. ([source](https://github.com/openclimatedata/global-emissions), [manuscript](https://openclimatedata.github.io/global-emissions/))
++ The yt 3.0 methods paper ([source](https://github.com/yt-project/yt-3.0-paper), [manuscript](https://yt-project.github.io/yt-3.0-paper/))
 + The Manubot 2018 Development Proposal ([source](https://github.com/greenelab/manufund-2018), [manuscript](https://greenelab.github.io/manufund-2018/))
 
 If you are using the Manubot, feel free to submit a pull request to add your manuscript to the list above.
+
+## Citing Manubot
+
+To cite the Manubot project or for more information on its design and history, see `@url:https://greenelab.github.io/meta-review/`:
+
+> **Open collaborative writing with Manubot**<br>
+Daniel S. Himmelstein, David R. Slochower, Venkat S. Malladi, Casey S.
+Greene, Anthony Gitter<br>
+_Manubot Preprint_ (2018) <https://greenelab.github.io/meta-review/>
+
+## Acknowledgments
+
+We would like to thank the contributors and funders whose support makes the Manubot project possible.
+Specifically, Manubot development has been financially supported by:
+
+- the **Alfred P. Sloan Foundation** in [Grant G-2018-11163](https://sloan.org/grant-detail/8501) to [**@dhimmel**](https://github.com/dhimmel).
+- the **Gordon & Betty Moore Foundation** ([**@DDD-Moore**](https://github.com/DDD-Moore)) in [Grant GBMF4552](https://www.moore.org/grant-detail?grantId=GBMF4552) to [**@cgreene**](https://github.com/cgreene).
