@@ -145,6 +145,28 @@
     "type": "post-weblog"
   },
   {
+    "standard_citation": "url:http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/",
+    "URL": "http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/",
+    "title": "TechBlog: Create the perfect bibliography with the CSL Editor",
+    "container-title": "Naturejobs",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Jeffrey",
+        "family": "Perkel"
+      }
+    ],
+    "type": "post-weblog"
+  },
+  {
     "type": "webpage",
     "standard_citation": "url:https://goo.gl/jAcwjm",
     "URL": "https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
