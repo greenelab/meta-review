@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/meta-review/.
-The permalink for this webpage version is https://greenelab.github.io/meta-review/v/eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85/.
+The permalink for this webpage version is https://greenelab.github.io/meta-review/v/370fa19f88974c145ee83fcbe8968efdd39d16ae/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://greenelab.github.io/meta-review/v/freeze/.
 
 ## Files
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85`](https://github.com/greenelab/meta-review/commit/eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85).
+[`370fa19f88974c145ee83fcbe8968efdd39d16ae`](https://github.com/greenelab/meta-review/commit/370fa19f88974c145ee83fcbe8968efdd39d16ae).
