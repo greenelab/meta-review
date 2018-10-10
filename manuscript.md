@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-08-03'
+date-meta: '2018-10-10'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85/))
+([permalink](https://greenelab.github.io/meta-review/v/370fa19f88974c145ee83fcbe8968efdd39d16ae/))
 was automatically generated
-from [greenelab/meta-review@eb35e87](https://github.com/greenelab/meta-review/tree/eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85)
-on August 3, 2018.
+from [greenelab/meta-review@370fa19](https://github.com/greenelab/meta-review/tree/370fa19f88974c145ee83fcbe8968efdd39d16ae)
+on October 10, 2018.
 </em></small>
 
 ## Authors
@@ -88,18 +88,17 @@ on August 3, 2018.
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
-     · Funded by NIH U54AI117924
   </small>
 
 
 
 ## Abstract {.page_break_before}
 
-Scientific literature reviews are ideal for open, collaborative writing.
-Allowing any interested individual to contribute as an author can strengthen a review, providing broad and fair coverage of the subject matter.
-However, the traditional multi-author writing process breaks down at scale.
-We present techniques for overcoming the challenges of open manuscript writing.
-These include approaches for managing distributed authors and our new software, named Manubot, for automating citation and manuscript building.
+Open, collaborative research is a powerful paradigm that can immensely strengthen the scientific process by integrating broad and diverse expertise.
+However, traditional research and multi-author writing processes break down at scale.
+New tools and workflows that rely on automation can ensure correctness and fairness in massively collaborative research.
+We present techniques for overcoming challenges of open research, with special emphasis on manuscript writing.
+These include approaches for managing distributed authors and our new software, named Manubot, for automating citation and many other aspects of manuscript building.
 
 
 ## Introduction {.page_break_before}
@@ -107,31 +106,21 @@ These include approaches for managing distributed authors and our new software, 
 The internet enables science to be shared in real-time at a low cost to a global audience.
 This development has decreased the barriers to making science open, while supporting new massively collaborative models of research.
 However, the scientific community requires tools whose workflows encourage openness.
-Manuscripts are the cornerstone of scholarly communication, but drafting and publishing manuscripts has traditionally relied on proprietary or offline tools that do not support _open scholarly writing_, by which anyone is able to contribute and the contribution history is preserved and public.
-We report a new tool and workflow for authoring scholarly manuscripts in the open, as well as the collaborative project that led to its creation.
+Manuscripts are the cornerstone of scholarly communication, but drafting and publishing manuscripts has traditionally relied on proprietary or offline tools that do not support _open scholarly writing_, in which anyone is able to contribute and the contribution history is preserved and public.
+We introduce [Manubot](https://github.com/greenelab/manubot-rootstock), a new tool and infrastructure for authoring scholarly manuscripts in the open, and report how it was instrumental for the collaborative project that led to its creation.
 
-Open scholarly writing, a form of crowdsourcing [@12sHvZy1a], has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
-Literature reviews are typically written in private by an invited team of colleagues.
-In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
-Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
-
-Based on our experience leading a recent open review [@16CgM2x0z], we discuss the pros and cons of open collaborative writing.
-Our review manuscript [@PZMP42Ak], code-named the Deep Review, surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
-In addition, we introduce [Manubot](https://github.com/greenelab/manubot-rootstock), the infrastructure we created to enable open manuscript writing online for the Deep Review, which was subsequently adopted by other projects.
-
+Based on our experience leading a recent open review [@16CgM2x0z], we discuss the advantages and challenges of open collaborative writing, a form of crowdsourcing [@12sHvZy1a].
+Our review manuscript [@PZMP42Ak] was code-named the Deep Review and surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
 We initiated the Deep Review by creating a GitHub repository (<https://github.com/greenelab/deep-review>) to coordinate and manage contributions.
 GitHub is a platform designed for collaborative software development that is adaptable for collaborative writing.
-From the start, we made the GitHub repository public, applying a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md) to the manuscript.
-Next, we encouraged anyone interested to contribute by proposing changes or additions.
+From the start, we made the GitHub repository public under a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md).
+We encouraged anyone interested to contribute by proposing changes or additions.
 Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation.
 In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions.
 
-Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
-Additionally, discussing manuscripts in the open generates valuable pre-publication peer review of preprints [@pqBLIXzp] or post-publication peer review [@LfJGtB83; @jYs2OUFW; @HflJ6Hy5].
-Because incentives to provide public peer review of existing literature [@uw5bep8P] are lacking, open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
-However, inviting wide authorship brings many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
-
-To address these challenges, we developed a manuscript writing process using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation.
+The Deep Review and other studies that subsequently adopted the Manubot platform were unequivocal successes bolstered by the collaborative approach.
+However, inviting wide authorship brought many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
+The manuscript writing process we developed using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation addresses these challenges.
 
 ## Contribution workflow
 
@@ -234,7 +223,7 @@ In cases where automatic retrieval of metadata fails or produces incorrect refer
 | PubMed Central Identifier (PMCID) | NCBI's [Citation Exporter](https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/) | `pmcid:PMC4719068` | [@12sHvZy1a] |
 | arXiv identifier | [arXiv API](https://arxiv.org/help/api/index) | `arxiv:1502.04015v1` | [@Y2XyzLMc] |
 | URL | [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw] | `url:https://lgatto.github.io/open-and-open/` | [@zBl3qgGT] |
-| Tag | Source for tagged identifier | `tag:Avasthi2018_preprints` | [@pqBLIXzp] |
+| Tag | Source for tagged identifier | `tag:avasthi-preprints` | [@pqBLIXzp] |
 
 Table: Citation types supported by Manubot.
 Authors may optionally map a named tag to one of the other supported identifier types.
@@ -295,7 +284,7 @@ Hence, in Manubot's first year, two of the most popular preprints were written u
 
 Additional research studies in progress are being authored using Manubot, spanning the fields of [genomics](https://vsmalladi.github.io/tfsee-manuscript/), [climate science](https://openclimatedata.github.io/global-emissions/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
 Manubot is also being used for documents beyond traditional journal publications, such as [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
-Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@yte07Fnn] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
+Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@u9DGTIX] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
 
 ## Authorship
 
@@ -316,6 +305,17 @@ Given the same author contributions, it always produced the same ordered author 
 We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category.
 
 ## Discussion
+
+### Collaborative review manuscripts
+
+Open scholarly writing has particular benefits for review articles, which present the state of the art in a scientific field [@Rhm4AK0j].
+Literature reviews are typically written in private by an invited team of colleagues.
+In contrast, broadly opening the process to anyone engaged in the topic --- such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate --- can maximize a review's value.
+Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
+
+Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here](https://github.com/greenelab/deep-review/issues/213).
+Additionally, discussing manuscripts in the open generates valuable pre-publication peer review of preprints [@pqBLIXzp] or post-publication peer review [@LfJGtB83; @jYs2OUFW; @HflJ6Hy5].
+Because incentives to provide public peer review of existing literature [@uw5bep8P] are lacking, open collaborative reviews --- where authorship is open to anyone who makes a valid contribution --- could help spur more post-publication peer review.
 
 ### Additional collaborative writing projects
 
@@ -343,7 +343,8 @@ As an open source project, Manubot can be extended to adopt best practices from 
 
 Several open science efforts are GitHub-based like our collaborative writing process.
 The ReScience [@8o1nWux7], the Journal of Open Source Software [@xpw2aizK], and some other [Open Journals](http://www.theoj.org/) rely on GitHub for peer review and hosting.
-GitHub is also increasingly used for resource curation [@vf9t7xMG], and collaborative scholarly reviews combine literature curation with discussion and interpretation.
+Distill uses GitHub for transparent peer review and post-publication peer review [@1ESYVbN4H].
+GitHub is increasingly used for resource curation [@vf9t7xMG], and collaborative scholarly reviews combine literature curation with discussion and interpretation.
 
 ### Limitations
 

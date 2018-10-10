@@ -91,12 +91,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          8
+          7,
+          28
         ]
       ],
-      "date-time": "2018-05-08T04:10:00Z",
-      "timestamp": 1525752600017
+      "date-time": "2018-07-28T04:42:34Z",
+      "timestamp": 1532752954040
     },
     "publisher-location": "Cham",
     "reference-count": 0,
@@ -136,7 +136,7 @@
       "timestamp": 1387190523000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 16,
+    "is-referenced-by-count": 18,
     "title": "Opening Science",
     "prefix": "10.1007",
     "member": "297",
@@ -153,13 +153,13 @@
     "deposited": {
       "date-parts": [
         [
-          2013,
-          12,
-          16
+          2018,
+          7,
+          26
         ]
       ],
-      "date-time": "2013-12-16T10:42:04Z",
-      "timestamp": 1387190524000
+      "date-time": "2018-07-26T18:02:35Z",
+      "timestamp": 1532628155000
     },
     "score": 1.0,
     "subtitle": [],
@@ -319,12 +319,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          9
+          8,
+          10
         ]
       ],
-      "date-time": "2018-05-09T05:12:08Z",
-      "timestamp": 1525842728885
+      "date-time": "2018-08-10T10:02:31Z",
+      "timestamp": 1533895351777
     },
     "reference-count": 0,
     "publisher": "Springer Nature",
@@ -348,7 +348,7 @@
     },
     "page": "127-128",
     "source": "Crossref",
-    "is-referenced-by-count": 4,
+    "is-referenced-by-count": 6,
     "title": "Scientific writing: the online cooperative",
     "prefix": "10.1038",
     "volume": "514",
@@ -813,12 +813,12 @@
       "date-parts": [
         [
           2018,
-          7,
-          14
+          9,
+          6
         ]
       ],
-      "date-time": "2018-07-14T22:22:35Z",
-      "timestamp": 1531606955032
+      "date-time": "2018-09-06T09:43:15Z",
+      "timestamp": 1536226995133
     },
     "reference-count": 37,
     "publisher": "Springer Nature",
@@ -842,7 +842,7 @@
     },
     "page": "485-488",
     "source": "Crossref",
-    "is-referenced-by-count": 211,
+    "is-referenced-by-count": 218,
     "title": "The case for open computer programs",
     "prefix": "10.1038",
     "volume": "482",
@@ -930,12 +930,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          9
+          6,
+          28
         ]
       ],
-      "date-time": "2018-05-09T10:03:25Z",
-      "timestamp": 1525860205611
+      "date-time": "2018-06-28T01:02:29Z",
+      "timestamp": 1530147749329
     },
     "reference-count": 33,
     "publisher": "Springer Nature",
@@ -988,7 +988,7 @@
     "page": "342-346",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 15,
+    "is-referenced-by-count": 16,
     "title": "Reproducibility of computational workflows is automated using continuous analysis",
     "prefix": "10.1038",
     "volume": "35",
@@ -1099,12 +1099,12 @@
       "date-parts": [
         [
           2018,
-          6,
-          13
+          10,
+          2
         ]
       ],
-      "date-time": "2018-06-13T14:22:31Z",
-      "timestamp": 1528899751478
+      "date-time": "2018-10-02T05:02:36Z",
+      "timestamp": 1538456556928
     },
     "reference-count": 15,
     "publisher": "Springer Nature",
@@ -1157,7 +1157,7 @@
     "page": "168-171",
     "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 7,
+    "is-referenced-by-count": 11,
     "title": "Justify your alpha",
     "prefix": "10.1038",
     "volume": "2",
@@ -2013,12 +2013,12 @@
       "date-parts": [
         [
           2018,
-          6,
+          10,
           8
         ]
       ],
-      "date-time": "2018-06-08T15:22:30Z",
-      "timestamp": 1528471350144
+      "date-time": "2018-10-08T08:22:34Z",
+      "timestamp": 1538986954209
     },
     "reference-count": 555,
     "publisher": "The Royal Society",
@@ -2126,7 +2126,7 @@
     "page": "20170387",
     "update-policy": "http://dx.doi.org/10.1098/crossmarkpolicy",
     "source": "Crossref",
-    "is-referenced-by-count": 7,
+    "is-referenced-by-count": 29,
     "title": "Opportunities and obstacles for deep learning in biology and medicine",
     "prefix": "10.1098",
     "volume": "15",
@@ -2509,12 +2509,12 @@
       "date-parts": [
         [
           2018,
-          6,
-          5
+          7,
+          20
         ]
       ],
-      "date-time": "2018-06-05T11:42:38Z",
-      "timestamp": 1528198958401
+      "date-time": "2018-07-20T21:22:32Z",
+      "timestamp": 1532121752900
     },
     "posted": {
       "date-parts": [
@@ -2556,7 +2556,7 @@
       "timestamp": 1496034615000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 7,
+    "is-referenced-by-count": 10,
     "title": "Opportunities And Obstacles For Deep Learning In Biology And Medicine",
     "prefix": "10.1101",
     "author": [
@@ -2912,12 +2912,12 @@
       "date-parts": [
         [
           2018,
-          6,
-          13
+          7,
+          25
         ]
       ],
-      "date-time": "2018-06-13T04:31:26Z",
-      "timestamp": 1528864286668
+      "date-time": "2018-07-25T04:13:36Z",
+      "timestamp": 1532492016365
     },
     "posted": {
       "date-parts": [
@@ -2939,12 +2939,12 @@
       "date-parts": [
         [
           2018,
-          6,
-          12
+          7,
+          24
         ]
       ]
     },
-    "abstract": "<jats:p>Data management and publication are core components of the research process. An emerging challenge that has received limited attention in biology is managing, working with, and providing access to data under continual active collection. \"Living data\" present unique challenges in quality assurance and control, data publication, archiving, and reproducibility. We developed a living data workflow for a long-term ecological study that addresses many of the challenges associated with managing this type of data. We do this by leveraging existing tools to: 1) perform quality assurance and control; 2) import, restructure, version, and archive data; 3) rapidly publish new data in ways that ensure appropriate credit to all contributors; and 4) automate most steps in the data pipeline to reduce the time and effort required by researchers. The workflow uses two tools from software development, version control and continuous integration, to create a modern data management system that automates the pipeline.</jats:p>",
+    "abstract": "<jats:p>Data management and publication are core components of the research process. An emerging challenge that has received limited attention in biology is managing, working with, and providing access to data under continual active collection. \"Evolving data\" present unique challenges in quality assurance and control, data publication, archiving, and reproducibility. We developed a evolving data workflow for a long-term ecological study that addresses many of the challenges associated with managing this type of data. We do this by leveraging existing tools to: 1) perform quality assurance and control; 2) import, restructure, version, and archive data; 3) rapidly publish new data in ways that ensure appropriate credit to all contributors; and 4) automate most steps in the data pipeline to reduce the time and effort required by researchers. The workflow uses two tools from software development, version control and continuous integration, to create a modern data management system that automates the pipeline.</jats:p>",
     "DOI": "10.1101/344804",
     "type": "manuscript",
     "created": {
@@ -2960,7 +2960,7 @@
     },
     "source": "Crossref",
     "is-referenced-by-count": 0,
-    "title": "Developing a modern data workflow for living data",
+    "title": "Developing a modern data workflow for evolving data",
     "prefix": "10.1101",
     "author": [
       {
@@ -3035,12 +3035,12 @@
       "date-parts": [
         [
           2018,
-          6,
-          12
+          7,
+          24
         ]
       ],
-      "date-time": "2018-06-12T19:45:14Z",
-      "timestamp": 1528832714000
+      "date-time": "2018-07-24T21:40:24Z",
+      "timestamp": 1532468424000
     },
     "score": 1.0,
     "subtitle": [],
@@ -3066,12 +3066,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          3
+          8,
+          29
         ]
       ],
-      "date-time": "2018-05-03T11:29:49Z",
-      "timestamp": 1525346989956
+      "date-time": "2018-08-29T17:42:29Z",
+      "timestamp": 1535564549244
     },
     "reference-count": 29,
     "publisher": "IEEE",
@@ -3100,7 +3100,7 @@
       "timestamp": 1171051612000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 33,
+    "is-referenced-by-count": 34,
     "title": "Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology",
     "prefix": "10.1109",
     "author": [
@@ -3257,12 +3257,12 @@
       "date-parts": [
         [
           2018,
-          7,
+          9,
           19
         ]
       ],
-      "date-time": "2018-07-19T02:22:35Z",
-      "timestamp": 1531966955635
+      "date-time": "2018-09-19T17:02:31Z",
+      "timestamp": 1537376551928
     },
     "reference-count": 11,
     "publisher": "American Association for the Advancement of Science (AAAS)",
@@ -3321,7 +3321,7 @@
     },
     "page": "1240-1241",
     "source": "Crossref",
-    "is-referenced-by-count": 45,
+    "is-referenced-by-count": 51,
     "title": "Enhancing reproducibility for computational methods",
     "prefix": "10.1126",
     "volume": "354",
@@ -3782,12 +3782,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          8
+          8,
+          21
         ]
       ],
-      "date-time": "2018-05-08T03:57:43Z",
-      "timestamp": 1525751863491
+      "date-time": "2018-08-21T20:22:32Z",
+      "timestamp": 1534882952162
     },
     "update-to": [
       {
@@ -3859,7 +3859,7 @@
     "page": "1151",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 1,
     "title": "A multi-disciplinary perspective on emergent and future innovations in peer review",
     "prefix": "10.12688",
     "volume": "6",
@@ -4245,12 +4245,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          12
+          9,
+          27
         ]
       ],
-      "date-time": "2018-05-12T11:22:35Z",
-      "timestamp": 1526124155661
+      "date-time": "2018-09-27T06:42:41Z",
+      "timestamp": 1538030561016
     },
     "update-to": [
       {
@@ -4310,7 +4310,7 @@
     "page": "632",
     "update-policy": "http://dx.doi.org/10.12688/f1000research.crossmark-policy",
     "source": "Crossref",
-    "is-referenced-by-count": 31,
+    "is-referenced-by-count": 40,
     "title": "The academic, economic and societal impacts of Open Access: an evidence-based review",
     "prefix": "10.12688",
     "volume": "5",
@@ -4488,12 +4488,12 @@
       "date-parts": [
         [
           2018,
-          6,
+          10,
           8
         ]
       ],
-      "date-time": "2018-06-08T11:42:27Z",
-      "timestamp": 1528458147882
+      "date-time": "2018-10-08T18:42:45Z",
+      "timestamp": 1539024165455
     },
     "reference-count": 10,
     "publisher": "Public Library of Science (PLoS)",
@@ -4538,7 +4538,7 @@
     "page": "e1001195",
     "update-policy": "http://dx.doi.org/10.1371/journal.pbio.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 79,
+    "is-referenced-by-count": 87,
     "title": "The Open Knowledge Foundation: Open Data Means Better Science",
     "prefix": "10.1371",
     "volume": "9",
@@ -4620,12 +4620,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          29
+          10,
+          5
         ]
       ],
-      "date-time": "2018-05-29T23:42:29Z",
-      "timestamp": 1527637349298
+      "date-time": "2018-10-05T20:42:35Z",
+      "timestamp": 1538772155061
     },
     "reference-count": 33,
     "publisher": "Public Library of Science (PLoS)",
@@ -4670,7 +4670,7 @@
     "page": "e1003149",
     "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 26,
+    "is-referenced-by-count": 30,
     "title": "Ten Simple Rules for Writing a Literature Review",
     "prefix": "10.1371",
     "volume": "9",
@@ -4760,12 +4760,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          8
+          10,
+          2
         ]
       ],
-      "date-time": "2018-05-08T02:04:43Z",
-      "timestamp": 1525745083898
+      "date-time": "2018-10-02T09:42:35Z",
+      "timestamp": 1538473355853
     },
     "reference-count": 6,
     "publisher": "Public Library of Science (PLoS)",
@@ -4810,7 +4810,7 @@
     "page": "e1004668",
     "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 18,
+    "is-referenced-by-count": 21,
     "title": "A Quick Introduction to Version Control with Git and GitHub",
     "prefix": "10.1371",
     "volume": "12",
@@ -4912,12 +4912,12 @@
       "date-parts": [
         [
           2018,
-          6,
-          14
+          9,
+          10
         ]
       ],
-      "date-time": "2018-06-14T11:02:40Z",
-      "timestamp": 1528974160583
+      "date-time": "2018-09-10T07:42:31Z",
+      "timestamp": 1536565351970
     },
     "reference-count": 24,
     "publisher": "Public Library of Science (PLoS)",
@@ -4962,7 +4962,7 @@
     "page": "e1004947",
     "update-policy": "http://dx.doi.org/10.1371/journal.pcbi.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 17,
+    "is-referenced-by-count": 21,
     "title": "Ten Simple Rules for Taking Advantage of Git and GitHub",
     "prefix": "10.1371",
     "volume": "12",
@@ -5163,12 +5163,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          4
+          6,
+          25
         ]
       ],
-      "date-time": "2018-05-04T19:44:50Z",
-      "timestamp": 1525463090453
+      "date-time": "2018-06-25T12:42:38Z",
+      "timestamp": 1529930558568
     },
     "reference-count": 21,
     "publisher": "Public Library of Science (PLoS)",
@@ -5213,7 +5213,7 @@
     "page": "e1000023",
     "update-policy": "http://dx.doi.org/10.1371/journal.pmed.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 34,
+    "is-referenced-by-count": 35,
     "title": "What Should Be Done To Tackle Ghostwriting in the Medical Literature?",
     "prefix": "10.1371",
     "volume": "6",
@@ -5323,12 +5323,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          9
+          7,
+          3
         ]
       ],
-      "date-time": "2018-05-09T07:56:17Z",
-      "timestamp": 1525852577221
+      "date-time": "2018-07-03T18:22:41Z",
+      "timestamp": 1530642161615
     },
     "reference-count": 33,
     "publisher": "Public Library of Science (PLoS)",
@@ -5373,7 +5373,7 @@
     "page": "e1001772",
     "update-policy": "http://dx.doi.org/10.1371/journal.pmed.corrections_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 13,
+    "is-referenced-by-count": 14,
     "title": "A Stronger Post-Publication Culture Is Needed for Better Science",
     "prefix": "10.1371",
     "volume": "11",
@@ -5659,12 +5659,12 @@
       "date-parts": [
         [
           2018,
-          4,
-          17
+          10,
+          9
         ]
       ],
-      "date-time": "2018-04-17T15:35:57Z",
-      "timestamp": 1523979357713
+      "date-time": "2018-10-09T15:42:35Z",
+      "timestamp": 1539099755394
     },
     "reference-count": 39,
     "publisher": "Distill Working Group",
@@ -5696,7 +5696,7 @@
       "timestamp": 1520361354000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 7,
     "title": "The Building Blocks of Interpretability",
     "prefix": "10.23915",
     "volume": "3",
@@ -5813,12 +5813,106 @@
       "date-parts": [
         [
           2018,
-          5,
-          5
+          8,
+          14
         ]
       ],
-      "date-time": "2018-05-05T17:08:22Z",
-      "timestamp": 1525540102126
+      "date-time": "2018-08-14T23:10:37Z",
+      "timestamp": 1534288237763
+    },
+    "reference-count": 0,
+    "publisher": "Distill Working Group",
+    "issue": "8",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          14
+        ]
+      ]
+    },
+    "DOI": "10.23915/distill.00013",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2018-08-14T22:32:46Z",
+      "timestamp": 1534285966000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Distill Update 2018",
+    "prefix": "10.23915",
+    "volume": "3",
+    "author": [
+      {
+        "given": "Distill",
+        "family": "Editors",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "undefined"
+          }
+        ]
+      }
+    ],
+    "member": "9999",
+    "container-title": "Distill",
+    "original-title": [],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          14
+        ]
+      ],
+      "date-time": "2018-08-14T22:32:49Z",
+      "timestamp": 1534285969000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          14
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "8"
+    },
+    "URL": "https://doi.org/10.23915/distill.00013",
+    "relation": {},
+    "container-title-short": "Distill",
+    "short_url": "https://doi.org/gfbzs9",
+    "id": "1ESYVbN4H"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2018-08-23T16:22:36Z",
+      "timestamp": 1535041356342
     },
     "reference-count": 0,
     "publisher": "Frontiers Media SA",
@@ -5840,7 +5934,7 @@
       "timestamp": 1346326710000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 13,
+    "is-referenced-by-count": 15,
     "title": "Post-Publication Peer Review: Opening Up Scientific Conversation",
     "prefix": "10.3389",
     "volume": "6",
@@ -5895,12 +5989,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          8
+          9,
+          14
         ]
       ],
-      "date-time": "2018-05-08T00:26:11Z",
-      "timestamp": 1525739171079
+      "date-time": "2018-09-14T12:02:31Z",
+      "timestamp": 1536926551858
     },
     "reference-count": 37,
     "publisher": "Pensoft Publishers",
@@ -5941,7 +6035,7 @@
     },
     "page": "e7547",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 4,
     "title": "Publishing the research process",
     "prefix": "10.3897",
     "volume": "1",
@@ -6045,12 +6139,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          9
+          6,
+          27
         ]
       ],
-      "date-time": "2018-05-09T01:32:08Z",
-      "timestamp": 1525829528830
+      "date-time": "2018-06-27T09:02:31Z",
+      "timestamp": 1530090151462
     },
     "reference-count": 9,
     "publisher": "Korean Council of Science Editors",
@@ -6113,7 +6207,7 @@
     "page": "99-104",
     "update-policy": "http://dx.doi.org/10.6087/crossmark_policy",
     "source": "Crossref",
-    "is-referenced-by-count": 14,
+    "is-referenced-by-count": 16,
     "title": "Journal Article Tag Suite 1.0: National Information Standards Organization standard of journal extensible markup language",
     "prefix": "10.6087",
     "volume": "1",
@@ -6230,15 +6324,15 @@
       "date-parts": [
         [
           2018,
-          6,
-          6
+          9,
+          12
         ]
       ],
-      "date-time": "2018-06-06T02:42:29Z",
-      "timestamp": 1528252949859
+      "date-time": "2018-09-12T18:02:33Z",
+      "timestamp": 1536775353524
     },
     "reference-count": 157,
-    "publisher": "eLife Sciences Organisation, Ltd.",
+    "publisher": "eLife Sciences Publications, Ltd",
     "license": [
       {
         "URL": "http://creativecommons.org/licenses/by/4.0/",
@@ -6332,7 +6426,7 @@
       "timestamp": 1467913601000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 55,
+    "is-referenced-by-count": 66,
     "title": "How open science helps researchers succeed",
     "prefix": "10.7554",
     "volume": "5",
@@ -6532,13 +6626,13 @@
     "deposited": {
       "date-parts": [
         [
-          2017,
-          10,
-          19
+          2018,
+          8,
+          24
         ]
       ],
-      "date-time": "2017-10-19T00:35:57Z",
-      "timestamp": 1508373357000
+      "date-time": "2018-08-24T08:53:21Z",
+      "timestamp": 1535100801000
     },
     "score": 1.0,
     "subtitle": [],
@@ -6567,6 +6661,12 @@
       ],
       "cites": []
     },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Immunology and Microbiology",
+      "General Neuroscience",
+      "General Medicine"
+    ],
     "short_url": "https://doi.org/gbqsng",
     "id": "HQfvK1OF"
   },
@@ -6575,15 +6675,15 @@
       "date-parts": [
         [
           2018,
-          5,
-          16
+          8,
+          24
         ]
       ],
-      "date-time": "2018-05-16T18:22:30Z",
-      "timestamp": 1526494950551
+      "date-time": "2018-08-24T09:10:13Z",
+      "timestamp": 1535101813268
     },
     "reference-count": 7,
-    "publisher": "eLife Sciences Organisation, Ltd.",
+    "publisher": "eLife Sciences Publications, Ltd",
     "license": [
       {
         "URL": "http://creativecommons.org/licenses/by/4.0/",
@@ -6709,13 +6809,13 @@
     "deposited": {
       "date-parts": [
         [
-          2017,
-          10,
-          19
+          2018,
+          8,
+          24
         ]
       ],
-      "date-time": "2017-10-19T00:37:40Z",
-      "timestamp": 1508373460000
+      "date-time": "2018-08-24T08:53:10Z",
+      "timestamp": 1535100790000
     },
     "score": 1.0,
     "subtitle": [],
@@ -6737,6 +6837,12 @@
     "relation": {
       "cites": []
     },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Immunology and Microbiology",
+      "General Neuroscience",
+      "General Medicine"
+    ],
     "short_url": "https://doi.org/gcx6gx",
     "id": "vHuGhm4k"
   },
@@ -6745,15 +6851,15 @@
       "date-parts": [
         [
           2018,
-          6,
-          5
+          9,
+          11
         ]
       ],
-      "date-time": "2018-06-05T10:42:33Z",
-      "timestamp": 1528195353055
+      "date-time": "2018-09-11T17:22:31Z",
+      "timestamp": 1536686551654
     },
     "reference-count": 241,
-    "publisher": "eLife Sciences Organisation, Ltd.",
+    "publisher": "eLife Sciences Publications, Ltd",
     "license": [
       {
         "URL": "http://creativecommons.org/licenses/by/4.0/",
@@ -6861,7 +6967,7 @@
       "timestamp": 1506081617000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 2,
+    "is-referenced-by-count": 8,
     "title": "Systematic integration of biomedical knowledge prioritizes drugs for repurposing",
     "prefix": "10.7554",
     "volume": "6",
@@ -7012,13 +7118,13 @@
     "deposited": {
       "date-parts": [
         [
-          2017,
-          10,
-          19
+          2018,
+          8,
+          24
         ]
       ],
-      "date-time": "2017-10-19T01:57:20Z",
-      "timestamp": 1508378240000
+      "date-time": "2018-08-24T11:58:58Z",
+      "timestamp": 1535111938000
     },
     "score": 1.0,
     "subtitle": [],
@@ -7105,15 +7211,14 @@
           "asserted-by": "subject"
         }
       ],
-      "has-preprint": [
-        {
-          "id-type": "doi",
-          "id": "10.1101/087619",
-          "asserted-by": "object"
-        }
-      ],
       "cites": []
     },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Immunology and Microbiology",
+      "General Neuroscience",
+      "General Medicine"
+    ],
     "short_url": "https://doi.org/cdfk",
     "id": "O21tn8vf"
   },
@@ -7122,15 +7227,15 @@
       "date-parts": [
         [
           2018,
-          4,
-          17
+          8,
+          24
         ]
       ],
-      "date-time": "2018-04-17T11:49:56Z",
-      "timestamp": 1523965796168
+      "date-time": "2018-08-24T15:42:04Z",
+      "timestamp": 1535125324005
     },
     "reference-count": 126,
-    "publisher": "eLife Sciences Organisation, Ltd.",
+    "publisher": "eLife Sciences Publications, Ltd",
     "license": [
       {
         "URL": "http://creativecommons.org/licenses/by/4.0/",
@@ -7210,7 +7315,7 @@
       "timestamp": 1518181223000
     },
     "source": "Crossref",
-    "is-referenced-by-count": 0,
+    "is-referenced-by-count": 2,
     "title": "Sci-Hub provides access to nearly all scholarly literature",
     "prefix": "10.7554",
     "volume": "7",
@@ -7331,12 +7436,12 @@
       "date-parts": [
         [
           2018,
-          3,
-          9
+          8,
+          24
         ]
       ],
-      "date-time": "2018-03-09T23:00:16Z",
-      "timestamp": 1520636416000
+      "date-time": "2018-08-24T15:08:18Z",
+      "timestamp": 1535123298000
     },
     "score": 1.0,
     "subtitle": [],
@@ -7420,6 +7525,12 @@
       ],
       "cites": []
     },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Immunology and Microbiology",
+      "General Neuroscience",
+      "General Medicine"
+    ],
     "short_url": "https://doi.org/ckcj",
     "id": "IhliSZDo"
   },
@@ -7428,15 +7539,15 @@
       "date-parts": [
         [
           2018,
-          6,
-          12
+          8,
+          24
         ]
       ],
-      "date-time": "2018-06-12T04:35:18Z",
-      "timestamp": 1528778118346
+      "date-time": "2018-08-24T17:11:31Z",
+      "timestamp": 1535130691787
     },
     "reference-count": 2,
-    "publisher": "eLife Sciences Organisation, Ltd.",
+    "publisher": "eLife Sciences Publications, Ltd",
     "license": [
       {
         "URL": "http://creativecommons.org/licenses/by/4.0/",
@@ -7582,12 +7693,12 @@
       "date-parts": [
         [
           2018,
-          6,
-          11
+          8,
+          24
         ]
       ],
-      "date-time": "2018-06-11T15:00:13Z",
-      "timestamp": 1528729213000
+      "date-time": "2018-08-24T16:46:20Z",
+      "timestamp": 1535129180000
     },
     "score": 1.0,
     "subtitle": [],
@@ -7609,6 +7720,12 @@
     "relation": {
       "cites": []
     },
+    "subject": [
+      "General Biochemistry, Genetics and Molecular Biology",
+      "General Immunology and Microbiology",
+      "General Neuroscience",
+      "General Medicine"
+    ],
     "short_url": "https://doi.org/gdm89h",
     "id": "pqBLIXzp"
   },
@@ -8009,12 +8126,12 @@
       "date-parts": [
         [
           2018,
-          5,
-          8
+          9,
+          7
         ]
       ],
-      "date-time": "2018-05-08T10:41:36Z",
-      "timestamp": 1525776096053
+      "date-time": "2018-09-07T10:42:33Z",
+      "timestamp": 1536316953188
     },
     "reference-count": 31,
     "publisher": "PeerJ",
@@ -8056,7 +8173,7 @@
     },
     "page": "e142",
     "source": "Crossref",
-    "is-referenced-by-count": 3,
+    "is-referenced-by-count": 5,
     "title": "Sustainable computational science: the ReScience initiative",
     "prefix": "10.7717",
     "volume": "3",
@@ -8979,8 +9096,8 @@
       "date-parts": [
         [
           2018,
-          6,
-          18
+          10,
+          10
         ]
       ]
     },
@@ -9331,7 +9448,7 @@
   },
   {
     "type": "webpage",
-    "URL": "https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
+    "URL": "https://busy.org/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
     "title": "How I used the Manubot to reproduce the Bitcoin Whitepaper",
     "container-title": "Steem",
     "issued": {
@@ -9349,7 +9466,7 @@
         "family": "Himmelstein"
       }
     ],
-    "id": "yte07Fnn"
+    "id": "u9DGTIX"
   },
   {
     "URL": "https://homotopytypetheory.org/book/",

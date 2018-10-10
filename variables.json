@@ -1,5 +1,5 @@
 {
-  "date": "August 3, 2018",
+  "date": "October 10, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -73,7 +73,6 @@
         "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
         "Morgridge Institute for Research"
       ],
-      "funders": "NIH U54AI117924",
       "affiliation_numbers": [
         5,
         6
@@ -110,7 +109,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "eb35e87c092a584b8d0bfb4c1f70cda1afb2fc85"
+    "commit": "370fa19f88974c145ee83fcbe8968efdd39d16ae"
   },
   "creation_time_utc": "2018-06-15T14:25:26.787993",
   "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",
@@ -128,12 +127,12 @@
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 3,
-      "doi": 44,
+      "doi": 45,
       "pmcid": 1,
       "pmid": 1,
       "url": 19,
-      "total": 68
+      "total": 69
     },
-    "word_count": 4638
+    "word_count": 4664
   }
 }
