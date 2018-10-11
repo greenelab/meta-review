@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-10-10'
+date-meta: '2018-10-11'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/370fa19f88974c145ee83fcbe8968efdd39d16ae/))
+([permalink](https://greenelab.github.io/meta-review/v/b405d5d68b18b3272bae54f618c03e962e056d43/))
 was automatically generated
-from [greenelab/meta-review@370fa19](https://github.com/greenelab/meta-review/tree/370fa19f88974c145ee83fcbe8968efdd39d16ae)
-on October 10, 2018.
+from [greenelab/meta-review@b405d5d](https://github.com/greenelab/meta-review/tree/b405d5d68b18b3272bae54f618c03e962e056d43)
+on October 11, 2018.
 </em></small>
 
 ## Authors
@@ -284,7 +284,8 @@ Hence, in Manubot's first year, two of the most popular preprints were written u
 
 Additional research studies in progress are being authored using Manubot, spanning the fields of [genomics](https://vsmalladi.github.io/tfsee-manuscript/), [climate science](https://openclimatedata.github.io/global-emissions/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
 Manubot is also being used for documents beyond traditional journal publications, such as [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
-Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@u9DGTIX] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
+Manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@u9DGTIX] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
+Finally, the Kipoi model zoo for genomics [@14cVrrqP1] uses Manubot's citation functionality to automatically extract model authors.
 
 ## Authorship
 
