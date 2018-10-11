@@ -9,7 +9,7 @@
   <meta name="author" content="Venkat S. Malladi" />
   <meta name="author" content="Casey S. Greene" />
   <meta name="author" content="Anthony Gitter" />
-  <meta name="dcterms.date" content="2018-10-10" />
+  <meta name="dcterms.date" content="2018-10-11" />
   <meta name="keywords" content="collaborative review, continuous integration, publishing, Manubot" />
   <title>Open collaborative writing with Manubot</title>
   <style type="text/css">
@@ -31,7 +31,7 @@
 <header>
 <h1 class="title">Open collaborative writing with Manubot</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/370fa19f88974c145ee83fcbe8968efdd39d16ae/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/370fa19f88974c145ee83fcbe8968efdd39d16ae">greenelab/meta-review@370fa19</a> on October 10, 2018. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/b405d5d68b18b3272bae54f618c03e962e056d43/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/b405d5d68b18b3272bae54f618c03e962e056d43">greenelab/meta-review@b405d5d</a> on October 11, 2018. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania · Funded by GBMF4552 </small></p></li>
@@ -250,25 +250,25 @@
 <p>The idea of the “priority of discovery” is important to science, and Vale and Hyman discuss the importance of both disclosure and validation <span class="citation" data-cites="vHuGhm4k">[<a href="#ref-vHuGhm4k">23</a>]</span>. In their framework, disclosure occurs when a scientific output is released to the world. However, for a manuscript that is shared as it is written, being able to establish priority could be challenging. Manubot supports <a href="https://opentimestamps.org/">OpenTimestamps</a> to timestamp the HTML and PDF outputs on the Bitcoin blockchain. This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp <span class="citation" data-cites="Y2XyzLMc 6MR50hyY QBWMEuxW 6yyYojgV">[<a href="#ref-Y2XyzLMc">13</a>,<a href="#ref-6MR50hyY">24</a>,<a href="#ref-QBWMEuxW">25</a>,<a href="#ref-6yyYojgV">26</a>]</span>. Timestamps protect against attempts to rewrite a manuscript’s history and ensure accurate histories, potentially alleviating certain authorship or priority disputes. Because all bitcoin transactions compete for limited space on the blockchain, the fees required to send a single transaction can be high. OpenTimestamps avoids this fee by encoding many timestamps into a single Bitcoin transaction <span class="citation" data-cites="1DG704X8Q">[<a href="#ref-1DG704X8Q">27</a>]</span>. There can be a lag of a few hours before the transaction is made, which is suitable for the purposes of scientific writing.</p>
 <p>Manubot and its dependencies are free of charge and largely open source. It does rely on gratis services from two proprietary platforms: GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist. Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin <span class="citation" data-cites="sWD9uVuF">[<a href="#ref-sWD9uVuF">28</a>]</span> and is well suited for preserving provenance. For example, figures can be specified using versioned URLs that refer to the code that created them. In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them. An <a href="https://github.com/greenelab/manubot-rootstock">example repository</a> demonstrates Manubot’s features and serves as a template for users to write their own manuscript with Manubot.</p>
 <p>Since its creation to facilitate the Deep Review, Manubot has been used to write a variety of scholarly documents. The <a href="https://github.com/greenelab/scihub-manuscript">Sci-Hub Coverage Study</a> — performed openly on GitHub from its inception — investigated Sci-Hub’s repository of pirated articles <span class="citation" data-cites="IhliSZDo">[<a href="#ref-IhliSZDo">29</a>]</span>. Sci-Hub <a href="https://github.com/greenelab/scihub-manuscript/issues/17">reviewed</a> the initial preprint from this study in a series of tweets, pointing out a major error in one of the analyses. Within hours, the authors used Markdown’s strikethrough formatting in Manubot to cross-out the errant sentences (<a href="https://github.com/greenelab/scihub-manuscript/commit/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba">commit</a>, <a href="https://greenelab.github.io/scihub-manuscript/v/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba/">versioned manuscript</a>), thereby alerting readers to the mistake and preventing further propagation of misinformation. One month later, a larger <a href="https://github.com/greenelab/scihub-manuscript/pull/19">set of revisions</a> explained the error in more detail and was included in a second version of the preprint. As such, continuous publishing via Manubot helped the authors address the error without delay, while retaining a public version history of the process. This Sci-Hub Coverage Study preprint was the <a href="http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/">most viewed</a> 2017 <em>PeerJ Preprint</em>, while the Deep Review was the most viewed 2017 <em>bioRxiv</em> preprint <span class="citation" data-cites="9IrsqXRa">[<a href="#ref-9IrsqXRa">30</a>]</span>. Hence, in Manubot’s first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.</p>
-<p>Additional research studies in progress are being authored using Manubot, spanning the fields of <a href="https://vsmalladi.github.io/tfsee-manuscript/">genomics</a>, <a href="https://openclimatedata.github.io/global-emissions/">climate science</a>, and <a href="https://yt-project.github.io/yt-3.0-paper/">data visualization</a>. Manubot is also being used for documents beyond traditional journal publications, such as <a href="https://greenelab.github.io/manufund-2018/">grant proposals</a>, <a href="https://greenelab.github.io/czi-hca-report/">progress reports</a>, <a href="https://zietzm.github.io/Vagelos2017/">undergraduate research reports</a> <span class="citation" data-cites="15nwuvjrA">[<a href="#ref-15nwuvjrA">31</a>]</span>, <a href="https://slochower.github.io/synthetic-motor-literature/">literature reviews</a>, and lab notebooks. Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the <a href="https://git.dhimmel.com/bitcoin-whitepaper/">Bitcoin Whitepaper</a> <span class="citation" data-cites="u9DGTIX">[<a href="#ref-u9DGTIX">32</a>]</span> and <a href="https://git.dhimmel.com/rephetio-manuscript/">Project Rephetio manuscript</a> <span class="citation" data-cites="O21tn8vf">[<a href="#ref-O21tn8vf">33</a>]</span>.</p>
+<p>Additional research studies in progress are being authored using Manubot, spanning the fields of <a href="https://vsmalladi.github.io/tfsee-manuscript/">genomics</a>, <a href="https://openclimatedata.github.io/global-emissions/">climate science</a>, and <a href="https://yt-project.github.io/yt-3.0-paper/">data visualization</a>. Manubot is also being used for documents beyond traditional journal publications, such as <a href="https://greenelab.github.io/manufund-2018/">grant proposals</a>, <a href="https://greenelab.github.io/czi-hca-report/">progress reports</a>, <a href="https://zietzm.github.io/Vagelos2017/">undergraduate research reports</a> <span class="citation" data-cites="15nwuvjrA">[<a href="#ref-15nwuvjrA">31</a>]</span>, <a href="https://slochower.github.io/synthetic-motor-literature/">literature reviews</a>, and lab notebooks. Manuscripts written with other authoring systems have been successfully ported to Manubot, including the <a href="https://git.dhimmel.com/bitcoin-whitepaper/">Bitcoin Whitepaper</a> <span class="citation" data-cites="u9DGTIX">[<a href="#ref-u9DGTIX">32</a>]</span> and <a href="https://git.dhimmel.com/rephetio-manuscript/">Project Rephetio manuscript</a> <span class="citation" data-cites="O21tn8vf">[<a href="#ref-O21tn8vf">33</a>]</span>. Finally, the Kipoi model zoo for genomics <span class="citation" data-cites="14cVrrqP1">[<a href="#ref-14cVrrqP1">34</a>]</span> uses Manubot’s citation functionality to automatically extract model authors.</p>
 <h2 id="authorship">Authorship</h2>
 <p>To determine authorship for the Deep Review, we followed the International Committee of Medical Journal Editors (ICMJE) <a href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">guidelines</a> and used GitHub to track contributions. ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript. We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript. Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list. In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript. This convention can be difficult to reconcile in a collaborative effort. Using git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests. However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.</p>
 <p>To address this issue, we generalized the concept of “co-first” authorship, in which two or more authors are denoted as making equal contributions to a paper. We defined four types of contributions <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak">3</a>]</span>, from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories. A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering. The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner. Given the same author contributions, it always produced the same ordered author list. We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category.</p>
 <h2 id="discussion">Discussion</h2>
 <h3 id="collaborative-review-manuscripts">Collaborative review manuscripts</h3>
-<p>Open scholarly writing has particular benefits for review articles, which present the state of the art in a scientific field <span class="citation" data-cites="Rhm4AK0j">[<a href="#ref-Rhm4AK0j">34</a>]</span>. Literature reviews are typically written in private by an invited team of colleagues. In contrast, broadly opening the process to anyone engaged in the topic — such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate — can maximize a review’s value. Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.</p>
-<p>Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified <a href="https://github.com/greenelab/deep-review/issues/213">here</a>. Additionally, discussing manuscripts in the open generates valuable pre-publication peer review of preprints <span class="citation" data-cites="pqBLIXzp">[<a href="#ref-pqBLIXzp">16</a>]</span> or post-publication peer review <span class="citation" data-cites="LfJGtB83 jYs2OUFW HflJ6Hy5">[<a href="#ref-LfJGtB83">12</a>,<a href="#ref-jYs2OUFW">35</a>,<a href="#ref-HflJ6Hy5">36</a>]</span>. Because incentives to provide public peer review of existing literature <span class="citation" data-cites="uw5bep8P">[<a href="#ref-uw5bep8P">37</a>]</span> are lacking, open collaborative reviews — where authorship is open to anyone who makes a valid contribution — could help spur more post-publication peer review.</p>
+<p>Open scholarly writing has particular benefits for review articles, which present the state of the art in a scientific field <span class="citation" data-cites="Rhm4AK0j">[<a href="#ref-Rhm4AK0j">35</a>]</span>. Literature reviews are typically written in private by an invited team of colleagues. In contrast, broadly opening the process to anyone engaged in the topic — such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate — can maximize a review’s value. Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.</p>
+<p>Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified <a href="https://github.com/greenelab/deep-review/issues/213">here</a>. Additionally, discussing manuscripts in the open generates valuable pre-publication peer review of preprints <span class="citation" data-cites="pqBLIXzp">[<a href="#ref-pqBLIXzp">16</a>]</span> or post-publication peer review <span class="citation" data-cites="LfJGtB83 jYs2OUFW HflJ6Hy5">[<a href="#ref-LfJGtB83">12</a>,<a href="#ref-jYs2OUFW">36</a>,<a href="#ref-HflJ6Hy5">37</a>]</span>. Because incentives to provide public peer review of existing literature <span class="citation" data-cites="uw5bep8P">[<a href="#ref-uw5bep8P">38</a>]</span> are lacking, open collaborative reviews — where authorship is open to anyone who makes a valid contribution — could help spur more post-publication peer review.</p>
 <h3 id="additional-collaborative-writing-projects">Additional collaborative writing projects</h3>
-<p>The Deep Review was not the first scholarly manuscript written online via an open collaborative process. In 2013, two dozen mathematicians created the 600-page Homotopy Type Theory book, writing collaboratively in LaTeX on GitHub <span class="citation" data-cites="RExXs8is MhC1nPDK">[<a href="#ref-RExXs8is">38</a>,<a href="#ref-MhC1nPDK">39</a>]</span>. Two technical books on cryptocurrency — <a href="https://github.com/bitcoinbook/bitcoinbook">Mastering Bitcoin</a> and <a href="https://github.com/ethereumbook/ethereumbook">Mastering Ethereum</a> — written on GitHub in AsciiDoc format have engaged hundreds of contributors. Both Homotopy Type Theory and Mastering Bitcoin continue to be maintained years after their initial publication. A 2017 perspective on the future of peer review was written collaboratively on Overleaf, with contributions from 32 authors <span class="citation" data-cites="52Q1v5nS">[<a href="#ref-52Q1v5nS">40</a>]</span>. While debate was raging over tightening the default threshold for statistical significance, nearly 150 scientists contributed to a Google Doc discussion that was condensed into a traditional journal commentary <span class="citation" data-cites="82ZjWq3i HXpnCQu1">[<a href="#ref-82ZjWq3i">41</a>,<a href="#ref-HXpnCQu1">42</a>]</span>. The greatest success to date of open collaborative writing is arguably Wikipedia, whose English version contains over 5.5 million articles. Wikipedia scaled encyclopedias <a href="https://en.wikipedia.org/wiki/Wikipedia:Size_comparisons">far beyond</a> any privately-written alternative. These examples illustrate how open collaborative writing can scale scholarly manuscripts where diverse opinion and expertise are paramount beyond what would otherwise be possible.</p>
-<p>Open writing presents new opportunities for distributing scholarly communication. Though it is still valuable to have versioned drafts of a manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts. After releasing the first version of the Deep Review <span class="citation" data-cites="tJKvnIaZ">[<a href="#ref-tJKvnIaZ">9</a>]</span>, 14 new contributors updated the manuscript (Figure <a href="#fig:contrib">2</a>). Existing authors continue to discuss new literature, <a href="https://github.com/greenelab/deep-review/">creating a living document</a>. Manubot provides an ideal platform for perpetual reviews <span class="citation" data-cites="Xs2yPQcr H0XkaC8S">[<a href="#ref-Xs2yPQcr">43</a>,<a href="#ref-H0XkaC8S">44</a>]</span>.</p>
-<p>Concepts for the future of scholarly publishing extend beyond collaborative writing <span class="citation" data-cites="WDvu1SAV ILhLpgTs">[<a href="#ref-WDvu1SAV">45</a>,<a href="#ref-ILhLpgTs">46</a>]</span>. Bookdown <span class="citation" data-cites="1BISa1RLr">[<a href="#ref-1BISa1RLr">47</a>]</span> and Pandoc Scholar <span class="citation" data-cites="17wKkS4DV">[<a href="#ref-17wKkS4DV">48</a>]</span> both extend traditional Markdown to better support publishing. Examples of continuous integration to automate manuscript generation include <a href="https://github.com/ewanmellor/gh-publisher">gh-publisher</a> and Continuous Publishing <span class="citation" data-cites="nqeDrtsc">[<a href="#ref-nqeDrtsc">49</a>]</span>, which was used to produce the book Opening Science <span class="citation" data-cites="ujrfOBM1">[<a href="#ref-ujrfOBM1">50</a>]</span>. Distill journal articles <span class="citation" data-cites="MHNCSD5I">[<a href="#ref-MHNCSD5I">51</a>]</span>, Idyll <span class="citation" data-cites="1ESo5MNnB">[<a href="#ref-1ESo5MNnB">52</a>]</span>, and Stencila <span class="citation" data-cites="BWMf57EM">[<a href="#ref-BWMf57EM">53</a>]</span> support manuscripts with interactive graphics and close integration with the underlying code. As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.</p>
-<p>Several open science efforts are GitHub-based like our collaborative writing process. The ReScience <span class="citation" data-cites="8o1nWux7">[<a href="#ref-8o1nWux7">54</a>]</span>, the Journal of Open Source Software <span class="citation" data-cites="xpw2aizK">[<a href="#ref-xpw2aizK">55</a>]</span>, and some other <a href="http://www.theoj.org/">Open Journals</a> rely on GitHub for peer review and hosting. Distill uses GitHub for transparent peer review and post-publication peer review <span class="citation" data-cites="1ESYVbN4H">[<a href="#ref-1ESYVbN4H">56</a>]</span>. GitHub is increasingly used for resource curation <span class="citation" data-cites="vf9t7xMG">[<a href="#ref-vf9t7xMG">57</a>]</span>, and collaborative scholarly reviews combine literature curation with discussion and interpretation.</p>
+<p>The Deep Review was not the first scholarly manuscript written online via an open collaborative process. In 2013, two dozen mathematicians created the 600-page Homotopy Type Theory book, writing collaboratively in LaTeX on GitHub <span class="citation" data-cites="RExXs8is MhC1nPDK">[<a href="#ref-RExXs8is">39</a>,<a href="#ref-MhC1nPDK">40</a>]</span>. Two technical books on cryptocurrency — <a href="https://github.com/bitcoinbook/bitcoinbook">Mastering Bitcoin</a> and <a href="https://github.com/ethereumbook/ethereumbook">Mastering Ethereum</a> — written on GitHub in AsciiDoc format have engaged hundreds of contributors. Both Homotopy Type Theory and Mastering Bitcoin continue to be maintained years after their initial publication. A 2017 perspective on the future of peer review was written collaboratively on Overleaf, with contributions from 32 authors <span class="citation" data-cites="52Q1v5nS">[<a href="#ref-52Q1v5nS">41</a>]</span>. While debate was raging over tightening the default threshold for statistical significance, nearly 150 scientists contributed to a Google Doc discussion that was condensed into a traditional journal commentary <span class="citation" data-cites="82ZjWq3i HXpnCQu1">[<a href="#ref-82ZjWq3i">42</a>,<a href="#ref-HXpnCQu1">43</a>]</span>. The greatest success to date of open collaborative writing is arguably Wikipedia, whose English version contains over 5.5 million articles. Wikipedia scaled encyclopedias <a href="https://en.wikipedia.org/wiki/Wikipedia:Size_comparisons">far beyond</a> any privately-written alternative. These examples illustrate how open collaborative writing can scale scholarly manuscripts where diverse opinion and expertise are paramount beyond what would otherwise be possible.</p>
+<p>Open writing presents new opportunities for distributing scholarly communication. Though it is still valuable to have versioned drafts of a manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts. After releasing the first version of the Deep Review <span class="citation" data-cites="tJKvnIaZ">[<a href="#ref-tJKvnIaZ">9</a>]</span>, 14 new contributors updated the manuscript (Figure <a href="#fig:contrib">2</a>). Existing authors continue to discuss new literature, <a href="https://github.com/greenelab/deep-review/">creating a living document</a>. Manubot provides an ideal platform for perpetual reviews <span class="citation" data-cites="Xs2yPQcr H0XkaC8S">[<a href="#ref-Xs2yPQcr">44</a>,<a href="#ref-H0XkaC8S">45</a>]</span>.</p>
+<p>Concepts for the future of scholarly publishing extend beyond collaborative writing <span class="citation" data-cites="WDvu1SAV ILhLpgTs">[<a href="#ref-WDvu1SAV">46</a>,<a href="#ref-ILhLpgTs">47</a>]</span>. Bookdown <span class="citation" data-cites="1BISa1RLr">[<a href="#ref-1BISa1RLr">48</a>]</span> and Pandoc Scholar <span class="citation" data-cites="17wKkS4DV">[<a href="#ref-17wKkS4DV">49</a>]</span> both extend traditional Markdown to better support publishing. Examples of continuous integration to automate manuscript generation include <a href="https://github.com/ewanmellor/gh-publisher">gh-publisher</a> and Continuous Publishing <span class="citation" data-cites="nqeDrtsc">[<a href="#ref-nqeDrtsc">50</a>]</span>, which was used to produce the book Opening Science <span class="citation" data-cites="ujrfOBM1">[<a href="#ref-ujrfOBM1">51</a>]</span>. Distill journal articles <span class="citation" data-cites="MHNCSD5I">[<a href="#ref-MHNCSD5I">52</a>]</span>, Idyll <span class="citation" data-cites="1ESo5MNnB">[<a href="#ref-1ESo5MNnB">53</a>]</span>, and Stencila <span class="citation" data-cites="BWMf57EM">[<a href="#ref-BWMf57EM">54</a>]</span> support manuscripts with interactive graphics and close integration with the underlying code. As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.</p>
+<p>Several open science efforts are GitHub-based like our collaborative writing process. The ReScience <span class="citation" data-cites="8o1nWux7">[<a href="#ref-8o1nWux7">55</a>]</span>, the Journal of Open Source Software <span class="citation" data-cites="xpw2aizK">[<a href="#ref-xpw2aizK">56</a>]</span>, and some other <a href="http://www.theoj.org/">Open Journals</a> rely on GitHub for peer review and hosting. Distill uses GitHub for transparent peer review and post-publication peer review <span class="citation" data-cites="1ESYVbN4H">[<a href="#ref-1ESYVbN4H">57</a>]</span>. GitHub is increasingly used for resource curation <span class="citation" data-cites="vf9t7xMG">[<a href="#ref-vf9t7xMG">58</a>]</span>, and collaborative scholarly reviews combine literature curation with discussion and interpretation.</p>
 <h3 id="limitations">Limitations</h3>
 <p>There are potential limitations of our GitHub-based approach. Because our review manuscript pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub. In other disciplines, collaborative writing via GitHub and Manubot could present a steeper barrier to entry and deter participants. In addition, git carefully tracks all revisions to the manuscript text but not the surrounding conversations that take place through GitHub issues and pull requests. These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript’s text. GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.</p>
-<p>In the Deep Review, we established <a href="https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md">contributor guidelines</a> that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement. Our contributor guidelines required verifiable participation: either directly attributable changes to the text or participation in the discussion on GitHub. These guidelines did not discuss broader community norms that may have improved inclusiveness. It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community <span class="citation" data-cites="zBl3qgGT">[<a href="#ref-zBl3qgGT">15</a>]</span>. Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture <span class="citation" data-cites="NuDPNceu">[<a href="#ref-NuDPNceu">58</a>]</span>. <!-- cited a previous version of doi:10.1080/08874417.2009.11645338 (see https://git.io/vdSSR) --> Conferences and open source projects have used codes of conduct to establish these norms <span class="citation" data-cites="HPKoE9m3 aRZRiJPk">[<a href="#ref-HPKoE9m3">59</a>,<a href="#ref-aRZRiJPk">60</a>]</span>. We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that build on social as well as academic norms.</p>
+<p>In the Deep Review, we established <a href="https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md">contributor guidelines</a> that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement. Our contributor guidelines required verifiable participation: either directly attributable changes to the text or participation in the discussion on GitHub. These guidelines did not discuss broader community norms that may have improved inclusiveness. It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community <span class="citation" data-cites="zBl3qgGT">[<a href="#ref-zBl3qgGT">15</a>]</span>. Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture <span class="citation" data-cites="NuDPNceu">[<a href="#ref-NuDPNceu">59</a>]</span>. <!-- cited a previous version of doi:10.1080/08874417.2009.11645338 (see https://git.io/vdSSR) --> Conferences and open source projects have used codes of conduct to establish these norms <span class="citation" data-cites="HPKoE9m3 aRZRiJPk">[<a href="#ref-HPKoE9m3">60</a>,<a href="#ref-aRZRiJPk">61</a>]</span>. We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that build on social as well as academic norms.</p>
 <h3 id="manubot-in-the-context-of-open-science">Manubot in the context of open science</h3>
-<p>Science is undergoing a transition towards openness. The internet provides a global information commons, where scholarship can be publicly shared at a minimal cost. For example, open access publishing provides an economic model that encourages maximal dissemination and reuse of scholarly articles <span class="citation" data-cites="PuP45jrB HQfvK1OF">[<a href="#ref-PuP45jrB">61</a>,<a href="#ref-HQfvK1OF">62</a>]</span>. More broadly, open licensing solves legal barriers to content reuse, enabling any type of scholarly output to become part of the commons <span class="citation" data-cites="g6WVoxNy 137tbemL9">[<a href="#ref-g6WVoxNy">63</a>,<a href="#ref-137tbemL9">64</a>]</span>. The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bonafide privacy or security concerns <span class="citation" data-cites="gvyja7v1 rgo1TZr 1A97a4UwU">[<a href="#ref-gvyja7v1">65</a>,<a href="#ref-rgo1TZr">66</a>,<a href="#ref-1A97a4UwU">67</a>]</span>. New tools and services make it increasingly feasible to publicly share the unabridged methods of a study, especially for computational research, which consists solely of software and data.</p>
-<p>Greater openness in both research methods and publishing creates an opportunity to redefine peer review and the role journals play in communicating science <span class="citation" data-cites="52Q1v5nS">[<a href="#ref-52Q1v5nS">40</a>]</span>. At the extreme is real-time open science, whereby studies are performed entirely in the open from their inception <span class="citation" data-cites="17EdosXzD">[<a href="#ref-17EdosXzD">68</a>]</span>. Many such research projects have now been completed, benefiting from the associated early-stage peer review, additional opportunity for online collaboration, and increased visibility <span class="citation" data-cites="1pWYlPj4 O21tn8vf">[<a href="#ref-O21tn8vf">33</a>,<a href="#ref-1pWYlPj4">69</a>]</span>.</p>
+<p>Science is undergoing a transition towards openness. The internet provides a global information commons, where scholarship can be publicly shared at a minimal cost. For example, open access publishing provides an economic model that encourages maximal dissemination and reuse of scholarly articles <span class="citation" data-cites="PuP45jrB HQfvK1OF">[<a href="#ref-PuP45jrB">62</a>,<a href="#ref-HQfvK1OF">63</a>]</span>. More broadly, open licensing solves legal barriers to content reuse, enabling any type of scholarly output to become part of the commons <span class="citation" data-cites="g6WVoxNy 137tbemL9">[<a href="#ref-g6WVoxNy">64</a>,<a href="#ref-137tbemL9">65</a>]</span>. The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bonafide privacy or security concerns <span class="citation" data-cites="gvyja7v1 rgo1TZr 1A97a4UwU">[<a href="#ref-gvyja7v1">66</a>,<a href="#ref-rgo1TZr">67</a>,<a href="#ref-1A97a4UwU">68</a>]</span>. New tools and services make it increasingly feasible to publicly share the unabridged methods of a study, especially for computational research, which consists solely of software and data.</p>
+<p>Greater openness in both research methods and publishing creates an opportunity to redefine peer review and the role journals play in communicating science <span class="citation" data-cites="52Q1v5nS">[<a href="#ref-52Q1v5nS">41</a>]</span>. At the extreme is real-time open science, whereby studies are performed entirely in the open from their inception <span class="citation" data-cites="17EdosXzD">[<a href="#ref-17EdosXzD">69</a>]</span>. Many such research projects have now been completed, benefiting from the associated early-stage peer review, additional opportunity for online collaboration, and increased visibility <span class="citation" data-cites="1pWYlPj4 O21tn8vf">[<a href="#ref-O21tn8vf">33</a>,<a href="#ref-1pWYlPj4">70</a>]</span>.</p>
 <p>Manubot is an ideal authoring protocol for real-time open science, especially for projects that are already using an open source software workflow to manage their research. While Manubot does require technical expertise, the benefits are manyfold. Specifically, Manubot demonstrates a system for publishing that is transparent, reproducible, immediate, permissionless, versioned, automated, collaborative, open, linked, provenanced, decentralized, hackable, interactive, annotated, and free of charge. These attributes empower integrating Manubot with an ecosystem of other community-driven tools to make science as open and collaborative as possible.</p>
 <h2 id="acknowledgements">Acknowledgements</h2>
 <p>We would like to thank the authors of the Deep Review who helped us test collaborative writing with Manubot. The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz. In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript. We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Achintya Rao, and other GitHub users.</p>
@@ -438,179 +438,184 @@ Daniel Himmelstein<br />
 Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini<br />
 <em>eLife</em> (2017-09-22) <a href="https://doi.org/10.7554/elife.26726" class="uri">https://doi.org/10.7554/elife.26726</a></p>
 </div>
+<div id="ref-14cVrrqP1">
+<p>34. <strong>Kipoi: accelerating the community exchange and reuse of predictive models for genomics</strong><br />
+Ziga Avsec, Roman Kreuzhuber, Johnny Israeli, Nancy Xu, Jun Cheng, Avanti Shrikumar, Abhimanyu Banerjee, Daniel S Kim, Lara Urban, Anshul Kundaje, … Julien Gagneur<br />
+<em>Cold Spring Harbor Laboratory</em> (2018-07-24) <a href="https://doi.org/10.1101/375345" class="uri">https://doi.org/10.1101/375345</a></p>
+</div>
 <div id="ref-Rhm4AK0j">
-<p>34. <strong>Ten Simple Rules for Writing a Literature Review</strong><br />
+<p>35. <strong>Ten Simple Rules for Writing a Literature Review</strong><br />
 Marco Pautasso<br />
 <em>PLoS Computational Biology</em> (2013-07-18) <a href="https://doi.org/10.1371/journal.pcbi.1003149" class="uri">https://doi.org/10.1371/journal.pcbi.1003149</a></p>
 </div>
 <div id="ref-jYs2OUFW">
-<p>35. <strong>A Stronger Post-Publication Culture Is Needed for Better Science</strong><br />
+<p>36. <strong>A Stronger Post-Publication Culture Is Needed for Better Science</strong><br />
 Hilda Bastian<br />
 <em>PLoS Medicine</em> (2014-12-30) <a href="https://doi.org/10.1371/journal.pmed.1001772" class="uri">https://doi.org/10.1371/journal.pmed.1001772</a></p>
 </div>
 <div id="ref-HflJ6Hy5">
-<p>36. <strong>Post-Publication Peer Review: Opening Up Scientific Conversation</strong><br />
+<p>37. <strong>Post-Publication Peer Review: Opening Up Scientific Conversation</strong><br />
 Jane Hunter<br />
 <em>Frontiers in Computational Neuroscience</em> (2012) <a href="https://doi.org/10.3389/fncom.2012.00063" class="uri">https://doi.org/10.3389/fncom.2012.00063</a></p>
 </div>
 <div id="ref-uw5bep8P">
-<p>37. <strong>Post-publication peer review, in all its guises, is here to stay</strong><br />
+<p>38. <strong>Post-publication peer review, in all its guises, is here to stay</strong><br />
 Michael Markie<br />
 <em>Insights the UKSG journal</em> (2015-07-07) <a href="https://doi.org/10.1629/uksg.245" class="uri">https://doi.org/10.1629/uksg.245</a></p>
 </div>
 <div id="ref-RExXs8is">
-<p>38. <strong>Homotopy Type Theory: Univalent Foundations of Mathematics</strong><br />
+<p>39. <strong>Homotopy Type Theory: Univalent Foundations of Mathematics</strong><br />
 The Univalent Foundations Program<br />
 <em>Institute for Advanced Study</em> (2013) <a href="https://homotopytypetheory.org/book/" class="uri">https://homotopytypetheory.org/book/</a></p>
 </div>
 <div id="ref-MhC1nPDK">
-<p>39. <strong>The HoTT book</strong><br />
+<p>40. <strong>The HoTT book</strong><br />
 Andrej Bauer<br />
 <em>Mathematics and Computation</em> (2013-06-20) <a href="http://math.andrej.com/2013/06/20/the-hott-book/" class="uri">http://math.andrej.com/2013/06/20/the-hott-book/</a></p>
 </div>
 <div id="ref-52Q1v5nS">
-<p>40. <strong>A multi-disciplinary perspective on emergent and future innovations in peer review</strong><br />
+<p>41. <strong>A multi-disciplinary perspective on emergent and future innovations in peer review</strong><br />
 Jonathan P. Tennant, Jonathan M. Dugan, Daniel Graziotin, Damien C. Jacques, François Waldner, Daniel Mietchen, Yehia Elkhatib, Lauren B. Collister, Christina K. Pikas, Tom Crick, … Julien Colomb<br />
 <em>F1000Research</em> (2017-11-01) <a href="https://doi.org/10.12688/f1000research.12037.2" class="uri">https://doi.org/10.12688/f1000research.12037.2</a></p>
 </div>
 <div id="ref-82ZjWq3i">
-<p>41. <strong>Nearly 100 scientists spent 2 months on Google Docs to redefine the p-value. Here’s what they came up with</strong><br />
+<p>42. <strong>Nearly 100 scientists spent 2 months on Google Docs to redefine the p-value. Here’s what they came up with</strong><br />
 Jop Vrieze<br />
 <em>Science</em> (2018-01-18) <a href="https://doi.org/10.1126/science.aat0471" class="uri">https://doi.org/10.1126/science.aat0471</a></p>
 </div>
 <div id="ref-HXpnCQu1">
-<p>42. <strong>Justify your alpha</strong><br />
+<p>43. <strong>Justify your alpha</strong><br />
 Daniel Lakens, Federico G. Adolfi, Casper J. Albers, Farid Anvari, Matthew A. J. Apps, Shlomo E. Argamon, Thom Baguley, Raymond B. Becker, Stephen D. Benning, Daniel E. Bradford, … Rolf A. Zwaan<br />
 <em>Nature Human Behaviour</em> (2018-02-26) <a href="https://doi.org/10.1038/s41562-018-0311-x" class="uri">https://doi.org/10.1038/s41562-018-0311-x</a></p>
 </div>
 <div id="ref-Xs2yPQcr">
-<p>43. <strong>A proposal for regularly updated review/survey articles: “Perpetual Reviews”</strong><br />
+<p>44. <strong>A proposal for regularly updated review/survey articles: “Perpetual Reviews”</strong><br />
 David L. Mobley, Daniel M. Zuckerman<br />
 <em>arXiv</em> (2015-02-03) <a href="https://arxiv.org/abs/1502.01329v2" class="uri">https://arxiv.org/abs/1502.01329v2</a></p>
 </div>
 <div id="ref-H0XkaC8S">
-<p>44. <strong>Why we need the Living Journal of Computational Molecular Science</strong><br />
+<p>45. <strong>Why we need the Living Journal of Computational Molecular Science</strong><br />
 David L. Mobley, Michael R. Shirts, Daniel M. Zuckerman<br />
 <em>Living Journal of Computational Molecular Science</em> (2017-08-22) <a href="http://www.livecomsjournal.org/article/2031-why-we-need-the-living-journal-of-computational-molecular-science" class="uri">http://www.livecomsjournal.org/article/2031-why-we-need-the-living-journal-of-computational-molecular-science</a></p>
 </div>
 <div id="ref-WDvu1SAV">
-<p>45. <strong>The arXiv of the future will not look like the arXiv</strong><br />
+<p>46. <strong>The arXiv of the future will not look like the arXiv</strong><br />
 Alberto Pepe, Matteo Cantiello, Josh Nicholson<br />
 <em>Authorea</em> <a href="https://doi.org/10.22541/au.149693987.70506124" class="uri">https://doi.org/10.22541/au.149693987.70506124</a></p>
 </div>
 <div id="ref-ILhLpgTs">
-<p>46. <strong>TechBlog: C. Titus Brown: Predicting the paper of the future</strong><br />
+<p>47. <strong>TechBlog: C. Titus Brown: Predicting the paper of the future</strong><br />
 C. Titus Brown<br />
 <em>Naturejobs</em> (2017-06-01) <a href="http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/" class="uri">http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/</a></p>
 </div>
 <div id="ref-1BISa1RLr">
-<p>47. <strong>bookdown</strong><br />
+<p>48. <strong>bookdown</strong><br />
 Yihui Xie<br />
 <em>Chapman &amp;Hall/CRC The R Series</em> (2016-12-21) <a href="https://doi.org/10.1201/9781315204963" class="uri">https://doi.org/10.1201/9781315204963</a></p>
 </div>
 <div id="ref-17wKkS4DV">
-<p>48. <strong>Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar</strong><br />
+<p>49. <strong>Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar</strong><br />
 Albert Krewinkel, Robert Winkler<br />
 <em>PeerJ Computer Science</em> (2017-05-08) <a href="https://doi.org/10.7717/peerj-cs.112" class="uri">https://doi.org/10.7717/peerj-cs.112</a></p>
 </div>
 <div id="ref-nqeDrtsc">
-<p>49. <strong>Continuous Publishing</strong><br />
+<p>50. <strong>Continuous Publishing</strong><br />
 Martin Fenner<br />
 <em>Gobbledygook</em> (2014-03-10) <a href="http://blog.martinfenner.org/2014/03/10/continuous-publishing/" class="uri">http://blog.martinfenner.org/2014/03/10/continuous-publishing/</a></p>
 </div>
 <div id="ref-ujrfOBM1">
-<p>50. <strong>Opening Science</strong><em>Springer International Publishing</em> (2014) <a href="https://doi.org/10.1007/978-3-319-00026-8" class="uri">https://doi.org/10.1007/978-3-319-00026-8</a></p>
+<p>51. <strong>Opening Science</strong><em>Springer International Publishing</em> (2014) <a href="https://doi.org/10.1007/978-3-319-00026-8" class="uri">https://doi.org/10.1007/978-3-319-00026-8</a></p>
 </div>
 <div id="ref-MHNCSD5I">
-<p>51. <strong>The Building Blocks of Interpretability</strong><br />
+<p>52. <strong>The Building Blocks of Interpretability</strong><br />
 Chris Olah, Arvind Satyanarayan, Ian Johnson, Shan Carter, Ludwig Schubert, Katherine Ye, Alexander Mordvintsev<br />
 <em>Distill</em> (2018-03-06) <a href="https://doi.org/10.23915/distill.00010" class="uri">https://doi.org/10.23915/distill.00010</a></p>
 </div>
 <div id="ref-1ESo5MNnB">
-<p>52. <strong>Announcing idyll.pub</strong><br />
+<p>53. <strong>Announcing idyll.pub</strong><br />
 Matthew Conlen, Andrew Osheroff<br />
 <em>Idyll</em> (2018-06-26) <a href="https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/" class="uri">https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/</a></p>
 </div>
 <div id="ref-BWMf57EM">
-<p>53. <strong>Stencila – an office suite for reproducible research</strong><br />
+<p>54. <strong>Stencila – an office suite for reproducible research</strong><br />
 Michael Aufreiter, Aleksandra Pawlik, Nokome Bentley<br />
 <em>eLife Labs</em> (2018-07-02) <a href="https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research" class="uri">https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research</a></p>
 </div>
 <div id="ref-8o1nWux7">
-<p>54. <strong>Sustainable computational science: the ReScience initiative</strong><br />
+<p>55. <strong>Sustainable computational science: the ReScience initiative</strong><br />
 Nicolas P. Rougier, Konrad Hinsen, Frédéric Alexandre, Thomas Arildsen, Lorena A. Barba, Fabien C.Y. Benureau, C. Titus Brown, Pierre de Buyl, Ozan Caglayan, Andrew P. Davison, … Tiziano Zito<br />
 <em>PeerJ Computer Science</em> (2017-12-18) <a href="https://doi.org/10.7717/peerj-cs.142" class="uri">https://doi.org/10.7717/peerj-cs.142</a></p>
 </div>
 <div id="ref-xpw2aizK">
-<p>55. <strong>Journal of Open Source Software (JOSS): design and first-year review</strong><br />
+<p>56. <strong>Journal of Open Source Software (JOSS): design and first-year review</strong><br />
 Arfon M. Smith, Kyle E. Niemeyer, Daniel S. Katz, Lorena A. Barba, George Githinji, Melissa Gymrek, Kathryn D. Huff, Christopher R. Madan, Abigail Cabunoc Mayes, Kevin M. Moerman, … Jacob T. Vanderplas<br />
 <em>PeerJ Computer Science</em> (2018-02-12) <a href="https://doi.org/10.7717/peerj-cs.147" class="uri">https://doi.org/10.7717/peerj-cs.147</a></p>
 </div>
 <div id="ref-1ESYVbN4H">
-<p>56. <strong>Distill Update 2018</strong><br />
+<p>57. <strong>Distill Update 2018</strong><br />
 Distill Editors<br />
 <em>Distill</em> (2018-08-14) <a href="https://doi.org/10.23915/distill.00013" class="uri">https://doi.org/10.23915/distill.00013</a></p>
 </div>
 <div id="ref-vf9t7xMG">
-<p>57. <strong>The appropriation of GitHub for curation</strong><br />
+<p>58. <strong>The appropriation of GitHub for curation</strong><br />
 Yu Wu, Na Wang, Jessica Kropczynski, John M. Carroll<br />
 <em>PeerJ Computer Science</em> (2017-10-09) <a href="https://doi.org/10.7717/peerj-cs.134" class="uri">https://doi.org/10.7717/peerj-cs.134</a></p>
 </div>
 <div id="ref-NuDPNceu">
-<p>58. <strong>Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology</strong><br />
+<p>59. <strong>Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology</strong><br />
 Christian Wagner, Pattarawan Prasarnphanich<br />
 <em>2007 40th Annual Hawaii International Conference on System Sciences (HICSS’07)</em> (2007) <a href="https://doi.org/10.1109/hicss.2007.277" class="uri">https://doi.org/10.1109/hicss.2007.277</a></p>
 </div>
 <div id="ref-HPKoE9m3">
-<p>59. <strong>Code of conduct evaluations</strong><em>Geek Feminism Wiki</em> (2017-06-13) <a href="http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid" class="uri">http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid</a></p>
+<p>60. <strong>Code of conduct evaluations</strong><em>Geek Feminism Wiki</em> (2017-06-13) <a href="http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid" class="uri">http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid</a></p>
 </div>
 <div id="ref-aRZRiJPk">
-<p>60. <strong>Contributor Covenant: A Code of Conduct for Open Source Projects</strong><br />
+<p>61. <strong>Contributor Covenant: A Code of Conduct for Open Source Projects</strong><br />
 Coraline Ada Ehmke<br />
 (2014) <a href="https://www.contributor-covenant.org/" class="uri">https://www.contributor-covenant.org/</a></p>
 </div>
 <div id="ref-PuP45jrB">
-<p>61. <strong>The academic, economic and societal impacts of Open Access: an evidence-based review</strong><br />
+<p>62. <strong>The academic, economic and societal impacts of Open Access: an evidence-based review</strong><br />
 Jonathan P. Tennant, François Waldner, Damien C. Jacques, Paola Masuzzo, Lauren B. Collister, Chris. H. J. Hartgerink<br />
 <em>F1000Research</em> (2016-09-21) <a href="https://doi.org/10.12688/f1000research.8460.3" class="uri">https://doi.org/10.12688/f1000research.8460.3</a></p>
 </div>
 <div id="ref-HQfvK1OF">
-<p>62. <strong>How open science helps researchers succeed</strong><br />
+<p>63. <strong>How open science helps researchers succeed</strong><br />
 Erin C McKiernan, Philip E Bourne, C Titus Brown, Stuart Buck, Amye Kenall, Jennifer Lin, Damon McDougall, Brian A Nosek, Karthik Ram, Courtney K Soderberg, … Tal Yarkoni<br />
 <em>eLife</em> (2016-07-07) <a href="https://doi.org/10.7554/elife.16800" class="uri">https://doi.org/10.7554/elife.16800</a></p>
 </div>
 <div id="ref-g6WVoxNy">
-<p>63. <strong>The Legal Framework for Reproducible Scientific Research: Licensing and Copyright</strong><br />
+<p>64. <strong>The Legal Framework for Reproducible Scientific Research: Licensing and Copyright</strong><br />
 Victoria Stodden<br />
 <em>Computing in Science &amp; Engineering</em> (2009-01) <a href="https://doi.org/10.1109/mcse.2009.19" class="uri">https://doi.org/10.1109/mcse.2009.19</a></p>
 </div>
 <div id="ref-137tbemL9">
-<p>64. <strong>Legal confusion threatens to slow data science</strong><br />
+<p>65. <strong>Legal confusion threatens to slow data science</strong><br />
 Simon Oxenham<br />
 <em>Nature</em> (2016-08-03) <a href="https://doi.org/10.1038/536016a" class="uri">https://doi.org/10.1038/536016a</a></p>
 </div>
 <div id="ref-gvyja7v1">
-<p>65. <strong>Enhancing reproducibility for computational methods</strong><br />
+<p>66. <strong>Enhancing reproducibility for computational methods</strong><br />
 V. Stodden, M. McNutt, D. H. Bailey, E. Deelman, Y. Gil, B. Hanson, M. A. Heroux, J. P. A. Ioannidis, M. Taufer<br />
 <em>Science</em> (2016-12-08) <a href="https://doi.org/10.1126/science.aah6168" class="uri">https://doi.org/10.1126/science.aah6168</a></p>
 </div>
 <div id="ref-rgo1TZr">
-<p>66. <strong>The case for open computer programs</strong><br />
+<p>67. <strong>The case for open computer programs</strong><br />
 Darrel C. Ince, Leslie Hatton, John Graham-Cumming<br />
 <em>Nature</em> (2012-02-22) <a href="https://doi.org/10.1038/nature10836" class="uri">https://doi.org/10.1038/nature10836</a></p>
 </div>
 <div id="ref-1A97a4UwU">
-<p>67. <strong>The Open Knowledge Foundation: Open Data Means Better Science</strong><br />
+<p>68. <strong>The Open Knowledge Foundation: Open Data Means Better Science</strong><br />
 Jennifer C. Molloy<br />
 <em>PLoS Biology</em> (2011-12-06) <a href="https://doi.org/10.1371/journal.pbio.1001195" class="uri">https://doi.org/10.1371/journal.pbio.1001195</a></p>
 </div>
 <div id="ref-17EdosXzD">
-<p>68. <strong>This revolution will be digitized: online tools for radical collaboration</strong><br />
+<p>69. <strong>This revolution will be digitized: online tools for radical collaboration</strong><br />
 C. Patil, V. Siegel<br />
 <em>Disease Models &amp; Mechanisms</em> (2009-04-30) <a href="https://doi.org/10.1242/dmm.003285" class="uri">https://doi.org/10.1242/dmm.003285</a></p>
 </div>
 <div id="ref-1pWYlPj4">
-<p>69. <strong>Publishing the research process</strong><br />
+<p>70. <strong>Publishing the research process</strong><br />
 Daniel Mietchen, Ross Mounce, Lyubomir Penev<br />
 <em>Research Ideas and Outcomes</em> (2015-12-17) <a href="https://doi.org/10.3897/rio.1.e7547" class="uri">https://doi.org/10.3897/rio.1.e7547</a></p>
 </div>
