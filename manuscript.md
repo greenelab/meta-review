@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-10-11'
+date-meta: '2018-10-18'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/b405d5d68b18b3272bae54f618c03e962e056d43/))
+([permalink](https://greenelab.github.io/meta-review/v/17a12edfce4e8cbc48042a67fc97688ec704496c/))
 was automatically generated
-from [greenelab/meta-review@b405d5d](https://github.com/greenelab/meta-review/tree/b405d5d68b18b3272bae54f618c03e962e056d43)
-on October 11, 2018.
+from [greenelab/meta-review@17a12ed](https://github.com/greenelab/meta-review/tree/17a12edfce4e8cbc48042a67fc97688ec704496c)
+on October 18, 2018.
 </em></small>
 
 ## Authors
@@ -213,7 +213,9 @@ Manubot includes an additional layer of citation processing, currently unique to
 All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata.
 Table @tbl:citations presents the supported identifiers and example citations before and after Manubot processing.
 Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers.
-Metadata is exported to [Citation Style Language (CSL) JSON Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items), an open standard that is widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
+Metadata is exported to [Citation Style Language (CSL) JSON Data Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items), an open standard that is widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
+However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as [pandoc-citeproc](http://hackage.haskell.org/package/pandoc-citeproc).
+Therefore, Manubot removes invalid fields according to the [CSL Data specification](https://github.com/citation-style-language/schema).
 In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct CSL JSON.
 
 | Identifier | Metadata source | Example citation | Processed citation |
@@ -230,10 +232,10 @@ Authors may optionally map a named tag to one of the other supported identifier 
 In this example, the tag `Avasthi2018_preprints` represents the DOI identifier `doi:10.7554/eLife.38532`.
 {#tbl:citations}
 
-Manubot formats bibliographies according to a [CSL](http://citationstyles.org/) specification.
-As a result, users can choose from thousands of existing CSL styles or use Manubot's default style.
+Manubot formats bibliographies according to a [CSL](http://citationstyles.org/) style specification.
 Styles define how references are constructed from bibliographic metadata, controlling layout details such as the maximum number of authors to list per reference.
-Thousands of journals have [predefined styles](http://editor.citationstyles.org/searchByName/).
+Manubot's default style emphasizes titles and electronic (rather than print) identifiers and applies numeric-style citations [@aAKJEII].
+Alternatively, users can also choose from thousands of [predefined styles](http://editor.citationstyles.org/searchByName/) or build their own [@w4n6Qtun].
 As a result, adopting the specific bibliographic format required by a journal usually just requires specifying the style's source URL in the Manubot configuration.
 
 Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from Markdown to HTML, PDF, and optionally DOCX outputs.
@@ -286,6 +288,18 @@ Additional research studies in progress are being authored using Manubot, spanni
 Manubot is also being used for documents beyond traditional journal publications, such as [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
 Manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@u9DGTIX] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
 Finally, the Kipoi model zoo for genomics [@14cVrrqP1] uses Manubot's citation functionality to automatically extract model authors.
+
+### Citation utility
+
+To make citation-by-identifier easily usable outside of Manubot manuscripts, we created the `manubot cite` command line utility, available as a [Python package](https://pypi.org/project/manubot/).
+This utility takes a list of citations and returns either a rendered bibliography or CSL Data Items (i.e. JSON-formatted reference metadata).
+For example, the following command outputs a Markdown reference list for the two specified articles according to the bibliographic style of _PeerJ_:
+
+```sh
+manubot cite --render --format=markdown \
+  --csl=https://github.com/citation-style-language/styles/raw/master/peerj.csl \
+  pmid:29618526 doi:10.1038/550143a
+```
 
 ## Authorship
 

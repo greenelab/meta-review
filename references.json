@@ -9425,6 +9425,28 @@
     "id": "nqeDrtsc"
   },
   {
+    "URL": "http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/",
+    "title": "TechBlog: Create the perfect bibliography with the CSL Editor",
+    "container-title": "Naturejobs",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Jeffrey",
+        "family": "Perkel"
+      }
+    ],
+    "type": "post-weblog",
+    "id": "w4n6Qtun"
+  },
+  {
     "URL": "http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/",
     "title": "TechBlog: C. Titus Brown: Predicting the paper of the future",
     "container-title": "Naturejobs",
@@ -9585,6 +9607,33 @@
       }
     ],
     "id": "JU3KpeyB"
+  },
+  {
+    "URL": "https://blog.dhimmel.com/citation-styles/",
+    "title": "On author versus numeric citation styles",
+    "container-title": "Satoshi Village",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          12
+        ]
+      ]
+    },
+    "author": [
+      {
+        "family": "Himmelstein",
+        "given": "Daniel"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-10-05 21:40:55",
+    "archives": [
+      "http://wayback.archive.org/web/https://blog.dhimmel.com/citation-styles/"
+    ],
+    "type": "webpage",
+    "id": "aAKJEII"
   },
   {
     "type": "webpage",
