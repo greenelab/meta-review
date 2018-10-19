@@ -1,5 +1,5 @@
 {
-  "date": "October 18, 2018",
+  "date": "October 19, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -109,7 +109,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "17a12edfce4e8cbc48042a67fc97688ec704496c"
+    "commit": "b1f40073a670555c37ffb5a3260d17f67cc7a124"
   },
   "creation_time_utc": "2018-06-15T14:25:26.787993",
   "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",
@@ -133,6 +133,6 @@
       "url": 21,
       "total": 72
     },
-    "word_count": 4801
+    "word_count": 4838
   }
 }
