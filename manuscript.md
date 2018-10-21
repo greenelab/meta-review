@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-10-19'
+date-meta: '2018-10-21'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/b1f40073a670555c37ffb5a3260d17f67cc7a124/))
+([permalink](https://greenelab.github.io/meta-review/v/12fd1685f01d992e37f997a1daf6b523e1dc152a/))
 was automatically generated
-from [greenelab/meta-review@b1f4007](https://github.com/greenelab/meta-review/tree/b1f40073a670555c37ffb5a3260d17f67cc7a124)
-on October 19, 2018.
+from [greenelab/meta-review@12fd168](https://github.com/greenelab/meta-review/tree/12fd1685f01d992e37f997a1daf6b523e1dc152a)
+on October 21, 2018.
 </em></small>
 
 ## Authors
@@ -41,7 +41,6 @@ on October 19, 2018.
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
-     · Funded by GBMF4552
   </small>
 
 + **David R. Slochower**<br>
@@ -64,7 +63,6 @@ on October 19, 2018.
     [katatonikkat](https://twitter.com/katatonikkat)<br>
   <small>
      Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center
-     · Funded by CPRIT RP150596
   </small>
 
 + **Casey S. Greene**<br>
@@ -76,7 +74,6 @@ on October 19, 2018.
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
-     · Funded by GBMF4552
   </small>
 
 + **Anthony Gitter**<br>
@@ -399,12 +396,17 @@ Specifically, Manubot demonstrates a system for publishing that is transparent, 
 These attributes empower integrating Manubot with an ecosystem of other community-driven tools to make science as open and collaborative as possible.
 
 
-## Acknowledgements
+## Acknowledgments
 
 We would like to thank the authors of the Deep Review who helped us test collaborative writing with Manubot.
 The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz.
 In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript.
 We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Achintya Rao, and other GitHub users.
+
+## Funding
+
+DSH and CSG were supported by [Grant G-2018-11163](https://sloan.org/grant-detail/8501) from the Alfred P. Sloan Foundation and [Grant GBMF4552](https://www.moore.org/grant-detail?grantId=GBMF4552) from the Gordon and Betty Moore Foundation.
+VSM was supported by [Grant RP150596](http://www.cprit.state.tx.us/files/funded-grants/RP150596.pdf) from the Cancer Prevention and Research Institute of Texas.
 
 ## References {.page_break_before}
 

@@ -1,5 +1,5 @@
 {
-  "date": "October 19, 2018",
+  "date": "October 21, 2018",
   "authors": [
     {
       "github": "dhimmel",
@@ -11,7 +11,7 @@
       "affiliations": [
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
-      "funders": "GBMF4552",
+      "funders": "G-2018-11163 and GBMF4552",
       "affiliation_numbers": [
         1
       ]
@@ -57,7 +57,7 @@
       "affiliations": [
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
-      "funders": "GBMF4552",
+      "funders": "G-2018-11163 and GBMF4552",
       "affiliation_numbers": [
         1
       ]
@@ -109,7 +109,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "b1f40073a670555c37ffb5a3260d17f67cc7a124"
+    "commit": "12fd1685f01d992e37f997a1daf6b523e1dc152a"
   },
   "creation_time_utc": "2018-06-15T14:25:26.787993",
   "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",
@@ -133,6 +133,6 @@
       "url": 21,
       "total": 72
     },
-    "word_count": 4838
+    "word_count": 4881
   }
 }
