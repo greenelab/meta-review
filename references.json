@@ -2884,13 +2884,13 @@
     "id": "xpw2aizK"
   },
   {
-    "source": "PMC",
+    "source": "PubMed",
     "accessed": {
       "date-parts": [
         [
           2018,
-          10,
-          10
+          11,
+          16
         ]
       ]
     },
@@ -2903,7 +2903,7 @@
       },
       {
         "family": "Good",
-        "given": "Benjamin M."
+        "given": "Benjamin M"
       },
       {
         "family": "Leaman",
@@ -2911,7 +2911,7 @@
       },
       {
         "family": "Su",
-        "given": "Andrew I."
+        "given": "Andrew I"
       },
       {
         "family": "Lu",
@@ -2919,7 +2919,7 @@
       }
     ],
     "container-title-short": "Brief Bioinform",
-    "container-title": "Briefings in Bioinformatics",
+    "container-title": "Briefings in bioinformatics",
     "publisher": "Oxford University Press",
     "ISSN": "1467-5463",
     "issued": {
@@ -3345,9 +3345,6 @@
         "family": "Gatto",
         "given": "Laurent"
       }
-    ],
-    "archives": [
-      "http://wayback.archive.org/web/https://lgatto.github.io/open-and-open/"
     ],
     "id": "zBl3qgGT"
   },
