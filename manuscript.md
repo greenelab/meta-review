@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/2fd25235520c9a6ee9ce47241a48163ce30b60a5/))
+([permalink](https://greenelab.github.io/meta-review/v/e3a3e7ab663491ee6e4b1e8363c771b274ed0fe3/))
 was automatically generated
-from [greenelab/meta-review@2fd2523](https://github.com/greenelab/meta-review/tree/2fd25235520c9a6ee9ce47241a48163ce30b60a5)
+from [greenelab/meta-review@e3a3e7a](https://github.com/greenelab/meta-review/tree/e3a3e7ab663491ee6e4b1e8363c771b274ed0fe3)
 on November 16, 2018.
 </em></small>
 
@@ -214,12 +214,13 @@ Metadata is exported to [Citation Style Language (CSL) JSON Data Items](http://c
 However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as [pandoc-citeproc](http://hackage.haskell.org/package/pandoc-citeproc).
 Therefore, Manubot removes invalid fields according to the [CSL Data specification](https://github.com/citation-style-language/schema).
 In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct CSL JSON.
+Manual CSL JSON also supports references without standard identifiers, such as print-only newspaper articles.
 
 | Identifier | Metadata source | Example citation | Processed citation |
 | --- | --- | --- | --- |
 | Digital Object Identifier (DOI) | DOI [Content Negotiation](https://citation.crosscite.org/docs.html) | `doi:10.1098/rsif.2017.0387` | [@PZMP42Ak] |
-| PubMed Identifier (PMID) | NCBI's [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | `pmid:25851694` | [@LfJGtB83] |
-| PubMed Central Identifier (PMCID) | NCBI's [Citation Exporter](https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/) | `pmcid:PMC4719068` | [@12sHvZy1a] |
+| PubMed Identifier (PMID) | NCBI [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | `pmid:25851694` | [@LfJGtB83] |
+| PubMed Central Identifier (PMCID) | NCBI [Literature Citation Exporter](https://api.ncbi.nlm.nih.gov/lit/ctxp/) | `pmcid:PMC4719068` | [@12sHvZy1a] |
 | arXiv identifier | [arXiv API](https://arxiv.org/help/api/index) | `arxiv:1502.04015v1` | [@Y2XyzLMc] |
 | URL | [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw] | `url:https://lgatto.github.io/open-and-open/` | [@zBl3qgGT] |
 | Tag | Source for tagged identifier | `tag:avasthi-preprints` | [@pqBLIXzp] |

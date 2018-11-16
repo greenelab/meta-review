@@ -94,7 +94,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Open collaborative writing with Manubot</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/2fd25235520c9a6ee9ce47241a48163ce30b60a5/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/2fd25235520c9a6ee9ce47241a48163ce30b60a5">greenelab/meta-review@2fd2523</a> on November 16, 2018. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/e3a3e7ab663491ee6e4b1e8363c771b274ed0fe3/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/e3a3e7ab663491ee6e4b1e8363c771b274ed0fe3">greenelab/meta-review@e3a3e7a</a> on November 16, 2018. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
@@ -249,7 +249,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </figure>
 <h2 id="manubot">Manubot</h2>
 <p>Manubot is a system for writing scholarly manuscripts via GitHub that is built upon our <a href="https://github.com/greenelab/manubot">Python package</a> of the same name. With Manubot, manuscripts are written as plain-text Markdown files, which is well suited for version control using git. The Markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists. In addition, Manubot relies on extensions from <a href="https://pandoc.org/MANUAL.html#pandocs-markdown">Pandoc Markdown</a> to enable citations, tables, captions, and equations specified using the popular TeX math syntax.</p>
-<p>Manubot includes an additional layer of citation processing, currently unique to the system. All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata. Table <a href="#tbl:citations">2</a> presents the supported identifiers and example citations before and after Manubot processing. Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers. Metadata is exported to <a href="http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items">Citation Style Language (CSL) JSON Data Items</a>, an open standard that is widely supported by reference managers <span class="citation" data-cites="9KfVIq3s K7WVgf8X">[<a href="#ref-9KfVIq3s">10</a>,<a href="#ref-K7WVgf8X">11</a>]</span>. However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as <a href="http://hackage.haskell.org/package/pandoc-citeproc">pandoc-citeproc</a>. Therefore, Manubot removes invalid fields according to the <a href="https://github.com/citation-style-language/schema">CSL Data specification</a>. In cases where automatic retrieval of metadata fails or produces incorrect references — which is most common for URL citations — users can manually provide the correct CSL JSON.</p>
+<p>Manubot includes an additional layer of citation processing, currently unique to the system. All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata. Table <a href="#tbl:citations">2</a> presents the supported identifiers and example citations before and after Manubot processing. Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers. Metadata is exported to <a href="http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items">Citation Style Language (CSL) JSON Data Items</a>, an open standard that is widely supported by reference managers <span class="citation" data-cites="9KfVIq3s K7WVgf8X">[<a href="#ref-9KfVIq3s">10</a>,<a href="#ref-K7WVgf8X">11</a>]</span>. However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as <a href="http://hackage.haskell.org/package/pandoc-citeproc">pandoc-citeproc</a>. Therefore, Manubot removes invalid fields according to the <a href="https://github.com/citation-style-language/schema">CSL Data specification</a>. In cases where automatic retrieval of metadata fails or produces incorrect references — which is most common for URL citations — users can manually provide the correct CSL JSON. Manual CSL JSON also supports references without standard identifiers, such as print-only newspaper articles.</p>
 <a name="tbl:citations"></a>
 <table>
 <caption><span>Table 2:</span> Citation types supported by Manubot. Authors may optionally map a named tag to one of the other supported identifier types. In this example, the tag <code>avasthi-preprints</code> represents the DOI identifier <code>doi:10.7554/eLife.38532</code>. </caption>
@@ -276,13 +276,13 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </tr>
 <tr class="even">
 <td>PubMed Identifier (PMID)</td>
-<td>NCBI’s <a href="https://www.ncbi.nlm.nih.gov/books/NBK25501/">E-utilities</a></td>
+<td>NCBI <a href="https://www.ncbi.nlm.nih.gov/books/NBK25501/">E-utilities</a></td>
 <td><code>pmid:25851694</code></td>
 <td><span class="citation" data-cites="LfJGtB83">[<a href="#ref-LfJGtB83">12</a>]</span></td>
 </tr>
 <tr class="odd">
 <td>PubMed Central Identifier (PMCID)</td>
-<td>NCBI’s <a href="https://www.ncbi.nlm.nih.gov/pmc/tools/ctxp/">Citation Exporter</a></td>
+<td>NCBI <a href="https://api.ncbi.nlm.nih.gov/lit/ctxp/">Literature Citation Exporter</a></td>
 <td><code>pmcid:PMC4719068</code></td>
 <td><span class="citation" data-cites="12sHvZy1a">[<a href="#ref-12sHvZy1a">2</a>]</span></td>
 </tr>
