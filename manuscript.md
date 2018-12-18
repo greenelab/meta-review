@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-11-16'
+date-meta: '2018-12-18'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/e3a3e7ab663491ee6e4b1e8363c771b274ed0fe3/))
+([permalink](https://greenelab.github.io/meta-review/v/0770300e1d5490a1ae8ff3a85ddca2cdc4ae0613/))
 was automatically generated
-from [greenelab/meta-review@e3a3e7a](https://github.com/greenelab/meta-review/tree/e3a3e7ab663491ee6e4b1e8363c771b274ed0fe3)
-on November 16, 2018.
+from [greenelab/meta-review@0770300](https://github.com/greenelab/meta-review/tree/0770300e1d5490a1ae8ff3a85ddca2cdc4ae0613)
+on December 18, 2018.
 </em></small>
 
 ## Authors

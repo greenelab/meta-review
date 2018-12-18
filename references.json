@@ -1483,6 +1483,7 @@
   },
   {
     "publisher": "F1000 Research, Ltd.",
+    "abstract": "<ns4:p>Peer review of research articles is a core part of our scholarly communication system. In spite of its importance, the status and purpose of peer review is often contested. What is its role in our modern digital research and communications infrastructure? Does it perform to the high standards with which it is generally regarded? Studies of peer review have shown that it is prone to bias and abuse in numerous dimensions, frequently unreliable, and can fail to detect even fraudulent research. With the advent of web technologies, we are now witnessing a phase of innovation and experimentation in our approaches to peer review. These developments prompted us to examine emerging models of peer review from a range of disciplines and venues, and to ask how they might address some of the issues with our current systems of peer review. We examine the functionality of a range of social Web platforms, and compare these with the traits underlying a viable peer review system: quality control, quantified performance metrics as engagement incentives, and certification and reputation. Ideally, any new systems will demonstrate that they out-perform and reduce the biases of existing models as much as possible. We conclude that there is considerable scope for new peer review initiatives to be developed, each with their own potential issues and advantages. We also propose a novel hybrid platform model that could, at least partially, resolve many of the socio-technical issues associated with peer review, and potentially disrupt the entire scholarly communication system. Success for any such development relies on reaching a critical threshold of research community engagement with both the process and the platform, and therefore cannot be achieved without a significant change of incentives in research environments.</ns4:p>",
     "DOI": "10.12688/f1000research.12037.2",
     "type": "article-journal",
     "page": "1151",
@@ -1642,6 +1643,7 @@
   },
   {
     "publisher": "F1000 Research, Ltd.",
+    "abstract": "<ns4:p>Ongoing debates surrounding Open Access to the scholarly literature are multifaceted and complicated by disparate and often polarised viewpoints from engaged stakeholders. At the current stage, Open Access has become such a global issue that it is critical for all involved in scholarly publishing, including policymakers, publishers, research funders, governments, learned societies, librarians, and academic communities, to be well-informed on the history, benefits, and pitfalls of Open Access. In spite of this, there is a general lack of consensus regarding the potential pros and cons of Open Access at multiple levels. This review aims to be a resource for current knowledge on the impacts of Open Access by synthesizing important research in three major areas: academic, economic and societal. While there is clearly much scope for additional research, several key trends are identified, including a broad citation advantage for researchers who publish openly, as well as additional benefits to the non-academic dissemination of their work. The economic impact of Open Access is less well-understood, although it is clear that access to the research literature is key for innovative enterprises, and a range of governmental and non-governmental services. Furthermore, Open Access has the potential to save both publishers and research funders considerable amounts of financial resources, and can provide some economic benefits to traditionally subscription-based journals. The societal impact of Open Access is strong, in particular for advancing citizen science initiatives, and leveling the playing field for researchers in developing countries. Open Access supersedes all potential alternative modes of access to the scholarly literature through enabling unrestricted re-use, and long-term stability independent of financial constraints of traditional publishers that impede knowledge sharing. However, Open Access has the potential to become unsustainable for research communities if high-cost options are allowed to continue to prevail in a widely unregulated scholarly publishing market. Open Access remains only one of the multiple challenges that the scholarly publishing system is currently facing. Yet, it provides one foundation for increasing engagement with researchers regarding ethical standards of publishing and the broader implications of 'Open Research'.</ns4:p>",
     "DOI": "10.12688/f1000research.8460.3",
     "type": "article-journal",
     "page": "632",
@@ -2188,7 +2190,6 @@
   },
   {
     "type": "article-journal",
-    "id": "15nwuvjrA",
     "categories": [
       "Bioinformatics"
     ],
@@ -2201,15 +2202,18 @@
     "issued": {
       "date-parts": [
         [
-          2017
+          2017,
+          8,
+          25
         ]
       ]
     },
-    "abstract": "Report detailing work done in the Greene Lab at the University of Pennsylvania for the Summer of 2017. Sparse matrix implementation of degree-weighted path count (DWPC) over a heterogeneous network of biomedical information. Summer research conducted as part of the Penn Vagelos Scholars Program in Molecular Life Science (MLS).",
-    "DOI": "10.6084/m9.figshare.5346577",
+    "abstract": "Report detailing work done in the Greene Lab at the University of Pennsylvania for the Summer of 2017. Sparse mat.53465rix implementation of degree-weighted path count (DWPC) over a heterogeneous network of biomedical information. Summer research conducted as part of the Penn Vagelos Scholars Program in Molecular Life Science (MLS).",
+    "DOI": "10.6084/m9.figshare77",
     "publisher": "Figshare",
     "title": "Vagelos Report Summer 2017",
-    "URL": "https://doi.org/gbr3pf"
+    "URL": "https://doi.org/gbr3pf",
+    "id": "15nwuvjrA"
   },
   {
     "publisher": "Korean Council of Science Editors",
@@ -2889,8 +2893,8 @@
       "date-parts": [
         [
           2018,
-          11,
-          16
+          12,
+          18
         ]
       ]
     },
@@ -2971,25 +2975,18 @@
     "id": "LfJGtB83"
   },
   {
-    "URL": "http://blog.dhimmel.com/irreproducible-timestamps/",
-    "title": "The most interesting case of scientific irreproducibility?",
-    "container-title": "Satoshi Village",
-    "issued": {
+    "type": "webpage",
+    "title": "Satoshi Village",
+    "URL": "https://blog.dhimmel.com/irreproducible-timestamps/",
+    "accessed": {
       "date-parts": [
         [
-          2017,
-          3,
-          8
+          "2018",
+          12,
+          18
         ]
       ]
     },
-    "author": [
-      {
-        "family": "Himmelstein",
-        "given": "Daniel"
-      }
-    ],
-    "type": "webpage",
     "id": "QBWMEuxW"
   },
   {
@@ -3081,40 +3078,52 @@
     "id": "16CgM2x0z"
   },
   {
-    "URL": "http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid",
+    "type": "webpage",
     "title": "Code of conduct evaluations",
     "container-title": "Geek Feminism Wiki",
-    "issued": {
+    "abstract": "A code of conduct is a document which sets out expectations for members of a community, with regard to how they will behave toward each other. Contents[show] Effective codes of conduct Important elements of an effective code of conduct include: Specific descriptions of common but unacceptable behavior (sexist jokes, etc.) Reporting instructions with contact information Information about how it may be enforced A clear demarcation between unacceptable behaviour (which may be reported per the...",
+    "URL": "http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations",
+    "language": "en",
+    "accessed": {
       "date-parts": [
         [
-          2017,
-          6,
-          13
+          "2018",
+          12,
+          18
         ]
       ]
     },
-    "type": "webpage",
     "id": "HPKoE9m3"
   },
   {
-    "URL": "http://git.dhimmel.com/bitcoin-whitepaper/",
+    "type": "webpage",
     "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          9,
-          20
-        ]
-      ]
-    },
+    "URL": "https://git.dhimmel.com/bitcoin-whitepaper/",
+    "shortTitle": "Bitcoin",
     "author": [
       {
         "family": "Nakamoto",
         "given": "Satoshi"
       }
     ],
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          10,
+          31
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2018",
+          12,
+          18
+        ]
+      ]
+    },
     "id": "6yyYojgV"
   },
   {
@@ -3140,33 +3149,50 @@
     "id": "MhC1nPDK"
   },
   {
-    "URL": "http://www.livecomsjournal.org/article/2031-why-we-need-the-living-journal-of-computational-molecular-science",
+    "type": "article-journal",
     "title": "Why we need the Living Journal of Computational Molecular Science",
     "container-title": "Living Journal of Computational Molecular Science",
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          8,
-          22
-        ]
-      ]
-    },
+    "page": "2031",
+    "volume": "1",
+    "issue": "1",
+    "source": "www.livecomsjournal.org",
+    "abstract": "By David L. Mobley, Michael R. Shirts & 1 more. An editorial introducing LiveCoMS and explaining why the model of living documents can be a valuable addition to the scientific literature",
+    "URL": "www.livecomsjournal.org",
+    "DOI": "10.33011/livecoms.1.1.2031",
+    "ISSN": "2575-6524",
+    "language": "en",
     "author": [
       {
-        "family": "Mobley",
-        "given": "David L."
+        "family": "Zuckerman",
+        "given": "Daniel M."
       },
       {
         "family": "Shirts",
         "given": "Michael R."
       },
       {
-        "family": "Zuckerman",
-        "given": "Daniel M."
+        "family": "Mobley",
+        "given": "David L."
       }
     ],
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          8,
+          22
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2018",
+          12,
+          18
+        ]
+      ]
+    },
     "id": "H0XkaC8S"
   },
   {
@@ -3188,25 +3214,18 @@
     "id": "JU3KpeyB"
   },
   {
+    "type": "webpage",
+    "title": "Satoshi Village",
     "URL": "https://blog.dhimmel.com/citation-styles/",
-    "title": "On author versus numeric citation styles",
-    "container-title": "Satoshi Village",
-    "issued": {
+    "accessed": {
       "date-parts": [
         [
-          2018,
-          3,
-          12
+          "2018",
+          12,
+          18
         ]
       ]
     },
-    "author": [
-      {
-        "family": "Himmelstein",
-        "given": "Daniel"
-      }
-    ],
-    "type": "webpage",
     "id": "aAKJEII"
   },
   {
@@ -3349,62 +3368,66 @@
     "id": "zBl3qgGT"
   },
   {
-    "URL": "https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2",
+    "type": "webpage",
     "title": "Opportunities And Obstacles For Deep Learning In Biology And Medicine",
-    "container-title": "Medium",
-    "issued": {
-      "date-parts": [
-        [
-          2017,
-          5,
-          31
-        ]
-      ]
-    },
+    "container-title": "Towards Data Science",
+    "abstract": "Target audience: general.",
+    "URL": "https://towardsdatascience.com/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2",
     "author": [
       {
         "family": "Israeli",
         "given": "Johnny"
       }
     ],
-    "type": "webpage",
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          5,
+          31
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2018",
+          12,
+          18
+        ]
+      ]
+    },
     "id": "opQBBK06"
   },
   {
+    "type": "webpage",
+    "title": "OpenTimestamps: Scalable, Trust-Minimized, Distributed Timestamping with Bitcoin",
+    "abstract": "I’ve spent the past few weeks working on1 an old2 project of mine,OpenTimestamps, and it’s ready for a public alpha release. It’s timestampinginfrastructure ...",
     "URL": "https://petertodd.org/2016/opentimestamps-announcement",
-    "title": "OpenTimestamps: Scalable, Trustless, Distributed Timestamping with Bitcoin",
-    "container-title": "Peter Todd",
-    "issued": {
+    "accessed": {
       "date-parts": [
         [
-          2018,
-          2,
-          10
+          "2018",
+          12,
+          18
         ]
       ]
     },
-    "type": "webpage",
     "id": "1DG704X8Q"
   },
   {
-    "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",
+    "type": "webpage",
     "title": "The Grey Literature — Proof of prespecified endpoints in medical research with the bitcoin blockchain",
-    "issued": {
+    "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",
+    "accessed": {
       "date-parts": [
         [
-          2014,
-          8,
-          25
+          "2018",
+          12,
+          18
         ]
       ]
     },
-    "author": [
-      {
-        "family": "Carlisle",
-        "given": "Benjamin Gregory"
-      }
-    ],
-    "type": "webpage",
     "id": "6MR50hyY"
   },
   {
