@@ -286,6 +286,22 @@
     ]
   },
   {
+    "type": "personal_communication",
+    "standard_citation": "raw:dongbo-conversation",
+    "title": "Conversation with Dongbo Hu regarding how to administer a cloud server",
+    "container-title": "Greene Laboratory",
+    "location": "University of Pennsylvania",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          19
+        ]
+      ]
+    }
+  },
+  {
     "type": "webpage",
     "standard_citation": "url:https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research",
     "URL": "https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research",
