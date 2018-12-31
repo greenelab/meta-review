@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2018-12-18'
+date-meta: '2018-12-31'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/0770300e1d5490a1ae8ff3a85ddca2cdc4ae0613/))
+([permalink](https://greenelab.github.io/meta-review/v/ae1dd9ebd7b533b578041fd402217a73fd113899/))
 was automatically generated
-from [greenelab/meta-review@0770300](https://github.com/greenelab/meta-review/tree/0770300e1d5490a1ae8ff3a85ddca2cdc4ae0613)
-on December 18, 2018.
+from [greenelab/meta-review@ae1dd9e](https://github.com/greenelab/meta-review/tree/ae1dd9ebd7b533b578041fd402217a73fd113899)
+on December 31, 2018.
 </em></small>
 
 ## Authors
@@ -221,12 +221,21 @@ Manual CSL JSON also supports references without standard identifiers, such as p
 | Digital Object Identifier (DOI) | DOI [Content Negotiation](https://citation.crosscite.org/docs.html) | `doi:10.1098/rsif.2017.0387` | [@PZMP42Ak] |
 | PubMed Identifier (PMID) | NCBI [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | `pmid:25851694` | [@LfJGtB83] |
 | PubMed Central Identifier (PMCID) | NCBI [Literature Citation Exporter](https://api.ncbi.nlm.nih.gov/lit/ctxp/) | `pmcid:PMC4719068` | [@12sHvZy1a] |
-| arXiv identifier | [arXiv API](https://arxiv.org/help/api/index) | `arxiv:1502.04015v1` | [@Y2XyzLMc] |
-| URL | [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw] | `url:https://lgatto.github.io/open-and-open/` | [@zBl3qgGT] |
+| arXiv ID | [arXiv API](https://arxiv.org/help/api/index) | `arxiv:1502.04015v1` | [@Y2XyzLMc] |
+| International Standard Book Number (ISBN) | [Zotero translation-server](https://github.com/zotero/translation-server) | `isbn:9780262517638` | [@zBPP9YKu] |
+| Web address (URL) | Zotero translation-server | `url:https://lgatto.github.io/open-and-open/` | [@zBl3qgGT] |
+| Wikidata ID | Zotero translation-server | `wikidata:Q56458321` | [@QhC8yJ7V] |
+| Raw | Provided by user | `raw:dongbo-conversation` | [@l625msOK] |
 | Tag | Source for tagged identifier | `tag:avasthi-preprints` | [@pqBLIXzp] |
 
-Table: Citation types supported by Manubot.
-Authors may optionally map a named tag to one of the other supported identifier types.
+Table: **Citation types supported by Manubot.**
+Manubot allows users to cite different types of persistent identifiers, as shown in this table.
+Metadata source indicates the primary resource used to retrieve bibliographic metadata.
+For certain identifier types, additional metadata sources are queried should the primary fail.
+For example, when translation-server ISBN lookup fails, Manubot tries Wikipedia's [Citoid](https://www.mediawiki.org/wiki/Citoid) service followed by the [isbnlib](https://github.com/xlcnd/isbnlib) Python package.
+When translation-server URL lookup fails, Manubot then tries [Greycite](http://greycite.knowledgeblog.org/) [@GKPtRdAw].
+Raw citations enable citing works when no supported persistent identifiers exist, but require that the user specifies the metadata.
+Finally, authors may optionally map a named tag to any of the supported identifier types.
 In this example, the tag `avasthi-preprints` represents the DOI identifier `doi:10.7554/eLife.38532`.
 {#tbl:citations}
 
@@ -382,7 +391,7 @@ We would encourage the maintainers of similar projects to consider broader codes
 
 Science is undergoing a transition towards openness.
 The internet provides a global information commons, where scholarship can be publicly shared at a minimal cost.
-For example, open access publishing provides an economic model that encourages maximal dissemination and reuse of scholarly articles [@PuP45jrB; @HQfvK1OF].
+For example, open access publishing provides an economic model that encourages maximal dissemination and reuse of scholarly articles [@zBPP9YKu; @PuP45jrB; @HQfvK1OF].
 More broadly, open licensing solves legal barriers to content reuse, enabling any type of scholarly output to become part of the commons [@g6WVoxNy; @137tbemL9].
 The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bonafide privacy or security concerns [@gvyja7v1; @rgo1TZr; @1A97a4UwU].
 New tools and services make it increasingly feasible to publicly share the unabridged methods of a study, especially for computational research, which consists solely of software and data.
@@ -403,6 +412,7 @@ We would like to thank the authors of the Deep Review who helped us test collabo
 The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz.
 In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript.
 We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Achintya Rao, and other GitHub users.
+Setup and maintainance of the Zotero translation-server for Manubot usage was performed by Dongbo Hu.
 
 ## Funding
 
