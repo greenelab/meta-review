@@ -2916,9 +2916,9 @@
     "accessed": {
       "date-parts": [
         [
-          2018,
-          12,
-          18
+          2019,
+          2,
+          8
         ]
       ]
     },
@@ -3014,15 +3014,33 @@
     "id": "l625msOK"
   },
   {
-    "type": "webpage",
-    "title": "Satoshi Village",
+    "type": "article-journal",
+    "title": "The most interesting case of scientific irreproducibility?",
+    "container-title": "Satoshi Village",
+    "source": "blog.dhimmel.com",
     "URL": "https://blog.dhimmel.com/irreproducible-timestamps/",
+    "language": "en",
+    "author": [
+      {
+        "family": "Himmelstein",
+        "given": "Daniel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          3,
+          8
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          2,
+          8
         ]
       ]
     },
@@ -3126,9 +3144,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          2,
+          8
         ]
       ]
     },
@@ -3157,9 +3175,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          2,
+          8
         ]
       ]
     },
@@ -3192,8 +3210,6 @@
     "title": "Why we need the Living Journal of Computational Molecular Science",
     "container-title": "Living Journal of Computational Molecular Science",
     "page": "2031",
-    "volume": "1",
-    "issue": "1",
     "source": "www.livecomsjournal.org",
     "abstract": "By David L. Mobley, Michael R. Shirts & 1 more. An editorial introducing LiveCoMS and explaining why the model of living documents can be a valuable addition to the scientific literature",
     "URL": "www.livecomsjournal.org",
@@ -3226,9 +3242,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          2,
+          8
         ]
       ]
     },
@@ -3253,15 +3269,33 @@
     "id": "JU3KpeyB"
   },
   {
-    "type": "webpage",
-    "title": "Satoshi Village",
+    "type": "article-journal",
+    "title": "On author versus numeric citation styles",
+    "container-title": "Satoshi Village",
+    "source": "blog.dhimmel.com",
     "URL": "https://blog.dhimmel.com/citation-styles/",
-    "accessed": {
+    "language": "en",
+    "author": [
+      {
+        "family": "Himmelstein",
+        "given": "Daniel"
+      }
+    ],
+    "issued": {
       "date-parts": [
         [
           "2018",
-          12,
-          31
+          3,
+          12
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          8
         ]
       ]
     },
@@ -3430,9 +3464,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          2,
+          8
         ]
       ]
     },
@@ -3446,9 +3480,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          2,
+          8
         ]
       ]
     },
@@ -3461,9 +3495,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2018",
-          12,
-          31
+          "2019",
+          2,
+          8
         ]
       ]
     },
