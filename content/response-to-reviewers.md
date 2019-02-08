@@ -28,7 +28,7 @@ Since the paper has been submitted as a Software paper, maybe it's fine but it w
 > The introduction may lack a part on tools that are used in different communities, especially with "mega papers" (e.g. physics where you have routinely thousand of authors).
 
 > `For now, the primary Manubot output is HTML intended to be viewed in a web browser.`
--> I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
+→ I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
 Being able to produce both a nice PDF and a HTML dynamic version would be a nice feature.
 
 > In the discussion, it would be nice to have a vision on the future of manubot.
@@ -59,28 +59,28 @@ Did you encounter some difficulties in referencing figures or tables?
 > What is the procedure when you submit an article to a journal?
 Do you have a set of pandoc templates or do you work directly on the word or latex output to match journal requirements?
 
-> `We initiated the Deep Review` -> when?
+> `We initiated the Deep Review` → when?
 Would be nice to give some date at this point.
 
-> `In total, the Deep Review attracted...` -> in less than a few weeks? months? years?
+> `In total, the Deep Review attracted...` → in less than a few weeks? months? years?
 
-> `we made the GitHub repository public under a Creative Commons Attribution License.` -> The link points to CC-BY 4.0 International, it would be good to have this ionformation in the name of the link (or we have to click to check which kind CC you used).
+> `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this ionformation in the name of the link (or we have to click to check which kind CC you used).
 
-> `they lack sufficient features for managing a collaborative editing` -> This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
+> `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
 
-> Table 1. -> You should add a WYSIWIG feature that is present in a number of platforms and important for a lot of non technical people.
+> Table 1. → You should add a WYSIWIG feature that is present in a number of platforms and important for a lot of non technical people.
 Same for inline comments and diff colorization.
 
-> Figure 1. -> Maybe an horizontal layout would be be better (to suggest a timeline from left to right).
+> Figure 1. → Maybe an horizontal layout would be be better (to suggest a timeline from left to right).
 The waves (symbolizing the content) could be probably replaced by straigth thick lines.
 It took me a few seconds to realize this was meaning content.
 See for example https://swcarpentry.github.io/git-novice/01-basics/index.html
 
-> Figure .2 -> This could be probably adapted as a raster plot where a dot is painted for each contribution (at the time of contribution).
+> Figure .2 → This could be probably adapted as a raster plot where a dot is painted for each contribution (at the time of contribution).
 Line would be the same height and the legend would summarize the contribution.
 
-> `GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist.` -> Can you name a few and how difficult it would be to migrate?
+> `GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist.` → Can you name a few and how difficult it would be to migrate?
 
 ## Reviewer 3
 
