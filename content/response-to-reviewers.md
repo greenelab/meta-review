@@ -64,7 +64,7 @@ Would be nice to give some date at this point.
 
 > `In total, the Deep Review attracted...` → in less than a few weeks? months? years?
 
-> `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this ionformation in the name of the link (or we have to click to check which kind CC you used).
+> `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
 > `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
@@ -72,8 +72,8 @@ I agree on the second part on the 'precise credit' aspect but as the sentence is
 > Table 1. → You should add a WYSIWIG feature that is present in a number of platforms and important for a lot of non technical people.
 Same for inline comments and diff colorization.
 
-> Figure 1. → Maybe an horizontal layout would be be better (to suggest a timeline from left to right).
-The waves (symbolizing the content) could be probably replaced by straigth thick lines.
+> Figure 1. → Maybe an horizontal layout would be better (to suggest a timeline from left to right).
+The waves (symbolizing the content) could be probably replaced by straight thick lines.
 It took me a few seconds to realize this was meaning content.
 See for example https://swcarpentry.github.io/git-novice/01-basics/index.html
 
@@ -120,7 +120,7 @@ So this is really more of an "@ctb todo" item.
 > further emphasize strikethrough formatting for errors in extant versions.
 I love the paragraph on Sci-Hub error correction - am I correct in understanding that the link to the erroneous version of the pub was updated with a version that clearly highlighted the text as erroneous?
 this is really important if so, and has massive implications for the future of scholarly docs!
-(and, out of curiousity, how do you do this with links that have a hash in them, or did I misunderstand?
+(and, out of curiosity, how do you do this with links that have a hash in them, or did I misunderstand?
 I can investigate this myself once I have a better network connection)
 
 > Strengthen statement about `no objective system` for authorship.
