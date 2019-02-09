@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-02-08'
+date-meta: '2019-02-09'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/dfcc2c4fcd8cc76dd0426f0abb71729ad3bd1b28/))
+([permalink](https://greenelab.github.io/meta-review/v/ab6d0dddd9617db117be550f0ddd343859e25506/))
 was automatically generated
-from [greenelab/meta-review@dfcc2c4](https://github.com/greenelab/meta-review/tree/dfcc2c4fcd8cc76dd0426f0abb71729ad3bd1b28)
-on February 8, 2019.
+from [greenelab/meta-review@ab6d0dd](https://github.com/greenelab/meta-review/tree/ab6d0dddd9617db117be550f0ddd343859e25506)
+on February 9, 2019.
 </em></small>
 
 ## Authors
@@ -93,7 +93,7 @@ on February 8, 2019.
 
 Open, collaborative research is a powerful paradigm that can immensely strengthen the scientific process by integrating broad and diverse expertise.
 However, traditional research and multi-author writing processes break down at scale.
-New tools and workflows that rely on automation can ensure correctness and fairness in massively collaborative research.
+New tools and workflows that rely on automation can catch errors and ensure that contributions are fairly tracked in massively collaborative research.
 We present techniques for overcoming challenges of open research, with special emphasis on manuscript writing.
 These include approaches for managing distributed authors and our new software, named Manubot, for automating citation and many other aspects of manuscript building.
 
