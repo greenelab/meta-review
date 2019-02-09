@@ -92,6 +92,14 @@ in particular, the statement `However, the scientific community requires tools w
 from reading the manuscript, it is clear that fairness means fairness in contribution tracking, but this is not clear in the abbreviated language used in the abstract.
 I am somewhat unclear on what `ensure correctness` means in the abstract.
 
+This interpretation of fairness is correct, and correctness was intended to link with the continuous integration text in the manuscript such as:
+
+`Using CI to build the manuscript automatically catches many common errors, such as misspelled citations, invalid formatting, or misconfigured software dependencies.`
+
+To make this more explicit, the updated abstract now states:
+
+`New tools and workflows that rely on automation can catch errors and ensure that contributions are fairly tracked in massively collaborative research.`
+
 > footnote placement in rendered manuscript should be left-adjusted.
 in the PDF I have in front of me, the footnotes at end of sentences are not left-flush with the period.
 this is a minor nit but a nit nonetheless :).
