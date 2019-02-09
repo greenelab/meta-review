@@ -100,6 +100,10 @@ is this just a stylesheet issue or ...?
 > `requesting modifications as depicted in 7.`
 the number 7 seems to refer to a citation (at least that's the hover view) but should maybe be in square brackets, i.e. [7]?
 
+We have clarified that this reference is a citation and now state:
+
+`GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications, as described by Johnny Israeli [ref].`
+
 > `We use GitHub issues for organization`.
 is there anything special about how manubot links to and from issues in the text?
 mostly just curious.
