@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-02-09'
+date-meta: '2019-02-12'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/ab6d0dddd9617db117be550f0ddd343859e25506/))
+([permalink](https://greenelab.github.io/meta-review/v/a9e1e8036200f30f2580abcc37e21546c7868cac/))
 was automatically generated
-from [greenelab/meta-review@ab6d0dd](https://github.com/greenelab/meta-review/tree/ab6d0dddd9617db117be550f0ddd343859e25506)
-on February 9, 2019.
+from [greenelab/meta-review@a9e1e80](https://github.com/greenelab/meta-review/tree/a9e1e8036200f30f2580abcc37e21546c7868cac)
+on February 12, 2019.
 </em></small>
 
 ## Authors
@@ -110,7 +110,7 @@ Based on our experience leading a recent open review [@16CgM2x0z], we discuss th
 Our review manuscript [@PZMP42Ak] was code-named the Deep Review and surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
 We initiated the Deep Review by creating a GitHub repository (<https://github.com/greenelab/deep-review>) to coordinate and manage contributions.
 GitHub is a platform designed for collaborative software development that is adaptable for collaborative writing.
-From the start, we made the GitHub repository public under a [Creative Commons Attribution License](https://github.com/greenelab/deep-review/blob/master/LICENSE.md).
+From the start, we made the GitHub repository public under a [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://github.com/greenelab/deep-review/blob/master/LICENSE.md).
 We encouraged anyone interested to contribute by proposing changes or additions.
 Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation.
 In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions.
