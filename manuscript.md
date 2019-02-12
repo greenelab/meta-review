@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/a9e1e8036200f30f2580abcc37e21546c7868cac/))
+([permalink](https://greenelab.github.io/meta-review/v/c4baa224a99d86d88e32c2dab67245c47838fbde/))
 was automatically generated
-from [greenelab/meta-review@a9e1e80](https://github.com/greenelab/meta-review/tree/a9e1e8036200f30f2580abcc37e21546c7868cac)
+from [greenelab/meta-review@c4baa22](https://github.com/greenelab/meta-review/tree/c4baa224a99d86d88e32c2dab67245c47838fbde)
 on February 12, 2019.
 </em></small>
 
@@ -160,7 +160,7 @@ GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also
 The official version of the manuscript is _forked_ by individual contributors.
 A contributor then adds and revises files, grouping these changes into _commits_.
 When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
-GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications as depicted in @opQBBK06.
+GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications, as described by Johnny Israeli [@opQBBK06].
 Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content, as illustrated in Figure @fig:workflow.
 Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits and helps maintain consistent content and tone across different authors and reviewers.
 Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
