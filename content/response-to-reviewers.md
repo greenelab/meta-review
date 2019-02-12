@@ -66,6 +66,8 @@ Would be nice to give some date at this point.
 
 > `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
+We now state the full license name in the link text: `Creative Commons Attribution 4.0 International (CC BY 4.0) license`.
+
 > `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
 
