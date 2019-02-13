@@ -39,6 +39,33 @@
     }
   },
   {
+    "type": "article-journal",
+    "standard_citation": "doi:10.6084/m9.figshare.5346577",
+    "categories": [
+      "Bioinformatics"
+    ],
+    "author": [
+      {
+        "family": "Zietz",
+        "given": "Michael"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          8,
+          25
+        ]
+      ]
+    },
+    "abstract": "Report detailing work done in the Greene Lab at the University of Pennsylvania for the Summer of 2017. Sparse mat.53465rix implementation of degree-weighted path count (DWPC) over a heterogeneous network of biomedical information. Summer research conducted as part of the Penn Vagelos Scholars Program in Molecular Life Science (MLS).",
+    "DOI": "10.6084/m9.figshare77",
+    "publisher": "Figshare",
+    "title": "Vagelos Report Summer 2017",
+    "URL": "https://doi.org/gbr3pf"
+  },
+  {
     "standard_citation": "url:https://lgatto.github.io/open-and-open/",
     "type": "webpage",
     "URL": "https://lgatto.github.io/open-and-open/",
@@ -145,9 +172,31 @@
     "type": "post-weblog"
   },
   {
+    "standard_citation": "url:http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/",
+    "URL": "http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/",
+    "title": "TechBlog: Create the perfect bibliography with the CSL Editor",
+    "container-title": "Naturejobs",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          5,
+          3
+        ]
+      ]
+    },
+    "author": [
+      {
+        "given": "Jeffrey",
+        "family": "Perkel"
+      }
+    ],
+    "type": "post-weblog"
+  },
+  {
     "type": "webpage",
-    "standard_citation": "url:https://goo.gl/jAcwjm",
-    "URL": "https://steemit.com/manubot/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
+    "standard_citation": "url:https://goo.gl/jGBrxE",
+    "URL": "https://busy.org/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper",
     "title": "How I used the Manubot to reproduce the Bitcoin Whitepaper",
     "container-title": "Steem",
     "issued": {
@@ -235,6 +284,22 @@
         "family": "Osheroff"
       }
     ]
+  },
+  {
+    "type": "personal_communication",
+    "standard_citation": "raw:dongbo-conversation",
+    "title": "Conversation with Dongbo Hu regarding how to administer a cloud server",
+    "container-title": "Greene Laboratory",
+    "location": "University of Pennsylvania",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          12,
+          19
+        ]
+      ]
+    }
   },
   {
     "type": "webpage",

@@ -16,7 +16,7 @@ author_info:
     email: daniel.himmelstein@gmail.com
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
-    funders: GBMF4552
+    funders: G-2018-11163 and GBMF4552
   -
     github: slochower
     name: David R. Slochower
@@ -46,7 +46,7 @@ author_info:
     email: csgreene@upenn.edu
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
-    funders: GBMF4552
+    funders: G-2018-11163 and GBMF4552
   -
     github: agitter
     name: Anthony Gitter
@@ -57,4 +57,3 @@ author_info:
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
       - Morgridge Institute for Research
-    funders: NIH U54AI117924
