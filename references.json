@@ -2890,25 +2890,28 @@
   {
     "type": "book",
     "title": "Open access",
+    "collection-title": "MIT Press essential knowledge series",
+    "publisher": "MIT Press",
+    "publisher-place": "Cambridge, Mass",
+    "number-of-pages": "242",
+    "source": "Library of Congress ISBN",
+    "event-place": "Cambridge, Mass",
+    "ISBN": "9780262517638",
+    "call-number": "Z286.O63 S83 2012",
+    "note": "OCLC: ocn754518563",
     "author": [
       {
-        "given": "Peter,",
-        "family": "Suber,"
+        "family": "Suber",
+        "given": "Peter"
       }
     ],
     "issued": {
       "date-parts": [
         [
-          2012
+          "2012"
         ]
       ]
     },
-    "publisher": "MIT Press",
-    "publisher-place": "Cambridge, Massachusetts",
-    "abstract": "A concise introduction to the basics of open access, describing what it is (and isn't) and showing that it is easy, fast, inexpensive, legal, and beneficial",
-    "ISBN": "9780262517638",
-    "source": "WorldCat",
-    "URL": "https://www.worldcat.org/oclc/795846161",
     "id": "zBPP9YKu"
   },
   {
@@ -3040,7 +3043,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },
@@ -3146,7 +3149,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },
@@ -3177,7 +3180,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },
@@ -3244,7 +3247,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },
@@ -3295,7 +3298,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },
@@ -3466,7 +3469,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },
@@ -3482,7 +3485,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },
@@ -3497,7 +3500,7 @@
         [
           "2019",
           2,
-          12
+          14
         ]
       ]
     },

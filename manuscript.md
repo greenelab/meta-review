@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-02-12'
+date-meta: '2019-02-14'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/c4baa224a99d86d88e32c2dab67245c47838fbde/))
+([permalink](https://greenelab.github.io/meta-review/v/03a932207e093022452254ced5821bd5bd716979/))
 was automatically generated
-from [greenelab/meta-review@c4baa22](https://github.com/greenelab/meta-review/tree/c4baa224a99d86d88e32c2dab67245c47838fbde)
-on February 12, 2019.
+from [greenelab/meta-review@03a9322](https://github.com/greenelab/meta-review/tree/03a932207e093022452254ced5821bd5bd716979)
+on February 14, 2019.
 </em></small>
 
 ## Authors
@@ -33,55 +33,55 @@ on February 12, 2019.
 
 
 + **Daniel S. Himmelstein**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [dhimmel](https://github.com/dhimmel)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
 + **David R. Slochower**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-3928-5050](https://orcid.org/0000-0003-3928-5050)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [slochower](https://github.com/slochower)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [drslochower](https://twitter.com/drslochower)<br>
   <small>
      Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
   </small>
 
 + **Venkat S. Malladi**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0144-0564](https://orcid.org/0000-0002-0144-0564)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [vsmalladi](https://github.com/vsmalladi)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [katatonikkat](https://twitter.com/katatonikkat)<br>
   <small>
      Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center
   </small>
 
 + **Casey S. Greene**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [cgreene](https://github.com/cgreene)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
 + **Anthony Gitter**<br>
-    ![ORCID icon](images/orcid.svg){height="13px" width="13px"}
+    ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833)
-    · ![GitHub icon](images/github.svg){height="13px" width="13px"}
+    · ![GitHub icon](images/github.svg){.inline_icon}
     [agitter](https://github.com/agitter)
-    · ![Twitter icon](images/twitter.svg){height="13px" width="13px"}
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research

@@ -9,16 +9,16 @@
   <meta name="author" content="Venkat S. Malladi" />
   <meta name="author" content="Casey S. Greene" />
   <meta name="author" content="Anthony Gitter" />
-  <meta name="dcterms.date" content="2019-02-12" />
+  <meta name="dcterms.date" content="2019-02-14" />
   <meta name="keywords" content="collaborative review, continuous integration, publishing, Manubot" />
   <title>Open collaborative writing with Manubot</title>
-  <style type="text/css">
+  <style>
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
       span.underline{text-decoration: underline;}
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
-  <style type="text/css">
+  <style>
 a.sourceLine { display: inline-block; line-height: 1.25; }
 a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
 a.sourceLine:empty { height: 1.2em; }
@@ -36,7 +36,7 @@ a.sourceLine { text-indent: -1em; padding-left: 1em; }
 pre.numberSource a.sourceLine
   { position: relative; left: -4em; }
 pre.numberSource a.sourceLine::before
-  { content: attr(data-line-number);
+  { content: attr(title);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
     border: none; pointer-events: all; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
@@ -81,27 +81,22 @@ code span.va { color: #19177c; } /* Variable */
 code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="github-pandoc.css" />
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
-  <!-- Insert Analytics Script Below -->
-  <script>
-  </script>
-  <!-- End Analytics Script -->
 </head>
 <body>
 <header id="title-block-header">
 <h1 class="title">Open collaborative writing with Manubot</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/c4baa224a99d86d88e32c2dab67245c47838fbde/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/c4baa224a99d86d88e32c2dab67245c47838fbde">greenelab/meta-review@c4baa22</a> on February 12, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/03a932207e093022452254ced5821bd5bd716979/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/03a932207e093022452254ced5821bd5bd716979">greenelab/meta-review@03a9322</a> on February 14, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
-<li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
-<li><p><strong>David R. Slochower</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0003-3928-5050">0000-0003-3928-5050</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/slochower">slochower</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/drslochower">drslochower</a><br> <small> Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego </small></p></li>
-<li><p><strong>Venkat S. Malladi</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-0144-0564">0000-0002-0144-0564</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/vsmalladi">vsmalladi</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/katatonikkat">katatonikkat</a><br> <small> Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center </small></p></li>
-<li><p><strong>Casey S. Greene</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0001-8713-9213">0000-0001-8713-9213</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/cgreene">cgreene</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/GreeneScientist">GreeneScientist</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
-<li><p><strong>Anthony Gitter</strong><br> <img src="images/orcid.svg" alt="ORCID icon" width="13" height="13" /> <a href="https://orcid.org/0000-0002-5324-9833">0000-0002-5324-9833</a> · <img src="images/github.svg" alt="GitHub icon" width="13" height="13" /> <a href="https://github.com/agitter">agitter</a> · <img src="images/twitter.svg" alt="Twitter icon" width="13" height="13" /> <a href="https://twitter.com/anthonygitter">anthonygitter</a><br> <small> Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research </small></p></li>
+<li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
+<li><p><strong>David R. Slochower</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0003-3928-5050">0000-0003-3928-5050</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/slochower">slochower</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/drslochower">drslochower</a><br> <small> Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego </small></p></li>
+<li><p><strong>Venkat S. Malladi</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0002-0144-0564">0000-0002-0144-0564</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/vsmalladi">vsmalladi</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/katatonikkat">katatonikkat</a><br> <small> Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center </small></p></li>
+<li><p><strong>Casey S. Greene</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0001-8713-9213">0000-0001-8713-9213</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/cgreene">cgreene</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/GreeneScientist">GreeneScientist</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
+<li><p><strong>Anthony Gitter</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0002-5324-9833">0000-0002-5324-9833</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/agitter">agitter</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/anthonygitter">anthonygitter</a><br> <small> Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research </small></p></li>
 </ul>
 <h2 id="abstract" class="page_break_before">Abstract</h2>
 <p>Open, collaborative research is a powerful paradigm that can immensely strengthen the scientific process by integrating broad and diverse expertise. However, traditional research and multi-author writing processes break down at scale. New tools and workflows that rely on automation can catch errors and ensure that contributions are fairly tracked in massively collaborative research. We present techniques for overcoming challenges of open research, with special emphasis on manuscript writing. These include approaches for managing distributed authors and our new software, named Manubot, for automating citation and many other aspects of manuscript building.</p>
@@ -334,9 +329,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Additional research studies in progress are being authored using Manubot, spanning the fields of <a href="https://vsmalladi.github.io/tfsee-manuscript/">genomics</a>, <a href="https://openclimatedata.github.io/global-emissions/">climate science</a>, and <a href="https://yt-project.github.io/yt-3.0-paper/">data visualization</a>. Manubot is also being used for documents beyond traditional journal publications, such as <a href="https://greenelab.github.io/manufund-2018/">grant proposals</a>, <a href="https://greenelab.github.io/czi-hca-report/">progress reports</a>, <a href="https://zietzm.github.io/Vagelos2017/">undergraduate research reports</a> <span class="citation" data-cites="15nwuvjrA">[<a href="#ref-15nwuvjrA">36</a>]</span>, <a href="https://slochower.github.io/synthetic-motor-literature/">literature reviews</a>, and lab notebooks. Manuscripts written with other authoring systems have been successfully ported to Manubot, including the <a href="https://git.dhimmel.com/bitcoin-whitepaper/">Bitcoin Whitepaper</a> <span class="citation" data-cites="u9DGTIX">[<a href="#ref-u9DGTIX">37</a>]</span> and <a href="https://git.dhimmel.com/rephetio-manuscript/">Project Rephetio manuscript</a> <span class="citation" data-cites="O21tn8vf">[<a href="#ref-O21tn8vf">38</a>]</span>. Finally, the Kipoi model zoo for genomics <span class="citation" data-cites="14cVrrqP1">[<a href="#ref-14cVrrqP1">39</a>]</span> uses Manubot’s citation functionality to automatically extract model authors.</p>
 <h3 id="citation-utility">Citation utility</h3>
 <p>To make citation-by-identifier easily usable outside of Manubot manuscripts, we created the <code>manubot cite</code> command line utility, available as a <a href="https://pypi.org/project/manubot/">Python package</a>. This utility takes a list of citations and returns either a rendered bibliography or CSL Data Items (i.e. JSON-formatted reference metadata). For example, the following command outputs a Markdown reference list for the two specified articles according to the bibliographic style of <em>PeerJ</em>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" data-line-number="1"><span class="ex">manubot</span> cite --render --format=markdown \</a>
-<a class="sourceLine" id="cb1-2" data-line-number="2">  --csl=https://github.com/citation-style-language/styles/raw/master/peerj.csl \</a>
-<a class="sourceLine" id="cb1-3" data-line-number="3">  pmid:29618526 doi:10.1038/550143a</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="ex">manubot</span> cite --render --format=markdown \</a>
+<a class="sourceLine" id="cb1-2" title="2">  --csl=https://github.com/citation-style-language/styles/raw/master/peerj.csl \</a>
+<a class="sourceLine" id="cb1-3" title="3">  pmid:29618526 doi:10.1038/550143a</a></code></pre></div>
 <h2 id="authorship">Authorship</h2>
 <p>To determine authorship for the Deep Review, we followed the International Committee of Medical Journal Editors (ICMJE) <a href="http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html">guidelines</a> and used GitHub to track contributions. ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript. We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript. Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list. In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript. This convention can be difficult to reconcile in a collaborative effort. Using git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests. However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.</p>
 <p>To address this issue, we generalized the concept of “co-first” authorship, in which two or more authors are denoted as making equal contributions to a paper. We defined four types of contributions <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak">3</a>]</span>, from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories. A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering. The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner. Given the same author contributions, it always produced the same ordered author list. We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category. The Deep Review author ordering procedure is not inherent to writing with Manubot but illustrates the authorship possibilities when all contributions are publicly tracked and recorded.</p>
@@ -372,31 +367,31 @@ Jeffrey Perkel<br />
 <p>2. <strong>Crowdsourcing in biomedicine: challenges and opportunities</strong><br />
 Ritu Khare, Benjamin M Good, Robert Leaman, Andrew I Su, Zhiyong Lu<br />
 <em>Briefings in bioinformatics</em> (2016-01) <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4719068/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4719068/</a><br />
-DOI: <a href="https://doi.org/10.1093/bib/bbv021">10.1093/bib/bbv021</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/25888696">25888696</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4719068">PMC4719068</a></p>
+DOI: <a href="https://doi.org/10.1093/bib/bbv021">10.1093/bib/bbv021</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25888696">25888696</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4719068">PMC4719068</a></p>
 </div>
 <div id="ref-PZMP42Ak">
 <p>3. <strong>Opportunities and obstacles for deep learning in biology and medicine</strong><br />
 Travers Ching, Daniel S. Himmelstein, Brett K. Beaulieu-Jones, Alexandr A. Kalinin, Brian T. Do, Gregory P. Way, Enrico Ferrero, Paul-Michael Agapow, Michael Zietz, Michael M. Hoffman, … Casey S. Greene<br />
 <em>Journal of The Royal Society Interface</em> (2018-04) <a href="https://doi.org/gddkhn">https://doi.org/gddkhn</a><br />
-DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></p>
+DOI: <a href="https://doi.org/10.1098/rsif.2017.0387">10.1098/rsif.2017.0387</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29618526">29618526</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5938574">PMC5938574</a></p>
 </div>
 <div id="ref-AylLD9F8">
 <p>4. <strong>Scientific writing: the online cooperative</strong><br />
 Jeffrey M. Perkel<br />
 <em>Nature</em> (2014-10-01) <a href="https://doi.org/gbqsnd">https://doi.org/gbqsnd</a><br />
-DOI: <a href="https://doi.org/10.1038/514127a">10.1038/514127a</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/25279924">25279924</a></p>
+DOI: <a href="https://doi.org/10.1038/514127a">10.1038/514127a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25279924">25279924</a></p>
 </div>
 <div id="ref-PlcxShQU">
 <p>5. <strong>A Quick Introduction to Version Control with Git and GitHub</strong><br />
 John D. Blischak, Emily R. Davenport, Greg Wilson<br />
 <em>PLOS Computational Biology</em> (2016-01-19) <a href="https://doi.org/gbqsnf">https://doi.org/gbqsnf</a><br />
-DOI: <a href="https://doi.org/10.1371/journal.pcbi.1004668">10.1371/journal.pcbi.1004668</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/26785377">26785377</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4718703">PMC4718703</a></p>
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1004668">10.1371/journal.pcbi.1004668</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26785377">26785377</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4718703">PMC4718703</a></p>
 </div>
 <div id="ref-kEX5dgzK">
 <p>6. <strong>Ten Simple Rules for Taking Advantage of Git and GitHub</strong><br />
 Yasset Perez-Riverol, Laurent Gatto, Rui Wang, Timo Sachsenberg, Julian Uszkoreit, Felipe da Veiga Leprevost, Christian Fufezan, Tobias Ternent, Stephen J. Eglen, Daniel S. Katz, … Juan Antonio Vizcaíno<br />
 <em>PLOS Computational Biology</em> (2016-07-14) <a href="https://doi.org/gbrb39">https://doi.org/gbrb39</a><br />
-DOI: <a href="https://doi.org/10.1371/journal.pcbi.1004947">10.1371/journal.pcbi.1004947</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/27415786">27415786</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047">PMC4945047</a></p>
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1004947">10.1371/journal.pcbi.1004947</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27415786">27415786</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945047">PMC4945047</a></p>
 </div>
 <div id="ref-opQBBK06">
 <p>7. <strong>Opportunities And Obstacles For Deep Learning In Biology And Medicine</strong><br />
@@ -407,7 +402,7 @@ Johnny Israeli<br />
 <p>8. <strong>What Should Be Done To Tackle Ghostwriting in the Medical Literature?</strong><br />
 Peter C Gøtzsche, Jerome P Kassirer, Karen L Woolley, Elizabeth Wager, Adam Jacobs, Art Gertel, Cindy Hamilton<br />
 <em>PLoS Medicine</em> (2009-02-03) <a href="https://doi.org/bnzbx7">https://doi.org/bnzbx7</a><br />
-DOI: <a href="https://doi.org/10.1371/journal.pmed.1000023">10.1371/journal.pmed.1000023</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/19192943">19192943</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2634793">PMC2634793</a></p>
+DOI: <a href="https://doi.org/10.1371/journal.pmed.1000023">10.1371/journal.pmed.1000023</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19192943">19192943</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2634793">PMC2634793</a></p>
 </div>
 <div id="ref-tJKvnIaZ">
 <p>9. <strong>Opportunities And Obstacles For Deep Learning In Biology And Medicine</strong><br />
@@ -425,7 +420,7 @@ DOI: <a href="https://doi.org/10.1007/978-3-319-00026-8_8">10.1007/978-3-319-000
 <p>11. <strong>Comparison of Select Reference Management Tools</strong><br />
 Yingting Zhang<br />
 <em>Medical Reference Services Quarterly</em> (2012-01) <a href="https://doi.org/hpv">https://doi.org/hpv</a><br />
-DOI: <a href="https://doi.org/10.1080/02763869.2012.641841">10.1080/02763869.2012.641841</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22289095">22289095</a></p>
+DOI: <a href="https://doi.org/10.1080/02763869.2012.641841">10.1080/02763869.2012.641841</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22289095">22289095</a></p>
 </div>
 <div id="ref-GKPtRdAw">
 <p>12. <strong>Twenty-Five Shades of Greycite: Semantics for referencing and preservation</strong><br />
@@ -436,7 +431,7 @@ Phillip Lord, Lindsay Marshall<br />
 <p>13. <strong>Reviewing post-publication peer review.</strong><br />
 Paul Knoepfler<br />
 <em>Trends in genetics : TIG</em> (2015-04-04) <a href="https://www.ncbi.nlm.nih.gov/pubmed/25851694">https://www.ncbi.nlm.nih.gov/pubmed/25851694</a><br />
-DOI: <a href="https://doi.org/10.1016/j.tig.2015.03.006">10.1016/j.tig.2015.03.006</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/25851694">25851694</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4472664">PMC4472664</a></p>
+DOI: <a href="https://doi.org/10.1016/j.tig.2015.03.006">10.1016/j.tig.2015.03.006</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25851694">25851694</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4472664">PMC4472664</a></p>
 </div>
 <div id="ref-Y2XyzLMc">
 <p>14. <strong>Decentralized Trusted Timestamping using the Crypto Currency Bitcoin</strong><br />
@@ -445,8 +440,8 @@ Bela Gipp, Norman Meuschke, André Gernandt<br />
 </div>
 <div id="ref-zBPP9YKu">
 <p>15. <strong>Open access</strong><br />
-Peter, Suber,<br />
-<em>MIT Press</em> (2012) <a href="https://www.worldcat.org/oclc/795846161">https://www.worldcat.org/oclc/795846161</a><br />
+Peter Suber<br />
+<em>MIT Press</em> (2012)<br />
 ISBN: <a href="https://worldcat.org/isbn/9780262517638">9780262517638</a></p>
 </div>
 <div id="ref-zBl3qgGT">
@@ -466,7 +461,7 @@ cOAlition S<br />
 <p>19. <strong>Journal clubs in the time of preprints</strong><br />
 Prachee Avasthi, Alice Soragni, Joshua N Bembenek<br />
 <em>eLife</em> (2018-06-11) <a href="https://doi.org/gdm89h">https://doi.org/gdm89h</a><br />
-DOI: <a href="https://doi.org/10.7554/elife.38532">10.7554/elife.38532</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/29889024">29889024</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5995539">PMC5995539</a></p>
+DOI: <a href="https://doi.org/10.7554/elife.38532">10.7554/elife.38532</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29889024">29889024</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5995539">PMC5995539</a></p>
 </div>
 <div id="ref-aAKJEII">
 <p>20. <strong>On author versus numeric citation styles</strong><br />
@@ -499,13 +494,13 @@ DOI: <a href="https://doi.org/10.1080/00987913.2012.10765464">10.1080/00987913.2
 <p>25. <strong>Collaborative software development made easy</strong><br />
 Andrew Silver<br />
 <em>Nature</em> (2017-10-04) <a href="https://doi.org/cdvr">https://doi.org/cdvr</a><br />
-DOI: <a href="https://doi.org/10.1038/550143a">10.1038/550143a</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28980652">28980652</a></p>
+DOI: <a href="https://doi.org/10.1038/550143a">10.1038/550143a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28980652">28980652</a></p>
 </div>
 <div id="ref-Qh7xTLwz">
 <p>26. <strong>Reproducibility of computational workflows is automated using continuous analysis</strong><br />
 Brett K Beaulieu-Jones, Casey S Greene<br />
 <em>Nature Biotechnology</em> (2017-03-13) <a href="https://doi.org/f9ttx6">https://doi.org/f9ttx6</a><br />
-DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></p>
+DOI: <a href="https://doi.org/10.1038/nbt.3780">10.1038/nbt.3780</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28288103">28288103</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790">PMC6103790</a></p>
 </div>
 <div id="ref-lXvpQxeN">
 <p>27. <strong>Developing a modern data workflow for evolving data</strong><br />
@@ -517,7 +512,7 @@ DOI: <a href="https://doi.org/10.1101/344804">10.1101/344804</a></p>
 <p>28. <strong>Priority of discovery in the life sciences</strong><br />
 Ronald D Vale, Anthony A Hyman<br />
 <em>eLife</em> (2016-06-16) <a href="https://doi.org/gcx6gx">https://doi.org/gcx6gx</a><br />
-DOI: <a href="https://doi.org/10.7554/elife.16931">10.7554/elife.16931</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/27310529">27310529</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911212">PMC4911212</a></p>
+DOI: <a href="https://doi.org/10.7554/elife.16931">10.7554/elife.16931</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27310529">27310529</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4911212">PMC4911212</a></p>
 </div>
 <div id="ref-6MR50hyY">
 <p>29. <strong>The Grey Literature — Proof of prespecified endpoints in medical research with the bitcoin blockchain</strong><a href="https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/">https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/</a></p>
@@ -544,13 +539,13 @@ Emily Packer<br />
 <p>34. <strong>Sci-Hub provides access to nearly all scholarly literature</strong><br />
 Daniel S Himmelstein, Ariel Rodriguez Romero, Jacob G Levernier, Thomas Anthony Munro, Stephen Reid McLaughlin, Bastian Greshake Tzovaras, Casey S Greene<br />
 <em>eLife</em> (2018-03-01) <a href="https://doi.org/ckcj">https://doi.org/ckcj</a><br />
-DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></p>
+DOI: <a href="https://doi.org/10.7554/elife.32822">10.7554/elife.32822</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29424689">29424689</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5832410">PMC5832410</a></p>
 </div>
 <div id="ref-9IrsqXRa">
 <p>35. <strong>2017 in news: The science events that shaped the year</strong><br />
 Ewen Callaway, Davide Castelvecchi, David Cyranoski, Elizabeth Gibney, Heidi Ledford, Jane J. Lee, Lauren Morello, Nicky Phillips, Quirin Schiermeier, Jeff Tollefson, … Alexandra Witze<br />
 <em>Nature</em> (2017-12-21) <a href="https://doi.org/chnh">https://doi.org/chnh</a><br />
-DOI: <a href="https://doi.org/10.1038/d41586-017-08493-x">10.1038/d41586-017-08493-x</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/29293246">29293246</a></p>
+DOI: <a href="https://doi.org/10.1038/d41586-017-08493-x">10.1038/d41586-017-08493-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29293246">29293246</a></p>
 </div>
 <div id="ref-15nwuvjrA">
 <p>36. <strong>Vagelos Report Summer 2017</strong><br />
@@ -567,7 +562,7 @@ Daniel Himmelstein<br />
 <p>38. <strong>Systematic integration of biomedical knowledge prioritizes drugs for repurposing</strong><br />
 Daniel Scott Himmelstein, Antoine Lizee, Christine Hessler, Leo Brueggeman, Sabrina L Chen, Dexter Hadley, Ari Green, Pouya Khankhanian, Sergio E Baranzini<br />
 <em>eLife</em> (2017-09-22) <a href="https://doi.org/cdfk">https://doi.org/cdfk</a><br />
-DOI: <a href="https://doi.org/10.7554/elife.26726">10.7554/elife.26726</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/28936969">28936969</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5640425">PMC5640425</a></p>
+DOI: <a href="https://doi.org/10.7554/elife.26726">10.7554/elife.26726</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28936969">28936969</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5640425">PMC5640425</a></p>
 </div>
 <div id="ref-14cVrrqP1">
 <p>39. <strong>Kipoi: accelerating the community exchange and reuse of predictive models for genomics</strong><br />
@@ -579,19 +574,19 @@ DOI: <a href="https://doi.org/10.1101/375345">10.1101/375345</a></p>
 <p>40. <strong>Ten Simple Rules for Writing a Literature Review</strong><br />
 Marco Pautasso<br />
 <em>PLoS Computational Biology</em> (2013-07-18) <a href="https://doi.org/gcx9dm">https://doi.org/gcx9dm</a><br />
-DOI: <a href="https://doi.org/10.1371/journal.pcbi.1003149">10.1371/journal.pcbi.1003149</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/23874189">23874189</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3715443">PMC3715443</a></p>
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1003149">10.1371/journal.pcbi.1003149</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23874189">23874189</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3715443">PMC3715443</a></p>
 </div>
 <div id="ref-jYs2OUFW">
 <p>41. <strong>A Stronger Post-Publication Culture Is Needed for Better Science</strong><br />
 Hilda Bastian<br />
 <em>PLoS Medicine</em> (2014-12-30) <a href="https://doi.org/gdm9cj">https://doi.org/gdm9cj</a><br />
-DOI: <a href="https://doi.org/10.1371/journal.pmed.1001772">10.1371/journal.pmed.1001772</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/25548904">25548904</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4280106">PMC4280106</a></p>
+DOI: <a href="https://doi.org/10.1371/journal.pmed.1001772">10.1371/journal.pmed.1001772</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25548904">25548904</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4280106">PMC4280106</a></p>
 </div>
 <div id="ref-HflJ6Hy5">
 <p>42. <strong>Post-Publication Peer Review: Opening Up Scientific Conversation</strong><br />
 Jane Hunter<br />
 <em>Frontiers in Computational Neuroscience</em> (2012) <a href="https://doi.org/gdm9cm">https://doi.org/gdm9cm</a><br />
-DOI: <a href="https://doi.org/10.3389/fncom.2012.00063">10.3389/fncom.2012.00063</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22969719">22969719</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3431010">PMC3431010</a></p>
+DOI: <a href="https://doi.org/10.3389/fncom.2012.00063">10.3389/fncom.2012.00063</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22969719">22969719</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3431010">PMC3431010</a></p>
 </div>
 <div id="ref-uw5bep8P">
 <p>43. <strong>Post-publication peer review, in all its guises, is here to stay</strong><br />
@@ -613,7 +608,7 @@ Andrej Bauer<br />
 <p>46. <strong>A multi-disciplinary perspective on emergent and future innovations in peer review</strong><br />
 Jonathan P. Tennant, Jonathan M. Dugan, Daniel Graziotin, Damien C. Jacques, François Waldner, Daniel Mietchen, Yehia Elkhatib, Lauren B. Collister, Christina K. Pikas, Tom Crick, … Julien Colomb<br />
 <em>F1000Research</em> (2017-11-01) <a href="https://doi.org/gc5tcv">https://doi.org/gc5tcv</a><br />
-DOI: <a href="https://doi.org/10.12688/f1000research.12037.2">10.12688/f1000research.12037.2</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/29188015">29188015</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5686505">PMC5686505</a></p>
+DOI: <a href="https://doi.org/10.12688/f1000research.12037.2">10.12688/f1000research.12037.2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29188015">29188015</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5686505">PMC5686505</a></p>
 </div>
 <div id="ref-82ZjWq3i">
 <p>47. <strong>Nearly 100 scientists spent 2 months on Google Docs to redefine the p-value. Here’s what they came up with</strong><br />
@@ -728,13 +723,13 @@ Coraline Ada Ehmke<br />
 <p>67. <strong>The academic, economic and societal impacts of Open Access: an evidence-based review</strong><br />
 Jonathan P. Tennant, François Waldner, Damien C. Jacques, Paola Masuzzo, Lauren B. Collister, Chris. H. J. Hartgerink<br />
 <em>F1000Research</em> (2016-09-21) <a href="https://doi.org/gbqrbc">https://doi.org/gbqrbc</a><br />
-DOI: <a href="https://doi.org/10.12688/f1000research.8460.3">10.12688/f1000research.8460.3</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/27158456">27158456</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837983">PMC4837983</a></p>
+DOI: <a href="https://doi.org/10.12688/f1000research.8460.3">10.12688/f1000research.8460.3</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27158456">27158456</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4837983">PMC4837983</a></p>
 </div>
 <div id="ref-HQfvK1OF">
 <p>68. <strong>How open science helps researchers succeed</strong><br />
 Erin C McKiernan, Philip E Bourne, C Titus Brown, Stuart Buck, Amye Kenall, Jennifer Lin, Damon McDougall, Brian A Nosek, Karthik Ram, Courtney K Soderberg, … Tal Yarkoni<br />
 <em>eLife</em> (2016-07-07) <a href="https://doi.org/gbqsng">https://doi.org/gbqsng</a><br />
-DOI: <a href="https://doi.org/10.7554/elife.16800">10.7554/elife.16800</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/27387362">27387362</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4973366">PMC4973366</a></p>
+DOI: <a href="https://doi.org/10.7554/elife.16800">10.7554/elife.16800</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27387362">27387362</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4973366">PMC4973366</a></p>
 </div>
 <div id="ref-g6WVoxNy">
 <p>69. <strong>The Legal Framework for Reproducible Scientific Research: Licensing and Copyright</strong><br />
@@ -746,31 +741,31 @@ DOI: <a href="https://doi.org/10.1109/mcse.2009.19">10.1109/mcse.2009.19</a></p>
 <p>70. <strong>Legal confusion threatens to slow data science</strong><br />
 Simon Oxenham<br />
 <em>Nature</em> (2016-08-03) <a href="https://doi.org/bndt">https://doi.org/bndt</a><br />
-DOI: <a href="https://doi.org/10.1038/536016a">10.1038/536016a</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/27488781">27488781</a></p>
+DOI: <a href="https://doi.org/10.1038/536016a">10.1038/536016a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27488781">27488781</a></p>
 </div>
 <div id="ref-gvyja7v1">
 <p>71. <strong>Enhancing reproducibility for computational methods</strong><br />
 V. Stodden, M. McNutt, D. H. Bailey, E. Deelman, Y. Gil, B. Hanson, M. A. Heroux, J. P. A. Ioannidis, M. Taufer<br />
 <em>Science</em> (2016-12-08) <a href="https://doi.org/gbr42b">https://doi.org/gbr42b</a><br />
-DOI: <a href="https://doi.org/10.1126/science.aah6168">10.1126/science.aah6168</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/27940837">27940837</a></p>
+DOI: <a href="https://doi.org/10.1126/science.aah6168">10.1126/science.aah6168</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27940837">27940837</a></p>
 </div>
 <div id="ref-rgo1TZr">
 <p>72. <strong>The case for open computer programs</strong><br />
 Darrel C. Ince, Leslie Hatton, John Graham-Cumming<br />
 <em>Nature</em> (2012-02-22) <a href="https://doi.org/hqg">https://doi.org/hqg</a><br />
-DOI: <a href="https://doi.org/10.1038/nature10836">10.1038/nature10836</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22358837">22358837</a></p>
+DOI: <a href="https://doi.org/10.1038/nature10836">10.1038/nature10836</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22358837">22358837</a></p>
 </div>
 <div id="ref-1A97a4UwU">
 <p>73. <strong>The Open Knowledge Foundation: Open Data Means Better Science</strong><br />
 Jennifer C. Molloy<br />
 <em>PLoS Biology</em> (2011-12-06) <a href="https://doi.org/g3b">https://doi.org/g3b</a><br />
-DOI: <a href="https://doi.org/10.1371/journal.pbio.1001195">10.1371/journal.pbio.1001195</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/22162946">22162946</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232214">PMC3232214</a></p>
+DOI: <a href="https://doi.org/10.1371/journal.pbio.1001195">10.1371/journal.pbio.1001195</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22162946">22162946</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3232214">PMC3232214</a></p>
 </div>
 <div id="ref-17EdosXzD">
 <p>74. <strong>This revolution will be digitized: online tools for radical collaboration</strong><br />
 C. Patil, V. Siegel<br />
 <em>Disease Models &amp; Mechanisms</em> (2009-04-30) <a href="https://doi.org/fvjhcj">https://doi.org/fvjhcj</a><br />
-DOI: <a href="https://doi.org/10.1242/dmm.003285">10.1242/dmm.003285</a> · PMID: <a href="http://www.ncbi.nlm.nih.gov/pubmed/19407323">19407323</a> · PMCID: <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675795">PMC2675795</a></p>
+DOI: <a href="https://doi.org/10.1242/dmm.003285">10.1242/dmm.003285</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/19407323">19407323</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2675795">PMC2675795</a></p>
 </div>
 <div id="ref-1pWYlPj4">
 <p>75. <strong>Publishing the research process</strong><br />
@@ -779,6 +774,430 @@ Daniel Mietchen, Ross Mounce, Lyubomir Penev<br />
 DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 </div>
 </div>
+<!-- default theme -->
+<style>
+
+    /* import google fonts */
+    @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+    @import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+    /* -------------------------------------------------- */
+    /* global */
+    /* -------------------------------------------------- */
+
+    /* all elements */
+    * {
+        /* force sans-serif font unless specified otherwise */
+        font-family: "Open Sans", "Helvetica", sans-serif;
+    }
+
+    /* "page" element */
+    body {
+        position: relative;
+        box-sizing: border-box;
+        /* make resemble paper */
+        max-width: 8.5in;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 20px auto;
+        padding: 40px;
+        border-radius: 4px;
+        background: #ffffff;
+        box-shadow: 0 0 15px #bbbbbb;
+    }
+
+    /* when on screen < 8.5in wide */
+    @media only screen and (max-width: 8.5in) {
+        /* "page" element */
+        body {
+            /* reduce padding to fit more text on screen */
+            padding: 20px;
+            /* remove the "paper" look */
+            margin: 0;
+            box-shadow: none;
+        }
+    }
+
+    /* -------------------------------------------------- */
+    /* headings */
+    /* -------------------------------------------------- */
+
+    /* all headings */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 20px 0;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    /* biggest heading */
+    h1 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    /* second biggest heading */
+    h2 {
+        margin-top: 30px;
+        padding-bottom: 5px;
+        /* underline */
+        border-bottom: solid 1px #bbbbbb;
+    }
+
+    /* -------------------------------------------------- */
+    /* manuscript header */
+    /* -------------------------------------------------- */
+
+    /* manuscript title */
+    header > h1 {
+        margin: 0;
+    }
+
+    /* manuscript title caption text (ie "automatically generated on") */
+    header + p {
+        text-align: center;
+        margin-top: 0;
+    }
+
+    /* -------------------------------------------------- */
+    /* text elements */
+    /* -------------------------------------------------- */
+
+    /* links */
+    a {
+        color: #2196f3;
+    }
+
+    /* superscripts and subscripts */
+    sub,
+    sup {
+        /* prevent from affecting line height */
+        line-height: 0;
+    }
+
+    /* unordered and ordered lists*/
+    ul,
+    ol {
+        /* align similarly to other elements */
+        padding-left: 20px;
+    }
+
+    /* -------------------------------------------------- */
+    /* section elements */
+    /* -------------------------------------------------- */
+
+    /* horizontal divider line */
+    hr {
+        border: none;
+        height: 1px;
+        background: #bbbbbb;
+    }
+
+    /* paragraphs, horizontal dividers, figures, and tables */
+    p,
+    hr,
+    figure,
+    table {
+        /* treat all as "paragraphs", with consistent vertical margins */
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* figures and tables */
+    figure,
+    table {
+        /* horizontally center */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* -------------------------------------------------- */
+    /* figures */
+    /* -------------------------------------------------- */
+
+    /* figure container */
+    figure {
+        max-width: 100%;
+        /* horizontally center */
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* figure caption */
+    figcaption {
+        margin: 10px 20px 0 20px;
+    }
+
+    /* figure auto-number */
+    figcaption > span:first-child {
+        font-weight: 600;
+        margin-right: 5px;
+    }
+
+    /* figure image element */
+    figure img {
+        /* squash image if too wide for page */
+        max-width: 100%;
+        /* horizontally center */
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* -------------------------------------------------- */
+    /* tables */
+    /* -------------------------------------------------- */
+
+    /* table container */
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* table caption */
+    caption {
+        text-align: left;
+        margin: 0 20px 10px 20px;
+    }
+
+    /* table auto-number */
+    caption > span:first-child {
+        font-weight: 600;
+        margin-right: 5px;
+    }
+
+    /* table cells */
+    th,
+    td {
+        border: solid 1px #bbbbbb;
+        padding: 10px;
+        /* squash table if too wide for page by forcing line breaks */
+        /* put line break break anywhere in text */
+        word-break: break-all;
+        /* put line break between words. if not supported by browser, will fall back to break-all */
+        word-break: break-word;
+    }
+
+    /* header row and even rows */
+    th,
+    tr:nth-child(2n) {
+        background-color: #f8f8f8;
+    }
+
+    /* odd rows */
+    tr:nth-child(2n + 1) {
+        background-color: #ffffff;
+    }
+
+    /* -------------------------------------------------- */
+    /* code */
+    /* -------------------------------------------------- */
+
+    /* multi-line code block */
+    pre {
+        /* give grey box background */
+        padding: 10px;
+        background-color: #f0f0f0;
+        border: solid 1px #bbbbbb;
+        border-radius: 4px;
+    }
+
+    /* inline code, ie code within normal text */
+    /* a piece of code not already surrounded by a code block */
+    :not(pre) > code {
+        /* give grey box background */
+        padding: 1px 5px;
+        background-color: #f0f0f0;
+        border: solid 1px #bbbbbb;
+        border-radius: 4px;
+    }
+
+    /* code text */
+    /* apply all children, to reach syntax highlighting sub-elements */
+    code,
+    code * {
+        /* force monospace font */
+        font-family: "Source Code Pro", "Courier New", monospace;
+        /* reduce font size to match relative size of main font */
+        font-size: 14px;
+    }
+
+    /* -------------------------------------------------- */
+    /* quotes */
+    /* -------------------------------------------------- */
+
+    /* quoted text */
+    blockquote {
+        margin: 0;
+        padding: 0;
+        border-left: 4px solid #bbbbbb;
+        /* align similarly to other elements */
+        padding-left: 16px;
+    }
+
+    /* -------------------------------------------------- */
+    /* mathjax */
+    /* -------------------------------------------------- */
+
+    /* all first-generation children of mathjax containers */
+    .math.display > span {
+        overflow: auto hidden !important;
+        /* turn inline element (no dimensions) into block (allows fixed width and thus scrolling) */
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        /* remove mathjax margins */
+        margin: 0 !important;
+    }
+
+    /* right click menu */
+    .MathJax_Menu {
+        border: none !important;
+        border-radius: 4px !important;
+        box-shadow: 0 0 15px #bbbbbb !important;
+    }
+
+    /* -------------------------------------------------- */
+    /* buttons */
+    /* -------------------------------------------------- */
+
+    /* class for styling links like buttons */
+    .button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        padding: 10px 20px;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-decoration: none;
+        letter-spacing: 1px;
+        background: none;
+        color: #2196f3;
+        border: solid 1px #bbbbbb;
+        border-radius: 4px;
+    }
+
+    /* buttons when hovered */
+    .button:hover:not([disabled]),
+    .icon_button:hover:not([disabled]) {
+        cursor: pointer;
+        background: #f0f0f0;
+    }
+
+    /* buttons when disabled */
+    .button[disabled],
+    .icon_button[disabled] {
+        opacity: 0.35;
+        pointer-events: none;
+    }
+
+    /* class for styling buttons containg only single icon (used in plugins) */
+    .icon_button {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 0;
+        padding: 0;
+        background: none;
+        border-radius: 4px;
+        border: none;
+        width: 20px;
+        height: 20px;
+    }
+
+    /* -------------------------------------------------- */
+    /* icons */
+    /* -------------------------------------------------- */
+
+    /* class for styling icons inline with text */
+    .inline_icon {
+        height: 1em;
+        position: relative;
+        top: 0.125em;
+    }
+
+    /* -------------------------------------------------- */
+    /* when printing */
+    /* -------------------------------------------------- */
+
+    /* paper/page size and margins */
+    @page {
+        size: letter;
+        margin-top: 0.75in;
+        margin-bottom: 0.75in;
+        margin-left: 0.75in;
+        margin-right: 0.75in;
+    }
+
+    @media print {
+        /* page element */
+        body {
+            /* remove margin and padding; go right up to page margins */
+            margin: 0;
+            padding: 0;
+            /* remove "paper" effect */
+            box-shadow: none;
+            /* make font size smaller to fit more words on page */
+            font-size: 12px;
+        }
+
+        /* all h2 headings except the first */
+        h2:not(:first-of-type) {
+            /* force page break */
+            page-break-before: always !important;
+        }
+
+        /* always insert a page break before the element */
+        .page_break_before {
+            page-break-before: always !important;
+        }
+
+        /* always insert a page break after the element */
+        .page_break_after {
+            page-break-after: always !important;
+        }
+
+        /* avoid page break before the element */
+        .page_break_before_avoid {
+            page-break-before: avoid !important;
+        }
+
+        /* avoid page break after the element */
+        .page_break_after_avoid {
+            page-break-after: avoid !important;
+        }
+
+        /* avoid page break inside the element */
+        .page_break_inside_avoid {
+            page-break-inside: avoid !important;
+        }
+    }
+
+    /* -------------------------------------------------- */
+    /* override pandoc css quirks */
+    /* -------------------------------------------------- */
+
+    .sourceCode {
+        /* prevent unsightly overflow in wide code blocks */
+        overflow: auto !important;
+    }
+
+</style>
+<!-- Insert Analytics Script Below -->
+<script>
+</script>
+<!-- End Analytics Script -->
 <script>
 // AnchorJS minified version below.
 // Source https://github.com/bryanbraun/anchorjs/blob/064abdd0987f305933ec4982af6d0c1cf2fd0814/anchor.js
