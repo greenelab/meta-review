@@ -41,6 +41,11 @@ This a totally minor point, but it might help to attract new people.
 > You need to have a long-term archive (e.g. Zenodo) of manubot (just in case GitHub closes tomorrow).
 Or you can use a Software Heritage identifier to make sure manubot can still be found in a few years.
 
+This feedback was discussed in [GH135](https://github.com/greenelab/meta-review/issues/135) and addressed in [GH159](https://github.com/greenelab/meta-review/pull/159).
+We created GitLab mirrors of important Manubot repositories, to provide access to Manubot's latest source code during any GitHub downtime.
+We also added Software Heritage identifiers, to preserve access to Manubot's source code via snapshots.
+We found this preferable to Zenodo archiving because we were not ready to commit to perpetually maintaining Zenodo records that potentially require manual edits and therefore increase the effort required to make releases.
+
 > On the Authorship, how do you give credits to people having participated in a work (e.g. did all the experiment) but did not commit anything on the manuscript?
 
 > On the Authorship, how do you deal with people being not identified (e.g. only a GitHub pseudo)?
