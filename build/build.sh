@@ -16,7 +16,6 @@ manubot process \
 
 # pandoc settings
 CSL_PATH=build/assets/style.csl
-DOCX_PATH=build/assets/pandoc-reference.docx
 BIBLIOGRAPHY_PATH=output/references.json
 INPUT_PATH=output/manuscript.md
 
@@ -36,10 +35,10 @@ pandoc --verbose \
   --csl=$CSL_PATH \
   --metadata link-citations=true \
   --mathjax \
-  --css=github-pandoc.css \
-  --include-in-header=build/assets/analytics.html \
-  --include-after-body=build/assets/anchors.html \
-  --include-after-body=build/assets/hypothesis.html \
+  --include-after-body=build/themes/default.html \
+  --include-after-body=build/plugins/analytics.html \
+  --include-after-body=build/plugins/anchors.html \
+  --include-after-body=build/plugins/hypothesis.html \
   --output=output/manuscript.html \
   $INPUT_PATH
 
@@ -60,7 +59,7 @@ if [ "$BUILD_PDF" != "false" ]; then
     --csl=$CSL_PATH \
     --metadata link-citations=true \
     --webtex=https://latex.codecogs.com/svg.latex? \
-    --css=webpage/github-pandoc.css \
+    --include-after-body=build/themes/default.html \
     --output=output/manuscript.pdf \
     $INPUT_PATH
   rm images
@@ -78,7 +77,7 @@ if [ "$BUILD_DOCX" = "true" ]; then
     --bibliography=$BIBLIOGRAPHY_PATH \
     --csl=$CSL_PATH \
     --metadata link-citations=true \
-    --reference-doc=$DOCX_PATH \
+    --reference-doc=build/themes/default.docx \
     --resource-path=.:content \
     --output=output/manuscript.docx \
     $INPUT_PATH
