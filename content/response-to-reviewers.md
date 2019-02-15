@@ -44,7 +44,9 @@ Or you can use a Software Heritage identifier to make sure manubot can still be 
 This feedback was discussed in [GH135](https://github.com/greenelab/meta-review/issues/135) and addressed in [GH159](https://github.com/greenelab/meta-review/pull/159).
 We created GitLab mirrors of important Manubot repositories, to provide access to Manubot's latest source code during any GitHub downtime.
 We also added Software Heritage identifiers, to preserve access to Manubot's source code via snapshots.
-We found this preferable to Zenodo archiving because we were not ready to commit to perpetually maintaining Zenodo records that potentially require manual edits and therefore increase the effort required to make releases.
+We found this preferable to Zenodo archiving because we were not ready to commit to perpetually maintaining Zenodo records that potentially require manual edits.
+Currently, deployment of [releases to PyPI](https://pypi.org/project/manubot/#history) is [fully automated](https://github.com/manubot/manubot/blob/81394c0a8153fa3ad41ee3cb987227c8ea043125/.travis.yml#L16-L25).
+In the interest of frequent releases, we want to keep the effort required to make a release minimal.
 
 > On the Authorship, how do you give credits to people having participated in a work (e.g. did all the experiment) but did not commit anything on the manuscript?
 
