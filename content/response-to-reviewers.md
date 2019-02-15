@@ -67,6 +67,7 @@ Would be nice to give some date at this point.
 > `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
 We now state the full license name in the link text: `Creative Commons Attribution 4.0 International (CC BY 4.0) license`.
+See [GH145](https://github.com/greenelab/meta-review/issues/145) and [GH154](https://github.com/greenelab/meta-review/pull/154) for the discussion and edits.
 
 > `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
@@ -102,6 +103,8 @@ To make this more explicit, the updated abstract now states:
 
 `New tools and workflows that rely on automation can catch errors and ensure that contributions are fairly tracked in massively collaborative research.`
 
+See [GH115](https://github.com/greenelab/meta-review/issues/115) and [GH153](https://github.com/greenelab/meta-review/pull/153) for the discussion and edits.
+
 > footnote placement in rendered manuscript should be left-adjusted.
 in the PDF I have in front of me, the footnotes at end of sentences are not left-flush with the period.
 this is a minor nit but a nit nonetheless :).
@@ -113,6 +116,8 @@ the number 7 seems to refer to a citation (at least that's the hover view) but s
 We have clarified that this reference is a citation and now state:
 
 `GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications, as described by Johnny Israeli [ref].`
+
+See [GH117](https://github.com/greenelab/meta-review/issues/117) and [GH152](https://github.com/greenelab/meta-review/pull/152) for the discussion and edits.
 
 > `We use GitHub issues for organization`.
 is there anything special about how manubot links to and from issues in the text?
