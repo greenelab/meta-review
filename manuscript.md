@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-02-14'
+date-meta: '2019-02-15'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/03a932207e093022452254ced5821bd5bd716979/))
+([permalink](https://greenelab.github.io/meta-review/v/1fb238b6b1430681a40dc9b1009ad9c34d95ec80/))
 was automatically generated
-from [greenelab/meta-review@03a9322](https://github.com/greenelab/meta-review/tree/03a932207e093022452254ced5821bd5bd716979)
-on February 14, 2019.
+from [greenelab/meta-review@1fb238b](https://github.com/greenelab/meta-review/tree/1fb238b6b1430681a40dc9b1009ad9c34d95ec80)
+on February 15, 2019.
 </em></small>
 
 ## Authors
@@ -219,6 +219,7 @@ Manual CSL JSON also supports references without standard identifiers, such as p
 | Identifier | Metadata source | Example citation | Processed citation |
 | --- | --- | --- | --- |
 | Digital Object Identifier (DOI) | DOI [Content Negotiation](https://citation.crosscite.org/docs.html) | `doi:10.1098/rsif.2017.0387` | [@PZMP42Ak] |
+| shortDOI | DOI Proxy Server REST API | `doi:10/gddkhn` | [@PZMP42Ak] |
 | PubMed Identifier (PMID) | NCBI [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | `pmid:25851694` | [@LfJGtB83] |
 | PubMed Central Identifier (PMCID) | NCBI [Literature Citation Exporter](https://api.ncbi.nlm.nih.gov/lit/ctxp/) | `pmcid:PMC4719068` | [@12sHvZy1a] |
 | arXiv ID | [arXiv API](https://arxiv.org/help/api/index) | `arxiv:1502.04015v1` | [@Y2XyzLMc] |
@@ -268,11 +269,12 @@ The idea of the "priority of discovery" is important to science, and Vale and Hy
 In their framework, disclosure occurs when a scientific output is released to the world.
 However, for a manuscript that is shared as it is written, being able to establish priority could be challenging.
 Manubot supports [OpenTimestamps](https://opentimestamps.org/) to timestamp the HTML and PDF outputs on the Bitcoin blockchain.
-This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [@Y2XyzLMc; @6MR50hyY; @QBWMEuxW; @6yyYojgV].
+This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [@Y2XyzLMc; @6MR50hyY; @QBWMEuxW; @qh60RjR0; @6yyYojgV].
 Timestamps protect against attempts to rewrite a manuscript's history and ensure accurate histories, potentially alleviating certain authorship or priority disputes.
 Because all bitcoin transactions compete for limited space on the blockchain, the fees required to send a single transaction can be high.
-OpenTimestamps avoids this fee by encoding many timestamps into a single Bitcoin transaction [@1DG704X8Q].
-There can be a lag of a few hours before the transaction is made, which is suitable for the purposes of scientific writing.
+OpenTimestamps minimizes fees by encoding many timestamps into a single Bitcoin transaction, enabling the service to be free of charge [@1DG704X8Q].
+Since transactions can take up to a few days to be made, Manubot initially stores incomplete timestamps and upgrades them in future continuous deployment builds.
+We find that this asynchronous design with timestamps precise to the day is suitable for the purposes of scientific writing.
 
 Manubot and its dependencies are free of charge and largely open source.
 It does rely on gratis services from two proprietary platforms: GitHub and Travis CI.
