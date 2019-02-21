@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-02-15'
+date-meta: '2019-02-21'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/83b701d395c4977c6fe5ba0c5201a897f7109e78/))
+([permalink](https://greenelab.github.io/meta-review/v/1bb5c480a22d4ae22dab1541776bdb4f698bc737/))
 was automatically generated
-from [greenelab/meta-review@83b701d](https://github.com/greenelab/meta-review/tree/83b701d395c4977c6fe5ba0c5201a897f7109e78)
-on February 15, 2019.
+from [greenelab/meta-review@1bb5c48](https://github.com/greenelab/meta-review/tree/1bb5c480a22d4ae22dab1541776bdb4f698bc737)
+on February 21, 2019.
 </em></small>
 
 ## Authors
@@ -104,7 +104,7 @@ The internet enables science to be shared in real-time at a low cost to a global
 This development has decreased the barriers to making science open, while supporting new massively collaborative models of research.
 However, the scientific community requires tools whose workflows encourage openness.
 Manuscripts are the cornerstone of scholarly communication, but drafting and publishing manuscripts has traditionally relied on proprietary or offline tools that do not support _open scholarly writing_, in which anyone is able to contribute and the contribution history is preserved and public.
-We introduce [Manubot](https://github.com/greenelab/manubot-rootstock), a new tool and infrastructure for authoring scholarly manuscripts in the open, and report how it was instrumental for the collaborative project that led to its creation.
+We introduce [Manubot](https://manubot.org), a new tool and infrastructure for authoring scholarly manuscripts in the open, and report how it was instrumental for the collaborative project that led to its creation.
 
 Based on our experience leading a recent open review [@16CgM2x0z], we discuss the advantages and challenges of open collaborative writing, a form of crowdsourcing [@12sHvZy1a].
 Our review manuscript [@PZMP42Ak] was code-named the Deep Review and surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
@@ -201,7 +201,7 @@ As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315
 
 ## Manubot
 
-Manubot is a system for writing scholarly manuscripts via GitHub that is built upon our [Python package](https://github.com/greenelab/manubot) of the same name.
+Manubot is a system for writing scholarly manuscripts via GitHub that is built upon our [Python package](https://github.com/manubot/manubot) of the same name.
 With Manubot, manuscripts are written as plain-text Markdown files, which is well suited for version control using git.
 The Markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists.
 In addition, Manubot relies on extensions from [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
@@ -282,7 +282,7 @@ Fortunately, lock-in to these services is minimal, and several substitutes alrea
 Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF] and is well suited for preserving provenance.
 For example, figures can be specified using versioned URLs that refer to the code that created them.
 In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them.
-An [example repository](https://github.com/greenelab/manubot-rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
+An [example repository](https://github.com/manubot/rootstock) demonstrates Manubot's features and serves as a template for users to write their own manuscript with Manubot.
 
 Since its creation to facilitate the Deep Review, Manubot has been used to write a variety of scholarly documents.
 The [Sci-Hub Coverage Study](https://github.com/greenelab/scihub-manuscript) --- performed openly on GitHub from its inception --- investigated Sci-Hub's repository of pirated articles [@IhliSZDo].
@@ -406,6 +406,14 @@ Manubot is an ideal authoring protocol for real-time open science, especially fo
 While Manubot does require technical expertise, the benefits are manyfold.
 Specifically, Manubot demonstrates a system for publishing that is transparent, reproducible, immediate, permissionless, versioned, automated, collaborative, open, linked, provenanced, decentralized, hackable, interactive, annotated, and free of charge.
 These attributes empower integrating Manubot with an ecosystem of other community-driven tools to make science as open and collaborative as possible.
+
+## Code and data availability
+
+The source code and data for this manuscript are available at <https://github.com/greenelab/meta-review> and archived via Software Heritage identifier [`swh:1:dir:5e644c3a487081b272b2c9b52bcd55caa89c4f85`](https://archive.softwareheritage.org/swh:1:dir:5e644c3a487081b272b2c9b52bcd55caa89c4f85;origin=https://github.com/greenelab/meta-review/).
+Source code for Manubot resides in the following repositories:
+
++ <https://github.com/manubot/manubot> ([GitLab mirror](https://gitlab.com/manubot/manubot), archived at [`swh:1:dir:1f820c7aa29a5971e7e8e129cc62682131cda19f`](https://archive.softwareheritage.org/swh:1:dir:1f820c7aa29a5971e7e8e129cc62682131cda19f;origin=https://github.com/greenelab/manubot/), packaged on [PyPI](https://pypi.org/project/manubot/))
++ <https://github.com/manubot/rootstock> ([GitLab mirror](https://gitlab.com/manubot/rootstock), archived at [`swh:1:dir:dfdf5d0fde7fa32d6559c817f37878de93e32916`](https://archive.softwareheritage.org/swh:1:dir:dfdf5d0fde7fa32d6559c817f37878de93e32916;origin=https://github.com/greenelab/manubot-rootstock/)).
 
 
 ## Acknowledgments
