@@ -21,3 +21,4 @@ dependencies:
 - conda-forge::r-lubridate=1.6.0
 - conda-forge::r-readr=1.1.0
 - conda-forge::r-tidyr=0.6.1
+- conda-forge::tornado=4.5.3
