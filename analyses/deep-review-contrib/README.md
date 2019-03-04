@@ -9,3 +9,5 @@ conda env create --file environment.yml
 source activate contrib-viz
 Rscript install-manual-r-dependencies.r
 ```
+
+The environment was updated to be compatible with binder after the notebooks were originally run.
