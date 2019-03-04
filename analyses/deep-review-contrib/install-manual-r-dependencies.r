@@ -1,6 +1,6 @@
 packages = c(
-  'https://cran.r-project.org/src/contrib/svglite_1.2.1.tar.gz',
-  'https://cran.r-project.org/src/contrib/Archive/ggridges/ggridges_0.4.1.tar.gz'
+  'https://cran.r-project.org/package=svglite&version=1.2.1',
+  'https://cran.r-project.org/package=ggridges&version=0.4.1'
 )
 
 utils::install.packages(pkgs = packages, repos = NULL)
