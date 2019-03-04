@@ -1,1 +1,2 @@
 Rscript analyses/deep-review-contrib/install-manual-r-dependencies.r
+jupyter kernelspec list
