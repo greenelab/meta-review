@@ -1,4 +1,4 @@
 Rscript analyses/deep-review-contrib/install-manual-r-dependencies.r
-conda env list
-jupyter kernelspec list
-cat /srv/conda/share/jupyter/kernels/ir/kernel.json
+conda env list >> log.txt
+jupyter kernelspec list >> log.txt
+cat /srv/conda/share/jupyter/kernels/ir/kernel.json >> log.txt
