@@ -1,0 +1,3 @@
+Rscript analyses/deep-review-contrib/install-manual-r-dependencies.r
+sed -i 's/R \[conda env:contrib-viz\]/R \[conda env:conda\]/g' analyses/deep-review-contrib/02.contrib-viz.ipynb
+sed -i 's/conda-env-contrib-viz-r/conda-env-conda-r/g' analyses/deep-review-contrib/02.contrib-viz.ipynb
