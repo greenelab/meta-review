@@ -1,6 +1,1 @@
-source /srv/conda/etc/profile.d/conda.sh
-conda create --name contrib-viz --clone root
-conda activate contrib-viz
 Rscript analyses/deep-review-contrib/install-manual-r-dependencies.r
-conda env list >> log.txt
-jupyter kernelspec list >> log.txt
