@@ -8,3 +8,4 @@ This directory contains configuration files to support running the `deep-review-
 
 The container that Binder prepares does not create and activate a new named environment from `environment.yml`.
 Rather, it uses `environment.yml` to update a preconfigured root environment with the specified packages.
+The repository contains a tag named `binder` that indicates the stable snapshot of the environment and notebooks that will be loaded by Binder.
