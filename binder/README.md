@@ -1,4 +1,4 @@
-environment# Executable notebooks in Binder
+# Executable notebooks in Binder
 
 This directory contains configuration files to support running the `deep-review-contrib` Jupyter notebooks in [Binder](https://mybinder.readthedocs.io/en/latest/).
 
