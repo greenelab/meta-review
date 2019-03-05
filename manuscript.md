@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-02-21'
+date-meta: '2019-03-05'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/1bb5c480a22d4ae22dab1541776bdb4f698bc737/))
+([permalink](https://greenelab.github.io/meta-review/v/313023e4a6b713557163137b25cccb4f530ad919/))
 was automatically generated
-from [greenelab/meta-review@1bb5c48](https://github.com/greenelab/meta-review/tree/1bb5c480a22d4ae22dab1541776bdb4f698bc737)
-on February 21, 2019.
+from [greenelab/meta-review@313023e](https://github.com/greenelab/meta-review/tree/313023e4a6b713557163137b25cccb4f530ad919)
+on March 5, 2019.
 </em></small>
 
 ## Authors
@@ -197,6 +197,7 @@ The Deep Review was initiated in August 2016, and the first complete manuscript 
 While the article was under review, we continued to maintain the project and accepted new contributions.
 The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [@PZMP42Ak].
 As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315 merged pull requests, 537 issues, and 616 GitHub stars.
+The notebook to generate this figure can be [interactively launched using Binder](https://mybinder.org/v2/gh/greenelab/meta-review/binder?filepath=analyses/deep-review-contrib/02.contrib-viz.ipynb) [@Q20Bxdsr], enabling users to explore alternative visualizations or analyses of the source data.
 ](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
 
 ## Manubot

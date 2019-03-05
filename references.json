@@ -2156,6 +2156,86 @@
     "id": "1ESYVbN4H"
   },
   {
+    "publisher": "SciPy",
+    "DOI": "10.25080/majora-4af1f417-011",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "Binder 2.0 - Reproducible, interactive, sharable environments for science at scale",
+    "author": [
+      {
+        "given": "Project",
+        "family": "Jupyter"
+      },
+      {
+        "given": "Matthias",
+        "family": "Bussonnier"
+      },
+      {
+        "given": "Jessica",
+        "family": "Forde"
+      },
+      {
+        "given": "Jeremy",
+        "family": "Freeman"
+      },
+      {
+        "given": "Brian",
+        "family": "Granger"
+      },
+      {
+        "given": "Tim",
+        "family": "Head"
+      },
+      {
+        "given": "Chris",
+        "family": "Holdgraf"
+      },
+      {
+        "given": "Kyle",
+        "family": "Kelley"
+      },
+      {
+        "given": "Gladys",
+        "family": "Nalvarte"
+      },
+      {
+        "given": "Andrew",
+        "family": "Osheroff"
+      },
+      {
+        "given": "M",
+        "family": "Pacer"
+      },
+      {
+        "given": "Yuvi",
+        "family": "Panda"
+      },
+      {
+        "given": "Fernando",
+        "family": "Perez"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Ragan-Kelley"
+      },
+      {
+        "given": "Carol",
+        "family": "Willing"
+      }
+    ],
+    "event": "Python in Science Conference",
+    "container-title": "Proceedings of the 17th Python in Science Conference",
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfwcm6",
+    "id": "Q20Bxdsr"
+  },
+  {
     "publisher": "Frontiers Media SA",
     "DOI": "10.3389/fncom.2012.00063",
     "type": "article-journal",
@@ -3072,8 +3152,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -3178,8 +3258,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -3209,8 +3289,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -3276,8 +3356,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -3327,8 +3407,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -3498,8 +3578,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -3514,8 +3594,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
@@ -3529,8 +3609,8 @@
       "date-parts": [
         [
           "2019",
-          2,
-          21
+          3,
+          5
         ]
       ]
     },
