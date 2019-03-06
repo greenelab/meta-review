@@ -5,9 +5,8 @@ The notebooks in this directory rely on the `contrib-viz` conda environment, whi
 ```sh
 conda env create --file environment.yml
 
-# install R dependencies not on conda-forge
-source activate contrib-viz
-Rscript install-manual-r-dependencies.r
+# activate environment
+conda activate contrib-viz
 ```
 
 The environment was updated to be compatible with Binder after the notebooks were originally run.
