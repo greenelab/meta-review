@@ -2,16 +2,16 @@ name: contrib-viz
 channels:
 - conda-forge
 dependencies:
-- conda-forge::gitpython=2.1.5
-- conda-forge::ipykernel=4.6.1
-- conda-forge::ipywidgets=7.0.3
-- conda-forge::nb_conda_kernels=2.1.0
-- conda-forge::notebook=5.2.0
-- conda-forge::pandas=0.20.3
-- conda-forge::plotnine=0.2.1
-- conda-forge::python=3.6.3
-- conda-forge::pyyaml=3.12
-- conda-forge::requests=2.18.4
+- conda-forge::gitpython=2.1.11
+- conda-forge::ipykernel=5.1.0
+- conda-forge::ipywidgets=7.4.2
+- conda-forge::nb_conda_kernels=2.2.1
+- conda-forge::notebook=5.7.5
+- conda-forge::pandas=0.24.1
+- conda-forge::plotnine=0.5.1
+- conda-forge::python=3.6.7
+- conda-forge::pyyaml=3.13
+- conda-forge::requests=2.21.0
 - conda-forge::tornado=4.5.3
 - conda-forge::r-base=3.5.1
 - conda-forge::r-cowplot=0.9.4

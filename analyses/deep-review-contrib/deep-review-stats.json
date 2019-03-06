@@ -1,15 +1,15 @@
 {
-  "creation_time_utc": "2018-06-15T14:25:26.787993",
+  "creation_time_utc": "2019-03-06T15:32:46.765705",
   "commit": "63d2468883ea69ad7ad638c39efab0fcbe026298",
   "total_commits": 755,
   "manuscript_commits": 349,
   "deep_review_authors": 36,
   "deep_review_post_submission_authors": 14,
-  "github_stars": 616,
-  "github_forks": 165,
-  "merged_pull_requests": 315,
+  "github_stars": 819,
+  "github_forks": 204,
+  "merged_pull_requests": 317,
   "declined_pull_requests": 22,
-  "open_pull_requests": 0,
-  "open_issues": 322,
-  "closed_issues": 215
+  "open_pull_requests": 1,
+  "open_issues": 389,
+  "closed_issues": 220
 }

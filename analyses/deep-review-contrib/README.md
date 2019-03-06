@@ -8,5 +8,3 @@ conda env create --file environment.yml
 # activate environment
 conda activate contrib-viz
 ```
-
-The environment was updated to be compatible with Binder after the notebooks were originally run.
