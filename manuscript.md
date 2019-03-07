@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-03-05'
+date-meta: '2019-03-07'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/313023e4a6b713557163137b25cccb4f530ad919/))
+([permalink](https://greenelab.github.io/meta-review/v/a240ad9e3a98f1c5ac2e4df14a063fd737f4945c/))
 was automatically generated
-from [greenelab/meta-review@313023e](https://github.com/greenelab/meta-review/tree/313023e4a6b713557163137b25cccb4f530ad919)
-on March 5, 2019.
+from [greenelab/meta-review@a240ad9](https://github.com/greenelab/meta-review/tree/a240ad9e3a98f1c5ac2e4df14a063fd737f4945c)
+on March 7, 2019.
 </em></small>
 
 ## Authors
@@ -364,7 +364,7 @@ Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
 Bookdown [@1BISa1RLr] and Pandoc Scholar [@17wKkS4DV] both extend traditional Markdown to better support publishing.
 Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and Continuous Publishing [@nqeDrtsc], which was used to produce the book Opening Science [@ujrfOBM1].
-Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM] support manuscripts with interactive graphics and close integration with the underlying code.
+Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM] support manuscripts with interactive graphics and close integration with the underlying code.
 As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
 
 Several other open science efforts are GitHub-based like our collaborative writing process.
