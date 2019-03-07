@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/a240ad9e3a98f1c5ac2e4df14a063fd737f4945c/))
+([permalink](https://greenelab.github.io/meta-review/v/1b932c4de3537a6538ecff9a0019003841461504/))
 was automatically generated
-from [greenelab/meta-review@a240ad9](https://github.com/greenelab/meta-review/tree/a240ad9e3a98f1c5ac2e4df14a063fd737f4945c)
+from [greenelab/meta-review@1b932c4](https://github.com/greenelab/meta-review/tree/1b932c4de3537a6538ecff9a0019003841461504)
 on March 7, 2019.
 </em></small>
 
@@ -196,7 +196,7 @@ This figure reveals the composition of written contributions to the manuscript a
 The Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [@tJKvnIaZ] in May 2017.
 While the article was under review, we continued to maintain the project and accepted new contributions.
 The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [@PZMP42Ak].
-As of June 15, 2018, the Deep Review repository accumulated 755 git commits, 315 merged pull requests, 537 issues, and 616 GitHub stars.
+As of March 06, 2019, the Deep Review repository accumulated 755 git commits, 317 merged pull requests, 609 issues, and 819 GitHub stars.
 The notebook to generate this figure can be [interactively launched using Binder](https://mybinder.org/v2/gh/greenelab/meta-review/binder?filepath=analyses/deep-review-contrib/02.contrib-viz.ipynb) [@Q20Bxdsr], enabling users to explore alternative visualizations or analyses of the source data.
 ](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
 
