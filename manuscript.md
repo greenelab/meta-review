@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-03-07'
+date-meta: '2019-03-08'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/1b932c4de3537a6538ecff9a0019003841461504/))
+([permalink](https://greenelab.github.io/meta-review/v/91030dc74ebecaea7cc2ca027202f3b38892cdd3/))
 was automatically generated
-from [greenelab/meta-review@1b932c4](https://github.com/greenelab/meta-review/tree/1b932c4de3537a6538ecff9a0019003841461504)
-on March 7, 2019.
+from [greenelab/meta-review@91030dc](https://github.com/greenelab/meta-review/tree/91030dc74ebecaea7cc2ca027202f3b38892cdd3)
+on March 8, 2019.
 </em></small>
 
 ## Authors
@@ -423,7 +423,8 @@ We would like to thank the authors of the Deep Review who helped us test collabo
 The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz.
 In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript.
 We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Achintya Rao, and other GitHub users.
-Setup and maintainance of the Zotero translation-server for Manubot usage was performed by Dongbo Hu.
+Setup and maintenance of the Zotero translation-server for Manubot usage was performed by Dongbo Hu.
+We thank John MacFarlane for assistance with pandoc and the global Binder team for advice on Binder.
 
 ## Funding
 
