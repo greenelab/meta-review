@@ -73,6 +73,8 @@ We are currently exploring Pandoc's `--reference-doc` as a way to streamline jou
 This option could accept a publisher's template DOCX file and apply the styling to a Manubot manuscript output in the DOCX format.
 In the long term, we expect some publishers will accept JATS format submissions and plan to build on Pandoc's JATS support.
 
+See [GH142](https://github.com/greenelab/meta-review/issues/142) and [GH170](https://github.com/greenelab/meta-review/pull/170) for the discussion and edits.
+
 > `We initiated the Deep Review` → when?
 Would be nice to give some date at this point.
 
