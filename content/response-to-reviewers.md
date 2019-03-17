@@ -90,6 +90,10 @@ See for example https://swcarpentry.github.io/git-novice/01-basics/index.html
 > Figure .2 → This could be probably adapted as a raster plot where a dot is painted for each contribution (at the time of contribution).
 Line would be the same height and the legend would summarize the contribution.
 
+Based on this suggestion, we created an [alternative visualization](https://github.com/greenelab/meta-review/blob/6e7458dcb205a3d76daf25ee08236c24dc4de66e/analyses/deep-review-contrib/deep-review-contribution-dot.png) of Deep Review contributions that uses dots of varying sizes to show word counts by contributor on a monthly basis.
+While we thought the dot plot was a valuable supplement, there was not strong support for switching from the ridgeline plot to the dot plot for the primary manuscript visualization.
+See [GH149](https://github.com/greenelab/meta-review/issues/149) and [GH164](https://github.com/greenelab/meta-review/pull/164) for the discussion and edits.
+
 > `GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist.` → Can you name a few and how difficult it would be to migrate?
 
 ## Reviewer 3
