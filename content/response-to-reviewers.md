@@ -31,7 +31,7 @@ Since the paper has been submitted as a Software paper, maybe it's fine but it w
 → I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
 Being able to produce both a nice PDF and a HTML dynamic version would be a nice feature.
 
-The HTML-first output, where the PDF is created from the HTML, does permit incorporation of interactive web visualizations.
+The HTML-first workflow, where the PDF is created from the HTML, does permit incorporation of interactive web visualizations, as we now note in the manuscript (edits in [GH171](https://github.com/greenelab/meta-review/pull/171)).
 One downside is that it can [be difficult](https://github.com/manubot/rootstock/issues/192 "Increasing the density of PDF exports to reduce number of pages") to create heavily typeset and whitespace-optimized PDFs using CSS.
 However, Manubot envisions a future where the HTML view is the primary means of accessing the article.
 See [GH132](https://github.com/greenelab/meta-review/issues/132) for additional discussion.
