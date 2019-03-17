@@ -31,7 +31,17 @@ Since the paper has been submitted as a Software paper, maybe it's fine but it w
 → I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
 Being able to produce both a nice PDF and a HTML dynamic version would be a nice feature.
 
-https://github.com/greenelab/meta-review/pull/161
+The HTML-first output, where the PDF is created from the HTML, does permit incorporation of interactive web visualizations.
+One downside is that it can [be difficult](https://github.com/manubot/rootstock/issues/192 "Increasing the density of PDF exports to reduce number of pages") to create heavily typeset and whitespace-optimized PDFs using CSS.
+However, Manubot envisions a future where the HTML view is the primary means of accessing the article.
+See [GH132](https://github.com/greenelab/meta-review/issues/132) for additional discussion.
+
+Regarding interactive notebooks, some projects (e.g. [_eLife_'s reproducible article](https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article)) are exploring incorporating customizable source code execution directly into a manuscripts HTML view.
+One challenge of this approach is that most analysis require substantial code, scattered across many layers of dependencies and inputs.
+Therefore, it is not clear that there is a manageable way to interact with all of this code directly within the HTML view of the manuscript.
+As an alternative approach, we have added Binder support to the Deep Review contribution analysis ([click to launch Binder](https://mybinder.org/v2/gh/greenelab/meta-review/binder?filepath=analyses/deep-review-contrib/02.contrib-viz.ipynb), implemented in [GH161](https://github.com/greenelab/meta-review/pull/161)).
+Binder allows readers to open the notebook used to generate Figure 2 in their browser.
+We found this approach allows users to modify source code at a scale that is more likely to be practical for complex data reanalyses.
 
 > In the discussion, it would be nice to have a vision on the future of manubot.
 What new features will be implemented?
