@@ -31,6 +31,8 @@ Since the paper has been submitted as a Software paper, maybe it's fine but it w
 → I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
 Being able to produce both a nice PDF and a HTML dynamic version would be a nice feature.
 
+https://github.com/greenelab/meta-review/pull/161
+
 > In the discussion, it would be nice to have a vision on the future of manubot.
 What new features will be implemented?
 Do you plan to apply for a grant to further develop manubot? etc.
@@ -74,7 +76,7 @@ Would be nice to give some date at this point.
 > `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
 We now state the full license name in the link text: `Creative Commons Attribution 4.0 International (CC BY 4.0) license`.
-See [GH145](https://github.com/greenelab/meta-review/issues/145) and [GH154](https://github.com/greenelab/meta-review/pull/154) for the discussion and edits.
+See [GH145](https://github.com/greenelab/meta-review/issues/145) and [GH154](https://github.com/greenelab/meta-review/pull/154) for the discussion and analysis.
 
 > `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
