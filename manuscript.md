@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/77ab126e77c9d73a6e1b34a47e5cfc209f4b8556/))
+([permalink](https://greenelab.github.io/meta-review/v/1f9faab82f0b0294e080bf46b3f80ce9203ed4db/))
 was automatically generated
-from [greenelab/meta-review@77ab126](https://github.com/greenelab/meta-review/tree/77ab126e77c9d73a6e1b34a47e5cfc209f4b8556)
+from [greenelab/meta-review@1f9faab](https://github.com/greenelab/meta-review/tree/1f9faab82f0b0294e080bf46b3f80ce9203ed4db)
 on March 19, 2019.
 </em></small>
 
@@ -123,7 +123,8 @@ The manuscript writing process we developed using the Markdown language, the Git
 
 There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
-Although they work well for editing text, they lack sufficient features for managing a collaborative manuscript and attributing precise credit, which are important for open writing (Table @tbl:platforms).
+Although they work well for editing text, they lack sufficient features for managing a collaborative manuscript with many authors and attributing precise credit, which are important for open writing (Table @tbl:platforms). 
+Furthermore, none of these platforms offer the ability to address thematically related changes together and enable multiple authors to iteratively refine proposed changes.
 
 | Feature | Manubot | Authorea + BibTeX | Overleaf v1 + BibTeX | Google Docs + Paperpile | Word Online<sup>1</sup> | Markdown on GitHub |
 |---|---|---|---|---|---|---|
