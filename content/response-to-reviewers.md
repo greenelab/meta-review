@@ -78,6 +78,15 @@ Did you encounter some difficulties in referencing figures or tables?
 > What is the procedure when you submit an article to a journal?
 Do you have a set of pandoc templates or do you work directly on the word or latex output to match journal requirements?
 
+In our experience, the easiest option for journal submission is to use Manubot's PDF output initially and the DOCX format for the final submission.
+We added this text to the `Manubot` section.
+
+We are currently exploring Pandoc's `--reference-doc` as a way to streamline journal submission.
+This option could accept a publisher's template DOCX file and apply the styling to a Manubot manuscript output in the DOCX format.
+In the long term, we expect some publishers will accept JATS format submissions and plan to build on Pandoc's JATS support.
+
+See [GH142](https://github.com/greenelab/meta-review/issues/142) and [GH170](https://github.com/greenelab/meta-review/pull/170) for the discussion and edits.
+
 > `We initiated the Deep Review` → when?
 Would be nice to give some date at this point.
 
