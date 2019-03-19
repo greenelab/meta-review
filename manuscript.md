@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-03-14'
+date-meta: '2019-03-19'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/6e7458dcb205a3d76daf25ee08236c24dc4de66e/))
+([permalink](https://greenelab.github.io/meta-review/v/77ab126e77c9d73a6e1b34a47e5cfc209f4b8556/))
 was automatically generated
-from [greenelab/meta-review@6e7458d](https://github.com/greenelab/meta-review/tree/6e7458dcb205a3d76daf25ee08236c24dc4de66e)
-on March 14, 2019.
+from [greenelab/meta-review@77ab126](https://github.com/greenelab/meta-review/tree/77ab126e77c9d73a6e1b34a47e5cfc209f4b8556)
+on March 19, 2019.
 </em></small>
 
 ## Authors
@@ -252,6 +252,8 @@ Pandoc supports conversion between additional formats — such as LaTeX, AsciiDo
 [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS) is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
 Pandoc's JATS support provides an avenue to integrate Manubot with the larger JATS ecosystem.
 For now, the primary Manubot output is HTML intended to be viewed in a web browser.
+Authors generally use the PDF output for preprint or initial journal submissions.
+For journal submissions that require an editable source document, Manubot's DOCX output is usually sufficient.
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
 The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically via [Travis CI](https://travis-ci.org/), to monitor changes.
