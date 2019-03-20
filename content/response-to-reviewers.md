@@ -37,6 +37,18 @@ To that end, we've added three sentences in the Discussion section addressing th
 → I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
 Being able to produce both a nice PDF and a HTML dynamic version would be a nice feature.
 
+The HTML-first workflow, where the PDF is created from the HTML, does permit incorporation of interactive web visualizations, as we now note in the manuscript (edits in [GH171](https://github.com/greenelab/meta-review/pull/171)).
+One downside is that it can [be difficult](https://github.com/manubot/rootstock/issues/192 "Increasing the density of PDF exports to reduce number of pages") to create heavily typeset and whitespace-optimized PDFs using CSS.
+However, Manubot envisions a future where the HTML view is the primary means of accessing the article.
+See [GH132](https://github.com/greenelab/meta-review/issues/132) for additional discussion.
+
+Regarding interactive notebooks, some projects (e.g. [_eLife_'s reproducible article](https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article)) are exploring incorporating customizable source code execution directly into a manuscript's HTML view.
+One challenge of this approach is that most analyses require substantial code, scattered across many layers of dependencies and inputs.
+Therefore, it is not clear that there is a manageable way to interact with all of this code directly within the HTML view of the manuscript.
+As an alternative approach, we have added Binder support to the Deep Review contribution analysis ([click to launch Binder](https://mybinder.org/v2/gh/greenelab/meta-review/binder?filepath=analyses/deep-review-contrib/02.contrib-viz.ipynb), implemented in [GH161](https://github.com/greenelab/meta-review/pull/161)).
+Binder allows readers to open the notebook used to generate Figure 2 in their browser.
+We found this approach allows users to modify source code at a scale that is more likely to be practical for complex data reanalyses.
+
 > In the discussion, it would be nice to have a vision on the future of manubot.
 What new features will be implemented?
 Do you plan to apply for a grant to further develop manubot? etc.
@@ -107,6 +119,12 @@ See for example https://swcarpentry.github.io/git-novice/01-basics/index.html
 
 > Figure .2 → This could be probably adapted as a raster plot where a dot is painted for each contribution (at the time of contribution).
 Line would be the same height and the legend would summarize the contribution.
+
+Based on this suggestion, we created an [alternative visualization](https://github.com/greenelab/meta-review/blob/6e7458dcb205a3d76daf25ee08236c24dc4de66e/analyses/deep-review-contrib/deep-review-contribution-dot.png) of Deep Review contributions that uses dots of varying sizes to show word counts by contributor on a monthly basis.
+While we thought the dot plot was a valuable supplement, there was not strong support for switching from the ridgeline plot to the dot plot for the primary manuscript visualization.
+However, we did update the figure caption to alert readers to the existence of alternative plots and that they can launch the source code notebook in Binder to create additional visualizations.
+
+See [GH149](https://github.com/greenelab/meta-review/issues/149) and [GH164](https://github.com/greenelab/meta-review/pull/164) for the discussion and analyses.
 
 > `GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist.` → Can you name a few and how difficult it would be to migrate?
 
