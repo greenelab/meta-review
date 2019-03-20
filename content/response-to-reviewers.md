@@ -27,6 +27,12 @@ Since the paper has been submitted as a Software paper, maybe it's fine but it w
 
 > The introduction may lack a part on tools that are used in different communities, especially with "mega papers" (e.g. physics where you have routinely thousand of authors).
 
+We discussed this point in [GH131](https://github.com/greenelab/meta-review/issues/131) and addressed it in [GH169](https://github.com/greenelab/meta-review/pull/169).
+While we found a number of "mega papers" in the fields of physics and biology, we were unable to quantify how many authors of those papers were able to participate in the process of discussing, drafting, and composing the final articles (versus e.g., conceptualizing the process, collecting or analyzing the data, and so on).
+In fact, more than one press release related to those articles note the difficulty "[merging author lists](https://www.nature.com/news/physics-paper-sets-record-with-more-than-5-000-authors-1.17567)" and disagreements about authorship.
+Manubot allows each author—and other interested parties—the ability to contribute in a way that other platforms do not.
+To that end, we've added three sentences in the Discussion section addressing this point.
+
 > `For now, the primary Manubot output is HTML intended to be viewed in a web browser.`
 → I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
 Being able to produce both a nice PDF and a HTML dynamic version would be a nice feature.
