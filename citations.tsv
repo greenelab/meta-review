@@ -9,6 +9,7 @@ string	citation	standard_citation	citation_id
 @doi:10.1038/536016a	doi:10.1038/536016a	doi:10.1038/536016a	137tbemL9
 @doi:10.1038/550143a	doi:10.1038/550143a	doi:10.1038/550143a	18w6XKsQO
 @doi:10.1038/d41586-017-08493-x	doi:10.1038/d41586-017-08493-x	doi:10.1038/d41586-017-08493-x	9IrsqXRa
+@doi:10.1038/d41586-018-01322-9	doi:10.1038/d41586-018-01322-9	doi:10.1038/d41586-018-01322-9	6eVHYGML
 @doi:10.1038/d41586-019-00447-9	doi:10.1038/d41586-019-00447-9	doi:10.1038/d41586-019-00447-9	qh60RjR0
 @doi:10.1038/nature.2015.17567	doi:10.1038/nature.2015.17567	doi:10.1038/nature.2015.17567	nahdPyLb
 @doi:10.1038/nature10836	doi:10.1038/nature10836	doi:10.1038/nature10836	rgo1TZr
@@ -24,6 +25,7 @@ string	citation	standard_citation	citation_id
 @doi:10.1103/PhysRevLett.114.191803	doi:10.1103/PhysRevLett.114.191803	doi:10.1103/physrevlett.114.191803	15YfJWkEd
 @doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	NuDPNceu
 @doi:10.1109/MCSE.2009.19	doi:10.1109/MCSE.2009.19	doi:10.1109/mcse.2009.19	g6WVoxNy
+@doi:10.1109/TVCG.2016.2599030	doi:10.1109/TVCG.2016.2599030	doi:10.1109/tvcg.2016.2599030	nyZChH5b
 @doi:10.1126/science.aah6168	doi:10.1126/science.aah6168	doi:10.1126/science.aah6168	gvyja7v1
 @doi:10.1126/science.aat0471	doi:10.1126/science.aat0471	doi:10.1126/science.aat0471	82ZjWq3i
 @doi:10.1201/9781315204963	doi:10.1201/9781315204963	doi:10.1201/9781315204963	1BISa1RLr
@@ -71,6 +73,7 @@ string	citation	standard_citation	citation_id
 @url:http://www.niso.org/standards/z39-96-2015/	url:http://www.niso.org/standards/z39-96-2015/	url:http://www.niso.org/standards/z39-96-2015/	JU3KpeyB
 @url:https://blog.dhimmel.com/citation-styles/	url:https://blog.dhimmel.com/citation-styles/	url:https://blog.dhimmel.com/citation-styles/	aAKJEII
 @url:https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online	url:https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online	url:https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online	sWD9uVuF
+@tag:elife-repro-article	url:https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article	url:https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article	KLKZcPlg
 @tag:stencila	url:https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research	url:https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research	BWMf57EM
 @tag:steem-post	url:https://goo.gl/jGBrxE	url:https://goo.gl/jGBrxE	u9DGTIX
 @url:https://homotopytypetheory.org/book/	url:https://homotopytypetheory.org/book/	url:https://homotopytypetheory.org/book/	RExXs8is

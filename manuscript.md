@@ -22,9 +22,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/df2d31bbc03a3ac5eec3bd337f1ca892d14240df/))
+([permalink](https://greenelab.github.io/meta-review/v/3602f673e10004762f2a0b5019d83838e93d344b/))
 was automatically generated
-from [greenelab/meta-review@df2d31b](https://github.com/greenelab/meta-review/tree/df2d31bbc03a3ac5eec3bd337f1ca892d14240df)
+from [greenelab/meta-review@3602f67](https://github.com/greenelab/meta-review/tree/3602f673e10004762f2a0b5019d83838e93d344b)
 on March 20, 2019.
 </em></small>
 
@@ -252,9 +252,11 @@ Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from Markdown 
 Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, EPUB, and JATS — offering Manubot users broad interoperability.
 [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS) is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@JU3KpeyB; @AAwqxolU; @bCyfIm6z].
 Pandoc's JATS support provides an avenue to integrate Manubot with the larger JATS ecosystem.
-For now, the primary Manubot output is HTML intended to be viewed in a web browser.
-Authors generally use the PDF output for preprint or initial journal submissions.
-For journal submissions that require an editable source document, Manubot's DOCX output is usually sufficient.
+In the future, journals may begin accepting submissions in JATS.
+But for now, Manubot's DOCX output is usually sufficient for journal submissions that require an editable source document.
+Otherwise, authors generally use the PDF output (e.g. for preprint or initial journal submissions).
+The primary Manubot output is HTML intended to be viewed in a web browser.
+Accordingly, manuscripts natively support JavaScript and can thus include any web-based interactive visualization, such as those produced using [Vega-Lite](https://vega.github.io/vega-lite/), [Bokeh](https://bokeh.pydata.org), or [Plotly](https://plot.ly/) [@6eVHYGML; @nyZChH5b].
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
 The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically via [Travis CI](https://travis-ci.org/), to monitor changes.
@@ -371,7 +373,7 @@ Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
 Bookdown [@1BISa1RLr] and Pandoc Scholar [@17wKkS4DV] both extend traditional Markdown to better support publishing.
 Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and Continuous Publishing [@nqeDrtsc], which was used to produce the book Opening Science [@ujrfOBM1].
-Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM] support manuscripts with interactive graphics and close integration with the underlying code.
+Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM; @KLKZcPlg] support manuscripts with interactive graphics and close integration with the underlying code.
 As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
 
 Several other open science efforts are GitHub-based like our collaborative writing process.

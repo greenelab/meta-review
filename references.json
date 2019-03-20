@@ -341,6 +341,36 @@
   },
   {
     "publisher": "Springer Nature",
+    "issue": "7690",
+    "DOI": "10.1038/d41586-018-01322-9",
+    "type": "article-journal",
+    "page": "133-134",
+    "source": "Crossref",
+    "title": "Data visualization tools drive interactivity and reproducibility in online publishing",
+    "volume": "554",
+    "author": [
+      {
+        "given": "Jeffrey M.",
+        "family": "Perkel"
+      }
+    ],
+    "container-title": "Nature",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          2,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfw6g3",
+    "container-title-short": "Nature",
+    "PMID": "29388968",
+    "id": "6eVHYGML"
+  },
+  {
+    "publisher": "Springer Nature",
     "issue": "7742",
     "DOI": "10.1038/d41586-019-00447-9",
     "type": "article-journal",
@@ -22061,6 +22091,47 @@
     "id": "g6WVoxNy"
   },
   {
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "issue": "1",
+    "DOI": "10.1109/tvcg.2016.2599030",
+    "type": "article-journal",
+    "page": "341-350",
+    "source": "Crossref",
+    "title": "Vega-Lite: A Grammar of Interactive Graphics",
+    "volume": "23",
+    "author": [
+      {
+        "given": "Arvind",
+        "family": "Satyanarayan"
+      },
+      {
+        "given": "Dominik",
+        "family": "Moritz"
+      },
+      {
+        "given": "Kanit",
+        "family": "Wongsuphasawat"
+      },
+      {
+        "given": "Jeffrey",
+        "family": "Heer"
+      }
+    ],
+    "container-title": "IEEE Transactions on Visualization and Computer Graphics",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          1
+        ]
+      ]
+    },
+    "URL": "https://doi.org/f92f32",
+    "container-title-short": "IEEE Trans. Visual. Comput. Graphics",
+    "PMID": "27875150",
+    "id": "nyZChH5b"
+  },
+  {
     "publisher": "American Association for the Advancement of Science (AAAS)",
     "issue": "6317",
     "DOI": "10.1126/science.aah6168",
@@ -28218,6 +28289,33 @@
       ]
     },
     "id": "sWD9uVuF"
+  },
+  {
+    "type": "webpage",
+    "title": "Introducing eLife’s first computationally reproducible article",
+    "container-title": "eLife",
+    "abstract": "Blending the traditional manuscript with live code, data and interactive figures, we showcase a new way for researchers to tell their full story.",
+    "URL": "https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          2,
+          20
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          3,
+          20
+        ]
+      ]
+    },
+    "id": "KLKZcPlg"
   },
   {
     "type": "webpage",
