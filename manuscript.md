@@ -5,7 +5,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-03-19'
+date-meta: '2019-03-20'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +22,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/1f9faab82f0b0294e080bf46b3f80ce9203ed4db/))
+([permalink](https://greenelab.github.io/meta-review/v/df2d31bbc03a3ac5eec3bd337f1ca892d14240df/))
 was automatically generated
-from [greenelab/meta-review@1f9faab](https://github.com/greenelab/meta-review/tree/1f9faab82f0b0294e080bf46b3f80ce9203ed4db)
-on March 19, 2019.
+from [greenelab/meta-review@df2d31b](https://github.com/greenelab/meta-review/tree/df2d31bbc03a3ac5eec3bd337f1ca892d14240df)
+on March 20, 2019.
 </em></small>
 
 ## Authors
@@ -296,6 +296,10 @@ One month later, a larger [set of revisions](https://github.com/greenelab/scihub
 As such, continuous publishing via Manubot helped the authors address the error without delay, while retaining a public version history of the process.
 This Sci-Hub Coverage Study preprint was the [most viewed](http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/) 2017 _PeerJ Preprint_, while the Deep Review was the most viewed 2017 _bioRxiv_ preprint [@9IrsqXRa].
 Hence, in Manubot's first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.
+
+Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [@15YfJWkEd] (5000 authors) and the report of the Drosophila genome [@Szy8sdWq] (1000 authors).
+Yet _the number of people that participated in writing_ those papers, as opposed to generating and analyzing the data, is not always clear and likely to be far below the number of authors [@NGOit8L2; @nahdPyLb].
+Manubot provides the scientists involved in large collaborations the opportunity to activtely participate, through a public forum, in the writing process.
 
 Additional research studies in progress are being authored using Manubot, spanning the fields of [genomics](https://vsmalladi.github.io/tfsee-manuscript/), [climate science](https://openclimatedata.github.io/global-emissions/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
 Manubot is also being used for documents beyond traditional journal publications, such as [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
