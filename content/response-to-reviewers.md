@@ -167,6 +167,12 @@ is there anything special about how manubot links to and from issues in the text
 mostly just curious.
 (I could imagine automatically generated backreferences, as github does between issues when you mention one issue in another issue).
 
+We discuss Manubot's handling of GitHub links in [GH118](https://github.com/greenelab/meta-review/issues/118).
+Manubot does not treat references to GitHub URLs differently than any other URL.
+In addition, Manubot does not [autolink](https://help.github.com/en/articles/autolinked-references-and-urls) references to GitHub issues and pull requests.
+While some of this functionality would be possible with a Pandoc filter, this is a low priority development issue.
+One approach that we use currently include relevant issue links in commit messages, which does enable GitHub backreferences to some degree.
+
 > `it is reviewed by a maintainer and a participant`
 are these separate people or the same person?
 one presumes maintainers are participants, but not vice versa.
