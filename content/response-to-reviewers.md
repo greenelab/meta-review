@@ -185,6 +185,13 @@ e.g. I see a lot of utility in manubot-style approaches for Carpentries-style on
 I assume this happens but want to double check (and am at the far end of a lousy Internet connection right now).
 So this is really more of an "@ctb todo" item.
 
+We discuss this comment further in [GH121](https://github.com/greenelab/meta-review/issues/121).
+Rendered versions of manuscripts do not currently get uploaded to pull requests.
+Instead, pull requests must be built locally to view the user-facing outputs (i.e. HTML or PDF).
+This is a [limitation](https://github.com/travis-ci/travis-ci/issues/5579) of pull request builds on Travis CI, which are unable to [upload artifacts](https://docs.travis-ci.com/user/uploading-artifacts/) due to security restriction.
+Given the importance of exposing rendered manuscripts from pull requests, we will closely monitor for possible solutions.
+However, a satisfactory solution may only be enabled by other large-scale changes in Manubot's architecture, which themselves have an uncertain timeframe.
+
 > further emphasize strikethrough formatting for errors in extant versions.
 I love the paragraph on Sci-Hub error correction - am I correct in understanding that the link to the erroneous version of the pub was updated with a version that clearly highlighted the text as erroneous?
 this is really important if so, and has massive implications for the future of scholarly docs!
