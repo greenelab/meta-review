@@ -185,6 +185,11 @@ this is really important if so, and has massive implications for the future of s
 (and, out of curiosity, how do you do this with links that have a hash in them, or did I misunderstand?
 I can investigate this myself once I have a better network connection)
 
+In [GH122](https://github.com/greenelab/meta-review/issues/122), we expound on how we used strikethrough to indicate errant sentences in the Sci-Hub study's manuscript.
+The strikethrough was not retroactive to pre-existing versions, but instead was rapidly applied to the latest version.
+One solution for notifying viewers of issues in versioned manuscripts would be to use Manubot's Hypothesis annotations.
+While retroactively editing versioned HTML manuscripts is technically possible, it should be avoided as it undermines Manubot's versioning scheme.
+
 > Strengthen statement about `no objective system` for authorship.
 The statement "there is no objective system" reads like it could be a practical statement as in "we haven't built one yet", while I believe (and think the authors agree with me, based on the paragraph) that no such principled objective system _can_ exist.
 Either way this should be clarified.
