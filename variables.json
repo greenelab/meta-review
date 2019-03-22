@@ -1,5 +1,5 @@
 {
-  "date": "March 20, 2019",
+  "date": "March 22, 2019",
   "authors": [
     {
       "github": "dhimmel",
@@ -77,6 +77,21 @@
         5,
         6
       ]
+    },
+    {
+      "github": "dongbohu",
+      "name": "Dongbo Hu",
+      "initials": "DH",
+      "orcid": "0000-0003-2606-3969",
+      "twitter": "dongbohu",
+      "email": "dongbo.hu@gmail.com",
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "G-2018-11163 and GBMF4552",
+      "affiliation_numbers": [
+        1
+      ]
     }
   ],
   "affiliations": [
@@ -109,7 +124,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "3602f673e10004762f2a0b5019d83838e93d344b"
+    "commit": "71b1744fceaa07367f7e7c90534628c1eabe0c8d"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",

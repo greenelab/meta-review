@@ -5,7 +5,8 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-03-20'
+- Dongbo Hu
+date-meta: '2019-03-22'
 keywords:
 - collaborative review
 - continuous integration
@@ -22,10 +23,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/3602f673e10004762f2a0b5019d83838e93d344b/))
+([permalink](https://greenelab.github.io/meta-review/v/71b1744fceaa07367f7e7c90534628c1eabe0c8d/))
 was automatically generated
-from [greenelab/meta-review@3602f67](https://github.com/greenelab/meta-review/tree/3602f673e10004762f2a0b5019d83838e93d344b)
-on March 20, 2019.
+from [greenelab/meta-review@71b1744](https://github.com/greenelab/meta-review/tree/71b1744fceaa07367f7e7c90534628c1eabe0c8d)
+on March 22, 2019.
 </em></small>
 
 ## Authors
@@ -85,6 +86,17 @@ on March 20, 2019.
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
+  </small>
+
++ **Dongbo Hu**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-2606-3969](https://orcid.org/0000-0003-2606-3969)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [dongbohu](https://github.com/dongbohu)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [dongbohu](https://twitter.com/dongbohu)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
 
