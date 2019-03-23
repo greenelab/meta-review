@@ -171,7 +171,7 @@ We discuss Manubot's handling of GitHub links in [GH118](https://github.com/gree
 Manubot does not treat references to GitHub URLs differently than any other URL.
 In addition, Manubot does not [autolink](https://help.github.com/en/articles/autolinked-references-and-urls) references to GitHub issues and pull requests.
 While some of this functionality would be possible with a Pandoc filter, this is a low priority development issue.
-One approach that we use currently include relevant issue links in commit messages, which does enable GitHub backreferences to some degree.
+One approach that we currently use is to include relevant issue links in commit messages, which does enable GitHub backreferences to some degree.
 
 > `it is reviewed by a maintainer and a participant`
 are these separate people or the same person?
@@ -188,9 +188,10 @@ So this is really more of an "@ctb todo" item.
 We discuss this comment further in [GH121](https://github.com/greenelab/meta-review/issues/121).
 Rendered versions of manuscripts do not currently get uploaded to pull requests.
 Instead, pull requests must be built locally to view the user-facing outputs (i.e. HTML or PDF).
-This is a [limitation](https://github.com/travis-ci/travis-ci/issues/5579) of pull request builds on Travis CI, which are unable to [upload artifacts](https://docs.travis-ci.com/user/uploading-artifacts/) due to security restriction.
+This is a [limitation](https://github.com/travis-ci/travis-ci/issues/5579) of pull request builds on Travis CI, which are unable to [upload artifacts](https://docs.travis-ci.com/user/uploading-artifacts/) due to a security restriction.
 Given the importance of exposing rendered manuscripts from pull requests, we will closely monitor for possible solutions.
 However, a satisfactory solution may only be enabled by other large-scale changes in Manubot's architecture, which themselves have an uncertain timeframe.
+Please see [`manubot/rootstock#198`](https://github.com/manubot/rootstock/issues/198) to track progress on this issue.
 
 > further emphasize strikethrough formatting for errors in extant versions.
 I love the paragraph on Sci-Hub error correction - am I correct in understanding that the link to the erroneous version of the pub was updated with a version that clearly highlighted the text as erroneous?
