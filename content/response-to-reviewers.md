@@ -53,6 +53,9 @@ We found this approach allows users to modify source code at a scale that is mor
 What new features will be implemented?
 Do you plan to apply for a grant to further develop manubot? etc.
 
+We discuss this issue in [GH133](https://github.com/greenelab/meta-review/issues/133) and address it in [GHXXX]().
+Specifically, we added a paragraph to the Discussion about proposed enhancements to Manubot.
+
 > The layout of the PDF and the HTML could benefit from a better template (and font stack).
 This a totally minor point, but it might help to attract new people.
 
