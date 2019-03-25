@@ -194,7 +194,8 @@ Instead, pull requests must be built locally to view the user-facing outputs (i.
 This is a [limitation](https://github.com/travis-ci/travis-ci/issues/5579) of pull request builds on Travis CI, which are unable to [upload artifacts](https://docs.travis-ci.com/user/uploading-artifacts/) due to a security restriction.
 Given the importance of exposing rendered manuscripts from pull requests, we will closely monitor for possible solutions.
 However, a satisfactory solution may only be enabled by other large-scale changes in Manubot's architecture, which themselves have an uncertain timeframe.
-Please see [`manubot/rootstock#198`](https://github.com/manubot/rootstock/issues/198) to track progress on this issue.
+As of [GH179](https://github.com/greenelab/meta-review/pull/179), the manuscript mentions that addressing this issue is a priority.
+Please see [`manubot/rootstock#198`](https://github.com/manubot/rootstock/issues/198) to track progress.
 
 > further emphasize strikethrough formatting for errors in extant versions.
 I love the paragraph on Sci-Hub error correction - am I correct in understanding that the link to the erroneous version of the pub was updated with a version that clearly highlighted the text as erroneous?
