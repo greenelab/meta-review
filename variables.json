@@ -48,6 +48,36 @@
       ]
     },
     {
+      "github": "dongbohu",
+      "name": "Dongbo Hu",
+      "initials": "DH",
+      "orcid": "0000-0003-2606-3969",
+      "twitter": "dongbohu",
+      "email": "dongbo.hu@gmail.com",
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "G-2018-11163 and GBMF4552",
+      "affiliation_numbers": [
+        1
+      ]
+    },
+    {
+      "github": "vincerubinetti",
+      "name": "Vincent Rubinetti",
+      "initials": "VR",
+      "orcid": "0000-0002-4655-3773",
+      "twitter": "vincerubinetti",
+      "email": "vince.rubinetti@gmail.com",
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "G-2018-11163 and GBMF4552",
+      "affiliation_numbers": [
+        1
+      ]
+    },
+    {
       "github": "cgreene",
       "name": "Casey S. Greene",
       "initials": "CSG",
@@ -76,21 +106,6 @@
       "affiliation_numbers": [
         5,
         6
-      ]
-    },
-    {
-      "github": "dongbohu",
-      "name": "Dongbo Hu",
-      "initials": "DH",
-      "orcid": "0000-0003-2606-3969",
-      "twitter": "dongbohu",
-      "email": "dongbo.hu@gmail.com",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
-      ],
-      "funders": "G-2018-11163 and GBMF4552",
-      "affiliation_numbers": [
-        1
       ]
     }
   ],
@@ -124,7 +139,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "3a6da10563c2c010a9c7b9086079a30fd1fa6443"
+    "commit": "4caa4b52b2da59c136b8febaa8011eb7a0e506ee"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",

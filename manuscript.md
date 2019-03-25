@@ -3,9 +3,10 @@ author-meta:
 - Daniel S. Himmelstein
 - David R. Slochower
 - Venkat S. Malladi
+- Dongbo Hu
+- Vincent Rubinetti
 - Casey S. Greene
 - Anthony Gitter
-- Dongbo Hu
 date-meta: '2019-03-25'
 keywords:
 - collaborative review
@@ -23,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/3a6da10563c2c010a9c7b9086079a30fd1fa6443/))
+([permalink](https://greenelab.github.io/meta-review/v/4caa4b52b2da59c136b8febaa8011eb7a0e506ee/))
 was automatically generated
-from [greenelab/meta-review@3a6da10](https://github.com/greenelab/meta-review/tree/3a6da10563c2c010a9c7b9086079a30fd1fa6443)
+from [greenelab/meta-review@4caa4b5](https://github.com/greenelab/meta-review/tree/4caa4b52b2da59c136b8febaa8011eb7a0e506ee)
 on March 25, 2019.
 </em></small>
 
@@ -66,6 +67,28 @@ on March 25, 2019.
      Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center
   </small>
 
++ **Dongbo Hu**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0003-2606-3969](https://orcid.org/0000-0003-2606-3969)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [dongbohu](https://github.com/dongbohu)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [dongbohu](https://twitter.com/dongbohu)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+  </small>
+
++ **Vincent Rubinetti**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4655-3773](https://orcid.org/0000-0002-4655-3773)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [vincerubinetti](https://github.com/vincerubinetti)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [vincerubinetti](https://twitter.com/vincerubinetti)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+  </small>
+
 + **Casey S. Greene**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
@@ -86,17 +109,6 @@ on March 25, 2019.
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
-  </small>
-
-+ **Dongbo Hu**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0003-2606-3969](https://orcid.org/0000-0003-2606-3969)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [dongbohu](https://github.com/dongbohu)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [dongbohu](https://twitter.com/dongbohu)<br>
-  <small>
-     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
 
