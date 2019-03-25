@@ -6,7 +6,7 @@ author-meta:
 - Casey S. Greene
 - Anthony Gitter
 - Dongbo Hu
-date-meta: '2019-03-22'
+date-meta: '2019-03-25'
 keywords:
 - collaborative review
 - continuous integration
@@ -23,10 +23,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/d4a642efa06896209ddfa6e3d2387a58232e61f5/))
+([permalink](https://greenelab.github.io/meta-review/v/3a6da10563c2c010a9c7b9086079a30fd1fa6443/))
 was automatically generated
-from [greenelab/meta-review@d4a642e](https://github.com/greenelab/meta-review/tree/d4a642efa06896209ddfa6e3d2387a58232e61f5)
-on March 22, 2019.
+from [greenelab/meta-review@3a6da10](https://github.com/greenelab/meta-review/tree/3a6da10563c2c010a9c7b9086079a30fd1fa6443)
+on March 25, 2019.
 </em></small>
 
 ## Authors
