@@ -184,6 +184,12 @@ either way, please clarify! :)
 > maybe add a note about how manubot could be used for better lesson development.
 e.g. I see a lot of utility in manubot-style approaches for Carpentries-style online lesson development, especially the generation of versioned links and posting them back to PRs (which I assume happens?)
 
+We discuss this feedback in [GH120](https://github.com/greenelab/meta-review/issues/120) and update the manuscript in [GH179](https://github.com/greenelab/meta-review/pull/179) to mention that Manubot may be helpful for projects like Software Carpentry.
+
+Regarding whether versioned links get posted back to pull requests, currently Manubot-generated commits for the `output` and `gh-pages` branches mention the commit / pull request that generated them.
+Accordingly, GitHub creates a backreference from a merged pull request to the deployment commits it generated.
+While the permalink to the corresponding versioned webpage is not currently in these commit messages, it is easy to infer the permalink because it is based on the commit hash from the commit that merged the pull request.
+
 > do rendered versions of each PR get posted back to the PR?
 I assume this happens but want to double check (and am at the far end of a lousy Internet connection right now).
 So this is really more of an "@ctb todo" item.
