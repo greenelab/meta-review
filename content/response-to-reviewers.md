@@ -31,7 +31,7 @@ We discussed this point in [GH131](https://github.com/greenelab/meta-review/issu
 While we found a number of "mega papers" in the fields of physics and biology, we were unable to quantify how many authors of those papers were able to participate in the process of discussing, drafting, and composing the final articles (versus e.g., conceptualizing the process, collecting or analyzing the data, and so on).
 In fact, more than one press release related to those articles note the difficulty "[merging author lists](https://www.nature.com/news/physics-paper-sets-record-with-more-than-5-000-authors-1.17567)" and disagreements about authorship.
 Manubot allows each author—and other interested parties—the ability to contribute in a way that other platforms do not.
-To that end, we've added three sentences in the Discussion section addressing this point.
+To that end, we've added a paragraph in the Authorship section addressing this point.
 
 > `For now, the primary Manubot output is HTML intended to be viewed in a web browser.`
 → I would insist a bit more on this part because it is a real strength if you consider a future integration with interactive figures (e.g. bokeh) and/or Jupyter notebooks.
@@ -68,7 +68,15 @@ In the interest of frequent releases, we want to keep the effort required to mak
 
 > On the Authorship, how do you give credits to people having participated in a work (e.g. did all the experiment) but did not commit anything on the manuscript?
 
+We added a new paragraph to the Authorship section to clarify that Manubot does not force authors to follow the conventions we used for the Deep Review manuscript.
+Authors are free to follow the authorship conventions of their discipline, which can include authors who did not commit anything to the manuscript.
+This feedback was discussed in [GH136](https://github.com/greenelab/meta-review/issues/136) and addressed in [GH177](https://github.com/greenelab/meta-review/pull/177).
+
 > On the Authorship, how do you deal with people being not identified (e.g. only a GitHub pseudo)?
+
+Related to the comment above, the new Authorship section clarifies that pseudonyms and pseudonymous GitHub usernames are allowed in Manubot manuscripts.
+Authorship information is entered as text in a manuscript metadata file so any author name conventions can be followed.
+This feedback was discussed in [GH137](https://github.com/greenelab/meta-review/issues/137) and addressed in [GH177](https://github.com/greenelab/meta-review/pull/177).
 
 > Is it possible to use manubot on a private GitHub repository?
 I'm pretty sure some people would be interested in using manubot but probably would not use it for open editing.
@@ -193,6 +201,9 @@ While retroactively editing versioned HTML manuscripts is technically possible, 
 > Strengthen statement about `no objective system` for authorship.
 The statement "there is no objective system" reads like it could be a practical statement as in "we haven't built one yet", while I believe (and think the authors agree with me, based on the paragraph) that no such principled objective system _can_ exist.
 Either way this should be clarified.
+
+We clarified that our opinion is that no objective system can exist.
+See [GH123](https://github.com/greenelab/meta-review/issues/123) for the discussion and [GH177](https://github.com/greenelab/meta-review/pull/177) for the manuscript edits.
 
 ***
 
