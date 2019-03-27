@@ -131,6 +131,10 @@ See [GH149](https://github.com/greenelab/meta-review/issues/149) and [GH164](htt
 
 > `GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist.` → Can you name a few and how difficult it would be to migrate?
 
+We discuss this feedback in [GH150](https://github.com/greenelab/meta-review/issues/150). Manuscript revisions in [GH150](https://github.com/greenelab/meta-review/issues/150) now list several alternative CI services and mention GitLab, the most promising alternative to GitHub, due in part to being open source.
+We have done some preliminary prototyping of using GitLab with its integrated CI service, as reported in [manubot/rootstock#88](https://github.com/manubot/rootstock/issues/88).
+There does not appear to be any functionality required for Manubot that is not supported by GitLab, but migrating the initial manuscript will still take a moderate amount of development.
+
 ## Reviewer 3
 
 > introductory paragraph needs more citations.
