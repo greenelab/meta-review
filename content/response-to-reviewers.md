@@ -54,7 +54,7 @@ What new features will be implemented?
 Do you plan to apply for a grant to further develop manubot? etc.
 
 We discuss this issue in [GH133](https://github.com/greenelab/meta-review/issues/133) and address it in [GH179](https://github.com/greenelab/meta-review/pull/179).
-Specifically, we added a paragraph to the Discussion about proposed enhancements to Manubot.
+Specifically, we added a sub-section to the titled "Future Manubot enhancements".
 
 > The layout of the PDF and the HTML could benefit from a better template (and font stack).
 This a totally minor point, but it might help to attract new people.
