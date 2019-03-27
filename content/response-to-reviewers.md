@@ -117,6 +117,11 @@ The waves (symbolizing the content) could be probably replaced by straight thick
 It took me a few seconds to realize this was meaning content.
 See for example https://swcarpentry.github.io/git-novice/01-basics/index.html
 
+We discussed this feedback in [GH148](https://github.com/greenelab/meta-review/issues/148) and addressed it in [GH180](https://github.com/greenelab/meta-review/pull/180).
+We agree that using solid lines for content is helpful, and we retained the wave for online discussion to help draw the distinction between the content and the conversation that happens on GitHub.
+We attempted a horizontal layout, but it was difficult to fit the text and retain legible font sizes.
+Though we retained the vertical layout, we now label the timeline as such and differentiate between the document and the discussion more clearly.
+
 > Figure .2 → This could be probably adapted as a raster plot where a dot is painted for each contribution (at the time of contribution).
 Line would be the same height and the legend would summarize the contribution.
 
