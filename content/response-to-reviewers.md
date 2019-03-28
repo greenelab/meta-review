@@ -115,15 +115,13 @@ See [GH142](https://github.com/greenelab/meta-review/issues/142) and [GH170](htt
 > `We initiated the Deep Review` → when?
 Would be nice to give some date at this point.
 
-Deep Review as started in August 2016.
-We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143)
-and made the requested change [GH183](https://github.com/greenelab/meta-review/pull/183).
+Deep Review was started in August 2016.
+We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143) and added the date to the manuscript in [GH183](https://github.com/greenelab/meta-review/pull/183).
 
 > `In total, the Deep Review attracted...` → in less than a few weeks? months? years?
 
 This referred to the less than two year period from August 2016 when the Deep Review project started to March 2018 when the journal submission was accepted.
-We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143)
-and made the requested change [GH183](https://github.com/greenelab/meta-review/pull/183).
+We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143) and made the requested change in [GH183](https://github.com/greenelab/meta-review/pull/183).
 
 > `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
