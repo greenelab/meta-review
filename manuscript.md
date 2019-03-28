@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/99e30a6dca65c6014adfdb829dcf9f15ff0b4172/))
+([permalink](https://greenelab.github.io/meta-review/v/d5db751c9d1a63088d0fbcb3d12da8b79697c919/))
 was automatically generated
-from [greenelab/meta-review@99e30a6](https://github.com/greenelab/meta-review/tree/99e30a6dca65c6014adfdb829dcf9f15ff0b4172)
+from [greenelab/meta-review@d5db751](https://github.com/greenelab/meta-review/tree/d5db751c9d1a63088d0fbcb3d12da8b79697c919)
 on March 28, 2019.
 </em></small>
 
@@ -284,6 +284,23 @@ But for now, Manubot's DOCX output is usually sufficient for journal submissions
 Otherwise, authors generally use the PDF output (e.g. for preprint or initial journal submissions).
 The primary Manubot output is HTML intended to be viewed in a web browser.
 Accordingly, manuscripts natively support JavaScript and can thus include any web-based interactive visualization, such as those produced using [Vega-Lite](https://vega.github.io/vega-lite/), [Bokeh](https://bokeh.pydata.org), or [Plotly](https://plot.ly/) [@6eVHYGML; @nyZChH5b].
+
+### Interactive features and appearance
+
+Manubot comes with several "plugins" that can be included in manuscripts exported as HTML.
+These plugins add special interactive features that enhance the user experience of viewing and reading manuscripts (Figure @fig:plugins).
+For example, with the "tooltips" plugin enabled, when the user hovers over a link to a reference or figure, a preview of that item pops up above the link, along with controls to navigate between other mentions of that item elsewhere in the document.
+The build process can also accommodate different "themes", which change the general aesthetics and appearance of the exported document (for example, from a contemporary sans-serif style to a more traditional serif style).
+The architecture of the plugins and themes is designed to provide authors with enough flexibility to suit their particular needs and preferences.
+
+![
+**Examples of the various Manubot plugins, illustrating their functionality and usefulness.**
+Screenshots were taken from existing manuscripts made with Manubot: [Sci-Hub Coverage Study](https://greenelab.github.io/scihub-manuscript/v/fd7acb7ed0108c920da56f84819ce13f02f68aa8/) and [TPOT-DS](https://trang1618.github.io/tpot-ds-ms/), available under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/ "Creative Commons Attribution 4.0 International License").
+Clarifying markups are overlaid in purple.
+](images/plugins.png "Manubot Plugins"){#fig:plugins}
+
+The Manubot "front-end" (layout, look, controls, behavior, etc.) was developed in line with current best practices and user expectations of the modern web.
+The plugins utilize standard technology built in to most major web browsers, allowing them to be relatively lightweight, modular, and easy to configure.
 
 Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
 The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically via [Travis CI](https://travis-ci.org/), to monitor changes.

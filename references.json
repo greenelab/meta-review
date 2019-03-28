@@ -28612,24 +28612,18 @@
     "id": "1DG704X8Q"
   },
   {
-    "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",
+    "type": "webpage",
     "title": "The Grey Literature — Proof of prespecified endpoints in medical research with the bitcoin blockchain",
-    "issued": {
+    "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",
+    "accessed": {
       "date-parts": [
         [
-          2014,
-          8,
-          25
+          "2019",
+          3,
+          28
         ]
       ]
     },
-    "author": [
-      {
-        "family": "Carlisle",
-        "given": "Benjamin Gregory"
-      }
-    ],
-    "type": "webpage",
     "id": "6MR50hyY"
   },
   {
