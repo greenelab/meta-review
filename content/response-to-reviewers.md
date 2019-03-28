@@ -53,6 +53,12 @@ We found this approach allows users to modify source code at a scale that is mor
 What new features will be implemented?
 Do you plan to apply for a grant to further develop manubot? etc.
 
+We discuss this issue in [GH133](https://github.com/greenelab/meta-review/issues/133) and address it in [GH179](https://github.com/greenelab/meta-review/pull/179).
+Specifically, we added a sub-section titled "Future Manubot enhancements".
+
+Currently, Manubot development is supported through August 2019 by a [grant](https://sloan.org/grant-detail/8501 "Grant Number G-2018-11163") from the Sloan Foundation.
+We plan to pursue additional funding opportunities to enable sustained development.
+
 > The layout of the PDF and the HTML could benefit from a better template (and font stack).
 This a totally minor point, but it might help to attract new people.
 
@@ -141,6 +147,11 @@ See [GH149](https://github.com/greenelab/meta-review/issues/149) and [GH164](htt
 
 > `GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist.` → Can you name a few and how difficult it would be to migrate?
 
+We discuss this feedback in [GH150](https://github.com/greenelab/meta-review/issues/150).
+Manuscript revisions in [GH179](https://github.com/greenelab/meta-review/issues/179) now list several alternative CI services and mention GitLab, the most promising alternative to GitHub, due in part to being open source.
+We have done some preliminary prototyping of using GitLab with its integrated CI service, as reported in [manubot/rootstock#88](https://github.com/manubot/rootstock/issues/88).
+There does not appear to be any functionality required for Manubot that is not supported by GitLab, but migrating the initial manuscript will still take a moderate amount of development.
+
 ## Reviewer 3
 
 > introductory paragraph needs more citations.
@@ -201,6 +212,12 @@ This was discussed in [GH119](https://github.com/greenelab/meta-review/issues/11
 > maybe add a note about how manubot could be used for better lesson development.
 e.g. I see a lot of utility in manubot-style approaches for Carpentries-style online lesson development, especially the generation of versioned links and posting them back to PRs (which I assume happens?)
 
+We discuss this feedback in [GH120](https://github.com/greenelab/meta-review/issues/120) and update the manuscript in [GH179](https://github.com/greenelab/meta-review/pull/179) to mention that Manubot may be helpful for projects like Software Carpentry.
+
+Regarding whether versioned links get posted back to pull requests, currently Manubot-generated commits for the `output` and `gh-pages` branches mention the commit / pull request that generated them.
+Accordingly, GitHub creates a backreference from a merged pull request to the deployment commits it generated.
+While the permalink to the corresponding versioned webpage is not currently in these commit messages, it is easy to infer the permalink because it is based on the commit hash from the commit that merged the pull request.
+
 > do rendered versions of each PR get posted back to the PR?
 I assume this happens but want to double check (and am at the far end of a lousy Internet connection right now).
 So this is really more of an "@ctb todo" item.
@@ -211,7 +228,8 @@ Instead, pull requests must be built locally to view the user-facing outputs (i.
 This is a [limitation](https://github.com/travis-ci/travis-ci/issues/5579) of pull request builds on Travis CI, which are unable to [upload artifacts](https://docs.travis-ci.com/user/uploading-artifacts/) due to a security restriction.
 Given the importance of exposing rendered manuscripts from pull requests, we will closely monitor for possible solutions.
 However, a satisfactory solution may only be enabled by other large-scale changes in Manubot's architecture, which themselves have an uncertain timeframe.
-Please see [`manubot/rootstock#198`](https://github.com/manubot/rootstock/issues/198) to track progress on this issue.
+As of [GH179](https://github.com/greenelab/meta-review/pull/179), the manuscript mentions that addressing this issue is a priority.
+Please see [`manubot/rootstock#198`](https://github.com/manubot/rootstock/issues/198) to track progress.
 
 > further emphasize strikethrough formatting for errors in extant versions.
 I love the paragraph on Sci-Hub error correction - am I correct in understanding that the link to the erroneous version of the pub was updated with a version that clearly highlighted the text as erroneous?
