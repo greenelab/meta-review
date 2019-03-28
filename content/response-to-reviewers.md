@@ -19,6 +19,11 @@ One minor suggestion/comment - it wasn't clear why the Manubot description came 
 Is it not true that DR was a first instance use of Manubot? If so, why not describe the tool, then describe DR as the pilot?
 Generally it read as though those two sections were distinct, while I think the authors intended that they be part of a bigger story.
 
+We thank the reviewer for pointing out that that original organization was confusing.
+The intention of the section previously titled `Contribution workflow` is to present the overall philosophy of collaborative writing with Manubot before diving into specific Manubot features that enable this writing process.
+Deep Review is used as to provide specific examples of the collaborative process.
+We restructured this section, now named `Manubot contribution workflow`, and generalized it in [GH183](https://github.com/greenelab/meta-review/pull/183) and discussed the changes in [GH129](https://github.com/greenelab/meta-review/pull/129).
+
 ## Reviewer 2
 
 > Overall, the article is nicely written and corresponds to a software paper (in my opinion).
@@ -110,7 +115,15 @@ See [GH142](https://github.com/greenelab/meta-review/issues/142) and [GH170](htt
 > `We initiated the Deep Review` → when?
 Would be nice to give some date at this point.
 
+Deep Review as started in August 2016.
+We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143)
+and made the requested change [GH183](https://github.com/greenelab/meta-review/pull/183).
+
 > `In total, the Deep Review attracted...` → in less than a few weeks? months? years?
+
+This referred to the less than two year period from August 2016 when the Deep Review project started to March 2018 when the journal submission was accepted.
+We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143)
+and made the requested change [GH183](https://github.com/greenelab/meta-review/pull/183).
 
 > `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
