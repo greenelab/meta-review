@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/meta-review/.
-The permalink for this webpage version is https://greenelab.github.io/meta-review/v/99e30a6dca65c6014adfdb829dcf9f15ff0b4172/.
+The permalink for this webpage version is https://greenelab.github.io/meta-review/v/d5db751c9d1a63088d0fbcb3d12da8b79697c919/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://greenelab.github.io/meta-review/v/freeze/.
 
 ## Files
@@ -36,4 +36,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`99e30a6dca65c6014adfdb829dcf9f15ff0b4172`](https://github.com/greenelab/meta-review/commit/99e30a6dca65c6014adfdb829dcf9f15ff0b4172).
+[`d5db751c9d1a63088d0fbcb3d12da8b79697c919`](https://github.com/greenelab/meta-review/commit/d5db751c9d1a63088d0fbcb3d12da8b79697c919).
