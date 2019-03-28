@@ -54,7 +54,7 @@ What new features will be implemented?
 Do you plan to apply for a grant to further develop manubot? etc.
 
 We discuss this issue in [GH133](https://github.com/greenelab/meta-review/issues/133) and address it in [GH179](https://github.com/greenelab/meta-review/pull/179).
-Specifically, we added a sub-section to the titled "Future Manubot enhancements".
+Specifically, we added a sub-section titled "Future Manubot enhancements".
 
 Currently, Manubot development is supported through August 2019 by a [grant](https://sloan.org/grant-detail/8501 "Grant Number G-2018-11163") from the Sloan Foundation.
 We plan to pursue additional funding opportunities to enable sustained development.
