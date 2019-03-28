@@ -5,9 +5,9 @@ Dear Dr. Schneidman-Duhovny,
 We thank you the reviewers for their thoughtful comments.
 Based on their feedback, we have revised the manuscript and address each reviewer suggestion point-by-point below.
 
-**[SUMMARIZE MAJOR CHANGES HERE]**
+**[SUMMARIZE MAJOR CHANGES TO MANUBOT AND THE MANUSCRIPT HERE]**
 
-Sincerely,
+Sincerely,  
 Anthony
 
 ***
@@ -61,6 +61,17 @@ We plan to pursue additional funding opportunities to enable sustained developme
 
 > The layout of the PDF and the HTML could benefit from a better template (and font stack).
 This a totally minor point, but it might help to attract new people.
+
+Improving the Manubot front end has been one of the major focuses of our recent development efforts.
+We rewrote the CSS to modernize the front end and improve the default fonts and styles.
+In addition, we restructured the Manubot codebase to support optional plugins and multiple themes (manuscript styles).
+The plugins provide interactive features such as citation tooltips, a table of contents, an image viewer, Hypothesis annotations, and collapsible sections as well as MathJax support for LaTeX equations.
+The new Figure 3 highlights the Manubot plugins.
+Plugins can be easily disabled by removing the plugin-specific line from the [build script](https://github.com/greenelab/meta-review/blob/master/build/build.sh#L36) used during continuous deployment.
+
+Enhancing the plugins and styles remains an active development area.
+We are planning additional front end improvements in [manubot/rootstock#189](https://github.com/manubot/rootstock/issues/189) and [manubot/rootstock#192](https://github.com/manubot/rootstock/issues/192).
+We discussed these revisions in [GH134](https://github.com/greenelab/meta-review/issues/134) and [GH168](https://github.com/greenelab/meta-review/issues/168) and updated the manuscript in [GH172](https://github.com/greenelab/meta-review/pull/172).
 
 > You need to have a long-term archive (e.g. Zenodo) of manubot (just in case GitHub closes tomorrow).
 Or you can use a Software Heritage identifier to make sure manubot can still be found in a few years.
