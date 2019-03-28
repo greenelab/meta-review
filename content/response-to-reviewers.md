@@ -158,6 +158,10 @@ in the PDF I have in front of me, the footnotes at end of sentences are not left
 this is a minor nit but a nit nonetheless :).
 is this just a stylesheet issue or ...?
 
+These superscripts were intended to indicate the footnote text for the footnote references in the table.
+We switched the formatting to add line breaks after each footnote in the table caption to make it more clear that the footnote references are in the table instead of the caption.
+This was discussed in [GH116](https://github.com/greenelab/meta-review/issues/116) and updated in [GH182](https://github.com/greenelab/meta-review/pull/182).
+
 > `requesting modifications as depicted in 7.`
 the number 7 seems to refer to a citation (at least that's the hover view) but should maybe be in square brackets, i.e. [7]?
 
@@ -182,6 +186,9 @@ One approach that we currently use is to include relevant issue links in commit 
 are these separate people or the same person?
 one presumes maintainers are participants, but not vice versa.
 either way, please clarify! :)
+
+We rewrote the figure caption to indicate that three individuals are involved: a Contributor, Maintainer, and Participant.
+This was discussed in [GH119](https://github.com/greenelab/meta-review/issues/119) and updated in [GH182](https://github.com/greenelab/meta-review/pull/182).
 
 > maybe add a note about how manubot could be used for better lesson development.
 e.g. I see a lot of utility in manubot-style approaches for Carpentries-style online lesson development, especially the generation of versioned links and posting them back to PRs (which I assume happens?)
