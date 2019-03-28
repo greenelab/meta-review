@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/1f257ceec1ea0123c1e76307acbf95ffbafb4f82/))
+([permalink](https://greenelab.github.io/meta-review/v/99e30a6dca65c6014adfdb829dcf9f15ff0b4172/))
 was automatically generated
-from [greenelab/meta-review@1f257ce](https://github.com/greenelab/meta-review/tree/1f257ceec1ea0123c1e76307acbf95ffbafb4f82)
+from [greenelab/meta-review@99e30a6](https://github.com/greenelab/meta-review/tree/99e30a6dca65c6014adfdb829dcf9f15ff0b4172)
 on March 28, 2019.
 </em></small>
 
@@ -212,7 +212,7 @@ The contributor made the pull request, and two maintainers and another participa
 After four rounds of reviews and pull request edits, a maintainer merged the changes.
 
 We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit.
-In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work and helps prevent ghostwriting [@RK9sIADd].
+In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work.
 Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
 Because the Manubot writing process tracks the complete history through git commits, it enables detailed retrospective contribution analysis.
 
@@ -326,16 +326,12 @@ As such, continuous publishing via Manubot helped the authors address the error 
 This Sci-Hub Coverage Study preprint was the [most viewed](http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/) 2017 _PeerJ Preprint_, while the Deep Review was the most viewed 2017 _bioRxiv_ preprint [@9IrsqXRa].
 Hence, in Manubot's first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.
 
-Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [@15YfJWkEd] (5000 authors) and the report of the Drosophila genome [@Szy8sdWq] (1000 authors).
-Yet _the number of people that participated in writing_ those papers, as opposed to generating and analyzing the data, is not always clear and likely to be far below the number of authors [@NGOit8L2; @nahdPyLb].
-Manubot provides the scientists involved in large collaborations the opportunity to activtely participate, through a public forum, in the writing process.
-
 Additional research studies in progress are being authored using Manubot, spanning the fields of [genomics](https://vsmalladi.github.io/tfsee-manuscript/), [climate science](https://openclimatedata.github.io/global-emissions/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
 Manubot is also being used for documents beyond traditional journal publications, such as [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
 Manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@u9DGTIX] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
 Finally, the Kipoi model zoo for genomics [@14cVrrqP1] uses Manubot's citation functionality to automatically extract model authors.
 
-### Citation utility
+### Citation utilities
 
 To make citation-by-identifier easily usable outside of Manubot manuscripts, we created the `manubot cite` command line utility, available as a [Python package](https://pypi.org/project/manubot/).
 This utility takes a list of citations and returns either a rendered bibliography or CSL Data Items (i.e. JSON-formatted reference metadata).
@@ -347,7 +343,48 @@ manubot cite --render --format=markdown \
   pmid:29618526 doi:10.1038/550143a
 ```
 
+Pandoc brands itself as a "universal document converter", and can, as of version 2.7, convert from any of 32 input formats to any of 51 output formats.
+Thanks to its versatility and active development since 2006, Pandoc enjoys a large userbase across many disciplines and applications.
+Its filter interface enables adding custom functionality with community-developed programs.
+We are [prototyping](https://github.com/manubot/manubot/pull/99 "Create a pandoc-manubot-cite filter for pandoc") a Manubot-based citation-by-identifier filter.
+This filter would allow Pandoc users to cite persistent identifiers as part of their existing Pandoc workflows, without requiring them to adopt other aspects of Manubot, and could help popularize citation-by-identifier at an influential scale.
+
+### Future Manubot enhancements
+
+Manubot is still under active development, and we envision major changes in its design and dependencies going forward.
+Currently, manuscript repositories must contain a large number of files that do not directly contain manuscript content.
+While this enables a high-degree of customization, it also increases complexity.
+Therefore, we are investigating whether configuration files with sensible defaults could enable bare-bones repositories that contain manuscript content and little else.
+
+In addition, to simplifying the usage, we're also looking into simplifying the setup.
+Presently, setup is complex because users must do advanced command-line operations to clone the `manubot/rootstock` repository and configure Travis CI.
+While we provide detailed instructions, users often struggle replicating the long list of setup commands in an appropriate computational environment.
+One priority will be to automate setup to a higher degree.
+However, this may require switching the services Manubot uses for continuous integration (e.g. from Travis CI to GitHub Actions, CircleCI, Drone, or GitLab CI), environment management (e.g. from Conda to Docker), and repository hosting (e.g. from GitHub to GitLab).
+In addition to simplifying setup, such migrations may also present the opportunity to decrease dependency on propreitary services and address other Manubot shortcomings, such as the current inability to view rendered manuscripts produced by pull request builds.
+
+Upgrading a Manubot instance is an opt-in procedure.
+Therefore, when we introduce fundamental changes, existing manuscripts continue to function.
+However, large Rootstock changes can make upgrading existing manuscripts difficult.
+We are happy to provide users _pro bono_ assistance to upgrade or troubleshoot manuscripts (please open an [issue](https://github.com/manubot/rootstock/issues) at `manubot/rootstock` for help).
+
+One strategy to grow Manubot usage is to identify a specific user group or use case for which Manubot can be widely adopted.
+For example, a journal may decide to build their publishing workflow around Manubot, such that submissions would consist of a Manubot repository.
+This application would be most suitable for journals that currently use GitHub for submissions and publishing, such as the _Journal of Open Source Software_.
+Manubot could also gain traction as the primary tool used to write collaborative manuscripts within certain communities.
+For example, open research projects built from voluntary contributions by geographically-distributed individuals could adopt Manubot.
+Likewise, Manubot may excel at enabling collaborative translation of existing manuscripts into other languages.
+Another application could become collaborative development of online lessons, documentation, or tutorials.
+Projects like [Software Carpentry](https://software-carpentry.org/) already host each lesson in a separate GitHub repository, and may be able to benefit from Manubot-generated permalinks to historical versions.
+
 ## Authorship
+
+Manubot does not impose any restrictions on authorship.
+It allows authors to adhere to the author inclusion and author ordering conventions of their field, which vary considerably across disciplines [@14ahyJcvY].
+Some Manubot projects create a [table](https://github.com/Benjamin-Lee/deep-rules/blob/master/contributors.md) in their GitHub repository to track contributors who did not commit text to the manuscript.
+This provides a transparent way to record contributions such as experimental research that generated data for the manuscript and discuss whether they meet that project's authorship criteria.
+Contribution transparency helps prevent ghostwriting [@RK9sIADd] and is especially important in collaborative writing [@vzcNEQll].
+Although we recommend authors provide their ORCID and GitHub username, Manubot also supports pseudonyms, pseudonymous GitHub usernames, and authors without an ORCID or GitHub account.
 
 To determine authorship for the Deep Review, we followed the International Committee of Medical Journal Editors (ICMJE) [guidelines](http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) and used GitHub to track contributions.
 ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript.
@@ -356,7 +393,7 @@ Although these criteria provided a straightforward, equitable way to determine w
 In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript.
 This convention can be difficult to reconcile in a collaborative effort.
 Using git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests.
-However, there is no objective system to compare and weight the different types of contributions and produce an ordered author list.
+Therefore, we concluded that it is not possible to construct an objective system to compare and weight the different types of contributions and produce an ordered author list.
 
 To address this issue, we generalized the concept of "co-first" authorship, in which two or more authors are denoted as making equal contributions to a paper.
 We defined four types of contributions [@PZMP42Ak], from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories.
@@ -364,7 +401,11 @@ A randomized algorithm then arbitrarily ordered authors within each contribution
 The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner.
 Given the same author contributions, it always produced the same ordered author list.
 We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category.
-The Deep Review author ordering procedure is not inherent to writing with Manubot but illustrates the authorship possibilities when all contributions are publicly tracked and recorded.
+The Deep Review author ordering procedure illustrates authorship possibilities when all contributions are publicly tracked and recorded that would be difficult with a traditional collaborative writing platform.
+
+Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [@15YfJWkEd] (5000 authors) and the report of the Drosophila genome [@Szy8sdWq] (1000 authors).
+Yet _the number of people that participated in writing_ those papers, as opposed to generating and analyzing the data, is not always clear and likely to be far below the number of authors [@NGOit8L2; @nahdPyLb].
+Manubot provides the scientists involved in large collaborations the opportunity to actively participate, through a public forum, in the writing process.
 
 ## Discussion
 
@@ -404,7 +445,7 @@ Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], an
 As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
 
 Several other open science efforts are GitHub-based like our collaborative writing process.
-ReScience [@8o1nWux7], the Journal of Open Source Software [@xpw2aizK], and some other [Open Journals](http://www.theoj.org/) rely on GitHub for peer review and hosting.
+ReScience [@8o1nWux7] as well as titles from [Open Journals](http://www.theoj.org/), such as the _Journal of Open Source Software_ [@xpw2aizK], rely on GitHub for peer review and hosting.
 Distill uses GitHub for transparent peer review and post-publication peer review [@1ESYVbN4H].
 GitHub is increasingly used for resource curation [@vf9t7xMG], and collaborative scholarly reviews combine literature curation with discussion and interpretation.
 
