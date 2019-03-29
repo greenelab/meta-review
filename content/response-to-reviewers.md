@@ -62,12 +62,12 @@ We plan to pursue additional funding opportunities to enable sustained developme
 > The layout of the PDF and the HTML could benefit from a better template (and font stack).
 This a totally minor point, but it might help to attract new people.
 
-Improving the Manubot front end has been one of the major focuses of our recent development efforts.
+Improving the Manubot frontend has been one of the major focuses of our recent development efforts.
 We rewrote the CSS to modernize the front end and improve the default fonts and styles.
 In addition, we restructured the Manubot codebase to support optional plugins and multiple themes (manuscript styles).
 The plugins provide interactive features such as citation tooltips, a table of contents, an image viewer, Hypothesis annotations, and collapsible sections as well as MathJax support for LaTeX equations.
 The new Figure 3 highlights the Manubot plugins.
-Plugins can be easily disabled by removing the plugin-specific line from the [build script](https://github.com/greenelab/meta-review/blob/master/build/build.sh#L36) used during continuous deployment.
+Plugins can be easily disabled by removing the plugin-specific line from the [build script](https://github.com/greenelab/meta-review/blob/d5db751c9d1a63088d0fbcb3d12da8b79697c919/build/build.sh#L36-L50) used during continuous deployment.
 
 Enhancing the plugins and styles remains an active development area.
 We are planning additional front end improvements in [manubot/rootstock#189](https://github.com/manubot/rootstock/issues/189) and [manubot/rootstock#192](https://github.com/manubot/rootstock/issues/192).
