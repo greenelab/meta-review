@@ -5,9 +5,9 @@ Dear Dr. Schneidman-Duhovny,
 We thank you the reviewers for their thoughtful comments.
 Based on their feedback, we have revised the manuscript and address each reviewer suggestion point-by-point below.
 
-**[SUMMARIZE MAJOR CHANGES HERE]**
+**[SUMMARIZE MAJOR CHANGES TO MANUBOT AND THE MANUSCRIPT HERE]**
 
-Sincerely,
+Sincerely,  
 Anthony
 
 ***
@@ -18,6 +18,11 @@ Anthony
 One minor suggestion/comment - it wasn't clear why the Manubot description came AFTER the Deep Review suggestion.
 Is it not true that DR was a first instance use of Manubot? If so, why not describe the tool, then describe DR as the pilot?
 Generally it read as though those two sections were distinct, while I think the authors intended that they be part of a bigger story.
+
+We thank the reviewer for pointing out that that original organization was confusing.
+The intention of the section previously titled `Contribution workflow` is to present the overall philosophy of collaborative writing with Manubot before diving into specific Manubot features that enable this writing process.
+Deep Review is used as to provide specific examples of the collaborative process.
+We restructured this section, now named `Manubot contribution workflow`, and generalized it in [GH183](https://github.com/greenelab/meta-review/pull/183) and discussed the changes in [GH129](https://github.com/greenelab/meta-review/pull/129).
 
 ## Reviewer 2
 
@@ -61,6 +66,17 @@ We plan to pursue additional funding opportunities to enable sustained developme
 
 > The layout of the PDF and the HTML could benefit from a better template (and font stack).
 This a totally minor point, but it might help to attract new people.
+
+Improving the Manubot frontend has been one of the major focuses of our recent development efforts.
+We rewrote the CSS to modernize the front end and improve the default fonts and styles.
+In addition, we restructured the Manubot codebase to support optional plugins and multiple themes (manuscript styles).
+The plugins provide interactive features such as citation tooltips, a table of contents, an image viewer, Hypothesis annotations, and collapsible sections as well as MathJax support for LaTeX equations.
+The new Figure 3 highlights the Manubot plugins.
+Plugins can be easily disabled by removing the plugin-specific line from the [build script](https://github.com/greenelab/meta-review/blob/d5db751c9d1a63088d0fbcb3d12da8b79697c919/build/build.sh#L36-L50) used during continuous deployment.
+
+Enhancing the plugins and styles remains an active development area.
+We are planning additional front end improvements in [manubot/rootstock#189](https://github.com/manubot/rootstock/issues/189) and [manubot/rootstock#192](https://github.com/manubot/rootstock/issues/192).
+We discussed these revisions in [GH134](https://github.com/greenelab/meta-review/issues/134) and [GH168](https://github.com/greenelab/meta-review/issues/168) and updated the manuscript in [GH172](https://github.com/greenelab/meta-review/pull/172).
 
 > You need to have a long-term archive (e.g. Zenodo) of manubot (just in case GitHub closes tomorrow).
 Or you can use a Software Heritage identifier to make sure manubot can still be found in a few years.
@@ -110,7 +126,13 @@ See [GH142](https://github.com/greenelab/meta-review/issues/142) and [GH170](htt
 > `We initiated the Deep Review` → when?
 Would be nice to give some date at this point.
 
+Deep Review was started in August 2016.
+We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143) and added the date to the manuscript in [GH183](https://github.com/greenelab/meta-review/pull/183).
+
 > `In total, the Deep Review attracted...` → in less than a few weeks? months? years?
+
+This referred to the less than two year period from August 2016 when the Deep Review project started to March 2018 when the journal submission was accepted.
+We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pull/143) and made the requested change in [GH183](https://github.com/greenelab/meta-review/pull/183).
 
 > `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
