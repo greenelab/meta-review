@@ -111,6 +111,12 @@ Would not that be a way to lower the technical entry level for contributors?
 > Could you elaborate a bit on the potential limitations of the markdown language?
 Did you encounter some difficulties in referencing figures or tables?
 
+We discussed this feedback in [GH141](https://github.com/greenelab/meta-review/issues/141) and revised the manuscript accordingly in [GH186](https://github.com/greenelab/meta-review/pull/186).
+The manuscript now includes a more comprehensive discussion of Markdown, with links / references to the CommonMark standard and the Pandoc Scholar study, which provides additional details on formatting scholarly writing with Pandoc's Markdown.
+In [manubot/rootstock#169](https://github.com/manubot/rootstock/pull/169), we updated the `content/02.delete-me.md` file to showcase supported formatting options.
+The manuscript now links to the raw and rendered displays of this Markdown to better exhibit Manubot's formatting options.
+The manuscript and the revised delete-me examples describe/exhibit how cross-referencing figures and tables is supported using the `pandoc-xnos` suite of Pandoc filters.
+
 > What is the procedure when you submit an article to a journal?
 Do you have a set of pandoc templates or do you work directly on the word or latex output to match journal requirements?
 
