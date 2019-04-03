@@ -7,7 +7,7 @@ author-meta:
 - Vincent Rubinetti
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-03-28'
+date-meta: '2019-04-03'
 keywords:
 - collaborative review
 - continuous integration
@@ -24,10 +24,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/d5db751c9d1a63088d0fbcb3d12da8b79697c919/))
+([permalink](https://greenelab.github.io/meta-review/v/998ed62f1e2e21c58bff2a88ac7387b6b8781fab/))
 was automatically generated
-from [greenelab/meta-review@d5db751](https://github.com/greenelab/meta-review/tree/d5db751c9d1a63088d0fbcb3d12da8b79697c919)
-on March 28, 2019.
+from [greenelab/meta-review@998ed62](https://github.com/greenelab/meta-review/tree/998ed62f1e2e21c58bff2a88ac7387b6b8781fab)
+on April 3, 2019.
 </em></small>
 
 ## Authors
@@ -132,18 +132,18 @@ We introduce [Manubot](https://manubot.org), a new tool and infrastructure for a
 
 Based on our experience leading a recent open review [@16CgM2x0z], we discuss the advantages and challenges of open collaborative writing, a form of crowdsourcing [@12sHvZy1a].
 Our review manuscript [@PZMP42Ak] was code-named the Deep Review and surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
-We initiated the Deep Review by creating a GitHub repository (<https://github.com/greenelab/deep-review>) to coordinate and manage contributions.
+We initiated the Deep Review in August 2016 by creating a GitHub repository (<https://github.com/greenelab/deep-review>) to coordinate and manage contributions.
 GitHub is a platform designed for collaborative software development that is adaptable for collaborative writing.
 From the start, we made the GitHub repository public under a [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://github.com/greenelab/deep-review/blob/master/LICENSE.md).
 We encouraged anyone interested to contribute by proposing changes or additions.
 Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation.
-In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions.
+In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions in less than two years.
 
 The Deep Review and other studies that subsequently adopted the Manubot platform were unequivocal successes bolstered by the collaborative approach.
 However, inviting wide authorship brought many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 The manuscript writing process we developed using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation addresses these challenges.
 
-## Contribution workflow
+## Manubot contribution workflow
 
 There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing [@AylLD9F8] such as [Overleaf](https://www.overleaf.com/) and [Authorea](https://www.authorea.com/).
 These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing.
@@ -174,12 +174,13 @@ There is no integrated forum for discussing and editing revisions.
 3. In some circumstances, Overleaf git commits are not modular. Edits made by distinct authors may be attributed to a single author.
 {#tbl:platforms}
 
-In our workflow, we adopt standard software development strategies that enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
+Manubot's collaborative writing workflow adopts standard software development strategies that enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes.
 The GitHub platform supports organizing and editing the manuscript.
-We use GitHub _issues_ for organization, opening a new issue for each discussion topic.
+Manubot projects use GitHub _issues_ for organization, opening a new issue for each discussion topic.
 For example, in a review manuscript like the Deep Review, this includes each primary paper under consideration.
 Within a paper's issue, contributors summarize the research, discuss it (sometimes with participation from the original authors), and assess its relevance to the review.
-Issues also serve as an open to-do list and a forum for debating the main message, themes, and topics of the review.
+In a primary research article, issues can instead track progress on specific figures or subsections of text being drafted.
+Issues serve as an open to-do list and a forum for debating the main messages of the manuscript.
 
 GitHub and the underlying git version control system [@PlcxShQU; @kEX5dgzK] also structure the writing process.
 The official version of the manuscript is _forked_ by individual contributors.
@@ -215,6 +216,7 @@ We found that this workflow was an effective compromise between fully unrestrict
 In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work.
 Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
 Because the Manubot writing process tracks the complete history through git commits, it enables detailed retrospective contribution analysis.
+These pull request and contribution tracking examples both come from Deep Review, the largest Manubot project to date, but illustrate the general principles of transparency and collaboration that are shared by all open Manubot manuscripts.
 
 ![
 **Deep Review contributions by author over time.**
@@ -228,7 +230,7 @@ As of March 06, 2019, the Deep Review repository accumulated 755 git commits, 31
 The notebook to generate this figure can be [interactively launched using Binder](https://mybinder.org/v2/gh/greenelab/meta-review/binder?filepath=analyses/deep-review-contrib/02.contrib-viz.ipynb) [@Q20Bxdsr], enabling users to explore alternative visualizations or analyses of the source data.
 ](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%"}
 
-## Manubot
+## Manubot features
 
 Manubot is a system for writing scholarly manuscripts via GitHub that is built upon our [Python package](https://github.com/manubot/manubot) of the same name.
 With Manubot, manuscripts are written as plain-text Markdown files, which is well suited for version control using git.
