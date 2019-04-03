@@ -200,7 +200,7 @@ this is a minor nit but a nit nonetheless :).
 is this just a stylesheet issue or ...?
 
 These superscripts were intended to indicate the footnote text for the footnote references in the table.
-We switched the formatting to add line breaks after each footnote in the table caption to make it more clear that the footnote references are in the table instead of the caption.
+We switched the formatting to remove the superscripts from the footnotes in the table caption to make it more clear that the footnote references are in the table instead of the caption.
 This was discussed in [GH116](https://github.com/greenelab/meta-review/issues/116) and updated in [GH182](https://github.com/greenelab/meta-review/pull/182).
 
 > `requesting modifications as depicted in 7.`
