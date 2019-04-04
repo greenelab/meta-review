@@ -330,5 +330,27 @@
         "family": "Bentley"
       }
     ]
+  },
+  {
+    "standard_citation": "doi:10.17226/25116",
+    "type": "book",
+    "DOI": "10.17226/25116",
+    "title": "Open Science by Design: Realizing a Vision for 21st Century Research",
+    "author": [
+      {"literal": "National Academies of Sciences, Engineering, and Medicine"}
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          9
+        ]
+      ]
+    },
+    "publisher": "National Academies Press",
+    "URL": "https://doi.org/gfxzc4",
+    "ISBN": "9780309476249",
+    "PMID": "30212065"
   }
 ]
