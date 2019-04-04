@@ -148,6 +148,10 @@ We have clarified the distinction between Manubot and other platforms, in partic
 > Table 1. → You should add a WYSIWIG feature that is present in a number of platforms and important for a lot of non technical people.
 Same for inline comments and diff colorization.
 
+We added `WYSIWYG mode`, `Inline comments`, and `Viewing changes` as new features to the table that compares collaborative writing platforms.
+In addition, we updated the table to use Overleaf v2 instead of Overleaf v1, which was discontinued.
+We discussed these changes in [GH147](https://github.com/greenelab/meta-review/issues/147) and edited the table in [GH188](https://github.com/greenelab/meta-review/pull/188).
+
 > Figure 1. → Maybe an horizontal layout would be better (to suggest a timeline from left to right).
 The waves (symbolizing the content) could be probably replaced by straight thick lines.
 It took me a few seconds to realize this was meaning content.
