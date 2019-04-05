@@ -11,7 +11,7 @@
   <meta name="author" content="Vincent Rubinetti" />
   <meta name="author" content="Casey S. Greene" />
   <meta name="author" content="Anthony Gitter" />
-  <meta name="dcterms.date" content="2019-04-03" />
+  <meta name="dcterms.date" content="2019-04-05" />
   <meta name="keywords" content="collaborative review, continuous integration, publishing, Manubot" />
   <title>Open collaborative writing with Manubot</title>
   <style>
@@ -91,7 +91,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Open collaborative writing with Manubot</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/998ed62f1e2e21c58bff2a88ac7387b6b8781fab/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/998ed62f1e2e21c58bff2a88ac7387b6b8781fab">greenelab/meta-review@998ed62</a> on April 3, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/a0976d78d1f799110fc90ed695b19df948db14df/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/a0976d78d1f799110fc90ed695b19df948db14df">greenelab/meta-review@a0976d7</a> on April 5, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
@@ -109,11 +109,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Based on our experience leading a recent open review <span class="citation" data-cites="16CgM2x0z">[<a href="#ref-16CgM2x0z">1</a>]</span>, we discuss the advantages and challenges of open collaborative writing, a form of crowdsourcing <span class="citation" data-cites="12sHvZy1a">[<a href="#ref-12sHvZy1a">2</a>]</span>. Our review manuscript <span class="citation" data-cites="PZMP42Ak">[<a href="#ref-PZMP42Ak">3</a>]</span> was code-named the Deep Review and surveyed deep learning’s role in biology and precision medicine, a research area undergoing explosive growth. We initiated the Deep Review in August 2016 by creating a GitHub repository (<a href="https://github.com/greenelab/deep-review" class="uri">https://github.com/greenelab/deep-review</a>) to coordinate and manage contributions. GitHub is a platform designed for collaborative software development that is adaptable for collaborative writing. From the start, we made the GitHub repository public under a <a href="https://github.com/greenelab/deep-review/blob/master/LICENSE.md">Creative Commons Attribution 4.0 International (CC BY 4.0) license</a>. We encouraged anyone interested to contribute by proposing changes or additions. Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation. In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions in less than two years.</p>
 <p>The Deep Review and other studies that subsequently adopted the Manubot platform were unequivocal successes bolstered by the collaborative approach. However, inviting wide authorship brought many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists. The manuscript writing process we developed using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation addresses these challenges.</p>
 <h2 id="manubot-contribution-workflow">Manubot contribution workflow</h2>
-<p>There are many existing collaborative writing platforms ranging from rich text editors, which support Microsoft Word documents or similar formats, to LaTeX-based systems for technical writing <span class="citation" data-cites="AylLD9F8">[<a href="#ref-AylLD9F8">4</a>]</span> such as <a href="https://www.overleaf.com/">Overleaf</a> and <a href="https://www.authorea.com/">Authorea</a>. These platforms ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing. Although they work well for editing text, they lack sufficient features for managing a collaborative manuscript with many authors and attributing precise credit, which are important for open writing (Table <a href="#tbl:platforms">1</a>). Furthermore, none of these platforms offer the ability to address thematically related changes together and enable multiple authors to iteratively refine proposed changes.</p>
+<p>There are many existing collaborative writing platforms. Some provide “what you see is what you get” (WYSIWYG) interfaces and support Microsoft Word or similar document formats. Others are LaTeX-based systems for technical writing <span class="citation" data-cites="AylLD9F8">[<a href="#ref-AylLD9F8">4</a>]</span>, such as <a href="https://www.overleaf.com/">Overleaf</a> and <a href="https://www.authorea.com/">Authorea</a>. These tools ideally offer version control, multiple permission levels, or other functionality to support multi-author document editing. Existing platforms work well for editing text and are widely used for scholarly writing. However, they lack features that are important for open writing, such as managing a collaborative manuscript and attributing precise credit among many authors (Table <a href="#tbl:platforms">1</a>). None of these platforms offer the ability to address thematically related changes together and enable multiple authors to iteratively refine proposed changes.</p>
 <a name="tbl:platforms"></a>
 <table style="width:100%;">
-<caption><span>Table 1:</span> Collaborative writing platforms. A summary of features that differentiate Manubot from existing collaborative writing platforms. We assessed features on June 15, 2018 using the free version of each platform. Some platforms offer additional features through a paid subscription or software.<br />
-1. Additional functionality, such as bibliography management, is available by editing the Word document stored in OneDrive with the paid Word desktop application. 2. Conversations about modifications take place on the document as comments, annotations, or unsaved chats. There is no integrated forum for discussing and editing revisions. 3. In some circumstances, Overleaf git commits are not modular. Edits made by distinct authors may be attributed to a single author. </caption>
+<caption><span>Table 1:</span> Collaborative writing platforms. A summary of features that differentiate Manubot from existing collaborative writing platforms. We assessed features on June 15, 2018 using the free version of each platform and updated our assessment on April 3, 2019 to add Overleaf v2 and the features in the bottom three rows. Some platforms offer additional features through a paid subscription or software.<br />
+1) Additional functionality, such as bibliography management and tracking changes, is available by editing the Word document stored in OneDrive with the paid Word desktop application. 2) Conversations about modifications take place on the document as comments, annotations, or unsaved chats. There is no integrated forum for discussing and editing revisions. 3) In some circumstances, Overleaf Git commits are not modular. Edits made by distinct authors may be attributed to a single author. The GitHub Sync feature attributes all edits to the project owner. </caption>
 <colgroup>
 <col style="width: 14%" />
 <col style="width: 14%" />
@@ -128,7 +128,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <th>Feature</th>
 <th>Manubot</th>
 <th>Authorea + BibTeX</th>
-<th>Overleaf v1 + BibTeX</th>
+<th>Overleaf v2 + BibTeX</th>
 <th>Google Docs + Paperpile</th>
 <th>Word Online<sup>1</sup></th>
 <th>Markdown on GitHub</th>
@@ -190,7 +190,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <td>No</td>
 </tr>
 <tr class="odd">
-<td>Cite by common identifiers</td>
+<td>Citation by identifier</td>
 <td>Yes</td>
 <td>No</td>
 <td>No</td>
@@ -233,6 +233,33 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <td>No</td>
 <td>No</td>
 <td>Yes</td>
+</tr>
+<tr class="even">
+<td>WYSIWYG mode</td>
+<td>No</td>
+<td>Rich text available</td>
+<td>Rich text available</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Preview rendered Markdown</td>
+</tr>
+<tr class="odd">
+<td>Inline comments</td>
+<td>Yes using Hypothesis</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>No</td>
+</tr>
+<tr class="even">
+<td>Viewing changes</td>
+<td>Diff of manuscript source</td>
+<td>Highlight changes</td>
+<td>Compare labeled versions</td>
+<td>Highlight changes</td>
+<td>No</td>
+<td>Diff of manuscript source</td>
 </tr>
 </tbody>
 </table>
