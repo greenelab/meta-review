@@ -22,6 +22,8 @@ string	citation	standard_citation	citation_id
 @doi:10.1101/142760	doi:10.1101/142760	doi:10.1101/142760	tJKvnIaZ
 @doi:10.1101/344804	doi:10.1101/344804	doi:10.1101/344804	lXvpQxeN
 @doi:10.1101/375345	doi:10.1101/375345	doi:10.1101/375345	14cVrrqP1
+@doi:10.1101/474403	doi:10.1101/474403	doi:10.1101/474403	LGjXBQ7t
+@doi:10.1101/515940	doi:10.1101/515940	doi:10.1101/515940	O3pCOA4K
 @doi:10.1103/PhysRevLett.114.191803	doi:10.1103/PhysRevLett.114.191803	doi:10.1103/physrevlett.114.191803	15YfJWkEd
 @doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	NuDPNceu
 @doi:10.1109/MCSE.2009.19	doi:10.1109/MCSE.2009.19	doi:10.1109/mcse.2009.19	g6WVoxNy
@@ -78,6 +80,7 @@ string	citation	standard_citation	citation_id
 @tag:elife-repro-article	url:https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article	url:https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article	KLKZcPlg
 @tag:stencila	url:https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research	url:https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research	BWMf57EM
 @tag:steem-post	url:https://goo.gl/jGBrxE	url:https://goo.gl/jGBrxE	u9DGTIX
+@url:https://hdl.handle.net/10261/160086	url:https://hdl.handle.net/10261/160086	url:https://hdl.handle.net/10261/160086	WkeOa3Qo
 @url:https://homotopytypetheory.org/book/	url:https://homotopytypetheory.org/book/	url:https://homotopytypetheory.org/book/	RExXs8is
 @tag:idyll	url:https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/	url:https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/	1ESo5MNnB
 @url:https://lgatto.github.io/open-and-open/	url:https://lgatto.github.io/open-and-open/	url:https://lgatto.github.io/open-and-open/	zBl3qgGT
