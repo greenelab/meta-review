@@ -91,7 +91,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Open collaborative writing with Manubot</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/dd0882978b274734f4e2197f096678f644cceaca/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/dd0882978b274734f4e2197f096678f644cceaca">greenelab/meta-review@dd08829</a> on April 5, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/6c5368403b487f01a427ce0f700e9d638d4db053/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/6c5368403b487f01a427ce0f700e9d638d4db053">greenelab/meta-review@6c53684</a> on April 5, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
@@ -963,8 +963,6 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             border: solid 1px #bdbdbd;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
             background: #ffffff;
-            word-break: all;
-            word-break: break-word;
         }
     }
 
@@ -999,8 +997,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 
     /* biggest heading */
     h1 {
-        margin-top: 40px;
-        margin-bottom: 30px;
+        margin: 40px 0;
         text-align: center;
     }
 
@@ -1023,7 +1020,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
     /* manuscript title caption text (ie "automatically generated on") */
     header + p {
         text-align: center;
-        margin-top: 0;
+        margin-top: 10px;
     }
 
     /* -------------------------------------------------- */
@@ -1152,9 +1149,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
         border: solid 1px #bdbdbd;
         padding: 10px;
         /* squash table if too wide for page by forcing line breaks */
-        /* put line break break anywhere in text */
         word-break: break-all;
-        /* put line break between words. if not supported by browser, will fall back to break-all */
         word-break: break-word;
     }
 
@@ -1412,7 +1407,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
     @media print {
         @page {
             /* suggested printing margin */
-            margin: 0.75in;
+            margin: 0.5in;
         }
 
         /* document and "page" elements */
@@ -1421,6 +1416,70 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             padding: 0;
             width: 100%;
             height: 100%;
+        }
+
+        /* "page" element */
+        body {
+            font-size: 11pt !important;
+            line-height: 1.35;
+        }
+
+        /* all headings */
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 15px 0;
+        }
+
+        /* heading 1 */
+        h1 {
+            font-size: 1.75em;
+        }
+
+        /* heading 2 */
+        h2 {
+            font-size: 1.25em;
+            margin-top: 0;
+        }
+
+        /* heading 3 */
+        h3 {
+            font-size: 1.10em;
+        }
+
+        /* figures and tables */
+        figure, table {
+            font-size: 0.85em;
+        }
+
+        /* table cells */
+        th,
+        td {
+            padding: 5px;
+        }
+
+        /* shrink button icons */
+        button > svg,
+        a > svg {
+            transform: scale(0.85);
+        }
+
+        /* shrink font awesome icons */
+        i.fas,
+        i.fab,
+        i.far,
+        i.fal {
+            transform: scale(0.85);
+        }
+
+        /* decrease banner margins */
+        .banner {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            padding: 15px;
         }
 
         /* class for centering an element vertically on its own page */
@@ -1433,11 +1492,6 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             vertical-align: middle;
             break-before: page;
             break-after: page;
-        }
-
-        /* <h2> heading */
-        h2 {
-            margin-top: 0;
         }
 
         /* always insert a page break before the element */
@@ -1638,32 +1692,31 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             position: absolute;
             width: 50%;
             min-width: 240px;
+            max-width: 75%;
             z-index: 1;
         }
 
         /* tooltip content */
         #tooltip_content {
-            margin: 10px 0;
+            margin-bottom: 5px;
             padding: 20px;
             border-radius: 5px;
             border: solid 1px #bdbdbd;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
             background: #ffffff;
-            word-break: all;
-            word-break: break-word;
         }
 
         /* tooltip copy of paragraphs and figures */
         #tooltip_content > p,
         #tooltip_content > figure {
             margin: 0;
+            max-height: 320px;
+            overflow-y: auto;
         }
 
-        /* tooltip copy of figure captions */
-        #tooltip_content > figure > figcaption {
-            margin: 0;
-            margin-top: 20px;
-            padding: 0;
+        /* tooltip copy of <img> */
+        #tooltip_content > figure > img {
+            max-height: 260px;
         }
 
         /* navigation bar */
@@ -1910,7 +1963,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 
     @media only screen {
         /* regular <img> in document when hovered */
-        .lightbox_img:hover {
+        .lightbox_document_img:hover {
             cursor: pointer;
         }
 
@@ -2456,8 +2509,8 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             let rect = {};
             rect.left = 0;
             rect.top = 0;
-            rect.right = window.innerWidth;
-            rect.bottom = window.innerHeight;
+            rect.right = document.documentElement.clientWidth;
+            rect.bottom = document.documentElement.clientHeight;
             let style = {};
 
             if (element instanceof HTMLElement) {
@@ -2587,8 +2640,8 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             // whether user must click off to close tooltip instead of just
             // un-hovering
             clickClose: 'false',
-            // whether to keep tooltip horizontal position when clicking
-            // prev/next buttons
+            // whether to keep tooltip horizontal position when moving between
+            // prev/next occurrences
             keepHorizontal: 'true',
             // delay (in ms) between opening and closing tooltip
             delay: '100',
@@ -2661,16 +2714,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 
         // when link is focused (tabbed to)
         function onLinkFocus(event) {
-            // if focus change happened due to prev/next nav button click,
-            // pass that info along to openTooltip()
-            if (
-                event &&
-                event.relatedTarget &&
-                event.relatedTarget.matches('#tooltip_nav_bar > .icon_button')
-            )
-                openTooltip(this, true);
-            else
-                openTooltip(this);
+            openTooltip(this);
         }
 
         // when link is touched on touch screen
@@ -2753,17 +2797,12 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
         }
 
         // open tooltip
-        function openTooltip(link, prevNextButtonClick) {
+        function openTooltip(link) {
+            // if setting is on and already-open tooltip can be found, store
+            // original x position of tooltip
             let prevX;
-            // if setting is on, tooltip opened because of prev/next buttons,
-            // and already-open tooltip can be found, store original x
-            // position of tooltip
             const prevTooltip = document.getElementById('tooltip');
-            if (
-                options.keepHorizontal === 'true' &&
-                prevNextButtonClick &&
-                prevTooltip
-            )
+            if (options.keepHorizontal === 'true' && prevTooltip)
                 prevX = getRectInPage(prevTooltip).left;
 
             // make tooltip element
@@ -2783,10 +2822,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 
             // position tooltip
             const position = function() {
-                if (prevX)
-                    positionTooltip(link, prevX);
-                else
-                    positionTooltip(link);
+                positionTooltip(link, prevX);
             };
             position();
 
@@ -2888,8 +2924,18 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 
         // when tooltip is unhovered
         function onTooltipUnhover(event) {
-            if (options.clickClose !== 'true')
-                closeTooltip();
+            if (options.clickClose === 'true')
+                return;
+
+            // make sure new mouse/touch/focus no longer over tooltip or any
+            // element within it
+            const tooltip = document.getElementById('tooltip');
+            if (!tooltip)
+                return;
+            if (this.contains(event.relatedTarget))
+                return;
+
+            closeTooltip();
         }
 
         // make nav bar to go betwen prev/next instances of same reference
@@ -3065,8 +3111,8 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             let rect = {};
             rect.left = 0;
             rect.top = 0;
-            rect.right = window.innerWidth;
-            rect.bottom = window.innerHeight;
+            rect.right = document.documentElement.clientWidth;
+            rect.bottom = document.documentElement.clientHeight;
             let style = {};
 
             if (element instanceof HTMLElement) {
@@ -3368,8 +3414,8 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             let rect = {};
             rect.left = 0;
             rect.top = 0;
-            rect.right = window.innerWidth;
-            rect.bottom = window.innerHeight;
+            rect.right = document.documentElement.clientWidth;
+            rect.bottom = document.documentElement.clientHeight;
             let style = {};
 
             if (element instanceof HTMLElement) {
@@ -3491,7 +3537,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             // un-hovering
             clickUnhighlight: 'false',
             // whether to also highlight links that are unique
-            highlightUnique: 'false',
+            highlightUnique: 'true',
             // whether plugin is on or not
             enabled: 'true'
         };
@@ -3683,10 +3729,10 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             charLimit: '50',
             // whether or not to show bullets next to each toc item
             bullets: 'false',
-            // whether to always start closed ('false'), always start opened
-            // ('true'), or start open when screen wide enough to fit panel
+            // whether default behavior is to be closed ('false'), open
+            // ('true'), or only open when screen wide enough to fit panel
             // ('auto')
-            startOpen: 'false',
+            open: 'false',
             // whether plugin is on or not
             enabled: 'true'
         };
@@ -3708,16 +3754,11 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             makeEntries(panel);
             document.body.insertBefore(panel, document.body.firstChild);
 
-            // start panel open/closed based on option
-            if (
-                options.startOpen === 'true' ||
-                (options.startOpen === 'auto' && isSmallScreen())
-            )
-                openPanel();
-            else
-                closePanel();
+            openOrClosePanel();
 
-            // attach scroll and hash change listeners to window
+            // attach click, scroll, and hash change listeners to window
+            window.addEventListener('click', onClick);
+            window.addEventListener('touchstart', onClick);
             window.addEventListener('scroll', onScroll);
             window.addEventListener('hashchange', onScroll);
             onScroll();
@@ -3726,12 +3767,33 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             document.body.classList.add('toc_body_nudge');
         }
 
-        // determine if on mobile-like device with small screen
+        // determine if screen wide enough to fit toc panel
         function isSmallScreen() {
-            const page = window.getComputedStyle(document.body);
-            const width =
-                parseInt(page.width) || parseInt(page.maxWidth) || 816;
-            return window.innerWidth < width + 320;
+            // in default theme:
+            // 816px = 8.5in = width of "page" (<body>) element
+            // 260px = min width of toc panel (*2 for both sides of <body>)
+            return window.innerWidth < 816 + 260 * 2;
+        }
+
+        // open/close panel based on option and screen size
+        function openOrClosePanel() {
+            if (
+                options.open === 'true' ||
+                (options.open === 'auto' && !isSmallScreen())
+            )
+                openPanel();
+            else
+                closePanel();
+        }
+
+        // when mouse is clicked anywhere in window
+        function onClick() {
+            const panel = document.getElementById('toc_panel');
+            if (!panel)
+                return;
+
+            if (panel.dataset.open === 'true')
+                openOrClosePanel();
         }
 
         // when window is scrolled or hash changed
@@ -3765,6 +3827,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
                 if (element.id)
                     elementsWithIds.push(element);
             }
+
 
             // get first or previous element in top half of view
             for (let i = 0; i < elementsWithIds.length; i++) {
@@ -3810,7 +3873,8 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             const list = document.createElement('div');
             list.id = 'toc_list';
 
-            // attach click listeners to header and button
+            // attach click listeners
+            panel.addEventListener('click', onPanelClick);
             header.addEventListener('click', onHeaderClick);
             button.addEventListener('click', onButtonClick);
 
@@ -3861,10 +3925,10 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             }
         }
 
-        // when link is clicked
-        function onLinkClick() {
-            if (isSmallScreen())
-                closePanel();
+        // when panel is clicked
+        function onPanelClick(event) {
+            // stop click from propagating to window/document and closing panel
+            event.stopPropagation();
         }
 
         // when header itself is clicked
@@ -3877,6 +3941,11 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             togglePanel();
             // stop header underneath button from also being clicked
             event.stopPropagation();
+        }
+
+        // when link is clicked
+        function onLinkClick() {
+            openOrClosePanel();
         }
 
         // open panel if closed, close if opened
@@ -3963,7 +4032,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
                 '1.25, 1.5, 1.75, 2, 2.5, 3, 3.5, 4, 5, 6, 7, 8',
             // whether to fit image to view ('fit'), display at 100% and shrink
             // if necessary ('shrink'), or always display at 100% ('100')
-            defaultZoom: 'shrink',
+            defaultZoom: 'fit',
             // whether plugin is on or not
             enabled: 'true'
         };
@@ -3981,7 +4050,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             const imgs = document.querySelectorAll('figure > img');
             let count = 1;
             for (const img of imgs) {
-                img.classList.add('lightbox_img');
+                img.classList.add('lightbox_document_img');
                 img.dataset.number = count;
                 img.dataset.total = imgs.length;
                 img.addEventListener('click', openLightbox);
@@ -4086,8 +4155,20 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
             zoomInfoBox
         ) {
             // create copy of source <img>
-            const img = document.createElement('img');
-            img.src = sourceImg.src;
+            const img = sourceImg.cloneNode(true);
+            img.classList.remove('lightbox_document_img');
+            img.removeAttribute('id');
+            img.removeAttribute('width');
+            img.removeAttribute('height');
+            img.style.position = 'unset';
+            img.style.margin = '0';
+            img.style.padding = '0';
+            img.style.width = '';
+            img.style.height = '';
+            img.style.minWidth = '';
+            img.style.minHeight = '';
+            img.style.maxWidth = '';
+            img.style.maxHeight = '';
             img.id = 'lightbox_img';
 
             // build sorted list of unique zoomSteps, always including a 100%
@@ -4423,7 +4504,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 
         // get previous image in document
         function getPrevImg(img) {
-            const imgs = document.querySelectorAll('.lightbox_img');
+            const imgs = document.querySelectorAll('.lightbox_document_img');
 
             // find index of provided img
             let index;
@@ -4443,7 +4524,7 @@ DOI: <a href="https://doi.org/10.3897/rio.1.e7547">10.3897/rio.1.e7547</a></p>
 
         // get next image in document
         function getNextImg(img) {
-            const imgs = document.querySelectorAll('.lightbox_img');
+            const imgs = document.querySelectorAll('.lightbox_document_img');
 
             // find index of provided img
             let index;
