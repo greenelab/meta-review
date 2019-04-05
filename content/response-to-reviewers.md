@@ -190,6 +190,9 @@ There does not appear to be any functionality required for Manubot that is not s
 as is, the introductory paragraph is missing citations for statements.
 in particular, the statement `However, the scientific community requires tools whose workflows encourage openness` should either have a citation or two, or be clarified as an opinion.
 
+We discuss this issue in [GH114](https://github.com/greenelab/meta-review/issues/114) and revise the manuscript in [GH189](https://github.com/greenelab/meta-review/pull/189).
+We now cite two books in the opening paragraph — [_Reinventing Discovery_](https://doi.org/10.1515/9781400839452) and [_Open Science by Design_](https://doi.org/10.17226/25116) — that together provide substantial discussion supporting our view that the internet enables open science but that additional infrastructure is still needed.
+
 > `correctness and fairness` in abstract are unclear.
 from reading the manuscript, it is clear that fairness means fairness in contribution tracking, but this is not clear in the abbreviated language used in the abstract.
 I am somewhat unclear on what `ensure correctness` means in the abstract.
