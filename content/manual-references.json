@@ -1,16 +1,19 @@
 [
   {
-    "standard_citation": "url:http://www.niso.org/standards/z39-96-2015/",
-    "type": "webpage",
-    "URL": "http://www.niso.org/standards/z39-96-2015/",
-    "title": "JATS: Journal Article Tag Suite, version 1.1",
+    "standard_citation": "url:https://www.niso.org/publications/z3996-2019-jats",
+    "type": "report",
+    "URL": "https://www.niso.org/publications/z3996-2019-jats",
+    "title": "ANSI/NISO Z39.96-2019, JATS: Journal Article Tag Suite, version 1.2",
     "issued": {
       "date-parts": [
         [
-          2015
+          2019,
+          2,
+          8
         ]
       ]
     },
+    "publisher": "NISO",
     "author": [
       {
         "literal": "National Information Standards Organization"
@@ -330,5 +333,27 @@
         "family": "Bentley"
       }
     ]
+  },
+  {
+    "standard_citation": "doi:10.17226/25116",
+    "type": "book",
+    "DOI": "10.17226/25116",
+    "title": "Open Science by Design: Realizing a Vision for 21st Century Research",
+    "author": [
+      {"literal": "National Academies of Sciences, Engineering, and Medicine"}
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          9
+        ]
+      ]
+    },
+    "publisher": "National Academies Press",
+    "URL": "https://doi.org/gfxzc4",
+    "ISBN": "9780309476249",
+    "PMID": "30212065"
   }
 ]
