@@ -22986,6 +22986,30 @@
     "id": "14ahyJcvY"
   },
   {
+    "publisher": "Princeton University Press",
+    "DOI": "10.1515/9781400839452",
+    "source": "Crossref",
+    "title": "Reinventing Discovery",
+    "author": [
+      {
+        "given": "Michael",
+        "family": "Nielsen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          1,
+          31
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfx2dm",
+    "id": "1DiVJ3t6P",
+    "type": "entry"
+  },
+  {
     "publisher": "Genetics Society of America",
     "issue": "5",
     "DOI": "10.1534/g3.114.015966",
@@ -27100,6 +27124,30 @@
     "id": "uw5bep8P"
   },
   {
+    "type": "book",
+    "DOI": "10.17226/25116",
+    "title": "Open Science by Design: Realizing a Vision for 21st Century Research",
+    "author": [
+      {
+        "literal": "National Academies of Sciences, Engineering, and Medicine"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          9
+        ]
+      ]
+    },
+    "publisher": "National Academies Press",
+    "URL": "https://doi.org/gfxzc4",
+    "ISBN": "9780309476249",
+    "PMID": "30212065",
+    "id": "IWBJQIkl"
+  },
+  {
     "publisher": "Authorea, Inc.",
     "DOI": "10.22541/au.149693987.70506124",
     "type": "dataset",
@@ -28202,7 +28250,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28308,7 +28356,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28339,11 +28387,26 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
     "id": "6yyYojgV"
+  },
+  {
+    "type": "webpage",
+    "title": "Revisiting authorship, and JOSS software publications",
+    "URL": "http://ivory.idyll.org/blog/2019-authorship-revisiting.html",
+    "accessed": {
+      "date-parts": [
+        [
+          "2019",
+          4,
+          6
+        ]
+      ]
+    },
+    "id": "e2rpsIbt"
   },
   {
     "URL": "http://math.andrej.com/2013/06/20/the-hott-book/",
@@ -28406,29 +28469,11 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
     "id": "H0XkaC8S"
-  },
-  {
-    "type": "webpage",
-    "URL": "http://www.niso.org/standards/z39-96-2015/",
-    "title": "JATS: Journal Article Tag Suite, version 1.1",
-    "issued": {
-      "date-parts": [
-        [
-          2015
-        ]
-      ]
-    },
-    "author": [
-      {
-        "literal": "National Information Standards Organization"
-      }
-    ],
-    "id": "JU3KpeyB"
   },
   {
     "type": "article-journal",
@@ -28457,7 +28502,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28505,7 +28550,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28609,7 +28654,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28707,7 +28752,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28723,7 +28768,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28738,7 +28783,7 @@
         [
           "2019",
           4,
-          5
+          6
         ]
       ]
     },
@@ -28762,6 +28807,27 @@
       }
     ],
     "id": "aRZRiJPk"
+  },
+  {
+    "type": "report",
+    "URL": "https://www.niso.org/publications/z3996-2019-jats",
+    "title": "ANSI/NISO Z39.96-2019, JATS: Journal Article Tag Suite, version 1.2",
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          2,
+          8
+        ]
+      ]
+    },
+    "publisher": "NISO",
+    "author": [
+      {
+        "literal": "National Information Standards Organization"
+      }
+    ],
+    "id": "LHrRxRb0"
   },
   {
     "type": "article",
