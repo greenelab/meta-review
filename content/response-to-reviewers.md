@@ -106,6 +106,8 @@ I'm pretty sure some people would be interested in using manubot but probably wo
 > In the discussion, to what extent a contributor can only use the GitHub interface (text editor + automated PR)?
 Would not that be a way to lower the technical entry level for contributors?
 
+We discussed this issue in [GH139](https://github.com/greenelab/meta-review/issues/139) and resolved it in [GH191](https://github.com/greenelab/meta-review/pull/191) by adding a supporting video to demonstrate editing a manuscript solely using the GitHub inferface.
+
 > Would it be possible for a (anonymous) reviewer to use the workflow to do the actual review?
 
 > Could you elaborate a bit on the potential limitations of the markdown language?
