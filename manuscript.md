@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/701fe8c9e1dcb5c32ae6a24f2c5bcf3cb2f8edcb/))
+([permalink](https://greenelab.github.io/meta-review/v/63f5771e6df65b01c293c1585b80ea218fcefe6c/))
 was automatically generated
-from [greenelab/meta-review@701fe8c](https://github.com/greenelab/meta-review/tree/701fe8c9e1dcb5c32ae6a24f2c5bcf3cb2f8edcb)
+from [greenelab/meta-review@63f5771](https://github.com/greenelab/meta-review/tree/63f5771e6df65b01c293c1585b80ea218fcefe6c)
 on April 9, 2019.
 </em></small>
 
@@ -143,6 +143,11 @@ The Deep Review and other studies that subsequently adopted the Manubot platform
 However, inviting wide authorship brought many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists.
 The manuscript writing process we developed using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation addresses these challenges.
 
+Manubot supports citations by adding a persistent identifier like a Digital Object Identifier (DOI) or PubMed Identifier (PMID) directly in the text so that large groups of authors do not have to coordinate reference lists.
+When text is changed, Manubot automatically updates the manuscript's web page so that all authors can read and edit from the latest version.
+Because manuscripts are created from GitHub repositories, Manubot supports a workflow where all edits are reviewed and discussed, ensuring that the collaborative text has a cohesive style and message and that authors receive precise credit for their work.
+These and other features provide support an open collaborative writing process that is not feasible with other writing platforms.
+
 ## Manubot contribution workflow {#contribution-workflow}
 
 There are many existing collaborative writing platforms.
@@ -191,11 +196,11 @@ In a primary research article, issues can instead track progress on specific fig
 Issues serve as an open to-do list and a forum for debating the main messages of the manuscript.
 
 GitHub and the underlying Git version control system [@PlcxShQU; @kEX5dgzK] also structure the writing process.
-The official version of the manuscript is _forked_ by individual contributors.
+The official version of the manuscript is _forked_ by individual contributors, creating a copy they can freely modify.
 A contributor then adds and revises files, grouping these changes into _commits_.
 When the changes are ready to be reviewed, the series of commits are submitted as a _pull request_ through GitHub, which notifies other authors of the pending changes.
-GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications, as described by Johnny Israeli [@opQBBK06].
-Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content, as illustrated in Figure @fig:workflow.
+GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications [@opQBBK06].
+Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content (Figure @fig:workflow).
 Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits and helps maintain consistent content and tone across different authors and reviewers.
 Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
 The process of writing and revising material can be orchestrated through GitHub with a web browser (as shown in [S1 Video](#vid:usage)) or through a local text editor.
@@ -244,6 +249,12 @@ Alternatively, a reviewer can post feedback with a pseudonymous GitHub account o
 Authors can elect to respond to reviews in the GitHub issues or a public [response letter](https://github.com/greenelab/meta-review/blob/813f461fe719d8fe7bcda78871cfad106f83dfe7/content/response-to-reviewers.md), creating open peer review.
 ** TODO: update `response-to-reviewers.md` URL once it is finalized **
 
+Although we developed Manubot with collaborative writing in mind, it can also be helpful for individuals preparing scholarly documents.
+Authors may choose to make their changes directly to the `master` branch, forgoing pull requests and reviews.
+This workflow retains many of Manubot's benefits, such as transparent history, automation, and allowing outside contributors to propose changes.
+In cases where outside contributions are unwanted, authors can disable pull requests on GitHub.
+See the [existing manuscripts] for examples of the range of contribution workflows and Manubot use cases.
+
 ## Manubot features
 
 Manubot is a system for writing scholarly manuscripts via GitHub.
@@ -251,7 +262,7 @@ For each manuscript, there is a corresponding Git repository.
 The `master` branch of the repository contains all of the necessary inputs to build the manuscript.
 Specifically, a `content` directory contains one or more Markdown files that define the body of the manuscript as well as a metadata file to set information such as the title, authors, keywords, and language.
 Figures can be hosted in the `content/images` subdirectory or elsewhere and specified by URL.
-Repositories contain scripts and other assets that define how to build and deploy the manuscript.
+Repositories contain scripts and other files that define how to build and deploy the manuscript.
 Many of these operations are delegated to the `manubot` [Python package](https://github.com/manubot/manubot) or other dependencies such as Pandoc, which converts between document formats, and Travis CI, which builds the manuscript in the cloud.
 Manubot pieces together many existing standards and technologies to encapsulate a manuscript in a repository and automatically generate outputs.
 
@@ -262,9 +273,9 @@ The [Markdown standard](https://spec.commonmark.org/0.28/) itself provides limit
 In addition, Manubot relies on extensions from [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
 Markdown with Pandoc extensions supports most formatting options required for scholarly writing [@17wKkS4DV], but currently lacks the ability to cross-reference and automatically number figures, tables, and equations.
 For this functionality, Manubot includes the [`pandoc-xnos`](https://github.com/tomduck/pandoc-xnos) suite of Pandoc filters.
-A list of formatting options officially supported by Manubot, at the time of writing, is viewable as [raw markdown](https://github.com/manubot/rootstock/raw/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/content/02.delete-me.md) and the corresponding [rendered HTML](https://manubot.github.io/rootstock/v/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/).
+A list of formatting options officially supported by Manubot, at the time of writing, is viewable as [raw Markdown](https://github.com/manubot/rootstock/raw/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/content/02.delete-me.md) and the corresponding [rendered HTML](https://manubot.github.io/rootstock/v/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/).
 
-By virtue of its readable markup syntax, Markdown is well suited for version control using Git.
+By virtue of its readable syntax, Markdown is well suited for version control using Git.
 Markdown treats a single line break between text as a space, and requires two-or-more consecutive line breaks to denote a new paragraph.
 For optimal tracking of Markdown files with Git, we recommend placing each sentence on its own line.
 This convention allows Git to display diffs on a per sentence basis while avoiding unnecessary reflows associated with line wrapping and allowing easy rearrangement of sentences.
@@ -272,19 +283,19 @@ This convention allows Git to display diffs on a per sentence basis while avoidi
 ### Citation by identifier
 
 Manubot includes an additional layer of citation processing, currently unique to the system.
-All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata.
+All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata such as the title, authors, and publication date.
 Table @tbl:citations presents the supported identifiers and example citations before and after Manubot processing.
 Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers.
-Metadata is exported to [Citation Style Language (CSL) JSON Data Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items), an open standard that is widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
+Citation metadata is exported to the [Citation Style Language (CSL) JSON Data Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items) format, an open standard that is widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
 However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as [pandoc-citeproc](http://hackage.haskell.org/package/pandoc-citeproc).
 Therefore, Manubot removes invalid fields according to the [CSL Data specification](https://github.com/citation-style-language/schema).
-In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct CSL JSON.
+In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct CSL JSON using common reference formats.
 Manual CSL JSON also supports references without standard identifiers, such as print-only newspaper articles.
 
 | Identifier | Metadata source | Example citation | Processed citation |
 | --- | --- | --- | --- |
 | Digital Object Identifier (DOI) | DOI [Content Negotiation](https://citation.crosscite.org/docs.html) | `doi:10.1098/rsif.2017.0387` | [@PZMP42Ak] |
-| shortDOI | DOI Proxy Server REST API | `doi:10/gddkhn` | [@PZMP42Ak] |
+| shortDOI | DOI Proxy Server API | `doi:10/gddkhn` | [@PZMP42Ak] |
 | PubMed Identifier (PMID) | NCBI [E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/) | `pmid:25851694` | [@LfJGtB83] |
 | PubMed Central Identifier (PMCID) | NCBI [Literature Citation Exporter](https://api.ncbi.nlm.nih.gov/lit/ctxp/) | `pmcid:PMC4719068` | [@12sHvZy1a] |
 | arXiv ID | [arXiv API](https://arxiv.org/help/api/index) | `arxiv:1502.04015v1` | [@Y2XyzLMc] |
@@ -314,12 +325,11 @@ As a result, adopting the specific bibliographic format required by a journal us
 ### Format conversion
 
 Manubot uses [Pandoc](https://pandoc.org/) to convert manuscripts from Markdown to HTML, PDF, and optionally DOCX outputs.
-Pandoc supports conversion between additional formats — such as LaTeX, AsciiDoc, EPUB, and JATS — offering Manubot users broad interoperability.
-[Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS) is a standard XML format for scholarly articles that is used by publishers, archives, and text miners [@LHrRxRb0; @AAwqxolU; @bCyfIm6z].
+Pandoc also supports [Journal Article Tag Suite](https://jats.nlm.nih.gov/) (JATS), a standard format for scholarly articles that is used by publishers, archives, and text miners [@LHrRxRb0; @AAwqxolU; @bCyfIm6z].
 Pandoc's JATS support provides an avenue to integrate Manubot with the larger JATS ecosystem.
-In the future, journals may begin accepting submissions in JATS.
-But for now, Manubot's DOCX output is usually sufficient for journal submissions that require an editable source document.
-Otherwise, authors generally use the PDF output (e.g. for preprint or initial journal submissions).
+In the future, journals may accept submissions in JATS.
+For now, Manubot's DOCX output is usually sufficient for journal submissions that require an editable source document.
+Otherwise, authors generally use the PDF output for preprint and initial journal submissions.
 The primary Manubot output is HTML intended to be viewed in a web browser.
 Accordingly, manuscripts natively support JavaScript and can thus include any web-based interactive visualization, such as those produced using [Vega-Lite](https://vega.github.io/vega-lite/), [Bokeh](https://bokeh.pydata.org), or [Plotly](https://plot.ly/) [@6eVHYGML; @nyZChH5b].
 
@@ -328,7 +338,7 @@ Accordingly, manuscripts natively support JavaScript and can thus include any we
 Manubot comes with several "plugins" that can be included in manuscripts exported as HTML.
 These plugins add special interactive features that enhance the user experience of viewing and reading manuscripts (Figure @fig:plugins).
 For example, with the "tooltips" plugin enabled, when the user hovers over a link to a reference or figure, a preview of that item pops up above the link, along with controls to navigate between other mentions of that item elsewhere in the document.
-The build process can also accommodate different "themes", which change the general aesthetics and appearance of the exported document (for example, from a contemporary sans-serif style to a more traditional serif style).
+The build process can also accommodate different "themes", which change the general aesthetics and appearance of the exported document (e.g. from a contemporary sans-serif style to a more traditional serif style).
 The architecture of the plugins and themes is designed to provide authors with enough flexibility to suit their particular needs and preferences.
 
 ![
@@ -363,7 +373,7 @@ However, for a manuscript that is shared as it is written, being able to establi
 Manubot supports [OpenTimestamps](https://opentimestamps.org/) to timestamp the HTML and PDF outputs on the Bitcoin blockchain.
 This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [@Y2XyzLMc; @6MR50hyY; @QBWMEuxW; @qh60RjR0; @6yyYojgV].
 Timestamps protect against attempts to rewrite a manuscript's history and ensure accurate histories, potentially alleviating certain authorship or priority disputes.
-Because all bitcoin transactions compete for limited space on the blockchain, the fees required to send a single transaction can be high.
+Because all Bitcoin transactions compete for limited space on the blockchain, the fees required to send a single transaction can be high.
 OpenTimestamps minimizes fees by encoding many timestamps into a single Bitcoin transaction, enabling the service to be free of charge [@1DG704X8Q].
 Since transactions can take up to a few days to be made, Manubot initially stores incomplete timestamps and upgrades them in future continuous deployment builds.
 We find that this asynchronous design with timestamps precise to the day is suitable for the purposes of scientific writing.
@@ -372,10 +382,12 @@ We find that this asynchronous design with timestamps precise to the day is suit
 
 Manubot and its dependencies are free of charge and largely open source.
 It does rely on gratis services from two proprietary platforms: GitHub and Travis CI.
-Fortunately, lock-in to these services is minimal, and several substitutes already exist.
-Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF] and is well suited for preserving provenance.
+Fortunately, lock-in to these services is minimal, and [several substitutes](#future) already exist.
+Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF] and is well-suited for preserving provenance.
 For example, figures can be specified using versioned URLs that refer to the code that created them.
 In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them.
+Figure @fig:contrib provides examples of templates.
+Phrases such as "755 Git commits" are written as `{{total_commits}} Git commits` so that the commit count can be automatically updated.
 
 ### Getting started
 
@@ -384,7 +396,7 @@ The [current setup process](https://github.com/manubot/rootstock/blob/fea9eb80af
 The setup process is complex, but must only be performed once per manuscript.
 Incorporating new Manubot features is also possible by pulling the latest commits from Rootstock, but sometimes involves resolving Git conflicts.
 
-Contributing to an existing manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [Contribution Workflow](#contribution-workflow) section and demonstrated in [S1 Video](#vid:usage).
+Contributing to an existing manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [Contribution Workflow](#contribution-workflow) section and demonstrated in Video S1.
 Interested readers can practice editing an existing demo manuscript at <https://github.com/manubot/try-manubot>.
 
 At the 2019 _Pacific Symposium on Biocomputing_, we led a working group where 17 conference participants contributed to a [demo manuscript](https://git.dhimmel.com/psb-manuscript/).
@@ -411,7 +423,7 @@ Finally, manuscripts written with other authoring systems have been successfully
 ### Citation utilities
 
 The `manubot` [Python package](https://pypi.org/project/manubot/) provides easy access to Manubot's citation-by-identifier infrastructure, whose functionality extends beyond just Manubot manuscripts.
-For example, the [Kipoi](https://kipoi.org/) model zoo for genomics [@14cVrrqP1] uses the Python API to retrieve model authors from persistent identifiers.
+For example, the [Kipoi](https://kipoi.org/) model zoo for genomics [@14cVrrqP1] uses Manubot's Python interface to retrieve model authors from persistent identifiers.
 In addition, the `manubot cite` command line utility takes a list of citations and returns either a rendered bibliography or CSL Data Items (i.e. JSON-formatted reference metadata).
 For example, the following command outputs a Markdown reference list for the two specified articles according to the bibliographic style of _PeerJ_:
 
@@ -427,7 +439,7 @@ Its filter interface enables adding custom functionality with community-develope
 We are [prototyping](https://github.com/manubot/manubot/pull/99 "Create a pandoc-manubot-cite filter for pandoc") a Manubot-based citation-by-identifier filter.
 This filter would allow Pandoc users to cite persistent identifiers as part of their existing Pandoc workflows, without requiring them to adopt other aspects of Manubot, and could help popularize citation-by-identifier at an influential scale.
 
-### Future enhancements
+### Future enhancements {#future}
 
 Manubot is still under active development, and we envision major changes in its design and dependencies going forward.
 Currently, manuscript repositories must contain a large number of files that do not directly contain manuscript content.
@@ -439,12 +451,13 @@ Presently, setup is complex because users must do advanced command-line operatio
 While we provide detailed instructions, users often struggle replicating the long list of setup commands in an appropriate computational environment.
 One priority will be to automate setup to a higher degree.
 However, this may require switching the services Manubot uses for continuous integration (e.g. from Travis CI to GitHub Actions, CircleCI, Drone, or GitLab CI), environment management (e.g. from Conda to Docker), and repository hosting (e.g. from GitHub to GitLab).
-In addition to simplifying setup, such migrations may also present the opportunity to decrease dependency on propreitary services and address other Manubot shortcomings, such as the current inability to view rendered manuscripts produced by pull request builds.
+In addition to simplifying setup, such migrations may also present the opportunity to decrease dependency on proprietary services and address other Manubot shortcomings, such as the current inability to view rendered manuscripts produced by pull request builds.
 
 Upgrading a Manubot instance is an opt-in procedure.
 Therefore, when we introduce fundamental changes, existing manuscripts continue to function.
 However, large Rootstock changes can make upgrading existing manuscripts difficult.
-We are happy to provide users _pro bono_ assistance to upgrade or troubleshoot manuscripts (please open an [issue](https://github.com/manubot/rootstock/issues) at `manubot/rootstock` for help).
+We are happy to provide users _pro bono_ assistance to upgrade or troubleshoot manuscripts.
+Users can open an [issue](https://github.com/manubot/rootstock/issues) at the Rootstock repository for help.
 
 One strategy to grow Manubot usage is to identify a specific user group or use case for which Manubot can be widely adopted.
 For example, a journal may decide to build their publishing workflow around Manubot, such that submissions would consist of a Manubot repository.
