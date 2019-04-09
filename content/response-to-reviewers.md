@@ -167,7 +167,7 @@ We discussed this comment in [GH143](https://github.com/greenelab/meta-review/pu
 > `we made the GitHub repository public under a Creative Commons Attribution License.` → The link points to CC-BY 4.0 International, it would be good to have this information in the name of the link (or we have to click to check which kind CC you used).
 
 We now state the full license name in the link text: `Creative Commons Attribution 4.0 International (CC BY 4.0) license`.
-See [GH145](https://github.com/greenelab/meta-review/issues/145) and [GH154](https://github.com/greenelab/meta-review/pull/154) for the discussion and edits.
+We noted this issue in [GH145](https://github.com/greenelab/meta-review/issues/145) and resolved it in [GH154](https://github.com/greenelab/meta-review/pull/154) and [GH199](https://github.com/greenelab/meta-review/pull/199).
 
 > `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
