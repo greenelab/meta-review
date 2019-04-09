@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/675980c23332d6a62b8849c455ebc7915d6683e0/))
+([permalink](https://greenelab.github.io/meta-review/v/08a34f571008db8b34adbb5c3ac84c7bf7fb2826/))
 was automatically generated
-from [greenelab/meta-review@675980c](https://github.com/greenelab/meta-review/tree/675980c23332d6a62b8849c455ebc7915d6683e0)
+from [greenelab/meta-review@08a34f5](https://github.com/greenelab/meta-review/tree/08a34f571008db8b34adbb5c3ac84c7bf7fb2826)
 on April 9, 2019.
 </em></small>
 
@@ -134,7 +134,7 @@ Based on our experience leading a recent open review [@16CgM2x0z], we discuss th
 Our review manuscript [@PZMP42Ak] was code-named the Deep Review and surveyed deep learning's role in biology and precision medicine, a research area undergoing explosive growth.
 We initiated the Deep Review in August 2016 by creating a GitHub repository (<https://github.com/greenelab/deep-review>) to coordinate and manage contributions.
 GitHub is a platform designed for collaborative software development that is adaptable for collaborative writing.
-From the start, we made the GitHub repository public under a [Creative Commons Attribution 4.0 International (CC BY 4.0) license](https://github.com/greenelab/deep-review/blob/master/LICENSE.md).
+From the start, we made the GitHub repository public under a Creative Commons Attribution License ([CC BY 4.0](https://github.com/greenelab/deep-review/blob/master/LICENSE.md "Creative Commons Attribution 4.0 International License")).
 We encouraged anyone interested to contribute by proposing changes or additions.
 Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation.
 In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions in less than two years.
