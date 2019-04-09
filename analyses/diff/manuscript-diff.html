@@ -452,37 +452,7 @@ The source code and data for this manuscript are available at <a href="https://g
 <h2 id="funding">Funding</h2>
 <p>DSH and CSG were supported by <a href="https://sloan.org/grant-detail/8501">Grant G-2018-11163</a> from the Alfred P. Sloan Foundation and <a href="https://www.moore.org/grant-detail?grantId=GBMF4552">Grant GBMF4552</a> from the Gordon and Betty Moore Foundation. VSM was supported by <a href="http://www.cprit.state.tx.us/files/funded-grants/RP150596.pdf">Grant RP150596</a> from the Cancer Prevention and Research Institute of Texas.</p>
 <h2 id="references">References</h2>
-<!-- https://github.com/davidar/pandiff/blob/da172a8cd58f7e647bc53b71eeac1ae503b71af8/pandiff.css -->
-<style>
-.markdown-body {
-  box-sizing: border-box;
-  min-width: 200px;
-  max-width: 980px;
-  margin: 0 auto;
-  padding: 45px;
-}
-
-@media (max-width: 767px) {
-  .markdown-body {
-    padding: 15px;
-  }
-}
-
-del {
-  color: #b31d28;
-  background-color: #ffeef0;
-}
-
-ins {
-  color: #22863a;
-  background-color: #f0fff4;
-}
-
-del + ins {
-  color: #e36209;
-  background-color: #ffebda;
-}
-</style><!-- default theme -->
+<!-- default theme -->
 
 <style>
     /* import google fonts */
@@ -1681,4 +1651,25 @@ del + ins {
             display: none !important;
         }
     }
+</style>
+<style>
+/*
+Style to display ins del tags created by pandiff. Derived from (MIT Licensed):
+https://github.com/davidar/pandiff/blob/da172a8cd58f7e647bc53b71eeac1ae503b71af8/pandiff.css
+*/
+
+del {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+ins {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+del + ins {
+  color: #e36209;
+  background-color: #ffebda;
+}
 </style>
