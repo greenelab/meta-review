@@ -7,7 +7,7 @@ author-meta:
 - Vincent Rubinetti
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-04-06'
+date-meta: '2019-04-09'
 keywords:
 - collaborative review
 - continuous integration
@@ -24,10 +24,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/813f461fe719d8fe7bcda78871cfad106f83dfe7/))
+([permalink](https://greenelab.github.io/meta-review/v/ec3066ba35688bf8ee643de9a101038e0d7bdfe2/))
 was automatically generated
-from [greenelab/meta-review@813f461](https://github.com/greenelab/meta-review/tree/813f461fe719d8fe7bcda78871cfad106f83dfe7)
-on April 6, 2019.
+from [greenelab/meta-review@ec3066b](https://github.com/greenelab/meta-review/tree/ec3066ba35688bf8ee643de9a101038e0d7bdfe2)
+on April 9, 2019.
 </em></small>
 
 ## Authors
@@ -198,7 +198,7 @@ GitHub's review interface allows anyone to comment on the changes, globally or a
 Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content, as illustrated in Figure @fig:workflow.
 Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits and helps maintain consistent content and tone across different authors and reviewers.
 Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version.
-The process of writing and revising material can be orchestrated through GitHub with a web browser or a local text editor.
+The process of writing and revising material can be orchestrated through GitHub with a web browser (as shown in [S1 Video](#vid:usage)) or through a local text editor.
 
 ![
 **Manubot editing workflow.**
@@ -378,7 +378,7 @@ The [current setup process](https://github.com/manubot/rootstock/blob/fea9eb80af
 The setup process is complex, but must only be performed once per manuscript.
 Incorporating new Manubot features is also possible by pulling the latest commits from Rootstock, but sometimes involves resolving Git conflicts.
 
-Contributing to an existing manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [Contribution Workflow](#contribution-workflow) section and demonstrated in Video S1.
+Contributing to an existing manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [Contribution Workflow](#contribution-workflow) section and demonstrated in [S1 Video](#vid:usage).
 Interested readers can practice editing an existing demo manuscript at <https://github.com/manubot/try-manubot>.
 
 At the 2019 _Pacific Symposium on Biocomputing_, we led a working group where 17 conference participants contributed to a [demo manuscript](https://git.dhimmel.com/psb-manuscript/).
@@ -564,6 +564,26 @@ Source code for Manubot resides in the following repositories:
 
 + <https://github.com/manubot/manubot> ([GitLab mirror](https://gitlab.com/manubot/manubot), archived at [`swh:1:dir:1eb3b7e6d7e21239fedccf25a186af622ee6912e`](https://archive.softwareheritage.org/swh:1:dir:1eb3b7e6d7e21239fedccf25a186af622ee6912e;origin=https://github.com/manubot/manubot.git/), packaged on [PyPI](https://pypi.org/project/manubot/))
 + <https://github.com/manubot/rootstock> ([GitLab mirror](https://gitlab.com/manubot/rootstock), archived at [`swh:1:dir:cfc3af2e8e1a0d9b639fdab0943731e608910731`](https://archive.softwareheritage.org/swh:1:dir:cfc3af2e8e1a0d9b639fdab0943731e608910731;origin=https://github.com/manubot/rootstock.git/)).
+
+## Supporting Information
+
+<div id="vid:usage">
+<video
+  controls
+  width="100%"
+  alt="Screen recording of editing with Manubot using GitHub"
+  poster="https://ndownloader.figshare.com/files/14794016/preview/14794016/img_preview.png"
+>
+  <source
+    src="https://ndownloader.figshare.com/files/14794016/preview/14794016/video_preview.mp4"
+    type="video/mp4"
+  >
+</video>
+**S1 Video: Editing a manuscript on GitHub.**
+This screen recording demonstrates how to propose edits to a Manubot manuscript via GitHub.
+In the video [@qJpcAhnQ], a contributor creates a [pull request](https://github.com/manubot/try-manubot/pull/2) to add a sentence to the try-manubot manuscript.
+The contributor then revises the proposed change to add a citation, after which it is accepted, merged, and automatically deployed.
+</div>
 
 
 ## Acknowledgments

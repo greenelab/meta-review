@@ -27423,6 +27423,34 @@
     "id": "15nwuvjrA"
   },
   {
+    "type": "article",
+    "id": "qJpcAhnQ",
+    "categories": [
+      "Computer Software",
+      "Library and Information Studies",
+      "80404 Markup Languages",
+      "80306 Open Software"
+    ],
+    "author": [
+      {
+        "family": "Slochower",
+        "given": "David"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019
+        ]
+      ]
+    },
+    "abstract": "An example of how to edit a manuscript using the open source package Manubot (https://github.com/manubot/manubot), the manuscript bot for automated scholarly publishing.<br>",
+    "DOI": "10.6084/m9.figshare.7946192.v1",
+    "publisher": "Figshare",
+    "title": "Editing with Manubot",
+    "URL": "https://doi.org/gfx2d3"
+  },
+  {
     "publisher": "Korean Council of Science Editors",
     "issue": "2",
     "DOI": "10.6087/kcse.2014.1.99",
@@ -28250,7 +28278,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28356,7 +28384,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28387,7 +28415,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28402,7 +28430,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28436,10 +28464,10 @@
     "container-title": "Living Journal of Computational Molecular Science",
     "page": "2031",
     "source": "www.livecomsjournal.org",
-    "abstract": "By David L. Mobley, Michael R. Shirts & 1 more. An editorial introducing LiveCoMS and explaining why the model of living documents can be a valuable addition to the scientific literature",
+    "abstract": "The Living Journal of Computational Molecular Science (LiveCoMS) seeks to bring publishing of educational, review, and best practices materials into the Internet age, allowing authors to publish their work but then continue its development. We provide a venue where authors can submit living documents that are updated on an ongoing basis as websites or Wikipedia articles could be, but which still have clear authorship and provide a mechanism for authors to get publication credit for their work. To some extent, LiveCoMS is a publishing experiment, but one which we hope will help advance publishing towards the future we want. Readers should know where to find authoritative information on a given topic and be confident that it is being kept up to date; our model allows for that. Additionally, authors who invest a great deal of time and effort in creating valuable materials to advance the field should receive credit for it without having to re-write the same material again to re-publish it in a different journal as the field moves on. We believe the model presented by LiveCoMS addresses these issues.",
     "URL": "https://www.livecomsjournal.org/article/2031-why-we-need-the-living-journal-of-computational-molecular-science",
     "DOI": "10.33011/livecoms.1.1.2031",
-    "ISSN": "2575-6524",
+    "journalAbbreviation": "LiveCoMS",
     "language": "en",
     "author": [
       {
@@ -28469,7 +28497,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28502,7 +28530,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28550,7 +28578,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28654,7 +28682,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28752,7 +28780,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28768,7 +28796,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
@@ -28783,7 +28811,7 @@
         [
           "2019",
           4,
-          6
+          9
         ]
       ]
     },
