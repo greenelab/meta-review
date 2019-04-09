@@ -113,6 +113,13 @@ This feedback was discussed in [GH137](https://github.com/greenelab/meta-review/
 > Is it possible to use manubot on a private GitHub repository?
 I'm pretty sure some people would be interested in using manubot but probably would not use it for open editing.
 
+We confirmed that is possible to use Manubot for a private manuscript by using a private GitHub repository and optionally disabling GitHub Pages.
+This requires additional custom configuration.
+In the private setting, the manuscript HTML and PDF outputs are automatically generated when the manuscript source is updated, but only GitHub users granted access to the repository are able to download them.
+
+This possibility was discussed in [GH138](https://github.com/greenelab/meta-review/issues/138) and addressed in [GH192](https://github.com/greenelab/meta-review/pull/192).
+We created [manubot/rootstock#205](https://github.com/manubot/rootstock/pull/205) to update the Rootstock setup documentation to explain how to use Manubot with a private repository.
+
 > In the discussion, to what extent a contributor can only use the GitHub interface (text editor + automated PR)?
 Would not that be a way to lower the technical entry level for contributors?
 
