@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/b9a6f1f552c4262764452cff89a35b0c91d0efbb/))
+([permalink](https://greenelab.github.io/meta-review/v/5b23bdb102a938026b6ed25181bc5ac73e5f21e9/))
 was automatically generated
-from [greenelab/meta-review@b9a6f1f](https://github.com/greenelab/meta-review/tree/b9a6f1f552c4262764452cff89a35b0c91d0efbb)
+from [greenelab/meta-review@5b23bdb](https://github.com/greenelab/meta-review/tree/5b23bdb102a938026b6ed25181bc5ac73e5f21e9)
 on April 9, 2019.
 </em></small>
 
@@ -619,13 +619,13 @@ The contributor then revises the proposed change to add a citation, after which 
 We would like to thank the authors of the Deep Review who helped us test collaborative writing with Manubot.
 The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz.
 In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript.
-We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Achintya Rao, and other GitHub users.
-Setup and maintenance of the Zotero translation-server for Manubot usage was performed by Dongbo Hu.
-We thank John MacFarlane for assistance with pandoc and the global Binder team for advice on Binder.
+We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Benjamin J. Heil, Zach Hensel, Alexandra J. Lee, YoSon Park, Achintya Rao, and other GitHub users.
+We thank John MacFarlane and Nikolay Yakimov for assistance with Pandoc and the global Binder team for advice on Binder.
+Finally, we thank C. Titus Brown and the other anonymous reviewers for their help improving this manuscript.
 
 ## Funding
 
-DSH and CSG were supported by [Grant G-2018-11163](https://sloan.org/grant-detail/8501) from the Alfred P. Sloan Foundation and [Grant GBMF4552](https://www.moore.org/grant-detail?grantId=GBMF4552) from the Gordon and Betty Moore Foundation.
+DSH, DH, VR, and CSG were supported by [Grant G-2018-11163](https://sloan.org/grant-detail/8501) from the Alfred P. Sloan Foundation and [Grant GBMF4552](https://www.moore.org/grant-detail?grantId=GBMF4552) from the Gordon and Betty Moore Foundation.
 VSM was supported by [Grant RP150596](http://www.cprit.state.tx.us/files/funded-grants/RP150596.pdf) from the Cancer Prevention and Research Institute of Texas.
 
 ## References {.page_break_before}
