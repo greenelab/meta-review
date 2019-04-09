@@ -172,8 +172,9 @@ See [GH145](https://github.com/greenelab/meta-review/issues/145) and [GH154](htt
 > `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
 
-We noted this piece of feedback in [GH146](https://github.com/greenelab/meta-review/issues/146) and addressed it in [GH156](https://github.com/greenelab/meta-review/pull/156) and [GH188](https://github.com/greenelab/meta-review/pull/188).
-We have clarified the distinction between Manubot and other platforms, in particular, the ability to carry out discussions on thematically related changes and iterative refinement of wording.
+We noted this piece of feedback in [GH146](https://github.com/greenelab/meta-review/issues/146) and addressed it in [GH156](https://github.com/greenelab/meta-review/pull/156), [GH188](https://github.com/greenelab/meta-review/pull/188), and [GH196](https://github.com/greenelab/meta-review/pull/196).
+We have clarified the distinction between Manubot and other platforms in the new "Collaborative writing platforms" section.
+In particular, we discuss the ability to carry out discussions on thematically related changes and iterative refinement of wording.
 
 > Table 1. → You should add a WYSIWIG feature that is present in a number of platforms and important for a lot of non technical people.
 Same for inline comments and diff colorization.
