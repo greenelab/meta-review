@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/63f5771e6df65b01c293c1585b80ea218fcefe6c/))
+([permalink](https://greenelab.github.io/meta-review/v/89812ce219b4f0023f6fcd7de99c2c1c3438c9ef/))
 was automatically generated
-from [greenelab/meta-review@63f5771](https://github.com/greenelab/meta-review/tree/63f5771e6df65b01c293c1585b80ea218fcefe6c)
+from [greenelab/meta-review@89812ce](https://github.com/greenelab/meta-review/tree/89812ce219b4f0023f6fcd7de99c2c1c3438c9ef)
 on April 9, 2019.
 </em></small>
 
@@ -253,6 +253,8 @@ Although we developed Manubot with collaborative writing in mind, it can also be
 Authors may choose to make their changes directly to the `master` branch, forgoing pull requests and reviews.
 This workflow retains many of Manubot's benefits, such as transparent history, automation, and allowing outside contributors to propose changes.
 In cases where outside contributions are unwanted, authors can disable pull requests on GitHub.
+It is also possible to use Manubot on a private GitHub repository.
+Private manuscripts require some additional customization to disable GitHub Pages and may require a paid continuous integration plan.
 See the [existing manuscripts] for examples of the range of contribution workflows and Manubot use cases.
 
 ## Manubot features
