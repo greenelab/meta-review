@@ -2,13 +2,19 @@
 
 Dear Dr. Schneidman-Duhovny,
 
-We thank you the reviewers for their thoughtful comments.
+We thank the reviewers for their thoughtful comments.
 Based on their feedback, we have revised the manuscript and address each reviewer suggestion point-by-point below.
+For each reviewer comment, we link to the GitHub issue where we planned our response and the pull request where we modified the manuscript.
+In addition to the changes to the manuscript text that describe new Manubot features and ways to use Manubot in different writing workflows, we also added a figure summarizing Manubot's new interactive plugins and a video demonstrating the GitHub-based editing process.
 
-**[SUMMARIZE MAJOR CHANGES TO MANUBOT AND THE MANUSCRIPT HERE]**
+Furthermore, we have made major improvements to the Manubot software since the initial submission.
+Manubot now supports more interactive features in the HTML version of its manuscripts.
+A Zotero translation-server and other citation processing updates enabled support for citation by shortDOI, ISBN, or Wikidata ID, and we are generalizing the support for manual references.
+A new public demo manuscript called [`try-manubot`](https://github.com/manubot/try-manubot) allows interested users to experiment with Manubot and pull requests without having to configure their own manuscript.
+Details of these and other updates are provided in the Manubot [release notes](https://github.com/manubot/manubot/releases).
 
 Sincerely,  
-Anthony
+Anthony Gitter
 
 ***
 
@@ -290,9 +296,3 @@ Either way this should be clarified.
 
 We clarified that our opinion is that no objective system can exist.
 See [GH123](https://github.com/greenelab/meta-review/issues/123) for the discussion and [GH177](https://github.com/greenelab/meta-review/pull/177) for the manuscript edits.
-
-***
-
-## Additional revisions
-
-**[ITEMIZE OTHER MAJOR CHANGES HERE]**
