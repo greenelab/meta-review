@@ -36,6 +36,10 @@ We restructured this section, now named `Manubot contribution workflow`, and gen
 My main concern (+ comments and questions below) is that the article is a bit technical and as such, addresses a technical audience.
 Since the paper has been submitted as a Software paper, maybe it's fine but it would be nice if non-technical people would also be able to read the paper (to realize open-source collaborative frameworks exists).
 
+We have added a non-technical introduction paragraph to explain the main benefits of Manubot to a broad audience.
+In addition, we clarified many of the technical terms, as discussed in [GH130](https://github.com/greenelab/meta-review/issues/130) and modified in [GH194](https://github.com/greenelab/meta-review/pull/194).
+Our new video demonstrating how to edit a Manubot manuscript entirely through the GitHub interface also shows non-technical readers how they can engage in open collaborative writing.
+
 > The introduction may lack a part on tools that are used in different communities, especially with "mega papers" (e.g. physics where you have routinely thousand of authors).
 
 We discussed this point in [GH131](https://github.com/greenelab/meta-review/issues/131) and addressed it in [GH169](https://github.com/greenelab/meta-review/pull/169).
@@ -232,10 +236,7 @@ This was discussed in [GH116](https://github.com/greenelab/meta-review/issues/11
 > `requesting modifications as depicted in 7.`
 the number 7 seems to refer to a citation (at least that's the hover view) but should maybe be in square brackets, i.e. [7]?
 
-We have clarified that this reference is a citation and now state:
-
-`GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications, as described by Johnny Israeli [ref].`
-
+We have clarified that this reference is a citation by adding square brackets.
 See [GH117](https://github.com/greenelab/meta-review/issues/117) and [GH152](https://github.com/greenelab/meta-review/pull/152) for the discussion and edits.
 
 > `We use GitHub issues for organization`.
