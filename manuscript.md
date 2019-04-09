@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/ec3066ba35688bf8ee643de9a101038e0d7bdfe2/))
+([permalink](https://greenelab.github.io/meta-review/v/e52d25bfcb0ab77b99ef3f06a4ad13e399a2a686/))
 was automatically generated
-from [greenelab/meta-review@ec3066b](https://github.com/greenelab/meta-review/tree/ec3066ba35688bf8ee643de9a101038e0d7bdfe2)
+from [greenelab/meta-review@e52d25b](https://github.com/greenelab/meta-review/tree/e52d25bfcb0ab77b99ef3f06a4ad13e399a2a686)
 on April 9, 2019.
 </em></small>
 
@@ -237,6 +237,12 @@ The preprint was updated in January 2018, and the article was accepted by the jo
 As of March 06, 2019, the Deep Review repository accumulated 755 Git commits, 317 merged pull requests, 609 issues, and 819 GitHub stars.
 The notebook to generate this figure can be [interactively launched using Binder](https://mybinder.org/v2/gh/greenelab/meta-review/binder?filepath=analyses/deep-review-contrib/02.contrib-viz.ipynb) [@Q20Bxdsr], enabling users to explore alternative visualizations or analyses of the source data.
 ](images/deep-review-contribution-ridge.svg){#fig:contrib width="100%" .white}
+
+GitHub issues can also be used for formal peer review by independent or journal-selected reviewers.
+A reviewer conducting open peer review can create issues using their own GitHub account, as [one reviewer](https://github.com/greenelab/meta-review/issues/124) did for this manuscript.
+Alternatively, a reviewer can post feedback with a pseudonymous GitHub account or have a trusted third party such as a journal editor post their comments anonymously.
+Authors can elect to respond to reviews in the GitHub issues or a public [response letter](https://github.com/greenelab/meta-review/blob/813f461fe719d8fe7bcda78871cfad106f83dfe7/content/response-to-reviewers.md), creating open peer review.
+** TODO: update `response-to-reviewers.md` URL once it is finalized **
 
 ## Manubot features
 
