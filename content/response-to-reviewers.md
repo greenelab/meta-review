@@ -172,15 +172,16 @@ See [GH145](https://github.com/greenelab/meta-review/issues/145) and [GH154](htt
 > `they lack sufficient features for managing a collaborative editing` → This is a bit of an overstatemeent because these tools are used daily by a lot of people to do just that.
 I agree on the second part on the 'precise credit' aspect but as the sentence is currently written, you seem to imply that even collaborative editing is not possible.
 
-We noted this piece of feedback in [GH146](https://github.com/greenelab/meta-review/issues/146) and addressed it in [GH156](https://github.com/greenelab/meta-review/pull/156) and [GH188](https://github.com/greenelab/meta-review/pull/188).
-We have clarified the distinction between Manubot and other platforms, in particular, the ability to carry out discussions on thematically related changes and iterative refinement of wording.
+We noted this piece of feedback in [GH146](https://github.com/greenelab/meta-review/issues/146) and addressed it in [GH156](https://github.com/greenelab/meta-review/pull/156), [GH188](https://github.com/greenelab/meta-review/pull/188), and [GH196](https://github.com/greenelab/meta-review/pull/196).
+We have clarified the distinction between Manubot and other platforms in the new "Collaborative writing platforms" section.
+In particular, we discuss the ability to carry out discussions on thematically related changes and iterative refinement of wording.
 
 > Table 1. → You should add a WYSIWIG feature that is present in a number of platforms and important for a lot of non technical people.
 Same for inline comments and diff colorization.
 
 We added `WYSIWYG mode`, `Inline comments`, and `Viewing changes` as new features to the table that compares collaborative writing platforms.
 In addition, we updated the table to use Overleaf v2 instead of Overleaf v1, which was discontinued.
-We discussed these changes in [GH147](https://github.com/greenelab/meta-review/issues/147) and edited the table in [GH188](https://github.com/greenelab/meta-review/pull/188).
+We discussed these changes in [GH147](https://github.com/greenelab/meta-review/issues/147) and edited the table in [GH188](https://github.com/greenelab/meta-review/pull/188) and [GH196](https://github.com/greenelab/meta-review/pull/196).
 
 > Figure 1. → Maybe an horizontal layout would be better (to suggest a timeline from left to right).
 The waves (symbolizing the content) could be probably replaced by straight thick lines.
