@@ -2,13 +2,19 @@
 
 Dear Dr. Schneidman-Duhovny,
 
-We thank you the reviewers for their thoughtful comments.
+We thank the reviewers for their thoughtful comments.
 Based on their feedback, we have revised the manuscript and address each reviewer suggestion point-by-point below.
+For each reviewer comment, we link to the GitHub issue where we planned our response and the pull request where we modified the manuscript.
+In addition to the changes to the manuscript text that describe new Manubot features and ways to use Manubot in different writing workflows, we also added a figure summarizing Manubot's new interactive plugins and a video demonstrating the GitHub-based editing process.
 
-**[SUMMARIZE MAJOR CHANGES TO MANUBOT AND THE MANUSCRIPT HERE]**
+Furthermore, we have made major improvements to the Manubot software since the initial submission.
+Manubot now supports more interactive features in the HTML version of its manuscripts.
+A Zotero translation-server and other citation processing updates enabled support for citation by shortDOI, ISBN, or Wikidata ID, and we are generalizing the support for manual references.
+A new public demo manuscript called [`try-manubot`](https://github.com/manubot/try-manubot) allows interested users to experiment with Manubot and pull requests without having to configure their own manuscript.
+Details of these and other updates are provided in the Manubot [release notes](https://github.com/manubot/manubot/releases).
 
 Sincerely,  
-Anthony
+Anthony Gitter
 
 ***
 
@@ -29,6 +35,10 @@ We restructured this section, now named `Manubot contribution workflow`, and gen
 > Overall, the article is nicely written and corresponds to a software paper (in my opinion).
 My main concern (+ comments and questions below) is that the article is a bit technical and as such, addresses a technical audience.
 Since the paper has been submitted as a Software paper, maybe it's fine but it would be nice if non-technical people would also be able to read the paper (to realize open-source collaborative frameworks exists).
+
+We have added a non-technical introduction paragraph to explain the main benefits of Manubot to a broad audience.
+In addition, we clarified many of the technical terms, as discussed in [GH130](https://github.com/greenelab/meta-review/issues/130) and modified in [GH194](https://github.com/greenelab/meta-review/pull/194).
+Our new video demonstrating how to edit a Manubot manuscript entirely through the GitHub interface also shows non-technical readers how they can engage in open collaborative writing.
 
 > The introduction may lack a part on tools that are used in different communities, especially with "mega papers" (e.g. physics where you have routinely thousand of authors).
 
@@ -113,7 +123,14 @@ We created [manubot/rootstock#205](https://github.com/manubot/rootstock/pull/205
 > In the discussion, to what extent a contributor can only use the GitHub interface (text editor + automated PR)?
 Would not that be a way to lower the technical entry level for contributors?
 
+We discussed this issue in [GH139](https://github.com/greenelab/meta-review/issues/139) and resolved it in [GH191](https://github.com/greenelab/meta-review/pull/191) by adding a supporting video to demonstrate editing a manuscript solely using the GitHub inferface.
+
 > Would it be possible for a (anonymous) reviewer to use the workflow to do the actual review?
+
+It is possible to use issues to coordinate peer review, as [Reviewer 3 did](https://github.com/greenelab/meta-review/issues/124) for this manuscript.
+We updated the manuscript to present this possibility for open peer review.
+Anonymous journal peer review requires an editor to post the reviewers' comments.
+We discussed this in [GH140](https://github.com/greenelab/meta-review/issues/140) and edited the manuscript in [GH193](https://github.com/greenelab/meta-review/pull/193).
 
 > Could you elaborate a bit on the potential limitations of the markdown language?
 Did you encounter some difficulties in referencing figures or tables?
@@ -226,10 +243,7 @@ This was discussed in [GH116](https://github.com/greenelab/meta-review/issues/11
 > `requesting modifications as depicted in 7.`
 the number 7 seems to refer to a citation (at least that's the hover view) but should maybe be in square brackets, i.e. [7]?
 
-We have clarified that this reference is a citation and now state:
-
-`GitHub's review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications, as described by Johnny Israeli [ref].`
-
+We have clarified that this reference is a citation by adding square brackets.
 See [GH117](https://github.com/greenelab/meta-review/issues/117) and [GH152](https://github.com/greenelab/meta-review/pull/152) for the discussion and edits.
 
 > `We use GitHub issues for organization`.
@@ -290,9 +304,3 @@ Either way this should be clarified.
 
 We clarified that our opinion is that no objective system can exist.
 See [GH123](https://github.com/greenelab/meta-review/issues/123) for the discussion and [GH177](https://github.com/greenelab/meta-review/pull/177) for the manuscript edits.
-
-***
-
-## Additional revisions
-
-**[ITEMIZE OTHER MAJOR CHANGES HERE]**
