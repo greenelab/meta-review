@@ -12,12 +12,12 @@ wget --quiet --output-document=manuscript-new.md $NEW_URL
 #   manuscript-old.md manuscript-new.md
 
 pandiff \
-  --output=manuscript-diff.html \
+  --output=webpage/manuscript-diff.html \
   --wrap=preserve \
   manuscript-old.md manuscript-new.md
 
-cat ../../build/themes/default.html >> manuscript-diff.html
-cat pandiff-theme.html >> manuscript-diff.html
+cat ../../build/themes/default.html >> webpage/manuscript-diff.html
+cat pandiff-theme.html >> webpage/manuscript-diff.html
 # pandoc \
 #   --output=manuscript-diff-rendered.html \
 #   --bibliography=$BIBLIOGRAPHY_PATH \
