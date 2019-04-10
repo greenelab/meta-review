@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/e95e3c9330a59d5f89e52cec8bdff947dc2e2ad4/))
+([permalink](https://greenelab.github.io/meta-review/v/57afd5cbcc5f8f4740b5f718d29768b3cf4dba11/))
 was automatically generated
-from [greenelab/meta-review@e95e3c9](https://github.com/greenelab/meta-review/tree/e95e3c9330a59d5f89e52cec8bdff947dc2e2ad4)
+from [greenelab/meta-review@57afd5c](https://github.com/greenelab/meta-review/tree/57afd5cbcc5f8f4740b5f718d29768b3cf4dba11)
 on April 10, 2019.
 </em></small>
 
@@ -34,7 +34,7 @@ on April 10, 2019.
 
 
 
-+ **Daniel S. Himmelstein**<br>
++ **Daniel S. Himmelstein** ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-3012-7446](https://orcid.org/0000-0002-3012-7446)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -45,7 +45,7 @@ on April 10, 2019.
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
-+ **David R. Slochower**<br>
++ **David R. Slochower** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-3928-5050](https://orcid.org/0000-0003-3928-5050)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -56,7 +56,7 @@ on April 10, 2019.
      Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
   </small>
 
-+ **Venkat S. Malladi**<br>
++ **Venkat S. Malladi** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-0144-0564](https://orcid.org/0000-0002-0144-0564)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -67,7 +67,7 @@ on April 10, 2019.
      Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center
   </small>
 
-+ **Dongbo Hu**<br>
++ **Dongbo Hu** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-2606-3969](https://orcid.org/0000-0003-2606-3969)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -78,7 +78,7 @@ on April 10, 2019.
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
-+ **Vincent Rubinetti**<br>
++ **Vincent Rubinetti** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-4655-3773](https://orcid.org/0000-0002-4655-3773)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -89,7 +89,7 @@ on April 10, 2019.
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
-+ **Casey S. Greene**<br>
++ **Casey S. Greene** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0001-8713-9213](https://orcid.org/0000-0001-8713-9213)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -100,7 +100,7 @@ on April 10, 2019.
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
-+ **Anthony Gitter**<br>
++ **Anthony Gitter** ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0002-5324-9833](https://orcid.org/0000-0002-5324-9833)
     · ![GitHub icon](images/github.svg){.inline_icon}
@@ -111,6 +111,11 @@ on April 10, 2019.
      Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
   </small>
 
+
+::: {#correspondence}
+✉ — correspondence preferred via [GitHub Issues](https://github.com/greenelab/meta-review/issues).
+Otherwise, address correspondence to <gitter@biostat.wisc.edu> and <daniel.himmelstein@gmail.com>.
+:::
 
 
 ## Abstract {.page_break_before}
@@ -159,13 +164,13 @@ Nonetheless, LaTeX-based systems are limited in that PDF (or similar) is the onl
 Alternatively, [Authorea](https://www.authorea.com/) is a collaborative writing webapp whose primary output format is HTML.
 Authorea allows authors to write in Markdown, a limited subset of LaTeX, or their WYSIWYG HTML editor.
 
-| Feature | Manubot | Authorea | Overleaf v2 | Google Docs + Paperpile | Word Online<sup>1</sup> | Markdown on GitHub |
+| Feature | Manubot | Authorea | Overleaf v2 | Google Docs + Paperpile | Word Online^1^ | Markdown on GitHub |
 |---|---|---|---|---|---|---|
 | Multi-author editing | Yes | Yes | Yes | Yes | Yes | Yes |
 | Propose changes | Yes | No | No | Yes | No | Yes |
 | Continuous integration testing | Yes | No | No | No | No | No |
-| Multi-participant conversation for changes | Yes | No<sup>2</sup>  | No<sup>2</sup> | No<sup>2</sup> | No<sup>2</sup> | Yes |
-| Character-level provenance for text | Yes | Yes | No<sup>3</sup> | Requires manual inspection of history | Not after changes are accepted | Yes |
+| Multi-participant conversation for changes | Yes | No^2^  | No^2^ | No^2^ | No^2^ | Yes |
+| Character-level provenance for text | Yes | Yes | No^3^ | Requires manual inspection of history | Not after changes are accepted | Yes |
 | Bibliography management | Yes | Yes | Yes | Yes | No, requires the Word desktop application | No |
 | Citation by identifier | Yes | Yes | No | No | No | No |
 | Editing software | Any text editor | Web interface | Web interface | Web interface | Web interface | Any text editor |

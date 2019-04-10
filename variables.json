@@ -12,6 +12,7 @@
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
       "funders": "G-2018-11163 and GBMF4552",
+      "correspondence": true,
       "affiliation_numbers": [
         1
       ]
@@ -103,6 +104,7 @@
         "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
         "Morgridge Institute for Research"
       ],
+      "correspondence": true,
       "affiliation_numbers": [
         5,
         6
@@ -139,7 +141,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "e95e3c9330a59d5f89e52cec8bdff947dc2e2ad4"
+    "commit": "57afd5cbcc5f8f4740b5f718d29768b3cf4dba11"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -167,6 +169,6 @@
       "wikidata": 1,
       "total": 93
     },
-    "word_count": 7522
+    "word_count": 7551
   }
 }
