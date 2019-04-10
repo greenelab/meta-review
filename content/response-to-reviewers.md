@@ -44,7 +44,7 @@ Our new video demonstrating how to edit a Manubot manuscript entirely through th
 
 We discussed this point in [GH131](https://github.com/greenelab/meta-review/issues/131) and addressed it in [GH169](https://github.com/greenelab/meta-review/pull/169).
 While we found a number of "mega papers" in the fields of physics and biology, we were unable to quantify how many authors of those papers were able to participate in the process of discussing, drafting, and composing the final articles (versus e.g., conceptualizing the process, collecting or analyzing the data, and so on).
-In fact, more than one press release related to those articles note the difficulty "[merging author lists](https://www.nature.com/news/physics-paper-sets-record-with-more-than-5-000-authors-1.17567)" and disagreements about authorship.
+In fact, more than one press release related to those articles note the difficulty in "[merging author lists](https://www.nature.com/news/physics-paper-sets-record-with-more-than-5-000-authors-1.17567)" and disagreements about authorship.
 Manubot allows each author—and other interested parties—the ability to contribute in a way that other platforms do not.
 To that end, we've added a paragraph in the Authorship section addressing this point.
 
@@ -77,7 +77,7 @@ We plan to pursue additional funding opportunities to enable sustained developme
 > The layout of the PDF and the HTML could benefit from a better template (and font stack).
 This a totally minor point, but it might help to attract new people.
 
-Improving the Manubot frontend has been one of the major focuses of our recent development efforts.
+Improving the Manubot front end has been one of the major focuses of our recent development efforts.
 We rewrote the CSS to modernize the front end and improve the default fonts and styles.
 In addition, we restructured the Manubot codebase to support optional plugins and multiple themes (manuscript styles).
 The plugins provide interactive features such as citation tooltips, a table of contents, an image viewer, Hypothesis annotations, and collapsible sections as well as MathJax support for LaTeX equations.
@@ -92,10 +92,10 @@ We discussed these revisions in [GH134](https://github.com/greenelab/meta-review
 Or you can use a Software Heritage identifier to make sure manubot can still be found in a few years.
 
 This feedback was discussed in [GH135](https://github.com/greenelab/meta-review/issues/135) and addressed in [GH159](https://github.com/greenelab/meta-review/pull/159).
-We created GitLab mirrors of important Manubot repositories, to provide access to Manubot's latest source code during any GitHub downtime.
+We created GitLab mirrors of important Manubot repositories to provide access to Manubot's latest source code during any GitHub downtime.
 We also added Software Heritage identifiers, to preserve access to Manubot's source code via snapshots.
 We found this preferable to Zenodo archiving because we were not ready to commit to perpetually maintaining Zenodo records that potentially require manual edits.
-Currently, deployment of [releases to PyPI](https://pypi.org/project/manubot/#history) is [fully automated](https://github.com/manubot/manubot/blob/81394c0a8153fa3ad41ee3cb987227c8ea043125/.travis.yml#L16-L25).
+Currently, deployment of [releases to PyPI](https://pypi.org/project/manubot/#history) are [fully automated](https://github.com/manubot/manubot/blob/81394c0a8153fa3ad41ee3cb987227c8ea043125/.travis.yml#L16-L25).
 In the interest of frequent releases, we want to keep the effort required to make a release minimal.
 
 > On the Authorship, how do you give credits to people having participated in a work (e.g. did all the experiment) but did not commit anything on the manuscript?
@@ -123,7 +123,7 @@ We created [manubot/rootstock#205](https://github.com/manubot/rootstock/pull/205
 > In the discussion, to what extent a contributor can only use the GitHub interface (text editor + automated PR)?
 Would not that be a way to lower the technical entry level for contributors?
 
-We discussed this issue in [GH139](https://github.com/greenelab/meta-review/issues/139) and resolved it in [GH191](https://github.com/greenelab/meta-review/pull/191) by adding a supporting video to demonstrate editing a manuscript solely using the GitHub inferface.
+We discussed this issue in [GH139](https://github.com/greenelab/meta-review/issues/139) and resolved it in [GH191](https://github.com/greenelab/meta-review/pull/191) by adding a supporting video to demonstrate editing a manuscript solely using the GitHub interface.
 
 > Would it be possible for a (anonymous) reviewer to use the workflow to do the actual review?
 
@@ -139,7 +139,7 @@ We discussed this feedback in [GH141](https://github.com/greenelab/meta-review/i
 The manuscript now includes a more comprehensive discussion of Markdown, with links / references to the CommonMark standard and the Pandoc Scholar study, which provides additional details on formatting scholarly writing with Pandoc's Markdown.
 In [manubot/rootstock#169](https://github.com/manubot/rootstock/pull/169), we updated the `content/02.delete-me.md` file to showcase supported formatting options.
 The manuscript now links to the raw and rendered displays of this Markdown to better exhibit Manubot's formatting options.
-The manuscript and the revised delete-me examples describe/exhibit how cross-referencing figures and tables is supported using the `pandoc-xnos` suite of Pandoc filters.
+The manuscript and the revised delete-me examples exhibit how cross-referencing figures and tables is supported using the `pandoc-xnos` suite of Pandoc filters.
 
 > What is the procedure when you submit an article to a journal?
 Do you have a set of pandoc templates or do you work directly on the word or latex output to match journal requirements?
@@ -222,15 +222,8 @@ We now cite two books in the opening paragraph — [_Reinventing Discovery_](htt
 from reading the manuscript, it is clear that fairness means fairness in contribution tracking, but this is not clear in the abbreviated language used in the abstract.
 I am somewhat unclear on what `ensure correctness` means in the abstract.
 
-This interpretation of fairness is correct, and correctness was intended to link with the continuous integration text in the manuscript such as:
-
-`Using CI to build the manuscript automatically catches many common errors, such as misspelled citations, invalid formatting, or misconfigured software dependencies.`
-
-To make this more explicit, the updated abstract now states:
-
-`New tools and workflows that rely on automation can catch errors and ensure that contributions are fairly tracked in massively collaborative research.`
-
-See [GH115](https://github.com/greenelab/meta-review/issues/115) and [GH153](https://github.com/greenelab/meta-review/pull/153) for the discussion and edits.
+This interpretation of fairness is correct, and correctness was intended to link with the continuous integration text in the manuscript.
+To make this more explicit, we updated the abstract in [GH153](https://github.com/greenelab/meta-review/pull/153) and discussed this in [GH115](https://github.com/greenelab/meta-review/issues/115).
 
 > footnote placement in rendered manuscript should be left-adjusted.
 in the PDF I have in front of me, the footnotes at end of sentences are not left-flush with the period.
