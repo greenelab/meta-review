@@ -14,7 +14,7 @@ A new public demo manuscript called [`try-manubot`](https://github.com/manubot/t
 Details of these and other updates are provided in the Manubot [release notes](https://github.com/manubot/manubot/releases).
 
 Sincerely,  
-Anthony Gitter
+Anthony Gitter & Daniel Himmelstein
 
 ***
 

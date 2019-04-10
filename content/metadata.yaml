@@ -17,6 +17,7 @@ author_info:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: G-2018-11163 and GBMF4552
+    correspondence: true
   -
     github: slochower
     name: David R. Slochower
@@ -77,3 +78,4 @@ author_info:
     affiliations:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
       - Morgridge Institute for Research
+    correspondence: true
