@@ -7,7 +7,7 @@ author-meta:
 - Vincent Rubinetti
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-04-09'
+date-meta: '2019-04-10'
 keywords:
 - collaborative review
 - continuous integration
@@ -24,10 +24,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/5b23bdb102a938026b6ed25181bc5ac73e5f21e9/))
+([permalink](https://greenelab.github.io/meta-review/v/ad8dd8e9e183a6dc47cf4bbdf81f9a643d726e53/))
 was automatically generated
-from [greenelab/meta-review@5b23bdb](https://github.com/greenelab/meta-review/tree/5b23bdb102a938026b6ed25181bc5ac73e5f21e9)
-on April 9, 2019.
+from [greenelab/meta-review@ad8dd8e](https://github.com/greenelab/meta-review/tree/ad8dd8e9e183a6dc47cf4bbdf81f9a643d726e53)
+on April 10, 2019.
 </em></small>
 
 ## Authors
@@ -405,7 +405,7 @@ The [current setup process](https://github.com/manubot/rootstock/blob/fea9eb80af
 The setup process is complex, but must only be performed once per manuscript.
 Incorporating new Manubot features is also possible by pulling the latest commits from Rootstock, but sometimes involves resolving Git conflicts.
 
-Contributing to an existing manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [Contribution Workflow](#contribution-workflow) section and demonstrated in Video S1.
+Contributing to an existing manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [Contribution Workflow](#contribution-workflow) section and demonstrated in [S1 Video](#vid:usage).
 Interested readers can practice editing an existing demo manuscript at <https://github.com/manubot/try-manubot>.
 
 At the 2019 _Pacific Symposium on Biocomputing_, we led a working group where 17 conference participants contributed to a [demo manuscript](https://git.dhimmel.com/psb-manuscript/).
@@ -595,7 +595,7 @@ Source code for Manubot resides in the following repositories:
 
 ## Supporting Information
 
-<div id="vid:usage">
+<p id="vid:usage">
 <video
   controls
   width="100%"
@@ -611,7 +611,7 @@ Source code for Manubot resides in the following repositories:
 This screen recording demonstrates how to propose edits to a Manubot manuscript via GitHub.
 In the video [@qJpcAhnQ], a contributor creates a [pull request](https://github.com/manubot/try-manubot/pull/2) to add a sentence to the try-manubot manuscript.
 The contributor then revises the proposed change to add a citation, after which it is accepted, merged, and automatically deployed.
-</div>
+</p>
 
 
 ## Acknowledgments
