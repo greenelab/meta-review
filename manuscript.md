@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/cffcfeaea0b6859051d16ab1e263d8bcf62a24b1/))
+([permalink](https://greenelab.github.io/meta-review/v/e95e3c9330a59d5f89e52cec8bdff947dc2e2ad4/))
 was automatically generated
-from [greenelab/meta-review@cffcfea](https://github.com/greenelab/meta-review/tree/cffcfeaea0b6859051d16ab1e263d8bcf62a24b1)
+from [greenelab/meta-review@e95e3c9](https://github.com/greenelab/meta-review/tree/e95e3c9330a59d5f89e52cec8bdff947dc2e2ad4)
 on April 10, 2019.
 </em></small>
 
@@ -146,18 +146,18 @@ The manuscript writing process we developed using the Markdown language, the Git
 Manubot supports citations by adding a persistent identifier like a Digital Object Identifier (DOI) or PubMed Identifier (PMID) directly in the text so that large groups of authors do not have to coordinate reference lists.
 When text is changed, Manubot automatically updates the manuscript's web page so that all authors can read and edit from the latest version.
 Because manuscripts are created from GitHub repositories, Manubot supports a workflow where all edits are reviewed and discussed, ensuring that the collaborative text has a cohesive style and message and that authors receive precise credit for their work.
-These and other features provide support an open collaborative writing process that is not feasible with other writing platforms.
+These and other features support an open collaborative writing process that is not feasible with other writing platforms.
 
 ## Collaborative writing platforms
 
 There are many existing collaborative writing platforms (Table @tbl:platforms) [@AylLD9F8].
 In general, platforms with "what you see is what you get" (WYSIWYG) editors, such as Microsoft Word or Google Docs, require the least technical expertise to use.
-On the flip side, WYSIWIG platforms can be difficult to customize and incorporate into automated computational workflows.
+On the flip side, WYSIWYG platforms can be difficult to customize and incorporate into automated computational workflows.
 Traditionally, LaTeX has been used for these needs, since documents are written in plain text and the system is open source and extensible.
 Rendering LaTeX documents requires specialized software, but webapps like [Overleaf](https://www.overleaf.com/) now enable collaborative authoring of LaTeX documents.
 Nonetheless, LaTeX-based systems are limited in that PDF (or similar) is the only fully supported output format.
 Alternatively, [Authorea](https://www.authorea.com/) is a collaborative writing webapp whose primary output format is HTML.
-Authorea allows authors to write sections in Markdown, a limited subset of LaTeX, or their WYSIWIG HTML editor.
+Authorea allows authors to write in Markdown, a limited subset of LaTeX, or their WYSIWYG HTML editor.
 
 | Feature | Manubot | Authorea | Overleaf v2 | Google Docs + Paperpile | Word Online<sup>1</sup> | Markdown on GitHub |
 |---|---|---|---|---|---|---|
@@ -178,7 +178,7 @@ Authorea allows authors to write sections in Markdown, a limited subset of LaTeX
 
 Table: Collaborative writing platforms.
 A summary of features that differentiate Manubot from existing collaborative writing platforms.
-We assessed features on June 2018 using the free version of each platform and updated our assessment on April 2019 to add Overleaf v2 and the features in the bottom three rows.
+We assessed features in June 2018 using the free version of each platform and updated our assessment in April 2019 to add the features in the bottom three rows and re-evaluate Authorea and Overleaf.
 Some platforms offer additional features through a paid subscription or software.
 1) Additional functionality, such as bibliography management and tracking changes, is available by editing the Word document stored in OneDrive with the paid Word desktop application.
 2) Conversations about modifications take place on the document as comments, annotations, or unsaved chats.
@@ -234,7 +234,7 @@ After four rounds of reviews and pull request edits, a maintainer merged the cha
 
 We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit.
 In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work.
-Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on other collaborative writing platforms.
+Figure @fig:contrib and the GitHub [contributors page](https://github.com/greenelab/deep-review/graphs/contributors) summarize all edits and commits from each author, providing aggregated information that is not available on most other collaborative writing platforms.
 Because the Manubot writing process tracks the complete history through Git commits, it enables detailed retrospective contribution analysis.
 These pull request and contribution tracking examples both come from Deep Review, the largest Manubot project to date, but illustrate the general principles of transparency and collaboration that are shared by all open Manubot manuscripts.
 
@@ -280,14 +280,14 @@ Manubot pieces together many existing standards and technologies to encapsulate 
 With Manubot, manuscripts are written as plain-text Markdown files.
 The [Markdown standard](https://spec.commonmark.org/0.28/) itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists.
 In addition, Manubot relies on extensions from [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
-Markdown with Pandoc extensions supports most formatting options required for scholarly writing [@17wKkS4DV], but currently lacks the ability to cross-reference and automatically number figures, tables, and equations.
+Markdown with Pandoc extensions supports most formatting options required for scholarly writing [@17wKkS4DV] but currently lacks the ability to cross-reference and automatically number figures, tables, and equations.
 For this functionality, Manubot includes the [`pandoc-xnos`](https://github.com/tomduck/pandoc-xnos) suite of Pandoc filters.
 A list of formatting options officially supported by Manubot, at the time of writing, is viewable as [raw Markdown](https://github.com/manubot/rootstock/raw/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/content/02.delete-me.md) and the corresponding [rendered HTML](https://manubot.github.io/rootstock/v/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/).
 
 By virtue of its readable syntax, Markdown is well suited for version control using Git.
-Markdown treats a single line break between text as a space, and requires two-or-more consecutive line breaks to denote a new paragraph.
+Markdown treats a single line break between text as a space and requires two-or-more consecutive line breaks to denote a new paragraph.
 For optimal tracking of Markdown files with Git, we recommend placing each sentence on its own line.
-This convention allows Git to display diffs on a per sentence basis while avoiding unnecessary reflows associated with line wrapping and allowing easy rearrangement of sentences.
+This convention allows Git to display diffs on a per sentence basis, avoids unnecessary reflows associated with line wrapping, and supports easy rearrangement of sentences.
 
 ### Citation by identifier
 
@@ -298,8 +298,8 @@ Authors can optionally define citation tags to provide short readable alternativ
 Citation metadata is exported to the [Citation Style Language (CSL) JSON Data Items](http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items) format, an open standard that is widely supported by reference managers [@9KfVIq3s; @K7WVgf8X].
 However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as [pandoc-citeproc](http://hackage.haskell.org/package/pandoc-citeproc).
 Therefore, Manubot removes invalid fields according to the [CSL Data specification](https://github.com/citation-style-language/schema).
-In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct CSL JSON using common reference formats.
-Manual CSL JSON also supports references without standard identifiers, such as print-only newspaper articles.
+In cases where automatic retrieval of metadata fails or produces incorrect references --- which is most common for URL citations --- users can manually provide the correct metadata using common reference formats.
+Manual metadata also supports references without standard identifiers, such as print-only newspaper articles.
 
 | Identifier | Metadata source | Example citation | Processed citation |
 | --- | --- | --- | --- |
@@ -315,7 +315,7 @@ Manual CSL JSON also supports references without standard identifiers, such as p
 | Tag | Source for tagged identifier | `tag:avasthi-preprints` | [@pqBLIXzp] |
 
 Table: **Citation types supported by Manubot.**
-Manubot allows users to cite different types of persistent identifiers, as shown in this table.
+Manubot allows users to cite different types of persistent identifiers.
 Metadata source indicates the primary resource used to retrieve bibliographic metadata.
 For certain identifier types, additional metadata sources are queried should the primary fail.
 For example, when translation-server ISBN lookup fails, Manubot tries Wikipedia's [Citoid](https://www.mediawiki.org/wiki/Citoid) service followed by the [isbnlib](https://github.com/xlcnd/isbnlib) Python package.
@@ -323,6 +323,7 @@ When translation-server URL lookup fails, Manubot then tries [Greycite](http://g
 Raw citations enable citing works when no supported persistent identifiers exist, but require that the user specifies the metadata.
 Finally, authors may optionally map a named tag to any of the supported identifier types.
 In this example, the tag `avasthi-preprints` represents the DOI identifier `doi:10.7554/eLife.38532`.
+API: application programming interface
 {#tbl:citations}
 
 Manubot formats bibliographies according to a [CSL](http://citationstyles.org/) style specification.
@@ -357,7 +358,7 @@ Clarifying markups are overlaid in purple.
 ](images/plugins.png "Manubot Plugins"){#fig:plugins}
 
 The Manubot "front-end" (layout, look, controls, behavior, etc.) was developed in line with current best practices and user expectations of the modern web.
-The plugins utilize standard technology built in to most major web browsers, allowing them to be relatively lightweight, modular, and easy to configure.
+The plugins use standard technology built in to most major web browsers, allowing them to be relatively lightweight, modular, and easy to configure.
 
 ### Continuous publication
 
@@ -395,20 +396,20 @@ Fortunately, lock-in to these services is minimal, and [several substitutes](#fu
 Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [@sWD9uVuF] and is well-suited for preserving provenance.
 For example, figures can be specified using versioned URLs that refer to the code that created them.
 In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them.
-Figure @fig:contrib provides examples of templates.
+The Figure @fig:contrib caption provides examples of templates.
 Phrases such as "755 Git commits" are written as `{{total_commits}} Git commits` so that the commit count can be automatically updated.
 
 ### Getting started
 
 An example repository at <https://github.com/manubot/rootstock>, referred to as Rootstock, demonstrates Manubot's features and serves as a template for users to write their own manuscripts with Manubot.
 The [current setup process](https://github.com/manubot/rootstock/blob/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/SETUP.md) includes cloning the Rootstock repository, rebranding it to the user's manuscript, and configuring continuous integration.
-The setup process is complex, but must only be performed once per manuscript.
-Incorporating new Manubot features is also possible by pulling the latest commits from Rootstock, but sometimes involves resolving Git conflicts.
+The setup process is complex but must only be performed once per manuscript.
+Incorporating new Manubot features into an existing manuscript is also possible by pulling the latest commits from Rootstock, which sometimes involves resolving Git conflicts.
 
-Contributing to an existing manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [Contribution Workflow](#contribution-workflow) section and demonstrated in [S1 Video](#vid:usage).
-Interested readers can practice editing an existing demo manuscript at <https://github.com/manubot/try-manubot>.
+Contributing to a manuscript is less technical and can be performed entirely through GitHub's web interface, as discussed in the [contribution workflow](#contribution-workflow) section and demonstrated in [S1 Video](#vid:usage).
+Interested readers can practice editing a demo manuscript at <https://github.com/manubot/try-manubot>.
 
-At the 2019 _Pacific Symposium on Biocomputing_, we led a working group where 17 conference participants contributed to a [demo manuscript](https://git.dhimmel.com/psb-manuscript/).
+At the 2019 _Pacific Symposium on Biocomputing_, we led a working group where 17 conference participants contributed to a different [demo manuscript](https://git.dhimmel.com/psb-manuscript/).
 Based on this experience, we believe most computational scholars have the expertise to contribute to a Manubot manuscript.
 Proficiency with Manubot requires familiarity with Markdown, Git, GitHub, and continuous integration.
 While these tools do present a barrier to entry, they are also highly applicable outside of Manubot and increasingly part of the standard curriculum for computational scholars.
@@ -442,11 +443,12 @@ manubot cite --render --format=markdown \
   pmid:29618526 doi:10.1038/550143a
 ```
 
-Pandoc brands itself as a "universal document converter", and can, as of version 2.7, convert from any of 32 input formats to any of 51 output formats.
+Pandoc brands itself as a "universal document converter", and can convert from any of 32 input formats to any of 51 output formats as of version 2.7.
 Thanks to its versatility and active development since 2006, Pandoc enjoys a large userbase across many disciplines and applications.
 Its filter interface enables adding custom functionality with community-developed programs.
 We are [prototyping](https://github.com/manubot/manubot/pull/99 "Create a pandoc-manubot-cite filter for pandoc") a Manubot-based citation-by-identifier filter.
-This filter would allow Pandoc users to cite persistent identifiers as part of their existing Pandoc workflows, without requiring them to adopt other aspects of Manubot, and could help popularize citation-by-identifier at an influential scale.
+This filter would allow Pandoc users to cite persistent identifiers as part of their existing Pandoc workflows, without requiring them to adopt other aspects of Manubot.
+It could help popularize citation-by-identifier at an influential scale.
 
 ### Future enhancements {#future}
 
@@ -455,9 +457,9 @@ Currently, manuscript repositories must contain a large number of files that do 
 While this enables a high-degree of customization, it also increases complexity.
 Therefore, we are investigating whether configuration files with sensible defaults could enable bare-bones repositories that contain manuscript content and little else.
 
-In addition, to simplifying the usage, we're also looking into simplifying the setup.
+In addition to simplifying the usage, we're also looking into simplifying the setup.
 Presently, setup is complex because users must do advanced command-line operations to clone the Rootstock repository and configure Travis CI.
-While we provide detailed instructions, users often struggle replicating the long list of setup commands in an appropriate computational environment.
+Although we provide detailed instructions, users often struggle to replicate the long list of setup commands in an appropriate computational environment.
 One priority will be to automate setup to a higher degree.
 However, this may require switching the services Manubot uses for continuous integration (e.g. from Travis CI to GitHub Actions, CircleCI, Drone, or GitLab CI), environment management (e.g. from Conda to Docker), and repository hosting (e.g. from GitHub to GitLab).
 In addition to simplifying setup, such migrations may also present the opportunity to decrease dependency on proprietary services and address other Manubot shortcomings, such as the current inability to view rendered manuscripts produced by pull request builds.
@@ -470,18 +472,18 @@ Users can open an [issue](https://github.com/manubot/rootstock/issues) at the Ro
 
 One strategy to grow Manubot usage is to identify a specific user group or use case for which Manubot can be widely adopted.
 For example, a journal may decide to build their publishing workflow around Manubot, such that submissions would consist of a Manubot repository.
-This application would be most suitable for journals that currently use GitHub for submissions and publishing, such as the _Journal of Open Source Software_.
+This application would be most suitable for journals that currently use GitHub for submissions and publishing, such as the _Journal of Open Source Software_ [@xpw2aizK].
 Manubot could also gain traction as the primary tool used to write collaborative manuscripts within certain communities.
 For example, open research projects built from voluntary contributions by geographically-distributed individuals could adopt Manubot.
 Likewise, Manubot may excel at enabling collaborative translation of existing manuscripts into other languages.
-Another application could become collaborative development of online lessons, documentation, or tutorials.
-Projects like [Software Carpentry](https://software-carpentry.org/) already host each lesson in a separate GitHub repository, and may be able to benefit from Manubot-generated permalinks to historical versions.
+Another application could be collaborative development of online lessons, documentation, or tutorials.
+Projects like [Software Carpentry](https://software-carpentry.org/) already host each lesson in a separate GitHub repository and may benefit from Manubot-generated permalinks to historical versions.
 
 ## Authorship
 
 Manubot does not impose any restrictions on authorship.
-It allows authors to adhere to the author inclusion and author ordering conventions of their field, which vary considerably across disciplines [@14ahyJcvY].
-Some Manubot projects create a [table](https://github.com/Benjamin-Lee/deep-rules/blob/master/contributors.md) in their GitHub repository to track contributors who did not commit text to the manuscript.
+It allows authors to adhere to the author inclusion and ordering conventions of their field, which vary considerably across disciplines [@14ahyJcvY].
+Some Manubot projects create a [table](https://github.com/Benjamin-Lee/deep-rules/blob/cfb7f744573ca0532a19ca1a8e9473a555cf8eb2/contributors.md) in their GitHub repository to track contributors who did not commit text to the manuscript.
 This provides a transparent way to record contributions such as experimental research that generated data for the manuscript and discuss whether they meet that project's authorship criteria.
 Contribution transparency helps prevent ghostwriting [@RK9sIADd] and is especially important in collaborative writing [@vzcNEQll].
 Although we recommend authors provide their ORCID and GitHub username, Manubot also supports pseudonyms, pseudonymous GitHub usernames, and authors without an ORCID or GitHub account.
@@ -504,7 +506,7 @@ We annotated the author list to indicate that author order was partly randomized
 The Deep Review author ordering procedure illustrates authorship possibilities when all contributions are publicly tracked and recorded that would be difficult with a traditional collaborative writing platform.
 
 Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [@15YfJWkEd] (5000 authors) and the report of the Drosophila genome [@Szy8sdWq] (1000 authors).
-Yet _the number of people that participated in writing_ those papers, as opposed to generating and analyzing the data, is not always clear and likely to be far below the number of authors [@NGOit8L2; @nahdPyLb].
+Yet _the number of people that participated in writing_ those papers, as opposed to generating and analyzing the data, is not always clear and is likely to be far below the number of authors [@NGOit8L2; @nahdPyLb].
 Manubot provides the scientists involved in large collaborations the opportunity to actively participate, through a public forum, in the writing process.
 
 ## Discussion
@@ -552,14 +554,14 @@ GitHub is increasingly used for resource curation [@vf9t7xMG], and collaborative
 ### Limitations
 
 There are potential limitations of our GitHub-based approach.
-Because our review manuscript pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub.
+Because the Deep Review pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub.
 In other disciplines, collaborative writing via GitHub and Manubot could present a steeper barrier to entry and deter participants.
 In addition, Git carefully tracks all revisions to the manuscript text but not the surrounding conversations that take place through GitHub issues and pull requests.
 These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript's text.
 GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.
 
-In the Deep Review, we established [contributor guidelines](https://github.com/greenelab/deep-review/blob/v0.9-preprint/CONTRIBUTING.md) that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement.
-Our contributor guidelines required verifiable participation: either directly attributable changes to the text or participation in the discussion on GitHub.
+In the Deep Review, we established [contributor guidelines](https://github.com/greenelab/deep-review/blob/v1.0/CONTRIBUTING.md) that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement.
+Our contributor guidelines required verifiable participation for authorship: either directly attributable changes to the text or participation in the discussion on GitHub.
 These guidelines did not discuss broader community norms that may have improved inclusiveness.
 It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community [@zBl3qgGT].
 Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture [@NuDPNceu].
@@ -573,7 +575,7 @@ Science is undergoing a transition towards openness.
 The internet provides a global information commons, where scholarship can be publicly shared at a minimal cost.
 For example, open access publishing provides an economic model that encourages maximal dissemination and reuse of scholarly articles [@zBPP9YKu; @PuP45jrB; @HQfvK1OF].
 More broadly, open licensing solves legal barriers to content reuse, enabling any type of scholarly output to become part of the commons [@g6WVoxNy; @137tbemL9].
-The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bonafide privacy or security concerns [@gvyja7v1; @rgo1TZr; @1A97a4UwU].
+The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bona fide privacy or security concerns [@gvyja7v1; @rgo1TZr; @1A97a4UwU].
 New tools and services make it increasingly feasible to publicly share the unabridged methods of a study, especially for computational research, which consists solely of software and data.
 
 Greater openness in both research methods and publishing creates an opportunity to redefine peer review and the role journals play in communicating science [@52Q1v5nS].
@@ -618,7 +620,7 @@ The contributor then revises the proposed change to add a citation, after which 
 
 We would like to thank the authors of the Deep Review who helped us test collaborative writing with Manubot.
 The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz.
-In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Manubot template manuscript.
+In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Rootstock manuscript.
 We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Benjamin J. Heil, Zach Hensel, Alexandra J. Lee, YoSon Park, Achintya Rao, and other GitHub users.
 We thank John MacFarlane and Nikolay Yakimov for assistance with Pandoc and the global Binder team for advice on Binder.
 Finally, we thank C. Titus Brown and the other anonymous reviewers for their help improving this manuscript.
@@ -626,7 +628,7 @@ Finally, we thank C. Titus Brown and the other anonymous reviewers for their hel
 ## Funding
 
 DSH, DH, VR, and CSG were supported by [Grant G-2018-11163](https://sloan.org/grant-detail/8501) from the Alfred P. Sloan Foundation and [Grant GBMF4552](https://www.moore.org/grant-detail?grantId=GBMF4552) from the Gordon and Betty Moore Foundation.
-VSM was supported by [Grant RP150596](http://www.cprit.state.tx.us/files/funded-grants/RP150596.pdf) from the Cancer Prevention and Research Institute of Texas.
+VSM was supported by Grant RP150596 from the Cancer Prevention and Research Institute of Texas.
 
 ## References {.page_break_before}
 

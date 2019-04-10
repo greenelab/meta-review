@@ -139,7 +139,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "cffcfeaea0b6859051d16ab1e263d8bcf62a24b1"
+    "commit": "e95e3c9330a59d5f89e52cec8bdff947dc2e2ad4"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -167,6 +167,6 @@
       "wikidata": 1,
       "total": 93
     },
-    "word_count": 7519
+    "word_count": 7522
   }
 }
