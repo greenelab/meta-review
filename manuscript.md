@@ -1,13 +1,13 @@
 ---
 author-meta:
 - Daniel S. Himmelstein
-- David R. Slochower
-- Venkat S. Malladi
-- Dongbo Hu
 - Vincent Rubinetti
+- David R. Slochower
+- Dongbo Hu
+- Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-04-10'
+date-meta: '2019-04-11'
 keywords:
 - collaborative review
 - continuous integration
@@ -24,10 +24,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/57afd5cbcc5f8f4740b5f718d29768b3cf4dba11/))
+([permalink](https://greenelab.github.io/meta-review/v/7c56be5c2d68bfb39312011774a10e59dc25101c/))
 was automatically generated
-from [greenelab/meta-review@57afd5c](https://github.com/greenelab/meta-review/tree/57afd5cbcc5f8f4740b5f718d29768b3cf4dba11)
-on April 10, 2019.
+from [greenelab/meta-review@7c56be5](https://github.com/greenelab/meta-review/tree/7c56be5c2d68bfb39312011774a10e59dc25101c)
+on April 11, 2019.
 </em></small>
 
 ## Authors
@@ -45,6 +45,17 @@ on April 10, 2019.
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
++ **Vincent Rubinetti** <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0002-4655-3773](https://orcid.org/0000-0002-4655-3773)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [vincerubinetti](https://github.com/vincerubinetti)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [vincerubinetti](https://twitter.com/vincerubinetti)<br>
+  <small>
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+  </small>
+
 + **David R. Slochower** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-3928-5050](https://orcid.org/0000-0003-3928-5050)
@@ -54,17 +65,6 @@ on April 10, 2019.
     [drslochower](https://twitter.com/drslochower)<br>
   <small>
      Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
-  </small>
-
-+ **Venkat S. Malladi** <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-0144-0564](https://orcid.org/0000-0002-0144-0564)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [vsmalladi](https://github.com/vsmalladi)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [katatonikkat](https://twitter.com/katatonikkat)<br>
-  <small>
-     Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center
   </small>
 
 + **Dongbo Hu** <br>
@@ -78,15 +78,15 @@ on April 10, 2019.
      Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
   </small>
 
-+ **Vincent Rubinetti** <br>
++ **Venkat S. Malladi** <br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [0000-0002-4655-3773](https://orcid.org/0000-0002-4655-3773)
+    [0000-0002-0144-0564](https://orcid.org/0000-0002-0144-0564)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [vincerubinetti](https://github.com/vincerubinetti)
+    [vsmalladi](https://github.com/vsmalladi)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [vincerubinetti](https://twitter.com/vincerubinetti)<br>
+    [katatonikkat](https://twitter.com/katatonikkat)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+     Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center
   </small>
 
 + **Casey S. Greene** <br>

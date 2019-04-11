@@ -1,5 +1,5 @@
 {
-  "date": "April 10, 2019",
+  "date": "April 11, 2019",
   "authors": [
     {
       "github": "dhimmel",
@@ -13,6 +13,21 @@
       ],
       "funders": "G-2018-11163 and GBMF4552",
       "correspondence": true,
+      "affiliation_numbers": [
+        1
+      ]
+    },
+    {
+      "github": "vincerubinetti",
+      "name": "Vincent Rubinetti",
+      "initials": "VR",
+      "orcid": "0000-0002-4655-3773",
+      "twitter": "vincerubinetti",
+      "email": "vince.rubinetti@gmail.com",
+      "affiliations": [
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+      ],
+      "funders": "G-2018-11163 and GBMF4552",
       "affiliation_numbers": [
         1
       ]
@@ -32,23 +47,6 @@
       ]
     },
     {
-      "github": "vsmalladi",
-      "name": "Venkat S. Malladi",
-      "initials": "VSM",
-      "orcid": "0000-0002-0144-0564",
-      "twitter": "katatonikkat",
-      "email": "vsmalladi@gmail.com",
-      "affiliations": [
-        "Department of Bioinformatics, University of Texas Southwestern Medical Center",
-        "Bioinformatics Core Facility, University of Texas Southwestern Medical Center"
-      ],
-      "funders": "CPRIT RP150596",
-      "affiliation_numbers": [
-        3,
-        4
-      ]
-    },
-    {
       "github": "dongbohu",
       "name": "Dongbo Hu",
       "initials": "DH",
@@ -64,18 +62,20 @@
       ]
     },
     {
-      "github": "vincerubinetti",
-      "name": "Vincent Rubinetti",
-      "initials": "VR",
-      "orcid": "0000-0002-4655-3773",
-      "twitter": "vincerubinetti",
-      "email": "vince.rubinetti@gmail.com",
+      "github": "vsmalladi",
+      "name": "Venkat S. Malladi",
+      "initials": "VSM",
+      "orcid": "0000-0002-0144-0564",
+      "twitter": "katatonikkat",
+      "email": "vsmalladi@gmail.com",
       "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+        "Department of Bioinformatics, University of Texas Southwestern Medical Center",
+        "Bioinformatics Core Facility, University of Texas Southwestern Medical Center"
       ],
-      "funders": "G-2018-11163 and GBMF4552",
+      "funders": "CPRIT RP150596",
       "affiliation_numbers": [
-        1
+        3,
+        4
       ]
     },
     {
@@ -141,7 +141,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "57afd5cbcc5f8f4740b5f718d29768b3cf4dba11"
+    "commit": "7c56be5c2d68bfb39312011774a10e59dc25101c"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
