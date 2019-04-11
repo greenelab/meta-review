@@ -19,6 +19,16 @@ author_info:
     funders: G-2018-11163 and GBMF4552
     correspondence: true
   -
+    github: vincerubinetti
+    name: Vincent Rubinetti
+    initials: VR
+    orcid: 0000-0002-4655-3773
+    twitter: vincerubinetti
+    email: vince.rubinetti@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+    funders: G-2018-11163 and GBMF4552
+  -
     github: slochower
     name: David R. Slochower
     initials: DRS
@@ -27,17 +37,6 @@ author_info:
     email: slochower@gmail.com
     affiliations:
       - Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
-  -
-    github: vsmalladi
-    name: Venkat S. Malladi
-    initials: VSM
-    orcid: 0000-0002-0144-0564
-    twitter: katatonikkat
-    email: vsmalladi@gmail.com
-    affiliations:
-      - Department of Bioinformatics, University of Texas Southwestern Medical Center
-      - Bioinformatics Core Facility, University of Texas Southwestern Medical Center
-    funders: CPRIT RP150596
   -
     github: dongbohu
     name: Dongbo Hu
@@ -49,15 +48,16 @@ author_info:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: G-2018-11163 and GBMF4552
   -
-    github: vincerubinetti
-    name: Vincent Rubinetti
-    initials: VR
-    orcid: 0000-0002-4655-3773
-    twitter: vincerubinetti
-    email: vince.rubinetti@gmail.com
+    github: vsmalladi
+    name: Venkat S. Malladi
+    initials: VSM
+    orcid: 0000-0002-0144-0564
+    twitter: katatonikkat
+    email: vsmalladi@gmail.com
     affiliations:
-      - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
-    funders: G-2018-11163 and GBMF4552
+      - Department of Bioinformatics, University of Texas Southwestern Medical Center
+      - Bioinformatics Core Facility, University of Texas Southwestern Medical Center
+    funders: CPRIT RP150596
   -
     github: cgreene
     name: Casey S. Greene
