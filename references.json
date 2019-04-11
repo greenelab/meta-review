@@ -27424,7 +27424,7 @@
   },
   {
     "type": "article",
-    "id": "qJpcAhnQ",
+    "id": "LaBVNb71",
     "categories": [
       "Computer Software",
       "Library and Information Studies",
@@ -27435,6 +27435,10 @@
       {
         "family": "Slochower",
         "given": "David"
+      },
+      {
+        "family": "Himmelstein",
+        "given": "Daniel"
       }
     ],
     "issued": {
@@ -27444,11 +27448,11 @@
         ]
       ]
     },
-    "abstract": "An example of how to edit a manuscript using the open source package Manubot (https://github.com/manubot/manubot), the manuscript bot for automated scholarly publishing.<br>",
-    "DOI": "10.6084/m9.figshare.7946192.v1",
+    "abstract": "The screen recording shows how to edit a manuscript via GitHub using Manubot. Manubot is the the manuscript bot for automated scholarly publishing. It is an open source software project for writing scholarly documents using GitHub. Learn more at https://manubot.org.This screen recording is used as a supporting data video for the manuscript describing Manubot at https://greenelab.github.io/meta-review/.This latest version of this Figshare item is available at https://doi.org/10.6084/m9.figshare.7946192 or shortened to https://doi.org/c4fz.",
+    "DOI": "10.6084/m9.figshare.7946192.v2",
     "publisher": "Figshare",
-    "title": "Editing with Manubot",
-    "URL": "https://doi.org/gfx2d3"
+    "title": "How to edit a manuscript on GitHub with Manubot",
+    "URL": "https://doi.org/gfzb6b"
   },
   {
     "publisher": "Korean Council of Science Editors",
@@ -28377,7 +28381,7 @@
     "title": "Code of conduct evaluations",
     "container-title": "Geek Feminism Wiki",
     "abstract": "A code of conduct is a document which sets out expectations for members of a community, with regard to how they will behave toward each other. Contents[show] Effective codes of conduct Important elements of an effective code of conduct include: Specific descriptions of common but unacceptable behavior (sexist jokes, etc.) Reporting instructions with contact information Information about how it may be enforced A clear demarcation between unacceptable behaviour (which may be reported per the...",
-    "URL": "http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations",
+    "URL": "https://geekfeminism.wikia.org/wiki/Code_of_conduct_evaluations",
     "language": "en",
     "accessed": {
       "date-parts": [

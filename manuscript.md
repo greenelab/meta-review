@@ -24,9 +24,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/7c56be5c2d68bfb39312011774a10e59dc25101c/))
+([permalink](https://greenelab.github.io/meta-review/v/3b83c5e617fa91324d5a32513fdcb71d536bed36/))
 was automatically generated
-from [greenelab/meta-review@7c56be5](https://github.com/greenelab/meta-review/tree/7c56be5c2d68bfb39312011774a10e59dc25101c)
+from [greenelab/meta-review@3b83c5e](https://github.com/greenelab/meta-review/tree/3b83c5e617fa91324d5a32513fdcb71d536bed36)
 on April 11, 2019.
 </em></small>
 
@@ -616,7 +616,7 @@ Source code for Manubot resides in the following repositories:
 </video>
 **S1 Video: Editing a manuscript on GitHub.**
 This screen recording demonstrates how to propose edits to a Manubot manuscript via GitHub.
-In the video [@qJpcAhnQ], a contributor creates a [pull request](https://github.com/manubot/try-manubot/pull/2) to add a sentence to the try-manubot manuscript.
+In the video [@LaBVNb71], a contributor creates a [pull request](https://github.com/manubot/try-manubot/pull/2) to add a sentence to the try-manubot manuscript.
 The contributor then revises the proposed change to add a citation, after which it is accepted, merged, and automatically deployed.
 </p>
 
