@@ -29,6 +29,7 @@ We thank the reviewer for pointing out that that original organization was confu
 The intention of the section previously titled `Contribution workflow` is to present the overall philosophy of collaborative writing with Manubot before diving into specific Manubot features that enable this writing process.
 Deep Review is used as to provide specific examples of the collaborative process.
 We restructured this section, now named `Manubot contribution workflow`, and generalized it in [GH183](https://github.com/greenelab/meta-review/pull/183) and discussed the changes in [GH129](https://github.com/greenelab/meta-review/pull/129).
+Furthermore, the revised abstract from [GH211](https://github.com/greenelab/meta-review/pull/211) now more accurately frames the relationship between Manubot and the Deep Review in the context of this article's scope.
 
 ## Reviewer 2
 
@@ -223,7 +224,8 @@ from reading the manuscript, it is clear that fairness means fairness in contrib
 I am somewhat unclear on what `ensure correctness` means in the abstract.
 
 This interpretation of fairness is correct, and correctness was intended to link with the continuous integration text in the manuscript.
-To make this more explicit, we updated the abstract in [GH153](https://github.com/greenelab/meta-review/pull/153) and discussed this in [GH115](https://github.com/greenelab/meta-review/issues/115).
+To make this more explicit, we updated the abstract in [GH153](https://github.com/greenelab/meta-review/pull/153) and [GH211](https://github.com/greenelab/meta-review/pull/211).
+The issue for this feedback is [GH115](https://github.com/greenelab/meta-review/issues/115).
 
 > footnote placement in rendered manuscript should be left-adjusted.
 in the PDF I have in front of me, the footnotes at end of sentences are not left-flush with the period.
