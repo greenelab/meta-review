@@ -13,11 +13,9 @@ A Zotero translation-server and other citation processing updates enabled suppor
 A new public demo manuscript called [`try-manubot`](https://github.com/manubot/try-manubot) allows interested users to experiment with Manubot and pull requests without having to configure their own manuscript.
 Details of these and other updates are provided in the Manubot [release notes](https://github.com/manubot/manubot/releases).
 
-Finally, we have created several views of the changes between the initial and revised submission.
+Finally, we have created several views of the changes between the initial and revised submission (more details in [GH198](https://github.com/greenelab/meta-review/issues/198) and [GH200](https://github.com/greenelab/meta-review/pull/200)).
 The changes to the manuscript's source can be [viewed on GitHub](https://github.com/greenelab/meta-review/compare/v2.0...v3.0).
-
-TODO: link to pandiff or other diff like
-https://htmlpreview.github.io/?https://github.com/greenelab/meta-review/blob/04680cfd9da8c9d70b1032afb04578c00f695edc/plos-comp-bio/diff/pandiff/pandiff-from-md.html
+In terms of rendered diffs, we created a more experimental diff using `pandiff` (view as [PDF](https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff/pandiff/pandiff-from-md.pdf) or [HTML page](https://htmlpreview.github.io/?https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff/pandiff/pandiff-from-md.html)) and a more stable diff using Microsoft Word's compare changes feature ([view as PDF](https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff/diff-from-docx.pdf)).
 
 Sincerely,  
 Anthony Gitter & Daniel Himmelstein
