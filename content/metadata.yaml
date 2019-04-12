@@ -26,6 +26,21 @@ author_info:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: G-2018-11163 and GBMF4552
     correspondence: true
+    roles:
+      - Conceptualization: true
+      - Data curation: true
+      - Formal analysis: false
+      - Funding acquisition: true
+      - Investigation: true
+      - Methodology: true
+      - Project administration: true
+      - Resources: false
+      - Software: true
+      - Supervision: true
+      - Validation: true
+      - Visualization: true
+      - Writing – original draft: true
+      - Writing – review & editing: true
   -
     github: vincerubinetti
     name: Vincent Rubinetti
@@ -36,6 +51,21 @@ author_info:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: G-2018-11163 and GBMF4552
+    roles:
+      - Conceptualization: true
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: true
+      - Project administration: false
+      - Resources: false
+      - Software: true
+      - Supervision: false
+      - Validation: false
+      - Visualization: true
+      - Writing – original draft: true
+      - Writing – review & editing: true
   -
     github: slochower
     name: David R. Slochower
@@ -45,6 +75,21 @@ author_info:
     email: slochower@gmail.com
     affiliations:
       - Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
+    roles:
+      - Conceptualization: true
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: true
+      - Methodology: true
+      - Project administration: false
+      - Resources: false
+      - Software: true
+      - Supervision: false
+      - Validation: false
+      - Visualization: true
+      - Writing – original draft: true
+      - Writing – review & editing: true
   -
     github: dongbohu
     name: Dongbo Hu
@@ -55,6 +100,21 @@ author_info:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: G-2018-11163 and GBMF4552
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: true
+      - Supervision: false
+      - Validation: false
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: false
   -
     github: vsmalladi
     name: Venkat S. Malladi
@@ -66,6 +126,21 @@ author_info:
       - Department of Bioinformatics, University of Texas Southwestern Medical Center
       - Bioinformatics Core Facility, University of Texas Southwestern Medical Center
     funders: CPRIT RP150596
+    roles:
+      - Conceptualization: false
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: false
+      - Investigation: false
+      - Methodology: false
+      - Project administration: false
+      - Resources: false
+      - Software: true
+      - Supervision: false
+      - Validation: true
+      - Visualization: false
+      - Writing – original draft: false
+      - Writing – review & editing: false
   -
     github: cgreene
     name: Casey S. Greene
@@ -76,6 +151,21 @@ author_info:
     affiliations:
       - Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
     funders: G-2018-11163 and GBMF4552
+    roles:
+      - Conceptualization: true
+      - Data curation: false
+      - Formal analysis: false
+      - Funding acquisition: true
+      - Investigation: false
+      - Methodology: true
+      - Project administration: true
+      - Resources: true
+      - Software: false
+      - Supervision: true
+      - Validation: false
+      - Visualization: true
+      - Writing – original draft: true
+      - Writing – review & editing: true
   -
     github: agitter
     name: Anthony Gitter
@@ -87,3 +177,19 @@ author_info:
       - Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison
       - Morgridge Institute for Research
     correspondence: true
+    roles:
+      - Conceptualization: true
+      - Data curation: true
+      - Formal analysis: true
+      - Funding acquisition: false
+      - Investigation: true
+      - Methodology: true
+      - Project administration: true
+      - Resources: false
+      - Software: true
+      - Supervision: true
+      - Validation: true
+      - Visualization: true
+      - Writing – original draft: true
+      - Writing – review & editing: true
+
