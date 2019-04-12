@@ -29,6 +29,7 @@ We thank the reviewer for pointing out that that original organization was confu
 The intention of the section previously titled `Contribution workflow` is to present the overall philosophy of collaborative writing with Manubot before diving into specific Manubot features that enable this writing process.
 Deep Review is used as to provide specific examples of the collaborative process.
 We restructured this section, now named `Manubot contribution workflow`, and generalized it in [GH183](https://github.com/greenelab/meta-review/pull/183) and discussed the changes in [GH129](https://github.com/greenelab/meta-review/pull/129).
+Furthermore, the revised abstract from [GH211](https://github.com/greenelab/meta-review/pull/211) now focuses primarily on Manubot, hopefully providing readers with a more accurate representation the content of the manuscript.
 
 ## Reviewer 2
 
@@ -130,6 +131,7 @@ We discussed this issue in [GH139](https://github.com/greenelab/meta-review/issu
 It is possible to use issues to coordinate peer review, as [Reviewer 3 did](https://github.com/greenelab/meta-review/issues/124) for this manuscript.
 We updated the manuscript to present this possibility for open peer review.
 Anonymous journal peer review requires an editor to post the reviewers' comments.
+As an example, see Distill's [**@distillpub-reviewers**](https://github.com/distillpub-reviewers) bot GitHub account, which is used to post anonymous reviews.
 We discussed this in [GH140](https://github.com/greenelab/meta-review/issues/140) and edited the manuscript in [GH193](https://github.com/greenelab/meta-review/pull/193).
 
 > Could you elaborate a bit on the potential limitations of the markdown language?
@@ -223,7 +225,8 @@ from reading the manuscript, it is clear that fairness means fairness in contrib
 I am somewhat unclear on what `ensure correctness` means in the abstract.
 
 This interpretation of fairness is correct, and correctness was intended to link with the continuous integration text in the manuscript.
-To make this more explicit, we updated the abstract in [GH153](https://github.com/greenelab/meta-review/pull/153) and discussed this in [GH115](https://github.com/greenelab/meta-review/issues/115).
+To make this more explicit, we updated the abstract in [GH153](https://github.com/greenelab/meta-review/pull/153) and [GH211](https://github.com/greenelab/meta-review/pull/211).
+The issue for this feedback is [GH115](https://github.com/greenelab/meta-review/issues/115).
 
 > footnote placement in rendered manuscript should be left-adjusted.
 in the PDF I have in front of me, the footnotes at end of sentences are not left-flush with the period.
