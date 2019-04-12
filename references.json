@@ -22157,6 +22157,39 @@
     "id": "g6WVoxNy"
   },
   {
+    "publisher": "IEEE",
+    "DOI": "10.1109/saner.2017.7884606",
+    "type": "paper-conference",
+    "source": "Crossref",
+    "title": "Code of conduct in open source projects",
+    "author": [
+      {
+        "given": "Parastou",
+        "family": "Tourani"
+      },
+      {
+        "given": "Bram",
+        "family": "Adams"
+      },
+      {
+        "given": "Alexander",
+        "family": "Serebrenik"
+      }
+    ],
+    "event": "2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "container-title": "2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfzbs6",
+    "id": "bY9cHRxB"
+  },
+  {
     "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
     "issue": "1",
     "DOI": "10.1109/tvcg.2016.2599030",
@@ -23010,14 +23043,8 @@
     "type": "entry"
   },
   {
-    "publisher": "Genetics Society of America",
-    "issue": "5",
-    "DOI": "10.1534/g3.114.015966",
     "type": "article-journal",
-    "page": "719-740",
-    "source": "Crossref",
     "title": "Drosophila Muller F Elements Maintain a Distinct Set of Genomic Properties Over 40 Million Years of Evolution",
-    "volume": "5",
     "author": [
       {
         "given": "Wilson",
@@ -27077,7 +27104,13 @@
         "family": "Elgin"
       }
     ],
-    "container-title": "G3&amp;#58; Genes|Genomes|Genetics",
+    "container-title": "G3: Genes|Genomes|Genetics",
+    "container-title-short": "G3",
+    "issue": "5",
+    "volume": "5",
+    "page": "719-740",
+    "publisher": "Genetics Society of America",
+    "source": "Crossref",
     "language": "en",
     "issued": {
       "date-parts": [
@@ -27089,7 +27122,7 @@
       ]
     },
     "URL": "https://doi.org/gfw5vf",
-    "container-title-short": "G3",
+    "DOI": "10.1534/g3.114.015966",
     "PMCID": "PMC4426361",
     "PMID": "25740935",
     "id": "Szy8sdWq"
@@ -28378,24 +28411,6 @@
   },
   {
     "type": "webpage",
-    "title": "Code of conduct evaluations",
-    "container-title": "Geek Feminism Wiki",
-    "abstract": "A code of conduct is a document which sets out expectations for members of a community, with regard to how they will behave toward each other. Contents[show] Effective codes of conduct Important elements of an effective code of conduct include: Specific descriptions of common but unacceptable behavior (sexist jokes, etc.) Reporting instructions with contact information Information about how it may be enforced A clear demarcation between unacceptable behaviour (which may be reported per the...",
-    "URL": "https://geekfeminism.wikia.org/wiki/Code_of_conduct_evaluations",
-    "language": "en",
-    "accessed": {
-      "date-parts": [
-        [
-          "2019",
-          4,
-          12
-        ]
-      ]
-    },
-    "id": "HPKoE9m3"
-  },
-  {
-    "type": "webpage",
     "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
     "URL": "https://git.dhimmel.com/bitcoin-whitepaper/",
     "shortTitle": "Bitcoin",
@@ -28426,15 +28441,31 @@
     "id": "6yyYojgV"
   },
   {
-    "type": "webpage",
+    "type": "post-weblog",
     "title": "Revisiting authorship, and JOSS software publications",
     "URL": "http://ivory.idyll.org/blog/2019-authorship-revisiting.html",
+    "author": [
+      {
+        "given": "C. Titus",
+        "family": "Brown"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          1,
+          16
+        ]
+      ]
+    },
+    "container-title": "Living in an Ivory Basement",
     "accessed": {
       "date-parts": [
         [
-          "2019",
+          2019,
           4,
-          12
+          11
         ]
       ]
     },
@@ -28541,9 +28572,10 @@
     "id": "aAKJEII"
   },
   {
-    "type": "webpage",
+    "type": "post-weblog",
     "URL": "https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online",
     "title": "eLife supports development of open technology stack for publishing reproducible manuscripts online",
+    "container-title": "eLife Press Pack",
     "author": [
       {
         "given": "Emily",
@@ -28562,16 +28594,29 @@
     "id": "sWD9uVuF"
   },
   {
-    "type": "webpage",
+    "type": "post-weblog",
     "title": "Introducing eLife’s first computationally reproducible article",
-    "container-title": "eLife",
-    "abstract": "Blending the traditional manuscript with live code, data and interactive figures, we showcase a new way for researchers to tell their full story.",
+    "container-title": "eLife Labs",
     "URL": "https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article",
     "language": "en",
+    "author": [
+      {
+        "given": "Giuliano",
+        "family": "Maciocci"
+      },
+      {
+        "given": "Michael",
+        "family": "Aufreiter"
+      },
+      {
+        "given": "Nokome",
+        "family": "Bentley"
+      }
+    ],
     "issued": {
       "date-parts": [
         [
-          "2019",
+          2019,
           2,
           20
         ]
@@ -28580,9 +28625,9 @@
     "accessed": {
       "date-parts": [
         [
-          "2019",
+          2019,
           4,
-          12
+          11
         ]
       ]
     },
@@ -28791,16 +28836,31 @@
     "id": "opQBBK06"
   },
   {
-    "type": "webpage",
+    "type": "post-weblog",
     "title": "OpenTimestamps: Scalable, Trust-Minimized, Distributed Timestamping with Bitcoin",
-    "abstract": "I’ve spent the past few weeks working on1 an old2 project of mine,OpenTimestamps, and it’s ready for a public alpha release. It’s timestampinginfrastructure ...",
     "URL": "https://petertodd.org/2016/opentimestamps-announcement",
+    "author": [
+      {
+        "given": "Peter",
+        "family": "Todd"
+      }
+    ],
+    "container-title": "Peter Todd",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          15
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2019",
+          2019,
           4,
-          12
+          11
         ]
       ]
     },
@@ -28808,38 +28868,35 @@
   },
   {
     "type": "post-weblog",
-    "title": "Proof of prespecified endpoints in medical research with the bitcoin blockchain – The Grey Literature",
+    "title": "Proof of prespecified endpoints in medical research with the bitcoin blockchain",
     "URL": "https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/",
+    "container-title": "The Grey Literature",
     "language": "en-US",
+    "author": [
+      {
+        "given": "Benjamin Gregory",
+        "family": "Carlisle"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          8,
+          25
+        ]
+      ]
+    },
     "accessed": {
       "date-parts": [
         [
-          "2019",
+          2019,
           4,
-          12
+          11
         ]
       ]
     },
     "id": "6MR50hyY"
-  },
-  {
-    "type": "webpage",
-    "URL": "https://www.contributor-covenant.org/",
-    "title": "Contributor Covenant: A Code of Conduct for Open Source Projects",
-    "issued": {
-      "date-parts": [
-        [
-          2014
-        ]
-      ]
-    },
-    "author": [
-      {
-        "family": "Ehmke",
-        "given": "Coraline Ada"
-      }
-    ],
-    "id": "aRZRiJPk"
   },
   {
     "type": "report",

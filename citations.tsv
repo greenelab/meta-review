@@ -27,6 +27,7 @@ string	citation	standard_citation	citation_id
 @doi:10.1103/PhysRevLett.114.191803	doi:10.1103/PhysRevLett.114.191803	doi:10.1103/physrevlett.114.191803	15YfJWkEd
 @doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	doi:10.1109/hicss.2007.277	NuDPNceu
 @doi:10.1109/MCSE.2009.19	doi:10.1109/MCSE.2009.19	doi:10.1109/mcse.2009.19	g6WVoxNy
+@doi:10.1109/SANER.2017.7884606	doi:10.1109/SANER.2017.7884606	doi:10.1109/saner.2017.7884606	bY9cHRxB
 @doi:10.1109/TVCG.2016.2599030	doi:10.1109/TVCG.2016.2599030	doi:10.1109/tvcg.2016.2599030	nyZChH5b
 @doi:10.1126/science.aah6168	doi:10.1126/science.aah6168	doi:10.1126/science.aah6168	gvyja7v1
 @doi:10.1126/science.aat0471	doi:10.1126/science.aat0471	doi:10.1126/science.aat0471	82ZjWq3i
@@ -73,7 +74,6 @@ string	citation	standard_citation	citation_id
 @tag:techblog-csl	url:http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/	url:http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/	w4n6Qtun
 @tag:techblog-brown	url:http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future	url:http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future	ILhLpgTs
 @tag:techblog-manubot	url:http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/	url:http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/	16CgM2x0z
-@url:http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid	url:http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid	url:http://geekfeminism.wikia.com/wiki/Code_of_conduct_evaluations?oldid	HPKoE9m3
 @url:http://git.dhimmel.com/bitcoin-whitepaper/	url:http://git.dhimmel.com/bitcoin-whitepaper/	url:http://git.dhimmel.com/bitcoin-whitepaper/	6yyYojgV
 @url:http://ivory.idyll.org/blog/2019-authorship-revisiting.html	url:http://ivory.idyll.org/blog/2019-authorship-revisiting.html	url:http://ivory.idyll.org/blog/2019-authorship-revisiting.html	e2rpsIbt
 @url:http://math.andrej.com/2013/06/20/the-hott-book/	url:http://math.andrej.com/2013/06/20/the-hott-book/	url:http://math.andrej.com/2013/06/20/the-hott-book/	MhC1nPDK
@@ -90,6 +90,5 @@ string	citation	standard_citation	citation_id
 @url:https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2	url:https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2	url:https://medium.com/towards-data-science/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2	opQBBK06
 @url:https://petertodd.org/2016/opentimestamps-announcement	url:https://petertodd.org/2016/opentimestamps-announcement	url:https://petertodd.org/2016/opentimestamps-announcement	1DG704X8Q
 @url:https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/	url:https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/	url:https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/	6MR50hyY
-@url:https://www.contributor-covenant.org/	url:https://www.contributor-covenant.org/	url:https://www.contributor-covenant.org/	aRZRiJPk
 @url:https://www.niso.org/publications/z3996-2019-jats	url:https://www.niso.org/publications/z3996-2019-jats	url:https://www.niso.org/publications/z3996-2019-jats	LHrRxRb0
 @wikidata:Q56458321	wikidata:Q56458321	wikidata:Q56458321	QhC8yJ7V
