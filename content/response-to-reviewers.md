@@ -29,7 +29,7 @@ We thank the reviewer for pointing out that that original organization was confu
 The intention of the section previously titled `Contribution workflow` is to present the overall philosophy of collaborative writing with Manubot before diving into specific Manubot features that enable this writing process.
 Deep Review is used as to provide specific examples of the collaborative process.
 We restructured this section, now named `Manubot contribution workflow`, and generalized it in [GH183](https://github.com/greenelab/meta-review/pull/183) and discussed the changes in [GH129](https://github.com/greenelab/meta-review/pull/129).
-Furthermore, the revised abstract from [GH211](https://github.com/greenelab/meta-review/pull/211) now more accurately frames the relationship between Manubot and the Deep Review in the context of this article's scope.
+Furthermore, the revised abstract from [GH211](https://github.com/greenelab/meta-review/pull/211) now focuses primarily on Manubot, hopefully providing readers with a more accurate representation the content of the manuscript.
 
 ## Reviewer 2
 
