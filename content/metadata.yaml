@@ -180,7 +180,7 @@ author_info:
     roles:
       - Conceptualization: true
       - Data curation: true
-      - Formal analysis: true
+      - Formal analysis: false
       - Funding acquisition: false
       - Investigation: true
       - Methodology: true
