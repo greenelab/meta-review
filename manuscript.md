@@ -32,9 +32,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/418e636300a82cc92eb226fb137aac9b8bdd23bc/))
+([permalink](https://greenelab.github.io/meta-review/v/879971180dfd0f4cb654b05144fe15e4043d22c1/))
 was automatically generated
-from [greenelab/meta-review@418e636](https://github.com/greenelab/meta-review/tree/418e636300a82cc92eb226fb137aac9b8bdd23bc)
+from [greenelab/meta-review@8799711](https://github.com/greenelab/meta-review/tree/879971180dfd0f4cb654b05144fe15e4043d22c1)
 on April 12, 2019.
 </em></small>
 
