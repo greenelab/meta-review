@@ -48,13 +48,13 @@ cat ../../build/themes/default.html >> pandiff/pandiff-from-md.html
 cat pandiff/pandiff-theme.html >> pandiff/pandiff-from-md.html
 
 docker run \
---rm \
---volume `pwd`/pandiff:/converted/ \
---security-opt seccomp:unconfined \
-arachnysdocker/athenapdf:2.16.0 \
-athenapdf \
---delay=2000 \
-pandiff-from-md.html pandiff-from-md.pdf
+  --rm \
+  --volume `pwd`/pandiff:/converted/ \
+  --security-opt seccomp:unconfined \
+  arachnysdocker/athenapdf:2.16.0 \
+  athenapdf \
+  --delay=2000 \
+  pandiff-from-md.html pandiff-from-md.pdf
 
 
 ## Diff from manuscript.html
@@ -69,11 +69,11 @@ pandiff \
 #cat pandiff/pandiff-theme.html >> pandiff/pandiff-from-html.pdf
 
 docker run \
---rm \
---volume `pwd`/pandiff:/converted/ \
---security-opt seccomp:unconfined \
-arachnysdocker/athenapdf:2.16.0 \
-athenapdf \
---delay=2000 \
-pandiff-from-html.html pandiff-from-html.pdf
+  --rm \
+  --volume `pwd`/pandiff:/converted/ \
+  --security-opt seccomp:unconfined \
+  arachnysdocker/athenapdf:2.16.0 \
+  athenapdf \
+  --delay=2000 \
+  pandiff-from-html.html pandiff-from-html.pdf
 ```
