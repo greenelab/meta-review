@@ -1,4 +1,4 @@
-# Track changes between _PLOS Computational Biology_ Submissions
+# Track changes between _PLOS Computational Biology_ submissions
 
 Script to download files to compare:
 
