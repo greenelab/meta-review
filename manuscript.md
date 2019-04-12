@@ -32,9 +32,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/879971180dfd0f4cb654b05144fe15e4043d22c1/))
+([permalink](https://greenelab.github.io/meta-review/v/5c6a68a721a9866ea2baa7d82ccb0d0e05986acd/))
 was automatically generated
-from [greenelab/meta-review@8799711](https://github.com/greenelab/meta-review/tree/879971180dfd0f4cb654b05144fe15e4043d22c1)
+from [greenelab/meta-review@5c6a68a](https://github.com/greenelab/meta-review/tree/5c6a68a721a9866ea2baa7d82ccb0d0e05986acd)
 on April 12, 2019.
 </em></small>
 
@@ -380,7 +380,8 @@ The plugins use standard technology built in to most major web browsers, allowin
 
 ### Continuous publication
 
-Manubot performs continuous publication: every update to a manuscript's source is automatically reflected in the online outputs.
+Manubot performs continuous publication:
+Every update to a manuscript's source is automatically reflected in the online outputs.
 The approach uses continuous integration (CI) [@18w6XKsQO; @Qh7xTLwz; @lXvpQxeN], specifically via [Travis CI](https://travis-ci.org/), to monitor changes.
 When changes occur, the CI service attempts to generate an updated manuscript.
 If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository.
@@ -440,7 +441,7 @@ The [Sci-Hub Coverage Study](https://github.com/greenelab/scihub-manuscript) ---
 Sci-Hub [reviewed](https://github.com/greenelab/scihub-manuscript/issues/17) the initial preprint from this study in a series of tweets, pointing out a major error in one of the analyses.
 Within hours, the authors used Markdown's strikethrough formatting in Manubot to cross-out the errant sentences ([commit](https://github.com/greenelab/scihub-manuscript/commit/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba), [versioned manuscript](https://greenelab.github.io/scihub-manuscript/v/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba/)), thereby alerting readers to the mistake and preventing further propagation of misinformation.
 One month later, a larger [set of revisions](https://github.com/greenelab/scihub-manuscript/pull/19) explained the error in more detail and was included in a second version of the preprint.
-As such, continuous publishing via Manubot helped the authors address the error without delay, while retaining a public version history of the process.
+As such, continuous publication via Manubot helped the authors address the error without delay, while retaining a public version history of the process.
 This Sci-Hub Coverage Study preprint was the [most viewed](http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/) 2017 _PeerJ Preprint_, while the Deep Review was the most viewed 2017 _bioRxiv_ preprint [@9IrsqXRa].
 Hence, in Manubot's first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.
 
@@ -523,8 +524,8 @@ Given the same author contributions, it always produced the same ordered author 
 We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category.
 The Deep Review author ordering procedure illustrates authorship possibilities when all contributions are publicly tracked and recorded that would be difficult with a traditional collaborative writing platform.
 
-Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [@15YfJWkEd] (5000 authors) and the report of the Drosophila genome [@Szy8sdWq] (1000 authors).
-Yet _the number of people that participated in writing_ those papers, as opposed to generating and analyzing the data, is not always clear and is likely to be far below the number of authors [@NGOit8L2; @nahdPyLb].
+Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [@15YfJWkEd] (5000 authors) and the report of the _Drosophila_ genome [@Szy8sdWq] (1000 authors).
+Yet the number of people that participated in writing those papers, as opposed to generating and analyzing the data, is not always clear and is likely to be far below the number of authors [@NGOit8L2; @nahdPyLb].
 Manubot provides the scientists involved in large collaborations the opportunity to actively participate, through a public forum, in the writing process.
 
 ## Discussion
@@ -560,7 +561,7 @@ Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
 Bookdown [@1BISa1RLr] and Pandoc Scholar [@17wKkS4DV] both extend traditional Markdown to better support publishing.
-Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and Continuous Publishing [@nqeDrtsc], which was used to produce the book Opening Science [@ujrfOBM1].
+Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and [jekyll-travis](https://github.com/mfenner/jekyll-travis), which was used to produce a [continuously published webpage](http://book.openingscience.org/) for the Opening Science book [@nqeDrtsc; @ujrfOBM1].
 Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM; @KLKZcPlg] support manuscripts with interactive graphics and close integration with the underlying code.
 As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
 
