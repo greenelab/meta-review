@@ -15,8 +15,8 @@ Details of these and other updates are provided in the Manubot [release notes](h
 
 Finally, we have created several views of the changes between the initial and revised submission (more details in [GH198](https://github.com/greenelab/meta-review/issues/198) and [GH200](https://github.com/greenelab/meta-review/pull/200)).
 The changes to the manuscript's source can be [viewed on GitHub](https://github.com/greenelab/meta-review/compare/v2.0...v3.0).
-In terms of rendered diffs, we used Microsoft Word's "Compare Documents" feature to create [this diff](https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff/diff-from-docx.pdf).
-We also tried the more experimental `pandiff` program, although these diffs do have major imperfections: view as [PDF](https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff/pandiff/pandiff-from-md.pdf) or as [HTML](https://htmlpreview.github.io/?https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff/pandiff/pandiff-from-md.html)).
+In terms of rendered diffs, we used Microsoft Word's "Compare Documents" feature to create [this diff](https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff-v3.0/diff-from-docx.pdf).
+We also tried the more experimental `pandiff` program, although these diffs do have major imperfections: view as [PDF](https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff-v3.0/pandiff/pandiff-from-md.pdf) or as [HTML](https://htmlpreview.github.io/?https://github.com/greenelab/meta-review/blob/v3.0/plos-comp-bio/diff-v3.0/pandiff/pandiff-from-md.html)).
 
 Sincerely,  
 Anthony Gitter & Daniel Himmelstein
