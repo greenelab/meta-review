@@ -7,7 +7,7 @@ Script to download files to compare:
 
 # Output branch commit hashes
 OLD_COMMIT=937c297c6deed1126f4ef7322e3830f406e3df81
-NEW_COMMIT=62bb232583d075b95e0130aa39d2d66e3e67f049
+NEW_COMMIT=8be2fc76ebf2d7bbe45ed3e4bd145b8aba62c8e5
 
 # old markdown
 wget --quiet --timestamping --directory-prefix=old \
