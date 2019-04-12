@@ -1,0 +1,30 @@
+<style>
+/*
+Style to display ins del tags created by pandiff. Derived from (MIT Licensed):
+https://github.com/davidar/pandiff/blob/da172a8cd58f7e647bc53b71eeac1ae503b71af8/pandiff.css
+*/
+
+del {
+  color: #b31d28;
+  background-color: #ffeef0;
+}
+
+ins {
+  color: #22863a;
+  background-color: #f0fff4;
+}
+
+del + ins {
+  color: #e36209;
+  background-color: #ffebda;
+}
+
+/* Adjustments for compact, centered figures */
+img {
+  max-width: 50% !important;
+}
+p > ins > img {
+  margin: 0 auto;
+  display: block;
+}
+</style>
