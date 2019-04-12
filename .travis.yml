@@ -1,9 +1,13 @@
 dist: trusty
 sudo: false
 language: generic
+services:
+  - docker
 branches:
   only:
     - master
+env:
+  - BUILD_DOCX=true
 before_install:
   - wget https://repo.continuum.io/miniconda/Miniconda3-4.5.12-Linux-x86_64.sh
     --output-document miniconda.sh
