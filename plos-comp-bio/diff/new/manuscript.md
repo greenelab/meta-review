@@ -9,10 +9,18 @@ author-meta:
 - Anthony Gitter
 date-meta: '2019-04-12'
 keywords:
-- collaborative review
-- continuous integration
+- manubot
+- deep review
 - publishing
-- Manubot
+- open science
+- open access
+- collaboration
+- writing
+- github
+- git
+- continuous integration
+- markdown
+- pandoc
 lang: en-US
 title: Open collaborative writing with Manubot
 ...
@@ -24,9 +32,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/a5dc2b6d57c3c7a36ba05822b13b0ceab8f469b4/))
+([permalink](https://greenelab.github.io/meta-review/v/879971180dfd0f4cb654b05144fe15e4043d22c1/))
 was automatically generated
-from [greenelab/meta-review@a5dc2b6](https://github.com/greenelab/meta-review/tree/a5dc2b6d57c3c7a36ba05822b13b0ceab8f469b4)
+from [greenelab/meta-review@8799711](https://github.com/greenelab/meta-review/tree/879971180dfd0f4cb654b05144fe15e4043d22c1)
 on April 12, 2019.
 </em></small>
 
@@ -122,9 +130,15 @@ Otherwise, address correspondence to <gitter@biostat.wisc.edu> and <daniel.himme
 
 Open, collaborative research is a powerful paradigm that can immensely strengthen the scientific process by integrating broad and diverse expertise.
 However, traditional research and multi-author writing processes break down at scale.
-New tools and workflows that rely on automation can catch errors and ensure that contributions are fairly tracked in massively collaborative research.
-We present techniques for overcoming challenges of open research, with special emphasis on manuscript writing.
-These include approaches for managing distributed authors and our new software, named Manubot, for automating citation and many other aspects of manuscript building.
+We present new software named Manubot, available at <https://manubot.org>, to address the challenges of open scholarly writing.
+Manubot adopts the contribution workflow used by many large-scale open source software projects to enable collaborative authoring of scholarly manuscripts.
+With Manubot, manuscripts are written in Markdown and stored in a Git repository to precisely track changes over time.
+By hosting manuscript repositories publicly, such as on GitHub, multiple authors can simultaneously propose and review changes.
+A cloud service automatically evaluates proposed changes to catch errors.
+Publication with Manubot is continuous:
+When a manuscript's source changes, the rendered outputs are rebuilt and republished to a web page.
+Manubot automates bibliographic tasks by implementing citation by identifier, where users cite persistent identifiers (e.g. DOIs, PubMed IDs, ISBNs, URLs), whose metadata is then retrieved and converted to a user-specified style.
+Manubot modernizes publishing to align with the ideals of open science by making it transparent, reproducible, immediate, versioned, collaborative, and free of charge.
 
 
 ## Introduction {.page_break_before}
@@ -258,8 +272,7 @@ The notebook to generate this figure can be [interactively launched using Binder
 GitHub issues can also be used for formal peer review by independent or journal-selected reviewers.
 A reviewer conducting open peer review can create issues using their own GitHub account, as [one reviewer](https://github.com/greenelab/meta-review/issues/124) did for this manuscript.
 Alternatively, a reviewer can post feedback with a pseudonymous GitHub account or have a trusted third party such as a journal editor post their comments anonymously.
-Authors can elect to respond to reviews in the GitHub issues or a public [response letter](https://github.com/greenelab/meta-review/blob/813f461fe719d8fe7bcda78871cfad106f83dfe7/content/response-to-reviewers.md), creating open peer review.
-** TODO: update `response-to-reviewers.md` URL once it is finalized **
+Authors can elect to respond to reviews in the GitHub issues or a public [response letter](https://github.com/greenelab/meta-review/blob/v3.0/content/response-to-reviewers.md), creating open peer review.
 
 Although we developed Manubot with collaborative writing in mind, it can also be helpful for individuals preparing scholarly documents.
 Authors may choose to make their changes directly to the `master` branch, forgoing pull requests and reviews.
@@ -287,7 +300,7 @@ The [Markdown standard](https://spec.commonmark.org/0.28/) itself provides limit
 In addition, Manubot relies on extensions from [Pandoc Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown) to enable citations, tables, captions, and equations specified using the popular TeX math syntax.
 Markdown with Pandoc extensions supports most formatting options required for scholarly writing [@17wKkS4DV] but currently lacks the ability to cross-reference and automatically number figures, tables, and equations.
 For this functionality, Manubot includes the [`pandoc-xnos`](https://github.com/tomduck/pandoc-xnos) suite of Pandoc filters.
-A list of formatting options officially supported by Manubot, at the time of writing, is viewable as [raw Markdown](https://github.com/manubot/rootstock/raw/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/content/02.delete-me.md) and the corresponding [rendered HTML](https://manubot.github.io/rootstock/v/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/).
+A list of formatting options officially supported by Manubot, at the time of writing, is viewable as [raw Markdown](https://github.com/manubot/rootstock/raw/091ca8d85c8ef2d7af16fcc8d2ed3ebcbc187f13/content/02.delete-me.md) and the corresponding [rendered HTML](https://manubot.github.io/rootstock/v/091ca8d85c8ef2d7af16fcc8d2ed3ebcbc187f13/).
 
 By virtue of its readable syntax, Markdown is well suited for version control using Git.
 Markdown treats a single line break between text as a space and requires two-or-more consecutive line breaks to denote a new paragraph.
@@ -407,7 +420,7 @@ Phrases such as "755 Git commits" are written as `{{total_commits}} Git commits`
 ### Getting started
 
 An example repository at <https://github.com/manubot/rootstock>, referred to as Rootstock, demonstrates Manubot's features and serves as a template for users to write their own manuscripts with Manubot.
-The [current setup process](https://github.com/manubot/rootstock/blob/fea9eb80af4ca9d5a116f6c28a6b740272e3c0b9/SETUP.md) includes cloning the Rootstock repository, rebranding it to the user's manuscript, and configuring continuous integration.
+The [current setup process](https://github.com/manubot/rootstock/blob/091ca8d85c8ef2d7af16fcc8d2ed3ebcbc187f13/SETUP.md) includes cloning the Rootstock repository, rebranding it to the user's manuscript, and configuring continuous integration.
 The setup process is complex but must only be performed once per manuscript.
 Incorporating new Manubot features into an existing manuscript is also possible by pulling the latest commits from Rootstock, which sometimes involves resolving Git conflicts.
 
@@ -571,7 +584,7 @@ These guidelines did not discuss broader community norms that may have improved 
 It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community [@zBl3qgGT].
 Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture [@NuDPNceu].
 <!-- cited a previous version of doi:10.1080/08874417.2009.11645338 (see https://git.io/vdSSR) -->
-Conferences and open source projects have used codes of conduct to establish these norms [@HPKoE9m3=35801; @aRZRiJPk].
+Conferences and open source projects have used codes of conduct to establish these norms (e.g. [Contributor Covenant](https://www.contributor-covenant.org/ "A Code of Conduct for Open Source Projects")) [@bY9cHRxB].
 We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that build on social as well as academic norms.
 
 ### Manubot in the context of open science
@@ -607,10 +620,10 @@ Source code for Manubot resides in the following repositories:
   controls
   width="100%"
   alt="Screen recording of editing with Manubot using GitHub"
-  poster="https://ndownloader.figshare.com/files/14794016/preview/14794016/img_preview.png"
+  poster="https://ndownloader.figshare.com/files/14874683"
 >
   <source
-    src="https://ndownloader.figshare.com/files/14794016/preview/14794016/video_preview.mp4"
+    src="https://ndownloader.figshare.com/files/14874821/preview/14874821/video_preview.mp4"
     type="video/mp4"
   >
 </video>
