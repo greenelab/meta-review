@@ -91,7 +91,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <header id="title-block-header">
 <h1 class="title">Open collaborative writing with Manubot</h1>
 </header>
-<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/418e636300a82cc92eb226fb137aac9b8bdd23bc/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/418e636300a82cc92eb226fb137aac9b8bdd23bc">greenelab/meta-review@418e636</a> on April 12, 2019. </em></small></p>
+<p><small><em> This manuscript (<a href="https://greenelab.github.io/meta-review/v/879971180dfd0f4cb654b05144fe15e4043d22c1/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/879971180dfd0f4cb654b05144fe15e4043d22c1">greenelab/meta-review@8799711</a> on April 12, 2019. </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
 <li><p><strong>Daniel S. Himmelstein</strong> <sup><a href="#correspondence">✉</a></sup><br> <img src="images/orcid.svg" alt="ORCID icon" class="inline_icon" /> <a href="https://orcid.org/0000-0002-3012-7446">0000-0002-3012-7446</a> · <img src="images/github.svg" alt="GitHub icon" class="inline_icon" /> <a href="https://github.com/dhimmel">dhimmel</a> · <img src="images/twitter.svg" alt="Twitter icon" class="inline_icon" /> <a href="https://twitter.com/dhimmel">dhimmel</a><br> <small> Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania </small></p></li>
@@ -1003,9 +1003,9 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
         body {
             position: relative;
             box-sizing: border-box;
-            max-width: 8.5in;
             font-size: 12pt;
             line-height: 1.5;
+            max-width: 8.5in;
             margin: 20px auto;
             padding: 40px;
             border-radius: 5px;
@@ -1079,6 +1079,12 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
     /* links */
     a {
         color: #2196f3;
+    }
+
+    /* normal links (not empty, not button link, not syntax highlighting link) */
+    a:not(:empty):not(.button):not(.sourceLine) {
+        padding-left: 1px;
+        padding-right: 1px;
     }
 
     /* superscripts and subscripts */
@@ -1205,7 +1211,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
     /* header row and even rows */
     th,
     tr:nth-child(2n) {
-        background-color: #f5f5f5;
+        background-color: #fafafa;
     }
 
     /* odd rows */
@@ -1510,12 +1516,6 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             padding: 5px;
         }
 
-        /* shrink button icons */
-        button > svg,
-        a > svg {
-            transform: scale(0.85);
-        }
-
         /* shrink font awesome icons */
         i.fas,
         i.fab,
@@ -1753,6 +1753,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             border: solid 1px #bdbdbd;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
             background: #ffffff;
+            word-break: break-word;
         }
 
         /* tooltip copy of paragraphs and figures */
@@ -1857,19 +1858,13 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
     /* -------------------------------------------------- */
 
     @media only screen {
-        /* toc panel when open */
+        /* toc panel */
         #toc_panel {
             box-sizing: border-box;
             position: fixed;
             top: 0;
             left: 0;
-            min-width: 260px;
-            max-width: 480px;
-            /* keep panel edge consistent distance away from "page" edge */
-            width: calc(((100vw - 8.5in) / 2) - 30px - 40px);
-            bottom: 0;
             background: #ffffff;
-            border-right: solid 1px #bdbdbd;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
             z-index: 2;
         }
@@ -1879,39 +1874,48 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             min-width: 60px;
             width: 60px;
             height: 60px;
+            border-right: solid 1px #bdbdbd;
             border-bottom: solid 1px #bdbdbd;
+        }
+
+        /* toc panel when open */
+        #toc_panel[data-open="true"] {
+            min-width: 260px;
+            max-width: 480px;
+            /* keep panel edge consistent distance away from "page" edge */
+            width: calc(((100vw - 8.5in) / 2) - 30px - 40px);
+            bottom: 0;
+            border-right: solid 1px #bdbdbd;
         }
 
         /* toc panel header */
-        #toc_panel > h3 {
+        #toc_header {
             box-sizing: border-box;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
             height: 60px;
             margin: 0;
             padding: 20px;
-            border-bottom: solid 1px #bdbdbd;
         }
 
-        /* toc panel when hovered */
-        #toc_panel > h3:hover {
+        /* toc panel header when hovered */
+        #toc_header:hover {
             cursor: pointer;
+        }
+
+        /* toc panel header when panel open */
+        #toc_panel[data-open="true"] > #toc_header {
+            border-bottom: solid 1px #bdbdbd;
         }
 
         /* toc open/close header button */
         #toc_button {
             margin-right: 20px;
-            vertical-align: top;
-        }
-
-        /* toc header text */
-        #toc_header_text {
-            vertical-align: top;
-            font-weight: 600;
-            position: relative;
-            top: -4px;
         }
 
         /* hide toc list and header text when closed */
-        #toc_panel[data-open="false"] #toc_header_text,
+        #toc_panel[data-open="false"] > #toc_header > *:not(#toc_button),
         #toc_panel[data-open="false"] > #toc_list {
             display: none;
         }
@@ -2484,6 +2488,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             // trigger any function listening for "onscroll" event
             window.dispatchEvent(new Event('scroll'));
             window.scrollTo(0, y);
+            document.activeElement.blur();
             element.focus();
         }
 
@@ -2689,9 +2694,6 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             // whether user must click off to close tooltip instead of just
             // un-hovering
             clickClose: 'false',
-            // whether to keep tooltip horizontal position when moving between
-            // prev/next occurrences
-            keepHorizontal: 'true',
             // delay (in ms) between opening and closing tooltip
             delay: '100',
             // whether plugin is on or not
@@ -2772,8 +2774,10 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             // regular link click (and navigation) on second tap
             if (event.target === document.activeElement)
                 event.target.click();
-            else
+            else {
+                document.activeElement.blur();
                 event.target.focus();
+            }
             if (event.cancelable)
                 event.preventDefault();
             event.stopPropagation();
@@ -2790,22 +2794,27 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             if (!event || !event.key)
                 return;
 
-            // trigger click of prev/next button
             switch (event.key) {
-            case 'ArrowLeft':
-                const prevButton = document.getElementById(
-                    'tooltip_prev_button'
-                );
-                if (prevButton)
-                    prevButton.click();
-                break;
-            case 'ArrowRight':
-                const nextButton = document.getElementById(
-                    'tooltip_next_button'
-                );
-                if (nextButton)
-                    nextButton.click();
-                break;
+                // trigger click of prev button
+                case 'ArrowLeft':
+                    const prevButton = document.getElementById(
+                        'tooltip_prev_button'
+                    );
+                    if (prevButton)
+                        prevButton.click();
+                    break;
+                // trigger click of next button
+                case 'ArrowRight':
+                    const nextButton = document.getElementById(
+                        'tooltip_next_button'
+                    );
+                    if (nextButton)
+                        nextButton.click();
+                    break;
+                // close on esc
+                case 'Escape':
+                    closeTooltip();
+                    break;
             }
         }
 
@@ -2847,12 +2856,8 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
 
         // open tooltip
         function openTooltip(link) {
-            // if setting is on and already-open tooltip can be found, store
-            // original x position of tooltip
-            let prevX;
-            const prevTooltip = document.getElementById('tooltip');
-            if (options.keepHorizontal === 'true' && prevTooltip)
-                prevX = getRectInPage(prevTooltip).left;
+            // delete tooltip if it exists, start fresh
+            closeTooltip();
 
             // make tooltip element
             const tooltip = makeTooltip(link);
@@ -2871,7 +2876,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
 
             // position tooltip
             const position = function() {
-                positionTooltip(link, prevX);
+                positionTooltip(link);
             };
             position();
 
@@ -2890,9 +2895,6 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
 
         // make tooltip
         function makeTooltip(link) {
-            // delete tooltip if it exists, start fresh
-            closeTooltip();
-
             // get target element that link points to
             const source = getSource(link);
 
@@ -3087,7 +3089,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
         // when prev/next arrow button is clicked
         function onPrevNextClick(link, prevNextLink) {
             if (link && prevNextLink)
-                goToElement(prevNextLink, getRectInView(link).top);
+                goToElement(prevNextLink, window.innerHeight * 0.5);
         }
 
         // scroll to and focus element
@@ -3101,6 +3103,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             // trigger any function listening for "onscroll" event
             window.dispatchEvent(new Event('scroll'));
             window.scrollTo(0, y);
+            document.activeElement.blur();
             element.focus();
         }
 
@@ -3455,6 +3458,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             // trigger any function listening for "onscroll" event
             window.dispatchEvent(new Event('scroll'));
             window.scrollTo(0, y);
+            document.activeElement.blur();
             element.focus();
         }
 
@@ -3603,7 +3607,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             const links = getLinks();
             for (const link of links) {
                 // attach mouse and focus listeners to link
-                link.addEventListener('mouseover', onLinkFocus);
+                link.addEventListener('mouseenter', onLinkFocus);
                 link.addEventListener('focus', onLinkFocus);
                 link.addEventListener('mouseleave', onLinkUnhover);
             }
@@ -3773,15 +3777,15 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             // which types of elements to add links for, in
             // "document.querySelector" format
             typesQuery: 'h1, h2, h3',
+            // whether default behavior is to be closed ('false'), open
+            // ('true'), or only open when screen wide enough to fit panel
+            // ('auto'). note: still always starts closed when page loads.
+            open: 'auto',
             // if list item is more than this many characters, text will be
             // truncated
             charLimit: '50',
             // whether or not to show bullets next to each toc item
             bullets: 'false',
-            // whether default behavior is to be closed ('false'), open
-            // ('true'), or only open when screen wide enough to fit panel
-            // ('auto')
-            open: 'false',
             // whether plugin is on or not
             enabled: 'true'
         };
@@ -3803,13 +3807,14 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             makeEntries(panel);
             document.body.insertBefore(panel, document.body.firstChild);
 
-            openOrClosePanel();
+            closePanel();
 
             // attach click, scroll, and hash change listeners to window
             window.addEventListener('click', onClick);
             window.addEventListener('touchstart', onClick);
             window.addEventListener('scroll', onScroll);
             window.addEventListener('hashchange', onScroll);
+            window.addEventListener('keyup', onKeyUp);
             onScroll();
 
             // add class to push document body down out of way of toc button
@@ -3848,6 +3853,16 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
         // when window is scrolled or hash changed
         function onScroll() {
             highlightViewed();
+        }
+
+        // when key pressed
+        function onKeyUp(event) {
+            if (!event || !event.key)
+                return;
+
+            // close on esc
+            if (event.key === 'Escape')
+                closePanel();
         }
 
         // find entry of currently viewed document section in toc and highlight
@@ -3903,7 +3918,8 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
                 panel.dataset.bullets = 'true';
 
             // create header
-            const header = document.createElement('h3');
+            const header = document.createElement('div');
+            header.id = 'toc_header';
 
             // create toc button
             const button = document.createElement('button');
@@ -3914,9 +3930,8 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             button.classList.add('icon_button');
 
             // create header text
-            const text = document.createElement('span');
+            const text = document.createElement('h3');
             text.innerHTML = 'Table of Contents';
-            text.id = 'toc_header_text';
 
             // create container for toc list
             const list = document.createElement('div');
@@ -3948,18 +3963,18 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
                 const link = document.createElement('a');
                 link.classList.add('toc_link');
                 switch (element.tagName.toLowerCase()) {
-                case 'h1':
-                    link.dataset.level = '1';
-                    break;
-                case 'h2':
-                    link.dataset.level = '2';
-                    break;
-                case 'h3':
-                    link.dataset.level = '3';
-                    break;
-                case 'h4':
-                    link.dataset.level = '4';
-                    break;
+                    case 'h1':
+                        link.dataset.level = '1';
+                        break;
+                    case 'h2':
+                        link.dataset.level = '2';
+                        break;
+                    case 'h3':
+                        link.dataset.level = '3';
+                        break;
+                    case 'h4':
+                        link.dataset.level = '4';
+                        break;
                 }
                 link.title = element.innerText;
                 let text = element.innerText;
@@ -4082,6 +4097,9 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             // whether to fit image to view ('fit'), display at 100% and shrink
             // if necessary ('shrink'), or always display at 100% ('100')
             defaultZoom: 'fit',
+            // whether to zoom in/out toward center of view ('true') or mouse
+            // ('false')
+            centerZoom: 'false',
             // whether plugin is on or not
             enabled: 'true'
         };
@@ -4122,22 +4140,27 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             if (!event || !event.key)
                 return;
 
-            // trigger click of prev/next button
             switch (event.key) {
-            case 'ArrowLeft':
-                const prevButton = document.getElementById(
-                    'lightbox_prev_button'
-                );
-                if (prevButton)
-                    prevButton.click();
-                break;
-            case 'ArrowRight':
-                const nextButton = document.getElementById(
-                    'lightbox_next_button'
-                );
-                if (nextButton)
-                    nextButton.click();
-                break;
+                // trigger click of prev button
+                case 'ArrowLeft':
+                    const prevButton = document.getElementById(
+                        'lightbox_prev_button'
+                    );
+                    if (prevButton)
+                        prevButton.click();
+                    break;
+                // trigger click of next button
+                case 'ArrowRight':
+                    const nextButton = document.getElementById(
+                        'lightbox_next_button'
+                    );
+                    if (nextButton)
+                        nextButton.click();
+                    break;
+                // close on esc
+                case 'Escape':
+                    closeLightbox();
+                    break;
             }
         }
 
@@ -4364,8 +4387,11 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
                 event.stopPropagation();
 
                 // point around which to scale img
-                const originX = window.mouseX;
-                const originY = window.mouseY;
+                const viewRect = container.getBoundingClientRect();
+                const viewX = (viewRect.left + viewRect.right) / 2;
+                const viewY = (viewRect.top + viewRect.bottom) / 2;
+                const originX = options.centerZoom === 'true' ? viewX : mouseX;
+                const originY = options.centerZoom === 'true' ? viewY : mouseY;
 
                 // get point on image under origin
                 const oldRect = img.getBoundingClientRect();
@@ -4394,7 +4420,7 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             };
 
             // when container is clicked
-            function onContainerClick() {
+            function onContainerClick(event) {
                 // if container itself is target of click, and not other
                 // element above it
                 if (event.target === this)
@@ -4440,6 +4466,10 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
                 translateY = clickTranslateY + window.mouseY - clickMouseY;
                 updateTransform();
                 event.preventDefault();
+
+                // remove global listener if lightbox removed from document
+                if (!document.body.contains(container))
+                    window.removeEventListener('mousemove', onWindowMouseMove);
             };
 
             // when window is resized
@@ -4455,7 +4485,8 @@ DOI: <a href="https://doi.org/10.6084/m9.figshare.7946192.v2">10.6084/m9.figshar
             img.addEventListener('dblclick', fit);
             img.addEventListener('mousedown', onImageMouseDown);
             container.addEventListener('wheel', onContainerWheel);
-            container.addEventListener('click', onContainerClick);
+            container.addEventListener('mousedown', onContainerClick);
+            container.addEventListener('touchstart', onContainerClick);
             window.addEventListener('mouseup', onWindowMouseUp);
             window.addEventListener('mousemove', onWindowMouseMove);
             window.addEventListener('resize', onWindowResize);
