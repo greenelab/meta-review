@@ -13,6 +13,50 @@
       ],
       "funders": "G-2018-11163 and GBMF4552",
       "correspondence": true,
+      "roles": [
+        {
+          "Conceptualization": true
+        },
+        {
+          "Data curation": true
+        },
+        {
+          "Formal analysis": false
+        },
+        {
+          "Funding acquisition": true
+        },
+        {
+          "Investigation": true
+        },
+        {
+          "Methodology": true
+        },
+        {
+          "Project administration": true
+        },
+        {
+          "Resources": false
+        },
+        {
+          "Software": true
+        },
+        {
+          "Supervision": true
+        },
+        {
+          "Validation": true
+        },
+        {
+          "Visualization": true
+        },
+        {
+          "Writing \u2013 original draft": true
+        },
+        {
+          "Writing \u2013 review & editing": true
+        }
+      ],
       "affiliation_numbers": [
         1
       ]
@@ -28,6 +72,50 @@
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
       "funders": "G-2018-11163 and GBMF4552",
+      "roles": [
+        {
+          "Conceptualization": true
+        },
+        {
+          "Data curation": false
+        },
+        {
+          "Formal analysis": false
+        },
+        {
+          "Funding acquisition": false
+        },
+        {
+          "Investigation": false
+        },
+        {
+          "Methodology": true
+        },
+        {
+          "Project administration": false
+        },
+        {
+          "Resources": false
+        },
+        {
+          "Software": true
+        },
+        {
+          "Supervision": false
+        },
+        {
+          "Validation": false
+        },
+        {
+          "Visualization": true
+        },
+        {
+          "Writing \u2013 original draft": true
+        },
+        {
+          "Writing \u2013 review & editing": true
+        }
+      ],
       "affiliation_numbers": [
         1
       ]
@@ -41,6 +129,50 @@
       "email": "slochower@gmail.com",
       "affiliations": [
         "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego"
+      ],
+      "roles": [
+        {
+          "Conceptualization": true
+        },
+        {
+          "Data curation": false
+        },
+        {
+          "Formal analysis": false
+        },
+        {
+          "Funding acquisition": false
+        },
+        {
+          "Investigation": true
+        },
+        {
+          "Methodology": true
+        },
+        {
+          "Project administration": false
+        },
+        {
+          "Resources": false
+        },
+        {
+          "Software": true
+        },
+        {
+          "Supervision": false
+        },
+        {
+          "Validation": false
+        },
+        {
+          "Visualization": true
+        },
+        {
+          "Writing \u2013 original draft": true
+        },
+        {
+          "Writing \u2013 review & editing": true
+        }
       ],
       "affiliation_numbers": [
         2
@@ -57,6 +189,50 @@
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
       "funders": "G-2018-11163 and GBMF4552",
+      "roles": [
+        {
+          "Conceptualization": false
+        },
+        {
+          "Data curation": false
+        },
+        {
+          "Formal analysis": false
+        },
+        {
+          "Funding acquisition": false
+        },
+        {
+          "Investigation": false
+        },
+        {
+          "Methodology": false
+        },
+        {
+          "Project administration": false
+        },
+        {
+          "Resources": false
+        },
+        {
+          "Software": true
+        },
+        {
+          "Supervision": false
+        },
+        {
+          "Validation": false
+        },
+        {
+          "Visualization": false
+        },
+        {
+          "Writing \u2013 original draft": false
+        },
+        {
+          "Writing \u2013 review & editing": false
+        }
+      ],
       "affiliation_numbers": [
         1
       ]
@@ -73,6 +249,50 @@
         "Bioinformatics Core Facility, University of Texas Southwestern Medical Center"
       ],
       "funders": "CPRIT RP150596",
+      "roles": [
+        {
+          "Conceptualization": false
+        },
+        {
+          "Data curation": false
+        },
+        {
+          "Formal analysis": false
+        },
+        {
+          "Funding acquisition": false
+        },
+        {
+          "Investigation": false
+        },
+        {
+          "Methodology": false
+        },
+        {
+          "Project administration": false
+        },
+        {
+          "Resources": false
+        },
+        {
+          "Software": true
+        },
+        {
+          "Supervision": false
+        },
+        {
+          "Validation": true
+        },
+        {
+          "Visualization": false
+        },
+        {
+          "Writing \u2013 original draft": false
+        },
+        {
+          "Writing \u2013 review & editing": true
+        }
+      ],
       "affiliation_numbers": [
         3,
         4
@@ -89,6 +309,50 @@
         "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
       ],
       "funders": "G-2018-11163 and GBMF4552",
+      "roles": [
+        {
+          "Conceptualization": true
+        },
+        {
+          "Data curation": false
+        },
+        {
+          "Formal analysis": false
+        },
+        {
+          "Funding acquisition": true
+        },
+        {
+          "Investigation": false
+        },
+        {
+          "Methodology": true
+        },
+        {
+          "Project administration": true
+        },
+        {
+          "Resources": true
+        },
+        {
+          "Software": false
+        },
+        {
+          "Supervision": true
+        },
+        {
+          "Validation": false
+        },
+        {
+          "Visualization": true
+        },
+        {
+          "Writing \u2013 original draft": true
+        },
+        {
+          "Writing \u2013 review & editing": true
+        }
+      ],
       "affiliation_numbers": [
         1
       ]
@@ -105,6 +369,50 @@
         "Morgridge Institute for Research"
       ],
       "correspondence": true,
+      "roles": [
+        {
+          "Conceptualization": true
+        },
+        {
+          "Data curation": true
+        },
+        {
+          "Formal analysis": false
+        },
+        {
+          "Funding acquisition": false
+        },
+        {
+          "Investigation": true
+        },
+        {
+          "Methodology": true
+        },
+        {
+          "Project administration": true
+        },
+        {
+          "Resources": false
+        },
+        {
+          "Software": true
+        },
+        {
+          "Supervision": true
+        },
+        {
+          "Validation": true
+        },
+        {
+          "Visualization": true
+        },
+        {
+          "Writing \u2013 original draft": true
+        },
+        {
+          "Writing \u2013 review & editing": true
+        }
+      ],
       "affiliation_numbers": [
         5,
         6
@@ -141,7 +449,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "5c6a68a721a9866ea2baa7d82ccb0d0e05986acd"
+    "commit": "48537ba2cadf6a7b62cf6e440f140bb523a95861"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
