@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-04-12'
+date-meta: '2019-04-17'
 keywords:
 - manubot
 - deep review
@@ -32,10 +32,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/4ef4d9fe9f85e90a232018b5aa111903449fd231/))
+([permalink](https://greenelab.github.io/meta-review/v/b60d60ef188bdbf4694dd1d8a442737296380260/))
 was automatically generated
-from [greenelab/meta-review@4ef4d9f](https://github.com/greenelab/meta-review/tree/4ef4d9fe9f85e90a232018b5aa111903449fd231)
-on April 12, 2019.
+from [greenelab/meta-review@b60d60e](https://github.com/greenelab/meta-review/tree/b60d60ef188bdbf4694dd1d8a442737296380260)
+on April 17, 2019.
 </em></small>
 
 ## Authors
@@ -139,6 +139,23 @@ Publication with Manubot is continuous:
 When a manuscript's source changes, the rendered outputs are rebuilt and republished to a web page.
 Manubot automates bibliographic tasks by implementing citation by identifier, where users cite persistent identifiers (e.g. DOIs, PubMed IDs, ISBNs, URLs), whose metadata is then retrieved and converted to a user-specified style.
 Manubot modernizes publishing to align with the ideals of open science by making it transparent, reproducible, immediate, versioned, collaborative, and free of charge.
+
+## Author summary
+
+Traditionally, scholarly manuscripts have been written in private by a predefined team of collaborators.
+But now the internet enables realtime open science, where project communication occurs online in a public venue and anyone is able to contribute.
+Dispersed teams of online contributors require new tools to jointly prepare manuscripts.
+
+Existing tools fail to scale beyond tens of authors and struggle to support iterative refinement of proposed changes.
+Therefore, we created a system called Manubot for writing manuscripts based on collaborative version control.
+Manubot adopts the workflow from open source software development, which has enabled hundreds of contributors to simultaneously develop complex codebases such as Python and Linux, and applies it to open collaborative writing.
+
+Manubot also addresses other shortcomings of current publishing tools.
+Specifically, all changes to a manuscript are tracked, enabling transparency and better attribution of credit.
+Manubot automates many tasks, including creating the bibliography and deploying the manuscript as a webpage.
+Manubot webpages preserve old versions and provide a simple yet interactive interface for reading.
+As such, Manubot is a suitable foundation for next-generation preprints.
+Manuscript readers have ample opportunity to not only provide public peer review but also to contribute improvements, before and after journal publication.
 
 
 ## Introduction {.page_break_before}
@@ -644,10 +661,13 @@ We are grateful for additional Manubot discussion and testing by Alexander Dunke
 We thank John MacFarlane and Nikolay Yakimov for assistance with Pandoc and the global Binder team for advice on Binder.
 Finally, we thank C. Titus Brown and the other anonymous reviewers for their help improving this manuscript.
 
+<!--
 ## Funding
 
 DSH, DH, VR, and CSG were supported by [Grant G-2018-11163](https://sloan.org/grant-detail/8501) from the Alfred P. Sloan Foundation and [Grant GBMF4552](https://www.moore.org/grant-detail?grantId=GBMF4552) from the Gordon and Betty Moore Foundation.
 VSM was supported by Grant RP150596 from the Cancer Prevention and Research Institute of Texas.
+The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.
+-->
 
 ## References {.page_break_before}
 
