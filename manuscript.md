@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-04-17'
+date-meta: '2019-04-22'
 keywords:
 - manubot
 - deep review
@@ -32,10 +32,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/b60d60ef188bdbf4694dd1d8a442737296380260/))
+([permalink](https://greenelab.github.io/meta-review/v/01058fc474786870c07d41e1df961ed30f4436e4/))
 was automatically generated
-from [greenelab/meta-review@b60d60e](https://github.com/greenelab/meta-review/tree/b60d60ef188bdbf4694dd1d8a442737296380260)
-on April 17, 2019.
+from [greenelab/meta-review@01058fc](https://github.com/greenelab/meta-review/tree/01058fc474786870c07d41e1df961ed30f4436e4)
+on April 22, 2019.
 </em></small>
 
 ## Authors
@@ -577,7 +577,7 @@ Existing authors continue to discuss new literature, [creating a living document
 Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
-Bookdown [@1BISa1RLr] and Pandoc Scholar [@17wKkS4DV] both extend traditional Markdown to better support publishing.
+Pandoc Scholar [@17wKkS4DV] and Bookdown [@1BISa1RLr], which has been used for open writing [@1CblcIDkq], both extend traditional Markdown to better support publishing.
 Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and [jekyll-travis](https://github.com/mfenner/jekyll-travis), which was used to produce a [continuously published webpage](http://book.openingscience.org/) for the Opening Science book [@nqeDrtsc; @ujrfOBM1].
 Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM; @KLKZcPlg] support manuscripts with interactive graphics and close integration with the underlying code.
 As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.

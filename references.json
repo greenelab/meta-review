@@ -22542,6 +22542,66 @@
   },
   {
     "publisher": "F1000 ( Faculty of 1000 Ltd)",
+    "abstract": "<ns4:p>The importance of bioinformatics, computational biology, and data science in biomedical research continues to grow, driving a need for effective instruction and education. A workshop setting, with lectures and guided hands-on tutorials, is a common approach to teaching practical computational and analytical methods. Here, we detail the process we used to produce high-quality, community-authored educational materials that are available for public consumption and reuse. The coordinated efforts of 17 authors over 10 weeks resulted in 15 workshops available as a website and as a 388-page electronic book. We describe how we utilized cloud infrastructure, GitHub, and a literate programming approach to robustly deliver hands-on tutorials to participants of the annual Bioconductor conference. The scripts, raw and published workshop materials, and cloud machine image are all openly available. Our approach uses free services and software and can be adapted by workshop organizers and authors in other contests with appropriate technical backgrounds.</ns4:p>",
+    "DOI": "10.12688/f1000research.16516.1",
+    "type": "article-journal",
+    "page": "1656",
+    "source": "Crossref",
+    "title": "Orchestrating a community-developed computational workshop and accompanying training materials",
+    "volume": "7",
+    "author": [
+      {
+        "given": "Sean",
+        "family": "Davis"
+      },
+      {
+        "given": "Marcel",
+        "family": "Ramos"
+      },
+      {
+        "given": "Lori",
+        "family": "Shepherd"
+      },
+      {
+        "given": "Nitesh",
+        "family": "Turaga"
+      },
+      {
+        "given": "Ludwig",
+        "family": "Geistlinger"
+      },
+      {
+        "given": "Martin T.",
+        "family": "Morgan"
+      },
+      {
+        "given": "Benjamin",
+        "family": "Haibe-Kains"
+      },
+      {
+        "given": "Levi",
+        "family": "Waldron"
+      }
+    ],
+    "container-title": "F1000Research",
+    "language": "en",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          10,
+          17
+        ]
+      ]
+    },
+    "URL": "https://doi.org/gfzrwh",
+    "container-title-short": "F1000Res",
+    "PMCID": "PMC6234736",
+    "PMID": "30473781",
+    "id": "1CblcIDkq"
+  },
+  {
+    "publisher": "F1000 ( Faculty of 1000 Ltd)",
     "abstract": "<ns4:p>Ongoing debates surrounding Open Access to the scholarly literature are multifaceted and complicated by disparate and often polarised viewpoints from engaged stakeholders. At the current stage, Open Access has become such a global issue that it is critical for all involved in scholarly publishing, including policymakers, publishers, research funders, governments, learned societies, librarians, and academic communities, to be well-informed on the history, benefits, and pitfalls of Open Access. In spite of this, there is a general lack of consensus regarding the potential pros and cons of Open Access at multiple levels. This review aims to be a resource for current knowledge on the impacts of Open Access by synthesizing important research in three major areas: academic, economic and societal. While there is clearly much scope for additional research, several key trends are identified, including a broad citation advantage for researchers who publish openly, as well as additional benefits to the non-academic dissemination of their work. The economic impact of Open Access is less well-understood, although it is clear that access to the research literature is key for innovative enterprises, and a range of governmental and non-governmental services. Furthermore, Open Access has the potential to save both publishers and research funders considerable amounts of financial resources, and can provide some economic benefits to traditionally subscription-based journals. The societal impact of Open Access is strong, in particular for advancing citizen science initiatives, and leveling the playing field for researchers in developing countries. Open Access supersedes all potential alternative modes of access to the scholarly literature through enabling unrestricted re-use, and long-term stability independent of financial constraints of traditional publishers that impede knowledge sharing. However, Open Access has the potential to become unsustainable for research communities if high-cost options are allowed to continue to prevail in a widely unregulated scholarly publishing market. Open Access remains only one of the multiple challenges that the scholarly publishing system is currently facing. Yet, it provides one foundation for increasing engagement with researchers regarding ethical standards of publishing and the broader implications of 'Open Research'.</ns4:p>",
     "DOI": "10.12688/f1000research.8460.3",
     "type": "article-journal",
@@ -28315,7 +28375,7 @@
         [
           "2019",
           4,
-          17
+          22
         ]
       ]
     },
@@ -28434,7 +28494,7 @@
         [
           "2019",
           4,
-          17
+          22
         ]
       ]
     },
@@ -28532,7 +28592,7 @@
         [
           "2019",
           4,
-          17
+          22
         ]
       ]
     },
@@ -28565,7 +28625,7 @@
         [
           "2019",
           4,
-          17
+          22
         ]
       ]
     },
@@ -28731,7 +28791,7 @@
         [
           "2019",
           4,
-          17
+          22
         ]
       ]
     },
@@ -28829,7 +28889,7 @@
         [
           "2019",
           4,
-          17
+          22
         ]
       ]
     },
