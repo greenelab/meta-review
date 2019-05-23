@@ -400,7 +400,7 @@
     "id": "qh60RjR0"
   },
   {
-    "publisher": "Springer Nature",
+    "publisher": "Springer Science and Business Media LLC",
     "DOI": "10.1038/nature.2015.17567",
     "type": "article-journal",
     "source": "Crossref",
@@ -412,6 +412,7 @@
       }
     ],
     "container-title": "Nature",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
@@ -426,7 +427,7 @@
     "id": "nahdPyLb"
   },
   {
-    "publisher": "Springer Nature",
+    "publisher": "Springer Science and Business Media LLC",
     "issue": "7386",
     "DOI": "10.1038/nature10836",
     "type": "article-journal",
@@ -449,12 +450,12 @@
       }
     ],
     "container-title": "Nature",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
           2012,
-          2,
-          22
+          2
         ]
       ]
     },
@@ -1421,7 +1422,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
-    "abstract": "<jats:p>Some microbiology experiments and biotechnology applications can be improved if it is possible to tune the expression of two different genes at the same time with cell-to-cell variation at or below the level of genes constitutively expressed from the chromosome (the \"extrinsic noise limit\"). This was recently achieved for a single gene by exploiting negative autoregulation by the tetracycline repressor (TetR) and bicistronic gene expression to reduce gene expression noise. We report new plasmids that use the same principles to achieve simultaneous, low-noise expression for two genes. The TetR system was moved to a compatible plasmid backbone, and a system based on the lac repressor (LacI) was found to also exhibit gene expression noise below the extrinsic noise limit. We characterize gene expression mean and noise across the range of induction levels for these plasmids, apply the LacI system to tune expression for single-molecule mRNA detection in two different growth conditions, and show that two plasmids can be co-transformed to independently tune expression of two different genes.</jats:p>",
+    "abstract": "<jats:title>Abstract</jats:title><jats:p>Some microbiology experiments and biotechnology applications can be improved if it is possible to tune the expression of two different genes at the same time with cell-to-cell variation at or below the level of genes constitutively expressed from the chromosome (the “extrinsic noise limit”). This was recently achieved for a single gene by exploiting negative autoregulation by the tetracycline repressor (TetR) and bicistronic gene expression to reduce gene expression noise. We report new plasmids that use the same principles to achieve simultaneous, low-noise expression for two genes. The TetR system was moved to a compatible plasmid backbone, and a system based on the <jats:italic>lac</jats:italic> repressor (LacI) was found to also exhibit gene expression noise below the extrinsic noise limit. We characterize gene expression mean and noise across the range of induction levels for these plasmids, apply the LacI system to tune expression for single-molecule mRNA detection in two different growth conditions, and show that two plasmids can be co-transformed to independently tune expression of two different genes.</jats:p>",
     "DOI": "10.1101/515940",
     "type": "manuscript",
     "source": "Crossref",
@@ -1432,8 +1433,8 @@
         "family": "Silva"
       },
       {
-        "given": "Soraia Vidigal",
-        "family": "Lopes"
+        "given": "Soraia",
+        "family": "Vidigal Lopes"
       },
       {
         "given": "Diogo J.",
@@ -22320,8 +22321,9 @@
     "id": "82ZjWq3i"
   },
   {
-    "publisher": "CRC Press",
+    "publisher": "Chapman and Hall/CRC",
     "DOI": "10.1201/9781315204963",
+    "type": "book",
     "source": "Crossref",
     "title": "bookdown",
     "author": [
@@ -22330,19 +22332,17 @@
         "family": "Xie"
       }
     ],
-    "container-title": "Chapman &Hall/CRC The R Series",
     "issued": {
       "date-parts": [
         [
           2016,
           12,
-          21
+          12
         ]
       ]
     },
     "URL": "https://doi.org/gdqbz2",
-    "id": "1BISa1RLr",
-    "type": "entry"
+    "id": "1BISa1RLr"
   },
   {
     "publisher": "The Company of Biologists",
@@ -23093,7 +23093,7 @@
       "date-parts": [
         [
           2011,
-          1,
+          12,
           31
         ]
       ]
@@ -28220,6 +28220,7 @@
     "id": "xpw2aizK"
   },
   {
+    "id": "zBPP9YKu",
     "type": "book",
     "title": "Open access",
     "collection-title": "MIT Press essential knowledge series",
@@ -28243,8 +28244,7 @@
           "2012"
         ]
       ]
-    },
-    "id": "zBPP9YKu"
+    }
   },
   {
     "source": "PubMed",
@@ -28252,8 +28252,8 @@
       "date-parts": [
         [
           2019,
-          4,
-          9
+          5,
+          23
         ]
       ]
     },
@@ -28349,6 +28349,7 @@
     "id": "l625msOK"
   },
   {
+    "id": "QBWMEuxW",
     "type": "article-journal",
     "title": "The most interesting case of scientific irreproducibility?",
     "container-title": "Satoshi Village",
@@ -28374,12 +28375,11 @@
       "date-parts": [
         [
           "2019",
-          4,
-          22
+          5,
+          23
         ]
       ]
-    },
-    "id": "QBWMEuxW"
+    }
   },
   {
     "type": "webpage",
@@ -28470,6 +28470,7 @@
     "id": "16CgM2x0z"
   },
   {
+    "id": "6yyYojgV",
     "type": "webpage",
     "title": "Bitcoin: A Peer-to-Peer Electronic Cash System",
     "URL": "https://git.dhimmel.com/bitcoin-whitepaper/",
@@ -28493,12 +28494,11 @@
       "date-parts": [
         [
           "2019",
-          4,
-          22
+          5,
+          23
         ]
       ]
-    },
-    "id": "6yyYojgV"
+    }
   },
   {
     "type": "post-weblog",
@@ -28554,6 +28554,7 @@
     "id": "MhC1nPDK"
   },
   {
+    "id": "H0XkaC8S",
     "type": "article-journal",
     "title": "Why we need the Living Journal of Computational Molecular Science",
     "container-title": "Living Journal of Computational Molecular Science",
@@ -28566,16 +28567,16 @@
     "language": "en",
     "author": [
       {
-        "family": "Zuckerman",
-        "given": "Daniel M."
+        "family": "Mobley",
+        "given": "David L."
       },
       {
         "family": "Shirts",
         "given": "Michael R."
       },
       {
-        "family": "Mobley",
-        "given": "David L."
+        "family": "Zuckerman",
+        "given": "Daniel M."
       }
     ],
     "issued": {
@@ -28591,14 +28592,14 @@
       "date-parts": [
         [
           "2019",
-          4,
-          22
+          5,
+          23
         ]
       ]
-    },
-    "id": "H0XkaC8S"
+    }
   },
   {
+    "id": "aAKJEII",
     "type": "article-journal",
     "title": "On author versus numeric citation styles",
     "container-title": "Satoshi Village",
@@ -28624,12 +28625,11 @@
       "date-parts": [
         [
           "2019",
-          4,
-          22
+          5,
+          23
         ]
       ]
-    },
-    "id": "aAKJEII"
+    }
   },
   {
     "type": "post-weblog",
@@ -28746,6 +28746,7 @@
     "id": "u9DGTIX"
   },
   {
+    "id": "WkeOa3Qo",
     "type": "article-journal",
     "title": "A set of common software quality assurance baseline criteria for research projects",
     "source": "digital.csic.es",
@@ -28790,12 +28791,11 @@
       "date-parts": [
         [
           "2019",
-          4,
-          22
+          5,
+          23
         ]
       ]
-    },
-    "id": "WkeOa3Qo"
+    }
   },
   {
     "URL": "https://homotopytypetheory.org/book/",
@@ -28864,6 +28864,7 @@
     "id": "zBl3qgGT"
   },
   {
+    "id": "opQBBK06",
     "type": "webpage",
     "title": "Opportunities And Obstacles For Deep Learning In Biology And Medicine",
     "container-title": "Towards Data Science",
@@ -28888,12 +28889,11 @@
       "date-parts": [
         [
           "2019",
-          4,
-          22
+          5,
+          23
         ]
       ]
-    },
-    "id": "opQBBK06"
+    }
   },
   {
     "type": "post-weblog",
@@ -28980,6 +28980,7 @@
     "id": "LHrRxRb0"
   },
   {
+    "id": "QhC8yJ7V",
     "type": "article",
     "title": "Plan S: Accelerating the transition to full and immediate Open Access to scientific publications",
     "source": "Wikidata",
@@ -28999,7 +29000,6 @@
         ]
       ]
     },
-    "URL": "https://www.wikidata.org/wiki/Q56458321",
-    "id": "QhC8yJ7V"
+    "URL": "https://www.wikidata.org/wiki/Q56458321"
   }
 ]
