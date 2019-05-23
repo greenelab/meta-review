@@ -1,4 +1,4 @@
-# Deep Review Collaborative Workflow and Manubot System
+# Open collaborative writing with Manubot
 
 <!-- usage note: edit the H1 title above to personalize the manuscript -->
 
@@ -14,8 +14,7 @@ This repository is a template manuscript (a.k.a. rootstock).
 Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.md)) and replace this paragraph with a description of their manuscript.
 -->
 
-This manuscript presents the benefits of writing collaborative reviews in the open and the Manubot System for automating large portions of the build process.
-The results are derived from the authors' experience with the collaborative [Deep Review](https://github.com/greenelab/deep-review).
+This manuscript presents the benefits of writing collaborative reviews in the open and the Manubot system for automating large portions of the build process.
 [Feedback](https://github.com/greenelab/meta-review/issues) and minor contributions (e.g. typo corrections) are welcome.
 Major contributions are not being solicited at this time.
 
