@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-05-23'
+date-meta: '2019-05-24'
 keywords:
 - manubot
 - deep review
@@ -32,10 +32,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/89c048dae34b370580889bb64cae6a15a4cd7146/))
+([permalink](https://greenelab.github.io/meta-review/v/608cbe18b3b3b97e7340f69f074e53c837ea182f/))
 was automatically generated
-from [greenelab/meta-review@89c048d](https://github.com/greenelab/meta-review/tree/89c048dae34b370580889bb64cae6a15a4cd7146)
-on May 23, 2019.
+from [greenelab/meta-review@608cbe1](https://github.com/greenelab/meta-review/tree/608cbe18b3b3b97e7340f69f074e53c837ea182f)
+on May 24, 2019.
 </em></small>
 
 ## Authors
@@ -577,7 +577,8 @@ Existing authors continue to discuss new literature, [creating a living document
 Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
-Pandoc Scholar [@17wKkS4DV] and Bookdown [@1BISa1RLr], which has been used for open writing [@1CblcIDkq], both extend traditional Markdown to better support publishing.
+Pandoc Scholar [@17wKkS4DV] and Bookdown [@1BISa1RLr], which has been used for open writing [@1CblcIDkq], both enhance traditional Markdown to better support publishing.
+The [knitcitations](https://github.com/cboettig/knitcitations) package enables citation by DOI or URL in R Markdown documents.
 Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and [jekyll-travis](https://github.com/mfenner/jekyll-travis), which was used to produce a [continuously published webpage](http://book.openingscience.org/) for the Opening Science book [@nqeDrtsc; @ujrfOBM1].
 Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM; @KLKZcPlg] support manuscripts with interactive graphics and close integration with the underlying code.
 As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
