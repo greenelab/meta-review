@@ -32,14 +32,15 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/95da0bdf3063b5a470f567f5df8f5e33e1823647/))
+([permalink](https://greenelab.github.io/meta-review/v/362b839108fdcb109ede7dc29a2492303cec62fe/))
 was automatically generated
-from [greenelab/meta-review@95da0bd](https://github.com/greenelab/meta-review/tree/95da0bdf3063b5a470f567f5df8f5e33e1823647)
+from [greenelab/meta-review@362b839](https://github.com/greenelab/meta-review/tree/362b839108fdcb109ede7dc29a2492303cec62fe)
 on June 3, 2019.
 </em></small>
 
 ## Authors
 
+<!-- commented out for https://github.com/greenelab/meta-review/issues/230
 
 
 + **Daniel S. Himmelstein** ^[✉](#correspondence)^<br>
@@ -50,7 +51,7 @@ on June 3, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [dhimmel](https://twitter.com/dhimmel)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
 + **Vincent Rubinetti** <br>
@@ -61,7 +62,7 @@ on June 3, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [vincerubinetti](https://twitter.com/vincerubinetti)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
 + **David R. Slochower** <br>
@@ -72,7 +73,7 @@ on June 3, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [drslochower](https://twitter.com/drslochower)<br>
   <small>
-     Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego
+     Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, California, San Diego, United States of America
   </small>
 
 + **Dongbo Hu** <br>
@@ -83,7 +84,7 @@ on June 3, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [dongbohu](https://twitter.com/dongbohu)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
 + **Venkat S. Malladi** <br>
@@ -94,7 +95,7 @@ on June 3, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [katatonikkat](https://twitter.com/katatonikkat)<br>
   <small>
-     Department of Bioinformatics, University of Texas Southwestern Medical Center; Bioinformatics Core Facility, University of Texas Southwestern Medical Center
+     Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America; Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America
   </small>
 
 + **Casey S. Greene** <br>
@@ -105,7 +106,7 @@ on June 3, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [GreeneScientist](https://twitter.com/GreeneScientist)<br>
   <small>
-     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania
+     Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
   </small>
 
 + **Anthony Gitter** ^[✉](#correspondence)^<br>
@@ -116,12 +117,38 @@ on June 3, 2019.
     · ![Twitter icon](images/twitter.svg){.inline_icon}
     [anthonygitter](https://twitter.com/anthonygitter)<br>
   <small>
-     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison; Morgridge Institute for Research
+     Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America; Morgridge Institute for Research, Madison, Wisconsin, United States of America
   </small>
 
 
 ::: {#correspondence}
 ✉ — correspondence preferred via [GitHub Issues](https://github.com/greenelab/meta-review/issues).
+Otherwise, address correspondence to <gitter@biostat.wisc.edu> and <daniel.himmelstein@gmail.com>.
+:::
+-->
+
+
+
+Daniel S. Himmelstein^1[*](#correspondence)^,
+Vincent Rubinetti^1^,
+David R. Slochower^2^,
+Dongbo Hu^1^,
+Venkat S. Malladi^3,4^,
+Casey S. Greene^1^,
+Anthony Gitter^5,6[*](#correspondence)^
+
+
+
+1. Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America
+2. Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, California, San Diego, United States of America
+3. Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America
+4. Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America
+5. Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America
+6. Morgridge Institute for Research, Madison, Wisconsin, United States of America
+
+
+::: {#correspondence}
+\* — correspondence preferred via [GitHub Issues](https://github.com/greenelab/meta-review/issues).
 Otherwise, address correspondence to <gitter@biostat.wisc.edu> and <daniel.himmelstein@gmail.com>.
 :::
 

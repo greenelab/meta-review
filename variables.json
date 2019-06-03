@@ -9,7 +9,7 @@
       "twitter": "dhimmel",
       "email": "daniel.himmelstein@gmail.com",
       "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
       ],
       "funders": "G-2018-11163 and GBMF4552",
       "correspondence": true,
@@ -69,7 +69,7 @@
       "twitter": "vincerubinetti",
       "email": "vince.rubinetti@gmail.com",
       "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
       ],
       "funders": "G-2018-11163 and GBMF4552",
       "roles": [
@@ -128,7 +128,7 @@
       "twitter": "drslochower",
       "email": "slochower@gmail.com",
       "affiliations": [
-        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego"
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, California, San Diego, United States of America"
       ],
       "roles": [
         {
@@ -186,7 +186,7 @@
       "twitter": "dongbohu",
       "email": "dongbo.hu@gmail.com",
       "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
       ],
       "funders": "G-2018-11163 and GBMF4552",
       "roles": [
@@ -245,8 +245,8 @@
       "twitter": "katatonikkat",
       "email": "vsmalladi@gmail.com",
       "affiliations": [
-        "Department of Bioinformatics, University of Texas Southwestern Medical Center",
-        "Bioinformatics Core Facility, University of Texas Southwestern Medical Center"
+        "Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
+        "Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America"
       ],
       "funders": "CPRIT RP150596",
       "roles": [
@@ -306,7 +306,7 @@
       "twitter": "GreeneScientist",
       "email": "csgreene@upenn.edu",
       "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania"
+        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
       ],
       "funders": "G-2018-11163 and GBMF4552",
       "roles": [
@@ -365,8 +365,8 @@
       "twitter": "anthonygitter",
       "email": "gitter@biostat.wisc.edu",
       "affiliations": [
-        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
-        "Morgridge Institute for Research"
+        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
+        "Morgridge Institute for Research, Madison, Wisconsin, United States of America"
       ],
       "correspondence": true,
       "roles": [
@@ -421,27 +421,27 @@
   ],
   "affiliations": [
     {
-      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania",
+      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America",
       "affiliation_number": 1
     },
     {
-      "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego",
+      "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, California, San Diego, United States of America",
       "affiliation_number": 2
     },
     {
-      "affiliation": "Department of Bioinformatics, University of Texas Southwestern Medical Center",
+      "affiliation": "Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
       "affiliation_number": 3
     },
     {
-      "affiliation": "Bioinformatics Core Facility, University of Texas Southwestern Medical Center",
+      "affiliation": "Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
       "affiliation_number": 4
     },
     {
-      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison",
+      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
       "affiliation_number": 5
     },
     {
-      "affiliation": "Morgridge Institute for Research",
+      "affiliation": "Morgridge Institute for Research, Madison, Wisconsin, United States of America",
       "affiliation_number": 6
     }
   ],
@@ -449,7 +449,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "95da0bdf3063b5a470f567f5df8f5e33e1823647"
+    "commit": "362b839108fdcb109ede7dc29a2492303cec62fe"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -477,6 +477,6 @@
       "wikidata": 1,
       "total": 94
     },
-    "word_count": 7899
+    "word_count": 7976
   }
 }
