@@ -32,9 +32,9 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/0e7ba0363261b12335e42344899e345b553feb67/))
+([permalink](https://greenelab.github.io/meta-review/v/95da0bdf3063b5a470f567f5df8f5e33e1823647/))
 was automatically generated
-from [greenelab/meta-review@0e7ba03](https://github.com/greenelab/meta-review/tree/0e7ba0363261b12335e42344899e345b553feb67)
+from [greenelab/meta-review@95da0bd](https://github.com/greenelab/meta-review/tree/95da0bdf3063b5a470f567f5df8f5e33e1823647)
 on June 3, 2019.
 </em></small>
 
@@ -145,11 +145,9 @@ Manubot modernizes publishing to align with the ideals of open science by making
 Traditionally, scholarly manuscripts have been written in private by a predefined team of collaborators.
 But now the internet enables realtime open science, where project communication occurs online in a public venue and anyone is able to contribute.
 Dispersed teams of online contributors require new tools to jointly prepare manuscripts.
-
 Existing tools fail to scale beyond tens of authors and struggle to support iterative refinement of proposed changes.
 Therefore, we created a system called Manubot for writing manuscripts based on collaborative version control.
 Manubot adopts the workflow from open source software development, which has enabled hundreds of contributors to simultaneously develop complex codebases such as Python and Linux, and applies it to open collaborative writing.
-
 Manubot also addresses other shortcomings of current publishing tools.
 Specifically, all changes to a manuscript are tracked, enabling transparency and better attribution of credit.
 Manubot automates many tasks, including creating the bibliography and deploying the manuscript as a webpage.
