@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-05-24'
+date-meta: '2019-06-03'
 keywords:
 - manubot
 - deep review
@@ -32,10 +32,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/608cbe18b3b3b97e7340f69f074e53c837ea182f/))
+([permalink](https://greenelab.github.io/meta-review/v/0e7ba0363261b12335e42344899e345b553feb67/))
 was automatically generated
-from [greenelab/meta-review@608cbe1](https://github.com/greenelab/meta-review/tree/608cbe18b3b3b97e7340f69f074e53c837ea182f)
-on May 24, 2019.
+from [greenelab/meta-review@0e7ba03](https://github.com/greenelab/meta-review/tree/0e7ba0363261b12335e42344899e345b553feb67)
+on June 3, 2019.
 </em></small>
 
 ## Authors
@@ -576,7 +576,7 @@ After releasing the first version of the Deep Review [@tJKvnIaZ], 14 new contrib
 Existing authors continue to discuss new literature, [creating a living document](https://github.com/greenelab/deep-review/).
 Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 
-Concepts for the future of scholarly publishing extend beyond collaborative writing [@WDvu1SAV; @ILhLpgTs].
+Concepts for the future of scholarly publishing extend beyond collaborative writing [@Bu8VxdWB; @WDvu1SAV; @ILhLpgTs].
 Pandoc Scholar [@17wKkS4DV] and Bookdown [@1BISa1RLr], which has been used for open writing [@1CblcIDkq], both enhance traditional Markdown to better support publishing.
 The [knitcitations](https://github.com/cboettig/knitcitations) package enables citation by DOI or URL in R Markdown documents.
 Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and [jekyll-travis](https://github.com/mfenner/jekyll-travis), which was used to produce a [continuously published webpage](http://book.openingscience.org/) for the Opening Science book [@nqeDrtsc; @ujrfOBM1].
