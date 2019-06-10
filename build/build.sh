@@ -52,7 +52,7 @@ pandoc --verbose \
   $INPUT_PATH
 
 # Return null if docker command is missing, otherwise return path to docker
-DOCKER_EXISTS=`command -v docker`
+DOCKER_EXISTS="$(command -v docker || true)"
 
 # Create PDF output (unless BUILD_PDF environment variable equals "false")
 if [ "$BUILD_PDF" != "false" ] && [ -z "$DOCKER_EXISTS" ]; then
@@ -81,11 +81,12 @@ fi
 if [ "$BUILD_PDF" != "false" ] && [ -n "$DOCKER_EXISTS" ]; then
   echo "Exporting PDF manuscript using Docker + Athena"
   if [ -d output/images ]; then rm -rf output/images; fi  # if images is a directory, remove it
-  cp -r -L content/images output/
+  cp -R -L content/images output/
   docker run \
     --rm \
-    --volume `pwd`/output:/converted/ \
-    --security-opt seccomp:unconfined \
+    --shm-size=1g \
+    --volume=`pwd`/output:/converted/ \
+    --security-opt=seccomp:unconfined \
     arachnysdocker/athenapdf:2.16.0 \
     athenapdf \
     --delay=2000 \
