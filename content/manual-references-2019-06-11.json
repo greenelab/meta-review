@@ -15,10 +15,12 @@
     },
     "author": [
       {
-        "literal": "Phillip Lord"
+        "given": "Phillip",
+        "family": "Lord"
       },
       {
-        "literal": "Lindsay Marshall"
+        "given": "Lindsay",
+        "family": "Marshall"
       }
     ],
     "container-title": "arXiv",
@@ -44,10 +46,12 @@
     },
     "author": [
       {
-        "literal": "David L. Mobley"
+        "given": "David L.",
+        "family": "Mobley"
       },
       {
-        "literal": "Daniel M. Zuckerman"
+        "given": "Daniel M.",
+        "family": "Zuckerman"
       }
     ],
     "container-title": "arXiv",
@@ -73,13 +77,16 @@
     },
     "author": [
       {
-        "literal": "Bela Gipp"
+        "given": "Bela",
+        "family": "Gipp"
       },
       {
-        "literal": "Norman Meuschke"
+        "given": "Norman",
+        "family": "Meuschke"
       },
       {
-        "literal": "André Gernandt"
+        "given": "André",
+        "family": "Gernandt"
       }
     ],
     "container-title": "arXiv",
@@ -1128,6 +1135,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "container-title": "bioRxiv",
     "abstract": "<jats:p>Deep learning, which describes a class of machine learning algorithms, has recently showed impressive results across a variety of domains. Biology and medicine are data rich, but the data are complex and often ill-understood. Problems of this nature may be particularly well-suited to deep learning techniques. We examine applications of deep learning to a variety of biomedical problems - patient classification, fundamental biological processes, and treatment of patients - and discuss whether deep learning will transform these tasks or if the biomedical sphere poses unique challenges. We find that deep learning has yet to revolutionize or definitively resolve any of these problems, but promising advances have been made on the prior state of the art. Even when improvement over a previous baseline has been modest, we have seen signs that deep learning methods may speed or aid human investigation. More work is needed to address concerns related to interpretability and how to best model each problem. Furthermore, the limited amount of labeled data for training presents problems in some domains, as do legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning powering changes at both bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
     "DOI": "10.1101/142760",
     "type": "manuscript",
@@ -1294,6 +1302,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "container-title": "bioRxiv",
     "abstract": "<jats:p>Data management and publication are core components of the research process. An emerging challenge that has received limited attention in biology is managing, working with, and providing access to data under continual active collection. \"Evolving data\" present unique challenges in quality assurance and control, data publication, archiving, and reproducibility. We developed a evolving data workflow for a long-term ecological study that addresses many of the challenges associated with managing this type of data. We do this by leveraging existing tools to: 1) perform quality assurance and control; 2) import, restructure, version, and archive data; 3) rapidly publish new data in ways that ensure appropriate credit to all contributors; and 4) automate most steps in the data pipeline to reduce the time and effort required by researchers. The workflow uses two tools from software development, version control and continuous integration, to create a modern data management system that automates the pipeline.</jats:p>",
     "DOI": "10.1101/344804",
     "type": "manuscript",
@@ -1344,6 +1353,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "container-title": "bioRxiv",
     "abstract": "<jats:p>Advanced machine learning models applied to large-scale genomics datasets hold the promise to be major drivers for genome science. Once trained, such models can serve as a tool to probe the relationships between data modalities, including the effect of genetic variants on phenotype. However, lack of standardization and limited accessibility of trained models have hampered their impact in practice. To address this, we present Kipoi, a collaborative initiative to define standards and to foster reuse of trained models in genomics. Already, the Kipoi repository contains over 2,000 trained models that cover canonical prediction tasks in transcriptional and post-transcriptional gene regulation. The Kipoi model standard grants automated software installation and provides unified interfaces to apply and interpret models. We illustrate Kipoi through canonical use cases, including model benchmarking, transfer learning, variant effect prediction, and building new models from existing ones. By providing a unified framework to archive, share, access, use, and build on models developed by the community, Kipoi will foster the dissemination and use of machine learning models in genomics.</jats:p>",
     "DOI": "10.1101/375345",
     "type": "manuscript",
@@ -1414,6 +1424,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "container-title": "bioRxiv",
     "abstract": "<jats:p>Background: Transcription factors (TFs) bind to specific DNA sequences, TF motifs, in cis-regulatory sequences and control the expression of the diverse transcriptional programs encoded in the genome. The concerted action of TFs within the chromatin context enables precise temporal and spatial expression patterns. To understand how TFs control gene expression it is essential to model TF binding. TF motif information can help to interpret the exact role of individual regulatory elements, for instance to predict the functional impact of non-coding variants.\nFindings: Here we present GimmeMotifs, a comprehensive computational framework for TF motif analysis. Compared to the previously published version, this release adds a whole range of new functionality and analysis methods. It now includes tools for de novo motif discovery, motif scanning and sequence analysis, motif clustering, calculation of performance metrics and visualization. Included with GimmeMotifs is a non-redundant database of clustered motifs. Compared to other motif databases, this collection of motifs shows competitive performance in discriminating bound from unbound sequences. Using our de novo motif discovery pipeline we find large differences in performance between de novo motif finders on ChIP-seq data. Using an ensemble method such as implemented in GimmeMotifs will generally result in improved motif identification compared to a single motif finder. Finally, we demonstrate maelstrom, a new ensemble method that enables comparative analysis of TF motifs between multiple high-throughput sequencing experiments, such as ChIP-seq or ATAC-seq. Using a collection of ~200 H3K27ac ChIP-seq data sets we identify TFs that play a role in hematopoietic differentiation and lineage commitment.\nConclusion: GimmeMotifs is a fully-featured and flexible framework for TF motif analysis. It contains both command-line tools as well as a Python API and is freely available at: https://github.com/vanheeringen-lab/gimmemotifs.</jats:p>",
     "DOI": "10.1101/474403",
     "type": "manuscript",
@@ -1444,6 +1455,7 @@
   },
   {
     "publisher": "Cold Spring Harbor Laboratory",
+    "container-title": "bioRxiv",
     "abstract": "<jats:p>Some microbiology experiments and biotechnology applications can be improved if it is possible to tune the expression of two different genes at the same time with cell-to-cell variation at or below the level of genes constitutively expressed from the chromosome (the \"extrinsic noise limit\"). This was recently achieved for a single gene by exploiting negative autoregulation by the tetracycline repressor (TetR) and bicistronic gene expression to reduce gene expression noise. We report new plasmids that use the same principles to achieve simultaneous, low-noise expression for two genes. The TetR system was moved to a compatible plasmid backbone, and a system based on the lac repressor (LacI) was found to also exhibit gene expression noise below the extrinsic noise limit. We characterize gene expression mean and noise across the range of induction levels for these plasmids, apply the LacI system to tune expression for single-molecule mRNA detection in two different growth conditions, and show that two plasmids can be co-transformed to independently tune expression of two different genes.</jats:p>",
     "DOI": "10.1101/515940",
     "type": "manuscript",
@@ -23125,6 +23137,7 @@
   {
     "publisher": "Princeton University Press",
     "DOI": "10.1515/9781400839452",
+    "ISBN": "9781400839452",
     "source": "Crossref",
     "title": "Reinventing Discovery",
     "author": [
@@ -23145,7 +23158,7 @@
     "URL": "https://doi.org/gfx2dm",
     "note": "This CSL JSON Item was automatically generated by Manubot v0.2.3 using citation-by-identifier.\nstandard_id: doi:10.1515/9781400839452",
     "id": "1DiVJ3t6P",
-    "type": "entry"
+    "type": "book"
   },
   {
     "type": "article-journal",
