@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-06-11'
+date-meta: '2019-06-13'
 keywords:
 - manubot
 - deep review
@@ -32,10 +32,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/040638d25b9a45ad3d060afc9689a17f4c3a3045/))
+([permalink](https://greenelab.github.io/meta-review/v/9b7427b827dd94d5bff160394c3c3ae65f046636/))
 was automatically generated
-from [greenelab/meta-review@040638d](https://github.com/greenelab/meta-review/tree/040638d25b9a45ad3d060afc9689a17f4c3a3045)
-on June 11, 2019.
+from [greenelab/meta-review@9b7427b](https://github.com/greenelab/meta-review/tree/9b7427b827dd94d5bff160394c3c3ae65f046636)
+on June 13, 2019.
 </em></small>
 
 ## Authors
@@ -371,7 +371,7 @@ Manual metadata also supports references without standard identifiers, such as p
 | International Standard Book Number (ISBN) | [Zotero translation-server](https://github.com/zotero/translation-server) | `isbn:9780262517638` | [@zBPP9YKu] |
 | Web address (URL) | Zotero translation-server | `url:https://lgatto.github.io/open-and-open/` | [@zBl3qgGT] |
 | Wikidata ID | Zotero translation-server | `wikidata:Q56458321` | [@QhC8yJ7V] |
-| Raw | Provided by user | `raw:dongbo-conversation` | [@l625msOK] |
+| Raw | Provided by user | `raw:paywall-movie` | [@J6sGnQp1] |
 | Tag | Source for tagged identifier | `tag:avasthi-preprints` | [@pqBLIXzp] |
 
 Table: **Citation types supported by Manubot.**
@@ -487,14 +487,28 @@ As such, continuous publication via Manubot helped the authors address the error
 This Sci-Hub Coverage Study preprint was the [most viewed](http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/) 2017 _PeerJ Preprint_, while the Deep Review was the most viewed 2017 _bioRxiv_ preprint [@9IrsqXRa].
 Hence, in Manubot's first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.
 
-Additional research studies in progress are being authored using Manubot, spanning the fields of [regulatory](https://vsmalladi.github.io/tfsee-manuscript/) [genomics](https://simonvh.github.io/gimmemotifs-manuscript/) [@LGjXBQ7t], [synthetic biology](https://zach-hensel.github.io/low-noise-manuscript/) [@O3pCOA4K], [climate science](https://openclimatedata.github.io/global-emissions/), [machine learning](https://trang1618.github.io/tpot-fss-ms/), and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
-Manubot is also being used for documents beyond traditional journal publications, such as [research tips](https://benjamin-lee.github.io/deep-rules/), [quality standards](https://indigo-dc.github.io/sqa-baseline/) [@WkeOa3Qo], [grant proposals](https://greenelab.github.io/manufund-2018/), [progress reports](https://greenelab.github.io/czi-hca-report/), [undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA], [literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
+Additional research studies are being authored using Manubot, spanning the fields of
+[regulatory](https://vsmalladi.github.io/tfsee-manuscript/)
+[genomics](https://simonvh.github.io/gimmemotifs-manuscript/) [@LGjXBQ7t],
+[synthetic biology](https://zach-hensel.github.io/low-noise-manuscript/) [@15QSXk9Cl],
+[climate science](https://openclimatedata.github.io/global-emissions/),
+[visual perception](https://laurentperrinet.github.io/2019-05_illusions-visuelles/) [@faKuBkfY],
+[machine learning](https://trang1618.github.io/tpot-fss-ms/) [@17a3WKGzu],
+[computational toolkits](https://jmonlong.github.io/manu-vgsv/) [@r2krHy6V],
+and [data visualization](https://yt-project.github.io/yt-3.0-paper/).
+Manubot is also being used for documents beyond traditional journal publications, such as
+[research tips](https://benjamin-lee.github.io/deep-rules/),
+[quality standards](https://indigo-dc.github.io/sqa-baseline/) [@WkeOa3Qo],
+[grant proposals](https://greenelab.github.io/manufund-2018/),
+[progress reports](https://greenelab.github.io/czi-hca-report/),
+[undergraduate research reports](https://zietzm.github.io/Vagelos2017/) [@15nwuvjrA],
+[literature reviews](https://slochower.github.io/synthetic-motor-literature/), and lab notebooks.
 Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper](https://git.dhimmel.com/bitcoin-whitepaper/) [@u9DGTIX] and [Project Rephetio manuscript](https://git.dhimmel.com/rephetio-manuscript/) [@O21tn8vf].
 
 ### Citation utilities
 
 The `manubot` [Python package](https://pypi.org/project/manubot/) provides easy access to Manubot's citation-by-identifier infrastructure, whose functionality extends beyond just Manubot manuscripts.
-For example, the [Kipoi](https://kipoi.org/) model zoo for genomics [@14cVrrqP1] uses Manubot's Python interface to retrieve model authors from persistent identifiers.
+For example, the [Kipoi](https://kipoi.org/) model zoo for genomics [@tQy0rfF4] uses Manubot's Python interface to retrieve model authors from persistent identifiers.
 In addition, the `manubot cite` command line utility takes a list of citations and returns either a rendered bibliography or CSL Data Items (i.e. JSON-formatted reference metadata).
 For example, the following command outputs a Markdown reference list for the two specified articles according to the bibliographic style of _PeerJ_:
 

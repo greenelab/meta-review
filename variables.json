@@ -1,5 +1,5 @@
 {
-  "date": "June 11, 2019",
+  "date": "June 13, 2019",
   "authors": [
     {
       "github": "dhimmel",
@@ -449,7 +449,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "040638d25b9a45ad3d060afc9689a17f4c3a3045"
+    "commit": "9b7427b827dd94d5bff160394c3c3ae65f046636"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -468,15 +468,15 @@
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 3,
-      "doi": 64,
+      "doi": 66,
       "isbn": 1,
       "pmcid": 1,
       "pmid": 1,
       "raw": 1,
-      "url": 22,
+      "url": 23,
       "wikidata": 1,
-      "total": 94
+      "total": 97
     },
-    "word_count": 7976
+    "word_count": 7981
   }
 }
