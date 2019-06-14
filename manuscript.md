@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-06-13'
+date-meta: '2019-06-14'
 keywords:
 - manubot
 - deep review
@@ -32,10 +32,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/9b7427b827dd94d5bff160394c3c3ae65f046636/))
+([permalink](https://greenelab.github.io/meta-review/v/e505f0c00d81aa2d554c6a0be6713a97d48b64a9/))
 was automatically generated
-from [greenelab/meta-review@9b7427b](https://github.com/greenelab/meta-review/tree/9b7427b827dd94d5bff160394c3c3ae65f046636)
-on June 13, 2019.
+from [greenelab/meta-review@e505f0c](https://github.com/greenelab/meta-review/tree/e505f0c00d81aa2d554c6a0be6713a97d48b64a9)
+on June 14, 2019.
 </em></small>
 
 ## Authors
