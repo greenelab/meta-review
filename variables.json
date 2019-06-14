@@ -128,7 +128,7 @@
       "twitter": "drslochower",
       "email": "slochower@gmail.com",
       "affiliations": [
-        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, California, San Diego, United States of America"
+        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America"
       ],
       "roles": [
         {
@@ -425,7 +425,7 @@
       "affiliation_number": 1
     },
     {
-      "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, California, San Diego, United States of America",
+      "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America",
       "affiliation_number": 2
     },
     {
@@ -449,7 +449,7 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "e505f0c00d81aa2d554c6a0be6713a97d48b64a9"
+    "commit": "eb7a64b8cc8f79f03e43f7909889138d26dd0807"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
