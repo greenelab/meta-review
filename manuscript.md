@@ -28,13 +28,14 @@ title: Open collaborative writing with Manubot
 
 
 
+A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/518779dbe69119070643064cefd1f687b8911cd5/))
+([permalink](https://greenelab.github.io/meta-review/v/22b94633509d9d9c8cf3cca92d4e41d784da1bff/))
 was automatically generated
-from [greenelab/meta-review@518779d](https://github.com/greenelab/meta-review/tree/518779dbe69119070643064cefd1f687b8911cd5)
+from [greenelab/meta-review@22b9463](https://github.com/greenelab/meta-review/tree/22b94633509d9d9c8cf3cca92d4e41d784da1bff)
 on June 25, 2019.
 </em></small>
 
