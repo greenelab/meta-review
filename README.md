@@ -15,9 +15,15 @@ Actual manuscript instances will clone this repository (see [`SETUP.md`](SETUP.m
 -->
 
 This manuscript presents the benefits of writing collaborative reviews in the open and the Manubot system for automating large portions of the build process.
+It has now been published at:
+
+> **Open collaborative writing with Manubot**  
+Daniel S. Himmelstein, Vincent Rubinetti, David R. Slochower, Dongbo Hu, Venkat S. Malladi, Casey S. Greene, Anthony Gitter  
+*PLOS Computational Biology* (2019-06-24) <https://doi.org/c7np>  
+DOI: [10.1371/journal.pcbi.1007128](https://doi.org/10.1371/journal.pcbi.1007128) · PMID: [31233491](https://www.ncbi.nlm.nih.gov/pubmed/31233491)
+
 [Feedback](https://github.com/greenelab/meta-review/issues) and minor contributions (e.g. typo corrections) are welcome.
 Major contributions are not being solicited at this time.
-
 To see what's incoming, check the [open pull requests](https://github.com/greenelab/meta-review/pulls).
 
 ## Manubot
