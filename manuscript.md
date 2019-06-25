@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-06-21'
+date-meta: '2019-06-25'
 keywords:
 - manubot
 - deep review
@@ -32,10 +32,10 @@ title: Open collaborative writing with Manubot
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/a0c392bb2c48c69bbaafc5aa4640d64672c005e3/))
+([permalink](https://greenelab.github.io/meta-review/v/518779dbe69119070643064cefd1f687b8911cd5/))
 was automatically generated
-from [greenelab/meta-review@a0c392b](https://github.com/greenelab/meta-review/tree/a0c392bb2c48c69bbaafc5aa4640d64672c005e3)
-on June 21, 2019.
+from [greenelab/meta-review@518779d](https://github.com/greenelab/meta-review/tree/518779dbe69119070643064cefd1f687b8911cd5)
+on June 25, 2019.
 </em></small>
 
 ## Authors
@@ -163,7 +163,7 @@ With Manubot, manuscripts are written in Markdown and stored in a Git repository
 By hosting manuscript repositories publicly, such as on GitHub, multiple authors can simultaneously propose and review changes.
 A cloud service automatically evaluates proposed changes to catch errors.
 Publication with Manubot is continuous:
-When a manuscript's source changes, the rendered outputs are rebuilt and republished to a web page.
+When a manuscript's source changes, the rendered outputs are rebuilt and republished to a webpage.
 Manubot automates bibliographic tasks by implementing citation by identifier, where users cite persistent identifiers (e.g. DOIs, PubMed IDs, ISBNs, URLs), whose metadata is then retrieved and converted to a user-specified style.
 Manubot modernizes publishing to align with the ideals of open science by making it transparent, reproducible, immediate, versioned, collaborative, and free of charge.
 
@@ -205,7 +205,7 @@ However, inviting wide authorship brought many technical and social challenges s
 The manuscript writing process we developed using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation addresses these challenges.
 
 Manubot supports citations by adding a persistent identifier like a Digital Object Identifier (DOI) or PubMed Identifier (PMID) directly in the text so that large groups of authors do not have to coordinate reference lists.
-When text is changed, Manubot automatically updates the manuscript's web page so that all authors can read and edit from the latest version.
+When text is changed, Manubot automatically updates the manuscript's webpage so that all authors can read and edit from the latest version.
 Because manuscripts are created from GitHub repositories, Manubot supports a workflow where all edits are reviewed and discussed, ensuring that the collaborative text has a cohesive style and message and that authors receive precise credit for their work.
 These and other features support an open collaborative writing process that is not feasible with other writing platforms.
 
