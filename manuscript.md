@@ -33,9 +33,9 @@ A DOI-citable version of this manuscript is available in _PLOS Computational Bio
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/9e918275ba33e726a281466c0df94ce45e740d7e/))
+([permalink](https://greenelab.github.io/meta-review/v/a40761732af9a3553407d4de4ef31ec6aac26eaf/))
 was automatically generated
-from [greenelab/meta-review@9e91827](https://github.com/greenelab/meta-review/tree/9e918275ba33e726a281466c0df94ce45e740d7e)
+from [greenelab/meta-review@a407617](https://github.com/greenelab/meta-review/tree/a40761732af9a3553407d4de4ef31ec6aac26eaf)
 on July 9, 2019.
 </em></small>
 
