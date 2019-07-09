@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-06-25'
+date-meta: '2019-07-09'
 keywords:
 - manubot
 - deep review
@@ -33,10 +33,10 @@ A DOI-citable version of this manuscript is available in _PLOS Computational Bio
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/22b94633509d9d9c8cf3cca92d4e41d784da1bff/))
+([permalink](https://greenelab.github.io/meta-review/v/9e918275ba33e726a281466c0df94ce45e740d7e/))
 was automatically generated
-from [greenelab/meta-review@22b9463](https://github.com/greenelab/meta-review/tree/22b94633509d9d9c8cf3cca92d4e41d784da1bff)
-on June 25, 2019.
+from [greenelab/meta-review@9e91827](https://github.com/greenelab/meta-review/tree/9e918275ba33e726a281466c0df94ce45e740d7e)
+on July 9, 2019.
 </em></small>
 
 ## Authors
