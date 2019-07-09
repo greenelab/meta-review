@@ -1,0 +1,2119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Untitled</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <style>
+a.sourceLine { display: inline-block; line-height: 1.25; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+a.sourceLine:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource a.sourceLine
+  { position: relative; left: -4em; }
+pre.numberSource a.sourceLine::before
+  { content: attr(title);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    background-color: #ffffff;
+    color: #a0a0a0;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0;  padding-left: 4px; }
+div.sourceCode
+  { color: #1f1c1b; background-color: #ffffff; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; }
+}
+code span. { color: #1f1c1b; } /* Normal */
+code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
+code span.an { color: #ca60ca; } /* Annotation */
+code span.at { color: #0057ae; } /* Attribute */
+code span.bn { color: #b08000; } /* BaseN */
+code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
+code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #924c9d; } /* Char */
+code span.cn { color: #aa5500; } /* Constant */
+code span.co { color: #898887; } /* Comment */
+code span.cv { color: #0095ff; } /* CommentVar */
+code span.do { color: #607880; } /* Documentation */
+code span.dt { color: #0057ae; } /* DataType */
+code span.dv { color: #b08000; } /* DecVal */
+code span.er { color: #bf0303; text-decoration: underline; } /* Error */
+code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
+code span.fl { color: #b08000; } /* Float */
+code span.fu { color: #644a9b; } /* Function */
+code span.im { color: #ff5500; } /* Import */
+code span.in { color: #b08000; } /* Information */
+code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
+code span.op { color: #1f1c1b; } /* Operator */
+code span.ot { color: #006e28; } /* Other */
+code span.pp { color: #006e28; } /* Preprocessor */
+code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
+code span.sc { color: #3daee9; } /* SpecialChar */
+code span.ss { color: #ff5500; } /* SpecialString */
+code span.st { color: #bf0303; } /* String */
+code span.va { color: #0057ae; } /* Variable */
+code span.vs { color: #bf0303; } /* VerbatimString */
+code span.wa { color: #bf0303; } /* Warning */
+  </style>
+  <style type="text/css">@font-face {
+font-family: octicons-link;
+src: url(data:font/woff;charset=utf-8;base64,d09GRgABAAAAAAZwABAAAAAACFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEU0lHAAAGaAAAAAgAAAAIAAAAAUdTVUIAAAZcAAAACgAAAAoAAQAAT1MvMgAAAyQAAABJAAAAYFYEU3RjbWFwAAADcAAAAEUAAACAAJThvmN2dCAAAATkAAAABAAAAAQAAAAAZnBnbQAAA7gAAACyAAABCUM+8IhnYXNwAAAGTAAAABAAAAAQABoAI2dseWYAAAFsAAABPAAAAZwcEq9taGVhZAAAAsgAAAA0AAAANgh4a91oaGVhAAADCAAAABoAAAAkCA8DRGhtdHgAAAL8AAAADAAAAAwGAACfbG9jYQAAAsAAAAAIAAAACABiATBtYXhwAAACqAAAABgAAAAgAA8ASm5hbWUAAAToAAABQgAAAlXu73sOcG9zdAAABiwAAAAeAAAAME3QpOBwcmVwAAAEbAAAAHYAAAB/aFGpk3jaTY6xa8JAGMW/O62BDi0tJLYQincXEypYIiGJjSgHniQ6umTsUEyLm5BV6NDBP8Tpts6F0v+k/0an2i+itHDw3v2+9+DBKTzsJNnWJNTgHEy4BgG3EMI9DCEDOGEXzDADU5hBKMIgNPZqoD3SilVaXZCER3/I7AtxEJLtzzuZfI+VVkprxTlXShWKb3TBecG11rwoNlmmn1P2WYcJczl32etSpKnziC7lQyWe1smVPy/Lt7Kc+0vWY/gAgIIEqAN9we0pwKXreiMasxvabDQMM4riO+qxM2ogwDGOZTXxwxDiycQIcoYFBLj5K3EIaSctAq2kTYiw+ymhce7vwM9jSqO8JyVd5RH9gyTt2+J/yUmYlIR0s04n6+7Vm1ozezUeLEaUjhaDSuXHwVRgvLJn1tQ7xiuVv/ocTRF42mNgZGBgYGbwZOBiAAFGJBIMAAizAFoAAABiAGIAznjaY2BkYGAA4in8zwXi+W2+MjCzMIDApSwvXzC97Z4Ig8N/BxYGZgcgl52BCSQKAA3jCV8CAABfAAAAAAQAAEB42mNgZGBg4f3vACQZQABIMjKgAmYAKEgBXgAAeNpjYGY6wTiBgZWBg2kmUxoDA4MPhGZMYzBi1AHygVLYQUCaawqDA4PChxhmh/8ODDEsvAwHgMKMIDnGL0x7gJQCAwMAJd4MFwAAAHjaY2BgYGaA4DAGRgYQkAHyGMF8NgYrIM3JIAGVYYDT+AEjAwuDFpBmA9KMDEwMCh9i/v8H8sH0/4dQc1iAmAkALaUKLgAAAHjaTY9LDsIgEIbtgqHUPpDi3gPoBVyRTmTddOmqTXThEXqrob2gQ1FjwpDvfwCBdmdXC5AVKFu3e5MfNFJ29KTQT48Ob9/lqYwOGZxeUelN2U2R6+cArgtCJpauW7UQBqnFkUsjAY/kOU1cP+DAgvxwn1chZDwUbd6CFimGXwzwF6tPbFIcjEl+vvmM/byA48e6tWrKArm4ZJlCbdsrxksL1AwWn/yBSJKpYbq8AXaaTb8AAHja28jAwOC00ZrBeQNDQOWO//sdBBgYGRiYWYAEELEwMTE4uzo5Zzo5b2BxdnFOcALxNjA6b2ByTswC8jYwg0VlNuoCTWAMqNzMzsoK1rEhNqByEyerg5PMJlYuVueETKcd/89uBpnpvIEVomeHLoMsAAe1Id4AAAAAAAB42oWQT07CQBTGv0JBhagk7HQzKxca2sJCE1hDt4QF+9JOS0nbaaYDCQfwCJ7Au3AHj+LO13FMmm6cl7785vven0kBjHCBhfpYuNa5Ph1c0e2Xu3jEvWG7UdPDLZ4N92nOm+EBXuAbHmIMSRMs+4aUEd4Nd3CHD8NdvOLTsA2GL8M9PODbcL+hD7C1xoaHeLJSEao0FEW14ckxC+TU8TxvsY6X0eLPmRhry2WVioLpkrbp84LLQPGI7c6sOiUzpWIWS5GzlSgUzzLBSikOPFTOXqly7rqx0Z1Q5BAIoZBSFihQYQOOBEdkCOgXTOHA07HAGjGWiIjaPZNW13/+lm6S9FT7rLHFJ6fQbkATOG1j2OFMucKJJsxIVfQORl+9Jyda6Sl1dUYhSCm1dyClfoeDve4qMYdLEbfqHf3O/AdDumsjAAB42mNgYoAAZQYjBmyAGYQZmdhL8zLdDEydARfoAqIAAAABAAMABwAKABMAB///AA8AAQAAAAAAAAAAAAAAAAABAAAAAA==) format('woff');
+}
+.markdown-body {
+-ms-text-size-adjust: 100%;
+-webkit-text-size-adjust: 100%;
+line-height: 1.5;
+color: #24292e;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-size: 16px;
+line-height: 1.5;
+word-wrap: break-word;
+}
+.markdown-body .pl-c {
+color: #6a737d;
+}
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+color: #005cc5;
+}
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+color: #6f42c1;
+}
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+color: #24292e;
+}
+.markdown-body .pl-ent {
+color: #22863a;
+}
+.markdown-body .pl-k {
+color: #d73a49;
+}
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+color: #032f62;
+}
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+color: #e36209;
+}
+.markdown-body .pl-bu {
+color: #b31d28;
+}
+.markdown-body .pl-ii {
+color: #fafbfc;
+background-color: #b31d28;
+}
+.markdown-body .pl-c2 {
+color: #fafbfc;
+background-color: #d73a49;
+}
+.markdown-body .pl-c2::before {
+content: "^M";
+}
+.markdown-body .pl-sr .pl-cce {
+font-weight: bold;
+color: #22863a;
+}
+.markdown-body .pl-ml {
+color: #735c0f;
+}
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+font-weight: bold;
+color: #005cc5;
+}
+.markdown-body .pl-mi {
+font-style: italic;
+color: #24292e;
+}
+.markdown-body .pl-mb {
+font-weight: bold;
+color: #24292e;
+}
+.markdown-body .pl-md {
+color: #b31d28;
+background-color: #ffeef0;
+}
+.markdown-body .pl-mi1 {
+color: #22863a;
+background-color: #f0fff4;
+}
+.markdown-body .pl-mc {
+color: #e36209;
+background-color: #ffebda;
+}
+.markdown-body .pl-mi2 {
+color: #f6f8fa;
+background-color: #005cc5;
+}
+.markdown-body .pl-mdr {
+font-weight: bold;
+color: #6f42c1;
+}
+.markdown-body .pl-ba {
+color: #586069;
+}
+.markdown-body .pl-sg {
+color: #959da5;
+}
+.markdown-body .pl-corl {
+text-decoration: underline;
+color: #032f62;
+}
+.markdown-body .octicon {
+display: inline-block;
+vertical-align: text-top;
+fill: currentColor;
+}
+.markdown-body a {
+background-color: transparent;
+}
+.markdown-body a:active,
+.markdown-body a:hover {
+outline-width: 0;
+}
+.markdown-body strong {
+font-weight: inherit;
+}
+.markdown-body strong {
+font-weight: bolder;
+}
+.markdown-body h1 {
+font-size: 2em;
+margin: 0.67em 0;
+}
+.markdown-body img {
+border-style: none;
+}
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+font-family: monospace, monospace;
+font-size: 1em;
+}
+.markdown-body hr {
+box-sizing: content-box;
+height: 0;
+overflow: visible;
+}
+.markdown-body input {
+font: inherit;
+margin: 0;
+}
+.markdown-body input {
+overflow: visible;
+}
+.markdown-body [type="checkbox"] {
+box-sizing: border-box;
+padding: 0;
+}
+.markdown-body * {
+box-sizing: border-box;
+}
+.markdown-body input {
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+}
+.markdown-body a {
+color: #0366d6;
+text-decoration: none;
+}
+.markdown-body a:hover {
+text-decoration: underline;
+}
+.markdown-body strong {
+font-weight: 600;
+}
+.markdown-body hr {
+height: 0;
+margin: 15px 0;
+overflow: hidden;
+background: transparent;
+border: 0;
+border-bottom: 1px solid #dfe2e5;
+}
+.markdown-body hr::before {
+display: table;
+content: "";
+}
+.markdown-body hr::after {
+display: table;
+clear: both;
+content: "";
+}
+.markdown-body table {
+border-spacing: 0;
+border-collapse: collapse;
+}
+.markdown-body td,
+.markdown-body th {
+padding: 0;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+margin-top: 0;
+margin-bottom: 0;
+}
+.markdown-body h1 {
+font-size: 32px;
+font-weight: 600;
+}
+.markdown-body h2 {
+font-size: 24px;
+font-weight: 600;
+}
+.markdown-body h3 {
+font-size: 20px;
+font-weight: 600;
+}
+.markdown-body h4 {
+font-size: 16px;
+font-weight: 600;
+}
+.markdown-body h5 {
+font-size: 14px;
+font-weight: 600;
+}
+.markdown-body h6 {
+font-size: 12px;
+font-weight: 600;
+}
+.markdown-body p {
+margin-top: 0;
+margin-bottom: 10px;
+}
+.markdown-body blockquote {
+margin: 0;
+}
+.markdown-body ul,
+.markdown-body ol {
+padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;
+}
+.markdown-body ol ol,
+.markdown-body ul ol {
+list-style-type: lower-roman;
+}
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+list-style-type: lower-alpha;
+}
+.markdown-body dd {
+margin-left: 0;
+}
+.markdown-body code {
+font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+font-size: 12px;
+}
+.markdown-body pre {
+margin-top: 0;
+margin-bottom: 0;
+font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+font-size: 12px;
+}
+.markdown-body .octicon {
+vertical-align: text-bottom;
+}
+.markdown-body .pl-0 {
+padding-left: 0 !important;
+}
+.markdown-body .pl-1 {
+padding-left: 4px !important;
+}
+.markdown-body .pl-2 {
+padding-left: 8px !important;
+}
+.markdown-body .pl-3 {
+padding-left: 16px !important;
+}
+.markdown-body .pl-4 {
+padding-left: 24px !important;
+}
+.markdown-body .pl-5 {
+padding-left: 32px !important;
+}
+.markdown-body .pl-6 {
+padding-left: 40px !important;
+}
+.markdown-body::before {
+display: table;
+content: "";
+}
+.markdown-body::after {
+display: table;
+clear: both;
+content: "";
+}
+.markdown-body>*:first-child {
+margin-top: 0 !important;
+}
+.markdown-body>*:last-child {
+margin-bottom: 0 !important;
+}
+.markdown-body a:not([href]) {
+color: inherit;
+text-decoration: none;
+}
+.markdown-body .anchor {
+float: left;
+padding-right: 4px;
+margin-left: -20px;
+line-height: 1;
+}
+.markdown-body .anchor:focus {
+outline: none;
+}
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+margin-top: 0;
+margin-bottom: 16px;
+}
+.markdown-body hr {
+height: 0.25em;
+padding: 0;
+margin: 24px 0;
+background-color: #e1e4e8;
+border: 0;
+}
+.markdown-body blockquote {
+padding: 0 1em;
+color: #6a737d;
+border-left: 0.25em solid #dfe2e5;
+}
+.markdown-body blockquote>:first-child {
+margin-top: 0;
+}
+.markdown-body blockquote>:last-child {
+margin-bottom: 0;
+}
+.markdown-body kbd {
+display: inline-block;
+padding: 3px 5px;
+font-size: 11px;
+line-height: 10px;
+color: #444d56;
+vertical-align: middle;
+background-color: #fafbfc;
+border: solid 1px #c6cbd1;
+border-bottom-color: #959da5;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #959da5;
+}
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+margin-top: 24px;
+margin-bottom: 16px;
+font-weight: 600;
+line-height: 1.25;
+}
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+color: #1b1f23;
+vertical-align: middle;
+visibility: hidden;
+}
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+text-decoration: none;
+}
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+visibility: visible;
+}
+.markdown-body h1 {
+padding-bottom: 0.3em;
+font-size: 2em;
+border-bottom: 1px solid #eaecef;
+}
+.markdown-body h2 {
+padding-bottom: 0.3em;
+font-size: 1.5em;
+border-bottom: 1px solid #eaecef;
+}
+.markdown-body h3 {
+font-size: 1.25em;
+}
+.markdown-body h4 {
+font-size: 1em;
+}
+.markdown-body h5 {
+font-size: 0.875em;
+}
+.markdown-body h6 {
+font-size: 0.85em;
+color: #6a737d;
+}
+.markdown-body ul,
+.markdown-body ol {
+padding-left: 2em;
+}
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+margin-top: 0;
+margin-bottom: 0;
+}
+.markdown-body li {
+word-wrap: break-all;
+}
+.markdown-body li>p {
+margin-top: 16px;
+}
+.markdown-body li+li {
+margin-top: 0.25em;
+}
+.markdown-body dl {
+padding: 0;
+}
+.markdown-body dl dt {
+padding: 0;
+margin-top: 16px;
+font-size: 1em;
+font-style: italic;
+font-weight: 600;
+}
+.markdown-body dl dd {
+padding: 0 16px;
+margin-bottom: 16px;
+}
+.markdown-body table {
+display: block;
+width: 100%;
+overflow: auto;
+}
+.markdown-body table th {
+font-weight: 600;
+}
+.markdown-body table th,
+.markdown-body table td {
+padding: 6px 13px;
+border: 1px solid #dfe2e5;
+}
+.markdown-body table tr {
+background-color: #fff;
+border-top: 1px solid #c6cbd1;
+}
+.markdown-body table tr:nth-child(2n) {
+background-color: #f6f8fa;
+}
+.markdown-body img {
+max-width: 100%;
+box-sizing: content-box;
+background-color: #fff;
+}
+.markdown-body img[align=right] {
+padding-left: 20px;
+}
+.markdown-body img[align=left] {
+padding-right: 20px;
+}
+.markdown-body code {
+padding: 0.2em 0.4em;
+margin: 0;
+font-size: 85%;
+background-color: rgba(27,31,35,0.05);
+border-radius: 3px;
+}
+.markdown-body pre {
+word-wrap: normal;
+}
+.markdown-body pre>code {
+padding: 0;
+margin: 0;
+font-size: 100%;
+word-break: normal;
+white-space: pre;
+background: transparent;
+border: 0;
+}
+.markdown-body .highlight {
+margin-bottom: 16px;
+}
+.markdown-body .highlight pre {
+margin-bottom: 0;
+word-break: normal;
+}
+.markdown-body .highlight pre,
+.markdown-body pre {
+padding: 16px;
+overflow: auto;
+font-size: 85%;
+line-height: 1.45;
+background-color: #f6f8fa;
+border-radius: 3px;
+}
+.markdown-body pre code {
+display: inline;
+max-width: auto;
+padding: 0;
+margin: 0;
+overflow: visible;
+line-height: inherit;
+word-wrap: normal;
+background-color: transparent;
+border: 0;
+}
+.markdown-body .full-commit .btn-outline:not(:disabled):hover {
+color: #005cc5;
+border-color: #005cc5;
+}
+.markdown-body kbd {
+display: inline-block;
+padding: 3px 5px;
+font: 11px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+line-height: 10px;
+color: #444d56;
+vertical-align: middle;
+background-color: #fafbfc;
+border: solid 1px #d1d5da;
+border-bottom-color: #c6cbd1;
+border-radius: 3px;
+box-shadow: inset 0 -1px 0 #c6cbd1;
+}
+.markdown-body :checked+.radio-label {
+position: relative;
+z-index: 1;
+border-color: #0366d6;
+}
+.markdown-body .task-list-item {
+list-style-type: none;
+}
+.markdown-body .task-list-item+.task-list-item {
+margin-top: 3px;
+}
+.markdown-body .task-list-item input {
+margin: 0 0.2em 0.25em -1.6em;
+vertical-align: middle;
+}
+.markdown-body hr {
+border-bottom-color: #eee;
+}
+</style>
+  <style type="text/css">.markdown-body {
+box-sizing: border-box;
+min-width: 200px;
+max-width: 980px;
+margin: 0 auto;
+padding: 45px;
+}
+@media (max-width: 767px) {
+.markdown-body {
+padding: 15px;
+}
+}
+del {
+color: #b31d28;
+background-color: #ffeef0;
+}
+ins {
+color: #22863a;
+background-color: #f0fff4;
+}
+del + ins {
+color: #e36209;
+background-color: #ffebda;
+}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<article class="markdown-body">
+<p><em><del>This manuscript (<a href="https://greenelab.github.io/meta-review/v/eb7a64b8cc8f79f03e43f7909889138d26dd0807/">permalink</a>) was automatically generated from <a href="https://github.com/greenelab/meta-review/tree/eb7a64b8cc8f79f03e43f7909889138d26dd0807">greenelab/meta-review@eb7a64b</a> on June 14, 2019.</del></em></p>
+<h2 id="authors"><del>Authors</del></h2>
+<p>
+<ins>
+&lt;!DOCTYPE article PUBLIC “-//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN”“http://jats.nlm.nih.gov/publishing/1.1d3/JATS-journalpublishing1.dtd”&gt;
+</ins>
+</p>
+<p>
+<ins>
+PLoS Comput Biol
+</ins>
+<ins>
+plos
+</ins>
+<ins>
+ploscomp
+</ins>
+<ins>
+PLOS Computational Biology
+</ins>
+<ins>
+1553-734X
+</ins>
+<ins>
+1553-7358
+</ins>
+<ins>
+Public Library of Science
+</ins>
+<ins>
+San Francisco, CA USA
+</ins>
+<ins>
+10.1371/journal.pcbi.1007128
+</ins>
+<ins>
+PCOMPBIOL-D-18-01884
+</ins>
+<ins>
+Research Article
+</ins>
+<ins>
+Research and analysis methods
+</ins>
+<ins>
+Research assessment
+</ins>
+<ins>
+Citation analysis
+</ins>
+<ins>
+Computer and information sciences
+</ins>
+<ins>
+Data management
+</ins>
+<ins>
+Metadata
+</ins>
+<ins>
+Research and analysis methods
+</ins>
+<ins>
+Research assessment
+</ins>
+<ins>
+Peer review
+</ins>
+<ins>
+Computer and information sciences
+</ins>
+<ins>
+Computer applications
+</ins>
+<ins>
+Web-based applications
+</ins>
+<ins>
+Computer and information sciences
+</ins>
+<ins>
+Computer software
+</ins>
+<ins>
+Open source software
+</ins>
+<ins>
+Science policy
+</ins>
+<ins>
+Open science
+</ins>
+<ins>
+Open source software
+</ins>
+<ins>
+Science policy
+</ins>
+<ins>
+Open science
+</ins>
+<ins>
+Computer and information sciences
+</ins>
+<ins>
+Computer networks
+</ins>
+<ins>
+Internet
+</ins>
+<ins>
+Research and analysis methods
+</ins>
+<ins>
+Scientific publishing
+</ins>
+<ins>
+Open collaborative writing with Manubot
+</ins>
+<ins>
+Open collaborative writing with Manubot
+</ins>
+<ins>
+http://orcid.org/0000-0002-3012-7446
+</ins>
+<ins>
+Himmelstein
+</ins>
+Daniel S.<del> Himmelstein</del><sup><del>1<a href="#correspondence">*</a></del></sup><del>, Vincent Rubinetti</del><ins>Conceptualization</ins><ins>Data curation</ins><ins>Funding acquisition</ins><ins>Investigation</ins><ins>Methodology</ins><ins>Project administration</ins><ins>Software</ins><ins>Supervision</ins><ins>Validation</ins><ins>Visualization</ins><ins>Writing – original draft</ins><ins>Writing – review &amp; editing</ins><sup>1</sup><del>, </del><em><ins>http://orcid.org/0000-0002-4655-3773</ins><ins>Rubinetti</ins><ins>Vincent</ins><ins>Conceptualization</ins><ins>Methodology</ins><ins>Software</ins><ins>Visualization</ins><ins>Writing – original draft</ins><ins>Writing – review &amp; editing</ins><ins><sup>1</sup></ins><ins>http://orcid.org/0000-0003-3928-5050</ins><ins>Slochower</ins>David R.<del> Slochower</del><ins>Conceptualization</ins><ins>Investigation</ins><ins>Methodology</ins><ins>Software</ins><ins>Visualization</ins><ins>Writing – original draft</ins><ins>Writing – review &amp; editing</ins><sup>2</sup><del>, </del><ins>Hu</ins>Dongbo<del> Hu</del><ins>Software</ins><sup>1</sup><del>, </del><ins>http://orcid.org/0000-0002-0144-0564</ins><ins>Malladi</ins>Venkat S.<del> Malladi</del><ins>Software</ins><ins>Validation</ins><ins>Writing – review &amp; editing</ins><sup><del>3,</del><ins>3</ins>4</sup><del>, </del><ins>http://orcid.org/0000-0001-8713-9213</ins><ins>Greene</ins>Casey S.<del> Greene</del><ins>Conceptualization</ins><ins>Funding acquisition</ins><ins>Methodology</ins><ins>Project administration</ins><ins>Resources</ins><ins>Supervision</ins><ins>Visualization</ins><ins>Writing – original draft</ins><ins>Writing – review &amp; editing</ins><sup>1</sup><del>, </del><ins>http://orcid.org/0000-0002-5324-9833</ins><ins>Gitter</ins>Anthony<del> Gitter</del><ins>Conceptualization</ins><ins>Data curation</ins><ins>Investigation</ins><ins>Methodology</ins><ins>Project administration</ins><ins>Software</ins><ins>Supervision</ins><ins>Validation</ins><ins>Visualization</ins><ins>Writing – original draft</ins><ins>Writing – review &amp; editing</ins><sup><del>5,</del><ins>5</ins>6<del><a href="#correspondence">*</a></del></sup></em>
+</p>
+<ol type="1">
+<li><ins>
+1
+</ins>
+Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America</li>
+<li><ins>
+2
+</ins>
+Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America</li>
+<li><ins>
+3
+</ins>
+Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America</li>
+<li><ins>
+4
+</ins>
+Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America</li>
+<li><ins>
+5
+</ins>
+Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America</li>
+<li><ins>
+6
+</ins>
+Morgridge Institute for Research, Madison, Wisconsin, United States of America</li>
+</ol>
+<p>
+<ins>
+Schneidman-Duhovny
+</ins>
+<ins>
+Dina
+</ins>
+<ins>
+Editor
+</ins>
+<ins>
+</ins>
+<ins>
+Hebrew University of Jerusalem, ISRAEL
+</ins>
+</p>
+<p>
+<ins>
+The authors have declared that no competing interests exist.
+</ins>
+</p>
+<p>* <del>— correspondence preferred via <a href="https://github.com/greenelab/meta-review/issues">GitHub Issues</a>. Otherwise, address correspondence to </del><a href="mailto:gitter@biostat.wisc.edu"><ins>E-mail: </ins><ins>daniel.himmelstein@gmail.com</ins><ins> (DSH); </ins>gitter@biostat.wisc.edu</a><ins> (AG)</ins><ins>24</ins><ins>6</ins><ins>2019</ins><ins>6</ins><ins>2019</ins><ins>15</ins><ins>6</ins><ins>e1007128</ins><ins>6</ins><ins>11</ins><ins>2018</ins><ins>24</ins><ins>5</ins><ins>2019</ins><ins>2019</ins><ins>Himmelstein et al</ins><ins>This is an open access article distributed under the terms of the </ins><ins>Creative Commons Attribution License</ins><ins>, which permits unrestricted use, distribution,</ins> and <del><a href="mailto:daniel.himmelstein@gmail.com" class="email">daniel.himmelstein@gmail.com</a>.</del></p>
+<h2 id="abstract"><del>Abstract</del></h2>
+<p>
+<ins>
+reproduction in any medium, provided the original author and source are credited.
+</ins>
+</p>
+<p>Open, collaborative research is a powerful paradigm that can immensely strengthen the scientific process by integrating broad and diverse expertise. However, traditional research and multi-author writing processes break down at scale. We present new software named Manubot, available at <a href="https://manubot.org" class="uri">https://manubot.org</a>, to address the challenges of open scholarly writing. Manubot adopts the contribution workflow used by many large-scale open source software projects to enable collaborative authoring of scholarly manuscripts. With Manubot, manuscripts are written in Markdown and stored in a Git repository to precisely track changes over time. By hosting manuscript repositories publicly, such as on GitHub, multiple authors can simultaneously propose and review changes. A cloud service automatically evaluates proposed changes to catch errors. Publication with Manubot is continuous: When a manuscript’s source changes, the rendered outputs are rebuilt and republished to a web page. Manubot automates bibliographic tasks by implementing citation by identifier, where users cite persistent identifiers (e.g. DOIs, PubMed IDs, ISBNs, URLs), whose metadata is then retrieved and converted to a user-specified style. Manubot modernizes publishing to align with the ideals of open science by making it transparent, reproducible, immediate, versioned, collaborative, and free of charge.</p>
+<p>Author summary&lt;/h2&gt;</p>
+<p>Traditionally, scholarly manuscripts have been written in private by a predefined team of collaborators. But now the internet enables realtime open science, where project communication occurs online in a public venue and anyone is able to contribute. Dispersed teams of online contributors require new tools to jointly prepare manuscripts. Existing tools fail to scale beyond tens of authors and struggle to support iterative refinement of proposed changes. Therefore, we created a system called Manubot for writing manuscripts based on collaborative version control. Manubot adopts the workflow from open source software development, which has enabled hundreds of contributors to simultaneously develop complex codebases such as Python and Linux, and applies it to open collaborative writing. Manubot also addresses other shortcomings of current publishing tools. Specifically, all changes to a manuscript are tracked, enabling transparency and better attribution of credit. Manubot automates many tasks, including creating the bibliography and deploying the manuscript as a webpage. Manubot webpages preserve old versions and provide a simple yet interactive interface for reading. As such, Manubot is a suitable foundation for next-generation preprints. Manuscript readers have ample opportunity to not only provide public peer review but also to contribute improvements, before and after journal publication.</p>
+<h2 id="httpdx.doi.org10.13039100000879alfred-p.-sloan"><ins>http://dx.doi.org/10.13039/100000879</ins><ins>Alfred P. Sloan</h2>
+<p>Foundation</ins><ins>G-2018-11163</ins><ins>http://orcid.org/0000-0002-3012-7446</ins><ins>Himmelstein</ins><ins>Daniel S.</ins><ins>http://dx.doi.org/10.13039/100000936</ins><ins>Gordon and Betty Moore Foundation</ins><ins>GBMF4552</ins><ins>http://orcid.org/0000-0002-3012-7446</ins><ins>Himmelstein</ins><ins>Daniel S.</ins><ins>http://dx.doi.org/10.13039/100004917</ins><ins>Cancer Prevention and Research Institute of Texas</ins><ins>RP150596</ins><ins>http://orcid.org/0000-0002-0144-0564</ins><ins>Malladi</ins><ins>Venkat S.</ins><ins>DSH, DH, VR, and CSG were supported by Grant G-2018-11163 from the Alfred P. Sloan Foundation and Grant GBMF4552 from the Gordon and Betty Moore Foundation. VSM was supported by Grant RP150596 from the Cancer Prevention and Research Institute of Texas. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</ins><ins> </ins><ins>PLOS Publication Stage</ins><ins>uncorrected-proof</ins><ins>Data Availability</ins><ins>The source code and data for this manuscript are available at </ins><ins>https://github.com/greenelab/meta-review</ins><ins> and archived via Software Heritage identifier swh:1:dir:da789e842d0af90f0fa50de522f0c4caae95e4e3. Source code for Manubot resides in the following repositories: </ins><ins>https://github.com/manubot/manubot</ins><ins> (GitLab mirror (</ins><ins>https://gitlab.com/manubot/manubot</ins><ins>) archived at swh:1:dir:506058af283d6d311a92d03b02adb9dca9f139de, packaged on PyPI (</ins><ins>https://pypi.org/project/manubot/</ins><ins>)), and </ins><ins>https://github.com/manubot/rootstock</ins><ins> (GitLab mirror (</ins><ins>https://gitlab.com/manubot/rootstock</ins><ins>), archived at swh:1:dir:4e689f4e2f4b272b8672142f4c81abd3e77392f9).</ins></p>
+<p>
+<ins>
+This is a
+</ins>
+<ins>
+PLOS Computational Biology
+</ins>
+<ins>
+Software paper.
+</ins>
+</p>
+<p>Introduction&lt;/h2&gt;</p>
+<p>The internet enables science to be shared in real-time at a low cost to a global audience. This development has decreased the barriers to making science open, while supporting new massively collaborative models of research [<a href="#ref-1DiVJ3t6P">1</a>]. However, the scientific community requires tools whose workflows encourage openness [<a href="#ref-IWBJQIkl">2</a>]. Manuscripts are the cornerstone of scholarly communication, but drafting and publishing manuscripts has traditionally relied on proprietary or offline tools that do not support <em>open scholarly writing</em>, in which anyone is able to contribute and the contribution history is preserved and public. We introduce <del><a href="https://manubot.org">Manubot</a>,</del><ins>Manubot,</ins> a new tool and infrastructure for authoring scholarly manuscripts in the open, and report how it was instrumental for the collaborative project that led to its creation.</p>
+<p>Based on our experience leading a recent open review [<a href="#ref-16CgM2x0z">3</a>], we discuss the advantages and challenges of open collaborative writing, a form of crowdsourcing [<a href="#ref-12sHvZy1a">4</a>]. Our review manuscript [<a href="#ref-PZMP42Ak">5</a>] was code-named the Deep Review and surveyed deep learning’s role in biology and precision medicine, a research area undergoing explosive growth. We initiated the Deep Review in August 2016 by creating a GitHub repository (<a href="https://github.com/greenelab/deep-review" class="uri">https://github.com/greenelab/deep-review</a>) to coordinate and manage contributions. GitHub is a platform designed for collaborative software development that is adaptable for collaborative writing. From the start, we made the GitHub repository public under a Creative Commons Attribution License <del>(</del>[<del>CC</del><ins>(CC</ins> BY 4.<del>0</del>]<del>)</del><ins>0)</ins>. We encouraged anyone interested to contribute by proposing changes or additions. Although we invited some specific experts to participate, most authors discovered the manuscript organically through conferences or social media, deciding to contribute without solicitation. In total, the Deep Review attracted 36 authors, who were not determined in advance, from 20 different institutions in less than two years.</p>
+<p>The Deep Review and other studies that subsequently adopted the Manubot platform were unequivocal successes bolstered by the collaborative approach. However, inviting wide authorship brought many technical and social challenges such as how to fairly distribute credit, coordinate the scientific content, and collaboratively manage extensive reference lists. The manuscript writing process we developed using the Markdown language, the GitHub platform, and our new Manubot tool for automating manuscript generation addresses these challenges.</p>
+<p>Manubot supports citations by adding a persistent identifier like a Digital Object Identifier (DOI) or PubMed Identifier (PMID) directly in the text so that large groups of authors do not have to coordinate reference lists. When text is changed, Manubot automatically updates the manuscript’s web page so that all authors can read and edit from the latest version. Because manuscripts are created from GitHub repositories, Manubot supports a workflow where all edits are reviewed and discussed, ensuring that the collaborative text has a cohesive style and message and that authors receive precise credit for their work. These and other features support an open collaborative writing process that is not feasible with other writing platforms.</p>
+<p>Collaborative writing platforms&lt;/h2&gt;</p>
+<p>There are many existing collaborative writing platforms <del>(Table </del>[<ins>(</ins><ins>Table </ins>1]) [[6]]. In general, platforms with <del>“what</del>“<ins>what</ins> you see is what you <del>get”</del><ins>get</ins>” (WYSIWYG) editors, such as Microsoft Word or Google Docs, require the least technical expertise to use. On the flip side, WYSIWYG platforms can be difficult to customize and incorporate into automated computational workflows. Traditionally, LaTeX has been used for these needs, since documents are written in plain text and the system is open source and extensible. Rendering LaTeX documents requires specialized software, but webapps like [Overleaf] now enable collaborative authoring of LaTeX documents. Nonetheless, LaTeX-based systems are limited in that PDF (or similar) is the only fully supported output format. Alternatively, [Authorea] is a collaborative writing webapp whose primary output format is HTML. Authorea allows authors to write in Markdown, a limited subset of LaTeX, or their WYSIWYG HTML editor.</p>
+<p>
+<del>
+</del>
+</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><del>Feature</del></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><del>Manubot</del> <del>Authorea</del> <del>Overleaf</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">v2</del> <del>Google Docs + Paperpile</del></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"><del>Word Online<sup>1</sup></del> <del>Markdown on</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">GitHub</del></td>
+</tr>
+</tbody>
+</table>
+<h2 id="section">—————————————————-</h2>
+<h2 id="section-1">—————————————————</h2>
+<h2 id="section-2">——————————————————————–</h2>
+<p><del>Multi-author editing</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>Yes</del></p>
+<p><del>Propose changes</del> <del>Yes</del> <del>No</del> <del>No</del> <del>Yes</del> <del>No</del> <del>Yes</del></p>
+<p><del>Continuous integration testing</del> <del>Yes</del> <del>No</del> <del>No</del> <del>No</del> <del>No</del> <del>No</del></p>
+<p><del>Multi-participant conversation for changes</del> <del>Yes</del> <del>No<sup>2</sup></del> <del>No<sup>2</sup></del> <del>No<sup>2</sup></del> <del>No<sup>2</sup></del> <del>Yes</del></p>
+<p><del>Character-level provenance for text</del> <del>Yes</del> <del>Yes</del> <del>No<sup>3</sup></del> <del>Requires manual inspection of history</del> <del>Not after changes are accepted</del> <del>Yes</del></p>
+<p><del>Bibliography management</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>No, requires the Word desktop application</del> <del>No</del></p>
+<p><del>Citation by identifier</del> <del>Yes</del> <del>Yes</del> <del>No</del> <del>No</del> <del>No</del> <del>No</del></p>
+<p><del>Editing software</del> <del>Any text editor</del> <del>Web interface</del> <del>Web interface</del> <del>Web interface</del> <del>Web interface</del> <del>Any text editor</del></p>
+<p><del>Document format</del> <del>Markdown</del> <del>HTML</del> <del>LaTeX</del> <del>Proprietary</del> <del>Proprietary</del> <del>Markdown</del></p>
+<p><del>Templating</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>No</del> <del>No</del> <del>No</del></p>
+<p><del>Technical expertise required</del> <del>Yes</del> <del>No</del> <del>Yes</del> <del>No</del> <del>No</del> <del>Yes</del></p>
+<p><del>WYSIWYG mode</del> <del>No</del> <del>Yes</del> <del>Rich text available</del> <del>Yes</del> <del>Yes</del> <del>Preview rendered Markdown</del></p>
+<p><del>Inline comments</del> <del>Yes using Hypothesis</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>Yes</del> <del>No</del></p>
+<p><del>Viewing changes</del> <del>Diff of manuscript source</del> <del>Highlight changes</del> <del>Compare labeled versions</del> <del>Highlight changes</del> <del>No</del> <del>Diff of manuscript source</del></p>
+<hr />
+<p>: <del>Table 1: Collaborative writing platforms. A summary of features that differentiate Manubot from existing collaborative writing platforms. We assessed features in June 2018 using the free version of each platform and updated our assessment in April 2019 to add the features in the bottom three rows and re-evaluate Authorea and Overleaf. Some platforms offer additional features through a paid subscription or software. 1) Additional functionality, such as bibliography management and tracking changes, is available by editing the Word document stored in OneDrive with the paid Word desktop application. 2) Conversations about modifications take place on the document as comments, annotations, or unsaved chats. There is no integrated forum for discussing and editing revisions. 3) In some circumstances, Overleaf Git commits are not modular. Edits made by distinct authors may be attributed to a single author. The GitHub Sync feature attributes all edits to the project owner. </del></p>
+<p>
+<del>
+Existing platforms work well for editing text and are widely used for scholarly writing. However, they often lack features that are important for open collaborative writing, such as versatile version control and multiple permission levels. For example, Manubot is the only platform listed in Table <a href="#ref-1DiVJ3t6P">1</a>[<ins>(
+</del>
+<span class="ins">Table </ins>1] that offers the ability to address thematically related changes together and enables multiple authors to iteratively refine proposed changes.</span>
+</p>
+<h2 id="manubot-contribution-workflow"><del>Manubot contribution workflow</del></h2>
+<p>
+<del>
+Manubot’s collaborative writing workflow adopts standard software development strategies that enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes. The GitHub platform supports organizing and editing the manuscript. Manubot projects use GitHub <em>issues</em> for organization, opening a new issue for each discussion topic. For example, in a review manuscript like the Deep Review, this includes each primary paper under consideration. Within a paper’s issue, contributors summarize the research, discuss it (sometimes with participation from the original authors), and assess its relevance to the review. In a primary research article, issues can instead track progress on specific figures or subsections of text being drafted. Issues serve as an open to-do list and a forum for debating the main messages of the manuscript.
+</del>
+</p>
+<p>
+<del>
+GitHub and the underlying Git version control system [[7],[8]] also structure the writing process. The official version of the manuscript is <em>forked</em> by individual contributors, creating a copy they can freely modify. A contributor then adds and revises files, grouping these changes into <em>commits</em>. When the changes are ready to be reviewed, the series of commits are submitted as a <em>pull request</em> through GitHub, which notifies other authors of the pending changes. GitHub’s review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications [[9]]. Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content (Figure <a href="#ref-1DiVJ3t6P">1</a>). Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits and helps maintain consistent content and tone across different authors and reviewers. Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version. The process of writing and revising material can be orchestrated through GitHub with a web browser (as shown in [S1 Video]) or through a local text editor.
+</del>
+</p>
+<p>
+<del>
+[Figure 1: Manubot editing workflow. Any reader can contribute to a Manubot manuscript by proposing a change through a pull request. This example involves three people: a manuscript Maintainer, an existing project Contributor, and an additional Participant in the discussion. Manuscript text is shown in solid lines on the left of the timeline and discussion on GitHub is shown by squiggly lines to the right of the timeline. The Contributor opens a GitHub issue to discuss a manuscript modification. The Maintainer and the Participant provide feedback in the issue, and the Maintainer recommends creating a GitHub pull request to update the text. The Contributor creates the pull request. It is reviewed by the Maintainer and the Participant, and the Contributor updates the pull request in response. Once the pull request is approved, the Maintainer merges the changes into the official version of the manuscript.]
+</del>
+</p>
+<p>
+<del>
+The Deep Review [issue] and [pull request] on protein-protein interactions demonstrate this process in practice. A new contributor identified a relevant research topic that was missing from the review manuscript with examples of how the literature would be summarized, critiqued, and integrated into the review. A maintainer confirmed that this was a desirable topic and referred to related open issues. The contributor made the pull request, and two maintainers and another participant made recommendations. After four rounds of reviews and pull request edits, a maintainer merged the changes.
+</del>
+</p>
+<p>
+<del>
+We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit. In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work. Figure <a href="#ref-IWBJQIkl">2</a> and the GitHub [contributors page] summarize all edits and commits from each author, providing aggregated information that is not available on most other collaborative writing platforms. Because the Manubot writing process tracks the complete history through Git commits, it enables detailed retrospective contribution analysis. These pull request and contribution tracking examples both come from Deep Review, the largest Manubot project to date, but illustrate the general principles of transparency and collaboration that are shared by all open Manubot manuscripts.
+</del>
+</p>
+<p>
+<del>
+[Figure 2: Deep Review contributions by author over time. The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from Git commit diffs of the manuscript’s Markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history. The Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [10] in May 2017. While the article was under review, we continued to maintain the project and accepted new contributions. The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [5]. As of March 06, 2019, the Deep Review repository accumulated 755 Git commits, 317 merged pull requests, 609 issues, and 819 GitHub stars. The notebook to generate this figure can be interactively launched using Binder [11], enabling users to explore alternative visualizations or analyses of the source data.]
+</del>
+</p>
+<p>
+<del>
+GitHub issues can also be used for formal peer review by independent or journal-selected reviewers. A reviewer conducting open peer review can create issues using their own GitHub account, as [one reviewer] did for this manuscript. Alternatively, a reviewer can post feedback with a pseudonymous GitHub account or have a trusted third party such as a journal editor post their comments anonymously. Authors can elect to respond to reviews in the GitHub issues or a public [response letter], creating open peer review.
+</del>
+</p>
+<p>
+<del>
+Although we developed Manubot with collaborative writing in mind, it can also be helpful for individuals preparing scholarly documents. Authors may choose to make their changes directly to the <code>master</code> branch, forgoing pull requests and reviews. This workflow retains many of Manubot’s benefits, such as transparent history, automation, and allowing outside contributors to propose changes. In cases where outside contributions are unwanted, authors can disable pull requests on GitHub. It is also possible to use Manubot on a private GitHub repository. Private manuscripts require some additional customization to disable GitHub Pages and may require a paid continuous integration plan. See the [existing manuscripts] for examples of the range of contribution workflows and Manubot use cases.
+</del>
+</p>
+<h2 id="manubot-features"><del>Manubot features</del></h2>
+<p>
+<del>
+Manubot is a system for writing scholarly manuscripts via GitHub. For each manuscript, there is a corresponding Git repository. The <code>master</code> branch of the repository contains all of the necessary inputs to build the manuscript. Specifically, a <code>content</code> directory contains one or more Markdown files that define the body of the manuscript as well as a metadata file to set information such as the title, authors, keywords, and language. Figures can be hosted in the <code>content/images</code> subdirectory or elsewhere and specified by URL. Repositories contain scripts and other files that define how to build and deploy the manuscript. Many of these operations are delegated to the <code>manubot</code>[Python package] or other dependencies such as Pandoc, which converts between document formats, and Travis CI, which builds the manuscript in the cloud. Manubot pieces together many existing standards and technologies to encapsulate a manuscript in a repository and automatically generate outputs.
+</del>
+</p>
+<h3 id="markdown"><del>Markdown</del></h3>
+<p>
+<del>
+With Manubot, manuscripts are written as plain-text Markdown files. The [Markdown standard] itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists. In addition, Manubot relies on extensions from [Pandoc Markdown] to enable citations, tables, captions, and equations specified using the popular TeX math syntax. Markdown with Pandoc extensions supports most formatting options required for scholarly writing [[12]] but currently lacks the ability to cross-reference and automatically number figures, tables, and equations. For this functionality, Manubot includes the
+</del>
+[<del><code>pandoc-xnos</code></del>]<del> suite of Pandoc filters. A list of formatting options officially supported by Manubot, at the time of writing, is viewable as [raw Markdown] and the corresponding [rendered HTML].</del>
+</p>
+<p>
+<del>
+By virtue of its readable syntax, Markdown is well suited for version control using Git. Markdown treats a single line break between text as a space and requires two-or-more consecutive line breaks to denote a new paragraph. For optimal tracking of Markdown files with Git, we recommend placing each sentence on its own line. This convention allows Git to display diffs on a per sentence basis, avoids unnecessary reflows associated with line wrapping, and supports easy rearrangement of sentences.
+</del>
+</p>
+<h3 id="citation-by-identifier"><del>Citation by identifier</del></h3>
+<p>
+<del>
+Manubot includes an additional layer of citation processing, currently unique to the system. All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata such as the title, authors, and publication date. Table <a href="#ref-16CgM2x0z">2</a> presents the supported identifiers and example citations before and after Manubot processing. Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers. Citation metadata is exported to the [Citation Style Language (CSL) JSON Data Items] format, an open standard that is widely supported by reference managers [[13],[14]]. However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as [pandoc-citeproc]. Therefore, Manubot removes invalid fields according to the [CSL Data specification]. In cases where automatic retrieval of metadata fails or produces incorrect references — which is most common for URL citations — users can manually provide the correct metadata using common reference formats. Manual metadata also supports references without standard identifiers, such as print-only newspaper articles.
+</del>
+</p>
+<p>
+<del>
+</del>
+</p>
+<table>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;"><del>Identifier</del> <del>Metadata</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">source</del> <del>Example</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">citation</del> <del>Processed citation</del></td>
+</tr>
+</tbody>
+</table>
+<h2 id="section-3">————————————————————–</h2>
+<table style="width:64%;">
+<caption><del>Table 2:<strong>Citation types supported by Manubot.</strong> Manubot allows users to cite different types of persistent identifiers. Metadata source indicates the primary resource used to retrieve bibliographic metadata. For certain identifier types, additional metadata sources are queried should the primary fail. For example, when translation-server ISBN lookup fails, Manubot tries Wikipedia’s [Citoid] service followed by the [isbnlib] Python package. When translation-server URL lookup fails, Manubot then tries [Greycite][][[15]]. Raw citations enable citing works when no supported persistent identifiers exist, but require that the user specifies the metadata. Finally, authors may optionally map a named tag to any of the supported identifier types. In this example, the tag <code>avasthi-preprints</code> represents the DOI identifier <code>doi:10.7554/eLife.38532</code>. API: application programming interface </del></caption>
+<colgroup>
+<col style="width: 63%"></col>
+</colgroup>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;"><del>Digital Object Identifier (DOI)</del> <del>DOI [Content Negotiation]</del> <del><code>doi:10.1098/rsif.2017.0387</code></del> <del>[<a href="#ref-PZMP42Ak">5</a>]</del></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><del>shortDOI</del> <del>DOI Proxy Server API</del> <del><code>doi:10/gddkhn</code></del> <del>[<a href="#ref-PZMP42Ak">5</a>]</del></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"><del>PubMed Identifier (PMID)</del> <del>NCBI [E-utilities]</del> <del><code>pmid:25851694</code></del> <del>[[16]]</del></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><del>PubMed Central Identifier (PMCID)</del> <del>NCBI [Literature Citation Exporter]</del> <del><code>pmcid:PMC4719068</code></del> <del>[<a href="#ref-12sHvZy1a">4</a>]</del></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"><del>arXiv ID</del> <del>[arXiv API]</del> <del><code>arxiv:1502.04015v1</code></del> <del>[[17]]</del></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><del>International Standard Book Number (ISBN)</del> <del>[Zotero translation-server]</del> <del><code>isbn:9780262517638</code></del> <del>[[18]]</del></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"><del>Web address (URL)</del> <del>Zotero translation-server</del> <del><code>url:https://lgatto.github.io/open-and-open/</code></del> <del>[[19]]</del></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><del>Wikidata ID</del> <del>Zotero translation-server</del> <del><code>wikidata:Q56458321</code></del> <del>[[20]]</del></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;"><del>Raw</del> <del>Provided by user</del> <del><code>raw:paywall-movie</code></del> <del>[[21]]</del></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;"><del>Tag</del> <del>Source for tagged identifier</del> <del><code>tag:avasthi-preprints</code></del> <del>[[22]]</del></td>
+</tr>
+</tbody>
+</table>
+<p>
+<del>
+Manubot formats bibliographies according to a [CSL] style specification. Styles define how references are constructed from bibliographic metadata, controlling layout details such as the maximum number of authors to list per reference. Manubot’s default style emphasizes titles and electronic (rather than print) identifiers and applies numeric-style citations [[23]]. Alternatively, users can also choose from thousands of [predefined styles] or build their own [[24]]. As a result, adopting the specific bibliographic format required by a journal usually just requires specifying the style’s source URL in the Manubot configuration.
+</del>
+</p>
+<h3 id="format-conversion"><del>Format conversion</del></h3>
+<p>
+<del>
+Manubot uses [Pandoc] to convert manuscripts from Markdown to HTML, PDF, and optionally DOCX outputs. Pandoc also supports [Journal Article Tag Suite] (JATS), a standard format for scholarly articles that is used by publishers, archives, and text miners [[25]–[27]]. Pandoc’s JATS support provides an avenue to integrate Manubot with the larger JATS ecosystem. In the future, journals may accept submissions in JATS. For now, Manubot’s DOCX output is usually sufficient for journal submissions that require an editable source document. Otherwise, authors generally use the PDF output for preprint and initial journal submissions. The primary Manubot output is HTML intended to be viewed in a web browser. Accordingly, manuscripts natively support JavaScript and can thus include any web-based interactive visualization, such as those produced using [Vega-Lite], [Bokeh], or [Plotly][][[28],[29]].
+</del>
+</p>
+<h3 id="interactive-features-and-appearance"><del>Interactive features and appearance</del></h3>
+<p>
+<del>
+Manubot comes with several “plugins” that can be included in manuscripts exported as HTML. These plugins add special interactive features that enhance the user experience of viewing and reading manuscripts (Figure <a href="#ref-12sHvZy1a">3</a>). For example, with the “tooltips” plugin enabled, when the user hovers over a link to a reference or figure, a preview of that item pops up above the link, along with controls to navigate between other mentions of that item elsewhere in the document. The build process can also accommodate different “themes”, which change the general aesthetics and appearance of the exported document (e.g. from a contemporary sans-serif style to a more traditional serif style). The architecture of the plugins and themes is designed to provide authors with enough flexibility to suit their particular needs and preferences.
+</del>
+</p>
+<p>
+<del>
+[Figure 3: Examples of the various Manubot plugins, illustrating their functionality and usefulness. Screenshots were taken from existing manuscripts made with Manubot: Sci-Hub Coverage Study and TPOT-FSS, available under the CC BY 4.0 License. Clarifying markups are overlaid in purple.]
+</del>
+</p>
+<p>
+<del>
+The Manubot “front-end” (layout, look, controls, behavior, etc.) was developed in line with current best practices and user expectations of the modern web. The plugins use standard technology built in to most major web browsers, allowing them to be relatively lightweight, modular, and easy to configure.
+</del>
+</p>
+<h3 id="continuous-publication"><del>Continuous publication</del></h3>
+<p>
+<del>
+Manubot performs continuous publication: Every update to a manuscript’s source is automatically reflected in the online outputs. The approach uses continuous integration (CI) [[30]–[32]], specifically via [Travis CI], to monitor changes. When changes occur, the CI service attempts to generate an updated manuscript. If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository. Because the HTML manuscript is hosted using [GitHub Pages], the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub. Using CI to build the manuscript automatically catches many common errors, such as misspelled citations, invalid formatting, or misconfigured software dependencies.
+</del>
+</p>
+<p>
+<del>
+To illustrate, the source GitHub repository for this article is <a href="https://github.com/greenelab/meta-review" class="uri">https://github.com/greenelab/meta-review</a>. When this repository changes, Travis CI [rebuilds] the manuscript. If successful, the output is deployed back to GitHub (to dedicated
+</del>
+[<del><code>output</code></del>]<del> and </del>[<del><code>gh-pages</code></del>]<del> branches). As a result, <a href="https://greenelab.github.io/meta-review" class="uri">https://greenelab.github.io/meta-review</a> stays up to date with the latest HTML manuscript. Furthermore, versioned URLs, such as <a href="https://greenelab.github.io/meta-review/v/4b6396bcefd1b9c7ddf39c1d3f0b3eab2dd63f31/" class="uri">https://greenelab.github.io/meta-review/v/4b6396bcefd1b9c7ddf39c1d3f0b3eab2dd63f31/</a>, provide access to previous manuscript versions.</del>
+</p>
+<h3 id="timestamping"><del>Timestamping</del></h3>
+<p>
+<del>
+The idea of the “priority of discovery” is important to science, and Vale and Hyman discuss the importance of both disclosure and validation [[33]]. In their framework, disclosure occurs when a scientific output is released to the world. However, for a manuscript that is shared as it is written, being able to establish priority could be challenging. Manubot supports [OpenTimestamps] to timestamp the HTML and PDF outputs on the Bitcoin blockchain. This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [[17],[34]–[37]]. Timestamps protect against attempts to rewrite a manuscript’s history and ensure accurate histories, potentially alleviating certain authorship or priority disputes. Because all Bitcoin transactions compete for limited space on the blockchain, the fees required to send a single transaction can be high. OpenTimestamps minimizes fees by encoding many timestamps into a single Bitcoin transaction, enabling the service to be free of charge [[38]]. Since transactions can take up to a few days to be made, Manubot initially stores incomplete timestamps and upgrades them in future continuous deployment builds. We find that this asynchronous design with timestamps precise to the day is suitable for the purposes of scientific writing.
+</del>
+</p>
+<h3 id="reproducible-manuscripts"><del>Reproducible manuscripts</del></h3>
+<p>
+<del>
+Manubot and its dependencies are free of charge and largely open source. It does rely on gratis services from two proprietary platforms: GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and [several substitutes] already exist. Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [[39]] and is well-suited for preserving provenance. For example, figures can be specified using versioned URLs that refer to the code that created them. In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them. The Figure <a href="#ref-IWBJQIkl">2</a> caption provides examples of templates. Phrases such as “755 Git commits” are written as <code>{{total_commits}} Git commits</code> so that the commit count can be automatically updated.
+</del>
+</p>
+<h3 id="getting-started"><del>Getting started</del></h3>
+<p>
+<del>
+An example repository at <a href="https://github.com/manubot/rootstock" class="uri">https://github.com/manubot/rootstock</a>, referred to as Rootstock, demonstrates Manubot’s features and serves as a template for users to write their own manuscripts with Manubot. The [current setup process] includes cloning the Rootstock repository, rebranding it to the user’s manuscript, and configuring continuous integration. The setup process is complex but must only be performed once per manuscript. Incorporating new Manubot features into an existing manuscript is also possible by pulling the latest commits from Rootstock, which sometimes involves resolving Git conflicts.
+</del>
+</p>
+<p>
+<del>
+Contributing to a manuscript is less technical and can be performed entirely through GitHub’s web interface, as discussed in the [contribution workflow] section and demonstrated in [S1 Video]. Interested readers can practice editing a demo manuscript at <a href="https://github.com/manubot/try-manubot" class="uri">https://github.com/manubot/try-manubot</a>.
+</del>
+</p>
+<p>
+<del>
+At the 2019 <em>Pacific Symposium on Biocomputing</em>, we led a working group where 17 conference participants contributed to a different [demo manuscript]. Based on this experience, we believe most computational scholars have the expertise to contribute to a Manubot manuscript. Proficiency with Manubot requires familiarity with Markdown, Git, GitHub, and continuous integration. While these tools do present a barrier to entry, they are also highly applicable outside of Manubot and increasingly part of the standard curriculum for computational scholars. For example, Markdown is used for documenting Jupyter and R Markdown notebooks.
+</del>
+</p>
+<h3 id="existing-manuscripts"><del>Existing manuscripts</del></h3>
+<p>
+<del>
+Since its creation to facilitate the Deep Review, Manubot has been used to write a variety of scholarly documents. The [Sci-Hub Coverage Study] — performed openly on GitHub from its inception — investigated Sci-Hub’s repository of pirated articles [[40]]. Sci-Hub [reviewed] the initial preprint from this study in a series of tweets, pointing out a major error in one of the analyses. Within hours, the authors used Markdown’s strikethrough formatting in Manubot to cross-out the errant sentences ([commit], [versioned manuscript]), thereby alerting readers to the mistake and preventing further propagation of misinformation. One month later, a larger [set of revisions] explained the error in more detail and was included in a second version of the preprint. As such, continuous publication via Manubot helped the authors address the error without delay, while retaining a public version history of the process. This Sci-Hub Coverage Study preprint was the [most viewed] 2017 <em>PeerJ Preprint</em>, while the Deep Review was the most viewed 2017 <em>bioRxiv</em> preprint [[41]]. Hence, in Manubot’s first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.
+</del>
+</p>
+<p>
+<del>
+Additional research studies are being authored using Manubot, spanning the fields of [regulatory][][genomics][][[42]], [synthetic biology][][[43]], [climate science], [visual perception][][[44]], [machine learning][][[45]], [computational toolkits][][[46]], and [data visualization]. Manubot is also being used for documents beyond traditional journal publications, such as [research tips], [quality standards][][[47]], [grant proposals], [progress reports], [undergraduate research reports][][[48]], [literature reviews], and lab notebooks. Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the [Bitcoin Whitepaper][][[49]] and [Project Rephetio manuscript][][[50]].
+</del>
+</p>
+<h3 id="citation-utilities"><del>Citation utilities</del></h3>
+<p>
+<del>
+The <code>manubot</code><a href="#ref-PZMP42Ak">Python package</a> provides easy access to Manubot’s citation-by-identifier infrastructure, whose functionality extends beyond just Manubot manuscripts. For example, the [Kipoi] model zoo for genomics [[51]] uses Manubot’s Python interface to retrieve model authors from persistent identifiers. In addition, the <code>manubot cite</code> command line utility takes a list of citations and returns either a rendered bibliography or CSL Data Items (i.e. JSON-formatted reference metadata). For example, the following command outputs a Markdown reference list for the two specified articles according to the bibliographic style of <em>PeerJ</em>:
+</del>
+</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode diff"><code class="sourceCode diff"><a class="sourceLine" id="cb1-1" title="1"><span class="st">-manubot cite --render --format=markdown \  --csl=https://github.com/citation-style-language/styles/raw/master/peerj.csl \  pmid:29618526 doi:10.1038/550143a</span></a></code></pre></div>
+<p>
+<del>
+Pandoc brands itself as a “universal document converter”, and can convert from any of 32 input formats to any of 51 output formats as of version 2.7. Thanks to its versatility and active development since 2006, Pandoc enjoys a large userbase across many disciplines and applications. Its filter interface enables adding custom functionality with community-developed programs. We are [prototyping] a Manubot-based citation-by-identifier filter. This filter would allow Pandoc users to cite persistent identifiers as part of their existing Pandoc workflows, without requiring them to adopt other aspects of Manubot. It could help popularize citation-by-identifier at an influential scale.
+</del>
+</p>
+<h3 id="future-enhancements"><del>Future enhancements</del></h3>
+<p>
+<del>
+Manubot is still under active development, and we envision major changes in its design and dependencies going forward. Currently, manuscript repositories must contain a large number of files that do not directly contain manuscript content. While this enables a high-degree of customization, it also increases complexity. Therefore, we are investigating whether configuration files with sensible defaults could enable bare-bones repositories that contain manuscript content and little else.
+</del>
+</p>
+<p>
+<del>
+In addition to simplifying the usage, we’re also looking into simplifying the setup. Presently, setup is complex because users must do advanced command-line operations to clone the Rootstock repository and configure Travis CI. Although we provide detailed instructions, users often struggle to replicate the long list of setup commands in an appropriate computational environment. One priority will be to automate setup to a higher degree. However, this may require switching the services Manubot uses for continuous integration (e.g. from Travis CI to GitHub Actions, CircleCI, Drone, or GitLab CI), environment management (e.g. from Conda to Docker), and repository hosting (e.g. from GitHub to GitLab). In addition to simplifying setup, such migrations may also present the opportunity to decrease dependency on proprietary services and address other Manubot shortcomings, such as the current inability to view rendered manuscripts produced by pull request builds.
+</del>
+</p>
+<p>
+<del>
+Upgrading a Manubot instance is an opt-in procedure. Therefore, when we introduce fundamental changes, existing manuscripts continue to function. However, large Rootstock changes can make upgrading existing manuscripts difficult. We are happy to provide users <em>pro bono</em> assistance to upgrade or troubleshoot manuscripts. Users can open an [issue][6] at the Rootstock repository for help.
+</del>
+</p>
+<p>
+<del>
+One strategy to grow Manubot usage is to identify a specific user group or use case for which Manubot can be widely adopted. For example, a journal may decide to build their publishing workflow around Manubot, such that submissions would consist of a Manubot repository. This application would be most suitable for journals that currently use GitHub for submissions and publishing, such as the <em>Journal of Open Source Software</em>[[52]]. Manubot could also gain traction as the primary tool used to write collaborative manuscripts within certain communities. For example, open research projects built from voluntary contributions by geographically-distributed individuals could adopt Manubot. Likewise, Manubot may excel at enabling collaborative translation of existing manuscripts into other languages. Another application could be collaborative development of online lessons, documentation, or tutorials. Projects like [Software Carpentry] already host each lesson in a separate GitHub repository and may benefit from Manubot-generated permalinks to historical versions.
+</del>
+</p>
+<h2 id="authorship"><del>Authorship</del></h2>
+<p>
+<del>
+Manubot does not impose any restrictions on authorship. It allows authors to adhere to the author inclusion and ordering conventions of their field, which vary considerably across disciplines [[53]]. Some Manubot projects create a [table] in their GitHub repository to track contributors who did not commit text to the manuscript. This provides a transparent way to record contributions such as experimental research that generated data for the manuscript and discuss whether they meet that project’s authorship criteria. Contribution transparency helps prevent ghostwriting [[54]] and is especially important in collaborative writing [[55]]. Although we recommend authors provide their ORCID and GitHub username, Manubot also supports pseudonyms, pseudonymous GitHub usernames, and authors without an ORCID or GitHub account.
+</del>
+</p>
+<p>
+<del>
+To determine authorship for the Deep Review, we followed the International Committee of Medical Journal Editors (ICMJE) [guidelines] and used GitHub to track contributions. ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript. We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript. Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list. In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript. This convention can be difficult to reconcile in a collaborative effort. Using Git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests. Therefore, we concluded that it is not possible to construct an objective system to compare and weight the different types of contributions and produce an ordered author list [[56]].
+</del>
+</p>
+<p>
+<del>
+To address this issue, we generalized the concept of “co-first” authorship, in which two or more authors are denoted as making equal contributions to a paper. We defined four types of contributions [<a href="#ref-PZMP42Ak">5</a>], from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories. A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering. The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner. Given the same author contributions, it always produced the same ordered author list. We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category. The Deep Review author ordering procedure illustrates authorship possibilities when all contributions are publicly tracked and recorded that would be difficult with a traditional collaborative writing platform.
+</del>
+</p>
+<p>
+<del>
+Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [[57]] (5000 authors) and the report of the <em>Drosophila</em> genome [[58]] (1000 authors). Yet the number of people that participated in writing those papers, as opposed to generating and analyzing the data, is not always clear and is likely to be far below the number of authors [[59],[60]]. Manubot provides the scientists involved in large collaborations the opportunity to actively participate, through a public forum, in the writing process.
+</del>
+</p>
+<h2 id="discussion"><del>Discussion</del></h2>
+<h3 id="collaborative-review-manuscripts"><del>Collaborative review manuscripts</del></h3>
+<p>
+<del>
+The open scholarly writing Manubot enables has particular benefits for review articles, which present the state of the art in a scientific field [[61]]. Literature reviews are typically written in private by an invited team of colleagues. In contrast, broadly opening the process to anyone engaged in the topic — such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate — can maximize a review’s value. Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.
+</del>
+</p>
+<p>
+<del>
+Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified [here]. Additionally, discussing manuscripts in the open generates valuable pre-publication peer review of preprints [[22]] or post-publication peer review [[16],[62],[63]]. Because incentives to provide public peer review of existing literature [[64]] are lacking, open collaborative reviews — where authorship is open to anyone who makes a valid contribution — could help spur more post-publication peer review.
+</del>
+</p>
+<h3 id="additional-collaborative-writing-projects"><del>Additional collaborative writing projects</del></h3>
+<p>
+<del>
+The Deep Review was not the first scholarly manuscript written online via an open collaborative process. In 2013, two dozen mathematicians created the 600-page Homotopy Type Theory book, writing collaboratively in LaTeX on GitHub [[65],[66]]. Two technical books on cryptocurrency — [Mastering Bitcoin] and [Mastering Ethereum] — written on GitHub in AsciiDoc format have engaged hundreds of contributors. Both Homotopy Type Theory and Mastering Bitcoin continue to be maintained years after their initial publication. A 2017 perspective on the future of peer review was written collaboratively on Overleaf, with contributions from 32 authors [[67]]. While debate was raging over tightening the default threshold for statistical significance, nearly 150 scientists contributed to a Google Doc discussion that was condensed into a traditional journal commentary [[68],[69]]. The greatest success to date of open collaborative writing is arguably Wikipedia, whose English version contains over 5.5 million articles. Wikipedia scaled encyclopedias [far beyond] any privately-written alternative. These examples illustrate how open collaborative writing can scale scholarly manuscripts where diverse opinion and expertise are paramount beyond what would otherwise be possible.
+</del>
+</p>
+<p>
+<del>
+Open writing also presents new opportunities for distributing scholarly communication. Though it is still valuable to have versioned drafts of a manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts. After releasing the first version of the Deep Review [[10]], 14 new contributors updated the manuscript (Figure <a href="#ref-IWBJQIkl">2</a>). Existing authors continue to discuss new literature, [creating a living document]. Manubot provides an ideal platform for perpetual reviews [[70],[71]].
+</del>
+</p>
+<p>
+<del>
+Concepts for the future of scholarly publishing extend beyond collaborative writing [[72]–[74]]. Pandoc Scholar [[12]] and Bookdown [[75]], which has been used for open writing [[76]], both enhance traditional Markdown to better support publishing. The [knitcitations] package enables citation by DOI or URL in R Markdown documents. Examples of continuous integration to automate manuscript generation include [gh-publisher] and [jekyll-travis], which was used to produce a [continuously published webpage] for the Opening Science book [[77],[78]]. Binder [[11]], Distill journal articles [[79]], Idyll [[80]], and Stencila [[81],[82]] support manuscripts with interactive graphics and close integration with the underlying code. As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
+</del>
+</p>
+<p>
+<del>
+Several other open science efforts are GitHub-based like our collaborative writing process. ReScience [[83]] as well as titles from [Open Journals], such as the <em>Journal of Open Source Software</em>[[52]], rely on GitHub for peer review and hosting. Distill uses GitHub for transparent peer review and post-publication peer review [[84]]. GitHub is increasingly used for resource curation [[85]], and collaborative scholarly reviews combine literature curation with discussion and interpretation.
+</del>
+</p>
+<h3 id="limitations"><del>Limitations</del></h3>
+<p>
+<del>
+There are potential limitations of our GitHub-based approach. Because the Deep Review pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub. In other disciplines, collaborative writing via GitHub and Manubot could present a steeper barrier to entry and deter participants. In addition, Git carefully tracks all revisions to the manuscript text but not the surrounding conversations that take place through GitHub issues and pull requests. These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript’s text. GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.
+</del>
+</p>
+<p>
+<del>
+In the Deep Review, we established [contributor guidelines] that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement. Our contributor guidelines required verifiable participation for authorship: either directly attributable changes to the text or participation in the discussion on GitHub. These guidelines did not discuss broader community norms that may have improved inclusiveness. It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community [[19]]. Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture [[86]]. Conferences and open source projects have used codes of conduct to establish these norms (e.g. [Contributor Covenant]) [[87]]. We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that build on social as well as academic norms.
+</del>
+</p>
+<h3 id="manubot-in-the-context-of-open-science"><del>Manubot in the context of open science</del></h3>
+<p>
+<del>
+Science is undergoing a transition towards openness. The internet provides a global information commons, where scholarship can be publicly shared at a minimal cost. For example, open access publishing provides an economic model that encourages maximal dissemination and reuse of scholarly articles [[18],[88],[89]]. More broadly, open licensing solves legal barriers to content reuse, enabling any type of scholarly output to become part of the commons [[90],[91]]. The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bona fide privacy or security concerns [[92]–[94]]. New tools and services make it increasingly feasible to publicly share the unabridged methods of a study, especially for computational research, which consists solely of software and data.
+</del>
+</p>
+<p>
+<del>
+Greater openness in both research methods and publishing creates an opportunity to redefine peer review and the role journals play in communicating science [[67]]. At the extreme is real-time open science, whereby studies are performed entirely in the open from their inception [[95]]. Many such research projects have now been completed, benefiting from the associated early-stage peer review, additional opportunity for online collaboration, and increased visibility [[50],[96]].
+</del>
+</p>
+<p>
+<del>
+Manubot is an ideal authoring protocol for real-time open science, especially for projects that are already using an open source software workflow to manage their research. While Manubot does require technical expertise, the benefits are manyfold. Specifically, Manubot demonstrates a system for publishing that is transparent, reproducible, immediate, permissionless, versioned, automated, collaborative, open, linked, provenanced, decentralized, hackable, interactive, annotated, and free of charge. These attributes empower integrating Manubot with an ecosystem of other community-driven tools to make science as open and collaborative as possible.
+</del>
+</p>
+<h2 id="code-and-data-availability"><del>Code and data availability</del></h2>
+<p>
+<del>
+The source code and data for this manuscript are available at <a href="https://github.com/greenelab/meta-review" class="uri">https://github.com/greenelab/meta-review</a> and archived via Software Heritage identifier
+</del>
+[<del><code>swh:1:dir:da789e842d0af90f0fa50de522f0c4caae95e4e3</code></del>]<del>. Source code for Manubot resides in the following repositories:</del>
+</p>
+<ul>
+<li><del>
+<a href="https://github.com/manubot/manubot" class="uri">https://github.com/manubot/manubot</a> ([GitLab mirror], archived at
+</del>
+[<del><code>swh:1:dir:506058af283d6d311a92d03b02adb9dca9f139de</code></del>]<del>, packaged on <a href="#ref-PZMP42Ak">PyPI</a>)</del></li>
+<li><del>
+<a href="https://github.com/manubot/rootstock" class="uri">https://github.com/manubot/rootstock</a> ([GitLab mirror][7], archived at
+</del>
+[<del><code>swh:1:dir:4e689f4e2f4b272b8672142f4c81abd3e77392f9</code></del>]<del>).</del></li>
+</ul>
+<h2 id="supporting-information"><del>Supporting Information</del></h2>
+<p>
+<del>
+<strong>S1 Video: Editing a manuscript on GitHub.</strong> This screen recording demonstrates how to propose edits to a Manubot manuscript via GitHub. In the video [[97]], a contributor creates a [pull request][8] to add a sentence to the try-manubot manuscript. The contributor then revises the proposed change to add a citation, after which it is accepted, merged, and automatically deployed.
+</del>
+</p>
+<h2 id="acknowledgments"><del>Acknowledgments</del></h2>
+<p>
+<del>
+We would like to thank the authors of the Deep Review who helped us test collaborative writing with Manubot. The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz. In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Rootstock manuscript. We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Benjamin J. Heil, Zach Hensel, Alexandra J. Lee, YoSon Park, Achintya Rao, and other GitHub users. We thank John MacFarlane and Nikolay Yakimov for assistance with Pandoc and the global Binder team for advice on Binder. Finally, we thank C. Titus Brown and the other anonymous reviewers for their help improving this manuscript.
+</del>
+</p>
+<h2 id="references"><del>References</del></h2>
+<p>
+<del>
+<ol type="1">
+<li>Nielsen M. Reinventing Discovery [Internet]. Princeton, NJ: Princeton University Press; 2011. doi:[10.1515/9781400839452]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="2" type="1">
+<li>National Academies of Sciences, Engineering, and Medicine. Open Science by Design: Realizing a Vision for 21st Century Research [Internet]. National Academies Press; 2018. doi:[10.17226/25116]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="3" type="1">
+<li>Perkel J. TechBlog: “Manubot” powers a crowdsourced “deep-learning” review. In: Naturejobs [Internet]. 20 Feb 2018. Available: <a href="http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/" class="uri">http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="4" type="1">
+<li>Khare R, Good BM, Leaman R, Su AI, Lu Z. Crowdsourcing in biomedicine: challenges and opportunities. Brief Bioinform. Oxford University Press; 2016;17: 23–32. doi:[10.1093/bib/bbv021]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="5" type="1">
+<li>Ching T, Himmelstein DS, Beaulieu-Jones BK, Kalinin AA, Do BT, Way GP, et al. Opportunities and obstacles for deep learning in biology and medicine. J R Soc Interface. The Royal Society; 2018;15: 20170387. doi:[10.1098/rsif.2017.0387]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="6" type="1">
+<li>Perkel JM. Scientific writing: the online cooperative. Nature. Springer Nature; 2014;514: 127–128. doi:[10.1038/514127a]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="7" type="1">
+<li>Blischak JD, Davenport ER, Wilson G. A Quick Introduction to Version Control with Git and GitHub. Ouellette F, editor. PLoS Comput Biol. Public Library of Science (PLoS); 2016;12: e1004668. doi:[10.1371/journal.pcbi.1004668]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="8" type="1">
+<li>Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost F da V, et al. Ten Simple Rules for Taking Advantage of Git and GitHub. Markel S, editor. PLoS Comput Biol. Public Library of Science (PLoS); 2016;12: e1004947. doi:[10.1371/journal.pcbi.1004947]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="9" type="1">
+<li>Israeli J. Opportunities And Obstacles For Deep Learning In Biology And Medicine. In: Towards Data Science [Internet]. 31 May 2017 [cited 11 Jun 2019]. Available: <a href="https://towardsdatascience.com/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2" class="uri">https://towardsdatascience.com/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="10" type="1">
+<li>Ching T, Himmelstein DS, Beaulieu-Jones BK, Kalinin AA, Do BT, Way GP, et al. Opportunities And Obstacles For Deep Learning In Biology And Medicine [Internet]. bioRxiv. Cold Spring Harbor Laboratory;</li>
+<li>doi:[10.1101/142760]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="11" type="1">
+<li>Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0 - Reproducible, interactive, sharable environments for science at scale. Proceedings of the 17th Python in Science Conference. SciPy; 2018. doi:[10.25080/majora-4af1f417-011]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="12" type="1">
+<li>Krewinkel A, Winkler R. Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar. PeerJ Computer Science. PeerJ; 2017;3: e112. doi:[10.7717/peerj-cs.112]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="13" type="1">
+<li>Fenner M, Scheliga K, Bartling S. Reference Management. Opening Science. Springer International Publishing; 2013. pp. 125–137. doi:[10.1007/978-3-319-00026-8_8]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="14" type="1">
+<li>Zhang Y. Comparison of Select Reference Management Tools. Medical Reference Services Quarterly. Informa UK Limited; 2012;31: 45–60. doi:[10.1080/02763869.2012.641841]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="15" type="1">
+<li>Lord P, Marshall L. Twenty-Five Shades of Greycite: Semantics for referencing and preservation [Internet]. arXiv. arXiv; 2013 Apr. Report No.: 1304.7151v1. Available: <a href="https://arxiv.org/abs/1304.7151v1" class="uri">https://arxiv.org/abs/1304.7151v1</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="16" type="1">
+<li>Knoepfler P. Reviewing post-publication peer review. Trends Genet. 2015;31: 221–3. doi:[10.1016/j.tig.2015.03.006]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="17" type="1">
+<li>Gipp B, Meuschke N, Gernandt A. Decentralized Trusted Timestamping using the Crypto Currency Bitcoin [Internet]. arXiv. arXiv; 2015 Feb. Report No.: 1502.04015v1. Available: <a href="https://arxiv.org/abs/1502.04015v1" class="uri">https://arxiv.org/abs/1502.04015v1</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="18" type="1">
+<li>Suber P. Open access. Cambridge, Mass: MIT Press; 2012.
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="19" type="1">
+<li>Gatto L. Open science and open science [Internet]. 5 Jun 2017. Available: <a href="https://lgatto.github.io/open-and-open/" class="uri">https://lgatto.github.io/open-and-open/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="20" type="1">
+<li>S c. Plan S: Accelerating the transition to full and immediate Open Access to scientific publications [Internet]. 2018. Available: <a href="https://www.wikidata.org/wiki/Q56458321" class="uri">https://www.wikidata.org/wiki/Q56458321</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="21" type="1">
+<li>Paywall: The Business of Scholarship [Internet]. 2018. Available: <a href="https://paywallthemovie.com/paywall" class="uri">https://paywallthemovie.com/paywall</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="22" type="1">
+<li>Avasthi P, Soragni A, Bembenek JN. Journal clubs in the time of preprints. eLife. eLife Sciences Publications, Ltd; 2018;7. doi:[10.7554/elife.38532]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="23" type="1">
+<li>Himmelstein D. On author versus numeric citation styles. Satoshi Village. 2018; Available: <a href="https://blog.dhimmel.com/citation-styles/" class="uri">https://blog.dhimmel.com/citation-styles/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="24" type="1">
+<li>Perkel J. TechBlog: Create the perfect bibliography with the CSL Editor. In: Naturejobs [Internet]. 3 May 2017. Available: <a href="http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/" class="uri">http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="25" type="1">
+<li>National Information Standards Organization. ANSI/NISO Z39.96-2019, JATS: Journal Article Tag Suite, version 1.2 [Internet]. NISO; 2019 Feb. Available: <a href="https://www.niso.org/publications/z3996-2019-jats" class="uri">https://www.niso.org/publications/z3996-2019-jats</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="26" type="1">
+<li>Huh S. Journal Article Tag Suite 1.0: National Information Standards Organization standard of journal extensible markup language. Sci Ed. Korean Council of Science Editors; 2014;1: 99–104. doi:[10.6087/kcse.2014.1.99]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="27" type="1">
+<li>Needleman MH. NISO Z39.96-201x, JATS: Journal Article Tag Suite. Serials Review. Informa UK Limited; 2012;38: 213–214. doi:[10.1080/00987913.2012.10765464]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="28" type="1">
+<li>Perkel JM. Data visualization tools drive interactivity and reproducibility in online publishing. Nature. Springer Nature; 2018;554: 133–134. doi:[10.1038/d41586-018-01322-9]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="29" type="1">
+<li>Satyanarayan A, Moritz D, Wongsuphasawat K, Heer J. Vega-Lite: A Grammar of Interactive Graphics. IEEE Trans Visual Comput Graphics. Institute of Electrical and Electronics Engineers (IEEE); 2017;23: 341–350. doi:[10.1109/tvcg.2016.2599030]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="30" type="1">
+<li>Silver A. Collaborative software development made easy. Nature. Springer Nature; 2017;550: 143–144. doi:[10.1038/550143a]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="31" type="1">
+<li>Beaulieu-Jones BK, Greene CS. Reproducibility of computational workflows is automated using continuous analysis. Nat Biotechnol. Springer Nature; 2017;35: 342–346. doi:[10.1038/nbt.3780]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="32" type="1">
+<li>Yenni GM, Christensen EM, Bledsoe EK, Supp SR, Diaz RM, White EP, et al. Developing a modern data workflow for evolving data [Internet]. bioRxiv. Cold Spring Harbor Laboratory; 2018. doi:[10.1101/344804]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="33" type="1">
+<li>Vale RD, Hyman AA. Priority of discovery in the life sciences. eLife. eLife Sciences Publications, Ltd; 2016;5. doi:[10.7554/elife.16931]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="34" type="1">
+<li>Carlisle BG. Proof of prespecified endpoints in medical research with the bitcoin blockchain. In: The Grey Literature [Internet]. 25 Aug 2014 [cited 11 Apr 2019]. Available: <a href="https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/" class="uri">https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="35" type="1">
+<li>Himmelstein D. The most interesting case of scientific irreproducibility? Satoshi Village. 2017; Available: <a href="https://blog.dhimmel.com/irreproducible-timestamps/" class="uri">https://blog.dhimmel.com/irreproducible-timestamps/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="36" type="1">
+<li>Heaven D. Bitcoin for the biological literature. Nature. Springer Nature; 2019;566: 141–142. doi:[10.1038/d41586-019-00447-9]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="37" type="1">
+<li>Nakamoto S. Bitcoin: A Peer-to-Peer Electronic Cash System [Internet]. 21 Mar 2019 [cited 11 Jun 2019]. Available: <a href="https://git.dhimmel.com/bitcoin-whitepaper/" class="uri">https://git.dhimmel.com/bitcoin-whitepaper/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="38" type="1">
+<li>Todd P. OpenTimestamps: Scalable, Trust-Minimized, Distributed Timestamping with Bitcoin. In: Peter Todd [Internet]. 15 Sep 2016 [cited 11 Apr 2019]. Available: <a href="https://petertodd.org/2016/opentimestamps-announcement" class="uri">https://petertodd.org/2016/opentimestamps-announcement</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="39" type="1">
+<li>Packer E. eLife supports development of open technology stack for publishing reproducible manuscripts online. In: eLife Press Pack [Internet]. 7 Sep 2017. Available: <a href="https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online" class="uri">https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="40" type="1">
+<li>Himmelstein DS, Romero AR, Levernier JG, Munro TA, McLaughlin SR, Greshake Tzovaras B, et al. Sci-Hub provides access to nearly all scholarly literature. eLife. eLife Sciences Publications, Ltd; 2018;7. doi:[10.7554/elife.32822]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="41" type="1">
+<li>Callaway E, Castelvecchi D, Cyranoski D, Gibney E, Ledford H, Lee JJ, et al. 2017 in news: The science events that shaped the year. Nature. Springer Nature; 2017;552: 304–307. doi:[10.1038/d41586-017-08493-x]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="42" type="1">
+<li>Bruse N, van Heeringen SJ. GimmeMotifs: an analysis framework for transcription factor motif analysis [Internet]. bioRxiv. Cold Spring Harbor Laboratory; 2018. doi:[10.1101/474403]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="43" type="1">
+<li>Silva JPN, Lopes SV, Grilo DJ, Hensel Z. Plasmids for Independently Tunable, Low-Noise Expression of Two Genes. Ellermeier CD, editor. mSphere. American Society for Microbiology; 2019;4. doi:[10.1128/msphere.00340-19]
+</del>
+</p></li>
+</ol>
+<dl>
+<dt><del>44. Perrinet L. Illusions et hallucinations visuelles</dt>
+<dd>une porte sur la perception. In: The Conversation [Internet]. 6 Jun 2019 [cited 13 Jun 2019]. Available: <a href="https://theconversation.com/illusions-et-hallucinations-visuelles-une-porte-sur-la-perception-117389" class="uri">https://theconversation.com/illusions-et-hallucinations-visuelles-une-porte-sur-la-perception-117389</a></del>
+</dd>
+</dl>
+<p>
+<del>
+<ol start="45" type="1">
+<li>Le TT, Fu W, Moore JH. Scaling tree-based automated machine learning to biomedical big data with a feature set selector. Kelso J, editor. Bioinformatics. Oxford University Press (OUP); 2019; doi:[10.1093/bioinformatics/btz470]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="46" type="1">
+<li>Hickey G, Heller D, Monlong J, Sibbesen JA, Siren J, Eizenga J, et al. Genotyping structural variants in pangenome graphs using the vg toolkit [Internet]. bioRxiv. Cold Spring Harbor Laboratory; 2019. doi:[10.1101/654566]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="47" type="1">
+<li>Orviz P, López García Á, Duma DC, Donvito G, David M, Gomes J. A set of common software quality assurance baseline criteria for research projects. 2017; Available: <a href="https://digital.csic.es/handle/10261/160086" class="uri">https://digital.csic.es/handle/10261/160086</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="48" type="1">
+<li>Zietz M. Vagelos Report Summer 2017. Figshare; 2017; doi:[10.6084/m9.figshare77]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="49" type="1">
+<li>Himmelstein D. How I used the Manubot to reproduce the Bitcoin Whitepaper. In: Steem [Internet]. 20 Sep 2017. Available: <a href="https://busy.org/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper" class="uri">https://busy.org/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="50" type="1">
+<li>Himmelstein DS, Lizee A, Hessler C, Brueggeman L, Chen SL, Hadley D, et al. Systematic integration of biomedical knowledge prioritizes drugs for repurposing. eLife. eLife Sciences Publications, Ltd; 2017;6. doi:[10.7554/elife.26726]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="51" type="1">
+<li>Avsec Ž, Kreuzhuber R, Israeli J, Xu N, Cheng J, Shrikumar A, et al. The Kipoi repository accelerates community exchange and reuse of predictive models for genomics. Nat Biotechnol. Springer Science and Business Media LLC; 2019;37: 592–600. doi:[10.1038/s41587-019-0140-0]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="52" type="1">
+<li>Smith AM, Niemeyer KE, Katz DS, Barba LA, Githinji G, Gymrek M, et al. Journal of Open Source Software (JOSS): design and first-year review. PeerJ Computer Science. PeerJ; 2018;4: e147. doi:[10.7717/peerj-cs.147]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="53" type="1">
+<li>Marušić A, Bošnjak L, Jerončić A. A Systematic Review of Research on the Meaning, Ethics and Practices of Authorship across Scholarly Disciplines. Jefferson T, editor. PLoS ONE. Public Library of Science (PLoS); 2011;6: e23477. doi:[10.1371/journal.pone.0023477]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="54" type="1">
+<li>Gøtzsche PC, Kassirer JP, Woolley KL, Wager E, Jacobs A, Gertel A, et al. What Should Be Done To Tackle Ghostwriting in the Medical Literature? PLoS Med. Public Library of Science (PLoS); 2009;6: e1000023. doi:[10.1371/journal.pmed.1000023]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="55" type="1">
+<li>Frassl MA, Hamilton DP, Denfeld BA, de Eyto E, Hampton SE, Keller PS, et al. Ten simple rules for collaboratively writing a multi-authored paper. Lewitter F, editor. PLoS Comput Biol. Public Library of Science (PLoS); 2018;14: e1006508. doi:[10.1371/journal.pcbi.1006508]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="56" type="1">
+<li>Brown CT. Revisiting authorship, and JOSS software publications. In: Living in an Ivory Basement [Internet]. 16 Jan 2019 [cited 11 Apr 2019]. Available: <a href="http://ivory.idyll.org/blog/2019-authorship-revisiting.html" class="uri">http://ivory.idyll.org/blog/2019-authorship-revisiting.html</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="57" type="1">
+<li>Aad G, Abbott B, Abdallah J, Abdinov O, Aben R, Abolins M, et al. Combined Measurement of the Higgs Boson Mass in pp Collisions at sqrt[s]=7 and 8 TeV with the ATLAS and CMS Experiments. Phys Rev Lett. American Physical Society (APS); 2015;114. doi:[10.1103/physrevlett.114.191803]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="58" type="1">
+<li>Leung W, Shaffer CD, Reed LK, Smith ST, Barshop W, Dirkes W, et al. Drosophila Muller F Elements Maintain a Distinct Set of Genomic Properties Over 40 Million Years of Evolution. G3. Genetics Society of America; 2015;5: 719–740. doi:[10.1534/g3.114.015966]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="59" type="1">
+<li>Woolston C. Fruit-fly paper has 1,000 authors. Nature. Springer Nature; 2015;521: 263–263. doi:[10.1038/521263f]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="60" type="1">
+<li>Castelvecchi D. Physics paper sets record with more than 5,000 authors. Nature. Springer Nature; 2015; doi:[10.1038/nature.2015.17567]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="61" type="1">
+<li>Pautasso M. Ten Simple Rules for Writing a Literature Review. Bourne PE, editor. PLoS Comput Biol. Public Library of Science (PLoS); 2013;9: e1003149. doi:[10.1371/journal.pcbi.1003149]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="62" type="1">
+<li>Bastian H. A Stronger Post-Publication Culture Is Needed for Better Science. PLoS Med. Public Library of Science (PLoS); 2014;11: e1001772. doi:[10.1371/journal.pmed.1001772]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="63" type="1">
+<li>Hunter J. Post-Publication Peer Review: Opening Up Scientific Conversation. Front Comput Neurosci. Frontiers Media SA; 2012;6. doi:[10.3389/fncom.2012.00063]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="64" type="1">
+<li>Markie M. Post-publication peer review, in all its guises, is here to stay. Insights the UKSG journal. Ubiquity Press, Ltd. 2015;28: 107–110. doi:[10.1629/uksg.245]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="65" type="1">
+<li>The Univalent Foundations Program. Homotopy Type Theory: Univalent Foundations of Mathematics [Internet]. Institute for Advanced Study; 2013. Available: <a href="https://homotopytypetheory.org/book/" class="uri">https://homotopytypetheory.org/book/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="66" type="1">
+<li>Bauer A. The HoTT book. In: Mathematics and Computation [Internet]. 20 Jun 2013. Available: <a href="http://math.andrej.com/2013/06/20/the-hott-book/" class="uri">http://math.andrej.com/2013/06/20/the-hott-book/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="67" type="1">
+<li>Tennant JP, Dugan JM, Graziotin D, Jacques DC, Waldner F, Mietchen D, et al. A multi-disciplinary perspective on emergent and future innovations in peer review. F1000Res. F1000 ( Faculty of 1000 Ltd); 2017;6: 1151. doi:[10.12688/f1000research.12037.2]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="68" type="1">
+<li>Vrieze J. Nearly 100 scientists spent 2 months on Google Docs to redefine the p-value. Here’s what they came up with. Science. American Association for the Advancement of Science (AAAS); 2018; doi:[10.1126/science.aat0471]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="69" type="1">
+<li>Lakens D, Adolfi FG, Albers CJ, Anvari F, Apps MAJ, Argamon SE, et al. Justify your alpha. Nat Hum Behav. Springer Nature; 2018;2: 168–171. doi:[10.1038/s41562-018-0311-x]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="70" type="1">
+<li>Mobley DL, Zuckerman DM. A proposal for regularly updated review/survey articles: “Perpetual Reviews” [Internet]. arXiv. arXiv; 2015 Feb. Report No.: 1502.01329v2. Available: <a href="https://arxiv.org/abs/1502.01329v2" class="uri">https://arxiv.org/abs/1502.01329v2</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="71" type="1">
+<li>Mobley DL, Shirts MR, Zuckerman DM. Why we need the Living Journal of Computational Molecular Science. LiveCoMS. 2017; 2031. doi:[10.33011/livecoms.1.1.2031]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="72" type="1">
+<li>Goodman A, Peek J, Accomazzi A, Beaumont C, Borgman CL, Chen H-HH, et al. The “Paper” of the Future [Internet]. Authorea. Authorea, Inc. doi:[10.22541/au.148769949.92783646]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="73" type="1">
+<li>Pepe A, Cantiello M, Nicholson J. The arXiv of the future will not look like the arXiv [Internet]. Authorea. Authorea, Inc. doi:[10.22541/au.149693987.70506124]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="74" type="1">
+<li>Brown CT. TechBlog: C. Titus Brown: Predicting the paper of the future. In: Naturejobs [Internet]. 1 Jun 2017. Available: <a href="http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/" class="uri">http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="75" type="1">
+<li>Xie Y. bookdown [Internet]. Chapman &amp;Hall/CRC The R Series. CRC Press; 2016. doi:[10.1201/9781315204963]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="76" type="1">
+<li>Davis S, Ramos M, Shepherd L, Turaga N, Geistlinger L, Morgan MT, et al. Orchestrating a community-developed computational workshop and accompanying training materials. F1000Res. F1000 ( Faculty of 1000 Ltd); 2018;7: 1656. doi:[10.12688/f1000research.16516.1]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="77" type="1">
+<li>Fenner M. Continuous Publishing. In: Gobbledygook [Internet]. 10 Mar 2014. Available: <a href="http://blog.martinfenner.org/2014/03/10/continuous-publishing/" class="uri">http://blog.martinfenner.org/2014/03/10/continuous-publishing/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="78" type="1">
+<li>Bartling S, Friesike S, editors. Opening Science [Internet]. Springer International Publishing; 2014. doi:[10.1007/978-3-319-00026-8]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="79" type="1">
+<li>Olah C, Satyanarayan A, Johnson I, Carter S, Schubert L, Ye K, et al. The Building Blocks of Interpretability. Distill. Distill Working Group; 2018;3. doi:[10.23915/distill.00010]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="80" type="1">
+<li>Conlen M, Osheroff A. Announcing idyll.pub. In: Idyll [Internet]. 26 Jun 2018. Available: <a href="https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/" class="uri">https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="81" type="1">
+<li>Aufreiter M, Pawlik A, Bentley N. Stencila – an office suite for reproducible research. In: eLife Labs [Internet]. 2 Jul 2018. Available: <a href="https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research" class="uri">https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="82" type="1">
+<li>Maciocci G, Aufreiter M, Bentley N. Introducing eLife’s first computationally reproducible article. In: eLife Labs [Internet]. 20 Feb 2019 [cited 11 Apr 2019]. Available: <a href="https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article" class="uri">https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article</a>
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="83" type="1">
+<li>Rougier NP, Hinsen K, Alexandre F, Arildsen T, Barba LA, Benureau FCY, et al. Sustainable computational science: the ReScience initiative. PeerJ Computer Science. PeerJ; 2017;3: e142. doi:[10.7717/peerj-cs.142]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="84" type="1">
+<li>Editors D. Distill Update 2018. Distill. Distill Working Group; 2018;3. doi:[10.23915/distill.00013]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="85" type="1">
+<li>Wu Y, Wang N, Kropczynski J, Carroll JM. The appropriation of GitHub for curation. PeerJ Computer Science. PeerJ; 2017;3: e134. doi:[10.7717/peerj-cs.134]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="86" type="1">
+<li>Wagner C, Prasarnphanich P. Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology. 2007 40th Annual Hawaii International Conference on System Sciences (HICSS’07). IEEE;</li>
+<li>doi:[10.1109/hicss.2007.277]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="87" type="1">
+<li>Tourani P, Adams B, Serebrenik A. Code of conduct in open source projects. 2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER). IEEE; 2017. doi:[10.1109/saner.2017.7884606]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="88" type="1">
+<li>Tennant JP, Waldner F, Jacques DC, Masuzzo P, Collister LB, Hartgerink CHJ. The academic, economic and societal impacts of Open Access: an evidence-based review. F1000Res. F1000 ( Faculty of 1000 Ltd); 2016;5: 632. doi:[10.12688/f1000research.8460.3]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="89" type="1">
+<li>McKiernan EC, Bourne PE, Brown CT, Buck S, Kenall A, Lin J, et al. How open science helps researchers succeed. eLife. eLife Sciences Publications, Ltd; 2016;5. doi:[10.7554/elife.16800]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="90" type="1">
+<li>Stodden V. The Legal Framework for Reproducible Scientific Research: Licensing and Copyright. Comput Sci Eng. Institute of Electrical and Electronics Engineers (IEEE); 2009;11: 35–40. doi:[10.1109/mcse.2009.19]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="91" type="1">
+<li>Oxenham S. Legal confusion threatens to slow data science. Nature. Springer Nature; 2016;536: 16–17. doi:[10.1038/536016a]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="92" type="1">
+<li>Stodden V, McNutt M, Bailey DH, Deelman E, Gil Y, Hanson B, et al. Enhancing reproducibility for computational methods. Science. American Association for the Advancement of Science (AAAS); 2016;354: 1240–1241. doi:[10.1126/science.aah6168]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="93" type="1">
+<li>Ince DC, Hatton L, Graham-Cumming J. The case for open computer programs. Nature. Springer Nature; 2012;482: 485–488. doi:[10.1038/nature10836]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="94" type="1">
+<li>Molloy JC. The Open Knowledge Foundation: Open Data Means Better Science. PLoS Biol. Public Library of Science (PLoS); 2011;9: e1001195. doi:[10.1371/journal.pbio.1001195]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="95" type="1">
+<li>Patil C, Siegel V. This revolution will be digitized: online tools for radical collaboration. Disease Models &amp; Mechanisms. The Company of Biologists; 2009;2: 201–205. doi:[10.1242/dmm.003285]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="96" type="1">
+<li>Mietchen D, Mounce R, Penev L. Publishing the research process. RIO. Pensoft Publishers; 2015;1: e7547. doi:[10.3897/rio.1.e7547]
+</del>
+</p></li>
+</ol>
+<p>
+<del>
+<ol start="97" type="1">
+<li>Slochower D, Himmelstein D. How to edit a manuscript on GitHub with Manubot [Internet]. Figshare; 2019. doi:[10.6084/m9.figshare.7946192.v2]
+</del>
+</p></li>
+</ol>
+<p>
+<ins>
+10.1371/journal.pcbi.1007128.t001 Table 1
+</ins>
+</p>
+<p>Collaborative writing platforms.</p>
+<p>A summary of features that differentiate Manubot from existing collaborative writing platforms. We assessed features in June 2018 using the free version of each platform and updated our assessment in April 2019 to add the features in the bottom three rows and re-evaluate Authorea and Overleaf. Some platforms offer additional features through a paid subscription or software. 1) Additional functionality, such as bibliography management and tracking changes, is available by editing the Word document stored in OneDrive with the paid Word desktop application. 2) Conversations about modifications take place on the document as comments, annotations, or unsaved chats. There is no integrated forum for discussing and editing revisions. 3) In some circumstances, Overleaf Git commits are not modular. Edits made by distinct authors may be attributed to a single author. The GitHub Sync feature attributes all edits to the project owner.</p>
+<p>Feature Manubot Authorea Overleaf v2 Google Docs + Paperpile Word Online<sup>1</sup> Markdown on GitHub ——————————————– ————————— ——————- ————————– ————————————— ——————————————- ————————— Multi-author editing Yes Yes Yes Yes Yes Yes Propose changes Yes No No Yes No Yes Continuous integration testing Yes No No No No No Multi-participant conversation for changes Yes No<sup>2</sup> No<sup>2</sup> No<sup>2</sup> No<sup>2</sup> Yes Character-level provenance for text Yes Yes No<sup>3</sup> Requires manual inspection of history Not after changes are accepted Yes Bibliography management Yes Yes Yes Yes No, requires the Word desktop application No Citation by identifier Yes Yes No No No No Editing software Any text editor Web interface Web interface Web interface Web interface Any text editor Document format Markdown HTML LaTeX Proprietary Proprietary Markdown Templating Yes Yes Yes No No No Technical expertise required Yes No Yes No No Yes WYSIWYG mode No Yes Rich text available Yes Yes Preview rendered Markdown Inline comments Yes using Hypothesis Yes Yes Yes Yes No Viewing changes Diff of manuscript source Highlight changes Compare labeled versions Highlight changes No Diff of manuscript source</p>
+<p>Existing platforms work well for editing text and are widely used for scholarly writing. However, they often lack features that are important for open collaborative writing, such as versatile version control and multiple permission levels. For example, Manubot is the only platform listed in Table 1 that offers the ability to address thematically related changes together and enables multiple authors to iteratively refine proposed changes.</p>
+<p>Manubot contribution workflow</p>
+<p>Manubot’s collaborative writing workflow adopts standard software development strategies that enable any contributor to edit any part of the manuscript but enforce discussion and review of all proposed changes. The GitHub platform supports organizing and editing the manuscript. Manubot projects use GitHub issues for organization, opening a new issue for each discussion topic. For example, in a review manuscript like the Deep Review, this includes each primary paper under consideration. Within a paper’s issue, contributors summarize the research, discuss it (sometimes with participation from the original authors), and assess its relevance to the review. In a primary research article, issues can instead track progress on specific figures or subsections of text being drafted. Issues serve as an open to-do list and a forum for debating the main messages of the manuscript.</p>
+<p>GitHub and the underlying Git version control system [7,8] also structure the writing process. The official version of the manuscript is forked by individual contributors, creating a copy they can freely modify. A contributor then adds and revises files, grouping these changes into commits. When the changes are ready to be reviewed, the series of commits are submitted as a pull request through GitHub, which notifies other authors of the pending changes. GitHub’s review interface allows anyone to comment on the changes, globally or at specific lines, asking questions or requesting modifications [9]. Conversations during review can reference other pull requests, issues, or authors, linking the relevant people and content (Fig 1). Reviewing batches of revisions that focus on a single theme is more efficient than independently discussing isolated comments and edits and helps maintain consistent content and tone across different authors and reviewers. Once all requested modifications are made, the manuscript maintainers, a subset of authors with elevated GitHub permissions, formally approve the pull request and merge the changes into the official version. The process of writing and revising material can be orchestrated through GitHub with a web browser (as shown in S1 Video) or through a local text editor.</p>
+<p>10.1371/journal.pcbi.1007128.g001 Fig 1</p>
+<p>Manubot editing workflow.</p>
+<p>Any reader can contribute to a Manubot manuscript by proposing a change through a pull request. This example involves three people: a manuscript Maintainer, an existing project Contributor, and an additional Participant in the discussion. Manuscript text is shown in solid lines on the left of the timeline and discussion on GitHub is shown by squiggly lines to the right of the timeline. The Contributor opens a GitHub issue to discuss a manuscript modification. The Maintainer and the Participant provide feedback in the issue, and the Maintainer recommends creating a GitHub pull request to update the text. The Contributor creates the pull request. It is reviewed by the Maintainer and the Participant, and the Contributor updates the pull request in response. Once the pull request is approved, the Maintainer merges the changes into the official version of the manuscript.</p>
+<p>The Deep Review issue and pull request on protein-protein interactions demonstrate this process in practice. A new contributor identified a relevant research topic that was missing from the review manuscript with examples of how the literature would be summarized, critiqued, and integrated into the review. A maintainer confirmed that this was a desirable topic and referred to related open issues. The contributor made the pull request, and two maintainers and another participant made recommendations. After four rounds of reviews and pull request edits, a maintainer merged the changes.</p>
+<p>We found that this workflow was an effective compromise between fully unrestricted editing and a more heavily-structured approach that limited the authors or the sections they could edit. In addition, authors are associated with their commits, which makes it easy for contributors to receive credit for their work. Fig 2 and the GitHub contributors page summarize all edits and commits from each author, providing aggregated information that is not available on most other collaborative writing platforms. Because the Manubot writing process tracks the complete history through Git commits, it enables detailed retrospective contribution analysis. These pull request and contribution tracking examples both come from Deep Review, the largest Manubot project to date, but illustrate the general principles of transparency and collaboration that are shared by all open Manubot manuscripts.</p>
+<p>10.1371/journal.pcbi.1007128.g002 Fig 2</p>
+<p>Deep Review contributions by author over time.</p>
+<p>The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from Git commit diffs of the manuscript’s Markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history. The Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [10] in May 2017. While the article was under review, we continued to maintain the project and accepted new contributions. The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [5]. As of March 06, 2019, the Deep Review repository accumulated 755 Git commits, 317 merged pull requests, 609 issues, and 819 GitHub stars. The notebook to generate this figure can be interactively launched using Binder [11], enabling users to explore alternative visualizations or analyses of the source data.</p>
+<p>GitHub issues can also be used for formal peer review by independent or journal-selected reviewers. A reviewer conducting open peer review can create issues using their own GitHub account, as one reviewer did for this manuscript. Alternatively, a reviewer can post feedback with a pseudonymous GitHub account or have a trusted third party such as a journal editor post their comments anonymously. Authors can elect to respond to reviews in the GitHub issues or a public response letter, creating open peer review.</p>
+<p>Although we developed Manubot with collaborative writing in mind, it can also be helpful for individuals preparing scholarly documents. Authors may choose to make their changes directly to the master branch, forgoing pull requests and reviews. This workflow retains many of Manubot’s benefits, such as transparent history, automation, and allowing outside contributors to propose changes. In cases where outside contributions are unwanted, authors can disable pull requests on GitHub. It is also possible to use Manubot on a private GitHub repository. Private manuscripts require some additional customization to disable GitHub Pages and may require a paid continuous integration plan. See the existing manuscripts for examples of the range of contribution workflows and Manubot use cases.</p>
+<p>Manubot features</p>
+<p>Manubot is a system for writing scholarly manuscripts via GitHub. For each manuscript, there is a corresponding Git repository. The master branch of the repository contains all of the necessary inputs to build the manuscript. Specifically, a content directory contains one or more Markdown files that define the body of the manuscript as well as a metadata file to set information such as the title, authors, keywords, and language. Figures can be hosted in the content/images subdirectory or elsewhere and specified by URL. Repositories contain scripts and other files that define how to build and deploy the manuscript. Many of these operations are delegated to the manubot Python package or other dependencies such as Pandoc, which converts between document formats, and Travis CI, which builds the manuscript in the cloud. Manubot pieces together many existing standards and technologies to encapsulate a manuscript in a repository and automatically generate outputs.</p>
+<p>Markdown</p>
+<p>With Manubot, manuscripts are written as plain-text Markdown files. The Markdown standard itself provides limited yet crucial formatting syntax, including the ability to embed images and format text via bold, italics, hyperlinks, headers, inline code, codeblocks, blockquotes, and numbered or bulleted lists. In addition, Manubot relies on extensions from Pandoc Markdown to enable citations, tables, captions, and equations specified using the popular TeX math syntax. Markdown with Pandoc extensions supports most formatting options required for scholarly writing [12] but currently lacks the ability to cross-reference and automatically number figures, tables, and equations. For this functionality, Manubot includes the pandoc-xnos suite of Pandoc filters. A list of formatting options officially supported by Manubot, at the time of writing, is viewable as raw Markdown and the corresponding rendered HTML.</p>
+<p>By virtue of its readable syntax, Markdown is well suited for version control using Git. Markdown treats a single line break between text as a space and requires two-or-more consecutive line breaks to denote a new paragraph. For optimal tracking of Markdown files with Git, we recommend placing each sentence on its own line. This convention allows Git to display diffs on a per sentence basis, avoids unnecessary reflows associated with line wrapping, and supports easy rearrangement of sentences.</p>
+<p>Citation by identifier</p>
+<p>Manubot includes an additional layer of citation processing, currently unique to the system. All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata such as the title, authors, and publication date. Table 2 presents the supported identifiers and example citations before and after Manubot processing. Authors can optionally define citation tags to provide short readable alternatives to the citation identifiers. Citation metadata is exported to the Citation Style Language (CSL) JSON Data Items format, an open standard that is widely supported by reference managers [13,14]. However, sometimes external resources provide Manubot with invalid CSL Data, which can cause errors with downstream citation processors, such as pandoc-citeproc. Therefore, Manubot removes invalid fields according to the CSL Data specification. In cases where automatic retrieval of metadata fails or produces incorrect references—which is most common for URL citations—users can manually provide the correct metadata using common reference formats. Manual metadata also supports references without standard identifiers, such as print-only newspaper articles.</p>
+<p>10.1371/journal.pcbi.1007128.t002 Table 2</p>
+<p>Citation types supported by Manubot.</p>
+<p>Manubot allows users to cite different types of persistent identifiers. Metadata source indicates the primary resource used to retrieve bibliographic metadata. For certain identifier types, additional metadata sources are queried should the primary fail. For example, when translation-server ISBN lookup fails, Manubot tries Wikipedia’s Citoid service followed by the isbnlib Python package. When translation-server URL lookup fails, Manubot then tries Greycite [15]. Raw citations enable citing works when no supported persistent identifiers exist, but require that the user specifies the metadata. Finally, authors may optionally map a named tag to any of the supported identifier types. In this example, the tag avasthi-preprints represents the DOI identifier 10.7554/eLife.38532. API: application programming interface.</p>
+<p>Identifier Metadata source Example citation Processed citation ——————————————- ———————————– ——————————————— ——————– Digital Object Identifier (DOI) DOI Content Negotiation doi:10.1098/rsif.2017.0387 [5] shortDOI DOI Proxy Server API doi:10/gddkhn [5] PubMed Identifier (PMID) NCBI E-utilities pmid:25851694 [16] PubMed Central Identifier (PMCID) NCBI Literature Citation Exporter pmcid:PMC4719068 [4] arXiv ID arXiv API arxiv:1502.04015v1 [17] International Standard Book Number (ISBN) Zotero translation-server isbn:9780262517638 [18] Web address (URL) Zotero translation-server url:https://lgatto.github.io/open-and-open/ [19] Wikidata ID Zotero translation-server wikidata:Q56458321 [20] Raw Provided by user raw:paywall-movie [21] Tag Source for tagged identifier tag:avasthi-preprints [22]</p>
+<p>Manubot formats bibliographies according to a CSL style specification. Styles define how references are constructed from bibliographic metadata, controlling layout details such as the maximum number of authors to list per reference. Manubot’s default style emphasizes titles and electronic (rather than print) identifiers and applies numeric-style citations [23]. Alternatively, users can also choose from thousands of predefined styles or build their own [24]. As a result, adopting the specific bibliographic format required by a journal usually just requires specifying the style’s source URL in the Manubot configuration.</p>
+<p>Format conversion</p>
+<p>Manubot uses Pandoc to convert manuscripts from Markdown to HTML, PDF, and optionally DOCX outputs. Pandoc also supports Journal Article Tag Suite (JATS), a standard format for scholarly articles that is used by publishers, archives, and text miners [25–27]. Pandoc’s JATS support provides an avenue to integrate Manubot with the larger JATS ecosystem. In the future, journals may accept submissions in JATS. For now, Manubot’s DOCX output is usually sufficient for journal submissions that require an editable source document. Otherwise, authors generally use the PDF output for preprint and initial journal submissions. The primary Manubot output is HTML intended to be viewed in a web browser. Accordingly, manuscripts natively support JavaScript and can thus include any web-based interactive visualization, such as those produced using Vega-Lite, Bokeh, or Plotly [28,29].</p>
+<p>Interactive features and appearance</p>
+<p>Manubot comes with several “plugins” that can be included in manuscripts exported as HTML. These plugins add special interactive features that enhance the user experience of viewing and reading manuscripts (Fig 3). For example, with the “tooltips” plugin enabled, when the user hovers over a link to a reference or figure, a preview of that item pops up above the link, along with controls to navigate between other mentions of that item elsewhere in the document. The build process can also accommodate different “themes”, which change the general aesthetics and appearance of the exported document (e.g. from a contemporary sans-serif style to a more traditional serif style). The architecture of the plugins and themes is designed to provide authors with enough flexibility to suit their particular needs and preferences.</p>
+<p>10.1371/journal.pcbi.1007128.g003 Fig 3</p>
+<p>Examples of the various Manubot plugins, illustrating their functionality and usefulness.</p>
+<p>Screenshots were taken from existing manuscripts made with Manubot: Sci-Hub Coverage Study and TPOT-FSS, available under the CC BY 4.0 License. Clarifying markups are overlaid in purple.</p>
+<p>The Manubot “front-end” (layout, look, controls, behavior, etc.) was developed in line with current best practices and user expectations of the modern web. The plugins use standard technology built in to most major web browsers, allowing them to be relatively lightweight, modular, and easy to configure.</p>
+<p>Continuous publication</p>
+<p>Manubot performs continuous publication: Every update to a manuscript’s source is automatically reflected in the online outputs. The approach uses continuous integration (CI) [30–32], specifically via Travis CI, to monitor changes. When changes occur, the CI service attempts to generate an updated manuscript. If this process is error free, the CI service timestamps the manuscript and uploads the output files to the GitHub repository. Because the HTML manuscript is hosted using GitHub Pages, the CI service automatically deploys the new manuscript version when it pushes the updated outputs to GitHub. Using CI to build the manuscript automatically catches many common errors, such as misspelled citations, invalid formatting, or misconfigured software dependencies.</p>
+<p>To illustrate, the source GitHub repository for this article is https://github.com/greenelab/meta-review. When this repository changes, Travis CI rebuilds the manuscript. If successful, the output is deployed back to GitHub (to dedicated output and gh-pages branches). As a result, https://greenelab.github.io/meta-review stays up to date with the latest HTML manuscript. Furthermore, versioned URLs, such as https://greenelab.github.io/meta-review/v/4b6396bcefd1b9c7ddf39c1d3f0b3eab2dd63f31/, provide access to previous manuscript versions.</p>
+<p>Timestamping</p>
+<p>The idea of the “priority of discovery” is important to science, and Vale and Hyman discuss the importance of both disclosure and validation [33]. In their framework, disclosure occurs when a scientific output is released to the world. However, for a manuscript that is shared as it is written, being able to establish priority could be challenging. Manubot supports OpenTimestamps to timestamp the HTML and PDF outputs on the Bitcoin blockchain. This procedure allows one to retrospectively prove that a manuscript version existed prior to its blockchain-verifiable timestamp [17,34–37]. Timestamps protect against attempts to rewrite a manuscript’s history and ensure accurate histories, potentially alleviating certain authorship or priority disputes. Because all Bitcoin transactions compete for limited space on the blockchain, the fees required to send a single transaction can be high. OpenTimestamps minimizes fees by encoding many timestamps into a single Bitcoin transaction, enabling the service to be free of charge [38]. Since transactions can take up to a few days to be made, Manubot initially stores incomplete timestamps and upgrades them in future continuous deployment builds. We find that this asynchronous design with timestamps precise to the day is suitable for the purposes of scientific writing.</p>
+<p>Reproducible manuscripts</p>
+<p>Manubot and its dependencies are free of charge and largely open source. It does rely on gratis services from two proprietary platforms: GitHub and Travis CI. Fortunately, lock-in to these services is minimal, and several substitutes already exist. Manubot provides a substantial step towards end-to-end document reproducibility, where every figure or piece of data in a manuscript can be traced back to its origin [39] and is well-suited for preserving provenance. For example, figures can be specified using versioned URLs that refer to the code that created them. In addition, manuscripts can be templated, so that numerical values or tables are inserted directly from the repository that created them. The Fig 2 caption provides examples of templates. Phrases such as “755 Git commits” are written as {{total_commits}} Git commits so that the commit count can be automatically updated.</p>
+<p>Getting started</p>
+<p>An example repository at https://github.com/manubot/rootstock, referred to as Rootstock, demonstrates Manubot’s features and serves as a template for users to write their own manuscripts with Manubot. The current setup process includes cloning the Rootstock repository, rebranding it to the user’s manuscript, and configuring continuous integration. The setup process is complex but must only be performed once per manuscript. Incorporating new Manubot features into an existing manuscript is also possible by pulling the latest commits from Rootstock, which sometimes involves resolving Git conflicts.</p>
+<p>Contributing to a manuscript is less technical and can be performed entirely through GitHub’s web interface, as discussed in the contribution workflow section and demonstrated in S1 Video. Interested readers can practice editing a demo manuscript at https://github.com/manubot/try-manubot.</p>
+<p>At the 2019 Pacific Symposium on Biocomputing, we led a working group where 17 conference participants contributed to a different demo manuscript. Based on this experience, we believe most computational scholars have the expertise to contribute to a Manubot manuscript. Proficiency with Manubot requires familiarity with Markdown, Git, GitHub, and continuous integration. While these tools do present a barrier to entry, they are also highly applicable outside of Manubot and increasingly part of the standard curriculum for computational scholars. For example, Markdown is used for documenting Jupyter and R Markdown notebooks.</p>
+<p>Existing manuscripts</p>
+<p>Since its creation to facilitate the Deep Review, Manubot has been used to write a variety of scholarly documents. The Sci-Hub Coverage Study—performed openly on GitHub from its inception—investigated Sci-Hub’s repository of pirated articles [40]. Sci-Hub reviewed the initial preprint from this study in a series of tweets, pointing out a major error in one of the analyses. Within hours, the authors used Markdown’s strikethrough formatting in Manubot to cross-out the errant sentences (commit, versioned manuscript), thereby alerting readers to the mistake and preventing further propagation of misinformation. One month later, a larger set of revisions explained the error in more detail and was included in a second version of the preprint. As such, continuous publication via Manubot helped the authors address the error without delay, while retaining a public version history of the process. This Sci-Hub Coverage Study preprint was the most viewed 2017 PeerJ Preprint, while the Deep Review was the most viewed 2017 bioRxiv preprint [41]. Hence, in Manubot’s first year, two of the most popular preprints were written using its collaborative, open, and review-driven authoring process.</p>
+<p>Additional research studies are being authored using Manubot, spanning the fields of regulatory genomics [42], synthetic biology [43], climate science, visual perception [44], machine learning [45], computational toolkits [46], and data visualization. Manubot is also being used for documents beyond traditional journal publications, such as research tips, quality standards [47], grant proposals, progress reports, undergraduate research reports [48], literature reviews, and lab notebooks. Finally, manuscripts written with other authoring systems have been successfully ported to Manubot, including the Bitcoin Whitepaper [49] and Project Rephetio manuscript [50].</p>
+<p>Citation utilities</p>
+<p>The manubot Python package provides easy access to Manubot’s citation-by-identifier infrastructure, whose functionality extends beyond just Manubot manuscripts. For example, the Kipoi model zoo for genomics [51] uses Manubot’s Python interface to retrieve model authors from persistent identifiers. In addition, the manubot cite command line utility takes a list of citations and returns either a rendered bibliography or CSL Data Items (i.e. JSON-formatted reference metadata). For example, the following command outputs a Markdown reference list for the two specified articles according to the bibliographic style of PeerJ:</p>
+<p>manubot cite –render –format = markdown &lt;/monospace&gt;</p>
+<p> –csl = https://github.com/citation-style-language/styles/raw/master/peerj.csl &lt;/monospace&gt;</p>
+<p> pmid:29618526 doi: 10.1038/550143a</p>
+<p>Pandoc brands itself as a “universal document converter”, and can convert from any of 32 input formats to any of 51 output formats as of version 2.7. Thanks to its versatility and active development since 2006, Pandoc enjoys a large userbase across many disciplines and applications. Its filter interface enables adding custom functionality with community-developed programs. We are prototyping a Manubot-based citation-by-identifier filter. This filter would allow Pandoc users to cite persistent identifiers as part of their existing Pandoc workflows, without requiring them to adopt other aspects of Manubot. It could help popularize citation-by-identifier at an influential scale.</p>
+<p>Future enhancements</p>
+<p>Manubot is still under active development, and we envision major changes in its design and dependencies going forward. Currently, manuscript repositories must contain a large number of files that do not directly contain manuscript content. While this enables a high-degree of customization, it also increases complexity. Therefore, we are investigating whether configuration files with sensible defaults could enable bare-bones repositories that contain manuscript content and little else.</p>
+<p>In addition to simplifying the usage, we’re also looking into simplifying the setup. Presently, setup is complex because users must do advanced command-line operations to clone the Rootstock repository and configure Travis CI. Although we provide detailed instructions, users often struggle to replicate the long list of setup commands in an appropriate computational environment. One priority will be to automate setup to a higher degree. However, this may require switching the services Manubot uses for continuous integration (e.g. from Travis CI to GitHub Actions, CircleCI, Drone, or GitLab CI), environment management (e.g. from Conda to Docker), and repository hosting (e.g. from GitHub to GitLab). In addition to simplifying setup, such migrations may also present the opportunity to decrease dependency on proprietary services and address other Manubot shortcomings, such as the current inability to view rendered manuscripts produced by pull request builds.</p>
+<p>Upgrading a Manubot instance is an opt-in procedure. Therefore, when we introduce fundamental changes, existing manuscripts continue to function. However, large Rootstock changes can make upgrading existing manuscripts difficult. We are happy to provide users pro bono assistance to upgrade or troubleshoot manuscripts. Users can open an issue at the Rootstock repository for help.</p>
+<p>One strategy to grow Manubot usage is to identify a specific user group or use case for which Manubot can be widely adopted. For example, a journal may decide to build their publishing workflow around Manubot, such that submissions would consist of a Manubot repository. This application would be most suitable for journals that currently use GitHub for submissions and publishing, such as the Journal of Open Source Software [52]. Manubot could also gain traction as the primary tool used to write collaborative manuscripts within certain communities. For example, open research projects built from voluntary contributions by geographically-distributed individuals could adopt Manubot. Likewise, Manubot may excel at enabling collaborative translation of existing manuscripts into other languages. Another application could be collaborative development of online lessons, documentation, or tutorials. Projects like Software Carpentry already host each lesson in a separate GitHub repository and may benefit from Manubot-generated permalinks to historical versions.</p>
+<p>Authorship</p>
+<p>Manubot does not impose any restrictions on authorship. It allows authors to adhere to the author inclusion and ordering conventions of their field, which vary considerably across disciplines [53]. Some Manubot projects create a table in their GitHub repository to track contributors who did not commit text to the manuscript. This provides a transparent way to record contributions such as experimental research that generated data for the manuscript and discuss whether they meet that project’s authorship criteria. Contribution transparency helps prevent ghostwriting [54] and is especially important in collaborative writing [55]. Although we recommend authors provide their ORCID and GitHub username, Manubot also supports pseudonyms, pseudonymous GitHub usernames, and authors without an ORCID or GitHub account.</p>
+<p>To determine authorship for the Deep Review, we followed the International Committee of Medical Journal Editors (ICMJE) guidelines and used GitHub to track contributions. ICMJE recommends authors substantially contribute to, draft, approve, and agree to be accountable for the manuscript. We acknowledged other contributors who did not meet all four criteria, including contributors who provided text but did not review and approve the complete manuscript. Although these criteria provided a straightforward, equitable way to determine who would be an author, they did not produce a traditionally ordered author list. In biomedical journals, the convention is that the first and last authors made the most substantial contributions to the manuscript. This convention can be difficult to reconcile in a collaborative effort. Using Git, we could quantify the number of commits each author made or the number of sentences an author wrote or edited, but these metrics discount intellectual contributions such as discussing primary literature and reviewing pull requests. Therefore, we concluded that it is not possible to construct an objective system to compare and weight the different types of contributions and produce an ordered author list [56].</p>
+<p>To address this issue, we generalized the concept of “co-first” authorship, in which two or more authors are denoted as making equal contributions to a paper. We defined four types of contributions [5], from major to minor, and reviewed the GitHub discussions and commits to assign authors to these categories. A randomized algorithm then arbitrarily ordered authors within each contribution category, and we combined the category-specific author lists to produce a traditional ordering. The randomization procedure was shared with the authors in advance (pre-registered) and run in a deterministic manner. Given the same author contributions, it always produced the same ordered author list. We annotated the author list to indicate that author order was partly randomized and emphasize that the order did not indicate one author contributed more than another from the same category. The Deep Review author ordering procedure illustrates authorship possibilities when all contributions are publicly tracked and recorded that would be difficult with a traditional collaborative writing platform.</p>
+<p>Papers with hundreds or thousands of authors are on the rise, such as the article describing the experiments and data that led to the discovery of the Higgs Boson [57] (5000 authors) and the report of the Drosophila genome [58] (1000 authors). Yet the number of people that participated in writing those papers, as opposed to generating and analyzing the data, is not always clear and is likely to be far below the number of authors [59,60]. Manubot provides the scientists involved in large collaborations the opportunity to actively participate, through a public forum, in the writing process.</p>
+<p>Discussion</p>
+<p>Collaborative review manuscripts</p>
+<p>The open scholarly writing Manubot enables has particular benefits for review articles, which present the state of the art in a scientific field [61]. Literature reviews are typically written in private by an invited team of colleagues. In contrast, broadly opening the process to anyone engaged in the topic—such that planning, organizing, writing, and editing occur collaboratively in a public forum where anyone is welcome to participate—can maximize a review’s value. Open drafting of reviews is especially helpful for capturing state-of-the-art knowledge about rapidly advancing research topics at the intersection of existing disciplines where contributors bring diverse opinions and expertise.</p>
+<p>Writing review articles in a public forum allows review authors to engage with the original researchers to clarify their methods and results and present them accurately, as exemplified here. Additionally, discussing manuscripts in the open generates valuable pre-publication peer review of preprints [22] or post-publication peer review [16,62,63]. Because incentives to provide public peer review of existing literature [64] are lacking, open collaborative reviews—where authorship is open to anyone who makes a valid contribution—could help spur more post-publication peer review.</p>
+<p>Additional collaborative writing projects</p>
+<p>The Deep Review was not the first scholarly manuscript written online via an open collaborative process. In 2013, two dozen mathematicians created the 600-page Homotopy Type Theory book, writing collaboratively in LaTeX on GitHub [65,66]. Two technical books on cryptocurrency—Mastering Bitcoin and Mastering Ethereum—written on GitHub in AsciiDoc format have engaged hundreds of contributors. Both Homotopy Type Theory and Mastering Bitcoin continue to be maintained years after their initial publication. A 2017 perspective on the future of peer review was written collaboratively on Overleaf, with contributions from 32 authors [67]. While debate was raging over tightening the default threshold for statistical significance, nearly 150 scientists contributed to a Google Doc discussion that was condensed into a traditional journal commentary [68,69]. The greatest success to date of open collaborative writing is arguably Wikipedia, whose English version contains over 5.5 million articles. Wikipedia scaled encyclopedias far beyond any privately-written alternative. These examples illustrate how open collaborative writing can scale scholarly manuscripts where diverse opinion and expertise are paramount beyond what would otherwise be possible.</p>
+<p>Open writing also presents new opportunities for distributing scholarly communication. Though it is still valuable to have versioned drafts of a manuscript with digital identifiers, journal publication may not be the terminal endpoint for collaborative manuscripts. After releasing the first version of the Deep Review [10], 14 new contributors updated the manuscript (Fig 2). Existing authors continue to discuss new literature, creating a living document. Manubot provides an ideal platform for perpetual reviews [70,71].</p>
+<p>Concepts for the future of scholarly publishing extend beyond collaborative writing [72–74]. Pandoc Scholar [12] and Bookdown [75], which has been used for open writing [76], both enhance traditional Markdown to better support publishing. The knitcitations package enables citation by DOI or URL in R Markdown documents. Examples of continuous integration to automate manuscript generation include gh-publisher and jekyll-travis, which was used to produce a continuously published webpage for the Opening Science book [77,78]. Binder [11], Distill journal articles [79], Idyll [80], and Stencila [81,82] support manuscripts with interactive graphics and close integration with the underlying code. As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.</p>
+<p>Several other open science efforts are GitHub-based like our collaborative writing process. ReScience [83] as well as titles from Open Journals, such as the Journal of Open Source Software [52], rely on GitHub for peer review and hosting. Distill uses GitHub for transparent peer review and post-publication peer review [84]. GitHub is increasingly used for resource curation [85], and collaborative scholarly reviews combine literature curation with discussion and interpretation.</p>
+<p>Limitations</p>
+<p>There are potential limitations of our GitHub-based approach. Because the Deep Review pertained to a computational topic, most of the authors had computational backgrounds, including previous experience with version control workflows and GitHub. In other disciplines, collaborative writing via GitHub and Manubot could present a steeper barrier to entry and deter participants. In addition, Git carefully tracks all revisions to the manuscript text but not the surrounding conversations that take place through GitHub issues and pull requests. These discussions must be archived to ensure that important decisions about the manuscript are preserved and authors receive credit for intellectual contributions that are not directly reflected in the manuscript’s text. GitHub supports programmatic access to issues, pull requests, and reviews so tracking these conversations is feasible in the future.</p>
+<p>In the Deep Review, we established contributor guidelines that discussed norms in the areas of text contribution, peer review, and authorship, which we identified in advance as potential areas of disagreement. Our contributor guidelines required verifiable participation for authorship: either directly attributable changes to the text or participation in the discussion on GitHub. These guidelines did not discuss broader community norms that may have improved inclusiveness. It is also important to consider how the move to an open contribution model affects under-represented minority members of the scientific community [19]. Recent work has identified clear social norms and processes as helpful to maintaining a collaborative culture [86]. Conferences and open source projects have used codes of conduct to establish these norms (e.g. Contributor Covenant) [87]. We would encourage the maintainers of similar projects to consider broader codes of conduct for project participants that build on social as well as academic norms.</p>
+<p>Manubot in the context of open science</p>
+<p>Science is undergoing a transition towards openness. The internet provides a global information commons, where scholarship can be publicly shared at a minimal cost. For example, open access publishing provides an economic model that encourages maximal dissemination and reuse of scholarly articles [18,88,89]. More broadly, open licensing solves legal barriers to content reuse, enabling any type of scholarly output to become part of the commons [90,91]. The opportunity to reuse data and code for new investigations, as well as a push for increased reproducibility, has begot a movement to make all research outputs public, unless there are bona fide privacy or security concerns [92–94]. New tools and services make it increasingly feasible to publicly share the unabridged methods of a study, especially for computational research, which consists solely of software and data.</p>
+<p>Greater openness in both research methods and publishing creates an opportunity to redefine peer review and the role journals play in communicating science [67]. At the extreme is real-time open science, whereby studies are performed entirely in the open from their inception [95]. Many such research projects have now been completed, benefiting from the associated early-stage peer review, additional opportunity for online collaboration, and increased visibility [50,96].</p>
+<p>Manubot is an ideal authoring protocol for real-time open science, especially for projects that are already using an open source software workflow to manage their research. While Manubot does require technical expertise, the benefits are manyfold. Specifically, Manubot demonstrates a system for publishing that is transparent, reproducible, immediate, permissionless, versioned, automated, collaborative, open, linked, provenanced, decentralized, hackable, interactive, annotated, and free of charge. These attributes empower integrating Manubot with an ecosystem of other community-driven tools to make science as open and collaborative as possible.</p>
+<p>Supporting information</p>
+<p>S1 Video</p>
+<p>Editing a manuscript on GitHub.</p>
+<p>This screen recording demonstrates how to propose edits to a Manubot manuscript via GitHub. In the video [97], a contributor creates a pull request to add a sentence to the try-manubot manuscript. The contributor then revises the proposed change to add a citation, after which it is accepted, merged, and automatically deployed.</p>
+<p>(MP4)</p>
+<p>We would like to thank the authors of the Deep Review who helped us test collaborative writing with Manubot. The authors who responded favorably to being acknowledged are Paul-Michael Agapow, Amr M. Alexandari, Brett K. Beaulieu-Jones, Anne E. Carpenter, Travers Ching, Evan M. Cofer, Dave DeCaprio, Brian T. Do, Enrico Ferrero, David J. Harris, Michael M. Hoffman, Alexandr A. Kalinin, Anshul Kundaje, Jack Lanchantin, Christopher A. Lavender, Benjamin J. Lengerich, Zhiyong Lu, Yifan Peng, Yanjun Qi, Gail L. Rosen, Avanti Shrikumar, Srinivas C. Turaga, Gregory P. Way, Laura K. Wiley, Stephen Woloszynek, Wei Xie, Jinbo Xu, and Michael Zietz. In addition, we thank Ogun Adebali, Evan M. Cofer, and Robert Gieseke for contributing to the Rootstock manuscript. We are grateful for additional Manubot discussion and testing by Alexander Dunkel, Ansel Halliburton, Benjamin J. Heil, Zach Hensel, Alexandra J. Lee, YoSon Park, Achintya Rao, and other GitHub users. We thank John MacFarlane and Nikolay Yakimov for assistance with Pandoc and the global Binder team for advice on Binder. Finally, we thank C. Titus Brown for their help improving this manuscript.</p>
+<p>References</p>
+<p>1Nielsen M.</p>
+<p>Reinventing Discovery [Internet]. Princeton, NJ: Princeton University Press; 2011. 2National Academies of Sciences, Engineering, and Medicine. Open Science by Design: Realizing a Vision for 21st Century Research [Internet]. National Academies Press; 2018. 3Perkel J. TechBlog: “Manubot” powers a crowdsourced “deep-learning” review. In: Naturejobs [Internet]. 20 Feb 2018. http://blogs.nature.com/naturejobs/2018/02/20/techblog-manubot-powers-a-crowdsourced-deep-learning-review/ 4Khare R, Good BM, Leaman R, Su AI, Lu Z. Crowdsourcing in biomedicine: challenges and opportunities.</p>
+<p>Brief Bioinform. Oxford University Press; 2016;17: 23–32. doi: 10.1093/bib/bbv021 25888696 5Ching T, Himmelstein DS, Beaulieu-Jones BK, Kalinin AA, Do BT, Way GP, et al. Opportunities and obstacles for deep learning in biology and medicine.</p>
+<p>J R Soc Interface. The Royal Society; 2018;15: 20170387. doi: 10.1098/rsif.2017.0387 29618526 6Perkel JM. Scientific writing: the online cooperative.</p>
+<p>Nature. Springer Nature; 2014;514: 127–128. doi: 10.1038/514127a 25279924 7Blischak JD, Davenport ER, Wilson G. A Quick Introduction to Version Control with Git and GitHub. Ouellette F, editor.</p>
+<p>PLoS Comput Biol. Public Library of Science (PLoS); 2016;12: e1004668. doi: 10.1371/journal.pcbi.1004668 26785377 8Perez-Riverol Y, Gatto L, Wang R, Sachsenberg T, Uszkoreit J, Leprevost F da V, et al. Ten Simple Rules for Taking Advantage of Git and GitHub. Markel S, editor.</p>
+<p>PLoS Comput Biol. Public Library of Science (PLoS); 2016;12: e1004947. doi: 10.1371/journal.pcbi.1004947 27415786 9Israeli J. Opportunities And Obstacles For Deep Learning In Biology And Medicine. In: Towards Data Science [Internet]. 31 May 2017 [cited 11 Jun 2019]. https://towardsdatascience.com/opportunities-and-obstacles-for-deep-learning-in-biology-and-medicine-6ec914fe18c2 10Ching T, Himmelstein DS, Beaulieu-Jones BK, Kalinin AA, Do BT, Way GP, et al. Opportunities And Obstacles For Deep Learning In Biology And Medicine [Internet]. bioRxiv. Cold Spring Harbor Laboratory; 2017. 11Jupyter P, Bussonnier M, Forde J, Freeman J, Granger B, Head T, et al. Binder 2.0—Reproducible, interactive, sharable environments for science at scale. Proceedings of the 17th Python in Science Conference. SciPy; 2018. 12Krewinkel A, Winkler R. Formatting Open Science: agilely creating multiple document formats for academic manuscripts with Pandoc Scholar.</p>
+<p>PeerJ Computer Science. PeerJ; 2017;3: e112. doi: 10.7717/peerj-cs.112 13Fenner M, Scheliga K, Bartling S. Reference Management.</p>
+<p>Opening Science. Springer International Publishing; 2013. pp. 125–137. doi: 10.1007/978-3-319-00026-8_8 14Zhang Y. Comparison of Select Reference Management Tools.</p>
+<p>Medical Reference Services Quarterly. Informa UK Limited; 2012;31: 45–60. doi: 10.1080/02763869.2012.641841 22289095 15Lord P, Marshall L. Twenty-Five Shades of Greycite: Semantics for referencing and preservation [Internet]. arXiv. arXiv; 2013 Apr. Report No.: 1304.7151v1. https://arxiv.org/abs/1304.7151v1 16Knoepfler P. Reviewing post-publication peer review.</p>
+<p>Trends Genet. 2015;31: 221–3. doi: 10.1016/j.tig.2015.03.006 25851694 17Gipp B, Meuschke N, Gernandt A. Decentralized Trusted Timestamping using the Crypto Currency Bitcoin [Internet]. arXiv. arXiv; 2015 Feb. Report No.: 1502.04015v1. https://arxiv.org/abs/1502.04015v1 18Suber P. Open access. Cambridge, Mass: MIT Press; 2012. 19Gatto L. Open science and open science [Internet]. 5 Jun 2017. https://lgatto.github.io/open-and-open/ 20S c. Plan S: Accelerating the transition to full and immediate Open Access to scientific publications [Internet]. 2018. https://www.wikidata.org/wiki/Q56458321 21Schmitt J, producer and director. Paywall: The Business of Scholarship [Film]; 2018. https://paywallthemovie.com/paywall 22Avasthi P, Soragni A, Bembenek JN. Journal clubs in the time of preprints.</p>
+<p>eLife. eLife Sciences Publications, Ltd; 2018;7. doi: 10.7554/elife.38532 29889024 23Himmelstein D. On author versus numeric citation styles. Satoshi Village. 2018; https://blog.dhimmel.com/citation-styles/ 24Perkel J. TechBlog: Create the perfect bibliography with the CSL Editor. In: Naturejobs [Internet]. 3 May 2017. http://blogs.nature.com/naturejobs/2017/05/03/techblog-create-the-perfect-bibliography-with-the-csl-editor/ 25National Information Standards Organization. ANSI/NISO Z39.96–2019, JATS: Journal Article Tag Suite, version 1.2 [Internet]. NISO; 2019 Feb. https://www.niso.org/publications/z3996-2019-jats 26Huh S. Journal Article Tag Suite 1.0: National Information Standards Organization standard of journal extensible markup language.</p>
+<p>Sci Ed. Korean Council of Science Editors; 2014;1: 99–104. doi: 10.6087/kcse.2014.1.99 27Needleman MH. NISO Z39.96-201x, JATS: Journal Article Tag Suite.</p>
+<p>Serials Review. Informa UK Limited; 2012;38: 213–214. doi: 10.1080/00987913.2012.10765464 28Perkel JM. Data visualization tools drive interactivity and reproducibility in online publishing.</p>
+<p>Nature. Springer Nature; 2018;554: 133–134. doi: 10.1038/d41586-018-01322-9 29388968 29Satyanarayan A, Moritz D, Wongsuphasawat K, Heer J. Vega-Lite: A Grammar of Interactive Graphics.</p>
+<p>IEEE Trans Visual Comput Graphics. Institute of Electrical and Electronics Engineers (IEEE); 2017;23: 341–350. doi: 10.1109/tvcg.2016.2599030 27875150 30Silver A. Collaborative software development made easy.</p>
+<p>Nature. Springer Nature; 2017;550: 143–144. doi: 10.1038/550143a 28980652 31Beaulieu-Jones BK, Greene CS. Reproducibility of computational workflows is automated using continuous analysis.</p>
+<p>Nat Biotechnol. Springer Nature; 2017;35: 342–346. doi: 10.1038/nbt.3780 28288103 32Yenni GM, Christensen EM, Bledsoe EK, Supp SR, Diaz RM, White EP, et al. Developing a modern data workflow for evolving data [Internet]. bioRxiv. Cold Spring Harbor Laboratory; 2018. 33Vale RD, Hyman AA. Priority of discovery in the life sciences.</p>
+<p>eLife. eLife Sciences Publications, Ltd; 2016;5. doi: 10.7554/elife.16931 27310529 34Carlisle BG. Proof of prespecified endpoints in medical research with the bitcoin blockchain. In: The Grey Literature [Internet]. 25 Aug 2014 [cited 11 Apr 2019]. https://www.bgcarlisle.com/blog/2014/08/25/proof-of-prespecified-endpoints-in-medical-research-with-the-bitcoin-blockchain/ 35Himmelstein D. The most interesting case of scientific irreproducibility? Satoshi Village. 2017; https://blog.dhimmel.com/irreproducible-timestamps/ 36Heaven D. Bitcoin for the biological literature.</p>
+<p>Nature. Springer Nature; 2019;566: 141–142. doi: 10.1038/d41586-019-00447-9 30718888 37Nakamoto S. Bitcoin: A Peer-to-Peer Electronic Cash System [Internet]. 21 Mar 2019 [cited 11 Jun 2019]. https://git.dhimmel.com/bitcoin-whitepaper/ 38Todd P. OpenTimestamps: Scalable, Trust-Minimized, Distributed Timestamping with Bitcoin. In: Peter Todd [Internet]. 15 Sep 2016 [cited 11 Apr 2019]. https://petertodd.org/2016/opentimestamps-announcement 39Packer E. eLife supports development of open technology stack for publishing reproducible manuscripts online. In: eLife Press Pack [Internet]. 7 Sep 2017. https://elifesciences.org/for-the-press/e6038800/elife-supports-development-of-open-technology-stack-for-publishing-reproducible-manuscripts-online 40Himmelstein DS, Romero AR, Levernier JG, Munro TA, McLaughlin SR, Greshake Tzovaras B, et al. Sci-Hub provides access to nearly all scholarly literature.</p>
+<p>eLife. eLife Sciences Publications, Ltd; 2018;7. doi: 10.7554/elife.32822 29424689 41Callaway E, Castelvecchi D, Cyranoski D, Gibney E, Ledford H, Lee JJ, et al. 2017 in news: The science events that shaped the year.</p>
+<p>Nature. Springer Nature; 2017;552: 304–307. doi: 10.1038/d41586-017-08493-x 29293246 42Bruse N, van Heeringen SJ. GimmeMotifs: an analysis framework for transcription factor motif analysis [Internet]. bioRxiv. Cold Spring Harbor Laboratory; 2018. 43Silva JPN, Lopes SV, Grilo DJ, Hensel Z. Plasmids for Independently Tunable, Low-Noise Expression of Two Genes. Ellermeier CD, editor.</p>
+<p>mSphere. American Society for Microbiology; 2019;4. doi: 10.1128/msphere.00340-19 31142623 44Perrinet L. Illusions et hallucinations visuelles: une porte sur la perception. In: The Conversation [Internet]. 6 Jun 2019 [cited 13 Jun 2019]. https://theconversation.com/illusions-et-hallucinations-visuelles-une-porte-sur-la-perception-117389 45Le TT, Fu W, Moore JH. Scaling tree-based automated machine learning to biomedical big data with a feature set selector. Kelso J, editor.</p>
+<p>Bioinformatics. Oxford University Press (OUP); 2019; doi: 10.1093/bioinformatics/btz470 31165141 46Hickey G, Heller D, Monlong J, Sibbesen JA, Siren J, Eizenga J, et al. Genotyping structural variants in pangenome graphs using the vg toolkit [Internet]. bioRxiv. Cold Spring Harbor Laboratory; 2019. 47Orviz P, López García Á, Duma DC, Donvito G, David M, Gomes J. A set of common software quality assurance baseline criteria for research projects. 2017; https://digital.csic.es/handle/10261/160086 48Zietz M. Vagelos Report Summer 2017. Figshare; 2017; 49Himmelstein D. How I used the Manubot to reproduce the Bitcoin Whitepaper. In: Steem [Internet]. 20 Sep 2017. https://busy.org/@dhimmel/how-i-used-the-manubot-to-reproduce-the-bitcoin-whitepaper 50Himmelstein DS, Lizee A, Hessler C, Brueggeman L, Chen SL, Hadley D, et al. Systematic integration of biomedical knowledge prioritizes drugs for repurposing.</p>
+<p>eLife. eLife Sciences Publications, Ltd; 2017;6. doi: 10.7554/elife.26726 28936969 51Avsec Ž, Kreuzhuber R, Israeli J, Xu N, Cheng J, Shrikumar A, et al. The Kipoi repository accelerates community exchange and reuse of predictive models for genomics.</p>
+<p>Nat Biotechnol. Springer Science and Business Media LLC; 2019;37: 592–600. doi: 10.1038/s41587-019-0140-0 31138913 52Smith AM, Niemeyer KE, Katz DS, Barba LA, Githinji G, Gymrek M, et al. Journal of Open Source Software (JOSS): design and first-year review.</p>
+<p>PeerJ Computer Science. PeerJ; 2018;4: e147. doi: 10.7717/peerj-cs.147 53Marušić A, Bošnjak L, Jerončić A. A Systematic Review of Research on the Meaning, Ethics and Practices of Authorship across Scholarly Disciplines. Jefferson T, editor.</p>
+<p>PLoS ONE. Public Library of Science (PLoS); 2011;6: e23477. doi: 10.1371/journal.pone.0023477 21931600 54Gøtzsche PC, Kassirer JP, Woolley KL, Wager E, Jacobs A, Gertel A, et al. What Should Be Done To Tackle Ghostwriting in the Medical Literature?</p>
+<p>PLoS Med. Public Library of Science (PLoS); 2009;6: e1000023. doi: 10.1371/journal.pmed.1000023 19192943 55Frassl MA, Hamilton DP, Denfeld BA, de Eyto E, Hampton SE, Keller PS, et al. Ten simple rules for collaboratively writing a multi-authored paper. Lewitter F, editor.</p>
+<p>PLoS Comput Biol. Public Library of Science (PLoS); 2018;14: e1006508. doi: 10.1371/journal.pcbi.1006508 30439938 56Brown CT. Revisiting authorship, and JOSS software publications. In: Living in an Ivory Basement [Internet]. 16 Jan 2019 [cited 11 Apr 2019]. http://ivory.idyll.org/blog/2019-authorship-revisiting.html 57Aad G, Abbott B, Abdallah J, Abdinov O, Aben R, Abolins M, et al. Combined Measurement of the Higgs Boson Mass in pp Collisions at sqrt[s] = 7 and 8 TeV with the ATLAS and CMS Experiments.</p>
+<p>Phys Rev Lett. American Physical Society (APS); 2015;114. doi: 10.1103/physrevlett.114.191803 26024162 58Leung W, Shaffer CD, Reed LK, Smith ST, Barshop W, Dirkes W, et al. Drosophila Muller F Elements Maintain a Distinct Set of Genomic Properties Over 40 Million Years of Evolution.</p>
+<p>G3. Genetics Society of America; 2015;5: 719–740. doi: 10.1534/g3.114.015966 25740935 59Woolston C. Fruit-fly paper has 1,000 authors.</p>
+<p>Nature. Springer Nature; 2015;521: 263–263. doi: 10.1038/521263f 60Castelvecchi D. Physics paper sets record with more than 5,000 authors.</p>
+<p>Nature. Springer Nature; 2015; doi: 10.1038/nature.2015.17567 61Pautasso M. Ten Simple Rules for Writing a Literature Review. Bourne PE, editor.</p>
+<p>PLoS Comput Biol. Public Library of Science (PLoS); 2013;9: e1003149. doi: 10.1371/journal.pcbi.1003149 23874189 62Bastian H. A Stronger Post-Publication Culture Is Needed for Better Science.</p>
+<p>PLoS Med. Public Library of Science (PLoS); 2014;11: e1001772. doi: 10.1371/journal.pmed.1001772 25548904 63Hunter J. Post-Publication Peer Review: Opening Up Scientific Conversation.</p>
+<p>Front Comput Neurosci. Frontiers Media SA; 2012;6. doi: 10.3389/fncom.2012.00063 22969719 64Markie M. Post-publication peer review, in all its guises, is here to stay.</p>
+<p>Insights the UKSG journal. Ubiquity Press, Ltd. 2015;28: 107–110. doi: 10.1629/uksg.245 65The Univalent Foundations Program. Homotopy Type Theory: Univalent Foundations of Mathematics [Internet]. Institute for Advanced Study; 2013. https://homotopytypetheory.org/book/ 66Bauer A. The HoTT book. In: Mathematics and Computation [Internet]. 20 Jun 2013. http://math.andrej.com/2013/06/20/the-hott-book/ 67Tennant JP, Dugan JM, Graziotin D, Jacques DC, Waldner F, Mietchen D, et al. A multi-disciplinary perspective on emergent and future innovations in peer review.</p>
+<p>F1000Res. F1000 (Faculty of 1000 Ltd); 2017;6: 1151. doi: 10.12688/f1000research.12037.2 29188015 68Vrieze J. Nearly 100 scientists spent 2 months on Google Docs to redefine the p-value. Here’s what they came up with. Science. American Association for the Advancement of Science (AAAS); 2018; 69Lakens D, Adolfi FG, Albers CJ, Anvari F, Apps MAJ, Argamon SE, et al. Justify your alpha.</p>
+<p>Nat Hum Behav. Springer Nature; 2018;2: 168–171. doi: 10.1038/s41562-018-0311-x 70Mobley DL, Zuckerman DM. A proposal for regularly updated review/survey articles: “Perpetual Reviews” [Internet]. arXiv. arXiv; 2015 Feb. Report No.: 1502.01329v2. https://arxiv.org/abs/1502.01329v2 71Mobley DL, Shirts MR, Zuckerman DM. Why we need the Living Journal of Computational Molecular Science.</p>
+<p>LiveCoMS. 2017; 2031. doi: 10.33011/livecoms.1.1.2031 72Goodman A, Peek J, Accomazzi A, Beaumont C, Borgman CL, Chen H-HH, et al. The “Paper” of the Future [Internet]. Authorea. Authorea, Inc. 73Pepe A, Cantiello M, Nicholson J. The arXiv of the future will not look like the arXiv [Internet]. Authorea. Authorea, Inc. 74Brown CT. TechBlog: C. Titus Brown: Predicting the paper of the future. In: Naturejobs [Internet]. 1 Jun 2017. http://blogs.nature.com/naturejobs/2017/06/01/techblog-c-titus-brown-predicting-the-paper-of-the-future/ 75Xie Y. bookdown [Internet]. Chapman &amp;Hall/CRC The R Series. CRC Press; 2016. 76Davis S, Ramos M, Shepherd L, Turaga N, Geistlinger L, Morgan MT, et al. Orchestrating a community-developed computational workshop and accompanying training materials.</p>
+<p>F1000Res. F1000 (Faculty of 1000 Ltd); 2018;7: 1656. doi: 10.12688/f1000research.16516.1 30473781 77Fenner M. Continuous Publishing. In: Gobbledygook [Internet]. 10 Mar 2014. http://blog.martinfenner.org/2014/03/10/continuous-publishing/ 78Bartling S, Friesike S, editors. Opening Science [Internet]. Springer International Publishing; 2014. 79Olah C, Satyanarayan A, Johnson I, Carter S, Schubert L, Ye K, et al. The Building Blocks of Interpretability.</p>
+<p>Distill. Distill Working Group; 2018;3. doi: 10.23915/distill.00010 80Conlen M, Osheroff A. Announcing idyll.pub. In: Idyll [Internet]. 26 Jun 2018. https://idyll.pub/post/announcing-idyll-pub-0a3eff0661df3446a915700d/ 81Aufreiter M, Pawlik A, Bentley N. Stencila–an office suite for reproducible research. In: eLife Labs [Internet]. 2 Jul 2018. https://elifesciences.org/labs/c496b8bb/stencila-an-office-suite-for-reproducible-research 82Maciocci G, Aufreiter M, Bentley N. Introducing eLife’s first computationally reproducible article. In: eLife Labs [Internet]. 20 Feb 2019 [cited 11 Apr 2019]. https://elifesciences.org/labs/ad58f08d/introducing-elife-s-first-computationally-reproducible-article 83Rougier NP, Hinsen K, Alexandre F, Arildsen T, Barba LA, Benureau FCY, et al. Sustainable computational science: the ReScience initiative.</p>
+<p>PeerJ Computer Science. PeerJ; 2017;3: e142. doi: 10.7717/peerj-cs.142 84Editors D. Distill Update 2018.</p>
+<p>Distill. Distill Working Group; 2018;3. doi: 10.23915/distill.00013 85Wu Y, Wang N, Kropczynski J, Carroll JM. The appropriation of GitHub for curation.</p>
+<p>PeerJ Computer Science. PeerJ; 2017;3: e134. doi: 10.7717/peerj-cs.134 86Wagner C, Prasarnphanich P. Innovating Collaborative Content Creation: The Role of Altruism and Wiki Technology. 2007 40th Annual Hawaii International Conference on System Sciences (HICSS’07). IEEE; 2007. 87Tourani P, Adams B, Serebrenik A. Code of conduct in open source projects. 2017 IEEE 24th International Conference on Software Analysis, Evolution and Reengineering (SANER). IEEE; 2017. 88Tennant JP, Waldner F, Jacques DC, Masuzzo P, Collister LB, Hartgerink CHJ. The academic, economic and societal impacts of Open Access: an evidence-based review.</p>
+<p>F1000Res. F1000 (Faculty of 1000 Ltd); 2016;5: 632. doi: 10.12688/f1000research.8460.3 27158456 89McKiernan EC, Bourne PE, Brown CT, Buck S, Kenall A, Lin J, et al. How open science helps researchers succeed.</p>
+<p>eLife. eLife Sciences Publications, Ltd; 2016;5. doi: 10.7554/elife.16800 27387362 90Stodden V. The Legal Framework for Reproducible Scientific Research: Licensing and Copyright.</p>
+<p>Comput Sci Eng. Institute of Electrical and Electronics Engineers (IEEE); 2009;11: 35–40. doi: 10.1109/mcse.2009.19 91Oxenham S. Legal confusion threatens to slow data science.</p>
+<p>Nature. Springer Nature; 2016;536: 16–17. doi: 10.1038/536016a 27488781 92Stodden V, McNutt M, Bailey DH, Deelman E, Gil Y, Hanson B, et al. Enhancing reproducibility for computational methods.</p>
+<p>Science. American Association for the Advancement of Science (AAAS); 2016;354: 1240–1241. doi: 10.1126/science.aah6168 27940837 93Ince DC, Hatton L, Graham-Cumming J. The case for open computer programs.</p>
+<p>Nature. Springer Nature; 2012;482: 485–488. doi: 10.1038/nature10836 22358837 94Molloy JC. The Open Knowledge Foundation: Open Data Means Better Science.</p>
+<p>PLoS Biol. Public Library of Science (PLoS); 2011;9: e1001195. doi: 10.1371/journal.pbio.1001195 22162946 95Patil C, Siegel V. This revolution will be digitized: online tools for radical collaboration.</p>
+<p>Disease Models &amp; Mechanisms. The Company of Biologists; 2009;2: 201–205. doi: 10.1242/dmm.003285 19407323 96Mietchen D, Mounce R, Penev L. Publishing the research process.</p>
+<p>RIO. Pensoft Publishers; 2015;1: e7547. doi: 10.3897/rio.1.e7547 97Slochower D, Himmelstein D. How to edit a manuscript on GitHub with Manubot [Internet].</p>
+<p>Figshare; 2019. doi: 10.6084/m9.figshare.7946192.v2</p>
+[<del>CC
+</del>
+<ins>
+(CC
+</ins>
+<p>BY 4.<del>0</del>]: https://github.com/greenelab/deep-review/blob/master/LICENSE.md “Creative Commons Attribution 4.0 International License” [<ins>(</ins><ins>Table </ins>1]: #tbl:platforms [6]: #ref-AylLD9F8 [Overleaf]: https://www.overleaf.com/ [Authorea]: https://www.authorea.com/ [7]: #ref-PlcxShQU [8]: #ref-kEX5dgzK [9]: #ref-opQBBK06 <a href="#ref-1DiVJ3t6P">1</a>: #fig:workflow [S1 Video]: #vid:usage [Figure 1: Manubot editing workflow. Any reader can contribute to a Manubot manuscript by proposing a change through a pull request. This example involves three people: a manuscript Maintainer, an existing project Contributor, and an additional Participant in the discussion. Manuscript text is shown in solid lines on the left of the timeline and discussion on GitHub is shown by squiggly lines to the right of the timeline. The Contributor opens a GitHub issue to discuss a manuscript modification. The Maintainer and the Participant provide feedback in the issue, and the Maintainer recommends creating a GitHub pull request to update the text. The Contributor creates the pull request. It is reviewed by the Maintainer and the Participant, and the Contributor updates the pull request in response. Once the pull request is approved, the Maintainer merges the changes into the official version of the manuscript.]: images/workflow.svg [issue]: https://github.com/greenelab/deep-review/issues/575 [pull request]: https://github.com/greenelab/deep-review/pull/638 <a href="#ref-IWBJQIkl">2</a>: #fig:contrib [contributors page]: https://github.com/greenelab/deep-review/graphs/contributors [Figure 2: Deep Review contributions by author over time. The total words added to the Deep Review by each author is plotted over time (final values in parentheses). These statistics were extracted from Git commit diffs of the manuscript’s Markdown source. This figure reveals the composition of written contributions to the manuscript at every point in its history. The Deep Review was initiated in August 2016, and the first complete manuscript was released as a preprint [10] in May 2017. While the article was under review, we continued to maintain the project and accepted new contributions. The preprint was updated in January 2018, and the article was accepted by the journal in March 2018 [5]. As of March 06, 2019, the Deep Review repository accumulated 755 Git commits, 317 merged pull requests, 609 issues, and 819 GitHub stars. The notebook to generate this figure can be interactively launched using Binder [11], enabling users to explore alternative visualizations or analyses of the source data.]: images/deep-review-contribution-ridge.svg [one reviewer]: https://github.com/greenelab/meta-review/issues/124 [response letter]: https://github.com/greenelab/meta-review/blob/v3.0/content/response-to-reviewers.md [existing manuscripts]: #existing-manuscripts [Python package]: https://github.com/manubot/manubot [Markdown standard]: https://spec.commonmark.org/0.28/ [Pandoc Markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown [12]: #ref-17wKkS4DV [<del><code>pandoc-xnos</code></del>]: https://github.com/tomduck/pandoc-xnos [raw Markdown]: https://github.com/manubot/rootstock/raw/091ca8d85c8ef2d7af16fcc8d2ed3ebcbc187f13/content/02.delete-me.md [rendered HTML]: https://manubot.github.io/rootstock/v/091ca8d85c8ef2d7af16fcc8d2ed3ebcbc187f13/ <a href="#ref-16CgM2x0z">3</a>: #tbl:citations [Citation Style Language (CSL) JSON Data Items]: http://citeproc-js.readthedocs.io/en/latest/csl-json/markup.html#items [13]: #ref-9KfVIq3s [14]: #ref-K7WVgf8X [pandoc-citeproc]: http://hackage.haskell.org/package/pandoc-citeproc [CSL Data specification]: https://github.com/citation-style-language/schema [Citoid]: https://www.mediawiki.org/wiki/Citoid [isbnlib]: https://github.com/xlcnd/isbnlib [Greycite]: http://greycite.knowledgeblog.org/ [15]: #ref-GKPtRdAw [Content Negotiation]: https://citation.crosscite.org/docs.html [E-utilities]: https://www.ncbi.nlm.nih.gov/books/NBK25501/ [16]: #ref-LfJGtB83 [Literature Citation Exporter]: https://api.ncbi.nlm.nih.gov/lit/ctxp/ [arXiv API]: https://arxiv.org/help/api/index [17]: #ref-Y2XyzLMc [Zotero translation-server]: https://github.com/zotero/translation-server [18]: #ref-zBPP9YKu [19]: #ref-zBl3qgGT [20]: #ref-QhC8yJ7V [21]: #ref-J6sGnQp1 [22]: #ref-pqBLIXzp [CSL]: http://citationstyles.org/ [23]: #ref-aAKJEII [predefined styles]: http://editor.citationstyles.org/searchByName/ [24]: #ref-w4n6Qtun [Pandoc]: https://pandoc.org/ [Journal Article Tag Suite]: https://jats.nlm.nih.gov/ [25]: #ref-LHrRxRb0 [27]: #ref-bCyfIm6z [Vega-Lite]: https://vega.github.io/vega-lite/ [Bokeh]: https://bokeh.pydata.org [Plotly]: https://plot.ly/ [28]: #ref-6eVHYGML [29]: #ref-nyZChH5b <a href="#ref-12sHvZy1a">4</a>: #fig:plugins [Figure 3: Examples of the various Manubot plugins, illustrating their functionality and usefulness. Screenshots were taken from existing manuscripts made with Manubot: Sci-Hub Coverage Study and TPOT-FSS, available under the CC BY 4.0 License. Clarifying markups are overlaid in purple.]: images/plugins.png [30]: #ref-18w6XKsQO [32]: #ref-lXvpQxeN [Travis CI]: https://travis-ci.org/ [GitHub Pages]: https://pages.github.com/ [rebuilds]: https://travis-ci.org/greenelab/meta-review [<del><code>output</code></del>]: https://github.com/greenelab/meta-review/tree/output [<del><code>gh-pages</code></del>]: https://github.com/greenelab/meta-review/tree/gh-pages [33]: #ref-vHuGhm4k [OpenTimestamps]: https://opentimestamps.org/ [34]: #ref-6MR50hyY [37]: #ref-6yyYojgV [38]: #ref-1DG704X8Q [several substitutes]: #future [39]: #ref-sWD9uVuF [current setup process]: https://github.com/manubot/rootstock/blob/091ca8d85c8ef2d7af16fcc8d2ed3ebcbc187f13/SETUP.md [contribution workflow]: #contribution-workflow [demo manuscript]: https://git.dhimmel.com/psb-manuscript/ [Sci-Hub Coverage Study]: https://github.com/greenelab/scihub-manuscript [40]: #ref-IhliSZDo [reviewed]: https://github.com/greenelab/scihub-manuscript/issues/17 [commit]: https://github.com/greenelab/scihub-manuscript/commit/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba [versioned manuscript]: https://greenelab.github.io/scihub-manuscript/v/8fcd0cd665f6fb5f39bed7e26b940aa27d4770ba/ [set of revisions]: https://github.com/greenelab/scihub-manuscript/pull/19 [most viewed]: http://web.archive.org/web/20171221221858/http://www.prepubmed.org/top_preprints/ [41]: #ref-9IrsqXRa [regulatory]: https://vsmalladi.github.io/tfsee-manuscript/ [genomics]: https://simonvh.github.io/gimmemotifs-manuscript/ [42]: #ref-LGjXBQ7t [synthetic biology]: https://zach-hensel.github.io/low-noise-manuscript/ [43]: #ref-15QSXk9Cl [climate science]: https://openclimatedata.github.io/global-emissions/ [visual perception]: https://laurentperrinet.github.io/2019-05_illusions-visuelles/ [44]: #ref-faKuBkfY [machine learning]: https://trang1618.github.io/tpot-fss-ms/ [45]: #ref-17a3WKGzu [computational toolkits]: https://jmonlong.github.io/manu-vgsv/ [46]: #ref-r2krHy6V [data visualization]: https://yt-project.github.io/yt-3.0-paper/ [research tips]: https://benjamin-lee.github.io/deep-rules/ [quality standards]: https://indigo-dc.github.io/sqa-baseline/ [47]: #ref-WkeOa3Qo [grant proposals]: https://greenelab.github.io/manufund-2018/ [progress reports]: https://greenelab.github.io/czi-hca-report/ [undergraduate research reports]: https://zietzm.github.io/Vagelos2017/ [48]: #ref-15nwuvjrA [literature reviews]: https://slochower.github.io/synthetic-motor-literature/ [Bitcoin Whitepaper]: https://git.dhimmel.com/bitcoin-whitepaper/ [49]: #ref-u9DGTIX [Project Rephetio manuscript]: https://git.dhimmel.com/rephetio-manuscript/ [50]: #ref-O21tn8vf <a href="#ref-PZMP42Ak">5</a>: https://pypi.org/project/manubot/ [Kipoi]: https://kipoi.org/ [51]: #ref-tQy0rfF4 [prototyping]: https://github.com/manubot/manubot/pull/99 “Create a pandoc-manubot-cite filter for pandoc” [6]: https://github.com/manubot/rootstock/issues [52]: #ref-xpw2aizK [Software Carpentry]: https://software-carpentry.org/ [53]: #ref-14ahyJcvY [table]: https://github.com/Benjamin-Lee/deep-rules/blob/cfb7f744573ca0532a19ca1a8e9473a555cf8eb2/contributors.md [54]: #ref-RK9sIADd [55]: #ref-vzcNEQll [guidelines]: http://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html [56]: #ref-e2rpsIbt [57]: #ref-15YfJWkEd [58]: #ref-Szy8sdWq [59]: #ref-NGOit8L2 [60]: #ref-nahdPyLb [61]: #ref-Rhm4AK0j [here]: https://github.com/greenelab/deep-review/issues/213 [62]: #ref-jYs2OUFW [63]: #ref-HflJ6Hy5 [64]: #ref-uw5bep8P [65]: #ref-RExXs8is [66]: #ref-MhC1nPDK [Mastering Bitcoin]: https://github.com/bitcoinbook/bitcoinbook [Mastering Ethereum]: https://github.com/ethereumbook/ethereumbook [67]: #ref-52Q1v5nS [68]: #ref-82ZjWq3i [69]: #ref-HXpnCQu1 [far beyond]: https://en.wikipedia.org/wiki/Wikipedia:Size_comparisons [10]: #ref-tJKvnIaZ [creating a living document]: https://github.com/greenelab/deep-review/ [70]: #ref-Xs2yPQcr [71]: #ref-H0XkaC8S [72]: #ref-Bu8VxdWB [74]: #ref-ILhLpgTs [75]: #ref-1BISa1RLr [76]: #ref-1CblcIDkq [knitcitations]: https://github.com/cboettig/knitcitations [gh-publisher]: https://github.com/ewanmellor/gh-publisher [jekyll-travis]: https://github.com/mfenner/jekyll-travis [continuously published webpage]: http://book.openingscience.org/ [77]: #ref-nqeDrtsc [78]: #ref-ujrfOBM1 [11]: #ref-Q20Bxdsr [79]: #ref-MHNCSD5I [80]: #ref-1ESo5MNnB [81]: #ref-BWMf57EM [82]: #ref-KLKZcPlg [83]: #ref-8o1nWux7 [Open Journals]: http://www.theoj.org/ [84]: #ref-1ESYVbN4H [85]: #ref-vf9t7xMG [contributor guidelines]: https://github.com/greenelab/deep-review/blob/v1.0/CONTRIBUTING.md [86]: #ref-NuDPNceu [Contributor Covenant]: https://www.contributor-covenant.org/ “A Code of Conduct for Open Source Projects” [87]: #ref-bY9cHRxB [88]: #ref-PuP45jrB [89]: #ref-HQfvK1OF [90]: #ref-g6WVoxNy [91]: #ref-137tbemL9 [92]: #ref-gvyja7v1 [94]: #ref-1A97a4UwU [95]: #ref-17EdosXzD [96]: #ref-1pWYlPj4 [<del><code>swh:1:dir:da789e842d0af90f0fa50de522f0c4caae95e4e3</code></del>]: https://archive.softwareheritage.org/swh:1:dir:da789e842d0af90f0fa50de522f0c4caae95e4e3;origin=https://github.com/greenelab/meta-review/ [GitLab mirror]: https://gitlab.com/manubot/manubot [<del><code>swh:1:dir:506058af283d6d311a92d03b02adb9dca9f139de</code></del>]: https://archive.softwareheritage.org/swh:1:dir:506058af283d6d311a92d03b02adb9dca9f139de;origin=https://github.com/manubot/manubot.git/ [7]: https://gitlab.com/manubot/rootstock [<del><code>swh:1:dir:4e689f4e2f4b272b8672142f4c81abd3e77392f9</code></del>]: https://archive.softwareheritage.org/swh:1:dir:4e689f4e2f4b272b8672142f4c81abd3e77392f9;origin=https://github.com/manubot/rootstock.git/ [97]: #ref-LaBVNb71 [8]: https://github.com/manubot/try-manubot/pull/2 [10.1515/9781400839452]: https://doi.org/10.1515/9781400839452 [10.17226/25116]: https://doi.org/10.17226/25116 [10.1093/bib/bbv021]: https://doi.org/10.1093/bib/bbv021 [10.1098/rsif.2017.0387]: https://doi.org/10.1098/rsif.2017.0387 [10.1038/514127a]: https://doi.org/10.1038/514127a [10.1371/journal.pcbi.1004668]: https://doi.org/10.1371/journal.pcbi.1004668 [10.1371/journal.pcbi.1004947]: https://doi.org/10.1371/journal.pcbi.1004947 [10.1101/142760]: https://doi.org/10.1101/142760 [10.25080/majora-4af1f417-011]: https://doi.org/10.25080/majora-4af1f417-011 [10.7717/peerj-cs.112]: https://doi.org/10.7717/peerj-cs.112 [10.1007/978-3-319-00026-8_8]: https://doi.org/10.1007/978-3-319-00026-8_8 [10.1080/02763869.2012.641841]: https://doi.org/10.1080/02763869.2012.641841 [10.1016/j.tig.2015.03.006]: https://doi.org/10.1016/j.tig.2015.03.006 [10.7554/elife.38532]: https://doi.org/10.7554/elife.38532 [10.6087/kcse.2014.1.99]: https://doi.org/10.6087/kcse.2014.1.99 [10.1080/00987913.2012.10765464]: https://doi.org/10.1080/00987913.2012.10765464 [10.1038/d41586-018-01322-9]: https://doi.org/10.1038/d41586-018-01322-9 [10.1109/tvcg.2016.2599030]: https://doi.org/10.1109/tvcg.2016.2599030 [10.1038/550143a]: https://doi.org/10.1038/550143a [10.1038/nbt.3780]: https://doi.org/10.1038/nbt.3780 [10.1101/344804]: https://doi.org/10.1101/344804 [10.7554/elife.16931]: https://doi.org/10.7554/elife.16931 [10.1038/d41586-019-00447-9]: https://doi.org/10.1038/d41586-019-00447-9 [10.7554/elife.32822]: https://doi.org/10.7554/elife.32822 [10.1038/d41586-017-08493-x]: https://doi.org/10.1038/d41586-017-08493-x [10.1101/474403]: https://doi.org/10.1101/474403 [10.1128/msphere.00340-19]: https://doi.org/10.1128/msphere.00340-19 [10.1093/bioinformatics/btz470]: https://doi.org/10.1093/bioinformatics/btz470 [10.1101/654566]: https://doi.org/10.1101/654566 [10.6084/m9.figshare77]: https://doi.org/10.6084/m9.figshare77 [10.7554/elife.26726]: https://doi.org/10.7554/elife.26726 [10.1038/s41587-019-0140-0]: https://doi.org/10.1038/s41587-019-0140-0 [10.7717/peerj-cs.147]: https://doi.org/10.7717/peerj-cs.147 [10.1371/journal.pone.0023477]: https://doi.org/10.1371/journal.pone.0023477 [10.1371/journal.pmed.1000023]: https://doi.org/10.1371/journal.pmed.1000023 [10.1371/journal.pcbi.1006508]: https://doi.org/10.1371/journal.pcbi.1006508 [10.1103/physrevlett.114.191803]: https://doi.org/10.1103/physrevlett.114.191803 [10.1534/g3.114.015966]: https://doi.org/10.1534/g3.114.015966 [10.1038/521263f]: https://doi.org/10.1038/521263f [10.1038/nature.2015.17567]: https://doi.org/10.1038/nature.2015.17567 [10.1371/journal.pcbi.1003149]: https://doi.org/10.1371/journal.pcbi.1003149 [10.1371/journal.pmed.1001772]: https://doi.org/10.1371/journal.pmed.1001772 [10.3389/fncom.2012.00063]: https://doi.org/10.3389/fncom.2012.00063 [10.1629/uksg.245]: https://doi.org/10.1629/uksg.245 [10.12688/f1000research.12037.2]: https://doi.org/10.12688/f1000research.12037.2 [10.1126/science.aat0471]: https://doi.org/10.1126/science.aat0471 [10.1038/s41562-018-0311-x]: https://doi.org/10.1038/s41562-018-0311-x [10.33011/livecoms.1.1.2031]: https://doi.org/10.33011/livecoms.1.1.2031 [10.22541/au.148769949.92783646]: https://doi.org/10.22541/au.148769949.92783646 [10.22541/au.149693987.70506124]: https://doi.org/10.22541/au.149693987.70506124 [10.1201/9781315204963]: https://doi.org/10.1201/9781315204963 [10.12688/f1000research.16516.1]: https://doi.org/10.12688/f1000research.16516.1 [10.1007/978-3-319-00026-8]: https://doi.org/10.1007/978-3-319-00026-8 [10.23915/distill.00010]: https://doi.org/10.23915/distill.00010 [10.7717/peerj-cs.142]: https://doi.org/10.7717/peerj-cs.142 [10.23915/distill.00013]: https://doi.org/10.23915/distill.00013 [10.7717/peerj-cs.134]: https://doi.org/10.7717/peerj-cs.134 [10.1109/hicss.2007.277]: https://doi.org/10.1109/hicss.2007.277 [10.1109/saner.2017.7884606]: https://doi.org/10.1109/saner.2017.7884606 [10.12688/f1000research.8460.3]: https://doi.org/10.12688/f1000research.8460.3 [10.7554/elife.16800]: https://doi.org/10.7554/elife.16800 [10.1109/mcse.2009.19]: https://doi.org/10.1109/mcse.2009.19 [10.1038/536016a]: https://doi.org/10.1038/536016a [10.1126/science.aah6168]: https://doi.org/10.1126/science.aah6168 [10.1038/nature10836]: https://doi.org/10.1038/nature10836 [10.1371/journal.pbio.1001195]: https://doi.org/10.1371/journal.pbio.1001195 [10.1242/dmm.003285]: https://doi.org/10.1242/dmm.003285 [10.3897/rio.1.e7547]: https://doi.org/10.3897/rio.1.e7547 [10.6084/m9.figshare.7946192.v2]: https://doi.org/10.6084/m9.figshare.7946192.v2</p>
+</article>
+</body>
+</html>
