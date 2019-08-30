@@ -1,5 +1,5 @@
 {
-  "date": "July 9, 2019",
+  "date": "August 30, 2019",
   "authors": [
     {
       "github": "dhimmel",
@@ -51,10 +51,10 @@
           "Visualization": true
         },
         {
-          "Writing \u2013 original draft": true
+          "Writing – original draft": true
         },
         {
-          "Writing \u2013 review & editing": true
+          "Writing – review & editing": true
         }
       ],
       "affiliation_numbers": [
@@ -110,10 +110,10 @@
           "Visualization": true
         },
         {
-          "Writing \u2013 original draft": true
+          "Writing – original draft": true
         },
         {
-          "Writing \u2013 review & editing": true
+          "Writing – review & editing": true
         }
       ],
       "affiliation_numbers": [
@@ -168,10 +168,10 @@
           "Visualization": true
         },
         {
-          "Writing \u2013 original draft": true
+          "Writing – original draft": true
         },
         {
-          "Writing \u2013 review & editing": true
+          "Writing – review & editing": true
         }
       ],
       "affiliation_numbers": [
@@ -227,10 +227,10 @@
           "Visualization": false
         },
         {
-          "Writing \u2013 original draft": false
+          "Writing – original draft": false
         },
         {
-          "Writing \u2013 review & editing": false
+          "Writing – review & editing": false
         }
       ],
       "affiliation_numbers": [
@@ -287,10 +287,10 @@
           "Visualization": false
         },
         {
-          "Writing \u2013 original draft": false
+          "Writing – original draft": false
         },
         {
-          "Writing \u2013 review & editing": true
+          "Writing – review & editing": true
         }
       ],
       "affiliation_numbers": [
@@ -347,10 +347,10 @@
           "Visualization": true
         },
         {
-          "Writing \u2013 original draft": true
+          "Writing – original draft": true
         },
         {
-          "Writing \u2013 review & editing": true
+          "Writing – review & editing": true
         }
       ],
       "affiliation_numbers": [
@@ -407,10 +407,10 @@
           "Visualization": true
         },
         {
-          "Writing \u2013 original draft": true
+          "Writing – original draft": true
         },
         {
-          "Writing \u2013 review & editing": true
+          "Writing – review & editing": true
         }
       ],
       "affiliation_numbers": [
@@ -446,10 +446,15 @@
     }
   ],
   "ci_source": {
+    "provider": "travis",
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "a40761732af9a3553407d4de4ef31ec6aac26eaf"
+    "commit": "b90923a99208c9152cec7929399ab1b7929cb7e2",
+    "triggering_commit": "b90923a99208c9152cec7929399ab1b7929cb7e2",
+    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/578917188",
+    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/578917189",
+    "manuscript_url": "https://greenelab.github.io/meta-review/v/b90923a99208c9152cec7929399ab1b7929cb7e2/"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -477,6 +482,6 @@
       "wikidata": 1,
       "total": 97
     },
-    "word_count": 7983
+    "word_count": 7987
   }
 }
