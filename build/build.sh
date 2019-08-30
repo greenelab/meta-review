@@ -21,7 +21,7 @@ manubot process \
   --log-level=INFO
 
 # pandoc settings
-CSL_PATH=https://github.com/citation-style-language/styles/raw/0f332db9384bfbe5f9028d82b2fb4b9570c1325b/dependent/plos-computational-biology.csl
+CSL_PATH=build/assets/style.csl
 BIBLIOGRAPHY_PATH=output/references.json
 INPUT_PATH=output/manuscript.md
 
