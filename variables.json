@@ -1,5 +1,5 @@
 {
-  "date": "August 30, 2019",
+  "date": "September 2, 2019",
   "authors": [
     {
       "github": "dhimmel",
@@ -450,11 +450,11 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "b90923a99208c9152cec7929399ab1b7929cb7e2",
-    "triggering_commit": "b90923a99208c9152cec7929399ab1b7929cb7e2",
-    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/578917188",
-    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/578917189",
-    "manuscript_url": "https://greenelab.github.io/meta-review/v/b90923a99208c9152cec7929399ab1b7929cb7e2/"
+    "commit": "a609248b04556b35aa6531dffadd116be13f0c7f",
+    "triggering_commit": "a609248b04556b35aa6531dffadd116be13f0c7f",
+    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/580006764",
+    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/580006765",
+    "manuscript_url": "https://greenelab.github.io/meta-review/v/a609248b04556b35aa6531dffadd116be13f0c7f/"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -482,6 +482,6 @@
       "wikidata": 1,
       "total": 97
     },
-    "word_count": 7987
+    "word_count": 8004
   }
 }

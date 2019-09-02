@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-08-30'
+date-meta: '2019-09-02'
 keywords:
 - manubot
 - deep review
@@ -29,19 +29,19 @@ title: Open collaborative writing with Manubot
 
 
 A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
+This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...a609248b04556b35aa6531dffadd116be13f0c7f) subsequent to the journal publication.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/b90923a99208c9152cec7929399ab1b7929cb7e2/))
+([permalink](https://greenelab.github.io/meta-review/v/a609248b04556b35aa6531dffadd116be13f0c7f/))
 was automatically generated
-from [greenelab/meta-review@b90923a](https://github.com/greenelab/meta-review/tree/b90923a99208c9152cec7929399ab1b7929cb7e2)
-on August 30, 2019.
+from [greenelab/meta-review@a609248](https://github.com/greenelab/meta-review/tree/a609248b04556b35aa6531dffadd116be13f0c7f)
+on September 2, 2019.
 </em></small>
 
 ## Authors
 
-<!-- commented out for https://github.com/greenelab/meta-review/issues/230
 
 
 + **Daniel S. Himmelstein** ^[✉](#correspondence)^<br>
@@ -126,8 +126,8 @@ on August 30, 2019.
 ✉ — correspondence preferred via [GitHub Issues](https://github.com/greenelab/meta-review/issues).
 Otherwise, address correspondence to <gitter@biostat.wisc.edu> and <daniel.himmelstein@gmail.com>.
 :::
--->
 
+<!--
 
 
 Daniel S. Himmelstein^1[*](#correspondence)^,
@@ -152,6 +152,7 @@ Anthony Gitter^5,6[*](#correspondence)^
 \* — correspondence preferred via [GitHub Issues](https://github.com/greenelab/meta-review/issues).
 Otherwise, address correspondence to <gitter@biostat.wisc.edu> and <daniel.himmelstein@gmail.com>.
 :::
+-->
 
 
 ## Abstract {.page_break_before}
@@ -173,9 +174,11 @@ Manubot modernizes publishing to align with the ideals of open science by making
 Traditionally, scholarly manuscripts have been written in private by a predefined team of collaborators.
 But now the internet enables realtime open science, where project communication occurs online in a public venue and anyone is able to contribute.
 Dispersed teams of online contributors require new tools to jointly prepare manuscripts.
+
 Existing tools fail to scale beyond tens of authors and struggle to support iterative refinement of proposed changes.
 Therefore, we created a system called Manubot for writing manuscripts based on collaborative version control.
 Manubot adopts the workflow from open source software development, which has enabled hundreds of contributors to simultaneously develop complex codebases such as Python and Linux, and applies it to open collaborative writing.
+
 Manubot also addresses other shortcomings of current publishing tools.
 Specifically, all changes to a manuscript are tracked, enabling transparency and better attribution of credit.
 Manubot automates many tasks, including creating the bibliography and deploying the manuscript as a webpage.
