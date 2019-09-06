@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-09-02'
+date-meta: '2019-09-06'
 keywords:
 - manubot
 - deep review
@@ -29,15 +29,15 @@ title: Open collaborative writing with Manubot
 
 
 A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
-This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...a609248b04556b35aa6531dffadd116be13f0c7f) subsequent to the journal publication.
+This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...52d0cb04dc65c387b87628fc052416a9c3cfe939) subsequent to the journal publication.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/a609248b04556b35aa6531dffadd116be13f0c7f/))
+([permalink](https://greenelab.github.io/meta-review/v/52d0cb04dc65c387b87628fc052416a9c3cfe939/))
 was automatically generated
-from [greenelab/meta-review@a609248](https://github.com/greenelab/meta-review/tree/a609248b04556b35aa6531dffadd116be13f0c7f)
-on September 2, 2019.
+from [greenelab/meta-review@52d0cb0](https://github.com/greenelab/meta-review/tree/52d0cb04dc65c387b87628fc052416a9c3cfe939)
+on September 6, 2019.
 </em></small>
 
 ## Authors
@@ -604,6 +604,7 @@ Because incentives to provide public peer review of existing literature [@uw5bep
 ### Additional collaborative writing projects
 
 The Deep Review was not the first scholarly manuscript written online via an open collaborative process.
+This type of manuscript is also known as a Massively Open Online Paper [@16H8Gdlkx].
 In 2013, two dozen mathematicians created the 600-page Homotopy Type Theory book, writing collaboratively in LaTeX on GitHub [@RExXs8is; @MhC1nPDK].
 Two technical books on cryptocurrency --- [Mastering Bitcoin](https://github.com/bitcoinbook/bitcoinbook) and [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) --- written on GitHub in AsciiDoc format have engaged hundreds of contributors.
 Both Homotopy Type Theory and Mastering Bitcoin continue to be maintained years after their initial publication.
