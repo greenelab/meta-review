@@ -1,5 +1,5 @@
 {
-  "date": "September 14, 2019",
+  "date": "September 16, 2019",
   "authors": [
     {
       "github": "dhimmel",
@@ -450,11 +450,11 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "85281e15fbc9de62a9d6229c5dd15d6af0165ffe",
-    "triggering_commit": "85281e15fbc9de62a9d6229c5dd15d6af0165ffe",
-    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/585001435",
-    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/585001436",
-    "manuscript_url": "https://greenelab.github.io/meta-review/v/85281e15fbc9de62a9d6229c5dd15d6af0165ffe/"
+    "commit": "213d599dff7f427e633de1ff0b2aa97965135f68",
+    "triggering_commit": "213d599dff7f427e633de1ff0b2aa97965135f68",
+    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/585694153",
+    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/585694154",
+    "manuscript_url": "https://greenelab.github.io/meta-review/v/213d599dff7f427e633de1ff0b2aa97965135f68/"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -473,15 +473,15 @@
   "manuscript_stats": {
     "reference_counts": {
       "arxiv": 3,
-      "doi": 67,
+      "doi": 68,
       "isbn": 1,
       "pmcid": 1,
       "pmid": 1,
       "raw": 1,
-      "url": 23,
+      "url": 24,
       "wikidata": 1,
-      "total": 98
+      "total": 100
     },
-    "word_count": 8018
+    "word_count": 8110
   }
 }

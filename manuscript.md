@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-09-14'
+date-meta: '2019-09-16'
 keywords:
 - manubot
 - deep review
@@ -29,15 +29,15 @@ title: Open collaborative writing with Manubot
 
 
 A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
-This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...85281e15fbc9de62a9d6229c5dd15d6af0165ffe) subsequent to the journal publication.
+This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...213d599dff7f427e633de1ff0b2aa97965135f68) subsequent to the journal publication.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/85281e15fbc9de62a9d6229c5dd15d6af0165ffe/))
+([permalink](https://greenelab.github.io/meta-review/v/213d599dff7f427e633de1ff0b2aa97965135f68/))
 was automatically generated
-from [greenelab/meta-review@85281e1](https://github.com/greenelab/meta-review/tree/85281e15fbc9de62a9d6229c5dd15d6af0165ffe)
-on September 14, 2019.
+from [greenelab/meta-review@213d599](https://github.com/greenelab/meta-review/tree/213d599dff7f427e633de1ff0b2aa97965135f68)
+on September 16, 2019.
 </em></small>
 
 ## Authors
@@ -232,7 +232,7 @@ Authorea allows authors to write in Markdown, a limited subset of LaTeX, or thei
 | Multi-participant conversation for changes | Yes | No^2^  | No^2^ | No^2^ | No^2^ | Yes |
 | Character-level provenance for text | Yes | Yes | No^3^ | Requires manual inspection of history | Not after changes are accepted | Yes |
 | Bibliography management | Yes | Yes | Yes | Yes | No, requires the Word desktop application | No |
-| Citation by identifier | Yes | Yes | No | No | No | No |
+| Citation-by-identifier | Yes | Yes | No | No | No | No |
 | Editing software | Any text editor | Web interface | Web interface | Web interface | Web interface | Any text editor |
 | Document format | Markdown | HTML | LaTeX | Proprietary | Proprietary | Markdown |
 | Templating | Yes | Yes | Yes | No | No | No |
@@ -353,7 +353,7 @@ Markdown treats a single line break between text as a space and requires two-or-
 For optimal tracking of Markdown files with Git, we recommend placing each sentence on its own line.
 This convention allows Git to display diffs on a per sentence basis, avoids unnecessary reflows associated with line wrapping, and supports easy rearrangement of sentences.
 
-### Citation by identifier
+### Citation-by-identifier
 
 Manubot includes an additional layer of citation processing, currently unique to the system.
 All citations point to a standard identifier, for which Manubot automatically retrieves bibliographic metadata such as the title, authors, and publication date.
@@ -622,7 +622,15 @@ Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@Bu8VxdWB; @WDvu1SAV; @ILhLpgTs].
 Pandoc Scholar [@17wKkS4DV] and Bookdown [@1BISa1RLr], which has been used for open writing [@1CblcIDkq], both enhance traditional Markdown to better support publishing.
-The [knitcitations](https://github.com/cboettig/knitcitations) package enables citation by DOI or URL in R Markdown documents.
+[Dokieli](https://dokie.li/) is a clientside editor for HTML articles, which aims for decentralization by adhering to web standards that allow articles and reader annotations to be stored by any participating server [@q41cceRt].
+[Texture](https://substance.io/texture/) is also browser-based editor, but uses JATS as the primary storage format.
+
+Several projects in addition to Manubot provide infrastructure for citation-by-identifier. 
+For example, the [knitcitations](https://github.com/cboettig/knitcitations) package enables citation by DOI or URL in R Markdown documents.
+Zotero has developed bibliographic metadata extractors, called [translators](https://github.com/zotero/translators/), for over 500 resources.
+[Citation.js](https://citation.js.org/) converts bibliographic references or identifiers in a variety of formats to CSL JSON [@1CNWD7ZF],
+and is used by [pwcite](http://wikicite.org/wcite/#filter-pwcite), a Pandoc filter that enables citing Wikidata IDs.
+
 Examples of continuous integration to automate manuscript generation include [gh-publisher](https://github.com/ewanmellor/gh-publisher) and [jekyll-travis](https://github.com/mfenner/jekyll-travis), which was used to produce a [continuously published webpage](http://book.openingscience.org/) for the Opening Science book [@nqeDrtsc; @ujrfOBM1].
 Binder [@Q20Bxdsr], Distill journal articles [@MHNCSD5I], Idyll [@1ESo5MNnB], and Stencila [@BWMf57EM; @KLKZcPlg] support manuscripts with interactive graphics and close integration with the underlying code.
 As an open source project, Manubot can be extended to adopt best practices from these other emerging platforms.
