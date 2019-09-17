@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-09-16'
+date-meta: '2019-09-17'
 keywords:
 - manubot
 - deep review
@@ -29,15 +29,15 @@ title: Open collaborative writing with Manubot
 
 
 A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
-This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...213d599dff7f427e633de1ff0b2aa97965135f68) subsequent to the journal publication.
+This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...51821359ee2872aacfa5fe9d8ce0b102c5d91396) subsequent to the journal publication.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/213d599dff7f427e633de1ff0b2aa97965135f68/))
+([permalink](https://greenelab.github.io/meta-review/v/51821359ee2872aacfa5fe9d8ce0b102c5d91396/))
 was automatically generated
-from [greenelab/meta-review@213d599](https://github.com/greenelab/meta-review/tree/213d599dff7f427e633de1ff0b2aa97965135f68)
-on September 16, 2019.
+from [greenelab/meta-review@5182135](https://github.com/greenelab/meta-review/tree/51821359ee2872aacfa5fe9d8ce0b102c5d91396)
+on September 17, 2019.
 </em></small>
 
 ## Authors
@@ -623,7 +623,7 @@ Manubot provides an ideal platform for perpetual reviews [@Xs2yPQcr; @H0XkaC8S].
 Concepts for the future of scholarly publishing extend beyond collaborative writing [@Bu8VxdWB; @WDvu1SAV; @ILhLpgTs].
 Pandoc Scholar [@17wKkS4DV] and Bookdown [@1BISa1RLr], which has been used for open writing [@1CblcIDkq], both enhance traditional Markdown to better support publishing.
 [Dokieli](https://dokie.li/) is a clientside editor for HTML articles, which aims for decentralization by adhering to web standards that allow articles and reader annotations to be stored by any participating server [@q41cceRt].
-[Texture](https://substance.io/texture/) is also browser-based editor, but uses JATS as the primary storage format.
+[Texture](https://substance.io/texture/) is also a browser-based editor, but uses JATS as the primary storage format.
 
 Several projects in addition to Manubot provide infrastructure for citation-by-identifier. 
 For example, the [knitcitations](https://github.com/cboettig/knitcitations) package enables citation by DOI or URL in R Markdown documents.
