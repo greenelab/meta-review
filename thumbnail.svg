@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5241"
-     inkscape:cx="492.3"
-     inkscape:cy="377.8"
+     inkscape:zoom="1.048"
+     inkscape:cx="411.8"
+     inkscape:cy="814.6"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -48,7 +48,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -129,14 +129,14 @@
        ry="0.1119"
        transform="matrix(0.8096,-0.587,0.7625,0.647,0,0)" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.0938px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 182.8,102.1 171.6,120.2 204.5,148.8 216,129.8 Z"
-       id="path1635"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2646px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 183.6,127.7 193.8,114.6 219.4,136.6 209.1,149.1 Z"
+       id="path887"
        inkscape:connector-curvature="0" />
     <path
        id="path1449"
-       d="M 238.4,74.1 231.1,86.75 C 230.4,88.03 229.2,88.67 228.3,88.24 L 209.5,77.18 C 208.7,76.76 208.6,75.38 209.5,73.99 L 216.8,61.34 C 219.8,56.24 224.9,53.58 228.1,55.39 L 238.2,61.34 C 241.5,63.15 241.5,68.78 238.4,74.1 Z M 203.1,85.05 160.9,157 158,180.2 C 157.6,183.4 160,184.7 162.7,182.9 L 182.7,168.9 224.8,97.59 C 225.5,96.31 225.5,94.83 224.7,94.41 L 205.9,83.46 C 205.1,83.03 203.9,83.67 203.1,85.05 Z M 177.8,144 C 176.7,143.5 176.7,141.8 177.7,140.3 L 202.4,97.9 C 203.3,96.42 204.8,95.67 205.7,96.1 206.5,96.74 206.6,98.33 205.7,99.92 L 181,142.2 C 180,143.8 178.7,144.6 177.8,144 Z M 172.2,162.2 180,158.3 180.4,164.7 169.6,172.1 164.4,169.1 166,156.9 172,153.8 Z"
+       d="M 239.9,104.7 232.2,114.2 C 231.6,115.2 230.1,115.4 229.5,114.9 L 212.2,100.8 C 211.5,100.4 211.4,99.09 212.4,98.07 L 220.1,88.12 C 223.3,84.17 228.3,82.94 231.1,85.18 L 240.3,92.96 C 243.4,95.43 243.1,100.7 239.9,104.7 Z M 205.7,106.5 161.7,160.3 157.7,180.1 C 157.2,182.8 159.5,184.6 161.9,183.5 L 181.8,175.6 225.8,122.2 C 226.2,121.1 226.5,119.9 225.7,119.4 L 208.5,105.6 C 207.8,104.9 206.6,105.4 205.7,106.5 Z M 178.6,152.5 C 177.3,152 177.7,150.6 178.7,149.4 L 204.4,117.5 C 205.3,116.4 206.8,116.1 207.7,116.8 208.4,117.3 208.2,118.9 207.3,120 L 181.4,151.7 C 180.6,152.9 179.3,153.3 178.6,152.5 Z M 172.3,167.5 179.8,165.8 179.7,171.4 169.3,175.7 164.4,171.8 166.6,161.4 172.7,159.9 Z"
        inkscape:connector-curvature="0"
-       style="fill:#ad1457;fill-opacity:1;stroke-width:0.1769" />
+       style="fill:#ad1457;fill-opacity:1;stroke-width:0.163" />
   </g>
 </svg>
