@@ -1,5 +1,5 @@
 {
-  "date": "September 17, 2019",
+  "date": "September 18, 2019",
   "authors": [
     {
       "github": "dhimmel",
@@ -450,11 +450,11 @@
     "repo_slug": "greenelab/meta-review",
     "repo_owner": "greenelab",
     "repo_name": "meta-review",
-    "commit": "51821359ee2872aacfa5fe9d8ce0b102c5d91396",
-    "triggering_commit": "51821359ee2872aacfa5fe9d8ce0b102c5d91396",
-    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/586034680",
-    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/586034681",
-    "manuscript_url": "https://greenelab.github.io/meta-review/v/51821359ee2872aacfa5fe9d8ce0b102c5d91396/"
+    "commit": "6527dd4951d3b7ae7dcb94e3397b9c88446c9479",
+    "triggering_commit": "6527dd4951d3b7ae7dcb94e3397b9c88446c9479",
+    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/586536034",
+    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/586536035",
+    "manuscript_url": "https://greenelab.github.io/meta-review/v/6527dd4951d3b7ae7dcb94e3397b9c88446c9479/"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",

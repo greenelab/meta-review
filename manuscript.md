@@ -7,7 +7,7 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-09-17'
+date-meta: '2019-09-18'
 keywords:
 - manubot
 - deep review
@@ -29,15 +29,15 @@ title: Open collaborative writing with Manubot
 
 
 A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
-This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...51821359ee2872aacfa5fe9d8ce0b102c5d91396) subsequent to the journal publication.
+This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...6527dd4951d3b7ae7dcb94e3397b9c88446c9479) subsequent to the journal publication.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/51821359ee2872aacfa5fe9d8ce0b102c5d91396/))
+([permalink](https://greenelab.github.io/meta-review/v/6527dd4951d3b7ae7dcb94e3397b9c88446c9479/))
 was automatically generated
-from [greenelab/meta-review@5182135](https://github.com/greenelab/meta-review/tree/51821359ee2872aacfa5fe9d8ce0b102c5d91396)
-on September 17, 2019.
+from [greenelab/meta-review@6527dd4](https://github.com/greenelab/meta-review/tree/6527dd4951d3b7ae7dcb94e3397b9c88446c9479)
+on September 18, 2019.
 </em></small>
 
 ## Authors
