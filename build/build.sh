@@ -21,7 +21,7 @@ manubot process \
   --log-level=INFO
 
 # pandoc settings
-CSL_PATH="https://github.com/citation-style-language/styles/raw/82df7b538c5471ab9806efadc0b2ecf131d24293/plos.csl"
+CSL_PATH="https://github.com/citation-style-language/styles/raw/dfe2507a7851304fc8d3c08e9a1824045a7d5f49/plos.csl"
 BIBLIOGRAPHY_PATH=output/references.json
 INPUT_PATH=output/manuscript.md
 
