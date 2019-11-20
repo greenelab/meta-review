@@ -1,460 +1,509 @@
 {
-  "date": "September 20, 2019",
-  "authors": [
-    {
-      "github": "dhimmel",
-      "name": "Daniel S. Himmelstein",
-      "initials": "DSH",
-      "orcid": "0000-0002-3012-7446",
-      "twitter": "dhimmel",
-      "email": "daniel.himmelstein@gmail.com",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
-      ],
-      "funders": "G-2018-11163 and GBMF4552",
-      "correspondence": true,
-      "roles": [
-        {
-          "Conceptualization": true
-        },
-        {
-          "Data curation": true
-        },
-        {
-          "Formal analysis": false
-        },
-        {
-          "Funding acquisition": true
-        },
-        {
-          "Investigation": true
-        },
-        {
-          "Methodology": true
-        },
-        {
-          "Project administration": true
-        },
-        {
-          "Resources": false
-        },
-        {
-          "Software": true
-        },
-        {
-          "Supervision": true
-        },
-        {
-          "Validation": true
-        },
-        {
-          "Visualization": true
-        },
-        {
-          "Writing – original draft": true
-        },
-        {
-          "Writing – review & editing": true
-        }
-      ],
-      "affiliation_numbers": [
-        1
-      ]
+  "pandoc": {
+    "title": "Open collaborative writing with Manubot",
+    "keywords": [
+      "manubot",
+      "deep review",
+      "publishing",
+      "open science",
+      "open access",
+      "collaboration",
+      "writing",
+      "github",
+      "git",
+      "continuous integration",
+      "markdown",
+      "pandoc"
+    ],
+    "lang": "en-US",
+    "date-meta": "2019-11-20",
+    "author-meta": [
+      "Daniel S. Himmelstein",
+      "Vincent Rubinetti",
+      "David R. Slochower",
+      "Dongbo Hu",
+      "Venkat S. Malladi",
+      "Casey S. Greene",
+      "Anthony Gitter"
+    ],
+    "header-includes": "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Open collaborative writing with Manubot\" />\n<meta name=\"citation_title\" content=\"Open collaborative writing with Manubot\" />\n<meta property=\"og:title\" content=\"Open collaborative writing with Manubot\" />\n<meta property=\"twitter:title\" content=\"Open collaborative writing with Manubot\" />\n<meta name=\"dc.date\" content=\"2019-11-20\" />\n<meta name=\"citation_publication_date\" content=\"2019-11-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Daniel S. Himmelstein\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-3012-7446\" />\n<meta name=\"twitter:creator\" content=\"@dhimmel\" />\n<meta name=\"citation_author\" content=\"Vincent Rubinetti\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4655-3773\" />\n<meta name=\"twitter:creator\" content=\"@vincerubinetti\" />\n<meta name=\"citation_author\" content=\"David R. Slochower\" />\n<meta name=\"citation_author_institution\" content=\"Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3928-5050\" />\n<meta name=\"twitter:creator\" content=\"@drslochower\" />\n<meta name=\"citation_author\" content=\"Dongbo Hu\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-2606-3969\" />\n<meta name=\"twitter:creator\" content=\"@dongbohu\" />\n<meta name=\"citation_author\" content=\"Venkat S. Malladi\" />\n<meta name=\"citation_author_institution\" content=\"Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-0144-0564\" />\n<meta name=\"twitter:creator\" content=\"@katatonikkat\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@GreeneScientist\" />\n<meta name=\"citation_author\" content=\"Anthony Gitter\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_institution\" content=\"Morgridge Institute for Research, Madison, Wisconsin, United States of America\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-5324-9833\" />\n<meta name=\"twitter:creator\" content=\"@anthonygitter\" />\n<link rel=\"canonical\" href=\"https://greenelab.github.io/meta-review/\" />\n<meta property=\"og:url\" content=\"https://greenelab.github.io/meta-review/\" />\n<meta property=\"twitter:url\" content=\"https://greenelab.github.io/meta-review/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://greenelab.github.io/meta-review/\" />\n<meta name=\"citation_pdf_url\" content=\"https://greenelab.github.io/meta-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://greenelab.github.io/meta-review/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<meta property=\"og:image\" content=\"https://github.com/greenelab/meta-review/raw/6afcab41acf01822f8af8760184cd3cb2d67ab5f/thumbnail.png\" />\n<meta property=\"twitter:image\" content=\"https://github.com/greenelab/meta-review/raw/6afcab41acf01822f8af8760184cd3cb2d67ab5f/thumbnail.png\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+  },
+  "manubot": {
+    "date": "November 20, 2019",
+    "authors": [
+      {
+        "github": "dhimmel",
+        "name": "Daniel S. Himmelstein",
+        "initials": "DSH",
+        "orcid": "0000-0002-3012-7446",
+        "twitter": "dhimmel",
+        "email": "daniel.himmelstein@gmail.com",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+        ],
+        "funders": "G-2018-11163 and GBMF4552",
+        "correspondence": true,
+        "roles": [
+          {
+            "Conceptualization": true
+          },
+          {
+            "Data curation": true
+          },
+          {
+            "Formal analysis": false
+          },
+          {
+            "Funding acquisition": true
+          },
+          {
+            "Investigation": true
+          },
+          {
+            "Methodology": true
+          },
+          {
+            "Project administration": true
+          },
+          {
+            "Resources": false
+          },
+          {
+            "Software": true
+          },
+          {
+            "Supervision": true
+          },
+          {
+            "Validation": true
+          },
+          {
+            "Visualization": true
+          },
+          {
+            "Writing – original draft": true
+          },
+          {
+            "Writing – review & editing": true
+          }
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "vincerubinetti",
+        "name": "Vincent Rubinetti",
+        "initials": "VR",
+        "orcid": "0000-0002-4655-3773",
+        "twitter": "vincerubinetti",
+        "email": "vince.rubinetti@gmail.com",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+        ],
+        "funders": "G-2018-11163 and GBMF4552",
+        "roles": [
+          {
+            "Conceptualization": true
+          },
+          {
+            "Data curation": false
+          },
+          {
+            "Formal analysis": false
+          },
+          {
+            "Funding acquisition": false
+          },
+          {
+            "Investigation": false
+          },
+          {
+            "Methodology": true
+          },
+          {
+            "Project administration": false
+          },
+          {
+            "Resources": false
+          },
+          {
+            "Software": true
+          },
+          {
+            "Supervision": false
+          },
+          {
+            "Validation": false
+          },
+          {
+            "Visualization": true
+          },
+          {
+            "Writing – original draft": true
+          },
+          {
+            "Writing – review & editing": true
+          }
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "slochower",
+        "name": "David R. Slochower",
+        "initials": "DRS",
+        "orcid": "0000-0003-3928-5050",
+        "twitter": "drslochower",
+        "email": "slochower@gmail.com",
+        "affiliations": [
+          "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America"
+        ],
+        "roles": [
+          {
+            "Conceptualization": true
+          },
+          {
+            "Data curation": false
+          },
+          {
+            "Formal analysis": false
+          },
+          {
+            "Funding acquisition": false
+          },
+          {
+            "Investigation": true
+          },
+          {
+            "Methodology": true
+          },
+          {
+            "Project administration": false
+          },
+          {
+            "Resources": false
+          },
+          {
+            "Software": true
+          },
+          {
+            "Supervision": false
+          },
+          {
+            "Validation": false
+          },
+          {
+            "Visualization": true
+          },
+          {
+            "Writing – original draft": true
+          },
+          {
+            "Writing – review & editing": true
+          }
+        ],
+        "affiliation_numbers": [
+          2
+        ]
+      },
+      {
+        "github": "dongbohu",
+        "name": "Dongbo Hu",
+        "initials": "DH",
+        "orcid": "0000-0003-2606-3969",
+        "twitter": "dongbohu",
+        "email": "dongbo.hu@gmail.com",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+        ],
+        "funders": "G-2018-11163 and GBMF4552",
+        "roles": [
+          {
+            "Conceptualization": false
+          },
+          {
+            "Data curation": false
+          },
+          {
+            "Formal analysis": false
+          },
+          {
+            "Funding acquisition": false
+          },
+          {
+            "Investigation": false
+          },
+          {
+            "Methodology": false
+          },
+          {
+            "Project administration": false
+          },
+          {
+            "Resources": false
+          },
+          {
+            "Software": true
+          },
+          {
+            "Supervision": false
+          },
+          {
+            "Validation": false
+          },
+          {
+            "Visualization": false
+          },
+          {
+            "Writing – original draft": false
+          },
+          {
+            "Writing – review & editing": false
+          }
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "vsmalladi",
+        "name": "Venkat S. Malladi",
+        "initials": "VSM",
+        "orcid": "0000-0002-0144-0564",
+        "twitter": "katatonikkat",
+        "email": "vsmalladi@gmail.com",
+        "affiliations": [
+          "Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
+          "Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America"
+        ],
+        "funders": "CPRIT RP150596",
+        "roles": [
+          {
+            "Conceptualization": false
+          },
+          {
+            "Data curation": false
+          },
+          {
+            "Formal analysis": false
+          },
+          {
+            "Funding acquisition": false
+          },
+          {
+            "Investigation": false
+          },
+          {
+            "Methodology": false
+          },
+          {
+            "Project administration": false
+          },
+          {
+            "Resources": false
+          },
+          {
+            "Software": true
+          },
+          {
+            "Supervision": false
+          },
+          {
+            "Validation": true
+          },
+          {
+            "Visualization": false
+          },
+          {
+            "Writing – original draft": false
+          },
+          {
+            "Writing – review & editing": true
+          }
+        ],
+        "affiliation_numbers": [
+          3,
+          4
+        ]
+      },
+      {
+        "github": "cgreene",
+        "name": "Casey S. Greene",
+        "initials": "CSG",
+        "orcid": "0000-0001-8713-9213",
+        "twitter": "GreeneScientist",
+        "email": "csgreene@upenn.edu",
+        "affiliations": [
+          "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
+        ],
+        "funders": "G-2018-11163 and GBMF4552",
+        "roles": [
+          {
+            "Conceptualization": true
+          },
+          {
+            "Data curation": false
+          },
+          {
+            "Formal analysis": false
+          },
+          {
+            "Funding acquisition": true
+          },
+          {
+            "Investigation": false
+          },
+          {
+            "Methodology": true
+          },
+          {
+            "Project administration": true
+          },
+          {
+            "Resources": true
+          },
+          {
+            "Software": false
+          },
+          {
+            "Supervision": true
+          },
+          {
+            "Validation": false
+          },
+          {
+            "Visualization": true
+          },
+          {
+            "Writing – original draft": true
+          },
+          {
+            "Writing – review & editing": true
+          }
+        ],
+        "affiliation_numbers": [
+          1
+        ]
+      },
+      {
+        "github": "agitter",
+        "name": "Anthony Gitter",
+        "initials": "AG",
+        "orcid": "0000-0002-5324-9833",
+        "twitter": "anthonygitter",
+        "email": "gitter@biostat.wisc.edu",
+        "affiliations": [
+          "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
+          "Morgridge Institute for Research, Madison, Wisconsin, United States of America"
+        ],
+        "correspondence": true,
+        "roles": [
+          {
+            "Conceptualization": true
+          },
+          {
+            "Data curation": true
+          },
+          {
+            "Formal analysis": false
+          },
+          {
+            "Funding acquisition": false
+          },
+          {
+            "Investigation": true
+          },
+          {
+            "Methodology": true
+          },
+          {
+            "Project administration": true
+          },
+          {
+            "Resources": false
+          },
+          {
+            "Software": true
+          },
+          {
+            "Supervision": true
+          },
+          {
+            "Validation": true
+          },
+          {
+            "Visualization": true
+          },
+          {
+            "Writing – original draft": true
+          },
+          {
+            "Writing – review & editing": true
+          }
+        ],
+        "affiliation_numbers": [
+          5,
+          6
+        ]
+      }
+    ],
+    "affiliations": [
+      {
+        "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America",
+        "affiliation_number": 1
+      },
+      {
+        "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America",
+        "affiliation_number": 2
+      },
+      {
+        "affiliation": "Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
+        "affiliation_number": 3
+      },
+      {
+        "affiliation": "Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
+        "affiliation_number": 4
+      },
+      {
+        "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
+        "affiliation_number": 5
+      },
+      {
+        "affiliation": "Morgridge Institute for Research, Madison, Wisconsin, United States of America",
+        "affiliation_number": 6
+      }
+    ],
+    "ci_source": {
+      "provider": "travis",
+      "repo_slug": "greenelab/meta-review",
+      "repo_owner": "greenelab",
+      "repo_name": "meta-review",
+      "commit": "6afcab41acf01822f8af8760184cd3cb2d67ab5f",
+      "triggering_commit": "6afcab41acf01822f8af8760184cd3cb2d67ab5f",
+      "build_url": "https://travis-ci.org/greenelab/meta-review/builds/614727358",
+      "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/614727359"
     },
-    {
-      "github": "vincerubinetti",
-      "name": "Vincent Rubinetti",
-      "initials": "VR",
-      "orcid": "0000-0002-4655-3773",
-      "twitter": "vincerubinetti",
-      "email": "vince.rubinetti@gmail.com",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
-      ],
-      "funders": "G-2018-11163 and GBMF4552",
-      "roles": [
-        {
-          "Conceptualization": true
-        },
-        {
-          "Data curation": false
-        },
-        {
-          "Formal analysis": false
-        },
-        {
-          "Funding acquisition": false
-        },
-        {
-          "Investigation": false
-        },
-        {
-          "Methodology": true
-        },
-        {
-          "Project administration": false
-        },
-        {
-          "Resources": false
-        },
-        {
-          "Software": true
-        },
-        {
-          "Supervision": false
-        },
-        {
-          "Validation": false
-        },
-        {
-          "Visualization": true
-        },
-        {
-          "Writing – original draft": true
-        },
-        {
-          "Writing – review & editing": true
-        }
-      ],
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "slochower",
-      "name": "David R. Slochower",
-      "initials": "DRS",
-      "orcid": "0000-0003-3928-5050",
-      "twitter": "drslochower",
-      "email": "slochower@gmail.com",
-      "affiliations": [
-        "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America"
-      ],
-      "roles": [
-        {
-          "Conceptualization": true
-        },
-        {
-          "Data curation": false
-        },
-        {
-          "Formal analysis": false
-        },
-        {
-          "Funding acquisition": false
-        },
-        {
-          "Investigation": true
-        },
-        {
-          "Methodology": true
-        },
-        {
-          "Project administration": false
-        },
-        {
-          "Resources": false
-        },
-        {
-          "Software": true
-        },
-        {
-          "Supervision": false
-        },
-        {
-          "Validation": false
-        },
-        {
-          "Visualization": true
-        },
-        {
-          "Writing – original draft": true
-        },
-        {
-          "Writing – review & editing": true
-        }
-      ],
-      "affiliation_numbers": [
-        2
-      ]
-    },
-    {
-      "github": "dongbohu",
-      "name": "Dongbo Hu",
-      "initials": "DH",
-      "orcid": "0000-0003-2606-3969",
-      "twitter": "dongbohu",
-      "email": "dongbo.hu@gmail.com",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
-      ],
-      "funders": "G-2018-11163 and GBMF4552",
-      "roles": [
-        {
-          "Conceptualization": false
-        },
-        {
-          "Data curation": false
-        },
-        {
-          "Formal analysis": false
-        },
-        {
-          "Funding acquisition": false
-        },
-        {
-          "Investigation": false
-        },
-        {
-          "Methodology": false
-        },
-        {
-          "Project administration": false
-        },
-        {
-          "Resources": false
-        },
-        {
-          "Software": true
-        },
-        {
-          "Supervision": false
-        },
-        {
-          "Validation": false
-        },
-        {
-          "Visualization": false
-        },
-        {
-          "Writing – original draft": false
-        },
-        {
-          "Writing – review & editing": false
-        }
-      ],
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "vsmalladi",
-      "name": "Venkat S. Malladi",
-      "initials": "VSM",
-      "orcid": "0000-0002-0144-0564",
-      "twitter": "katatonikkat",
-      "email": "vsmalladi@gmail.com",
-      "affiliations": [
-        "Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
-        "Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America"
-      ],
-      "funders": "CPRIT RP150596",
-      "roles": [
-        {
-          "Conceptualization": false
-        },
-        {
-          "Data curation": false
-        },
-        {
-          "Formal analysis": false
-        },
-        {
-          "Funding acquisition": false
-        },
-        {
-          "Investigation": false
-        },
-        {
-          "Methodology": false
-        },
-        {
-          "Project administration": false
-        },
-        {
-          "Resources": false
-        },
-        {
-          "Software": true
-        },
-        {
-          "Supervision": false
-        },
-        {
-          "Validation": true
-        },
-        {
-          "Visualization": false
-        },
-        {
-          "Writing – original draft": false
-        },
-        {
-          "Writing – review & editing": true
-        }
-      ],
-      "affiliation_numbers": [
-        3,
-        4
-      ]
-    },
-    {
-      "github": "cgreene",
-      "name": "Casey S. Greene",
-      "initials": "CSG",
-      "orcid": "0000-0001-8713-9213",
-      "twitter": "GreeneScientist",
-      "email": "csgreene@upenn.edu",
-      "affiliations": [
-        "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America"
-      ],
-      "funders": "G-2018-11163 and GBMF4552",
-      "roles": [
-        {
-          "Conceptualization": true
-        },
-        {
-          "Data curation": false
-        },
-        {
-          "Formal analysis": false
-        },
-        {
-          "Funding acquisition": true
-        },
-        {
-          "Investigation": false
-        },
-        {
-          "Methodology": true
-        },
-        {
-          "Project administration": true
-        },
-        {
-          "Resources": true
-        },
-        {
-          "Software": false
-        },
-        {
-          "Supervision": true
-        },
-        {
-          "Validation": false
-        },
-        {
-          "Visualization": true
-        },
-        {
-          "Writing – original draft": true
-        },
-        {
-          "Writing – review & editing": true
-        }
-      ],
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "agitter",
-      "name": "Anthony Gitter",
-      "initials": "AG",
-      "orcid": "0000-0002-5324-9833",
-      "twitter": "anthonygitter",
-      "email": "gitter@biostat.wisc.edu",
-      "affiliations": [
-        "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
-        "Morgridge Institute for Research, Madison, Wisconsin, United States of America"
-      ],
-      "correspondence": true,
-      "roles": [
-        {
-          "Conceptualization": true
-        },
-        {
-          "Data curation": true
-        },
-        {
-          "Formal analysis": false
-        },
-        {
-          "Funding acquisition": false
-        },
-        {
-          "Investigation": true
-        },
-        {
-          "Methodology": true
-        },
-        {
-          "Project administration": true
-        },
-        {
-          "Resources": false
-        },
-        {
-          "Software": true
-        },
-        {
-          "Supervision": true
-        },
-        {
-          "Validation": true
-        },
-        {
-          "Visualization": true
-        },
-        {
-          "Writing – original draft": true
-        },
-        {
-          "Writing – review & editing": true
-        }
-      ],
-      "affiliation_numbers": [
-        5,
-        6
-      ]
+    "html_url": "https://greenelab.github.io/meta-review/",
+    "pdf_url": "https://greenelab.github.io/meta-review/manuscript.pdf",
+    "html_url_versioned": "https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/",
+    "pdf_url_versioned": "https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/manuscript.pdf",
+    "thumbnail_url": "https://github.com/greenelab/meta-review/raw/6afcab41acf01822f8af8760184cd3cb2d67ab5f/thumbnail.png",
+    "manuscript_stats": {
+      "reference_counts": {
+        "arxiv": 3,
+        "doi": 68,
+        "isbn": 1,
+        "pmcid": 1,
+        "pmid": 1,
+        "raw": 1,
+        "url": 24,
+        "wikidata": 1,
+        "total": 100
+      },
+      "word_count": 8118
     }
-  ],
-  "affiliations": [
-    {
-      "affiliation": "Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America",
-      "affiliation_number": 1
-    },
-    {
-      "affiliation": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America",
-      "affiliation_number": 2
-    },
-    {
-      "affiliation": "Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
-      "affiliation_number": 3
-    },
-    {
-      "affiliation": "Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America",
-      "affiliation_number": 4
-    },
-    {
-      "affiliation": "Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America",
-      "affiliation_number": 5
-    },
-    {
-      "affiliation": "Morgridge Institute for Research, Madison, Wisconsin, United States of America",
-      "affiliation_number": 6
-    }
-  ],
-  "ci_source": {
-    "provider": "travis",
-    "repo_slug": "greenelab/meta-review",
-    "repo_owner": "greenelab",
-    "repo_name": "meta-review",
-    "commit": "6cfc575546d1e3d08dc54c0439437a0eae667b7f",
-    "triggering_commit": "6cfc575546d1e3d08dc54c0439437a0eae667b7f",
-    "build_url": "https://travis-ci.org/greenelab/meta-review/builds/587530917",
-    "job_url": "https://travis-ci.org/greenelab/meta-review/jobs/587530918",
-    "manuscript_url": "https://greenelab.github.io/meta-review/v/6cfc575546d1e3d08dc54c0439437a0eae667b7f/"
   },
   "creation_time_utc": "2019-03-06T15:41:48.892633",
   "creation_date_pretty": "March 06, 2019",
@@ -469,19 +518,5 @@
   "declined_pull_requests": 22,
   "open_pull_requests": 1,
   "open_issues": 389,
-  "closed_issues": 220,
-  "manuscript_stats": {
-    "reference_counts": {
-      "arxiv": 3,
-      "doi": 68,
-      "isbn": 1,
-      "pmcid": 1,
-      "pmid": 1,
-      "raw": 1,
-      "url": 24,
-      "wikidata": 1,
-      "total": 100
-    },
-    "word_count": 8111
-  }
+  "closed_issues": 220
 }

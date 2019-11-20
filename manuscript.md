@@ -7,7 +7,134 @@ author-meta:
 - Venkat S. Malladi
 - Casey S. Greene
 - Anthony Gitter
-date-meta: '2019-09-20'
+date-meta: '2019-11-20'
+header-includes: '<!--
+
+  Manubot generated metadata rendered from header-includes-template.html.
+
+  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
+
+  -->
+
+  <meta name="dc.format" content="text/html" />
+
+  <meta name="dc.title" content="Open collaborative writing with Manubot" />
+
+  <meta name="citation_title" content="Open collaborative writing with Manubot" />
+
+  <meta property="og:title" content="Open collaborative writing with Manubot" />
+
+  <meta property="twitter:title" content="Open collaborative writing with Manubot" />
+
+  <meta name="dc.date" content="2019-11-20" />
+
+  <meta name="citation_publication_date" content="2019-11-20" />
+
+  <meta name="dc.language" content="en-US" />
+
+  <meta name="citation_language" content="en-US" />
+
+  <meta name="dc.relation.ispartof" content="Manubot" />
+
+  <meta name="dc.publisher" content="Manubot" />
+
+  <meta name="citation_journal_title" content="Manubot" />
+
+  <meta name="citation_technical_report_institution" content="Manubot" />
+
+  <meta name="citation_author" content="Daniel S. Himmelstein" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-3012-7446" />
+
+  <meta name="twitter:creator" content="@dhimmel" />
+
+  <meta name="citation_author" content="Vincent Rubinetti" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-4655-3773" />
+
+  <meta name="twitter:creator" content="@vincerubinetti" />
+
+  <meta name="citation_author" content="David R. Slochower" />
+
+  <meta name="citation_author_institution" content="Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California, San Diego, San Diego, California, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0003-3928-5050" />
+
+  <meta name="twitter:creator" content="@drslochower" />
+
+  <meta name="citation_author" content="Dongbo Hu" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0003-2606-3969" />
+
+  <meta name="twitter:creator" content="@dongbohu" />
+
+  <meta name="citation_author" content="Venkat S. Malladi" />
+
+  <meta name="citation_author_institution" content="Department of Bioinformatics, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America" />
+
+  <meta name="citation_author_institution" content="Bioinformatics Core Facility, University of Texas Southwestern Medical Center, Dallas, Texas, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-0144-0564" />
+
+  <meta name="twitter:creator" content="@katatonikkat" />
+
+  <meta name="citation_author" content="Casey S. Greene" />
+
+  <meta name="citation_author_institution" content="Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania, Philadelphia, Pennsylvania, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0001-8713-9213" />
+
+  <meta name="twitter:creator" content="@GreeneScientist" />
+
+  <meta name="citation_author" content="Anthony Gitter" />
+
+  <meta name="citation_author_institution" content="Department of Biostatistics and Medical Informatics, University of Wisconsin-Madison, Madison, Wisconsin, United States of America" />
+
+  <meta name="citation_author_institution" content="Morgridge Institute for Research, Madison, Wisconsin, United States of America" />
+
+  <meta name="citation_author_orcid" content="0000-0002-5324-9833" />
+
+  <meta name="twitter:creator" content="@anthonygitter" />
+
+  <link rel="canonical" href="https://greenelab.github.io/meta-review/" />
+
+  <meta property="og:url" content="https://greenelab.github.io/meta-review/" />
+
+  <meta property="twitter:url" content="https://greenelab.github.io/meta-review/" />
+
+  <meta name="citation_fulltext_html_url" content="https://greenelab.github.io/meta-review/" />
+
+  <meta name="citation_pdf_url" content="https://greenelab.github.io/meta-review/manuscript.pdf" />
+
+  <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/meta-review/manuscript.pdf" />
+
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/" />
+
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/" />
+
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/manuscript.pdf" />
+
+  <meta property="og:type" content="article" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+
+  <meta property="og:image" content="https://github.com/greenelab/meta-review/raw/6afcab41acf01822f8af8760184cd3cb2d67ab5f/thumbnail.png" />
+
+  <meta property="twitter:image" content="https://github.com/greenelab/meta-review/raw/6afcab41acf01822f8af8760184cd3cb2d67ab5f/thumbnail.png" />
+
+  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
+
+  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
+
+  <meta name="theme-color" content="#ad1457" />
+
+  <!-- end Manubot generated metadata -->'
 keywords:
 - manubot
 - deep review
@@ -29,15 +156,15 @@ title: Open collaborative writing with Manubot
 
 
 A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
-This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...6cfc575546d1e3d08dc54c0439437a0eae667b7f) subsequent to the journal publication.
+This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...6afcab41acf01822f8af8760184cd3cb2d67ab5f) subsequent to the journal publication.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/6cfc575546d1e3d08dc54c0439437a0eae667b7f/))
+([permalink](https://greenelab.github.io/meta-review/v/6afcab41acf01822f8af8760184cd3cb2d67ab5f/))
 was automatically generated
-from [greenelab/meta-review@6cfc575](https://github.com/greenelab/meta-review/tree/6cfc575546d1e3d08dc54c0439437a0eae667b7f)
-on September 20, 2019.
+from [greenelab/meta-review@6afcab4](https://github.com/greenelab/meta-review/tree/6afcab41acf01822f8af8760184cd3cb2d67ab5f)
+on November 20, 2019.
 </em></small>
 
 ## Authors
