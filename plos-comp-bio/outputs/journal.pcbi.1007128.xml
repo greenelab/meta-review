@@ -204,7 +204,7 @@
 <award-group id="award001">
 <funding-source>
 <institution-wrap>
-<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000879</institution-id>
+<institution-id institution-id-type="funder-id">https://doi.org/10.13039/100000879</institution-id>
 <institution>Alfred P. Sloan Foundation</institution>
 </institution-wrap>
 </funding-source>
@@ -220,7 +220,7 @@
 <award-group id="award002">
 <funding-source>
 <institution-wrap>
-<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000936</institution-id>
+<institution-id institution-id-type="funder-id">https://doi.org/10.13039/100000936</institution-id>
 <institution>Gordon and Betty Moore Foundation</institution>
 </institution-wrap>
 </funding-source>
@@ -236,7 +236,7 @@
 <award-group id="award003">
 <funding-source>
 <institution-wrap>
-<institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100004917</institution-id>
+<institution-id institution-id-type="funder-id">https://doi.org/10.13039/100004917</institution-id>
 <institution>Cancer Prevention and Research Institute of Texas</institution>
 </institution-wrap>
 </funding-source>
