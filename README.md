@@ -1,15 +1,14 @@
 # Output directory containing the formatted manuscript
 
-The [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branch hosts the contents of this directory at https://greenelab.github.io/meta-review/.
-The permalink for this webpage version is https://greenelab.github.io/meta-review/v/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f/.
-To redirect to the permalink for the latest manuscript version at anytime, use the link https://greenelab.github.io/meta-review/v/freeze/.
+The [`gh-pages`](https://github.com/greenelab/meta-review/tree/gh-pages) branch hosts the contents of this directory at <https://greenelab.github.io/meta-review/>.
+The permalink for this webpage version is <https://greenelab.github.io/meta-review/v/2482af490804891c7f00b248c4e7ef7f356a0730/>.
+To redirect to the permalink for the latest manuscript version at anytime, use the link <https://greenelab.github.io/meta-review/v/freeze/>.
 
 ## Files
 
 This directory contains the following files, which are mostly ignored on the `master` branch:
 
 + [`index.html`](index.html) is an HTML manuscript.
-+ [`github-pandoc.css`](github-pandoc.css) sets the display style for `index.html`.
 + [`manuscript.pdf`](manuscript.pdf) is a PDF manuscript.
 
 The `v` directory contains directories for each manuscript version.
@@ -25,7 +24,7 @@ Therefore, `.ots` files are initially incomplete and should be upgraded at a lat
 The `manubot webpage` call during continuous deployment identifies files matched by `webpage/v/**/*.ots` and attempts to upgrade them.
 You can also manually upgrade timestamps, by running the following in the `gh-pages` branch:
 
-```sh
+```shell
 ots upgrade v/*/*.ots
 rm v/*/*.ots.bak
 git add v/*/*.ots
@@ -36,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`aa78ba9cbb2d874789cbfc9462dfb9aad19f655f`](https://github.com/greenelab/meta-review/commit/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f).
+[`2482af490804891c7f00b248c4e7ef7f356a0730`](https://github.com/greenelab/meta-review/commit/2482af490804891c7f00b248c4e7ef7f356a0730).
