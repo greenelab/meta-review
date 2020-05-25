@@ -10,7 +10,7 @@ author-meta:
 bibliography:
 - content/manual-references-2019-06-11.json
 - content/manual-references.json
-date-meta: '2020-01-14'
+date-meta: '2020-05-25'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -29,9 +29,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Open collaborative writing with Manubot" />
 
-  <meta name="dc.date" content="2020-01-14" />
+  <meta name="dc.date" content="2020-05-25" />
 
-  <meta name="citation_publication_date" content="2020-01-14" />
+  <meta name="citation_publication_date" content="2020-05-25" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -117,19 +117,19 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://greenelab.github.io/meta-review/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://greenelab.github.io/meta-review/v/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f/" />
+  <link rel="alternate" type="text/html" href="https://greenelab.github.io/meta-review/v/2482af490804891c7f00b248c4e7ef7f356a0730/" />
 
-  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/meta-review/v/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f/" />
+  <meta name="manubot_html_url_versioned" content="https://greenelab.github.io/meta-review/v/2482af490804891c7f00b248c4e7ef7f356a0730/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/meta-review/v/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://greenelab.github.io/meta-review/v/2482af490804891c7f00b248c4e7ef7f356a0730/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
   <meta property="twitter:card" content="summary_large_image" />
 
-  <meta property="og:image" content="https://github.com/greenelab/meta-review/raw/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f/thumbnail.png" />
+  <meta property="og:image" content="https://github.com/greenelab/meta-review/raw/2482af490804891c7f00b248c4e7ef7f356a0730/thumbnail.png" />
 
-  <meta property="twitter:image" content="https://github.com/greenelab/meta-review/raw/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f/thumbnail.png" />
+  <meta property="twitter:image" content="https://github.com/greenelab/meta-review/raw/2482af490804891c7f00b248c4e7ef7f356a0730/thumbnail.png" />
 
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
 
@@ -163,15 +163,15 @@ title: Open collaborative writing with Manubot
 
 
 A DOI-citable version of this manuscript is available in _PLOS Computational Biology_ at <https://doi.org/10.1371/journal.pcbi.1007128>.
-This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...aa78ba9cbb2d874789cbfc9462dfb9aad19f655f) subsequent to the journal publication.
+This version of the manuscript [contains changes](https://github.com/greenelab/meta-review/compare/b90923a99208c9152cec7929399ab1b7929cb7e2...2482af490804891c7f00b248c4e7ef7f356a0730) subsequent to the journal publication.
 
 
 <small><em>
 This manuscript
-([permalink](https://greenelab.github.io/meta-review/v/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f/))
+([permalink](https://greenelab.github.io/meta-review/v/2482af490804891c7f00b248c4e7ef7f356a0730/))
 was automatically generated
-from [greenelab/meta-review@aa78ba9](https://github.com/greenelab/meta-review/tree/aa78ba9cbb2d874789cbfc9462dfb9aad19f655f)
-on January 14, 2020.
+from [greenelab/meta-review@2482af4](https://github.com/greenelab/meta-review/tree/2482af490804891c7f00b248c4e7ef7f356a0730)
+on May 25, 2020.
 </em></small>
 
 ## Authors
@@ -872,5 +872,3 @@ The funders had no role in study design, data collection and analysis, decision 
 
 <!-- Explicitly insert bibliography here -->
 <div id="refs"></div>
-
-
