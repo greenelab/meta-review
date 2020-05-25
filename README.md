@@ -5,7 +5,6 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://greenelab.github.io/meta-review/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://greenelab.github.io/meta-review/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/greenelab/meta-review/workflows/Manubot/badge.svg)](https://github.com/greenelab/meta-review/actions)
-[![Build Status](https://travis-ci.org/greenelab/meta-review.svg?branch=master)](https://travis-ci.org/greenelab/meta-review)
 
 ## Manuscript description
 
